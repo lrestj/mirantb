@@ -27,7 +27,7 @@
                       environment.systemPackages = [
                         inputs.waybar.packages.${pkgs.system}.waybar
                       ];
-		  })
+                  })
               ];
           };
           probook = nixpkgs.lib.nixosSystem {
@@ -40,7 +40,7 @@
                       environment.systemPackages = [
                         inputs.waybar.packages.${pkgs.system}.waybar
                       ];
-		  })
+                  })
               ];
           };
       };
