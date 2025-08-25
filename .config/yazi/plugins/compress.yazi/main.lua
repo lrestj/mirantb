@@ -263,7 +263,7 @@ return {
             ya.input(
             {
                 title = "Create archive:",
-                pos= {"top-center", y = 3, w = 40}
+                position = {"top-center", y = 3, w = 40}
             }
         )
         if event ~= 1 then
@@ -360,7 +360,7 @@ return {
                 {
                     title = "Enter password:",
                     obscure = true,
-                    pos= {"top-center", y = 3, w = 40}
+                    position = {"top-center", y = 3, w = 40}
                 }
             )
             if event ~= 1 then
@@ -386,7 +386,7 @@ return {
                 ya.input(
                 {
                     title = string.format("Enter compression level (%s - %s)", archive_level_min, archive_level_max),
-                    pos= {"top-center", y = 3, w = 40}
+                    position = {"top-center", y = 3, w = 40}
                 }
             )
             if event ~= 1 then

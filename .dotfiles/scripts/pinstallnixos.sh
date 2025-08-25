@@ -12,11 +12,11 @@ tput setaf 166 bold; echo "Přesun konfigurace..."
 
 git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME checkout -f &&
 
-cp -fv /etc/nixos/hardware-configuration.nix /home/libor/.dotfiles/nixos/ && 
+cp -fv /etc/nixos/hardware-configuration.nix /home/libor/.dotfiles/nixos/hosts/probook/ && 
 
 tput setaf 166 bold; echo "Probíhá konfigurace systému..."
 
-sudo nixos-rebuild switch --flake /home/libor/.dotfiles/nixos/ &&
+sudo nixos-rebuild switch --flake /home/libor/.dotfiles/nixos#zbook &&
 
 tput setaf 166 bold; echo "Nyní lze smazat původní adresář nixos."
 
