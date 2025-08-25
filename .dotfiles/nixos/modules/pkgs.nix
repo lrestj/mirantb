@@ -29,7 +29,8 @@
             brave
             brightnessctl
             btop
-            clipse
+            cliphist
+            # clipse
             dconf-editor
             efibootmgr
             eog

@@ -5,3 +5,21 @@
 2025/05/05 13:18:21 logger.go:19: ERROR: failed to save new image: exit status 1
 2025/05/05 13:32:46 logger.go:19: ERROR: failed to kill process: exit status 1
 2025/05/05 13:47:38 logger.go:19: ERROR: failed to save new image: exit status 1
+2025/08/25 11:39:58 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:39:59 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:00 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:02 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:03 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:15 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:17 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:22 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:40:23 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:41:45 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:42:34 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:42:35 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:42:47 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:42:54 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:42:56 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:45:02 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:52:27 logger.go:19: ERROR: invalid character '<' looking for beginning of value
+2025/08/25 11:52:28 logger.go:19: ERROR: invalid character '<' looking for beginning of value
