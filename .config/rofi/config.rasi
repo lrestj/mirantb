@@ -3,11 +3,14 @@ configuration {
     font: "mono 13";
     modes: "drun,run,ssh";
     drun {
-        display-name: "Aplikace";}
+        display-name: "Aplikace";
+    }
     run  {
-        display-name: "Spustitelné";}
+        display-name: "Spustitelné";
+    }
     ssh {
-        display-name: "Ssh klient";}
+        display-name: "Ssh klient";
+    }
     timeout {
         action: "kb-cancel";
         delay:  0;
@@ -41,7 +44,7 @@ configuration {
 /*	disable-history: false;*/
 /*	ignored-prefixes: "";*/
 /*	sort: false;*/
-/*	sorting-method: "normal";*/
+    sorting-method: "fzf";
 /*	case-sensitive: false;*/
 /*	case-smart: false;*/
 /*	cycle: true;*/
