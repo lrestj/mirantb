@@ -30,7 +30,7 @@
             brightnessctl
             btop
             cliphist
-            # clipse
+            clipse
             dconf-editor
             efibootmgr
             eog
@@ -69,6 +69,7 @@
             nwg-look
             pamixer
             pavucontrol
+            pcmanfm
             pdfarranger
             rclone
             reaper  
