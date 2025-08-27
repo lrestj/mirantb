@@ -35,7 +35,7 @@
                   ./hosts/probook/configuration.nix
                   ({ pkgs, ... }: {
                       environment.systemPackages = [
-                        inputs.waybar.packages.${pkgs.system}.waybar
+                        # inputs.waybar.packages.${pkgs.system}.waybar
                       ];
                   })
               ];
