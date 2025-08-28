@@ -1,4 +1,4 @@
-{
+# {
 
   description = "My NixOS config flake";
 
@@ -7,10 +7,10 @@
       nixpkgs.url = "nixpkgs/nixos-unstable"; 
       nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
       hyprland.url = "github:hyprwm/Hyprland";
-      waybar = {
-          url = "github:alexays/waybar";
-          inputs.nixpkgs.follows = "nixpkgs";
-      };
+      # waybar = {
+      #     url = "github:alexays/waybar";
+      #     inputs.nixpkgs.follows = "nixpkgs";
+      # };
   };
 
 
@@ -33,8 +33,8 @@
               specialArgs = { inherit inputs; };
               modules = [
                   ./hosts/probook/configuration.nix
-                  ({ pkgs, ... }: {
-                      environment.systemPackages = [
+                  # ({ pkgs, ... }: {
+                      # environment.systemPackages = [
                         # inputs.waybar.packages.${pkgs.system}.waybar
                       ];
                   })
