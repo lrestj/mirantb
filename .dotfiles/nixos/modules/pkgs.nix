@@ -3,8 +3,8 @@
 {
 
   imports = [ 
-      ./joypixels.nix
       # ./overlay.nix
+      # ./overridevim.nix
   ]; 
   
   fonts.packages = with pkgs; [
