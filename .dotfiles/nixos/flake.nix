@@ -1,4 +1,4 @@
-# {
+{
 
   description = "My NixOS config flake";
 
@@ -21,11 +21,11 @@
               specialArgs = { inherit inputs; };
               modules = [
                   ./hosts/zbook/configuration.nix
-                  ({ pkgs, ... }: {
-                      environment.systemPackages = [
-                        inputs.waybar.packages.${pkgs.system}.waybar
-                      ];
-                  })
+                  # ({ pkgs, ... }: {
+                  #     environment.systemPackages = [
+                  #       inputs.waybar.packages.${pkgs.system}.waybar
+                  #     ];
+                  # })
               ];
           };
           probook = nixpkgs.lib.nixosSystem {
@@ -36,8 +36,8 @@
                   # ({ pkgs, ... }: {
                       # environment.systemPackages = [
                         # inputs.waybar.packages.${pkgs.system}.waybar
-                      ];
-                  })
+                      # ];
+                  # })
               ];
           };
       };
