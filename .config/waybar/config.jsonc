@@ -5,7 +5,7 @@
 [{
     //"layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 36, // Waybar height (to be removed for auto height)
+    // "height": 28, // Waybar height (to be removed for auto height)
     "margin-top": 1,
     "margin-left": 8,
     "margin-right": 8,
@@ -53,7 +53,7 @@
     "memory": {
         "format": "  Menu   {}% ",
         "on-click": "pkill rofi || rofi -show drun -show-icons",
-        "on-click-right": "wlogout -b 2 -T 10 -L 10 -R 1410 -B 525 -s -c 5 -r 5 -l ~/.config/wlogout/menu"
+        "on-click-right": "wlogout -b 2 -T 10 -L 10 -R 980 -B 525 -s -c 5 -r 5 -l ~/.config/wlogout/menu"
     },
 
     "cpu": {
@@ -101,7 +101,7 @@
    "custom/fm": {
         "format":"        ",
         "tooltip-format": "Soubory",
-        "on-click": "pkill pcmanfm || pcmanfm"
+        "on-click": "pkill thunar || thunar"
     },
 
    "custom/browser": {
@@ -215,7 +215,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "right", 
-    "height": 34,
+    //"height": 30,
     // "width": 1280,
     "spacing": 4,
     // Choose the order of the modules
@@ -223,7 +223,7 @@
     // Modules configuration
     "wlr/taskbar": {
         "format": "{icon}",
-        "icon-size": 35,
+        "icon-size": 30,
         "tooltip-format": "{title}",
         "on-click": "activate",
         "on-click-right": "close"
