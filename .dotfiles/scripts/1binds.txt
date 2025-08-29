@@ -1,8 +1,8 @@
 
 Spuštění aplikací:
-Nápověda   + N 
+Nápověda základní   + N 
 Ukaž datum a čas   + D 
-Rofi menu    
+Menu aplikací    
 Foot terminal   + A 
 Alacritty terminal  ALT + F12 
 Brave prohlížeč  CTRL SHIFT + B 
