@@ -6,7 +6,8 @@ line1="\n G  Gmail"
 line2="\n N  NixOS search"
 line3="\n P  Přehraj.to"
 line4="\n S  Sdílej.cz"
-hint="\n\n[kliknutím na mě zavři]"
+line5="\n T  Titulky.cz"
+line6="\n F  Nerd Fonts"
+hint="\n\n[  CapsLk zavřít ]"
 
-notify-send -t 35000 -i $icon "$title" "$line1 $line2 $line3 $line4 $hint"
-
+notify-send -t 25000 -i $icon "$title" "$line1 $line2 $line3 $line4 $line5 $line6 $hint"
