@@ -3,7 +3,7 @@ layer=overlay
 text-alignment=center
 background-color=#2e3440
 width=333
-height=600
+height=1030
 border-size=3
 border-color=#3307a2
 border-radius=15
@@ -43,6 +43,8 @@ width=440
 anchor=center
 default-timeout=1500
 
+[category=max]
+width=600
 
 [category=min]
-width=260
+width=660
