@@ -44,12 +44,12 @@ anchor=center
 default-timeout=1500
 
 [category=maxl]
-width=630
+width=620
 text-alignment=left
 anchor=top-left
 
 [category=max]
-width=630
+width=620
 text-alignment=left
 
 [category=min]
