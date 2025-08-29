@@ -7,13 +7,15 @@ touchpad_device_name="synps/2-synaptics-touchpad"
 #Function to disable touchpad
 disable_touchpad() {
   hyprctl keyword device[${touchpad_device_name}]:enabled false
-  echo "Touchpad zakázán"
+  notify-send -c center :w
+  á-i $HOME/.dotfiles/icons/touchpad.svg "Touchpad zakázán"
 }
 
 # Function to enable touchpad
 enable_touchpad() {
   hyprctl keyword device[${touchpad_device_name}]:enabled true
-  echo "Touchpad aktivní"
+  # echo "Touchpad aktivní"
+   notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg "Touchpad aktivní"
 }
 
 # Ask user
@@ -24,4 +26,3 @@ read -n1 -s -t8 -p "Aktivovat/zakázat touchpad [A,z] ???" input
    enable_touchpad
  fi
 
-sleep 1 
