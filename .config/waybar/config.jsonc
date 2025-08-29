@@ -16,9 +16,8 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        // "custom/menu",
-        "memory",
         "hyprland/submap",
+        "memory",
         "cpu",
         "temperature",
         "custom/scan",
@@ -49,7 +48,11 @@
         "show-special": true,
         "cursor": true
     },
-
+    "hyprland/submap": {
+        "format": "✌️ {}",
+        "max-length": 12,
+        "tooltip": false
+    },
     "custom/menu": {
         "format": "   Menu  ",
         "tooltip-format": "Aplikace",
