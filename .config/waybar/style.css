@@ -178,11 +178,12 @@ button:hover {
     background-size: contain;
 }
 #custom-text{
-    font-size: 18px;
+    font-size: 20px;
     background-image: url('/home/libor/.dotfiles/icons/notes.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 6;
 }
 
 #custom-fm{
