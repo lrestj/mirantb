@@ -1,49 +1,28 @@
- + N  Nápověda
- + D  Ukaž datum a čas
- + A  Foot terminal
-ALT + F12  Alacritty terminal
-CTRL SHIFT + B  Brave prohlížeč
-CTRL SHIFT + F  Soubory
-ctrl shift + y  Yazi správce souborů
-CTRL SHIFT + E  Vim editor
-CTRL SHIFT + S  Skener
-CTRL SHIFT + O  Připojit OneDrive
-CTRL SHIFT + D  Připojit Google Disk
-CTRL ALT + D  Odpojit OneDrive
-CTRL ALT + O  Odpojit Google Disk
-CTRL ALT + T  Touchpad On/Off
-CTRL SHIFT + G  Geany editor
-CTRL SHIFT + K  Kalkulačka
-CTRL SHIFT + W  Waypaper
-CTRL SHIFT + T  T-mux
-CTRL SHIFT + I  Web zkratky
 
- + Enter  Waybar horní panel On/Off
- ALT + Enter  Taskbar pravý panel On/Off
-   Rofi menu
- + Y  Menu 
- + X  Menu vypnutí 
- + C  Schránka
- + Delete  Odhlásit
- ALT + Delete  Restart
-CTRL ALT + Delete  Zamknout
- + Insert/PrtScr  Snímek aktivního okna
-ALT + Insert/PrtScr  Snímek výběru
-CTRL ALT + Insert/PrtScr  Snímek monitoru 
-ALT + TAB  Rozložení oken
- + F  Zvětšit okno
- ALT + Okno na celou ocrazovku
-ALT + Q  Vycentrovat plovoucí okno
-CTRL ALT + F Plovoucí On/Off
- ALT + S Minimalizovat okno
- + S Otevřít min. okno
- + H,J,K,L Fokus oken
- ALT + H,J,K,L  Pohyb oken
- + Myš L  Pohyb okna
- + Myš P  Změna velikosti okna
- + Q  Zavřít okno
-ALT + 1-6  Přepnout na plochu 1-6
- ALT + 1-6  Přesunout okno na plochu 1-6
-SHIFT + 1-6  Přesunout okno bez fokusu
-CTRL + TAB Rolovat mezi plochami
- + Myš kolecko  Rolovat mezi plochami
+Okna:
+Rozložení oken  ALT + TAB  
+Zvětšit okno   + F  
+Okno na celou ocrazovku   ALT + F   
+Vycentrovat plovoucí okno  ALT + Q  
+Plovoucí On/Off  CTRL ALT + F 
+Minimalizovat okno   ALT + S 
+Otevřít minim. okno   + S 
+Fokus oken   + H,J,K,L 
+Pohyb oken   ALT + H,J,K,L  
+Pohyb okna   + Myš L  
+Změna velikosti okna   + Myš P  
+Zavřít okno   + Q  
+
+Snímek obrazovky:
+Snímek aktivního okna   + Insert/PrtScr  
+Snímek výběru  ALT + Insert/PrtScr  
+Snímek monitoru   CTRL ALT + Insert/PrtScr  
+
+Plochy:
+Přepnout na plochu 1-6  ALT + 1-6  
+Přesunout okno na plochu 1-6   ALT + 1-6  
+Přesunout okno bez fokusu  SHIFT + 1-6  
+Rolovat mezi plochami  CTRL + TAB 
+Rolovat mezi plochami   + Myš kolecko  
+
+[ Kliknutím zde zavři ]

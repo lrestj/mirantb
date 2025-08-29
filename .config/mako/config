@@ -43,8 +43,14 @@ width=440
 anchor=center
 default-timeout=1500
 
+[category=maxl]
+width=630
+text-alignment=left
+anchor=top-left
+
 [category=max]
-width=600
+width=630
+text-alignment=left
 
 [category=min]
 width=660
