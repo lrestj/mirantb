@@ -11,6 +11,12 @@
     "keybind" : "o"
 }
 {
+    "label" : "suspend",
+    "action" : " sleep 1 && systemctl suspend",
+    "text" : "Uspat  ",
+    "keybind" : "u"
+}
+{
     "label" : "reboot",
     "action" : "systemctl reboot",
     "text" : "Restart  ",

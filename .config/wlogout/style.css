@@ -70,6 +70,10 @@ button:focus, button:active, button:hover {
     background-image: image(url("//home/libor/.dotfiles/icons/logout.png"));
 }
 
+#suspend {
+    background-image: image(url("/home/libor/.dotfiles/icons/suspend.png"));
+}
+
 #shutdown {
     background-image: image(url("/home/libor/.dotfiles/icons/power.png"));
 }
