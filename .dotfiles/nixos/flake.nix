@@ -5,7 +5,7 @@
   
   inputs = {
       nixpkgs.url = "nixpkgs/nixos-unstable"; 
-      nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
+      # nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
       hyprland.url = "github:hyprwm/Hyprland";
       # waybar = {
       #     url = "github:alexays/waybar";

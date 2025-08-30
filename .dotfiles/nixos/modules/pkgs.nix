@@ -85,7 +85,7 @@
             udiskie
             ueberzugpp
             unzip
-            # vim-full
+            vim-full
             vlc
             waybar
             waypaper
@@ -119,7 +119,7 @@
         ++
 
         (with pkgsStable; [
-            vim-full
+            # vim-full
         ]);
   
   programs = {
