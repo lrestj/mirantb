@@ -69,7 +69,6 @@
             nwg-look
             pamixer
             pavucontrol
-            pcmanfm
             pdfarranger
             rclone
             reaper  

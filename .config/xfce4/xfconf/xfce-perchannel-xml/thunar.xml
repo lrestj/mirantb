@@ -20,4 +20,5 @@
     <value type="string" value="file:///home/libor/Desktop"/>
     <value type="string" value="recent:///"/>
   </property>
+  <property name="misc-volume-management" type="bool" value="false"/>
 </channel>
