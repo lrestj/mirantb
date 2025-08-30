@@ -24,6 +24,7 @@
       cpu.intel.updateMicrocode = true;
       nvidia = {
           modesetting.enable = true;
+          powerManagement.enable =true;
           nvidiaSettings = true;
           package = config.boot.kernelPackages.nvidiaPackages.beta;
           open = false;
@@ -40,7 +41,6 @@
       graphics = {
           enable = true;
           extraPackages = with pkgs; [
-              nvidia-vaapi-driver
               intel-media-driver # For Broadwell (2014) or newer processors. LIBVA_DRIVER_NAME=iHD
               libvdpau-va-gl
           ];
