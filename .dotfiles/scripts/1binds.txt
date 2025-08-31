@@ -10,10 +10,6 @@ Soubory  CTRL SHIFT + F
 Yazi správce souborů  CTRL SHIFT + Y 
 Vim editor  CTRL SHIFT + E 
 Skener  CTRL SHIFT + S 
-Připojit OneDrive  CTRL SHIFT + O 
-Připojit Google Disk  CTRL SHIFT + D 
-Odpojit OneDrive  CTRL ALT + D 
-Odpojit Google Disk  CTRL ALT + O 
 Touchpad On/Off  CTRL ALT + T 
 Geany editor  CTRL SHIFT + G 
 Kalkulačka  CTRL SHIFT + K 
@@ -24,6 +20,7 @@ Waybar horní panel On/Off   + Enter
 Taskbar pravý panel On/Off   ALT + Enter 
 Menu    + Y 
 Schránka   + C 
+OneDrive a Google Disk   + M
 
 Vypnutí:
 Menu vypnutí   + X 
