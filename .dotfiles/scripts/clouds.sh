@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PO="󰏊 Přopojit OneDrive"
+PO="󰏊 Připojit OneDrive"
 OO="󰏊 Odpojit OneDrive"
-PG=" Přopojit Google Disk"
+PG=" Připojit Google Disk"
 OG=" Odpojit Google Disk"
 
 selected=$(echo "$PO
