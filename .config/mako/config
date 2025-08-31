@@ -38,6 +38,7 @@ default-timeout=0
 
 [category=help]
 width=440
+text-alignment=left
 
 [category=center]
 anchor=center
