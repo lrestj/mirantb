@@ -1,0 +1,20 @@
+
+Vimrc  V
+Yazi toml  Y
+Waybar conf  W
+
+Nixos:
+ config  C
+ flake  F
+ pkgs  P
+
+Hyprland
+  autoEnv  A
+  input  I
+  binds  B
+  winRules  R
+
+Reload
+  Hyprland  H
+  Mako  M
+
