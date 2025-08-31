@@ -52,6 +52,7 @@ on-button-left=exec makoctl dismiss --all && exec makoctl reload
 
 [category=max]
 width=620
+anchor=top-center
 text-alignment=left
 on-button-left=exec makoctl dismiss --all && exec makoctl reload
 
