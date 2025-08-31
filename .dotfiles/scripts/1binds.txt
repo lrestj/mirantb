@@ -26,7 +26,7 @@ Menu    + Y
 Schránka   + C 
 
 Vypnutí:
-Menu vypnutí    + X 
+Menu vypnutí   + X 
 Odhlásit   + Delete 
 Restart   ALT + Delete 
 Zamknout  CTRL ALT + Delete 
