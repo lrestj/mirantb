@@ -57,3 +57,8 @@ on-button-left=exec makoctl dismiss --all && exec makoctl reload
 
 [category=min]
 width=660
+
+[category=nas]
+width=350
+text-alignment=left
+

@@ -1,20 +1,24 @@
 
-Vimrc  V
+ Vimrc  V
 Yazi toml  Y
 Waybar conf  W
+Mako conf  M
 
-Nixos:
- config  C
- flake  F
- pkgs  P
+ Nixos:
+    config  C
+    flake  F
+    pkgs  P
 
-Hyprland
-  autoEnv  A
-  input  I
-  binds  B
-  winRules  R
+ Hyprland
+    autoEnv  A
+    input  I
+    binds  B
+    winRules  R
 
-Reload
-  Hyprland  H
-  Mako  M
+󰑓 Reload
+    Hyprland  H
+    Mako  X
+
+[kliknutím sem tavři]
+
 
