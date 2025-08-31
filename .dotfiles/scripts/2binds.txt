@@ -16,7 +16,7 @@ Zavřít okno   + Q
 Snímek obrazovky:
 Snímek aktivního okna   + Insert/PrtScr  
 Snímek výběru  ALT + Insert/PrtScr  
-Snímek monitoru   CTRL ALT + Insert/PrtScr  
+Snímek monitoru  CTRL ALT + Insert/PrtScr  
 
 Plochy:
 Přepnout na plochu 1-6  ALT + 1-6  
@@ -27,4 +27,3 @@ Rolovat mezi plochami   + Myš kolecko
 
 [ Kliknutím zde zavři ]
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -31,4 +31,5 @@ Odhlásit   + Delete
 Restart   ALT + Delete 
 Zamknout  CTRL ALT + Delete 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[ Kliknutím zde zavři ]
+
