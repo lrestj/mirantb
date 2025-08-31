@@ -1,3 +1,3 @@
 #!/bin/bash
 
-notify-send -u critical -c nas -i ~/.dotfiles/icons/help.png "Nastavení" "$(cat ~/.dotfiles/scripts/nsubmap.txt)" 
+notify-send -u critical -c nas -i application-menu "Nastavení" "$(cat ~/.dotfiles/scripts/nsubmap.txt)" 
