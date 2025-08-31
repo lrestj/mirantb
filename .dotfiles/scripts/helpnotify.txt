@@ -3,6 +3,6 @@ Zavřít aktivní okno: +Q
 Okno na celou obrazovku: +F
 Menu aplikací:  
 Menu oblíbených: ALT+Y
-Všechny zkratky:  ALT+N
+Všechny zkratky:  ALT+N
 
 [kliknutím na mě zavři]
