@@ -45,6 +45,7 @@
             fzf
             geany
             glib util-linux
+            glxinfo
             gnome-calculator
             gthumb
             hunspellDicts.cs_CZ
@@ -61,6 +62,7 @@
             krename
             libnotify
             libreoffice-fresh
+            libva-utils
             lshw
             lxqt.lxqt-policykit
             mako
