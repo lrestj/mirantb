@@ -130,13 +130,18 @@ button:hover {
 #idle_inhibitor,
 #pulseaudio,
 #backlight,
-#tray,
 #clock,
 #battery,
 #power-profiles-daemon{
     border-radius: 20px 20px 20px 20px;
     margin-top: 4px;
+    margin-right: 4;
     margin-bottom: 1px;
+}
+#tray {
+    border-radius: 20 20 20 20;
+    margin-top: 4;
+    margin-bottom: 1;
 }
 
 #custom-menu, 
