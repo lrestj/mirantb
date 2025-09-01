@@ -2,6 +2,7 @@ sort=-time
 layer=overlay
 text-alignment=center
 background-color=#2e3440
+text-color=#aabbcc
 width=333
 height=1030
 border-size=3

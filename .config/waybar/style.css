@@ -21,7 +21,7 @@ window#waybar.empty {
     background-color: transparent;
 }
 window#waybar.solo {
-    background-color: #FFFFFF;
+    background-color: #aabbcc;
 }
 */
 
@@ -45,7 +45,7 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -3px #aabbcc;
 }
 
 /* you can set a style on hover for any module like this */
@@ -82,7 +82,7 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #aabbcc;
     margin-top: 1px;
     border-radius: 5px 5px 0px 8px;
 }
@@ -93,7 +93,7 @@ button:hover {
 
 #workspaces button.active {
     background-color: #2e3440;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -3px #aabbcc;
 }
 
 #workspaces button.urgent {
@@ -110,7 +110,7 @@ button:hover {
 #power-profiles-daemon,
 #tray {
     padding: 0 7px;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #window,
@@ -208,17 +208,17 @@ button:hover {
 
 #battery {
     background-color: #2e3440;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: #aabbcc;
     background-color: #2e3440;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
+        background-color: #aabbcc;
         color: #000000;
     }
 }
@@ -226,7 +226,7 @@ button:hover {
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
-    color: #ffffff;
+    color: #aabbcc;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -242,13 +242,13 @@ button:hover {
 /* background-color: #f53c3c; */
     padding: 0 3px;
     background-color: #2e3440;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #power-profiles-daemon.balanced {
     padding-right: 4px;   
     background-color: #2980b9;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #power-profiles-daemon.power-saver {
@@ -263,12 +263,12 @@ label:focus {
 
 #backlight {
     background-color: #2e3440;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #pulseaudio {
     background-color: #2e3440;
-    color: #ffffff;
+    color: #aabbcc;
 }
 
 #pulseaudio.muted {
