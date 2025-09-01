@@ -58,6 +58,7 @@ button:hover {
 #backlight:hover,
 #pulseaudio:hover {
     background-color: #A2780E;
+    color: #000000;
 }
 #custom-scan:hover,
 #custom-power:hover,
