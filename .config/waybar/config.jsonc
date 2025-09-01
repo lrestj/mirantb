@@ -33,10 +33,10 @@
     ],
     "modules-right": [
         "idle_inhibitor",
+        "tray",
         "mpd",
         "pulseaudio",
         "backlight",
-        "tray",
         "clock",
         "battery",
         "power-profiles-daemon",
