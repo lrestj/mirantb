@@ -18,7 +18,7 @@
     selected-active-foreground:  rgba ( 129, 91, 164, 100 % );
     alternate-active-background: rgba ( 46, 52, 64, 18 % );
     background:                  rgba ( 46, 52, 64, 100 % );
-    bordercolor:                 rgba ( 0, 0, 255, 21 % );
+    bordercolor:                 rgba ( 255, 255, 255, 50 % );
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 46, 52, 64, 63 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
@@ -35,10 +35,10 @@
     selected-active-background:  rgba ( 129, 91, 164, 33 % );
 }
 window {
-    height: 175px;
+    height: 185px;
     width: 320px;
     background-color: @background;
-    border:           0;
+    border:           4;
     padding:          12;
 }
 mainbox {
