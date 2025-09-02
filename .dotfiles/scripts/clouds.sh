@@ -5,7 +5,11 @@ OO="󰏊 Odpojit OneDrive"
 PG=" Připojit Google Disk"
 OG=" Odpojit Google Disk"
 
-selected=$(echo "$PO,$OO,$PG,$OG," | rofi -theme ~/.config/rofi/rofithemes/cloud.rasi -sep ',' -dmenu -p Úložiště)
+selected=$(echo "$PO
+$OO
+$PG
+$OG
+Konec" | rofi -theme ~/.config/rofi/rofithemes/cloud.rasi -dmenu -p Úložiště)
 
  if [ "$selected" = "$PO" ]; then
    source /home/libor/.dotfiles/scripts/onedrive.sh
