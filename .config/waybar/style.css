@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: FontAwesome, Hack Nerd Fonts, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -93,7 +93,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #64727D;
+    background-color: #243440;
     box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -295,7 +295,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #64727D;
+    background-color: #243440;
 }
 
 #tray > .passive {
