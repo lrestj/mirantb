@@ -53,6 +53,7 @@
             hypridle
             hyprlock
             hyprshot
+            chafa
             jq
             kdePackages.breeze-icons
             kdePackages.qt6ct

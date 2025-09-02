@@ -217,11 +217,12 @@ button:hover {
 
 #clock {
     background-color: #64727D;
+    color: #000000;
 }
 
 #battery {
     background-color: #64727D;
-    color: #ffffff;
+    color: #000000;
 }
 
 #battery.charging, #battery.plugged {
@@ -255,7 +256,7 @@ button:hover {
 /* background-color: #f53c3c; */
     padding: 0 3px;
     background-color: #64727D;
-    color: #ffffff;
+    color: #000000;
 }
 
 #power-profiles-daemon.balanced {
@@ -276,12 +277,12 @@ label:focus {
 
 #backlight {
     background-color: #64727D;
-    color: #ffffff;
+    color: #000000;
 }
 
 #pulseaudio {
     background-color: #64727D;
-    color: #ffffff;
+    color: #000000;
 }
 
 #pulseaudio.muted {
