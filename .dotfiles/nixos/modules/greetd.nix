@@ -3,6 +3,7 @@
   let
     tuigreet = "${pkgs.tuigreet}/bin/tuigreet";
     hyprland-session = "${pkgs.hyprland}/bin/Hyprland";
+    sway-session = "sway-run";
   in
  
 {
@@ -11,11 +12,11 @@
       enable = true;
       settings = {
           initial_session = {
-              command = "${hyprland-session}";
+              command = "${sway-session}";
               user = "libor";
           };
           default_session = {
-              command = "${tuigreet} --greeting 'Vítejte v NixOS!' --asterisks --time --time-format %c --remember --remember-session --sessions ${hyprland-session}";
+              command = "${tuigreet} --greeting 'Vítejte v NixOS!' --asterisks --time --time-format %c --remember --remember-session --sessions ${sway-session}";
               user = "greeter";
           };
       };
