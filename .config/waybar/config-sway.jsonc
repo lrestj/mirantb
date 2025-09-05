@@ -30,7 +30,7 @@
         "custom/media"
     ],
     "modules-center": [
-        "hyprland/window"
+        "sway/window"
     ],
     "modules-right": [
         "idle_inhibitor",

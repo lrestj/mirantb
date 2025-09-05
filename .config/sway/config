@@ -38,6 +38,7 @@ set $right l
 
 set $term foot
 set $menu rofi -show drun -show-icons -sidebar-mode
+set $filemgr thunar
 
 # Apps at startup
 exec_always waypaper --restore &
@@ -90,6 +91,7 @@ exec_always killall swayidle; swayidle -w \
     bindsym Ctrl+Shift+y exec $term -e yazi
     bindsym Ctrl+Shift+e exec $term -e vim
     bindsym Ctrl+Shift+b exec brave
+    bindsym Ctrl+Shift+f exec thunar
 
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
