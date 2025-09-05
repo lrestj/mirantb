@@ -71,6 +71,9 @@
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
+    bindsym $cs+k exec pkill $kalk || $kalk
+    bindsym $cs+w exec waypaper
+    bindsym $cs+m exec  ~/.dotfiles/scripts/clouds.sh   
 
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
@@ -166,9 +169,10 @@
     # Screenshot with grimshot
     bindsym $mod+Insert exec grimshot --notify save anything
 
-### Resizing containers:
-    bindsym $mod+r mode "resize"
-    mode "resize" {
+### MODES:
+    # Resizing containers:
+    bindsym $mod+r mode "Resize"
+    mode "Resize" {
         bindsym Left resize shrink width 10px
         bindsym Down resize grow height 10px
         bindsym Up resize shrink height 10px
