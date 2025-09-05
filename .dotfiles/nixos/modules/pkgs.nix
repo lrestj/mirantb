@@ -48,7 +48,6 @@
             glib util-linux
             glxinfo
             gnome-calculator
-            grim sway-contrib.grimshot
             gthumb
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
@@ -140,6 +139,10 @@
       sway = {
           enable = true;
           wrapperFeatures.gtk = true;
+          xwayland.enable = true;
+          extraPackages = with pkgs; [
+              sway-contrib.grimshot
+          ];
       };
       hyprland = {
            enable = true;

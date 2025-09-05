@@ -160,7 +160,7 @@
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Screenshot with grimshot
-    bindsym $mod+Print exec grimshot --notify save anything
+    bindsym $mod+Insert exec grimshot --notify save anything
 
 ### Resizing containers:
     bindsym $mod+r mode "resize"
