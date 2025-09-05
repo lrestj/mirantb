@@ -25,6 +25,7 @@
         (with pkgs; [
             alacritty
             baobab
+            banana-cursor
             bibata-cursors
             brave
             brightnessctl
