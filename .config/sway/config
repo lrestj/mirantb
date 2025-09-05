@@ -66,7 +66,7 @@
 ### Keybindings
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
-    bindsym $cs+e exec $term -e vim
+    bindsym $cs+e exec $term -T Vim -a Vim -e vim
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
@@ -131,6 +131,9 @@
 
     # switch to workspace with urgent window
     for_window [urgent="latest"] focus
+
+    # Cycle workspaces
+    bindsym Ctrl+Tab workspace next
 
     # Layout toggle
     bindsym $mod+w layout toggle split
