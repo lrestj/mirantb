@@ -112,10 +112,10 @@
     bindsym $mod+Right focus right
 
     # Move the focused window 
-    bindsym $mod+Alt+h move left
-    bindsym $mod+Alt+j move down
-    bindsym $mod+Alt+k move up
-    bindsym $mod+Alt+l move right
+    bindsym $ma+h move left
+    bindsym $ma+j move down
+    bindsym $ma+k move up
+    bindsym $ma+l move right
 
     # Switch to workspace
     bindsym Alt+left workspace number 1
@@ -124,10 +124,10 @@
     bindsym Alt+up workspace number 4
 
     # Move focused container to workspace
-    bindsym Alt+Ctrl+Left move container to workspace number 1
-    bindsym Alt+Ctrl+Right move container to workspace number 2
-    bindsym Alt+Ctrl+Down move container to workspace number 3
-    bindsym Alt+Ctrl+Up move container to workspace number 4
+    bindsym $ma+Left move container to workspace number 1
+    bindsym $ma+Right move container to workspace number 2
+    bindsym $ma+Down move container to workspace number 3
+    bindsym $ma+Up move container to workspace number 4
 
     # switch to workspace with urgent window
     for_window [urgent="latest"] focus
@@ -137,7 +137,7 @@
     bindsym $mod+f layout toggle tabbed splith
 
     # Make the current focus fullscreen
-    bindsym $mod+Alt+f fullscreen
+    bindsym $ma+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
     bindsym Ctrl+Alt+f floating toggle
@@ -146,7 +146,7 @@
     bindsym $mod+space focus mode_toggle
 
     # Move window to the scratchpad and show
-    bindsym $mod+Alt+s move scratchpad
+    bindsym $ma+s move scratchpad
     bindsym $mod+s scratchpad show
 
     # Special keys to adjust volume via PulseAudio
