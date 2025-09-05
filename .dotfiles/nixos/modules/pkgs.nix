@@ -48,6 +48,7 @@
             glib util-linux
             glxinfo
             gnome-calculator
+            grim sway-contrib.grimshot
             gthumb
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
@@ -135,6 +136,10 @@
               thunar-archive-plugin
               thunar-volman
           ];
+      };
+      sway = {
+          enable = true;
+          wrapperFeatures.gtk = true;
       };
       hyprland = {
            enable = true;
