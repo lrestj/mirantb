@@ -88,8 +88,12 @@
     bindsym $mod+n exec ~/.dotfiles/scripts/helpnotify.sh
     bindsym Alt+n exec ~/.dotfiles/scripts/binds.sh
 
+    # Time & date on mainMod+D
+    bindsym $mod+d exec ~/.dotfiles/scripts/datetimenotify.sh
+
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
+    bindsym $ma+Return exec pkill waybar && waybar --config ~/.config/waybar/config-taskbar
 
     # Clipboard toggle
     bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
