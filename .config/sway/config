@@ -22,6 +22,7 @@
     set $mod Mod4
     set $cs Ctrl+Shift
     set $ma Mod4+Alt
+    set $ms Mod4+Shift
     set $term foot
     set $menu rofi -show drun -show-icons -sidebar-mode
     set $filemgr thunar
@@ -100,7 +101,7 @@
     floating_modifier $mod normal
 
     # Reload the configuration file
-    bindsym $mod+Shift+c reload
+    bindsym $ms+c reload
 
     # focus_on_window_activation   focus
     focus_follows_mouse no
@@ -120,6 +121,12 @@
     bindsym $ma+j move down
     bindsym $ma+k move up
     bindsym $ma+l move right
+
+    # Resize container
+    bindsym $ms+Left resize shrink width 10px
+    bindsym $ms+Down resize grow height 10px
+    bindsym $ms+Up resize shrink height 10px
+    bindsym $ms+Right resize grow width 10px
 
     # Switch to workspace
     bindsym Alt+left workspace number 1
@@ -171,12 +178,12 @@
 
 ### MODES:
     # Resizing containers:
-    bindsym $mod+r mode "Resize"
-    mode "Resize" {
-        bindsym Left resize shrink width 10px
-        bindsym Down resize grow height 10px
-        bindsym Up resize shrink height 10px
-        bindsym Right resize grow width 10px
+    bindsym $mod+r mode "Nastavení"; exec ~/.dotfiles/scripts/nsubmap.sh
+    mode "Nastavení" {
+        bindsym $ms+Left resize shrink width 10px
+        bindsym $ms+Down resize grow height 10px
+        bindsym $ms+Up resize shrink height 10px
+        bindsym $ms+Right resize grow width 10px
         # Return to default mode
         bindsym Return mode "default"
         bindsym Escape mode "default"

@@ -28,6 +28,7 @@ nnoremap <A-.> :FzfHistory:<CR>
 nnoremap <A-,> :FzfHistory/<CR>
 
 "My settings
+set background=dark   
 colorscheme wildcharm
 syntax on
 filetype plugin indent on
