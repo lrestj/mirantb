@@ -81,6 +81,10 @@
     # Touchpad ON/OFF
     bindsym $ca+t exec $term --app-id script -e ~/.dotfiles/scripts/asktouchpad.sh
 
+    # Nápověda
+    bindsym $mod+n exec ~/.dotfiles/scripts/helpnotify.sh
+    bindsym Alt+n exec ~/.dotfiles/scripts/binds.sh
+
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
 
@@ -183,7 +187,7 @@
 
 ### MODES:
     # Nastavení
-    bindsym $mod+n mode "Nastavení"; exec ~/.dotfiles/scripts/nsubmap.sh
+    bindsym $cs+n mode "Nastavení"; exec ~/.dotfiles/scripts/nsubmap.sh
     mode "Nastavení" {
     bindsym v exec makoctl dismiss && foot -e vim ~/.config/vim/vimrc; mode "default"
     bindsym y exec makoctl dismiss && foot -e vim ~/.config/yazi/keymap.toml; mode "default"
@@ -203,7 +207,7 @@
     bindsym Escape mode "default"
     }
     # Nastavení
-    bindsym $mod+i mode "Webmarks"; exec ~/.dotfiles/scripts/webmarks.sh
+    bindsym $cs+i mode "Webmarks"; exec ~/.dotfiles/scripts/webmarks.sh
     mode "Webmarks" {
     bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode "default"
     bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode "default"
