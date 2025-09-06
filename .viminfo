@@ -20,14 +20,14 @@
 $$term
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757194475,,"w"
 :wq
-|2,0,1757186651,,"wq"
+|2,0,1757194387,,"wq"
 :q
 |2,0,1757186641,,"q"
 :182,189m192
 |2,0,1757186603,,"182,189m192"
-:w
-|2,0,1757186504,,"w"
 :193,195m176
 |2,0,1757184623,,"193,195m176"
 :ene
@@ -390,8 +390,8 @@ $$term
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
 ""-	CHAR	0
-	 but specific LED name (/sys/class/leds/)
-|3,1,36,0,1,0,1757186555," but specific LED name (/sys/class/leds/)"
+	_always 
+|3,1,36,0,1,0,1757194417,"_always "
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -412,32 +412,56 @@ $$term
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  200  3  ~/.config/sway/config
-|4,48,200,3,1757186651,"~/.config/sway/config"
-'1  227  4  ~/.config/sway/config
-|4,49,227,4,1757185680,"~/.config/sway/config"
-'2  227  4  ~/.config/sway/config
-|4,50,227,4,1757185680,"~/.config/sway/config"
-'3  1  0  ~/.config/sway/config
-|4,51,1,0,1757185589,"~/.config/sway/config"
-'4  1  0  ~/.config/sway/config
-|4,52,1,0,1757185589,"~/.config/sway/config"
-'5  1  0  ~/.config/sway/config
-|4,53,1,0,1757185589,"~/.config/sway/config"
-'6  1  0  ~/.config/sway/config
-|4,54,1,0,1757185589,"~/.config/sway/config"
-'7  1  0  ~/.config/sway/config
-|4,55,1,0,1757185562,"~/.config/sway/config"
+'0  45  8  ~/.config/sway/config
+|4,48,45,8,1757194508,"~/.config/sway/config"
+'1  6  22  ~/.dotfiles/scripts/battery-check.sh
+|4,49,6,22,1757194387,"~/.dotfiles/scripts/battery-check.sh"
+'2  200  3  ~/.config/sway/config
+|4,50,200,3,1757186651,"~/.config/sway/config"
+'3  200  3  ~/.config/sway/config
+|4,51,200,3,1757186651,"~/.config/sway/config"
+'4  227  4  ~/.config/sway/config
+|4,52,227,4,1757185680,"~/.config/sway/config"
+'5  227  4  ~/.config/sway/config
+|4,53,227,4,1757185680,"~/.config/sway/config"
+'6  227  4  ~/.config/sway/config
+|4,54,227,4,1757185680,"~/.config/sway/config"
+'7  227  4  ~/.config/sway/config
+|4,55,227,4,1757185680,"~/.config/sway/config"
 '8  1  0  ~/.config/sway/config
-|4,56,1,0,1757185562,"~/.config/sway/config"
+|4,56,1,0,1757185589,"~/.config/sway/config"
 '9  1  0  ~/.config/sway/config
-|4,57,1,0,1757185562,"~/.config/sway/config"
+|4,57,1,0,1757185589,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  45  8  ~/.config/sway/config
+|4,39,45,8,1757194508,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757194394,"~/.config/sway/config"
+-'  6  22  ~/.dotfiles/scripts/battery-check.sh
+|4,39,6,22,1757194387,"~/.dotfiles/scripts/battery-check.sh"
+-'  6  22  ~/.dotfiles/scripts/battery-check.sh
+|4,39,6,22,1757194387,"~/.dotfiles/scripts/battery-check.sh"
+-'  1  0  ~/.dotfiles/scripts/battery-check.sh
+|4,39,1,0,1757194370,"~/.dotfiles/scripts/battery-check.sh"
+-'  1  0  ~/.dotfiles/scripts/battery-check.sh
+|4,39,1,0,1757194370,"~/.dotfiles/scripts/battery-check.sh"
+-'  200  3  ~/.config/sway/config
+|4,39,200,3,1757186651,"~/.config/sway/config"
+-'  200  3  ~/.config/sway/config
+|4,39,200,3,1757186651,"~/.config/sway/config"
 -'  200  3  ~/.config/sway/config
 |4,39,200,3,1757186651,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757186476,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757186476,"~/.config/sway/config"
+-'  227  4  ~/.config/sway/config
+|4,39,227,4,1757185680,"~/.config/sway/config"
+-'  227  4  ~/.config/sway/config
+|4,39,227,4,1757185680,"~/.config/sway/config"
+-'  227  4  ~/.config/sway/config
+|4,39,227,4,1757185680,"~/.config/sway/config"
 -'  227  4  ~/.config/sway/config
 |4,39,227,4,1757185680,"~/.config/sway/config"
 -'  227  4  ~/.config/sway/config
@@ -445,7 +469,13 @@ $$term
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757185614,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
+|4,39,1,0,1757185614,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
 |4,39,1,0,1757185589,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757185589,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757185562,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757185562,"~/.config/sway/config"
 -'  69  0  ~/.config/sway/config
@@ -460,6 +490,70 @@ $$term
 |4,39,69,0,1757185471,"~/.config/sway/config"
 -'  71  0  ~/.config/sway/config
 |4,39,71,0,1757185471,"~/.config/sway/config"
+-'  69  0  ~/.config/sway/config
+|4,39,69,0,1757185471,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757185471,"~/.config/sway/config"
+-'  69  0  ~/.config/sway/config
+|4,39,69,0,1757185471,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757185471,"~/.config/sway/config"
+-'  69  0  ~/.config/sway/config
+|4,39,69,0,1757185471,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757185471,"~/.config/sway/config"
+-'  69  0  ~/.config/sway/config
+|4,39,69,0,1757185471,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757185471,"~/.config/sway/config"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
 -'  1  0  ~/.config/waybar/config.jsonc
 |4,39,1,0,1757185469,"~/.config/waybar/config.jsonc"
 -'  1  0  ~/.config/waybar/config.jsonc
@@ -482,6 +576,40 @@ $$term
 |4,39,3,0,1757185419,"~/.config/sway/config"
 -'  3  0  ~/.config/sway/config
 |4,39,3,0,1757185419,"~/.config/sway/config"
+-'  3  0  ~/.config/sway/config
+|4,39,3,0,1757185419,"~/.config/sway/config"
+-'  3  0  ~/.config/sway/config
+|4,39,3,0,1757185419,"~/.config/sway/config"
+-'  3  0  ~/.config/sway/config
+|4,39,3,0,1757185419,"~/.config/sway/config"
+-'  3  0  ~/.config/sway/config
+|4,39,3,0,1757185419,"~/.config/sway/config"
+-'  21  10  ~/.config/sway/config
+|4,39,21,10,1757185308,"~/.config/sway/config"
+-'  19  10  ~/.config/sway/config
+|4,39,19,10,1757185308,"~/.config/sway/config"
+-'  23  10  ~/.config/sway/config
+|4,39,23,10,1757185308,"~/.config/sway/config"
+-'  21  10  ~/.config/sway/config
+|4,39,21,10,1757185308,"~/.config/sway/config"
+-'  19  10  ~/.config/sway/config
+|4,39,19,10,1757185308,"~/.config/sway/config"
+-'  23  10  ~/.config/sway/config
+|4,39,23,10,1757185308,"~/.config/sway/config"
+-'  21  10  ~/.config/sway/config
+|4,39,21,10,1757185308,"~/.config/sway/config"
+-'  19  10  ~/.config/sway/config
+|4,39,19,10,1757185308,"~/.config/sway/config"
+-'  23  10  ~/.config/sway/config
+|4,39,23,10,1757185308,"~/.config/sway/config"
+-'  21  10  ~/.config/sway/config
+|4,39,21,10,1757185308,"~/.config/sway/config"
+-'  19  10  ~/.config/sway/config
+|4,39,19,10,1757185308,"~/.config/sway/config"
+-'  23  10  ~/.config/sway/config
+|4,39,23,10,1757185308,"~/.config/sway/config"
+-'  21  10  ~/.config/sway/config
+|4,39,21,10,1757185308,"~/.config/sway/config"
 -'  21  10  ~/.config/sway/config
 |4,39,21,10,1757185308,"~/.config/sway/config"
 -'  19  10  ~/.config/sway/config
@@ -504,145 +632,16 @@ $$term
 |4,39,21,10,1757185308,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757185260,"~/.config/sway/config"
--'  168  0  ~/.config/sway/config
-|4,39,168,0,1757185257,"~/.config/sway/config"
--'  166  0  ~/.config/sway/config
-|4,39,166,0,1757185257,"~/.config/sway/config"
--'  170  0  ~/.config/sway/config
-|4,39,170,0,1757185257,"~/.config/sway/config"
--'  168  0  ~/.config/sway/config
-|4,39,168,0,1757185257,"~/.config/sway/config"
--'  166  0  ~/.config/sway/config
-|4,39,166,0,1757185257,"~/.config/sway/config"
--'  170  0  ~/.config/sway/config
-|4,39,170,0,1757185257,"~/.config/sway/config"
--'  168  0  ~/.config/sway/config
-|4,39,168,0,1757185257,"~/.config/sway/config"
--'  166  0  ~/.config/sway/config
-|4,39,166,0,1757185257,"~/.config/sway/config"
--'  170  0  ~/.config/sway/config
-|4,39,170,0,1757185257,"~/.config/sway/config"
--'  168  0  ~/.config/sway/config
-|4,39,168,0,1757185257,"~/.config/sway/config"
--'  168  0  ~/.config/sway/config
-|4,39,168,0,1757185257,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757184939,"~/.config/sway/config"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
--'  202  67  ~/.config/hypr/3-keyBindings.conf
-|4,39,202,67,1757184938,"~/.config/hypr/3-keyBindings.conf"
+|4,39,1,0,1757185260,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1757186633	0
-	"	200	3
-	^	183	63
-	.	182	0
-	+	222	4
+	*	1757194475	0
+	"	45	8
+	^	45	9
+	.	45	0
 	+	218	0
 	+	229	0
 	+	219	68
@@ -742,10 +741,35 @@ $$term
 	+	183	62
 	+	183	0
 	+	182	0
+	+	45	0
 	k	76	0
 	m	197	0
 	s	1	0
 	w	251	0
+
+> ~/.dotfiles/scripts/battery-check.sh
+	*	1757194382	0
+	"	6	22
+	^	6	24
+	.	6	22
+	+	26	3
+	+	3	0
+	+	3	40
+	+	4	19
+	+	19	53
+	+	5	20
+	+	4	7
+	+	19	47
+	+	25	7
+	+	5	10
+	+	6	22
+	+	5	0
+	+	19	0
+	+	19	66
+	+	3	37
+	+	4	0
+	+	10	7
+	+	6	22
 
 > ~/.config/waybar/config.jsonc
 	*	1757185468	0
@@ -1309,30 +1333,6 @@ $$term
 	+	176	19
 	+	135	0
 	+	137	0
-
-> ~/.dotfiles/scripts/battery-check.sh
-	*	1757099477	0
-	"	6	23
-	^	6	24
-	.	6	24
-	+	26	3
-	+	3	0
-	+	3	40
-	+	4	19
-	+	19	53
-	+	5	20
-	+	4	7
-	+	19	47
-	+	25	7
-	+	5	10
-	+	6	22
-	+	5	0
-	+	19	0
-	+	19	66
-	+	3	37
-	+	4	0
-	+	10	7
-	+	6	24
 
 > ~/.config/foot/foot.ini
 	*	1757093447	0
