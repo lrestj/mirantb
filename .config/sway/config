@@ -41,7 +41,7 @@
 ### Locking the system
     set $lock swaylock -f -F -e -k -c 000000
     set $logout sleep 1 && swaymsg exit
-    bindsym --to-code Ctrl+Alt+Delete exec $lock
+    bindsym --to-code $ca+Delete exec $lock
     bindsym --to-code $mod+Delete exec $logout
     
 ### Idle configuration
@@ -88,7 +88,7 @@
     bindsym $mod+n exec ~/.dotfiles/scripts/helpnotify.sh
     bindsym Alt+n exec ~/.dotfiles/scripts/binds.sh
 
-    # Time & date on mainMod+D
+    # Time & date
     bindsym $mod+d exec ~/.dotfiles/scripts/datetimenotify.sh
 
     # Toggle waybar
@@ -109,7 +109,7 @@
     bindsym $mod+y exec pkill wlogout || wlogout -s -c 5 -r 5 -L 360 -R 360
     bindsym $mod+x exec pkill wlogout || ~/.dotfiles/scripts/power.sh
 
-    # Start your launcher
+    # Start launcher
     bindsym --release SUPER_L exec pkill rofi || $menu
 
     # Change normal to inverse to use left mouse button for resizing and right
@@ -170,7 +170,7 @@
     bindsym $ma+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
-    bindsym Ctrl+Alt+f floating toggle
+    bindsym $ca+f floating toggle
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
