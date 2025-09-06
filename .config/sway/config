@@ -25,6 +25,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
+    set $editor $term -e vim
     set $browser brave
     set $menu rofi -show drun -show-icons -sidebar-mode
     set $filemgr thunar
@@ -196,18 +197,18 @@
     # Nastavení
     bindsym $cs+n mode "Nastavení"; exec ~/.dotfiles/scripts/nsubmap.sh
     mode "Nastavení" {
-    bindsym v exec makoctl dismiss && foot -e vim ~/.config/vim/vimrc; mode "default"
-    bindsym y exec makoctl dismiss && foot -e vim ~/.config/yazi/keymap.toml; mode "default"
-    bindsym w exec makoctl dismiss && foot -e vim ~/.config/waybar/config.jsonc; mode "default"
-    bindsym m exec makoctl dismiss && foot -e vim ~/.config/mako/config; mode "default"
-    bindsym c exec makoctl dismiss && foot -e vim ~/.dotfiles/nixos/hosts/zbook/configu; mode "default"ration.nix
-    bindsym f exec makoctl dismiss && foot -e vim ~/.dotfiles/nixos/flake.nix; mode "default"
-    bindsym p exec makoctl dismiss && foot -e vim ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
-    bindsym a exec makoctl dismiss && foot -e vim ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
-    bindsym i exec makoctl dismiss && foot -e vim ~/.config/hypr/2-inputLookFeel.conf; mode "default"
-    bindsym b exec makoctl dismiss && foot -e vim ~/.config/hypr/3-keyBindings.conf; mode "default"
-    bindsym r exec makoctl dismiss && foot -e vim ~/.config/hypr/4-windowsRules.conf; mode "default"
-    bindsym s exec makoctl dismiss && foot -e vim ~/.config/sway/config; mode "default"
+    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
+    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
+    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config.jsonc; mode "default"
+    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode "default"
+    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configu; mode "default"ration.nix
+    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
+    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
+    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
+    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode "default"
+    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode "default"
+    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
+    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
     bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
     # Return to default mode
