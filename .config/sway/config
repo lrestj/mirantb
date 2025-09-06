@@ -179,6 +179,9 @@
     bindsym $mod+Insert exec grimshot --notify save anything
 
 ### Media keys for SwayOSD
+    # Capslock
+    bindsym --release Caps_Lock exec swayosd-client --caps-lock
+    
     # Audio and mic mute
     bindsym XF86AudioMute exec swayosd-client --output-volume mute-toggle
     bindsym XF86AudioMicMute exec swayosd-client --input-volume mute-toggle
@@ -186,9 +189,6 @@
     # Volume
     bindsym XF86AudioRaiseVolume exec swayosd-client --output-volume raise --max-volume 120
     bindsym XF86AudioLowerVolume exec swayosd-client --output-volume lower --max-volume 120
-    
-    # Capslock but specific LED name (/sys/class/leds/)
-    bindsym --release Caps_Lock exec swayosd-client --caps-lock-led input2::capslock
     
     # Brightness
     bindsym XF86MonBrightnessUp  exec swayosd-client --brightness +10
