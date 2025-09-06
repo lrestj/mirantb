@@ -47,8 +47,10 @@
 ### Locking the system
     set $lock swaylock -f -F -e -k -c 000000
     set $logout sleep 1 && swaymsg exit
+    set $reboot sleep 1 && systemctl reboot
     bindsym --to-code $ca+Delete exec $lock
     bindsym --to-code $mod+Delete exec $logout
+    bindsym $ma+Delete exec $reboot
     
 ### Idle configuration
     exec_always killall swayidle; swayidle -w \
