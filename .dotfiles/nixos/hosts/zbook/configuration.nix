@@ -13,6 +13,7 @@
       ];
 
   xdg.portal.enable = true;
+  xdg.portal.wlr.enable = true;
   documentation.man.generateCaches = false;
   nixpkgs.config.allowUnfree = true;
   environment.sessionVariables = {

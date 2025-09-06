@@ -51,9 +51,6 @@
             gthumb
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
-            hypridle
-            hyprlock
-            hyprshot
             chafa
             jq
             kdePackages.breeze-icons
@@ -97,7 +94,6 @@
             wlogout
             wlsunset
             xdg-desktop-portal-gtk
-            xdg-desktop-portal-hyprland
             xdg-utils
             xdg-user-dirs
             xnviewmp
@@ -143,12 +139,6 @@
           extraPackages = with pkgs; [
               sway-contrib.grimshot
           ];
-      };
-      hyprland = {
-           enable = true;
-           xwayland.enable = true;
-           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
       };
       git = {
           enable = true;
