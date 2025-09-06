@@ -4,7 +4,7 @@
 
   imports = [ 
       # ./overlay.nix
-      # ./overridevim.nix
+      ./swayosd.nix
   ]; 
   
   fonts.packages = with pkgs; [
