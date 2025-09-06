@@ -3,6 +3,7 @@
 Yazi toml  Y
 Waybar conf  W
 Mako conf  M
+Sway conf  S
 
  Nixos:
     config  C

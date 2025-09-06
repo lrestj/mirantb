@@ -207,6 +207,7 @@
     bindsym i exec makoctl dismiss && foot -e vim ~/.config/hypr/2-inputLookFeel.conf; mode "default"
     bindsym b exec makoctl dismiss && foot -e vim ~/.config/hypr/3-keyBindings.conf; mode "default"
     bindsym r exec makoctl dismiss && foot -e vim ~/.config/hypr/4-windowsRules.conf; mode "default"
+    bindsym s exec makoctl dismiss && foot -e vim ~/.config/sway/config; mode "default"
     bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
     # Return to default mode
