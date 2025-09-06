@@ -42,7 +42,6 @@
 .pki/
 .ssh
 .var/
-.viminfo
 .viminfo.tmp
 .wget-hsts
 Dokumenty/
