@@ -193,7 +193,7 @@
     mode "Nastavení" {
     bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
     bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
-    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config.jsonc; mode "default"
+    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode "default"
     bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode "default"
     bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configu; mode "default"ration.nix
     bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
