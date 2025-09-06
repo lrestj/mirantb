@@ -21,7 +21,7 @@ $$term
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757196686,,"wq"
+|2,0,1757196742,,"wq"
 :w
 |2,0,1757196579,,"w"
 :q
@@ -419,28 +419,32 @@ $$term
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  45  8  ~/.config/sway/config
-|4,48,45,8,1757196686,"~/.config/sway/config"
-'1  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,49,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
-'2  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,50,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
-'3  45  8  ~/.config/sway/config
-|4,51,45,8,1757196597,"~/.config/sway/config"
-'4  45  8  ~/.config/sway/config
-|4,52,45,8,1757196597,"~/.config/sway/config"
-'5  45  8  ~/.config/sway/config
-|4,53,45,8,1757196597,"~/.config/sway/config"
-'6  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,54,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
-'7  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,55,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
-'8  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,56,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
-'9  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,57,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
+'0  6  23  ~/.dotfiles/scripts/battery-check.sh
+|4,48,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
+'1  45  8  ~/.config/sway/config
+|4,49,45,8,1757196686,"~/.config/sway/config"
+'2  45  8  ~/.config/sway/config
+|4,50,45,8,1757196686,"~/.config/sway/config"
+'3  6  23  ~/.dotfiles/scripts/battery-check.sh
+|4,51,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
+'4  6  23  ~/.dotfiles/scripts/battery-check.sh
+|4,52,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
+'5  6  23  ~/.dotfiles/scripts/battery-check.sh
+|4,53,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
+'6  45  8  ~/.config/sway/config
+|4,54,45,8,1757196597,"~/.config/sway/config"
+'7  45  8  ~/.config/sway/config
+|4,55,45,8,1757196597,"~/.config/sway/config"
+'8  45  8  ~/.config/sway/config
+|4,56,45,8,1757196597,"~/.config/sway/config"
+'9  45  8  ~/.config/sway/config
+|4,57,45,8,1757196597,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  6  23  ~/.dotfiles/scripts/battery-check.sh
+|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
+-'  45  8  ~/.config/sway/config
+|4,39,45,8,1757196686,"~/.config/sway/config"
 -'  45  8  ~/.config/sway/config
 |4,39,45,8,1757196686,"~/.config/sway/config"
 -'  6  23  ~/.dotfiles/scripts/battery-check.sh
@@ -457,6 +461,8 @@ $$term
 |4,39,1,0,1757196558,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757196558,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757196558,"~/.config/sway/config"
 -'  1  0  ~/.dotfiles/scripts/battery-check.sh
 |4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
 -'  1  0  ~/.dotfiles/scripts/battery-check.sh
@@ -465,6 +471,8 @@ $$term
 |4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
 -'  1  0  ~/.dotfiles/scripts/battery-check.sh
 |4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
+-'  1  0  ~/.dotfiles/scripts/battery-check.sh
+|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
 -'  53  34  ~/.config/sway/config
 |4,39,53,34,1757196467,"~/.config/sway/config"
 -'  53  34  ~/.config/sway/config
@@ -475,6 +483,10 @@ $$term
 |4,39,53,34,1757196467,"~/.config/sway/config"
 -'  53  34  ~/.config/sway/config
 |4,39,53,34,1757196467,"~/.config/sway/config"
+-'  53  34  ~/.config/sway/config
+|4,39,53,34,1757196467,"~/.config/sway/config"
+-'  84  33  ~/.config/sway/config
+|4,39,84,33,1757196267,"~/.config/sway/config"
 -'  84  33  ~/.config/sway/config
 |4,39,84,33,1757196267,"~/.config/sway/config"
 -'  84  33  ~/.config/sway/config
@@ -509,6 +521,8 @@ $$term
 |4,39,80,12,1757195724,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  80  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,80,12,1757195724,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  80  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,80,12,1757195724,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757195660,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -529,6 +543,8 @@ $$term
 |4,39,1,0,1757195660,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757195660,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757195660,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  16  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,16,16,1757195558,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  16  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -565,6 +581,12 @@ $$term
 |4,39,16,16,1757195558,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  16  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,16,16,1757195558,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  16  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,16,16,1757195558,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  143  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,143,6,1757194832,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  147  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,147,6,1757194832,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  143  6  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,143,6,1757194832,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  147  6  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -617,33 +639,35 @@ $$term
 |4,39,1,0,1757194699,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757194699,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757194699,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757194699,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757194508,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.dotfiles/scripts/battery-check.sh
+	*	1757196739	0
+	"	6	23
+	^	6	24
+	.	6	23
+	+	26	3
+	+	3	0
+	+	3	40
+	+	4	19
+	+	19	53
+	+	5	20
+	+	4	7
+	+	19	47
+	+	25	7
+	+	5	10
+	+	6	22
+	+	5	0
+	+	19	0
+	+	19	66
+	+	3	37
+	+	4	0
+	+	10	7
+	+	6	23
+
 > ~/.config/sway/config
-	*	1757196681	0
+	*	1757196729	0
 	"	45	8
 	^	45	9
 	.	45	0
@@ -751,30 +775,6 @@ $$term
 	m	199	0
 	s	1	0
 	w	253	0
-
-> ~/.dotfiles/scripts/battery-check.sh
-	*	1757196677	0
-	"	6	23
-	^	6	24
-	.	6	23
-	+	26	3
-	+	3	0
-	+	3	40
-	+	4	19
-	+	19	53
-	+	5	20
-	+	4	7
-	+	19	47
-	+	25	7
-	+	5	10
-	+	6	22
-	+	5	0
-	+	19	0
-	+	19	66
-	+	3	37
-	+	4	0
-	+	10	7
-	+	6	23
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757195719	0

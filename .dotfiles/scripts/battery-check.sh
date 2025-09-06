@@ -3,7 +3,7 @@
 icon="/home/libor/.dotfiles/icons/bat.png"
 title="Nízký stav baterie:"
 
-notify_levels=(3 5 10 81)
+notify_levels=(3 5 10 15)
 BAT=$(ls /sys/class/power_supply |grep BAT |head -n 1)
 last_notify=100
 
