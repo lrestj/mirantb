@@ -21,7 +21,7 @@ $$term
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757176509,,"wq"
+|2,0,1757176835,,"wq"
 :w
 |2,0,1757176299,,"w"
 :q
@@ -421,34 +421,66 @@ $$term
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  0  ~/.config/waybar/config-sway.jsonc
-|4,48,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
-'1  196  73  ~/.config/sway/config
-|4,49,196,73,1757176509,"~/.config/sway/config"
-'2  216  44  ~/.config/waybar/config-sway.jsonc
-|4,50,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
-'3  216  44  ~/.config/waybar/config-sway.jsonc
-|4,51,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
-'4  215  44  ~/.config/waybar/config.jsonc
-|4,52,215,44,1757176253,"~/.config/waybar/config.jsonc"
-'5  215  44  ~/.config/waybar/config.jsonc
-|4,53,215,44,1757176253,"~/.config/waybar/config.jsonc"
-'6  1  0  ~/.config/waybar/power_menu.xml
-|4,54,1,0,1757176193,"~/.config/waybar/power_menu.xml"
-'7  45  0  ~/.gitignore
-|4,55,45,0,1757175865,"~/.gitignore"
-'8  190  0  ~/.config/sway/config
-|4,56,190,0,1757175798,"~/.config/sway/config"
-'9  190  0  ~/.config/sway/config
-|4,57,190,0,1757175798,"~/.config/sway/config"
+'0  181  8  ~/.config/waybar/config-sway.jsonc
+|4,48,181,8,1757176835,"~/.config/waybar/config-sway.jsonc"
+'1  180  37  ~/.config/waybar/config-sway.jsonc
+|4,49,180,37,1757176776,"~/.config/waybar/config-sway.jsonc"
+'2  180  37  ~/.config/waybar/config-sway.jsonc
+|4,50,180,37,1757176776,"~/.config/waybar/config-sway.jsonc"
+'3  1  0  ~/.config/sway/config
+|4,51,1,0,1757176624,"~/.config/sway/config"
+'4  1  0  ~/.config/sway/config
+|4,52,1,0,1757176624,"~/.config/sway/config"
+'5  1  0  ~/.config/waybar/config-sway.jsonc
+|4,53,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
+'6  1  0  ~/.config/waybar/config-sway.jsonc
+|4,54,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
+'7  1  0  ~/.config/waybar/config-sway.jsonc
+|4,55,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
+'8  1  0  ~/.config/waybar/config-sway.jsonc
+|4,56,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
+'9  196  73  ~/.config/sway/config
+|4,57,196,73,1757176509,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  181  8  ~/.config/waybar/config-sway.jsonc
+|4,39,181,8,1757176835,"~/.config/waybar/config-sway.jsonc"
+-'  180  37  ~/.config/waybar/config-sway.jsonc
+|4,39,180,37,1757176800,"~/.config/waybar/config-sway.jsonc"
+-'  180  37  ~/.config/waybar/config-sway.jsonc
+|4,39,180,37,1757176776,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757176625,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757176625,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757176624,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757176624,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757176624,"~/.config/sway/config"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757176531,"~/.config/waybar/config-sway.jsonc"
 -'  196  73  ~/.config/sway/config
 |4,39,196,73,1757176509,"~/.config/sway/config"
 -'  196  73  ~/.config/sway/config
 |4,39,196,73,1757176509,"~/.config/sway/config"
+-'  196  73  ~/.config/sway/config
+|4,39,196,73,1757176509,"~/.config/sway/config"
+-'  196  73  ~/.config/sway/config
+|4,39,196,73,1757176509,"~/.config/sway/config"
+-'  196  73  ~/.config/sway/config
+|4,39,196,73,1757176509,"~/.config/sway/config"
+-'  196  73  ~/.config/sway/config
+|4,39,196,73,1757176509,"~/.config/sway/config"
+-'  196  73  ~/.config/sway/config
+|4,39,196,73,1757176509,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757176482,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757176482,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757176482,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -459,6 +491,42 @@ $$term
 |4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
 -'  216  44  ~/.config/waybar/config-sway.jsonc
 |4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  216  44  ~/.config/waybar/config-sway.jsonc
+|4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  216  44  ~/.config/waybar/config-sway.jsonc
+|4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  216  44  ~/.config/waybar/config-sway.jsonc
+|4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  216  44  ~/.config/waybar/config-sway.jsonc
+|4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  216  44  ~/.config/waybar/config-sway.jsonc
+|4,39,216,44,1757176351,"~/.config/waybar/config-sway.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
+-'  215  54  ~/.config/waybar/config.jsonc
+|4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
 -'  215  54  ~/.config/waybar/config.jsonc
 |4,39,215,54,1757176319,"~/.config/waybar/config.jsonc"
 -'  215  54  ~/.config/waybar/config.jsonc
@@ -475,6 +543,56 @@ $$term
 |4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
 -'  1  0  ~/.config/waybar/config.jsonc
 |4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176292,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
+-'  215  44  ~/.config/waybar/config.jsonc
+|4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
 -'  215  44  ~/.config/waybar/config.jsonc
 |4,39,215,44,1757176253,"~/.config/waybar/config.jsonc"
 -'  215  44  ~/.config/waybar/config.jsonc
@@ -491,6 +609,30 @@ $$term
 |4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
 -'  1  0  ~/.config/waybar/config.jsonc
 |4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
+-'  1  0  ~/.config/waybar/config.jsonc
+|4,39,1,0,1757176196,"~/.config/waybar/config.jsonc"
 -'  1  0  ~/.config/waybar/power_menu.xml
 |4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
 -'  1  0  ~/.config/waybar/power_menu.xml
@@ -499,168 +641,26 @@ $$term
 |4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
 -'  1  0  ~/.config/waybar/power_menu.xml
 |4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  1  0  ~/.config/waybar/power_menu.xml
-|4,39,1,0,1757176193,"~/.config/waybar/power_menu.xml"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  45  0  ~/.gitignore
-|4,39,45,0,1757175865,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757175853,"~/.gitignore"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/waybar/config-sway.jsonc
-	*	1757176526	0
-	"	1	0
-	^	216	45
-	.	216	44
+	*	1757176825	0
+	"	181	8
+	^	181	43
+	.	181	43
 	+	33	12
 	+	33	0
 	+	44	12
 	+	201	8
 	+	44	0
 	+	216	44
+	+	180	38
+	+	181	43
 
 > ~/.config/sway/config
-	*	1757176505	0
-	"	196	73
+	*	1757176621	0
+	"	1	0
 	^	196	74
 	.	196	73
 	+	242	30
