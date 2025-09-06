@@ -49,13 +49,13 @@ default-timeout=1500
 width=620
 text-alignment=left
 anchor=top-left
-on-button-left=exec makoctl dismiss --all && exec makoctl reload
+on-button-left=dismiss
 
 [category=max]
 width=620
 anchor=top-center
 text-alignment=left
-on-button-left=exec makoctl dismiss --all && exec makoctl reload
+on-button-left=dismiss
 
 [category=min]
 width=250
