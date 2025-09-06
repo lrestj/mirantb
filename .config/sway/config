@@ -78,6 +78,9 @@
     bindsym $cs+w exec waypaper
     bindsym $cs+m exec  ~/.dotfiles/scripts/clouds.sh   
 
+    # Mako emergency
+    bindsym $ca+m exec makoctl dismiss --all && makoctl reload
+
     # Touchpad ON/OFF
     bindsym $ca+t exec $term --app-id script -e ~/.dotfiles/scripts/asktouchpad.sh
 
