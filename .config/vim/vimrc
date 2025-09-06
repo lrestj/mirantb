@@ -28,7 +28,6 @@ nnoremap <A-.> :FzfHistory:<CR>
 nnoremap <A-,> :FzfHistory/<CR>
 
 "My settings
-set background=dark   
 colorscheme wildcharm
 syntax on
 filetype plugin indent on
@@ -49,11 +48,11 @@ let &t_SI = "\<Esc>[1 q" "Blinking block in INSERT
 let &t_SR = "\<Esc>[3 q" "Blinking underline in REPLACE
 let &t_EI = "\<Esc>[2 q" "Block in other modes
 
-"Statusline and transparent background    
+"Statusline and custom background    
 hi StatusLine ctermbg=0 ctermfg=22
-hi Normal ctermbg=NONE
-hi NonText ctermbg=NONE
-hi LineNr ctermbg=NONE
+hi Normal ctermbg=234   
+hi NonText ctermbg=234  
+hi LineNr ctermbg=234   
 
 "Plugins
 call plug#begin()
