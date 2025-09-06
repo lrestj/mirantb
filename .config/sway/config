@@ -212,7 +212,6 @@
     bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
     bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
-    # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
     }
@@ -225,7 +224,6 @@
     bindsym s exec makoctl dismiss && $browser https://sdilej.cz/; mode "default"
     bindsym t exec makoctl dismiss && $browser http://titulky.cz/; mode "default"
     bindsym f exec makoctl dismiss && $browser https://www.nerdfonts.com/cheat-sheet; mode "default"
-    # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
     }
