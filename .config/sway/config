@@ -24,6 +24,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
+    set $browser brave
     set $menu rofi -show drun -show-icons -sidebar-mode
     set $filemgr thunar
 
@@ -197,7 +198,20 @@
     bindsym Return mode "default"
     bindsym Escape mode "default"
     }
+    # Nastavení
+    bindsym $mod+i mode "Webmarks"; exec ~/.dotfiles/scripts/webmarks.sh
+    mode "Webmarks" {
+    bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode "default"
+    bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode "default"
+    bindsym p exec makoctl dismiss && $browser https://prehrajto.cz/; mode "default"
+    bindsym s exec makoctl dismiss && $browser https://sdilej.cz/; mode "default"
+    bindsym t exec makoctl dismiss && $browser http://titulky.cz/; mode "default"
+    bindsym f exec makoctl dismiss && $browser https://www.nerdfonts.com/cheat-sheet; mode "default"
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
 
+    }
 ### Windows rules
     for_window [class=".*"] move left
     for_window [app_id="org.gnome.Calculator"] floating enable, move right 480, move up 55
