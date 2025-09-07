@@ -42,7 +42,7 @@
     exec wlsunset -l 50.1 -L 16.2 -t 4700 -T 5000 # Screen blue light settings
     exec udiskie -t
     exec swayosd-server
-    exec_always ~/.dotfiles/scripts/battery-check.sh
+    exec_always battery-check.sh
 
 ### Locking the system
     set $lock swaylock -f -F -e -k -c 000000
@@ -84,7 +84,7 @@
     bindsym $cs+s exec simple-scan
     bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper
-    bindsym $cs+m exec  ~/.dotfiles/scripts/clouds.sh   
+    bindsym $cs+m exec  clouds.sh   
 
     # Mako emergency
     bindsym $ca+m exec makoctl dismiss --all && makoctl reload
@@ -93,14 +93,14 @@
     bindsym --release SUPER_L exec pkill rofi || $menu
 
     # Touchpad ON/OFF
-    bindsym $ca+t exec $term --app-id script -e ~/.dotfiles/scripts/asktouchpad.sh
+    bindsym $ca+t exec $term --app-id script -e asktouchpad.sh
 
     # Nápověda
-    bindsym $mod+n exec ~/.dotfiles/scripts/helpnotify.sh
-    bindsym Alt+n exec ~/.dotfiles/scripts/binds.sh
+    bindsym $mod+n exec helpnotify.sh
+    bindsym Alt+n exec binds.sh
 
     # Time & date
-    bindsym $mod+d exec ~/.dotfiles/scripts/datetimenotify.sh
+    bindsym $mod+d exec datetimenotify.sh
 
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
@@ -115,7 +115,7 @@
 
     # Menu wlogout
     bindsym $mod+y exec pkill wlogout || wlogout -s -c 5 -r 5 -L 360 -R 360
-    bindsym $mod+x exec pkill wlogout || ~/.dotfiles/scripts/power.sh
+    bindsym $mod+x exec pkill wlogout || power.sh
 
     # Reload the configuration file
     bindsym $ms+c reload
@@ -198,7 +198,7 @@
 
 ### MODES:
     # Nastavení
-    bindsym $cs+n mode "Nastavení"; exec ~/.dotfiles/scripts/nsubmap.sh
+    bindsym $cs+n mode "Nastavení"; exec nsubmap.sh
     mode "Nastavení" {
     bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
     bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
@@ -218,7 +218,7 @@
     bindsym Escape mode "default"
     }
     # Wenmarks
-    bindsym $cs+i mode "Webmarks"; exec ~/.dotfiles/scripts/webmarks.sh
+    bindsym $cs+i mode "Webmarks"; exec webmarks.sh
     mode "Webmarks" {
     bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode "default"
     bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode "default"
