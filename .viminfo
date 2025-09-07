@@ -21,9 +21,9 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757252269,,"wq"
+|2,0,1757281095,,"wq"
 :w
-|2,0,1757251417,,"w"
+|2,0,1757280865,,"w"
 :sort
 |2,0,1757251406,,"sort"
 :reg
@@ -366,43 +366,38 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	LINE	0
-	    bindsym $cs+m exec  clouds.sh   
-|3,0,0,1,1,0,1757246725,"    bindsym $cs+m exec  clouds.sh   "
-""1	LINE	0
-	Dokumenty/
-|3,1,1,1,1,0,1757251414,"Dokumenty/"
-"2	LINE	0
+"0	CHAR	0
+	grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy
 	
-|3,0,2,1,1,0,1757247297,""
+	    #
+|3,0,0,0,3,0,1757280169,"grim -g \"$(slurp -p)\" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy","","    #"
+""1	LINE	0
+	#!/bin/bash
+|3,1,1,1,1,0,1757280538,"#!/bin/bash"
+"2	LINE	0
+	Dokumenty/
+|3,0,2,1,1,0,1757251414,"Dokumenty/"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1757246939,""
+|3,0,3,1,1,0,1757247297,""
 "4	LINE	0
-	export PATH=$PATH:/home/libor/.dotfiles/scripts
-|3,0,4,1,1,0,1757246938,"export PATH=$PATH:/home/libor/.dotfiles/scripts"
-"5	LINE	0
-	    bindsym $cs+l exec ./patex.sh   
-|3,0,5,1,1,0,1757246921,"    bindsym $cs+l exec ./patex.sh   "
-"6	LINE	0
-	pokus apend to P register
-|3,0,6,1,1,0,1757240848,"pokus apend to P register"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1757240581,""
+|3,0,4,1,1,0,1757246939,""
+"5	LINE	0
+	export PATH=$PATH:/home/libor/.dotfiles/scripts
+|3,0,5,1,1,0,1757246938,"export PATH=$PATH:/home/libor/.dotfiles/scripts"
+"6	LINE	0
+	    bindsym $cs+l exec ./patex.sh   
+|3,0,6,1,1,0,1757246921,"    bindsym $cs+l exec ./patex.sh   "
+"7	LINE	0
+	pokus apend to P register
+|3,0,7,1,1,0,1757240848,"pokus apend to P register"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1757240512,""
-"9	CHAR	0
-	# if [ $sel='~/.dotfiles/scripts/' ]; then
-	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
-	# else   
-	    touch $file
-	    chmod +x $file
-	    echo "#!/bin/bash" > $file
-	    vim $file
-	f
-|3,0,9,0,8,0,1757236541,"# if [ $sel='~/.dotfiles/scripts/' ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","f"
+|3,0,8,1,1,0,1757240581,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1757240512,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -439,297 +434,236 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  27  9  ~/.gitignore
-|4,48,27,9,1757252269,"~/.gitignore"
-'1  53  0  ~/.gitignore
-|4,49,53,0,1757251418,"~/.gitignore"
-'2  52  0  ~/.gitignore
-|4,50,52,0,1757251418,"~/.gitignore"
-'3  14  22  ~/.config/waybar/config-taskbar
-|4,51,14,22,1757248210,"~/.config/waybar/config-taskbar"
-'4  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,52,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
-'5  46  0  ~/.bashrc
-|4,53,46,0,1757246953,"~/.bashrc"
-'6  88  0  ~/.config/sway/config
-|4,54,88,0,1757246924,"~/.config/sway/config"
-'7  88  27  ~/.config/sway/config
-|4,55,88,27,1757246820,"~/.config/sway/config"
-'8  47  46  ~/.bashrc
-|4,56,47,46,1757246609,"~/.bashrc"
-'9  48  46  ~/.bashrc
-|4,57,48,46,1757246609,"~/.bashrc"
+'0  89  0  ~/.config/sway/config
+|4,48,89,0,1757281096,"~/.config/sway/config"
+'1  140  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,140,14,1757281025,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  140  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,140,23,1757280897,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  1  0  ~/.nix-profile/bin/colorpicker
+|4,51,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+'4  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  141  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,141,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  90  30  ~/.config/sway/config
+|4,56,90,30,1757280171,"~/.config/sway/config"
+'9  27  9  ~/.gitignore
+|4,57,27,9,1757252269,"~/.gitignore"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  27  9  ~/.gitignore
-|4,39,27,9,1757252269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757252202,"~/.gitignore"
--'  53  0  ~/.gitignore
-|4,39,53,0,1757251418,"~/.gitignore"
--'  52  0  ~/.gitignore
-|4,39,52,0,1757251418,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1757251396,"~/.gitignore"
--'  14  22  ~/.config/waybar/config-taskbar
-|4,39,14,22,1757248210,"~/.config/waybar/config-taskbar"
--'  14  22  ~/.config/waybar/config-taskbar
-|4,39,14,22,1757248210,"~/.config/waybar/config-taskbar"
--'  14  22  ~/.config/waybar/config-taskbar
-|4,39,14,22,1757248210,"~/.config/waybar/config-taskbar"
--'  14  22  ~/.config/waybar/config-taskbar
-|4,39,14,22,1757248210,"~/.config/waybar/config-taskbar"
--'  237  22  ~/.config/waybar/config-sway.jsonc
-|4,39,237,22,1757248192,"~/.config/waybar/config-sway.jsonc"
--'  237  22  ~/.config/waybar/config-sway.jsonc
-|4,39,237,22,1757248192,"~/.config/waybar/config-sway.jsonc"
--'  237  22  ~/.config/waybar/config-sway.jsonc
-|4,39,237,22,1757248192,"~/.config/waybar/config-sway.jsonc"
--'  237  22  ~/.config/waybar/config-sway.jsonc
-|4,39,237,22,1757248192,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757248126,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757248126,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757248126,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757248126,"~/.config/waybar/config-sway.jsonc"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757247706,"~/.nix-profile/bin/asktouchpad.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  34  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,34,0,1757247359,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  11  21  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,11,21,1757247255,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  1  0  ~/.nix-profile/bin/zinstallnixos.sh
-|4,39,1,0,1757247168,"~/.nix-profile/bin/zinstallnixos.sh"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  46  0  ~/.bashrc
-|4,39,46,0,1757246953,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1757246933,"~/.bashrc"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757281096,"~/.config/sway/config"
 -'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
--'  88  0  ~/.config/sway/config
-|4,39,88,0,1757246924,"~/.config/sway/config"
+|4,39,88,0,1757281090,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757281085,"~/.config/sway/config"
+-'  140  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,14,1757281025,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,14,1757281025,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757281017,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757281017,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,23,1757280897,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,23,1757280897,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280825,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280825,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  1  0  ~/.nix-profile/bin/colorpicker
+|4,39,1,0,1757280553,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  13  73  ~/.nix-profile/bin/colorpicker
+|4,39,13,73,1757280537,"~/.nix-profile/bin/colorpicker"
+-'  141  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,141,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  141  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,141,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  140  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,140,17,1757280310,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280253,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280253,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280253,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757280253,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  90  30  ~/.config/sway/config
+|4,39,90,30,1757280171,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757280137,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757280019,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.gitignore
-	*	1757252267	0
-	"	27	9
-	^	27	10
-	.	27	9
-	+	46	0
-	+	1	0
-	+	53	0
-	+	27	9
-
-> ~/.config/waybar/config-taskbar
-	*	1757248207	0
-	"	14	22
-	.	14	22
-	+	14	22
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757248169	0
-	"	237	22
-	^	181	43
-	.	237	22
-	+	33	12
-	+	33	0
-	+	44	12
-	+	201	8
-	+	44	0
-	+	216	44
-	+	180	38
-	+	181	43
-	+	237	22
-
-> ~/.nix-profile/bin/asktouchpad.sh
-	*	1757247690	0
-	"	21	53
-	^	21	54
-	.	21	53
-	+	21	53
-
-> ~/.nix-profile/bin/zinstallnixos.sh
-	*	1757247341	0
-	"	34	0
-	.	34	0
-	+	3	0
-	+	7	0
-	+	3	0
-	+	11	0
-	+	17	0
-	+	21	0
-	+	33	0
-	+	34	0
-
-> ~/.bashrc
-	*	1757246951	0
-	"	46	0
-	.	47	0
-	+	46	5
-	+	47	0
-
 > ~/.config/sway/config
-	*	1757246921	0
-	"	88	0
-	.	88	0
-	+	97	0
-	+	96	16
-	+	237	65
-	+	231	0
+	*	1757281091	0
+	"	89	0
+	^	88	4
+	.	89	0
 	+	232	0
 	+	98	3
 	+	99	18
@@ -826,10 +760,140 @@ $
 	+	88	28
 	+	87	23
 	+	88	0
+	+	89	139
+	+	88	12
+	+	88	0
+	+	89	0
 	k	78	0
 	m	199	0
 	s	1	0
 	w	253	0
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757281017	0
+	"	140	14
+	.	140	0
+	+	145	0
+	+	145	23
+	+	145	10
+	+	65	12
+	+	145	0
+	+	145	9
+	+	145	10
+	+	34	0
+	+	122	17
+	+	33	19
+	+	122	0
+	+	92	0
+	+	90	17
+	+	73	0
+	+	73	19
+	+	52	0
+	+	34	0
+	+	6	0
+	+	121	0
+	+	6	0
+	+	8	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	88	0
+	+	121	0
+	+	6	0
+	+	73	0
+	+	49	18
+	+	64	22
+	+	54	16
+	+	28	24
+	+	135	14
+	+	144	0
+	+	137	0
+	+	136	24
+	+	137	37
+	+	145	88
+	+	137	0
+	+	144	0
+	+	51	29
+	+	138	10
+	+	139	38
+	+	143	0
+	+	141	14
+	+	51	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	145	0
+	+	54	0
+	+	97	0
+	+	142	0
+	+	140	17
+	+	140	0
+
+> ~/.nix-profile/bin/colorpicker
+	*	1757280538	0
+	"	1	0
+	^	13	74
+	.	1	0
+	+	13	73
+	+	1	0
+
+> ~/.gitignore
+	*	1757252267	0
+	"	27	9
+	^	27	10
+	.	27	9
+	+	46	0
+	+	1	0
+	+	53	0
+	+	27	9
+
+> ~/.config/waybar/config-taskbar
+	*	1757248207	0
+	"	14	22
+	.	14	22
+	+	14	22
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757248169	0
+	"	237	22
+	^	181	43
+	.	237	22
+	+	33	12
+	+	33	0
+	+	44	12
+	+	201	8
+	+	44	0
+	+	216	44
+	+	180	38
+	+	181	43
+	+	237	22
+
+> ~/.nix-profile/bin/asktouchpad.sh
+	*	1757247690	0
+	"	21	53
+	^	21	54
+	.	21	53
+	+	21	53
+
+> ~/.nix-profile/bin/zinstallnixos.sh
+	*	1757247341	0
+	"	34	0
+	.	34	0
+	+	3	0
+	+	7	0
+	+	3	0
+	+	11	0
+	+	17	0
+	+	21	0
+	+	33	0
+	+	34	0
+
+> ~/.bashrc
+	*	1757246951	0
+	"	46	0
+	.	47	0
+	+	46	5
+	+	47	0
 
 > ~/.nix-profile/bin/pathexp.sh
 	*	1757246368	0
@@ -972,64 +1036,6 @@ $
 	+	4	0
 	+	10	7
 	+	6	23
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757195719	0
-	"	80	12
-	^	7	15
-	.	97	0
-	+	143	0
-	+	143	23
-	+	143	10
-	+	65	12
-	+	143	0
-	+	143	9
-	+	143	10
-	+	34	0
-	+	122	17
-	+	33	19
-	+	122	0
-	+	92	0
-	+	90	17
-	+	73	0
-	+	73	19
-	+	52	0
-	+	34	0
-	+	6	0
-	+	121	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	88	0
-	+	121	0
-	+	6	0
-	+	73	0
-	+	49	18
-	+	64	22
-	+	54	16
-	+	28	24
-	+	135	14
-	+	142	0
-	+	137	0
-	+	136	24
-	+	137	37
-	+	143	88
-	+	137	0
-	+	142	0
-	+	51	29
-	+	138	10
-	+	139	38
-	+	141	0
-	+	140	14
-	+	51	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	143	0
-	+	54	0
-	+	97	0
 
 > ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 	*	1757195554	0

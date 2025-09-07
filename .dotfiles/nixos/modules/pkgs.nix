@@ -137,7 +137,9 @@
           wrapperFeatures.gtk = true;
           xwayland.enable = true;
           extraPackages = with pkgs; [
+              grim
               sway-contrib.grimshot
+
           ];
       };
       git = {
