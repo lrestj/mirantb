@@ -84,7 +84,7 @@
     bindsym $cs+s exec simple-scan
     bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper
-    bindsym $cs+m exec  clouds.sh   
+    bindsym $cs+m exec clouds.sh   
 
     # Mako emergency
     bindsym $ca+m exec makoctl dismiss --all && makoctl reload

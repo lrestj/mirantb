@@ -43,4 +43,4 @@ alias untrack='git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME update-index --sk
 alias config='git --git-dir=/home/libor/.cfg/ --work-tree=/home/libor'
 
  
-#####  END OF FILE  #####
+#### # END OF FILE  #####
