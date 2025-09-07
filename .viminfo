@@ -20,12 +20,14 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757240600,,"w"
+:reg
+|2,0,1757240412,,"reg"
+:wq
+|2,0,1757238400,,"wq"
 :q
 |2,0,1757236964,,"q"
-:wq
-|2,0,1757236946,,"wq"
-:w
-|2,0,1757236571,,"w"
 :%s/\~\/.dotfiles\/scripts\///g
 |2,0,1757235411,,"%s/\\~\\/.dotfiles\\/scripts\\///g"
 :%s/\~\/.dotfiles\/scripts\// /g
@@ -54,8 +56,6 @@ $
 |2,0,1757154501,,"'<,'>d"
 :so $MYVIMRC
 |2,0,1757152876,,"so $MYVIMRC"
-:reg
-|2,0,1757110375,,"reg"
 :%s/bind/bindsym/g
 |2,0,1757109836,,"%s/bind/bindsym/g"
 :enew
@@ -367,7 +367,16 @@ $
 "0	LINE	0
 	    set $logout sleep 1 && swaymsg exit
 |3,0,0,1,1,0,1757196366,"    set $logout sleep 1 && swaymsg exit"
-""1	CHAR	0
+"1	LINE	0
+	pokus apend to P register
+|3,0,1,1,1,0,1757240848,"pokus apend to P register"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1757240581,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1757240512,""
+"4	CHAR	0
 	# if [ $sel='~/.dotfiles/scripts/' ]; then
 	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
 	# else   
@@ -376,8 +385,8 @@ $
 	    echo "#!/bin/bash" > $file
 	    vim $file
 	f
-|3,1,1,0,8,0,1757236541,"# if [ $sel='~/.dotfiles/scripts/' ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","f"
-"2	CHAR	0
+|3,0,4,0,8,0,1757236541,"# if [ $sel='~/.dotfiles/scripts/' ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","f"
+"5	CHAR	0
 	if [ $sel='~/.dotfiles/scripts/' ]; then
 	    notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
 	else   
@@ -386,43 +395,35 @@ $
 	    echo "#!/bin/bash" > $file
 	    vim $file
 	fi
-|3,0,2,0,8,0,1757236255,"if [ $sel='~/.dotfiles/scripts/' ]; then","    notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","fi"
-"3	LINE	0
-	      hyprland.url = "github:hyprwm/Hyprland";
-|3,0,3,1,1,0,1757197481,"      hyprland.url = \"github:hyprwm/Hyprland\";"
-"4	LINE	0
-	            xdg-desktop-portal-hyprland
-|3,0,4,1,1,0,1757195692,"            xdg-desktop-portal-hyprland"
-"5	LINE	0
-	            hyprshot
-|3,0,5,1,1,0,1757195672,"            hyprshot"
+|3,0,5,0,8,0,1757236255,"if [ $sel='~/.dotfiles/scripts/' ]; then","    notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","fi"
 "6	LINE	0
-	            hyprlock
-|3,0,6,1,1,0,1757195671,"            hyprlock"
+	      hyprland.url = "github:hyprwm/Hyprland";
+|3,0,6,1,1,0,1757197481,"      hyprland.url = \"github:hyprwm/Hyprland\";"
 "7	LINE	0
-	            hypridle
-|3,0,7,1,1,0,1757195670,"            hypridle"
+	            xdg-desktop-portal-hyprland
+|3,0,7,1,1,0,1757195692,"            xdg-desktop-portal-hyprland"
 "8	LINE	0
-	      hyprland = {
-	           enable = true;
-	           xwayland.enable = true;
-	           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-	           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
-	      };
-|3,0,8,1,6,0,1757194765,"      hyprland = {","           enable = true;","           xwayland.enable = true;","           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;","           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;","      };"
+	            hyprshot
+|3,0,8,1,1,0,1757195672,"            hyprshot"
 "9	LINE	0
-	    # 
-|3,0,9,1,1,0,1757186549,"    # "
+	            hyprlock
+|3,0,9,1,1,0,1757195671,"            hyprlock"
+"a	CHAR	0
+	$(dirname "0")
+|3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
 "b	LINE	0
 	#!/bin/bash
 	
 |3,0,11,1,2,0,1756663634,"#!/bin/bash",""
+""p	LINE	0
+	sdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+|3,1,25,1,1,0,1757240855,"sdir=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" &> /dev/null && pwd )\""
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
 "-	CHAR	0
-	_always 
-|3,0,36,0,1,0,1757196568,"_always "
+	~/.nix-profile/bin
+|3,0,36,0,1,0,1757240177,"~/.nix-profile/bin"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -443,237 +444,258 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  0  ~/.nix-profile/bin/krtek.sh
-|4,48,1,0,1757236964,"~/.nix-profile/bin/krtek.sh"
-'1  4  23  ~/.nix-profile/bin/addnew.sh
-|4,49,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
-'2  1  0  ~/.nix-profile/krtek
-|4,50,1,0,1757236911,"~/.nix-profile/krtek"
-'3  1  0  ~/.nix-profile/krtek
-|4,51,1,0,1757236911,"~/.nix-profile/krtek"
-'4  4  18  ~/.nix-profile/bin/addnew.sh
-|4,52,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
-'5  1  0  ~/.dotfiles/scripts/krtek
-|4,53,1,0,1757236777,"~/.dotfiles/scripts/krtek"
-'6  1  0  ~/.dotfiles/scripts/krtek
-|4,54,1,0,1757236777,"~/.dotfiles/scripts/krtek"
-'7  1  0  ~/.dotfiles/scripts/krtek
-|4,55,1,0,1757236777,"~/.dotfiles/scripts/krtek"
-'8  1  0  ~/.dotfiles/scripts/krtek
-|4,56,1,0,1757236777,"~/.dotfiles/scripts/krtek"
-'9  1  0  ~/.dotfiles/scripts/pokus
-|4,57,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+'0  1  0  ~/.nix-profile/bin/binds.sh
+|4,48,1,0,1757240696,"~/.nix-profile/bin/binds.sh"
+'1  1  0  ~/.nix-profile/krtek
+|4,49,1,0,1757240645,"~/.nix-profile/krtek"
+'2  6  91  ~/.nix-profile/bin/binds.sh
+|4,50,6,91,1757238975,"~/.nix-profile/bin/binds.sh"
+'3  4  91  ~/.nix-profile/bin/binds.sh
+|4,51,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+'4  6  91  ~/.nix-profile/bin/binds.sh
+|4,52,6,91,1757238975,"~/.nix-profile/bin/binds.sh"
+'5  4  91  ~/.nix-profile/bin/binds.sh
+|4,53,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+'6  6  107  ~/.nix-profile/bin/binds.sh
+|4,54,6,107,1757238400,"~/.nix-profile/bin/binds.sh"
+'7  4  107  ~/.nix-profile/bin/binds.sh
+|4,55,4,107,1757238400,"~/.nix-profile/bin/binds.sh"
+'8  6  107  ~/.nix-profile/bin/binds.sh
+|4,56,6,107,1757238400,"~/.nix-profile/bin/binds.sh"
+'9  4  107  ~/.nix-profile/bin/binds.sh
+|4,57,4,107,1757238400,"~/.nix-profile/bin/binds.sh"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  1  0  ~/.nix-profile/bin/krtek.sh
-|4,39,1,0,1757236964,"~/.nix-profile/bin/krtek.sh"
--'  4  23  ~/.nix-profile/bin/addnew.sh
-|4,39,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
--'  4  23  ~/.nix-profile/bin/addnew.sh
-|4,39,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757240696,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757240696,"~/.nix-profile/bin/binds.sh"
 -'  1  0  ~/.nix-profile/krtek
-|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+|4,39,1,0,1757240645,"~/.nix-profile/krtek"
 -'  1  0  ~/.nix-profile/krtek
-|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+|4,39,1,0,1757240645,"~/.nix-profile/krtek"
 -'  1  0  ~/.nix-profile/krtek
-|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+|4,39,1,0,1757240645,"~/.nix-profile/krtek"
 -'  1  0  ~/.nix-profile/krtek
-|4,39,1,0,1757236911,"~/.nix-profile/krtek"
--'  4  18  ~/.nix-profile/bin/addnew.sh
-|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
--'  4  18  ~/.nix-profile/bin/addnew.sh
-|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
--'  4  18  ~/.nix-profile/bin/addnew.sh
-|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
--'  4  18  ~/.nix-profile/bin/addnew.sh
-|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/krtek
-|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  1  0  ~/.dotfiles/scripts/pokus
-|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
--'  13  0  ~/.nix-profile/bin/addnew.sh
-|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+|4,39,1,0,1757240645,"~/.nix-profile/krtek"
+-'  3  2  ~/.nix-profile/bin/binds.sh
+|4,39,3,2,1757240482,"~/.nix-profile/bin/binds.sh"
+-'  3  2  ~/.nix-profile/bin/binds.sh
+|4,39,3,2,1757240482,"~/.nix-profile/bin/binds.sh"
+-'  3  2  ~/.nix-profile/bin/binds.sh
+|4,39,3,2,1757240482,"~/.nix-profile/bin/binds.sh"
+-'  3  2  ~/.nix-profile/bin/binds.sh
+|4,39,3,2,1757240482,"~/.nix-profile/bin/binds.sh"
+-'  5  93  ~/.nix-profile/bin/binds.sh
+|4,39,5,93,1757239272,"~/.nix-profile/bin/binds.sh"
+-'  5  93  ~/.nix-profile/bin/binds.sh
+|4,39,5,93,1757239272,"~/.nix-profile/bin/binds.sh"
+-'  5  93  ~/.nix-profile/bin/binds.sh
+|4,39,5,93,1757239272,"~/.nix-profile/bin/binds.sh"
+-'  5  93  ~/.nix-profile/bin/binds.sh
+|4,39,5,93,1757239272,"~/.nix-profile/bin/binds.sh"
+-'  6  104  ~/.nix-profile/bin/binds.sh
+|4,39,6,104,1757239271,"~/.nix-profile/bin/binds.sh"
+-'  6  104  ~/.nix-profile/bin/binds.sh
+|4,39,6,104,1757239271,"~/.nix-profile/bin/binds.sh"
+-'  6  104  ~/.nix-profile/bin/binds.sh
+|4,39,6,104,1757239271,"~/.nix-profile/bin/binds.sh"
+-'  6  104  ~/.nix-profile/bin/binds.sh
+|4,39,6,104,1757239271,"~/.nix-profile/bin/binds.sh"
+-'  4  91  ~/.nix-profile/bin/binds.sh
+|4,39,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+-'  4  91  ~/.nix-profile/bin/binds.sh
+|4,39,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+-'  4  91  ~/.nix-profile/bin/binds.sh
+|4,39,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+-'  4  91  ~/.nix-profile/bin/binds.sh
+|4,39,4,91,1757238975,"~/.nix-profile/bin/binds.sh"
+-'  4  107  ~/.nix-profile/bin/binds.sh
+|4,39,4,107,1757238400,"~/.nix-profile/bin/binds.sh"
+-'  4  107  ~/.nix-profile/bin/binds.sh
+|4,39,4,107,1757238400,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  1  0  ~/.nix-profile/bin/binds.sh
+|4,39,1,0,1757238356,"~/.nix-profile/bin/binds.sh"
+-'  5  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,5,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  5  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,5,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  5  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,5,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  5  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,5,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  3  88  ~/.nix-profile/bin/nsubmap.sh
+|4,39,3,88,1757238278,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  1  0  ~/.nix-profile/bin/nsubmap.sh
+|4,39,1,0,1757238261,"~/.nix-profile/bin/nsubmap.sh"
+-'  7  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,7,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  7  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,7,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  7  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,7,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  7  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,7,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  6  92  ~/.nix-profile/bin/helpnotify.sh
+|4,39,6,92,1757238104,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
+-'  1  0  ~/.nix-profile/bin/helpnotify.sh
+|4,39,1,0,1757237589,"~/.nix-profile/bin/helpnotify.sh"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.nix-profile/bin/krtek.sh
-	*	1757236961	0
+> ~/.nix-profile/bin/binds.sh
+	*	1757240693	0
+	"	1	0
+	^	3	69
+	.	3	68
+	+	5	106
+	+	6	107
+	+	5	102
+	+	6	91
+	+	5	106
+	+	6	107
+	+	5	105
+	+	5	0
+	+	4	0
+	+	3	19
+	+	5	96
+	+	6	98
+	+	5	102
+	+	6	103
+	+	3	22
+	+	5	95
+	+	6	96
+	+	5	97
+	+	3	68
+
+> ~/.nix-profile/krtek
+	*	1757240643	0
 	"	1	0
 
 > ~/.nix-profile/bin/addnew.sh
-	*	1757236943	0
+	*	1757240637	0
 	"	4	23
 	^	4	24
 	.	4	23
@@ -682,9 +704,29 @@ $
 	+	13	0
 	+	4	23
 
-> ~/.nix-profile/krtek
-	*	1757236931	0
+> ~/.nix-profile/bin/krtek.sh
+	*	1757240635	0
 	"	1	0
+
+> ~/.nix-profile/bin/helpnotify.sh
+	*	1757240629	0
+	"	1	0
+	^	7	84
+	.	7	83
+	+	4	0
+	+	7	92
+	+	3	0
+	+	7	83
+
+> ~/.nix-profile/bin/nsubmap.sh
+	*	1757240560	0
+	"	1	0
+	^	5	76
+	.	5	75
+	+	5	88
+	+	3	0
+	+	4	0
+	+	5	75
 
 > ~/.dotfiles/scripts/pokus
 	*	1757236791	0
