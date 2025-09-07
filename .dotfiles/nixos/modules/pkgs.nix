@@ -43,6 +43,7 @@
             fish
             font-manager
             foot
+            fuzzel
             fzf
             geany
             glib util-linux

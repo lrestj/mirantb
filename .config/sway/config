@@ -31,7 +31,7 @@
     set $term foot
     set $editor $term -e vim
     set $browser brave
-    set $menu rofi -show drun -show-icons -sidebar-mode
+    set $menu fuzzel
     set $filemgr thunar
 
 ### Apps at startup
@@ -90,7 +90,7 @@
     bindsym $ca+m exec makoctl dismiss --all && makoctl reload
 
     # Start launcher
-    bindsym --release SUPER_L exec pkill rofi || $menu
+    bindsym --release SUPER_L exec pkill fuzzel || $menu
 
     # Touchpad ON/OFF
     bindsym $ca+t exec $term --app-id script -e asktouchpad.sh
@@ -107,7 +107,8 @@
     bindsym $ma+Return exec pkill waybar && waybar --config ~/.config/waybar/config-taskbar
 
     # Clipboard toggle
-    bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
+    bindsym $mod+c exec pkill fuzzel || cliphist-fuzzel-img
+    # bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
 
     # Opacity
     bindsym $mod+p opacity plus 0.05
