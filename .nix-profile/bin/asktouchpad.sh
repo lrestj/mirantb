@@ -18,7 +18,7 @@ enable_touchpad() {
 }
 
 # Ask user
-read -n1 -s -t10 -p "Aktivovat/zakázat touchpad ???    Zvolte [A,z]:  " input
+read -n1 -s -t10 -p "Aktivovat/zakázat touchpad ???   Zvolte [A,z]:  " input
  if [ "$input" = "z" ]; then
    disable_touchpad
  else

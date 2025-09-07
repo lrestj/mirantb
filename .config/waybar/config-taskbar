@@ -11,7 +11,7 @@
     // Modules configuration
     "wlr/taskbar": {
         "format": "{icon}",
-        "icon-size": 35,
+        "icon-size": 38,
         //"icon-theme": "Numix-Circle",
         "tooltip-format": "{title}",
         "on-click": "activate",
