@@ -20,18 +20,18 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:q
+|2,0,1757236964,,"q"
 :wq
-|2,0,1757235426,,"wq"
+|2,0,1757236946,,"wq"
+:w
+|2,0,1757236571,,"w"
 :%s/\~\/.dotfiles\/scripts\///g
 |2,0,1757235411,,"%s/\\~\\/.dotfiles\\/scripts\\///g"
 :%s/\~\/.dotfiles\/scripts\// /g
 |2,0,1757235347,,"%s/\\~\\/.dotfiles\\/scripts\\// /g"
 :%s/\~\/.dotfiles\/scripts\/ /g
 |2,0,1757235300,,"%s/\\~\\/.dotfiles\\/scripts\\/ /g"
-:w
-|2,0,1757234822,,"w"
-:q
-|2,0,1757186641,,"q"
 :182,189m192
 |2,0,1757186603,,"182,189m192"
 :193,195m176
@@ -367,38 +367,52 @@ $
 "0	LINE	0
 	    set $logout sleep 1 && swaymsg exit
 |3,0,0,1,1,0,1757196366,"    set $logout sleep 1 && swaymsg exit"
-""1	LINE	0
-	      hyprland.url = "github:hyprwm/Hyprland";
-|3,1,1,1,1,0,1757197481,"      hyprland.url = \"github:hyprwm/Hyprland\";"
-"2	LINE	0
-	            xdg-desktop-portal-hyprland
-|3,0,2,1,1,0,1757195692,"            xdg-desktop-portal-hyprland"
+""1	CHAR	0
+	# if [ $sel='~/.dotfiles/scripts/' ]; then
+	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
+	# else   
+	    touch $file
+	    chmod +x $file
+	    echo "#!/bin/bash" > $file
+	    vim $file
+	f
+|3,1,1,0,8,0,1757236541,"# if [ $sel='~/.dotfiles/scripts/' ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","f"
+"2	CHAR	0
+	if [ $sel='~/.dotfiles/scripts/' ]; then
+	    notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
+	else   
+	    touch $file
+	    chmod +x $file
+	    echo "#!/bin/bash" > $file
+	    vim $file
+	fi
+|3,0,2,0,8,0,1757236255,"if [ $sel='~/.dotfiles/scripts/' ]; then","    notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","else   ","    touch $file","    chmod +x $file","    echo \"#!/bin/bash\" > $file","    vim $file","fi"
 "3	LINE	0
-	            hyprshot
-|3,0,3,1,1,0,1757195672,"            hyprshot"
+	      hyprland.url = "github:hyprwm/Hyprland";
+|3,0,3,1,1,0,1757197481,"      hyprland.url = \"github:hyprwm/Hyprland\";"
 "4	LINE	0
-	            hyprlock
-|3,0,4,1,1,0,1757195671,"            hyprlock"
+	            xdg-desktop-portal-hyprland
+|3,0,4,1,1,0,1757195692,"            xdg-desktop-portal-hyprland"
 "5	LINE	0
-	            hypridle
-|3,0,5,1,1,0,1757195670,"            hypridle"
+	            hyprshot
+|3,0,5,1,1,0,1757195672,"            hyprshot"
 "6	LINE	0
+	            hyprlock
+|3,0,6,1,1,0,1757195671,"            hyprlock"
+"7	LINE	0
+	            hypridle
+|3,0,7,1,1,0,1757195670,"            hypridle"
+"8	LINE	0
 	      hyprland = {
 	           enable = true;
 	           xwayland.enable = true;
 	           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
 	           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
 	      };
-|3,0,6,1,6,0,1757194765,"      hyprland = {","           enable = true;","           xwayland.enable = true;","           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;","           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;","      };"
-"7	LINE	0
-	    # 
-|3,0,7,1,1,0,1757186549,"    # "
-"8	LINE	0
-	    # Return to default mode
-|3,0,8,1,1,0,1757185666,"    # Return to default mode"
+|3,0,8,1,6,0,1757194765,"      hyprland = {","           enable = true;","           xwayland.enable = true;","           package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;","           portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;","      };"
 "9	LINE	0
-	    # Return to default mode
-|3,0,9,1,1,0,1757185660,"    # Return to default mode"
+	    # 
+|3,0,9,1,1,0,1757186549,"    # "
 "b	LINE	0
 	#!/bin/bash
 	
@@ -429,230 +443,256 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  132  4  ~/.config/sway/config
-|4,48,132,4,1757235426,"~/.config/sway/config"
-'1  103  23  ~/.config/sway/config
-|4,49,103,23,1757234827,"~/.config/sway/config"
-'2  103  23  ~/.config/sway/config
-|4,50,103,23,1757234827,"~/.config/sway/config"
-'3  9  6  ~/.dotfiles/nixos/flake.nix
-|4,51,9,6,1757197543,"~/.dotfiles/nixos/flake.nix"
-'4  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,52,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
-'5  45  8  ~/.config/sway/config
-|4,53,45,8,1757196686,"~/.config/sway/config"
-'6  45  8  ~/.config/sway/config
-|4,54,45,8,1757196686,"~/.config/sway/config"
-'7  45  8  ~/.config/sway/config
-|4,55,45,8,1757196686,"~/.config/sway/config"
-'8  45  8  ~/.config/sway/config
-|4,56,45,8,1757196686,"~/.config/sway/config"
-'9  45  8  ~/.config/sway/config
-|4,57,45,8,1757196686,"~/.config/sway/config"
+'0  1  0  ~/.nix-profile/bin/krtek.sh
+|4,48,1,0,1757236964,"~/.nix-profile/bin/krtek.sh"
+'1  4  23  ~/.nix-profile/bin/addnew.sh
+|4,49,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
+'2  1  0  ~/.nix-profile/krtek
+|4,50,1,0,1757236911,"~/.nix-profile/krtek"
+'3  1  0  ~/.nix-profile/krtek
+|4,51,1,0,1757236911,"~/.nix-profile/krtek"
+'4  4  18  ~/.nix-profile/bin/addnew.sh
+|4,52,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
+'5  1  0  ~/.dotfiles/scripts/krtek
+|4,53,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+'6  1  0  ~/.dotfiles/scripts/krtek
+|4,54,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+'7  1  0  ~/.dotfiles/scripts/krtek
+|4,55,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+'8  1  0  ~/.dotfiles/scripts/krtek
+|4,56,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+'9  1  0  ~/.dotfiles/scripts/pokus
+|4,57,1,0,1757236694,"~/.dotfiles/scripts/pokus"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  132  4  ~/.config/sway/config
-|4,39,132,4,1757235426,"~/.config/sway/config"
--'  45  0  ~/.config/sway/config
-|4,39,45,0,1757235411,"~/.config/sway/config"
--'  100  23  ~/.config/sway/config
-|4,39,100,23,1757235395,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757235347,"~/.config/sway/config"
--'  103  23  ~/.config/sway/config
-|4,39,103,23,1757234827,"~/.config/sway/config"
--'  103  23  ~/.config/sway/config
-|4,39,103,23,1757234827,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757234791,"~/.config/sway/config"
--'  9  6  ~/.dotfiles/nixos/flake.nix
-|4,39,9,6,1757197543,"~/.dotfiles/nixos/flake.nix"
--'  9  6  ~/.dotfiles/nixos/flake.nix
-|4,39,9,6,1757197543,"~/.dotfiles/nixos/flake.nix"
--'  9  6  ~/.dotfiles/nixos/flake.nix
-|4,39,9,6,1757197543,"~/.dotfiles/nixos/flake.nix"
--'  9  6  ~/.dotfiles/nixos/flake.nix
-|4,39,9,6,1757197543,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757197471,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757197471,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757197471,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757197471,"~/.dotfiles/nixos/flake.nix"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196742,"~/.dotfiles/scripts/battery-check.sh"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196686,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196686,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196686,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196686,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196686,"~/.config/sway/config"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  6  23  ~/.dotfiles/scripts/battery-check.sh
-|4,39,6,23,1757196658,"~/.dotfiles/scripts/battery-check.sh"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196597,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196597,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196597,"~/.config/sway/config"
--'  45  8  ~/.config/sway/config
-|4,39,45,8,1757196597,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757196558,"~/.config/sway/config"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  1  0  ~/.dotfiles/scripts/battery-check.sh
-|4,39,1,0,1757196556,"~/.dotfiles/scripts/battery-check.sh"
--'  53  34  ~/.config/sway/config
-|4,39,53,34,1757196467,"~/.config/sway/config"
--'  53  34  ~/.config/sway/config
-|4,39,53,34,1757196467,"~/.config/sway/config"
--'  53  34  ~/.config/sway/config
-|4,39,53,34,1757196467,"~/.config/sway/config"
--'  53  34  ~/.config/sway/config
-|4,39,53,34,1757196467,"~/.config/sway/config"
+-'  1  0  ~/.nix-profile/bin/krtek.sh
+|4,39,1,0,1757236964,"~/.nix-profile/bin/krtek.sh"
+-'  4  23  ~/.nix-profile/bin/addnew.sh
+|4,39,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
+-'  4  23  ~/.nix-profile/bin/addnew.sh
+|4,39,4,23,1757236946,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/krtek
+|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+-'  1  0  ~/.nix-profile/krtek
+|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+-'  1  0  ~/.nix-profile/krtek
+|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+-'  1  0  ~/.nix-profile/krtek
+|4,39,1,0,1757236911,"~/.nix-profile/krtek"
+-'  4  18  ~/.nix-profile/bin/addnew.sh
+|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
+-'  4  18  ~/.nix-profile/bin/addnew.sh
+|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
+-'  4  18  ~/.nix-profile/bin/addnew.sh
+|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
+-'  4  18  ~/.nix-profile/bin/addnew.sh
+|4,39,4,18,1757236892,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/krtek
+|4,39,1,0,1757236777,"~/.dotfiles/scripts/krtek"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236694,"~/.dotfiles/scripts/pokus"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236642,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  1  0  ~/.dotfiles/scripts/pokus
+|4,39,1,0,1757236615,"~/.dotfiles/scripts/pokus"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757236574,"~/.nix-profile/bin/addnew.sh"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.nix-profile/bin/krtek.sh
+	*	1757236961	0
+	"	1	0
+
+> ~/.nix-profile/bin/addnew.sh
+	*	1757236943	0
+	"	4	23
+	^	4	24
+	.	4	23
+	+	14	0
+	+	6	0
+	+	13	0
+	+	4	23
+
+> ~/.nix-profile/krtek
+	*	1757236931	0
+	"	1	0
+
+> ~/.dotfiles/scripts/pokus
+	*	1757236791	0
+	"	1	0
+
+> ~/.dotfiles/scripts/krtek
+	*	1757236791	0
+	"	1	0
 
 > ~/.config/sway/config
 	*	1757235421	0
