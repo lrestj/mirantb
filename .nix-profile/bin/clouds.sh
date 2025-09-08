@@ -1,28 +1,25 @@
 #!/bin/bash
 
-PO="󰏊 Připojit OneDrive"
-OO="󰏊 Odpojit OneDrive"
-PG=" Připojit Google Disk"
-OG=" Odpojit Google Disk"
+PO="󰏊  Připojit OneDrive"
+OO="󰏊  Odpojit OneDrive"
+PG="  Připojit Google Disk"
+OG="  Odpojit Google Disk"
 
-selected=$(echo "$PO
-$OO
-$PG
-$OG" | rofi -theme ~/.config/rofi/rofithemes/cloud.rasi -dmenu -p Úložiště)
+selected=$(echo -e "$PO\n$OO\n$PG\n$OG" | fuzzel -d -p "Úložiště: " )
 
  if [ "$selected" = "$PO" ]; then
-   source /home/libor/.dotfiles/scripts/onedrive.sh
+   source onedrive.sh
  fi  
 
  if [ "$selected" = "$OO" ]; then
-   source /home/libor/.dotfiles/scripts/umonedrive.sh
+   source umonedrive.sh
  fi
 
  if [ "$selected" = "$PG" ]; then
-   source /home/libor/.dotfiles/scripts/googledrive.sh
+   source googledrive.sh
  fi  
 
  if [ "$selected" = "$OG" ]; then
-   source /home/libor/.dotfiles/scripts/umgoogledrive.sh
+   source umgoogledrive.sh
  fi
 
