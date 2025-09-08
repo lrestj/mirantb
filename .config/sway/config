@@ -5,8 +5,8 @@
     output * bg /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 ### Input configuration
-    input type:touchpad {
-        dwt enabled
+    input 2:7:SynPS/2_Synaptics_TouchPad {
+        dwt disabled
         tap enabled
         natural_scroll disabled
         middle_emulation enabled
@@ -95,7 +95,7 @@
     bindsym Alt+y exec pkill fuzzel || $menu
 
     # Touchpad ON/OFF
-    bindsym $ca+t exec $term --app-id script -e asktouchpad.sh
+    bindsym $ca+t input type:touchpad events toggle enabled disabled; exec notify-send -t 600 -c center -i touchpad "Touchpad On/Off"
 
     # Nápověda
     bindsym $mod+n exec helpnotify.sh

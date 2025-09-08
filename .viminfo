@@ -20,12 +20,12 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757346117,,"w"
 :wq
-|2,0,1757343155,,"wq"
+|2,0,1757345276,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
-:w
-|2,0,1757342323,,"w"
 :w .dotfiles/other/stuff2remember.txt
 |2,0,1757341333,,"w .dotfiles/other/stuff2remember.txt"
 :q
@@ -378,12 +378,12 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	CHAR	0
-	64727bff
-|3,0,0,0,1,0,1757340687,"64727bff"
-""1	LINE	0
+"0	LINE	0
+	  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg "Touchpad zakázán"
+|3,0,0,1,1,0,1757345563,"  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg \"Touchpad zakázán\""
+"1	LINE	0
 	ddgtk-application-prefer-dark-theme=1
-|3,1,1,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
+|3,0,1,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
 "2	LINE	0
 	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
 |3,0,2,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
@@ -424,9 +424,9 @@ $
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
-"-	CHAR	0
-	Hyprland
-|3,0,36,0,1,0,1757341991,"Hyprland"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1757345888," "
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -447,279 +447,236 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  7  0  ~/.config/gtk-4.0/settings.ini
-|4,48,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
-'1  16  0  ~/.dotfiles/other/stuff2remember.txt
-|4,49,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
-'2  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,50,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
-'3  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,51,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
-'4  214  4  ~/.config/sway/config
-|4,52,214,4,1757342637,"~/.config/sway/config"
-'5  215  4  ~/.config/sway/config
-|4,53,215,4,1757342589,"~/.config/sway/config"
-'6  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,54,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
-'7  195  0  ~/.config/sway/config
-|4,55,195,0,1757342469,"~/.config/sway/config"
-'8  195  0  ~/.config/sway/config
-|4,56,195,0,1757342469,"~/.config/sway/config"
-'9  195  0  ~/.config/sway/config
-|4,57,195,0,1757342469,"~/.config/sway/config"
+'0  98  90  ~/.config/sway/config
+|4,48,98,90,1757346132,"~/.config/sway/config"
+'1  21  53  ~/.nix-profile/bin/asktouchpad.sh
+|4,49,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
+'2  98  67  ~/.config/sway/config
+|4,50,98,67,1757345418,"~/.config/sway/config"
+'3  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,51,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+'4  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,52,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+'5  9  12  ~/.config/sway/config
+|4,53,9,12,1757344601,"~/.config/sway/config"
+'6  9  12  ~/.config/sway/config
+|4,54,9,12,1757344601,"~/.config/sway/config"
+'7  9  12  ~/.config/sway/config
+|4,55,9,12,1757344601,"~/.config/sway/config"
+'8  9  12  ~/.config/sway/config
+|4,56,9,12,1757344601,"~/.config/sway/config"
+'9  9  12  ~/.config/sway/config
+|4,57,9,12,1757344601,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  98  90  ~/.config/sway/config
+|4,39,98,90,1757346132,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757345595,"~/.config/sway/config"
+-'  21  53  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
+-'  21  53  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
+-'  10  27  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,10,27,1757345576,"~/.nix-profile/bin/asktouchpad.sh"
+-'  10  27  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,10,27,1757345576,"~/.nix-profile/bin/asktouchpad.sh"
+-'  1  0  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,1,0,1757345481,"~/.nix-profile/bin/asktouchpad.sh"
+-'  1  0  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,1,0,1757345481,"~/.nix-profile/bin/asktouchpad.sh"
+-'  98  67  ~/.config/sway/config
+|4,39,98,67,1757345418,"~/.config/sway/config"
+-'  98  67  ~/.config/sway/config
+|4,39,98,67,1757345418,"~/.config/sway/config"
+-'  241  0  ~/.config/sway/config
+|4,39,241,0,1757345373,"~/.config/sway/config"
+-'  241  0  ~/.config/sway/config
+|4,39,241,0,1757345373,"~/.config/sway/config"
+-'  241  0  ~/.config/sway/config
+|4,39,241,0,1757345373,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757345368,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757345368,"~/.config/sway/config"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  5  22  ~/.nix-profile/bin/asktouchpad.sh
+|4,39,5,22,1757345277,"~/.nix-profile/bin/asktouchpad.sh"
+-'  26  16  ~/.config/sway/config
+|4,39,26,16,1757345235,"~/.config/sway/config"
+-'  26  16  ~/.config/sway/config
+|4,39,26,16,1757345235,"~/.config/sway/config"
+-'  26  16  ~/.config/sway/config
+|4,39,26,16,1757345235,"~/.config/sway/config"
+-'  26  16  ~/.config/sway/config
+|4,39,26,16,1757345235,"~/.config/sway/config"
+-'  26  16  ~/.config/sway/config
+|4,39,26,16,1757345235,"~/.config/sway/config"
+-'  18  14  ~/.config/sway/config
+|4,39,18,14,1757345092,"~/.config/sway/config"
+-'  18  14  ~/.config/sway/config
+|4,39,18,14,1757345092,"~/.config/sway/config"
+-'  18  14  ~/.config/sway/config
+|4,39,18,14,1757345092,"~/.config/sway/config"
+-'  18  14  ~/.config/sway/config
+|4,39,18,14,1757345092,"~/.config/sway/config"
+-'  18  14  ~/.config/sway/config
+|4,39,18,14,1757345092,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757345076,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757345076,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757345076,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757345076,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757345076,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757344961,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757344961,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757344601,"~/.config/sway/config"
+-'  9  12  ~/.config/sway/config
+|4,39,9,12,1757344601,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757344522,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757344522,"~/.config/sway/config"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
 -'  7  0  ~/.config/gtk-4.0/settings.ini
 |4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
 -'  1  0  ~/.config/gtk-4.0/settings.ini
 |4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
--'  16  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
--'  16  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757343053,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757343053,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757342637,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342621,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  215  4  ~/.config/sway/config
-|4,39,215,4,1757342589,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342533,"~/.config/sway/config"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
--'  195  0  ~/.config/sway/config
-|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.config/gtk-4.0/settings.ini
-	*	1757343151	0
-	"	7	0
-	.	7	0
-	+	9	40
-	+	7	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757343119	0
-	"	16	0
-	^	16	0
-	.	15	0
-	+	4	11
-	+	5	9
-	+	4	13
-	+	5	24
-	+	6	21
-	+	5	22
-	+	4	3
-	+	5	0
-	+	7	46
-	+	6	47
-	+	5	49
-	+	4	46
-	+	1	0
-	+	17	21
-	+	6	18
-	+	17	22
-	+	7	17
-	+	5	0
-	+	12	23
-	+	11	0
-	+	14	40
-	+	15	0
-
 > ~/.config/sway/config
-	*	1757342633	0
-	"	214	4
-	^	213	82
-	.	214	0
-	+	51	24
-	+	174	14
-	+	92	12
-	+	104	17
-	+	206	0
-	+	32	27
-	+	206	44
-	+	207	0
+	*	1757346117	0
+	"	98	90
+	^	98	115
+	.	98	90
 	+	123	0
 	+	129	0
 	+	23	0
@@ -812,10 +769,61 @@ $
 	+	214	0
 	+	215	0
 	+	214	0
+	+	9	0
+	+	8	39
+	+	9	0
+	+	20	0
+	+	13	24
+	+	98	69
+	+	98	70
+	+	98	90
 	k	78	0
 	m	202	0
 	s	1	0
 	w	249	0
+
+> ~/.nix-profile/bin/asktouchpad.sh
+	*	1757345576	0
+	"	21	53
+	^	5	52
+	.	21	0
+	+	21	53
+	+	21	0
+
+> ~/.config/gtk-4.0/settings.ini
+	*	1757343151	0
+	"	7	0
+	.	7	0
+	+	9	40
+	+	7	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757343119	0
+	"	16	0
+	^	16	0
+	.	15	0
+	+	4	11
+	+	5	9
+	+	4	13
+	+	5	24
+	+	6	21
+	+	5	22
+	+	4	3
+	+	5	0
+	+	7	46
+	+	6	47
+	+	5	49
+	+	4	46
+	+	1	0
+	+	17	21
+	+	6	18
+	+	17	22
+	+	7	17
+	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
 
 > ~/.config/hypr/4-windowsRules.conf
 	*	1757342473	0
@@ -1271,13 +1279,6 @@ $
 	+	180	38
 	+	181	43
 	+	237	22
-
-> ~/.nix-profile/bin/asktouchpad.sh
-	*	1757247690	0
-	"	21	53
-	^	21	54
-	.	21	53
-	+	21	53
 
 > ~/.nix-profile/bin/zinstallnixos.sh
 	*	1757247341	0
