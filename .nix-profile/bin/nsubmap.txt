@@ -4,20 +4,14 @@ Yazi toml  Y
 Waybar conf  W
 Mako conf  M
 Sway conf  S
+Stuff2remember  R
 
  Nixos:
     config  C
     flake  F
     pkgs  P
 
- Hyprland
-    autoEnv  A
-    input  I
-    binds  B
-    winRules  R
-
 󰑓 Reload
-    Hyprland  H
     Mako  X
 
 [kliknutím sem tavři]

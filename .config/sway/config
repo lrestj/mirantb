@@ -92,7 +92,7 @@
     # Start launcher
     # bindsym --release SUPER_L exec pkill fuzzel || $menu
     bindsym $mod+y exec pkill fuzzel || $menu
-    bindsym Alt+y exec pkill fuzzel || bemoji
+    bindsym Alt+y exec pkill fuzzel || $menu
 
     # Touchpad ON/OFF
     bindsym $ca+t exec $term --app-id script -e asktouchpad.sh
@@ -210,12 +210,8 @@
     bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configu; mode "default"ration.nix
     bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
     bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
-    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
-    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode "default"
-    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode "default"
-    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
+    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
     bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
-    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
     bindsym Return mode "default"
     bindsym Escape mode "default"

@@ -1,7 +1,12 @@
 ##### STUFF TO REMEMBER #####
 
 ### My colors
-    grey dark      #2e3440  rgba(46, 52, 64, 1)
-    grey light     #64727b  rgba(100, 114, 123, 1)
-    border blue    #8000ff  rgba(128, 0, 255, 1)
-    background     #2a2e32  rgba(42, 46, 50, 1)
+    grey dark       #2e3440  rgba(46, 52, 64, 1)
+    grey light      #64727b  rgba(100, 114, 123, 1)
+    border purple   #8000ff  rgba(128, 0, 255, 1)
+    background      #2a2e32  rgba(42, 46, 50, 1)
+
+### Current script directory
+    "$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+#### END OF FILE ##### 

@@ -20,12 +20,14 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1757342637,,"wq"
+:wq!
+|2,0,1757342396,,"wq!"
+:w
+|2,0,1757342323,,"w"
 :w .dotfiles/other/stuff2remember.txt
 |2,0,1757341333,,"w .dotfiles/other/stuff2remember.txt"
-:wq
-|2,0,1757340237,,"wq"
-:w
-|2,0,1757340150,,"w"
 :q
 |2,0,1757339834,,"q"
 :w ~/.local/share/applications/ytDownloader.desktop
@@ -38,8 +40,6 @@ $
 |2,0,1757334631,,"FZF"
 :w!
 |2,0,1757317188,,"w!"
-:wq!
-|2,0,1757316010,,"wq!"
 :sort
 |2,0,1757251406,,"sort"
 :reg
@@ -378,49 +378,36 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-""0	CHAR	0
+"0	CHAR	0
 	64727bff
-|3,1,0,0,1,0,1757340687,"64727bff"
-"1	LINE	0
-	Version=1.4dd
-|3,0,1,1,1,0,1757338463,"Version=1.4dd"
+|3,0,0,0,1,0,1757340687,"64727bff"
+""1	LINE	0
+	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
+|3,1,1,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1757338441,""
+	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
+|3,0,2,1,1,0,1757342575,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "3	LINE	0
-	            
-|3,0,3,1,1,0,1757335132,"            "
+	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
+|3,0,3,1,1,0,1757342566,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "4	LINE	0
-	            chafa
-|3,0,4,1,1,0,1757329850,"            chafa"
+	    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
+|3,0,4,1,1,0,1757342556,"    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode \"default\""
 "5	LINE	0
-	            rofimoji
-|3,0,5,1,1,0,1757329834,"            rofimoji"
+	    Sway  H
+|3,0,5,1,1,0,1757342334,"    Sway  H"
 "6	LINE	0
-	            rofi
-|3,0,6,1,1,0,1757329833,"            rofi"
+	    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
+|3,0,6,1,1,0,1757342306,"    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode \"default\""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1757323770,""
+	    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode "default"
+|3,0,7,1,1,0,1757342302,"    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode \"default\""
 "8	LINE	0
-	# if [ $sel="^/home/libor/.nix-profile/bin/$" ]; then
-	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
-	# else   
-	#     touch $file
-	#     chmod +x $file
-	#     echo "#!/bin/bash" > $file
-	#     vim $file
-	# fi
-|3,0,8,1,8,0,1757323766,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file","# fi"
+	    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode "default"
+|3,0,8,1,1,0,1757342294,"    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode \"default\""
 "9	LINE	0
-	# if [ $sel="^/home/libor/.nix-profile/bin/$" ]; then
-	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
-	# else   
-	#     touch $file
-	#     chmod +x $file
-	#     echo "#!/bin/bash" > $file
-	#     vim $file
-|3,0,9,1,7,0,1757323751,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file"
+	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
+|3,0,9,1,1,0,1757342121,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -438,8 +425,8 @@ $
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1757340233," "
+	Hyprland
+|3,0,36,0,1,0,1757341991,"Hyprland"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -460,236 +447,236 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  4  46  ~/.dotfiles/other/stuff2remember.txt
-|4,48,4,46,1757341372,"~/.dotfiles/other/stuff2remember.txt"
-'1  4  20  ~/.nix-profile/bin/helpnotify.txt
-|4,49,4,20,1757340237,"~/.nix-profile/bin/helpnotify.txt"
-'2  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,50,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
-'3  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,51,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
-'4  6  18  ~/.nix-profile/bin/1binds.txt
-|4,52,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
-'5  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,53,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
-'6  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,54,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
-'7  5  43  ~/.local/share/applications/xnviewmp.desktop
-|4,55,5,43,1757338998,"~/.local/share/applications/xnviewmp.desktop"
-'8  11  39  ~/.local/share/applications/Nwg-look.desktop
-|4,56,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
-'9  5  32  ~/.local/share/applications/ytDownloader.desktop
-|4,57,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+'0  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,48,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
+'1  214  4  ~/.config/sway/config
+|4,49,214,4,1757342637,"~/.config/sway/config"
+'2  215  4  ~/.config/sway/config
+|4,50,215,4,1757342589,"~/.config/sway/config"
+'3  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,51,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+'4  195  0  ~/.config/sway/config
+|4,52,195,0,1757342469,"~/.config/sway/config"
+'5  195  0  ~/.config/sway/config
+|4,53,195,0,1757342469,"~/.config/sway/config"
+'6  195  0  ~/.config/sway/config
+|4,54,195,0,1757342469,"~/.config/sway/config"
+'7  195  0  ~/.config/sway/config
+|4,55,195,0,1757342469,"~/.config/sway/config"
+'8  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,56,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+'9  213  0  ~/.config/sway/config
+|4,57,213,0,1757342396,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  4  46  ~/.dotfiles/other/stuff2remember.txt
-|4,39,4,46,1757341372,"~/.dotfiles/other/stuff2remember.txt"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757340746,"~/.config/fuzzel/fuzzel.ini"
--'  6  15  ~/.dotfiles/other/stuff2remember.txt
-|4,39,6,15,1757340739,"~/.dotfiles/other/stuff2remember.txt"
--'  5  15  ~/.dotfiles/other/stuff2remember.txt
-|4,39,5,15,1757340671,"~/.dotfiles/other/stuff2remember.txt"
--'  31  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,31,11,1757340616,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757340429,"~/.dotfiles/other/stuff2remember.txt"
--'  4  20  ~/.nix-profile/bin/helpnotify.txt
-|4,39,4,20,1757340237,"~/.nix-profile/bin/helpnotify.txt"
--'  4  20  ~/.nix-profile/bin/helpnotify.txt
-|4,39,4,20,1757340237,"~/.nix-profile/bin/helpnotify.txt"
--'  1  0  ~/.nix-profile/bin/helpnotify.txt
-|4,39,1,0,1757340224,"~/.nix-profile/bin/helpnotify.txt"
--'  1  0  ~/.nix-profile/bin/helpnotify.txt
-|4,39,1,0,1757340224,"~/.nix-profile/bin/helpnotify.txt"
--'  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,39,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
--'  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,39,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
--'  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,39,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
--'  5  9  ~/.nix-profile/bin/helpnotify.txt
-|4,39,5,9,1757340200,"~/.nix-profile/bin/helpnotify.txt"
--'  1  0  ~/.nix-profile/bin/helpnotify.txt
-|4,39,1,0,1757340173,"~/.nix-profile/bin/helpnotify.txt"
--'  1  0  ~/.nix-profile/bin/helpnotify.txt
-|4,39,1,0,1757340173,"~/.nix-profile/bin/helpnotify.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  6  18  ~/.nix-profile/bin/1binds.txt
-|4,39,6,18,1757340165,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  1  0  ~/.nix-profile/bin/1binds.txt
-|4,39,1,0,1757340033,"~/.nix-profile/bin/1binds.txt"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  39  12  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  54  0  ~/.config/sway/config
-|4,39,54,0,1757339798,"~/.config/sway/config"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  36  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  100  0  ~/.config/waybar/style-sway.css
-|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  129  0  ~/.config/waybar/style-sway.css
-|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
--'  9  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,9,0,1757339630,"~/.config/fuzzel/fuzzel.ini"
--'  9  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,9,0,1757339630,"~/.config/fuzzel/fuzzel.ini"
--'  9  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,9,0,1757339630,"~/.config/fuzzel/fuzzel.ini"
+|4,39,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342448,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342448,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342448,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342448,"~/.config/sway/config"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  213  0  ~/.config/sway/config
+|4,39,213,0,1757342396,"~/.config/sway/config"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  7  0  ~/.nix-profile/bin/nsubmap.txt
+|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.dotfiles/other/stuff2remember.txt
-	*	1757341333	0
-	"	4	46
-	^	4	47
-	.	4	46
+	*	1757342643	0
+	"	1	0
+	^	4	19
+	.	5	0
 	+	4	11
 	+	5	9
 	+	4	13
@@ -702,6 +689,137 @@ $
 	+	6	47
 	+	5	49
 	+	4	46
+	+	1	0
+	+	12	21
+	+	6	18
+	+	12	22
+	+	7	17
+	+	5	0
+
+> ~/.config/sway/config
+	*	1757342633	0
+	"	214	4
+	^	213	82
+	.	214	0
+	+	51	24
+	+	174	14
+	+	92	12
+	+	104	17
+	+	206	0
+	+	32	27
+	+	206	44
+	+	207	0
+	+	123	0
+	+	129	0
+	+	23	0
+	+	115	6
+	+	92	0
+	+	93	0
+	+	96	0
+	+	122	0
+	+	163	0
+	+	21	0
+	+	20	0
+	+	21	10
+	+	23	0
+	+	119	0
+	+	216	13
+	+	208	73
+	+	229	3
+	+	229	0
+	+	183	0
+	+	229	0
+	+	190	0
+	+	183	0
+	+	200	65
+	+	200	0
+	+	201	0
+	+	192	0
+	+	187	0
+	+	194	0
+	+	187	0
+	+	198	0
+	+	188	0
+	+	187	0
+	+	190	0
+	+	191	0
+	+	192	0
+	+	194	0
+	+	187	0
+	+	198	0
+	+	183	0
+	+	190	2
+	+	192	1
+	+	191	0
+	+	188	0
+	+	44	22
+	+	200	0
+	+	198	16
+	+	196	0
+	+	194	12
+	+	190	15
+	+	192	0
+	+	190	19
+	+	183	0
+	+	182	0
+	+	185	0
+	+	186	25
+	+	1	0
+	+	214	0
+	+	225	0
+	+	188	0
+	+	188	62
+	+	188	0
+	+	187	0
+	+	45	0
+	+	53	27
+	+	50	42
+	+	53	34
+	+	45	0
+	+	105	24
+	+	45	0
+	+	116	0
+	+	88	28
+	+	87	23
+	+	88	0
+	+	89	139
+	+	88	12
+	+	88	0
+	+	89	0
+	+	113	0
+	+	112	58
+	+	34	19
+	+	93	46
+	+	94	0
+	+	93	0
+	+	94	17
+	+	120	0
+	+	95	0
+	+	214	0
+	+	213	81
+	+	213	0
+	+	214	0
+	+	215	0
+	+	214	0
+	k	78	0
+	m	202	0
+	s	1	0
+	w	249	0
+
+> ~/.config/hypr/4-windowsRules.conf
+	*	1757342473	0
+	"	1	0
+	.	11	0
+	+	11	0
+
+> ~/.nix-profile/bin/nsubmap.txt
+	*	1757342365	0
+	"	7	0
+	^	7	17
+	.	7	16
+	+	14	0
+	+	15	0
+	+	7	16
 
 > ~/.config/fuzzel/fuzzel.ini
 	*	1757340739	0
@@ -771,116 +889,6 @@ $
 	+	6	11
 	+	7	15
 	+	6	18
-
-> ~/.config/sway/config
-	*	1757339797	0
-	"	54	0
-	^	95	45
-	.	95	44
-	+	109	27
-	+	104	0
-	+	105	19
-	+	105	0
-	+	106	0
-	+	217	70
-	+	51	24
-	+	174	14
-	+	92	12
-	+	104	17
-	+	206	0
-	+	32	27
-	+	206	44
-	+	207	0
-	+	123	0
-	+	129	0
-	+	23	0
-	+	115	6
-	+	92	0
-	+	93	0
-	+	96	0
-	+	122	0
-	+	163	0
-	+	21	0
-	+	20	0
-	+	21	10
-	+	23	0
-	+	119	0
-	+	223	13
-	+	208	73
-	+	236	3
-	+	236	0
-	+	183	0
-	+	236	0
-	+	190	0
-	+	183	0
-	+	200	65
-	+	200	0
-	+	201	0
-	+	192	0
-	+	187	0
-	+	194	0
-	+	187	0
-	+	198	0
-	+	188	0
-	+	187	0
-	+	190	0
-	+	191	0
-	+	192	0
-	+	194	0
-	+	187	0
-	+	198	0
-	+	183	0
-	+	190	2
-	+	192	1
-	+	191	0
-	+	188	0
-	+	44	22
-	+	200	0
-	+	198	16
-	+	196	0
-	+	194	12
-	+	190	15
-	+	192	0
-	+	190	19
-	+	183	0
-	+	182	0
-	+	185	0
-	+	186	25
-	+	1	0
-	+	220	0
-	+	232	0
-	+	188	0
-	+	188	62
-	+	188	0
-	+	187	0
-	+	45	0
-	+	53	27
-	+	50	42
-	+	53	34
-	+	45	0
-	+	105	24
-	+	45	0
-	+	116	0
-	+	88	28
-	+	87	23
-	+	88	0
-	+	89	139
-	+	88	12
-	+	88	0
-	+	89	0
-	+	113	0
-	+	112	58
-	+	34	19
-	+	93	46
-	+	94	0
-	+	93	0
-	+	94	17
-	+	120	0
-	+	95	44
-	k	78	0
-	m	202	0
-	s	1	0
-	w	256	0
 
 > ~/.config/waybar/style-sway.css
 	*	1757339746	0
@@ -1747,12 +1755,6 @@ $
 	+	4	82
 	+	3	121
 	+	3	0
-
-> ~/.config/hypr/4-windowsRules.conf
-	*	1757155725	0
-	"	15	0
-	.	11	0
-	+	11	0
 
 > ~/.config/hypr/2-inputLookFeel.conf
 	*	1757111144	0
@@ -2705,8 +2707,4 @@ $
 
 > /var/log/lastlog
 	*	1756133102	0
-	"	1	0
-
-> ~/.nvidia-settings-rc
-	*	1756114587	0
 	"	1	0
