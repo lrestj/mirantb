@@ -9,4 +9,9 @@
 ### Current script directory
     "$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
+### GTK4.0 dark color fix
+    [AdwStyleManager]
+color-scheme=ADW_COLOR_SCHEME_PREFER_DARK
+
+
 #### END OF FILE ##### 

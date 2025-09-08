@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757342637,,"wq"
+|2,0,1757343155,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
 :w
@@ -382,32 +382,32 @@ $
 	64727bff
 |3,0,0,0,1,0,1757340687,"64727bff"
 ""1	LINE	0
-	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
-|3,1,1,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
+	ddgtk-application-prefer-dark-theme=1
+|3,1,1,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
 "2	LINE	0
-	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
-|3,0,2,1,1,0,1757342575,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
+|3,0,2,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
 "3	LINE	0
 	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
-|3,0,3,1,1,0,1757342566,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+|3,0,3,1,1,0,1757342575,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "4	LINE	0
-	    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
-|3,0,4,1,1,0,1757342556,"    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode \"default\""
-"5	LINE	0
-	    Sway  H
-|3,0,5,1,1,0,1757342334,"    Sway  H"
-"6	LINE	0
-	    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
-|3,0,6,1,1,0,1757342306,"    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode \"default\""
-"7	LINE	0
-	    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode "default"
-|3,0,7,1,1,0,1757342302,"    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode \"default\""
-"8	LINE	0
-	    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode "default"
-|3,0,8,1,1,0,1757342294,"    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode \"default\""
-"9	LINE	0
 	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
-|3,0,9,1,1,0,1757342121,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+|3,0,4,1,1,0,1757342566,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+"5	LINE	0
+	    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
+|3,0,5,1,1,0,1757342556,"    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode \"default\""
+"6	LINE	0
+	    Sway  H
+|3,0,6,1,1,0,1757342334,"    Sway  H"
+"7	LINE	0
+	    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
+|3,0,7,1,1,0,1757342306,"    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode \"default\""
+"8	LINE	0
+	    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode "default"
+|3,0,8,1,1,0,1757342302,"    bindsym i exec makoctl dismiss && $editor ~/.config/hypr/2-inputLookFeel.conf; mode \"default\""
+"9	LINE	0
+	    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode "default"
+|3,0,9,1,1,0,1757342294,"    bindsym b exec makoctl dismiss && $editor ~/.config/hypr/3-keyBindings.conf; mode \"default\""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -447,34 +447,72 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,48,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
-'1  214  4  ~/.config/sway/config
-|4,49,214,4,1757342637,"~/.config/sway/config"
-'2  215  4  ~/.config/sway/config
-|4,50,215,4,1757342589,"~/.config/sway/config"
-'3  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,51,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
-'4  195  0  ~/.config/sway/config
-|4,52,195,0,1757342469,"~/.config/sway/config"
-'5  195  0  ~/.config/sway/config
-|4,53,195,0,1757342469,"~/.config/sway/config"
-'6  195  0  ~/.config/sway/config
-|4,54,195,0,1757342469,"~/.config/sway/config"
+'0  7  0  ~/.config/gtk-4.0/settings.ini
+|4,48,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+'1  16  0  ~/.dotfiles/other/stuff2remember.txt
+|4,49,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
+'2  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,50,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
+'3  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,51,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
+'4  214  4  ~/.config/sway/config
+|4,52,214,4,1757342637,"~/.config/sway/config"
+'5  215  4  ~/.config/sway/config
+|4,53,215,4,1757342589,"~/.config/sway/config"
+'6  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,54,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
 '7  195  0  ~/.config/sway/config
 |4,55,195,0,1757342469,"~/.config/sway/config"
-'8  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,56,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
-'9  213  0  ~/.config/sway/config
-|4,57,213,0,1757342396,"~/.config/sway/config"
+'8  195  0  ~/.config/sway/config
+|4,56,195,0,1757342469,"~/.config/sway/config"
+'9  195  0  ~/.config/sway/config
+|4,57,195,0,1757342469,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  7  0  ~/.config/gtk-4.0/settings.ini
+|4,39,7,0,1757343155,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1757343136,"~/.config/gtk-4.0/settings.ini"
+-'  16  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
+-'  16  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,16,0,1757343124,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757343053,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757343053,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757342653,"~/.dotfiles/other/stuff2remember.txt"
 -'  214  4  ~/.config/sway/config
 |4,39,214,4,1757342637,"~/.config/sway/config"
 -'  214  4  ~/.config/sway/config
 |4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  214  4  ~/.config/sway/config
+|4,39,214,4,1757342637,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342621,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757342621,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -483,6 +521,30 @@ $
 |4,39,215,4,1757342589,"~/.config/sway/config"
 -'  215  4  ~/.config/sway/config
 |4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  215  4  ~/.config/sway/config
+|4,39,215,4,1757342589,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757342533,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757342533,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -503,6 +565,54 @@ $
 |4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
 -'  1  0  ~/.config/hypr/4-windowsRules.conf
 |4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
+-'  1  0  ~/.config/hypr/4-windowsRules.conf
+|4,39,1,0,1757342480,"~/.config/hypr/4-windowsRules.conf"
 -'  195  0  ~/.config/sway/config
 |4,39,195,0,1757342469,"~/.config/sway/config"
 -'  195  0  ~/.config/sway/config
@@ -519,164 +629,61 @@ $
 |4,39,195,0,1757342469,"~/.config/sway/config"
 -'  195  0  ~/.config/sway/config
 |4,39,195,0,1757342469,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342448,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342448,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342448,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757342448,"~/.config/sway/config"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  1  0  ~/.config/hypr/4-windowsRules.conf
-|4,39,1,0,1757342412,"~/.config/hypr/4-windowsRules.conf"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  213  0  ~/.config/sway/config
-|4,39,213,0,1757342396,"~/.config/sway/config"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
--'  7  0  ~/.nix-profile/bin/nsubmap.txt
-|4,39,7,0,1757342377,"~/.nix-profile/bin/nsubmap.txt"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757342469,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.config/gtk-4.0/settings.ini
+	*	1757343151	0
+	"	7	0
+	.	7	0
+	+	9	40
+	+	7	0
+
 > ~/.dotfiles/other/stuff2remember.txt
-	*	1757342643	0
-	"	1	0
-	^	4	19
-	.	5	0
+	*	1757343119	0
+	"	16	0
+	^	16	0
+	.	15	0
 	+	4	11
 	+	5	9
 	+	4	13
@@ -690,11 +697,15 @@ $
 	+	5	49
 	+	4	46
 	+	1	0
-	+	12	21
+	+	17	21
 	+	6	18
-	+	12	22
+	+	17	22
 	+	7	17
 	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
 
 > ~/.config/sway/config
 	*	1757342633	0
@@ -2704,7 +2715,3 @@ $
 > ~/.viminfo
 	*	1756140931	0
 	"	23	9
-
-> /var/log/lastlog
-	*	1756133102	0
-	"	1	0
