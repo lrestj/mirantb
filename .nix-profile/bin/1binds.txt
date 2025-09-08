@@ -2,7 +2,8 @@
 Spuštění aplikací:
 Nápověda základní   + N 
 Ukaž datum a čas   + D 
-Menu aplikací    
+Menu aplikací   + Y
+Menu emoji  Alt + Y 
 Foot terminal   + A 
 Alacritty terminal  ALT + F12 
 Brave prohlížeč  CTRL SHIFT + B 
