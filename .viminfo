@@ -20,6 +20,10 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:q
+|2,0,1757339834,,"q"
+:w
+|2,0,1757339818,,"w"
 :wq
 |2,0,1757338998,,"wq"
 :w ~/.local/share/applications/ytDownloader.desktop
@@ -28,12 +32,8 @@ $
 |2,0,1757338437,,"ene"
 :%y
 |2,0,1757338428,,"%y"
-:w
-|2,0,1757335851,,"w"
 :FZF
 |2,0,1757334631,,"FZF"
-:q
-|2,0,1757321338,,"q"
 :w!
 |2,0,1757317188,,"w!"
 :wq!
@@ -463,20 +463,20 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  5  43  ~/.local/share/applications/xnviewmp.desktop
-|4,48,5,43,1757338998,"~/.local/share/applications/xnviewmp.desktop"
-'1  11  39  ~/.local/share/applications/Nwg-look.desktop
-|4,49,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
-'2  5  32  ~/.local/share/applications/ytDownloader.desktop
-|4,50,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
-'3  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
-|4,51,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
-'4  3  36  ~/.local/share/applications/yazi.desktop
-|4,52,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
-'5  3  40  ~/.local/share/applications/yazi.desktop
-|4,53,3,40,1757337140,"~/.local/share/applications/yazi.desktop"
-'6  8  9  ~/.local/share/applications/yazi.desktop
-|4,54,8,9,1757336823,"~/.local/share/applications/yazi.desktop"
+'0  39  12  ~/.config/fuzzel/fuzzel.ini
+|4,48,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
+'1  5  43  ~/.local/share/applications/xnviewmp.desktop
+|4,49,5,43,1757338998,"~/.local/share/applications/xnviewmp.desktop"
+'2  11  39  ~/.local/share/applications/Nwg-look.desktop
+|4,50,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
+'3  5  32  ~/.local/share/applications/ytDownloader.desktop
+|4,51,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+'4  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,52,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+'5  3  36  ~/.local/share/applications/yazi.desktop
+|4,53,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
+'6  3  40  ~/.local/share/applications/yazi.desktop
+|4,54,3,40,1757337140,"~/.local/share/applications/yazi.desktop"
 '7  8  9  ~/.local/share/applications/yazi.desktop
 |4,55,8,9,1757336823,"~/.local/share/applications/yazi.desktop"
 '8  8  9  ~/.local/share/applications/yazi.desktop
@@ -485,14 +485,40 @@ $
 |4,57,8,9,1757336823,"~/.local/share/applications/yazi.desktop"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  39  12  ~/.config/fuzzel/fuzzel.ini
+|4,39,39,12,1757339834,"~/.config/fuzzel/fuzzel.ini"
+-'  54  0  ~/.config/sway/config
+|4,39,54,0,1757339798,"~/.config/sway/config"
+-'  36  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,36,0,1757339758,"~/.config/fuzzel/fuzzel.ini"
+-'  100  0  ~/.config/waybar/style-sway.css
+|4,39,100,0,1757339747,"~/.config/waybar/style-sway.css"
+-'  129  0  ~/.config/waybar/style-sway.css
+|4,39,129,0,1757339667,"~/.config/waybar/style-sway.css"
+-'  9  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,9,0,1757339630,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757339589,"~/.config/fuzzel/fuzzel.ini"
 -'  5  43  ~/.local/share/applications/xnviewmp.desktop
 |4,39,5,43,1757338998,"~/.local/share/applications/xnviewmp.desktop"
+-'  5  43  ~/.local/share/applications/xnviewmp.desktop
+|4,39,5,43,1757338998,"~/.local/share/applications/xnviewmp.desktop"
+-'  1  0  ~/.local/share/applications/xnviewmp.desktop
+|4,39,1,0,1757338979,"~/.local/share/applications/xnviewmp.desktop"
 -'  1  0  ~/.local/share/applications/xnviewmp.desktop
 |4,39,1,0,1757338979,"~/.local/share/applications/xnviewmp.desktop"
 -'  11  39  ~/.local/share/applications/Nwg-look.desktop
 |4,39,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
 -'  11  39  ~/.local/share/applications/Nwg-look.desktop
 |4,39,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
+-'  11  39  ~/.local/share/applications/Nwg-look.desktop
+|4,39,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
+-'  11  39  ~/.local/share/applications/Nwg-look.desktop
+|4,39,11,39,1757338885,"~/.local/share/applications/Nwg-look.desktop"
+-'  1  0  ~/.local/share/applications/Nwg-look.desktop
+|4,39,1,0,1757338864,"~/.local/share/applications/Nwg-look.desktop"
+-'  1  0  ~/.local/share/applications/Nwg-look.desktop
+|4,39,1,0,1757338864,"~/.local/share/applications/Nwg-look.desktop"
 -'  1  0  ~/.local/share/applications/Nwg-look.desktop
 |4,39,1,0,1757338864,"~/.local/share/applications/Nwg-look.desktop"
 -'  1  0  ~/.local/share/applications/Nwg-look.desktop
@@ -505,6 +531,22 @@ $
 |4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
 -'  5  32  ~/.local/share/applications/ytDownloader.desktop
 |4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+-'  5  32  ~/.local/share/applications/ytDownloader.desktop
+|4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+-'  5  32  ~/.local/share/applications/ytDownloader.desktop
+|4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+-'  5  32  ~/.local/share/applications/ytDownloader.desktop
+|4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+-'  5  32  ~/.local/share/applications/ytDownloader.desktop
+|4,39,5,32,1757338812,"~/.local/share/applications/ytDownloader.desktop"
+-'  1  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338775,"~/.local/share/applications/ytDownloader.desktop"
+-'  1  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338775,"~/.local/share/applications/ytDownloader.desktop"
+-'  1  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338775,"~/.local/share/applications/ytDownloader.desktop"
+-'  1  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338775,"~/.local/share/applications/ytDownloader.desktop"
 -'  1  0  ~/.local/share/applications/ytDownloader.desktop
 |4,39,1,0,1757338775,"~/.local/share/applications/ytDownloader.desktop"
 -'  1  0  ~/.local/share/applications/ytDownloader.desktop
@@ -529,6 +571,38 @@ $
 |4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
 -'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
 |4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+|4,39,1,0,1757338525,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
+-'  8  0  ~/.local/share/applications/ytDownloader.desktop
+|4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
 -'  8  0  ~/.local/share/applications/ytDownloader.desktop
 |4,39,8,0,1757338524,"~/.local/share/applications/ytDownloader.desktop"
 -'  8  0  ~/.local/share/applications/ytDownloader.desktop
@@ -577,163 +651,48 @@ $
 |4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
 -'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
 |4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
+-'  1  0  /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+|4,39,1,0,1757338392,"/nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop"
 -'  3  36  ~/.local/share/applications/yazi.desktop
 |4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  3  36  ~/.local/share/applications/yazi.desktop
-|4,39,3,36,1757337421,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
--'  1  0  ~/.local/share/applications/yazi.desktop
-|4,39,1,0,1757337408,"~/.local/share/applications/yazi.desktop"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.local/share/applications/xnviewmp.desktop
-	*	1757338995	0
-	"	5	43
-	^	5	44
-	.	5	43
-	+	5	43
-
-> ~/.local/share/applications/Nwg-look.desktop
-	*	1757338882	0
-	"	11	39
-	^	11	5
-	.	11	5
-	+	11	5
-
-> ~/.local/share/applications/ytDownloader.desktop
-	*	1757338809	0
-	"	5	32
-	^	5	33
-	.	5	32
-	+	1	0
-	+	5	12
-	+	9	0
-	+	5	32
-
-> /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
-	*	1757338524	0
-	"	1	0
-
-> /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
-	*	1757338389	0
-	"	1	0
-
-> ~/.local/share/applications/yazi.desktop
-	*	1757337419	0
-	"	3	36
-	^	3	37
-	.	3	36
-	+	6	29
-	+	8	9
-	+	3	36
-
 > ~/.config/fuzzel/fuzzel.ini
-	*	1757335851	0
-	"	11	15
-	^	11	18
-	.	11	0
+	*	1757339818	0
+	"	39	12
+	^	39	13
+	.	39	12
 	+	1	4
 	+	1	0
 	+	6	57
@@ -777,80 +736,12 @@ $
 	+	26	0
 	+	12	14
 	+	11	0
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757335132	0
-	"	26	12
-	^	26	19
-	.	26	0
-	+	146	0
-	+	146	23
-	+	146	10
-	+	68	12
-	+	146	0
-	+	146	9
-	+	146	10
-	+	38	0
-	+	123	17
-	+	37	19
-	+	123	0
-	+	93	0
-	+	91	17
-	+	76	0
-	+	76	19
-	+	57	0
-	+	38	0
-	+	6	0
-	+	122	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	89	0
-	+	122	0
-	+	6	0
-	+	76	0
-	+	54	18
-	+	67	22
-	+	59	16
-	+	31	24
-	+	136	14
-	+	145	0
-	+	138	0
-	+	137	24
-	+	138	37
-	+	146	88
-	+	138	0
-	+	145	0
-	+	56	29
-	+	139	10
-	+	140	38
-	+	144	0
-	+	142	14
-	+	56	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	146	0
-	+	59	0
-	+	98	0
-	+	143	0
-	+	141	17
-	+	141	0
-	+	50	17
-	+	65	0
-	+	82	0
-	+	59	0
-	+	32	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
+	+	36	15
+	+	39	12
 
 > ~/.config/sway/config
-	*	1757334711	0
-	"	1	0
+	*	1757339797	0
+	"	54	0
 	^	95	45
 	.	95	44
 	+	109	27
@@ -957,6 +848,129 @@ $
 	m	202	0
 	s	1	0
 	w	256	0
+
+> ~/.config/waybar/style-sway.css
+	*	1757339746	0
+	"	100	0
+	.	137	0
+	+	137	19
+	+	143	19
+	+	149	19
+	+	154	19
+	+	176	19
+	+	135	0
+	+	137	0
+
+> ~/.local/share/applications/xnviewmp.desktop
+	*	1757338995	0
+	"	5	43
+	^	5	44
+	.	5	43
+	+	5	43
+
+> ~/.local/share/applications/Nwg-look.desktop
+	*	1757338882	0
+	"	11	39
+	^	11	5
+	.	11	5
+	+	11	5
+
+> ~/.local/share/applications/ytDownloader.desktop
+	*	1757338809	0
+	"	5	32
+	^	5	33
+	.	5	32
+	+	1	0
+	+	5	12
+	+	9	0
+	+	5	32
+
+> /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/ytDownloader.desktop
+	*	1757338524	0
+	"	1	0
+
+> /nix/store/4mgnia7r3x139i9crfz6y3kq0hxvnkxa-system-path/share/applications/Alacritty.desktop
+	*	1757338389	0
+	"	1	0
+
+> ~/.local/share/applications/yazi.desktop
+	*	1757337419	0
+	"	3	36
+	^	3	37
+	.	3	36
+	+	6	29
+	+	8	9
+	+	3	36
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757335132	0
+	"	26	12
+	^	26	19
+	.	26	0
+	+	146	0
+	+	146	23
+	+	146	10
+	+	68	12
+	+	146	0
+	+	146	9
+	+	146	10
+	+	38	0
+	+	123	17
+	+	37	19
+	+	123	0
+	+	93	0
+	+	91	17
+	+	76	0
+	+	76	19
+	+	57	0
+	+	38	0
+	+	6	0
+	+	122	0
+	+	6	0
+	+	8	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	89	0
+	+	122	0
+	+	6	0
+	+	76	0
+	+	54	18
+	+	67	22
+	+	59	16
+	+	31	24
+	+	136	14
+	+	145	0
+	+	138	0
+	+	137	24
+	+	138	37
+	+	146	88
+	+	138	0
+	+	145	0
+	+	56	29
+	+	139	10
+	+	140	38
+	+	144	0
+	+	142	14
+	+	56	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	146	0
+	+	59	0
+	+	98	0
+	+	143	0
+	+	141	17
+	+	141	0
+	+	50	17
+	+	65	0
+	+	82	0
+	+	59	0
+	+	32	17
+	+	28	26
+	+	26	11
+	+	27	19
+	+	26	0
 
 > ~/.config/vim/vimrc
 	*	1757334684	0
@@ -1720,18 +1734,6 @@ $
 	+	15	29
 	+	30	0
 	+	52	0
-
-> ~/.config/waybar/style-sway.css
-	*	1757105620	0
-	"	176	4
-	.	137	0
-	+	137	19
-	+	143	19
-	+	149	19
-	+	154	19
-	+	176	19
-	+	135	0
-	+	137	0
 
 > ~/.config/foot/foot.ini
 	*	1757093447	0
