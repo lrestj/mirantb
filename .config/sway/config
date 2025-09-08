@@ -96,7 +96,7 @@
 
     # Touchpad ON/OFF
     bindsym $ca+t  input type:touchpad events toggle enabled disabled, \
-    exec notify-send -t 1000 -i touchpad Touchpad "$(swaymsg -t get_inputs | jq -r '.[]|select(.type == \"touchpad\").libinput.send_events | (.[:1] | ascii_upcase) + .[1:]')"
+    exec touchpad.sh
 
     # Nápověda
     bindsym $mod+n exec helpnotify.sh
