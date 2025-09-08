@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :w
-|2,0,1757323225,,"w"
+|2,0,1757323625,,"w"
 :wq
 |2,0,1757321499,,"wq"
 :q
@@ -375,9 +375,9 @@ $
 "0	LINE	0
 	minimal-lines=yes
 |3,0,0,1,1,0,1757322751,"minimal-lines=yes"
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1757322463,""
+|3,0,1,1,1,0,1757322463,""
 "2	LINE	0
 	minimal-lines=yes
 |3,0,2,1,1,0,1757321727,"minimal-lines=yes"
@@ -447,9 +447,9 @@ $
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
-"-	CHAR	0
-	/
-|3,0,36,0,1,0,1757320162,"/"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1757323623," "
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -470,36 +470,52 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  17  58  ~/.nix-profile/bin/addnew.sh
-|4,48,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
-'1  25  3  ~/.nix-profile/bin/addnew.sh
-|4,49,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+'0  6  10  ~/.nix-profile/bin/clouds.sh
+|4,48,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+'1  17  58  ~/.nix-profile/bin/addnew.sh
+|4,49,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
 '2  25  3  ~/.nix-profile/bin/addnew.sh
 |4,50,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
-'3  1  0  ~/.nix-profile/bin/pppppppppp
-|4,51,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
-'4  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,52,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
+'3  25  3  ~/.nix-profile/bin/addnew.sh
+|4,51,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+'4  1  0  ~/.nix-profile/bin/pppppppppp
+|4,52,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
 '5  26  0  ~/.config/fuzzel/fuzzel.ini
 |4,53,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
-'6  1  0  ~/.nix-profile/bin/clouds.sh
-|4,54,1,0,1757321547,"~/.nix-profile/bin/clouds.sh"
+'6  26  0  ~/.config/fuzzel/fuzzel.ini
+|4,54,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
 '7  1  0  ~/.nix-profile/bin/clouds.sh
 |4,55,1,0,1757321547,"~/.nix-profile/bin/clouds.sh"
-'8  9  0  ~/.nix-profile/bin/clouds.sh
-|4,56,9,0,1757321499,"~/.nix-profile/bin/clouds.sh"
-'9  9  0  ~/.nix-profile/bin/clouds.sh
-|4,57,9,0,1757321499,"~/.nix-profile/bin/clouds.sh"
+'8  1  0  ~/.nix-profile/bin/clouds.sh
+|4,56,1,0,1757321547,"~/.nix-profile/bin/clouds.sh"
+'9  1  0  ~/.nix-profile/bin/clouds.sh
+|4,57,1,0,1757321547,"~/.nix-profile/bin/clouds.sh"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
 -'  17  58  ~/.nix-profile/bin/addnew.sh
 |4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
 -'  25  3  ~/.nix-profile/bin/addnew.sh
 |4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
 -'  25  3  ~/.nix-profile/bin/addnew.sh
 |4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+-'  25  3  ~/.nix-profile/bin/addnew.sh
+|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+-'  25  3  ~/.nix-profile/bin/addnew.sh
+|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/pppppppppp
+|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
+-'  1  0  ~/.nix-profile/bin/pppppppppp
+|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
 -'  1  0  ~/.nix-profile/bin/pppppppppp
 |4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
 -'  1  0  ~/.nix-profile/bin/pppppppppp
@@ -513,6 +529,18 @@ $
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757322751,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322751,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322751,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322751,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322751,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322655,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322655,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757322655,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757322655,"~/.nix-profile/bin"
@@ -520,6 +548,18 @@ $
 |4,39,1,0,1757322655,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757322655,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322655,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322655,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322533,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322533,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322533,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757322533,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757322533,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
@@ -532,10 +572,22 @@ $
 |4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
 -'  9  0  ~/.nix-profile/bin/addnew.sh
 |4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
+-'  9  0  ~/.nix-profile/bin/addnew.sh
+|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
+-'  9  0  ~/.nix-profile/bin/addnew.sh
+|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
 -'  20  0  ~/.nix-profile/bin/addnew.sh
 |4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
 -'  20  0  ~/.nix-profile/bin/addnew.sh
 |4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
+-'  20  0  ~/.nix-profile/bin/addnew.sh
+|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
+-'  20  0  ~/.nix-profile/bin/addnew.sh
+|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
 -'  6  0  ~/.nix-profile/bin/addnew.sh
 |4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
 -'  6  0  ~/.nix-profile/bin/addnew.sh
@@ -548,6 +600,16 @@ $
 |4,39,1,0,1757321818,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757321818,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757321818,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757321818,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757321818,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757321818,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757321766,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757321766,"~/.nix-profile/bin/addnew.sh"
 -'  26  0  ~/.config/fuzzel/fuzzel.ini
@@ -630,70 +692,46 @@ $
 |4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
 -'  26  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321747,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321747,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321747,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321747,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321747,"~/.nix-profile/bin"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.nix-profile/bin/clouds.sh
+	*	1757323625	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	8	38
+	+	3	63
+	+	9	10
+	+	3	0
+	+	9	10
+	+	8	61
+	+	3	9
+	+	4	9
+	+	5	8
+	+	6	8
+	+	8	23
+	+	8	20
+	+	8	18
+	+	9	0
+	+	26	0
+	+	20	0
+	+	16	0
+	+	17	30
+	+	19	3
+	+	20	32
+	+	22	3
+	+	23	58
+	+	25	4
+	+	9	0
+	+	3	10
+	+	4	11
+	+	5	10
+	+	6	10
+	+	3	11
+	+	4	11
+	+	5	10
+	+	6	10
 
 > ~/.nix-profile/bin/addnew.sh
 	*	1757323225	0
@@ -781,36 +819,6 @@ $
 	+	19	13
 	+	11	17
 	+	26	0
-
-> ~/.nix-profile/bin/clouds.sh
-	*	1757321534	0
-	"	1	0
-	^	25	5
-	.	9	0
-	+	8	38
-	+	3	63
-	+	9	10
-	+	3	0
-	+	9	10
-	+	8	61
-	+	3	9
-	+	4	9
-	+	5	8
-	+	6	8
-	+	8	23
-	+	8	20
-	+	8	18
-	+	9	0
-	+	26	0
-	+	20	0
-	+	16	0
-	+	17	30
-	+	19	3
-	+	20	32
-	+	22	3
-	+	23	58
-	+	25	4
-	+	9	0
 
 > ~/.nix-profile/bin/ffffff
 	*	1757319318	0
