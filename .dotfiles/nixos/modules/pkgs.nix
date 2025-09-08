@@ -23,6 +23,9 @@
 
     environment.systemPackages =
         (with pkgs; [
+            papirus-icon-theme
+            whitesur-icon-theme
+            tela-icon-theme
             alacritty
             baobab
             banana-cursor
