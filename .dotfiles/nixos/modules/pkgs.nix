@@ -59,7 +59,6 @@
             kdePackages.qtsvg
             kdePackages.qtwayland
             killall
-            krename
             libnotify
             libreoffice-fresh
             libva-utils
