@@ -236,7 +236,6 @@
     for_window [app_id="org.pulseaudio.pavucontrol"] floating enable, resize set 630 400, move position 700px 3px
     for_window [app_id="script"] floating enable, resize set 400 100
 
-
 include /etc/sway/config.d/*
 
 ##### END OF FILE #####
