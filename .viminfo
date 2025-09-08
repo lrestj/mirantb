@@ -21,9 +21,9 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :w
-|2,0,1757355029,,"w"
+|2,0,1757355527,,"w"
 :wq
-|2,0,1757345276,,"wq"
+|2,0,1757355120,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
 :w .dotfiles/other/stuff2remember.txt
@@ -381,9 +381,9 @@ $
 "0	LINE	0
 	  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg "Touchpad zakázán"
 |3,0,0,1,1,0,1757345563,"  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg \"Touchpad zakázán\""
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1757355026,""
+|3,0,1,1,1,0,1757355026,""
 "2	LINE	0
 	
 |3,0,2,1,1,0,1757354973,""
@@ -424,9 +424,9 @@ $
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
-"-	CHAR	0
-	:
-|3,0,36,0,1,0,1757354795,":"
+""-	CHAR	0
+	$menu
+|3,1,36,0,1,0,1757355113,"$menu"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -447,38 +447,74 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  239  0  ~/.config/sway/config
-|4,48,239,0,1757355030,"~/.config/sway/config"
-'1  188  0  ~/.config/sway/config
-|4,49,188,0,1757354994,"~/.config/sway/config"
-'2  188  0  ~/.config/sway/config
-|4,50,188,0,1757354994,"~/.config/sway/config"
-'3  99  4  ~/.config/sway/config
-|4,51,99,4,1757354879,"~/.config/sway/config"
-'4  99  4  ~/.config/sway/config
-|4,52,99,4,1757354879,"~/.config/sway/config"
-'5  99  4  ~/.config/sway/config
-|4,53,99,4,1757354879,"~/.config/sway/config"
-'6  99  4  ~/.config/sway/config
-|4,54,99,4,1757354879,"~/.config/sway/config"
-'7  98  243  ~/.config/sway/config
-|4,55,98,243,1757352525,"~/.config/sway/config"
-'8  99  171  ~/.config/sway/config
-|4,56,99,171,1757352525,"~/.config/sway/config"
-'9  98  243  ~/.config/sway/config
-|4,57,98,243,1757352525,"~/.config/sway/config"
+'0  10  45  ~/.nix-profile/bin/touchpad.sh
+|4,48,10,45,1757355550,"~/.nix-profile/bin/touchpad.sh"
+'1  95  44  ~/.config/sway/config
+|4,49,95,44,1757355120,"~/.config/sway/config"
+'2  239  0  ~/.config/sway/config
+|4,50,239,0,1757355030,"~/.config/sway/config"
+'3  239  0  ~/.config/sway/config
+|4,51,239,0,1757355030,"~/.config/sway/config"
+'4  188  0  ~/.config/sway/config
+|4,52,188,0,1757354994,"~/.config/sway/config"
+'5  188  0  ~/.config/sway/config
+|4,53,188,0,1757354994,"~/.config/sway/config"
+'6  188  0  ~/.config/sway/config
+|4,54,188,0,1757354994,"~/.config/sway/config"
+'7  188  0  ~/.config/sway/config
+|4,55,188,0,1757354994,"~/.config/sway/config"
+'8  99  4  ~/.config/sway/config
+|4,56,99,4,1757354879,"~/.config/sway/config"
+'9  99  4  ~/.config/sway/config
+|4,57,99,4,1757354879,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  10  45  ~/.nix-profile/bin/touchpad.sh
+|4,39,10,45,1757355550,"~/.nix-profile/bin/touchpad.sh"
+-'  1  0  ~/.nix-profile/bin/touchpad.sh
+|4,39,1,0,1757355500,"~/.nix-profile/bin/touchpad.sh"
+-'  95  44  ~/.config/sway/config
+|4,39,95,44,1757355120,"~/.config/sway/config"
+-'  95  44  ~/.config/sway/config
+|4,39,95,44,1757355120,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757355098,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757355098,"~/.config/sway/config"
+-'  239  0  ~/.config/sway/config
+|4,39,239,0,1757355030,"~/.config/sway/config"
+-'  239  0  ~/.config/sway/config
+|4,39,239,0,1757355030,"~/.config/sway/config"
+-'  239  0  ~/.config/sway/config
+|4,39,239,0,1757355030,"~/.config/sway/config"
 -'  239  0  ~/.config/sway/config
 |4,39,239,0,1757355030,"~/.config/sway/config"
 -'  18  26  ~/.config/sway/config
 |4,39,18,26,1757355016,"~/.config/sway/config"
+-'  18  26  ~/.config/sway/config
+|4,39,18,26,1757355016,"~/.config/sway/config"
+-'  18  26  ~/.config/sway/config
+|4,39,18,26,1757355016,"~/.config/sway/config"
+-'  18  26  ~/.config/sway/config
+|4,39,18,26,1757355016,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757355012,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757355012,"~/.config/sway/config"
 -'  188  0  ~/.config/sway/config
 |4,39,188,0,1757354994,"~/.config/sway/config"
 -'  188  0  ~/.config/sway/config
 |4,39,188,0,1757354994,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757354994,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757354994,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757354994,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757354994,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757354948,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757354948,"~/.config/sway/config"
 -'  99  4  ~/.config/sway/config
@@ -487,12 +523,34 @@ $
 |4,39,99,4,1757354879,"~/.config/sway/config"
 -'  99  4  ~/.config/sway/config
 |4,39,99,4,1757354879,"~/.config/sway/config"
+-'  99  4  ~/.config/sway/config
+|4,39,99,4,1757354879,"~/.config/sway/config"
+-'  99  4  ~/.config/sway/config
+|4,39,99,4,1757354879,"~/.config/sway/config"
+-'  99  4  ~/.config/sway/config
+|4,39,99,4,1757354879,"~/.config/sway/config"
+-'  99  4  ~/.config/sway/config
+|4,39,99,4,1757354879,"~/.config/sway/config"
+-'  99  4  ~/.config/sway/config
+|4,39,99,4,1757354879,"~/.config/sway/config"
 -'  98  74  ~/.config/sway/config
 |4,39,98,74,1757354818,"~/.config/sway/config"
 -'  98  74  ~/.config/sway/config
 |4,39,98,74,1757354818,"~/.config/sway/config"
 -'  98  74  ~/.config/sway/config
 |4,39,98,74,1757354818,"~/.config/sway/config"
+-'  98  74  ~/.config/sway/config
+|4,39,98,74,1757354818,"~/.config/sway/config"
+-'  98  74  ~/.config/sway/config
+|4,39,98,74,1757354818,"~/.config/sway/config"
+-'  98  74  ~/.config/sway/config
+|4,39,98,74,1757354818,"~/.config/sway/config"
+-'  98  74  ~/.config/sway/config
+|4,39,98,74,1757354818,"~/.config/sway/config"
+-'  98  74  ~/.config/sway/config
+|4,39,98,74,1757354818,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757354677,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757354677,"~/.config/sway/config"
 -'  13  3  ~/.nix-profile/bin/touchpad.sh
@@ -503,6 +561,24 @@ $
 |4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
 -'  13  3  ~/.nix-profile/bin/touchpad.sh
 |4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  13  3  ~/.nix-profile/bin/touchpad.sh
+|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  13  3  ~/.nix-profile/bin/touchpad.sh
+|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  13  3  ~/.nix-profile/bin/touchpad.sh
+|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  13  3  ~/.nix-profile/bin/touchpad.sh
+|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  13  3  ~/.nix-profile/bin/touchpad.sh
+|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
+-'  1  0  ~/.nix-profile/bin/touchpad.sh
+|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
+-'  1  0  ~/.nix-profile/bin/touchpad.sh
+|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
+-'  1  0  ~/.nix-profile/bin/touchpad.sh
+|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
+-'  1  0  ~/.nix-profile/bin/touchpad.sh
+|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
 -'  1  0  ~/.nix-profile/bin/touchpad.sh
 |4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
 -'  1  0  ~/.nix-profile/bin/touchpad.sh
@@ -513,14 +589,26 @@ $
 |4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
 -'  99  171  ~/.config/sway/config
 |4,39,99,171,1757352525,"~/.config/sway/config"
+-'  99  171  ~/.config/sway/config
+|4,39,99,171,1757352525,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757352370,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757352370,"~/.config/sway/config"
 -'  99  53  ~/.config/sway/config
 |4,39,99,53,1757352282,"~/.config/sway/config"
+-'  99  53  ~/.config/sway/config
+|4,39,99,53,1757352282,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757352228,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757352228,"~/.config/sway/config"
 -'  99  21  ~/.config/sway/config
 |4,39,99,21,1757352178,"~/.config/sway/config"
+-'  99  21  ~/.config/sway/config
+|4,39,99,21,1757352178,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757351926,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757351926,"~/.config/sway/config"
 -'  98  90  ~/.config/sway/config
@@ -531,106 +619,18 @@ $
 |4,39,98,90,1757346132,"~/.config/sway/config"
 -'  98  90  ~/.config/sway/config
 |4,39,98,90,1757346132,"~/.config/sway/config"
+-'  98  90  ~/.config/sway/config
+|4,39,98,90,1757346132,"~/.config/sway/config"
+-'  98  90  ~/.config/sway/config
+|4,39,98,90,1757346132,"~/.config/sway/config"
+-'  98  90  ~/.config/sway/config
+|4,39,98,90,1757346132,"~/.config/sway/config"
+-'  98  90  ~/.config/sway/config
+|4,39,98,90,1757346132,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757345595,"~/.config/sway/config"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757345595,"~/.config/sway/config"
 -'  21  53  ~/.nix-profile/bin/asktouchpad.sh
 |4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
 -'  21  53  ~/.nix-profile/bin/asktouchpad.sh
@@ -672,11 +672,24 @@ $
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.nix-profile/bin/touchpad.sh
+	*	1757355527	0
+	"	10	45
+	^	10	46
+	.	10	45
+	+	3	97
+	+	3	98
+	+	7	39
+	+	9	3
+	+	12	11
+	+	13	4
+	+	10	45
+
 > ~/.config/sway/config
-	*	1757355029	0
-	"	239	0
-	.	239	0
-	+	93	0
+	*	1757355117	0
+	"	95	44
+	^	95	45
+	.	95	44
 	+	96	0
 	+	123	0
 	+	164	0
@@ -776,22 +789,11 @@ $
 	+	98	0
 	+	99	0
 	+	239	0
+	+	95	44
 	k	78	0
 	m	203	0
 	s	1	0
 	w	248	0
-
-> ~/.nix-profile/bin/touchpad.sh
-	*	1757354612	0
-	"	13	3
-	^	13	4
-	.	13	4
-	+	3	97
-	+	3	98
-	+	7	39
-	+	9	3
-	+	12	11
-	+	13	4
 
 > ~/.nix-profile/bin/asktouchpad.sh
 	*	1757345576	0

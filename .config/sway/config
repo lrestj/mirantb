@@ -92,7 +92,7 @@
     # Start launcher
     # bindsym --release SUPER_L exec pkill fuzzel || $menu
     bindsym $mod+y exec pkill fuzzel || $menu
-    bindsym Alt+y exec pkill fuzzel || $menu
+    bindsym Alt+y exec pkill fuzzel || bemoji
 
     # Touchpad ON/OFF
     bindsym $ca+t  input type:touchpad events toggle enabled disabled, \

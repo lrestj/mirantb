@@ -7,7 +7,7 @@ case $status in
         notify-send -i touchpad -t 1000 "Touchpad aktivní"
     ;;
     disabled)
-        notify-send -i touchpad -t 1000 "Touchpad OFF"
+        notify-send -i touchpad -t 1000 " ❌ Touchpad OFF"
     ;;
     *) exit
 esac
