@@ -1,13 +1,13 @@
 #!/bin/bash
 
-sel=$(rofi -theme ~/.config/rofi/rofithemes/cloud.rasi -dmenu -p 'Jméno souboru')
+sel=$(fuzzel -d -p 'Jméno souboru: ')
 file=~/.nix-profile/bin/$sel
 
-# if [ $sel='~/.dotfiles/scripts/' ]; then
-#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
-# else   
+if [ $sel='~/.dotfiles/scripts/' ]; then
+    notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
+else   
     touch $file
     chmod +x $file
     echo "#!/bin/bash" > $file
     vim $file
-# fi
+fi

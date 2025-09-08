@@ -20,10 +20,12 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757316869,,"w"
+:wq!
+|2,0,1757316010,,"wq!"
 :wq
 |2,0,1757285147,,"wq"
-:w
-|2,0,1757285103,,"w"
 :sort
 |2,0,1757251406,,"sort"
 :reg
@@ -368,9 +370,9 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-""0	LINE	0
-	selection-text=1f1f28ff
-|3,1,0,1,1,0,1757284987,"selection-text=1f1f28ff"
+"0	CHAR	0
+	"   Hledej... "
+|3,0,0,0,1,0,1757316109,"\"   Hledej... \""
 "1	LINE	0
 	# fields=name,generic,comment,categories,filename,keywords,exec
 |3,0,1,1,1,0,1757284666,"# fields=name,generic,comment,categories,filename,keywords,exec"
@@ -414,9 +416,9 @@ $
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
-"-	CHAR	0
-	rofi -show drun -show-icons -sidebar-mode
-|3,0,36,0,1,0,1757283765,"rofi -show drun -show-icons -sidebar-mode"
+""-	CHAR	0
+	Areeze
+|3,1,36,0,1,0,1757316734,"Areeze"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -437,34 +439,72 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  31  11  ~/.config/fuzzel/fuzzel.ini
-|4,48,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
-'1  6  0  ~/.config/fuzzel/fuzzel.ini
-|4,49,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
-'2  6  0  ~/.config/fuzzel/fuzzel.ini
-|4,50,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
-'3  22  19  ~/.config/fuzzel/fuzzel.ini
-|4,51,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
-'4  23  19  ~/.config/fuzzel/fuzzel.ini
-|4,52,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
-'5  22  19  ~/.config/fuzzel/fuzzel.ini
-|4,53,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
-'6  23  19  ~/.config/fuzzel/fuzzel.ini
-|4,54,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
-'7  31  11  ~/.config/fuzzel/fuzzel.ini
-|4,55,31,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
-'8  32  11  ~/.config/fuzzel/fuzzel.ini
-|4,56,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
-'9  32  11  ~/.config/fuzzel/fuzzel.ini
-|4,57,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+'0  11  16  ~/.config/fuzzel/fuzzel.ini
+|4,48,11,16,1757316920,"~/.config/fuzzel/fuzzel.ini"
+'1  5  13  ~/.config/fuzzel/fuzzel.ini
+|4,49,5,13,1757316010,"~/.config/fuzzel/fuzzel.ini"
+'2  5  13  ~/.config/fuzzel/fuzzel.ini
+|4,50,5,13,1757316010,"~/.config/fuzzel/fuzzel.ini"
+'3  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,51,32,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+'4  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,52,32,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+'5  31  11  ~/.config/fuzzel/fuzzel.ini
+|4,53,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+'6  31  11  ~/.config/fuzzel/fuzzel.ini
+|4,54,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+'7  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,55,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+'8  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,56,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+'9  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,57,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  11  16  ~/.config/fuzzel/fuzzel.ini
+|4,39,11,16,1757316920,"~/.config/fuzzel/fuzzel.ini"
+-'  9  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,9,0,1757316191,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757316089,"~/.config/fuzzel/fuzzel.ini"
+-'  5  13  ~/.config/fuzzel/fuzzel.ini
+|4,39,5,13,1757316010,"~/.config/fuzzel/fuzzel.ini"
+-'  5  13  ~/.config/fuzzel/fuzzel.ini
+|4,39,5,13,1757316010,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757315784,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757315690,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757315690,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757315690,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757315690,"~/.nix-profile/bin"
+-'  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+-'  31  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
+-'  31  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
 -'  31  11  ~/.config/fuzzel/fuzzel.ini
 |4,39,31,11,1757285147,"~/.config/fuzzel/fuzzel.ini"
 -'  6  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
 -'  6  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+-'  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+-'  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+-'  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+-'  6  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,6,0,1757284714,"~/.config/fuzzel/fuzzel.ini"
+-'  23  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  24  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,24,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
 -'  22  19  ~/.config/fuzzel/fuzzel.ini
 |4,39,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
 -'  23  19  ~/.config/fuzzel/fuzzel.ini
@@ -473,12 +513,34 @@ $
 |4,39,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
 -'  23  19  ~/.config/fuzzel/fuzzel.ini
 |4,39,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  22  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  23  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  22  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  23  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  22  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,22,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
+-'  23  19  ~/.config/fuzzel/fuzzel.ini
+|4,39,23,19,1757284525,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757284486,"~/.config/fuzzel/fuzzel.ini"
+-'  33  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,33,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
 -'  32  11  ~/.config/fuzzel/fuzzel.ini
 |4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
 -'  31  11  ~/.config/fuzzel/fuzzel.ini
@@ -487,6 +549,16 @@ $
 |4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
 -'  32  11  ~/.config/fuzzel/fuzzel.ini
 |4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  31  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,31,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  32  11  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,11,1757284415,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757284297,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757284297,"~/.config/fuzzel/fuzzel.ini"
 -'  78  0  ~/.config/sway/config
@@ -501,179 +573,111 @@ $
 |4,39,78,0,1757284020,"~/.config/sway/config"
 -'  78  0  ~/.config/sway/config
 |4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
+-'  78  0  ~/.config/sway/config
+|4,39,78,0,1757284020,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757283984,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757283984,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283984,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283984,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283984,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283984,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  93  46  ~/.config/sway/config
-|4,39,93,46,1757283963,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283922,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283922,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283922,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283922,"~/.config/sway/config"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  5  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,5,15,1757283918,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757283859,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757283859,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757283859,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757283859,"~/.config/fuzzel/fuzzel.ini"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  34  19  ~/.config/sway/config
-|4,39,34,19,1757283772,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757283750,"~/.config/sway/config"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
--'  31  79  ~/.nix-profile/bin/cliphist-fuzzel-img
-|4,39,31,79,1757283735,"~/.nix-profile/bin/cliphist-fuzzel-img"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/fuzzel/fuzzel.ini
-	*	1757285145	0
-	"	31	11
-	^	31	12
-	.	31	11
+	*	1757316869	0
+	"	11	16
+	^	11	17
+	.	11	17
 	+	1	4
 	+	1	0
 	+	6	57
 	+	8	8
 	+	9	21
-	+	20	12
-	+	27	16
+	+	21	12
+	+	28	16
 	+	2	22
-	+	20	12
+	+	21	12
 	+	2	8
 	+	10	0
 	+	8	16
@@ -685,16 +689,26 @@ $
 	+	6	19
 	+	6	0
 	+	2	24
-	+	16	6
-	+	20	13
-	+	16	7
+	+	17	6
+	+	21	13
+	+	17	7
 	+	10	0
 	+	5	15
-	+	31	11
-	+	22	19
+	+	32	11
+	+	23	19
 	+	6	0
-	+	34	21
-	+	31	11
+	+	35	21
+	+	32	11
+	+	5	13
+	+	8	7
+	+	9	13
+	+	18	15
+	+	19	14
+	+	18	15
+	+	19	13
+	+	18	16
+	+	19	13
+	+	11	17
 
 > ~/.config/sway/config
 	*	1757283994	0
