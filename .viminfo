@@ -21,9 +21,9 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :q
-|2,0,1757320462,,"q"
+|2,0,1757321338,,"q"
 :w
-|2,0,1757320419,,"w"
+|2,0,1757321295,,"w"
 :wq
 |2,0,1757318928,,"wq"
 :w!
@@ -440,32 +440,46 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  8  18  ~/.nix-profile/bin/clouds.sh
-|4,48,8,18,1757320462,"~/.nix-profile/bin/clouds.sh"
-'1  23  10  ~/.nix-profile/bin/clouds.sh
-|4,49,23,10,1757320200,"~/.nix-profile/bin/clouds.sh"
-'2  26  10  ~/.nix-profile/bin/clouds.sh
-|4,50,26,10,1757320200,"~/.nix-profile/bin/clouds.sh"
-'3  13  0  ~/.nix-profile/bin/addnew.sh
-|4,51,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
-'4  13  0  ~/.nix-profile/bin/addnew.sh
-|4,52,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
-'5  1  0  ~/.nix-profile/bin/ffffff
-|4,53,1,0,1757319328,"~/.nix-profile/bin/ffffff"
-'6  1  0  ~/.nix-profile/bin/pokus
-|4,54,1,0,1757319197,"~/.nix-profile/bin/pokus"
-'7  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  3  36  ~/.nix-profile/bin/addnew.sh
-|4,56,3,36,1757318499,"~/.nix-profile/bin/addnew.sh"
-'9  3  36  ~/.nix-profile/bin/addnew.sh
-|4,57,3,36,1757318499,"~/.nix-profile/bin/addnew.sh"
+'0  42  4  ~/.nix-profile/bin/clouds.sh
+|4,48,42,4,1757321338,"~/.nix-profile/bin/clouds.sh"
+'1  8  18  ~/.nix-profile/bin/clouds.sh
+|4,49,8,18,1757320462,"~/.nix-profile/bin/clouds.sh"
+'2  8  18  ~/.nix-profile/bin/clouds.sh
+|4,50,8,18,1757320462,"~/.nix-profile/bin/clouds.sh"
+'3  23  10  ~/.nix-profile/bin/clouds.sh
+|4,51,23,10,1757320200,"~/.nix-profile/bin/clouds.sh"
+'4  43  10  ~/.nix-profile/bin/clouds.sh
+|4,52,43,10,1757320200,"~/.nix-profile/bin/clouds.sh"
+'5  23  10  ~/.nix-profile/bin/clouds.sh
+|4,53,23,10,1757320200,"~/.nix-profile/bin/clouds.sh"
+'6  26  10  ~/.nix-profile/bin/clouds.sh
+|4,54,26,10,1757320200,"~/.nix-profile/bin/clouds.sh"
+'7  13  0  ~/.nix-profile/bin/addnew.sh
+|4,55,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
+'8  13  0  ~/.nix-profile/bin/addnew.sh
+|4,56,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
+'9  1  0  ~/.nix-profile/bin/ffffff
+|4,57,1,0,1757319328,"~/.nix-profile/bin/ffffff"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  42  4  ~/.nix-profile/bin/clouds.sh
+|4,39,42,4,1757321338,"~/.nix-profile/bin/clouds.sh"
+-'  43  0  ~/.nix-profile/bin/clouds.sh
+|4,39,43,0,1757320770,"~/.nix-profile/bin/clouds.sh"
+-'  10  0  ~/.nix-profile/bin/clouds.sh
+|4,39,10,0,1757320738,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757320637,"~/.nix-profile/bin/clouds.sh"
+-'  8  18  ~/.nix-profile/bin/clouds.sh
+|4,39,8,18,1757320462,"~/.nix-profile/bin/clouds.sh"
 -'  8  18  ~/.nix-profile/bin/clouds.sh
 |4,39,8,18,1757320462,"~/.nix-profile/bin/clouds.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757320215,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757320215,"~/.nix-profile/bin/addnew.sh"
+-'  23  10  ~/.nix-profile/bin/clouds.sh
+|4,39,23,10,1757320200,"~/.nix-profile/bin/clouds.sh"
 -'  23  10  ~/.nix-profile/bin/clouds.sh
 |4,39,23,10,1757320200,"~/.nix-profile/bin/clouds.sh"
 -'  26  10  ~/.nix-profile/bin/clouds.sh
@@ -480,6 +494,12 @@ $
 |4,39,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
 -'  13  0  ~/.nix-profile/bin/addnew.sh
 |4,39,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
+-'  13  0  ~/.nix-profile/bin/addnew.sh
+|4,39,13,0,1757319711,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757319629,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
@@ -488,6 +508,20 @@ $
 |4,39,1,0,1757319629,"~/.nix-profile/bin"
 -'  1  0  ~/.nix-profile/bin
 |4,39,1,0,1757319629,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757319629,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757319629,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757319629,"~/.nix-profile/bin"
+-'  1  0  ~/.nix-profile/bin
+|4,39,1,0,1757319629,"~/.nix-profile/bin"
+-'  3  0  ~/.nix-profile/bin/addnew.sh
+|4,39,3,0,1757319615,"~/.nix-profile/bin/addnew.sh"
+-'  3  0  ~/.nix-profile/bin/addnew.sh
+|4,39,3,0,1757319615,"~/.nix-profile/bin/addnew.sh"
+-'  3  0  ~/.nix-profile/bin/addnew.sh
+|4,39,3,0,1757319615,"~/.nix-profile/bin/addnew.sh"
 -'  3  0  ~/.nix-profile/bin/addnew.sh
 |4,39,3,0,1757319615,"~/.nix-profile/bin/addnew.sh"
 -'  3  0  ~/.nix-profile/bin/addnew.sh
@@ -510,6 +544,54 @@ $
 |4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
 -'  1  0  ~/.nix-profile/bin/ffffff
 |4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/ffffff
+|4,39,1,0,1757319328,"~/.nix-profile/bin/ffffff"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
+-'  1  0  ~/.nix-profile/bin/pokus
+|4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
 -'  1  0  ~/.nix-profile/bin/pokus
 |4,39,1,0,1757319197,"~/.nix-profile/bin/pokus"
 -'  1  0  ~/.nix-profile/bin/pokus
@@ -546,6 +628,10 @@ $
 |4,39,1,0,1757319174,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757319174,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757319174,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757319174,"~/.nix-profile/bin/addnew.sh"
 -'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -576,100 +662,14 @@ $
 |4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  62  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,62,12,1757318928,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757318914,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.nix-profile/bin/clouds.sh
-	*	1757320419	0
-	"	8	18
-	^	8	19
-	.	8	18
+	*	1757321295	0
+	"	42	4
+	^	42	5
+	.	42	4
 	+	8	38
 	+	3	63
 	+	11	10
@@ -689,6 +689,16 @@ $
 	+	8	23
 	+	8	20
 	+	8	18
+	+	25	0
+	+	43	0
+	+	37	0
+	+	33	0
+	+	34	30
+	+	36	3
+	+	37	32
+	+	39	3
+	+	40	58
+	+	42	4
 
 > ~/.nix-profile/bin/addnew.sh
 	*	1757320206	0
