@@ -21,15 +21,15 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :w
-|2,0,1757355527,,"w"
+|2,0,1757360821,,"w"
+:q
+|2,0,1757360545,,"q"
 :wq
-|2,0,1757355120,,"wq"
+|2,0,1757360133,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
 :w .dotfiles/other/stuff2remember.txt
 |2,0,1757341333,,"w .dotfiles/other/stuff2remember.txt"
-:q
-|2,0,1757339834,,"q"
 :w ~/.local/share/applications/ytDownloader.desktop
 |2,0,1757338519,,"w ~/.local/share/applications/ytDownloader.desktop"
 :ene
@@ -381,33 +381,33 @@ $
 "0	LINE	0
 	  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg "Touchpad zakázán"
 |3,0,0,1,1,0,1757345563,"  notify-send -c center -i $HOME/.dotfiles/icons/touchpad.svg \"Touchpad zakázán\""
-"1	LINE	0
-	
-|3,0,1,1,1,0,1757355026,""
+""1	LINE	0
+	pkill waybar &
+|3,1,1,1,1,0,1757360811,"pkill waybar &"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1757354973,""
+|3,0,2,1,1,0,1757355026,""
 "3	LINE	0
-	ddgtk-application-prefer-dark-theme=1
-|3,0,3,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
+	
+|3,0,3,1,1,0,1757354973,""
 "4	LINE	0
-	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
-|3,0,4,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
+	ddgtk-application-prefer-dark-theme=1
+|3,0,4,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
 "5	LINE	0
-	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
-|3,0,5,1,1,0,1757342575,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+	    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
+|3,0,5,1,1,0,1757342633,"    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\""
 "6	LINE	0
 	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
-|3,0,6,1,1,0,1757342566,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
+|3,0,6,1,1,0,1757342575,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "7	LINE	0
-	    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
-|3,0,7,1,1,0,1757342556,"    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode \"default\""
+	    bindsym h exec makoctl dismiss && hyprctl reload; mode "default"
+|3,0,7,1,1,0,1757342566,"    bindsym h exec makoctl dismiss && hyprctl reload; mode \"default\""
 "8	LINE	0
-	    Sway  H
-|3,0,8,1,1,0,1757342334,"    Sway  H"
+	    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode "default"
+|3,0,8,1,1,0,1757342556,"    bindsym r exec makoctl dismiss && $editor ~/.config/hypr/4-windowsRules.conf; mode \"default\""
 "9	LINE	0
-	    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode "default"
-|3,0,9,1,1,0,1757342306,"    bindsym a exec makoctl dismiss && $editor ~/.config/hypr/1-envAutostartDefaultApps.conf; mode \"default\""
+	    Sway  H
+|3,0,9,1,1,0,1757342334,"    Sway  H"
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -424,9 +424,9 @@ $
 "q@	CHAR	0
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
-""-	CHAR	0
-	$menu
-|3,1,36,0,1,0,1757355113,"$menu"
+"-	CHAR	0
+	e
+|3,0,36,0,1,0,1757360471,"e"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -447,230 +447,300 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  10  45  ~/.nix-profile/bin/touchpad.sh
-|4,48,10,45,1757355550,"~/.nix-profile/bin/touchpad.sh"
-'1  95  44  ~/.config/sway/config
-|4,49,95,44,1757355120,"~/.config/sway/config"
-'2  239  0  ~/.config/sway/config
-|4,50,239,0,1757355030,"~/.config/sway/config"
-'3  239  0  ~/.config/sway/config
-|4,51,239,0,1757355030,"~/.config/sway/config"
-'4  188  0  ~/.config/sway/config
-|4,52,188,0,1757354994,"~/.config/sway/config"
-'5  188  0  ~/.config/sway/config
-|4,53,188,0,1757354994,"~/.config/sway/config"
-'6  188  0  ~/.config/sway/config
-|4,54,188,0,1757354994,"~/.config/sway/config"
-'7  188  0  ~/.config/sway/config
-|4,55,188,0,1757354994,"~/.config/sway/config"
-'8  99  4  ~/.config/sway/config
-|4,56,99,4,1757354879,"~/.config/sway/config"
-'9  99  4  ~/.config/sway/config
-|4,57,99,4,1757354879,"~/.config/sway/config"
+'0  3  0  ~/.local/bin/waybar-sway
+|4,48,3,0,1757360841,"~/.local/bin/waybar-sway"
+'1  1  0  ~/.local/bin/zinstallnixos.sh
+|4,49,1,0,1757360717,"~/.local/bin/zinstallnixos.sh"
+'2  4  0  ~/.local/bin/waybar-sway
+|4,50,4,0,1757360696,"~/.local/bin/waybar-sway"
+'3  4  12  ~/.local/bin/addnew.sh
+|4,51,4,12,1757360545,"~/.local/bin/addnew.sh"
+'4  1  0  ~/.local/bin/pokulocalbin
+|4,52,1,0,1757360510,"~/.local/bin/pokulocalbin"
+'5  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,53,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'6  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,54,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+'7  10  45  ~/.nix-profile/bin/touchpad.sh
+|4,55,10,45,1757355550,"~/.nix-profile/bin/touchpad.sh"
+'8  95  44  ~/.config/sway/config
+|4,56,95,44,1757355120,"~/.config/sway/config"
+'9  239  0  ~/.config/sway/config
+|4,57,239,0,1757355030,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  10  45  ~/.nix-profile/bin/touchpad.sh
-|4,39,10,45,1757355550,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757355500,"~/.nix-profile/bin/touchpad.sh"
--'  95  44  ~/.config/sway/config
-|4,39,95,44,1757355120,"~/.config/sway/config"
--'  95  44  ~/.config/sway/config
-|4,39,95,44,1757355120,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757355098,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757355098,"~/.config/sway/config"
--'  239  0  ~/.config/sway/config
-|4,39,239,0,1757355030,"~/.config/sway/config"
--'  239  0  ~/.config/sway/config
-|4,39,239,0,1757355030,"~/.config/sway/config"
--'  239  0  ~/.config/sway/config
-|4,39,239,0,1757355030,"~/.config/sway/config"
--'  239  0  ~/.config/sway/config
-|4,39,239,0,1757355030,"~/.config/sway/config"
--'  18  26  ~/.config/sway/config
-|4,39,18,26,1757355016,"~/.config/sway/config"
--'  18  26  ~/.config/sway/config
-|4,39,18,26,1757355016,"~/.config/sway/config"
--'  18  26  ~/.config/sway/config
-|4,39,18,26,1757355016,"~/.config/sway/config"
--'  18  26  ~/.config/sway/config
-|4,39,18,26,1757355016,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757355012,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757355012,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  188  0  ~/.config/sway/config
-|4,39,188,0,1757354994,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757354948,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757354948,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  99  4  ~/.config/sway/config
-|4,39,99,4,1757354879,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  98  74  ~/.config/sway/config
-|4,39,98,74,1757354818,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757354677,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757354677,"~/.config/sway/config"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  13  3  ~/.nix-profile/bin/touchpad.sh
-|4,39,13,3,1757354673,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  1  0  ~/.nix-profile/bin/touchpad.sh
-|4,39,1,0,1757354173,"~/.nix-profile/bin/touchpad.sh"
--'  99  171  ~/.config/sway/config
-|4,39,99,171,1757352525,"~/.config/sway/config"
--'  99  171  ~/.config/sway/config
-|4,39,99,171,1757352525,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757352370,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757352370,"~/.config/sway/config"
--'  99  53  ~/.config/sway/config
-|4,39,99,53,1757352282,"~/.config/sway/config"
--'  99  53  ~/.config/sway/config
-|4,39,99,53,1757352282,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757352228,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757352228,"~/.config/sway/config"
--'  99  21  ~/.config/sway/config
-|4,39,99,21,1757352178,"~/.config/sway/config"
--'  99  21  ~/.config/sway/config
-|4,39,99,21,1757352178,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757351926,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757351926,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  98  90  ~/.config/sway/config
-|4,39,98,90,1757346132,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757345595,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757345595,"~/.config/sway/config"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
--'  21  53  ~/.nix-profile/bin/asktouchpad.sh
-|4,39,21,53,1757345581,"~/.nix-profile/bin/asktouchpad.sh"
+-'  3  0  ~/.local/bin/waybar-sway
+|4,39,3,0,1757360841,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757360768,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/zinstallnixos.sh
+|4,39,1,0,1757360717,"~/.local/bin/zinstallnixos.sh"
+-'  1  0  ~/.local/bin/zinstallnixos.sh
+|4,39,1,0,1757360717,"~/.local/bin/zinstallnixos.sh"
+-'  4  0  ~/.local/bin/waybar-sway
+|4,39,4,0,1757360696,"~/.local/bin/waybar-sway"
+-'  4  0  ~/.local/bin/waybar-sway
+|4,39,4,0,1757360696,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757360656,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757360656,"~/.local/bin/waybar-sway"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  4  12  ~/.local/bin/addnew.sh
+|4,39,4,12,1757360545,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/pokulocalbin
+|4,39,1,0,1757360510,"~/.local/bin/pokulocalbin"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  1  0  ~/.local/bin/addnew.sh
+|4,39,1,0,1757360378,"~/.local/bin/addnew.sh"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  20  27  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,20,27,1757360133,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757359980,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
+-'  3  118  ~/.nix-profile/bin/touckpadexp.sh
+|4,39,3,118,1757355579,"~/.nix-profile/bin/touckpadexp.sh"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.local/bin/waybar-sway
+	*	1757360821	0
+	"	3	0
+	.	3	0
+	+	3	0
+
+> ~/.local/bin/zinstallnixos.sh
+	*	1757360706	0
+	"	1	0
+
+> ~/.local/bin/pokulocalbin
+	*	1757360508	0
+	"	1	0
+
+> ~/.local/bin/addnew.sh
+	*	1757360492	0
+	"	4	12
+	^	4	13
+	.	4	12
+	+	4	7
+	+	4	12
+
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1757360130	0
+	"	20	27
+	^	20	28
+	.	20	27
+	+	1	27
+	+	123	22
+	+	10	12
+	+	11	12
+	+	12	12
+	+	36	14
+	+	41	0
+	+	155	0
+	+	41	0
+	+	36	14
+	+	99	0
+	+	36	14
+	+	99	41
+	+	155	0
+	+	48	0
+	+	47	32
+	+	41	0
+	+	36	14
+	+	47	0
+	+	31	38
+	+	30	0
+	+	32	71
+	+	19	44
+	+	32	68
+	+	18	0
+	+	159	0
+	+	158	12
+	+	159	9
+	+	157	12
+	+	158	12
+	+	157	0
+	+	32	0
+	+	36	14
+	+	36	0
+	+	22	0
+	+	16	17
+	+	19	17
+	+	21	5
+	+	22	9
+	+	23	5
+	+	24	3
+	+	20	27
 
 > ~/.nix-profile/bin/touchpad.sh
 	*	1757355527	0
@@ -794,6 +864,13 @@ $
 	m	203	0
 	s	1	0
 	w	248	0
+
+> ~/.nix-profile/bin/touckpadexp.sh
+	*	1757352617	0
+	"	3	118
+	^	3	119
+	.	3	118
+	+	3	118
 
 > ~/.nix-profile/bin/asktouchpad.sh
 	*	1757345576	0
@@ -1444,48 +1521,6 @@ $
 	+	4	0
 	+	10	7
 	+	6	23
-
-> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-	*	1757195554	0
-	"	16	16
-	^	16	17
-	.	16	17
-	+	1	27
-	+	121	22
-	+	10	12
-	+	11	12
-	+	12	12
-	+	34	14
-	+	39	0
-	+	153	0
-	+	39	0
-	+	34	14
-	+	97	0
-	+	34	14
-	+	97	41
-	+	153	0
-	+	46	0
-	+	45	32
-	+	39	0
-	+	34	14
-	+	45	0
-	+	29	38
-	+	28	0
-	+	30	71
-	+	19	44
-	+	30	68
-	+	18	0
-	+	157	0
-	+	156	12
-	+	157	9
-	+	155	12
-	+	156	12
-	+	155	0
-	+	30	0
-	+	34	14
-	+	34	0
-	+	20	0
-	+	16	17
 
 > ~/.config/hypr/3-keyBindings.conf
 	*	1757184930	0
@@ -2614,114 +2649,3 @@ $
 	"	1	0
 	.	8	20
 	+	8	20
-
-> ~/.config/hypr/1-autostart.conf
-	*	1756282754	0
-	"	1	0
-	.	12	0
-	+	10	0
-	+	12	0
-	+	11	43
-	+	12	0
-
-> ~/.config/hypr/6-keyBindings.conf
-	*	1756250524	0
-	"	27	0
-	.	27	0
-	+	54	0
-	+	55	105
-	+	57	0
-	+	55	65
-	+	55	40
-	+	106	12
-	+	107	12
-	+	108	11
-	+	109	12
-	+	114	17
-	+	115	17
-	+	116	17
-	+	117	17
-	+	106	15
-	+	107	15
-	+	108	15
-	+	109	15
-	+	114	20
-	+	115	20
-	+	116	20
-	+	117	20
-	+	106	17
-	+	107	18
-	+	108	18
-	+	109	19
-	+	114	0
-	+	115	24
-	+	116	24
-	+	117	24
-	+	114	0
-	+	130	0
-	+	9	17
-	+	36	26
-	+	36	90
-	+	36	0
-	+	38	0
-	+	9	0
-	+	105	0
-	+	115	16
-	+	116	16
-	+	117	16
-	+	118	16
-	+	115	15
-	+	116	15
-	+	117	15
-	+	115	12
-	+	116	12
-	+	117	12
-	+	118	12
-	+	111	33
-	+	112	0
-	+	112	19
-	+	119	0
-	+	120	0
-	+	119	28
-	+	120	54
-	+	119	54
-	+	55	46
-	+	55	40
-	+	56	0
-	+	55	0
-	+	121	0
-	+	3	0
-	+	122	0
-	+	121	12
-	+	115	44
-	+	116	44
-	+	117	44
-	+	118	44
-	+	119	45
-	+	120	45
-	+	50	88
-	+	3	0
-	+	55	85
-	+	82	45
-	+	50	0
-	+	2	10
-	+	3	26
-	+	1	25
-	+	2	26
-	+	137	0
-	+	138	0
-	+	151	0
-	+	152	0
-	+	27	0
-
-> ~/.config/rofi/config.rasibak
-	*	1756227813	0
-	"	2	16
-
-> ~/Public/purple.rasi.swp
-	*	1756225204	0
-	"	1	0
-
-> ~/.config/wlogout/menu
-	*	1756200940	0
-	"	72	0

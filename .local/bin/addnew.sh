@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sel=$(fuzzel -d -p 'Jméno souboru:  ')
-file=~/.nix-profile/bin/$sel
+file=~/.local/bin/$sel
 
 case $sel in
     "")

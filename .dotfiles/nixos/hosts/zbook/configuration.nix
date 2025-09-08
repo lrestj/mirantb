@@ -16,10 +16,12 @@
   xdg.portal.wlr.enable = true;
   documentation.man.generateCaches = false;
   nixpkgs.config.allowUnfree = true;
-  environment.sessionVariables = {
-      NIXOS_OZONE_WL = "1";
+  environment = {
+      localBinInPath = true;
+      sessionVariables = {
+          NIXOS_OZONE_WL = "1";
+      };
   };
-
   hardware = {
       cpu.intel.updateMicrocode = true;
       nvidia = {
