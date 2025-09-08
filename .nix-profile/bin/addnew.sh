@@ -14,7 +14,7 @@ file=~/.nix-profile/bin/$sel
 
 case $sel in
     "")
-        notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
+        notify-send -i data-error "Nezadali jste jméno" "Konec bez vytvoření souboru"
     ;;
     *)
         touch $file
