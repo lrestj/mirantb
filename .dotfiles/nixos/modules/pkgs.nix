@@ -26,6 +26,7 @@
             alacritty
             baobab
             banana-cursor
+            bemoji
             bibata-cursors
             brave
             brightnessctl
@@ -52,7 +53,6 @@
             gthumb
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
-            chafa
             jq
             kdePackages.breeze-icons
             kdePackages.qt6ct
@@ -76,8 +76,6 @@
             reaper-reapack-extension
             reaper-sws-extension
             ripgrep
-            rofi
-            rofimoji
             simple-scan
             slurp
             swaybg

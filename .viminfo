@@ -20,10 +20,10 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1757330311,,"wq"
 :w
 |2,0,1757323876,,"w"
-:wq
-|2,0,1757321499,,"wq"
 :q
 |2,0,1757321338,,"q"
 :w!
@@ -373,12 +373,21 @@ $
 
 # Registry:
 "0	LINE	0
-	minimal-lines=yes
-|3,0,0,1,1,0,1757322751,"minimal-lines=yes"
+	    bindsym $mod+y exec pkill fuzzel || $menu
+|3,0,0,1,1,0,1757330282,"    bindsym $mod+y exec pkill fuzzel || $menu"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1757323770,""
+	            chafa
+|3,0,1,1,1,0,1757329850,"            chafa"
 "2	LINE	0
+	            rofimoji
+|3,0,2,1,1,0,1757329834,"            rofimoji"
+"3	LINE	0
+	            rofi
+|3,0,3,1,1,0,1757329833,"            rofi"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1757323770,""
+"5	LINE	0
 	# if [ $sel="^/home/libor/.nix-profile/bin/$" ]; then
 	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
 	# else   
@@ -387,8 +396,8 @@ $
 	#     echo "#!/bin/bash" > $file
 	#     vim $file
 	# fi
-|3,0,2,1,8,0,1757323766,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file","# fi"
-"3	LINE	0
+|3,0,5,1,8,0,1757323766,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file","# fi"
+"6	LINE	0
 	# if [ $sel="^/home/libor/.nix-profile/bin/$" ]; then
 	#     notify-send -i data-error "Žádné jméno souboru" "Konec bez vytvoření souboru"
 	# else   
@@ -396,56 +405,32 @@ $
 	#     chmod +x $file
 	#     echo "#!/bin/bash" > $file
 	#     vim $file
-|3,0,3,1,7,0,1757323751,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file"
-"4	LINE	0
-	
-|3,0,4,1,1,0,1757322463,""
-"5	LINE	0
-	minimal-lines=yes
-|3,0,5,1,1,0,1757321727,"minimal-lines=yes"
-"6	BLOCK	0
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-|3,0,6,2,17,0,1757321493," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "
+|3,0,6,1,7,0,1757323751,"# if [ $sel=\"^/home/libor/.nix-profile/bin/$\" ]; then","#     notify-send -i data-error \"Žádné jméno souboru\" \"Konec bez vytvoření souboru\"","# else   ","#     touch $file","#     chmod +x $file","#     echo \"#!/bin/bash\" > $file","#     vim $file"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1757321483,""
+|3,0,7,1,1,0,1757322463,""
 "8	LINE	0
-	 # if [ "$selected" = "$PO" ]; then
-	 #   source onedrive.sh
-	 # fi  
-	
-	 # if [ "$selected" = "$OO" ]; then
-	 #   source umonedrive.sh
-	 # fi
-	
-	 # if [ "$selected" = "$PG" ]; then
-	 #   source googledrive.sh
-	 # fi  
-	
-	 # if [ "$selected" = "$OG" ]; then
-	 #   source umgoogledrive.sh
-	 # fi
-	
-|3,0,8,1,16,0,1757321464," # if [ \"$selected\" = \"$PO\" ]; then"," #   source onedrive.sh"," # fi  ",""," # if [ \"$selected\" = \"$OO\" ]; then"," #   source umonedrive.sh"," # fi",""," # if [ \"$selected\" = \"$PG\" ]; then"," #   source googledrive.sh"," # fi  ",""," # if [ \"$selected\" = \"$OG\" ]; then"," #   source umgoogledrive.sh"," # fi",""
-"9	LINE	0
-	"$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-|3,0,9,1,1,0,1757320141,"\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" &> /dev/null && pwd )\""
+	minimal-lines=yes
+|3,0,8,1,1,0,1757321727,"minimal-lines=yes"
+"9	BLOCK	0
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+|3,0,9,2,17,0,1757321493," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -460,8 +445,8 @@ $
 	a; mode "default"�kd��k
 |3,2,26,0,1,0,1757154206,"a; mode \"default\"�kd��k"
 ""-	CHAR	0
-	data-error
-|3,1,36,0,1,0,1757323861,"data-error"
+	$menu
+|3,1,36,0,1,0,1757330305,"$menu"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -482,230 +467,406 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  8  8  ~/.nix-profile/bin/addnew.sh
-|4,48,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
-'1  6  10  ~/.nix-profile/bin/clouds.sh
-|4,49,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
-'2  6  10  ~/.nix-profile/bin/clouds.sh
-|4,50,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
-'3  17  58  ~/.nix-profile/bin/addnew.sh
-|4,51,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
-'4  16  3  ~/.nix-profile/bin/addnew.sh
-|4,52,16,3,1757322914,"~/.nix-profile/bin/addnew.sh"
-'5  16  3  ~/.nix-profile/bin/addnew.sh
-|4,53,16,3,1757322914,"~/.nix-profile/bin/addnew.sh"
-'6  25  3  ~/.nix-profile/bin/addnew.sh
-|4,54,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
-'7  25  3  ~/.nix-profile/bin/addnew.sh
-|4,55,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
-'8  1  0  ~/.nix-profile/bin/pppppppppp
-|4,56,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
-'9  26  0  ~/.config/fuzzel/fuzzel.ini
-|4,57,26,0,1757321756,"~/.config/fuzzel/fuzzel.ini"
+'0  95  44  ~/.config/sway/config
+|4,48,95,44,1757330311,"~/.config/sway/config"
+'1  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,29,17,1757330127,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,29,17,1757329895,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  8  8  ~/.nix-profile/bin/addnew.sh
+|4,51,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+'4  6  10  ~/.nix-profile/bin/clouds.sh
+|4,52,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+'5  6  10  ~/.nix-profile/bin/clouds.sh
+|4,53,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+'6  17  58  ~/.nix-profile/bin/addnew.sh
+|4,54,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+'7  16  3  ~/.nix-profile/bin/addnew.sh
+|4,55,16,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+'8  16  3  ~/.nix-profile/bin/addnew.sh
+|4,56,16,3,1757322914,"~/.nix-profile/bin/addnew.sh"
+'9  25  3  ~/.nix-profile/bin/addnew.sh
+|4,57,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  95  44  ~/.config/sway/config
+|4,39,95,44,1757330311,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757330201,"~/.config/sway/config"
+-'  245  0  ~/.config/sway/config
+|4,39,245,0,1757330198,"~/.config/sway/config"
+-'  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,29,17,1757330127,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,29,17,1757330127,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757330116,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757330116,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,29,17,1757329895,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  29  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,29,17,1757329895,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757329823,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757329823,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
+-'  8  8  ~/.nix-profile/bin/addnew.sh
+|4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
 -'  8  8  ~/.nix-profile/bin/addnew.sh
 |4,39,8,8,1757323892,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/clouds.sh
 |4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323844,"~/.nix-profile/bin/clouds.sh"
 -'  6  0  ~/.nix-profile/bin/addnew.sh
 |4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  6  0  ~/.nix-profile/bin/addnew.sh
+|4,39,6,0,1757323837,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757323711,"~/.nix-profile/bin/addnew.sh"
 -'  6  10  ~/.nix-profile/bin/clouds.sh
 |4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
 -'  6  10  ~/.nix-profile/bin/clouds.sh
 |4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  6  10  ~/.nix-profile/bin/clouds.sh
+|4,39,6,10,1757323629,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
+-'  1  0  ~/.nix-profile/bin/clouds.sh
+|4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
 -'  1  0  ~/.nix-profile/bin/clouds.sh
 |4,39,1,0,1757323540,"~/.nix-profile/bin/clouds.sh"
 -'  17  58  ~/.nix-profile/bin/addnew.sh
 |4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
 -'  17  58  ~/.nix-profile/bin/addnew.sh
 |4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  17  58  ~/.nix-profile/bin/addnew.sh
+|4,39,17,58,1757323245,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
+-'  1  0  ~/.nix-profile/bin/addnew.sh
+|4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
 -'  1  0  ~/.nix-profile/bin/addnew.sh
 |4,39,1,0,1757323149,"~/.nix-profile/bin/addnew.sh"
 -'  16  3  ~/.nix-profile/bin/addnew.sh
 |4,39,16,3,1757322914,"~/.nix-profile/bin/addnew.sh"
--'  25  3  ~/.nix-profile/bin/addnew.sh
-|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
--'  25  3  ~/.nix-profile/bin/addnew.sh
-|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
--'  25  3  ~/.nix-profile/bin/addnew.sh
-|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
--'  25  3  ~/.nix-profile/bin/addnew.sh
-|4,39,25,3,1757322914,"~/.nix-profile/bin/addnew.sh"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin/pppppppppp
-|4,39,1,0,1757322901,"~/.nix-profile/bin/pppppppppp"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322751,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322655,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757322533,"~/.nix-profile/bin"
--'  9  0  ~/.nix-profile/bin/addnew.sh
-|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
--'  9  0  ~/.nix-profile/bin/addnew.sh
-|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
--'  9  0  ~/.nix-profile/bin/addnew.sh
-|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
--'  9  0  ~/.nix-profile/bin/addnew.sh
-|4,39,9,0,1757322477,"~/.nix-profile/bin/addnew.sh"
--'  11  0  ~/.nix-profile/bin/addnew.sh
-|4,39,11,0,1757322437,"~/.nix-profile/bin/addnew.sh"
--'  20  0  ~/.nix-profile/bin/addnew.sh
-|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
--'  20  0  ~/.nix-profile/bin/addnew.sh
-|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
--'  20  0  ~/.nix-profile/bin/addnew.sh
-|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
--'  20  0  ~/.nix-profile/bin/addnew.sh
-|4,39,20,0,1757322437,"~/.nix-profile/bin/addnew.sh"
--'  6  0  ~/.nix-profile/bin/addnew.sh
-|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
--'  6  0  ~/.nix-profile/bin/addnew.sh
-|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
--'  6  0  ~/.nix-profile/bin/addnew.sh
-|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
--'  6  0  ~/.nix-profile/bin/addnew.sh
-|4,39,6,0,1757322212,"~/.nix-profile/bin/addnew.sh"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
--'  1  0  ~/.nix-profile/bin
-|4,39,1,0,1757321818,"~/.nix-profile/bin"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/sway/config
+	*	1757330309	0
+	"	95	44
+	^	95	45
+	.	95	44
+	+	109	27
+	+	104	0
+	+	105	19
+	+	105	0
+	+	106	0
+	+	217	70
+	+	51	24
+	+	174	14
+	+	92	12
+	+	104	17
+	+	206	0
+	+	32	27
+	+	206	44
+	+	207	0
+	+	123	0
+	+	129	0
+	+	23	0
+	+	115	6
+	+	92	0
+	+	93	0
+	+	96	0
+	+	122	0
+	+	163	0
+	+	21	0
+	+	20	0
+	+	21	10
+	+	23	0
+	+	119	0
+	+	223	13
+	+	208	73
+	+	236	3
+	+	236	0
+	+	183	0
+	+	236	0
+	+	190	0
+	+	183	0
+	+	200	65
+	+	200	0
+	+	201	0
+	+	192	0
+	+	187	0
+	+	194	0
+	+	187	0
+	+	198	0
+	+	188	0
+	+	187	0
+	+	190	0
+	+	191	0
+	+	192	0
+	+	194	0
+	+	187	0
+	+	198	0
+	+	183	0
+	+	190	2
+	+	192	1
+	+	191	0
+	+	188	0
+	+	44	22
+	+	200	0
+	+	198	16
+	+	196	0
+	+	194	12
+	+	190	15
+	+	192	0
+	+	190	19
+	+	183	0
+	+	182	0
+	+	185	0
+	+	186	25
+	+	1	0
+	+	220	0
+	+	232	0
+	+	188	0
+	+	188	62
+	+	188	0
+	+	187	0
+	+	45	0
+	+	53	27
+	+	50	42
+	+	53	34
+	+	45	0
+	+	105	24
+	+	45	0
+	+	116	0
+	+	88	28
+	+	87	23
+	+	88	0
+	+	89	139
+	+	88	12
+	+	88	0
+	+	89	0
+	+	113	0
+	+	112	58
+	+	34	19
+	+	93	46
+	+	94	0
+	+	93	0
+	+	94	17
+	+	120	0
+	+	95	44
+	k	78	0
+	m	202	0
+	s	1	0
+	w	256	0
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757330124	0
+	"	29	17
+	^	29	18
+	.	29	17
+	+	143	0
+	+	143	23
+	+	143	10
+	+	65	12
+	+	143	0
+	+	143	9
+	+	143	10
+	+	35	0
+	+	120	17
+	+	34	19
+	+	120	0
+	+	90	0
+	+	88	17
+	+	73	0
+	+	73	19
+	+	54	0
+	+	35	0
+	+	6	0
+	+	119	0
+	+	6	0
+	+	8	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	86	0
+	+	119	0
+	+	6	0
+	+	73	0
+	+	51	18
+	+	64	22
+	+	56	16
+	+	28	24
+	+	133	14
+	+	142	0
+	+	135	0
+	+	134	24
+	+	135	37
+	+	143	88
+	+	135	0
+	+	142	0
+	+	53	29
+	+	136	10
+	+	137	38
+	+	141	0
+	+	139	14
+	+	53	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	143	0
+	+	56	0
+	+	95	0
+	+	140	0
+	+	138	17
+	+	138	0
+	+	47	17
+	+	62	0
+	+	79	0
+	+	56	0
+	+	29	17
 
 > ~/.nix-profile/bin/addnew.sh
 	*	1757323876	0
@@ -830,182 +991,9 @@ $
 	*	1757319193	0
 	"	1	0
 
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757318925	0
-	"	62	12
-	^	46	18
-	.	62	0
-	+	145	0
-	+	145	23
-	+	145	10
-	+	65	12
-	+	145	0
-	+	145	9
-	+	145	10
-	+	34	0
-	+	122	17
-	+	33	19
-	+	122	0
-	+	92	0
-	+	90	17
-	+	73	0
-	+	73	19
-	+	53	0
-	+	34	0
-	+	6	0
-	+	121	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	88	0
-	+	121	0
-	+	6	0
-	+	73	0
-	+	50	18
-	+	64	22
-	+	55	16
-	+	28	24
-	+	135	14
-	+	144	0
-	+	137	0
-	+	136	24
-	+	137	37
-	+	145	88
-	+	137	0
-	+	144	0
-	+	52	29
-	+	138	10
-	+	139	38
-	+	143	0
-	+	141	14
-	+	52	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	145	0
-	+	55	0
-	+	97	0
-	+	142	0
-	+	140	17
-	+	140	0
-	+	46	17
-	+	62	0
-
 > ~/.nix-profile/pokus
 	*	1757317303	0
 	"	1	0
-
-> ~/.config/sway/config
-	*	1757283994	0
-	"	78	0
-	^	93	47
-	.	93	46
-	+	99	23
-	+	202	16
-	+	222	14
-	+	89	20
-	+	90	61
-	+	107	27
-	+	102	0
-	+	103	19
-	+	103	0
-	+	104	0
-	+	215	70
-	+	51	24
-	+	172	14
-	+	92	12
-	+	102	17
-	+	204	0
-	+	32	27
-	+	204	44
-	+	205	0
-	+	121	0
-	+	127	0
-	+	23	0
-	+	113	6
-	+	92	0
-	+	93	0
-	+	94	0
-	+	120	0
-	+	161	0
-	+	21	0
-	+	20	0
-	+	21	10
-	+	23	0
-	+	117	0
-	+	221	13
-	+	206	73
-	+	234	3
-	+	234	0
-	+	181	0
-	+	234	0
-	+	188	0
-	+	181	0
-	+	198	65
-	+	198	0
-	+	199	0
-	+	190	0
-	+	185	0
-	+	192	0
-	+	185	0
-	+	196	0
-	+	186	0
-	+	185	0
-	+	188	0
-	+	189	0
-	+	190	0
-	+	192	0
-	+	185	0
-	+	196	0
-	+	181	0
-	+	188	2
-	+	190	1
-	+	189	0
-	+	186	0
-	+	44	22
-	+	198	0
-	+	196	16
-	+	194	0
-	+	192	12
-	+	188	15
-	+	190	0
-	+	188	19
-	+	181	0
-	+	180	0
-	+	183	0
-	+	184	25
-	+	1	0
-	+	218	0
-	+	230	0
-	+	186	0
-	+	186	62
-	+	186	0
-	+	185	0
-	+	45	0
-	+	53	27
-	+	50	42
-	+	53	34
-	+	45	0
-	+	103	24
-	+	45	0
-	+	114	0
-	+	88	28
-	+	87	23
-	+	88	0
-	+	89	139
-	+	88	12
-	+	88	0
-	+	89	0
-	+	111	0
-	+	110	58
-	+	34	19
-	+	93	46
-	k	78	0
-	m	200	0
-	s	1	0
-	w	254	0
 
 > ~/.nix-profile/bin/cliphist-fuzzel-img
 	*	1757283725	0
