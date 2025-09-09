@@ -79,6 +79,7 @@
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
     bindsym $cs+e exec $term -e vi
+    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan

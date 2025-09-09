@@ -44,27 +44,17 @@ set undofile undolevels=5000
 set undodir=~/.config/vim/undodir
 command! -nargs=0 CleanUpUndoFiles !find ~/.vim/tmp/undo -type f -mtime +100d -delete
 
+"Cursor look and bg render fix
+let &t_SI = "\e[1 q"
+let &t_SR = "\e[3 q"
+let &t_EI = "\e[2 q"
+let &t_ut=''
+
 "Statusline and custom background    
 hi StatusLine ctermbg=0 ctermfg=22
 hi Normal ctermbg=234   
 hi NonText ctermbg=234  
 hi LineNr ctermbg=234   
-
-" Kitty cursor fix
- if $TERM == "xterm-kitty"
-     set mouse=a
-     try
-         " undercurl support
-         let &t_Cs = "\e[4:3m"x
-         let &t_Ce = "\e[4:0m"
-     catch
-     endtry
-     " Change the cursor in different modes
-     let &t_SI = "\e[1 q"
-     let &t_SR = "\e[3 q"
-     let &t_EI = "\e[2 q"
-     let &t_ut=''
- endif
 
 "Plugins
 call plug#begin()
