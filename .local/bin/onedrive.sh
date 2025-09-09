@@ -1,6 +1,6 @@
 #!/bin/bash
 
-icon="/home/libor/.dotfiles/icons/onedrive.png"
+icon="ms-onedrive"
 title="✔ Připojeno"
 
 rclone --vfs-cache-mode writes mount OneDrive: /home/libor/Public/OneDrive &

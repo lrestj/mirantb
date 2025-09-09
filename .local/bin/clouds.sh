@@ -1,22 +1,22 @@
 #!/bin/bash
 
-PO="󰏊  Připojit OneDrive"
-OO="󰏊  Odpojit OneDrive"
-PG="  Připojit Google Disk"
-OG="  Odpojit Google Disk"
+PO="Připojit OneDrive\0icon\x1fms-onedrive"
+OO="Odpojit OneDrive\0icon\x1fms-onedrive"
+PG="Připojit Google Disk\0icon\x1fgoogle-drive"
+OG="Odpojit Google Disk\0icon\x1fgoogle-drive"
 
 selected=$(echo -e "$PO\n$OO\n$PG\n$OG" | fuzzel --minimal-lines -d -p "Úložiště: " )
 case $selected in
-    $PO)
+    "Připojit OneDrive")
         source onedrive.sh
     ;;
-    $OO)
+    "Odpojit OneDrive")
         source umonedrive.sh
     ;;
-    $PG)
+    "Připojit Google Disk")
         source googledrive.sh
     ;;
-    $OG)
+    "Odpojit Google Disk")
         source umgoogledrive.sh
     ;;
     *)

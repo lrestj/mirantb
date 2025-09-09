@@ -13,5 +13,7 @@
     [AdwStyleManager]
     color-scheme=ADW_COLOR_SCHEME_PREFER_DARK
 
+### Fuzzel dmenu icons "...\0icon\x1f<icon.name>"
+    echo -en "Firefox\0icon\x1ffirefox" | fuzzel --dmenu
 
 #### END OF FILE ##### 

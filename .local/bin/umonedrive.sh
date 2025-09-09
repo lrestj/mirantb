@@ -1,6 +1,6 @@
 #!/bin/bash
 
-icon="/home/libor/.dotfiles/icons/onedrive.png"
+icon="ms-onedrive"
 title="❌ Odpojeno"
 
 umount /home/libor/Public/OneDrive &&
