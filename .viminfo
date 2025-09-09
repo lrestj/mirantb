@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757447442,,"wq"
+|2,0,1757447919,,"wq"
 :w
 |2,0,1757447129,,"w"
 :version
@@ -488,30 +488,48 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,48,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
-'1  82  22  ~/.config/sway/config
-|4,49,82,22,1757447159,"~/.config/sway/config"
-'2  1  0  ~/.config/sway/config
-|4,50,1,0,1757446828,"~/.config/sway/config"
-'3  1  0  ~/.config/sway/config
-|4,51,1,0,1757446828,"~/.config/sway/config"
-'4  6  22  ~/.config/kitty/kitty.conf
-|4,52,6,22,1757446511,"~/.config/kitty/kitty.conf"
-'5  6  22  ~/.config/kitty/kitty.conf
-|4,53,6,22,1757446511,"~/.config/kitty/kitty.conf"
-'6  1  0  ~/.config/vim/vimrc
-|4,54,1,0,1757441930,"~/.config/vim/vimrc"
-'7  1  0  ~/.config/vim/vimrc
-|4,55,1,0,1757441930,"~/.config/vim/vimrc"
+'0  7  6  ~/.config/alacritty/alacritty.toml
+|4,48,7,6,1757447919,"~/.config/alacritty/alacritty.toml"
+'1  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,49,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+'2  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,50,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+'3  82  22  ~/.config/sway/config
+|4,51,82,22,1757447159,"~/.config/sway/config"
+'4  1  0  ~/.config/sway/config
+|4,52,1,0,1757446828,"~/.config/sway/config"
+'5  1  0  ~/.config/sway/config
+|4,53,1,0,1757446828,"~/.config/sway/config"
+'6  6  22  ~/.config/kitty/kitty.conf
+|4,54,6,22,1757446511,"~/.config/kitty/kitty.conf"
+'7  6  22  ~/.config/kitty/kitty.conf
+|4,55,6,22,1757446511,"~/.config/kitty/kitty.conf"
 '8  1  0  ~/.config/vim/vimrc
 |4,56,1,0,1757441930,"~/.config/vim/vimrc"
 '9  1  0  ~/.config/vim/vimrc
 |4,57,1,0,1757441930,"~/.config/vim/vimrc"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  7  6  ~/.config/alacritty/alacritty.toml
+|4,39,7,6,1757447919,"~/.config/alacritty/alacritty.toml"
+-'  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,22,0,1757447905,"~/.dotfiles/other/stuff2remember.txt"
 -'  22  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+-'  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+-'  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+-'  22  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.config/vim/vimrc
@@ -533,81 +551,61 @@ $
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+|4,39,1,0,1757447282,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757447226,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
@@ -713,8 +711,14 @@ $
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.config/alacritty/alacritty.toml
+	*	1757447916	0
+	"	7	6
+	.	7	6
+	+	7	6
+
 > ~/.dotfiles/other/stuff2remember.txt
-	*	1757447434	0
+	*	1757447895	0
 	"	22	0
 	^	22	0
 	.	21	0
@@ -2750,11 +2754,3 @@ $
 	.	128	9
 	+	127	9
 	+	128	9
-
-> ~/.dotfiles/nixos/modules/overridevim.nix
-	*	1756413926	0
-	"	5	23
-	^	5	24
-	.	5	23
-	+	1	51
-	+	5	23
