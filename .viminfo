@@ -20,12 +20,12 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1757414211,,"wq"
 :w
 |2,0,1757411102,,"w"
 :q
 |2,0,1757408594,,"q"
-:wq
-|2,0,1757408411,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
 :w .dotfiles/other/stuff2remember.txt
@@ -453,36 +453,52 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  234  61  ~/.config/sway/config
-|4,48,234,61,1757411109,"~/.config/sway/config"
-'1  78  19  ~/.config/waybar/config-sway.jsonc
-|4,49,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
-'2  239  17  ~/.config/waybar/style-sway.css
-|4,50,239,17,1757410544,"~/.config/waybar/style-sway.css"
-'3  1  0  ~/.local/bin/battery-check.sh
-|4,51,1,0,1757409242,"~/.local/bin/battery-check.sh"
+'0  8  63  ~/.local/bin/clouds.sh
+|4,48,8,63,1757414211,"~/.local/bin/clouds.sh"
+'1  234  61  ~/.config/sway/config
+|4,49,234,61,1757411109,"~/.config/sway/config"
+'2  78  19  ~/.config/waybar/config-sway.jsonc
+|4,50,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
+'3  239  17  ~/.config/waybar/style-sway.css
+|4,51,239,17,1757410544,"~/.config/waybar/style-sway.css"
 '4  1  0  ~/.local/bin/battery-check.sh
-|4,52,1,0,1757409023,"~/.local/bin/battery-check.sh"
-'5  48  43  ~/.config/sway/config
-|4,53,48,43,1757408868,"~/.config/sway/config"
+|4,52,1,0,1757409242,"~/.local/bin/battery-check.sh"
+'5  1  0  ~/.local/bin/battery-check.sh
+|4,53,1,0,1757409023,"~/.local/bin/battery-check.sh"
 '6  48  43  ~/.config/sway/config
 |4,54,48,43,1757408868,"~/.config/sway/config"
-'7  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  48  43  ~/.config/sway/config
+|4,55,48,43,1757408868,"~/.config/sway/config"
+'8  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
 '9  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,57,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  8  63  ~/.local/bin/clouds.sh
+|4,39,8,63,1757414211,"~/.local/bin/clouds.sh"
+-'  1  0  ~/.local/bin/clouds.sh
+|4,39,1,0,1757414186,"~/.local/bin/clouds.sh"
 -'  234  61  ~/.config/sway/config
 |4,39,234,61,1757411109,"~/.config/sway/config"
+-'  234  61  ~/.config/sway/config
+|4,39,234,61,1757411109,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757411087,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757411087,"~/.config/sway/config"
 -'  78  19  ~/.config/waybar/config-sway.jsonc
 |4,39,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
 -'  78  19  ~/.config/waybar/config-sway.jsonc
 |4,39,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
+-'  78  19  ~/.config/waybar/config-sway.jsonc
+|4,39,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
+-'  78  19  ~/.config/waybar/config-sway.jsonc
+|4,39,78,19,1757410954,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757410691,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757410691,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757410691,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
@@ -495,6 +511,14 @@ $
 |4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
 -'  239  17  ~/.config/waybar/style-sway.css
 |4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
+-'  239  17  ~/.config/waybar/style-sway.css
+|4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
+-'  239  17  ~/.config/waybar/style-sway.css
+|4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
+-'  239  17  ~/.config/waybar/style-sway.css
+|4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
+-'  239  17  ~/.config/waybar/style-sway.css
+|4,39,239,17,1757410544,"~/.config/waybar/style-sway.css"
 -'  159  5  ~/.config/waybar/config-sway.jsonc
 |4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
 -'  159  5  ~/.config/waybar/config-sway.jsonc
@@ -503,6 +527,18 @@ $
 |4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
 -'  159  5  ~/.config/waybar/config-sway.jsonc
 |4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
+-'  159  5  ~/.config/waybar/config-sway.jsonc
+|4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
+-'  159  5  ~/.config/waybar/config-sway.jsonc
+|4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
+-'  159  5  ~/.config/waybar/config-sway.jsonc
+|4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
+-'  159  5  ~/.config/waybar/config-sway.jsonc
+|4,39,159,5,1757410467,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757410383,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757410383,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757410383,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
@@ -524,6 +560,34 @@ $
 -'  1  0  ~/.local/bin/battery-check.sh
 |4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
 -'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409242,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
 |4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
 -'  1  0  ~/.local/bin/battery-check.sh
 |4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
@@ -539,6 +603,10 @@ $
 |4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
 -'  1  0  ~/.local/bin/battery-check.sh
 |4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
+-'  1  0  ~/.local/bin/battery-check.sh
+|4,39,1,0,1757409023,"~/.local/bin/battery-check.sh"
 -'  48  43  ~/.config/sway/config
 |4,39,48,43,1757408868,"~/.config/sway/config"
 -'  48  43  ~/.config/sway/config
@@ -573,110 +641,52 @@ $
 |4,39,48,43,1757408868,"~/.config/sway/config"
 -'  48  43  ~/.config/sway/config
 |4,39,48,43,1757408868,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757408778,"~/.config/sway/config"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
+-'  48  43  ~/.config/sway/config
+|4,39,48,43,1757408868,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.local/bin/clouds.sh
+	*	1757414208	0
+	"	8	63
+	^	8	64
+	.	8	63
+	+	8	58
+	+	3	10
+	+	23	33
+	+	8	63
 
 > ~/.config/sway/config
 	*	1757411102	0
@@ -929,15 +939,6 @@ $
 	^	6	64
 	.	6	63
 	+	6	63
-
-> ~/.local/bin/clouds.sh
-	*	1757405411	0
-	"	23	33
-	^	23	34
-	.	23	33
-	+	8	58
-	+	3	10
-	+	23	33
 
 > ~/.config/fuzzel/fuzzel.ini
 	*	1757404814	0
