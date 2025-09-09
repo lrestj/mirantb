@@ -26,7 +26,7 @@
             papirus-icon-theme
             whitesur-icon-theme
             tela-icon-theme
-            alacritty kitty
+            alacritty
             baobab
             banana-cursor
             bemoji

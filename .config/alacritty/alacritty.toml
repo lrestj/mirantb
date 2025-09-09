@@ -21,4 +21,8 @@ import = [
 [terminal]
 shell="fish"
 
+[cursor]
+blink_interval = 500
 
+[cursor.style]
+blinking = "On"

@@ -45,7 +45,7 @@ set undodir=~/.config/vim/undodir
 command! -nargs=0 CleanUpUndoFiles !find ~/.vim/tmp/undo -type f -mtime +100d -delete
 
 "Cursor look and bg render fix
-let &t_SI = "\e[1 q"
+let &t_SI = "\e[6 q"
 let &t_SR = "\e[3 q"
 let &t_EI = "\e[2 q"
 let &t_ut=''
@@ -55,6 +55,15 @@ hi StatusLine ctermbg=0 ctermfg=22
 hi Normal ctermbg=234   
 hi NonText ctermbg=234  
 hi LineNr ctermbg=234   
+
+"Alacritty Alt fix
+let c='a'
+while c <= 'z'
+  exec "set <A-".c.">=\e".c
+  exec "imap \e".c." <A-".c.">"
+  let c = nr2char(1+char2nr(c))
+endw
+set timeout ttimeoutlen=50
 
 "Plugins
 call plug#begin()

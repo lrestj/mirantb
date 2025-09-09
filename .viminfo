@@ -21,9 +21,13 @@ $
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 :wq
-|2,0,1757447919,,"wq"
+|2,0,1757450446,,"wq"
+:so $MYVIMRC
+|2,0,1757450013,,"so $MYVIMRC"
 :w
-|2,0,1757447129,,"w"
+|2,0,1757450009,,"w"
+:filetype
+|2,0,1757448562,,"filetype"
 :version
 |2,0,1757440243,,"version"
 :ww
@@ -72,8 +76,6 @@ $
 |2,0,1757156631,,"q!"
 :'<,'>d
 |2,0,1757154501,,"'<,'>d"
-:so $MYVIMRC
-|2,0,1757152876,,"so $MYVIMRC"
 :%s/bind/bindsym/g
 |2,0,1757109836,,"%s/bind/bindsym/g"
 :enew
@@ -382,13 +384,30 @@ $
 # Historie Debug Line (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
 # Registry:
-"0	LINE	0
-	    bindsym $cs+e exec $term -e vi
-|3,0,0,1,1,0,1757446995,"    bindsym $cs+e exec $term -e vi"
+"0	CHAR	0
+	b
+|3,0,0,0,1,0,1757450292,"b"
 "1	LINE	0
+	augroup reset_cursor_shape
+	  au!
+	  autocmd VimEnter * normal! :startinsert :stopinsert
+	  autocmd VimEnter * redraw!
+	augroup END
 	
-|3,0,1,1,1,0,1757446703,""
+|3,0,1,1,6,0,1757449775,"augroup reset_cursor_shape","  au!","  autocmd VimEnter * normal! :startinsert :stopinsert","  autocmd VimEnter * redraw!","augroup END",""
 "2	LINE	0
+	shape = "Block"
+|3,0,2,1,1,0,1757449375,"shape = \"Block\""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1757449093,""
+"4	LINE	0
+	
+|3,0,4,1,1,0,1757448367,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1757446703,""
+"6	LINE	0
 	
 	"Kitty cursor fix
 	" if $TERM == "xterm-kitty"
@@ -408,44 +427,24 @@ $
 	"     " using a color theme with a background color.
 	"     let &t_ut=''
 	" endif
-|3,0,2,1,19,0,1757446693,"","\"Kitty cursor fix","\" if $TERM == \"xterm-kitty\"","\"     set mouse=a","\"     try","\"         \" undercurl support","\"         let &t_Cs = \"\\e[4:3m\"x","\"         let &t_Ce = \"\\e[4:0m\"","\"     catch","\"     endtry","\"     \" Change the cursor in different modes","\"     let &t_SI = \"\\e[1 q\"","\"     let &t_SR = \"\\e[3 q\"","\"     let &t_EI = \"\\e[2 q\"",>79
+|3,0,6,1,19,0,1757446693,"","\"Kitty cursor fix","\" if $TERM == \"xterm-kitty\"","\"     set mouse=a","\"     try","\"         \" undercurl support","\"         let &t_Cs = \"\\e[4:3m\"x","\"         let &t_Ce = \"\\e[4:0m\"","\"     catch","\"     endtry","\"     \" Change the cursor in different modes","\"     let &t_SI = \"\\e[1 q\"","\"     let &t_SR = \"\\e[3 q\"","\"     let &t_EI = \"\\e[2 q\"",>79
 |<"\"     \" vim hardcodes background color erase even if the terminfo file does","\"     \" not contain bce. This causes incorrect background rendering when","\"     \" using a color theme with a background color.","\"     let &t_ut=''","\" endif"
-"3	LINE	0
+"7	LINE	0
 	     " vim hardcodes background color erase even if the terminfo file does
 	     " not contain bce. This causes incorrect background rendering when
 	     " using a color theme with a background color.
-|3,0,3,1,3,0,1757441142,"     \" vim hardcodes background color erase even if the terminfo file does","     \" not contain bce. This causes incorrect background rendering when","     \" using a color theme with a background color."
-"4	LINE	0
+|3,0,7,1,3,0,1757441142,"     \" vim hardcodes background color erase even if the terminfo file does","     \" not contain bce. This causes incorrect background rendering when","     \" using a color theme with a background color."
+"8	LINE	0
 	
-|3,0,4,1,1,0,1757441117,""
-"5	LINE	0
+|3,0,8,1,1,0,1757441117,""
+"9	LINE	0
 	
 	"Cursor look and bg render fix
 	let &t_SI = "\e[1 q"
 	let &t_SR = "\e[3 q"
 	let &t_EI = "\e[2 q"
 	let &t_ut=''
-|3,0,5,1,6,0,1757441115,"","\"Cursor look and bg render fix","let &t_SI = \"\\e[1 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''"
-"6	BLOCK	3
-	    
-	    
-	    
-	    
-|3,0,6,2,4,3,1757440880,"    ","    ","    ","    "
-"7	LINE	0
-	hi NonText ctermbg=234  
-	hi LineNr ctermbg=234   
-|3,0,7,1,2,0,1757440847,"hi NonText ctermbg=234  ","hi LineNr ctermbg=234   "
-"8	LINE	0
-	"Cursor look
-	" let &t_SI = "\<Esc>[1 q" "Blinking block in INSERT
-	" let &t_SR = "\<Esc>[3 q" "Blinking underline in REPLACE
-	" let &t_EI = "\<Esc>[2 q" "Block in other modes
-	
-|3,0,8,1,5,0,1757440548,"\"Cursor look","\" let &t_SI = \"\\<Esc>[1 q\" \"Blinking block in INSERT","\" let &t_SR = \"\\<Esc>[3 q\" \"Blinking underline in REPLACE","\" let &t_EI = \"\\<Esc>[2 q\" \"Block in other modes",""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1757439732,""
+|3,0,9,1,6,0,1757441115,"","\"Cursor look and bg render fix","let &t_SI = \"\\e[1 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''"
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -466,8 +465,8 @@ $
 	Äkrci"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl
 |3,2,26,0,1,0,1757426599,"Äkrci\"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl"
 ""-	CHAR	0
-	$term -e vi
-|3,1,36,0,1,0,1757447023,"$term -e vi"
+	 kitty
+|3,1,36,0,1,0,1757450434," kitty"
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -488,326 +487,391 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  7  6  ~/.config/alacritty/alacritty.toml
-|4,48,7,6,1757447919,"~/.config/alacritty/alacritty.toml"
-'1  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,49,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
-'2  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,50,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
-'3  82  22  ~/.config/sway/config
-|4,51,82,22,1757447159,"~/.config/sway/config"
-'4  1  0  ~/.config/sway/config
-|4,52,1,0,1757446828,"~/.config/sway/config"
-'5  1  0  ~/.config/sway/config
-|4,53,1,0,1757446828,"~/.config/sway/config"
-'6  6  22  ~/.config/kitty/kitty.conf
-|4,54,6,22,1757446511,"~/.config/kitty/kitty.conf"
-'7  6  22  ~/.config/kitty/kitty.conf
-|4,55,6,22,1757446511,"~/.config/kitty/kitty.conf"
-'8  1  0  ~/.config/vim/vimrc
-|4,56,1,0,1757441930,"~/.config/vim/vimrc"
-'9  1  0  ~/.config/vim/vimrc
-|4,57,1,0,1757441930,"~/.config/vim/vimrc"
+'0  29  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,29,20,1757450446,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  31  15  ~/.config/vim/vimrc
+|4,49,31,15,1757450358,"~/.config/vim/vimrc"
+'2  48  15  ~/.config/vim/vimrc
+|4,50,48,15,1757450018,"~/.config/vim/vimrc"
+'3  48  15  ~/.config/vim/vimrc
+|4,51,48,15,1757450018,"~/.config/vim/vimrc"
+'4  68  0  ~/.config/vim/vimrc
+|4,52,68,0,1757449786,"~/.config/vim/vimrc"
+'5  68  0  ~/.config/vim/vimrc
+|4,53,68,0,1757449786,"~/.config/vim/vimrc"
+'6  68  0  ~/.config/vim/vimrc
+|4,54,68,0,1757449786,"~/.config/vim/vimrc"
+'7  68  0  ~/.config/vim/vimrc
+|4,55,68,0,1757449786,"~/.config/vim/vimrc"
+'8  72  10  ~/.config/vim/vimrc
+|4,56,72,10,1757449714,"~/.config/vim/vimrc"
+'9  72  10  ~/.config/vim/vimrc
+|4,57,72,10,1757449714,"~/.config/vim/vimrc"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
--'  7  6  ~/.config/alacritty/alacritty.toml
-|4,39,7,6,1757447919,"~/.config/alacritty/alacritty.toml"
--'  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,22,0,1757447905,"~/.dotfiles/other/stuff2remember.txt"
--'  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
--'  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
--'  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
--'  22  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,22,0,1757447442,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757447361,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447282,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757447226,"~/.config/vim/vimrc"
+-'  29  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,29,20,1757450446,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757450405,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  31  15  ~/.config/vim/vimrc
+|4,39,31,15,1757450358,"~/.config/vim/vimrc"
+-'  31  15  ~/.config/vim/vimrc
+|4,39,31,15,1757450358,"~/.config/vim/vimrc"
+-'  31  15  ~/.config/vim/vimrc
+|4,39,31,15,1757450358,"~/.config/vim/vimrc"
+-'  31  15  ~/.config/vim/vimrc
+|4,39,31,15,1757450358,"~/.config/vim/vimrc"
+-'  28  6  ~/.config/vim/vimrc
+|4,39,28,6,1757450282,"~/.config/vim/vimrc"
+-'  28  6  ~/.config/vim/vimrc
+|4,39,28,6,1757450282,"~/.config/vim/vimrc"
+-'  28  6  ~/.config/vim/vimrc
+|4,39,28,6,1757450282,"~/.config/vim/vimrc"
+-'  28  6  ~/.config/vim/vimrc
+|4,39,28,6,1757450282,"~/.config/vim/vimrc"
+-'  29  0  ~/.config/vim/vimrc
+|4,39,29,0,1757450262,"~/.config/vim/vimrc"
+-'  29  0  ~/.config/vim/vimrc
+|4,39,29,0,1757450262,"~/.config/vim/vimrc"
+-'  29  0  ~/.config/vim/vimrc
+|4,39,29,0,1757450262,"~/.config/vim/vimrc"
+-'  29  0  ~/.config/vim/vimrc
+|4,39,29,0,1757450262,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  48  15  ~/.config/vim/vimrc
+|4,39,48,15,1757450018,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449895,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  68  0  ~/.config/vim/vimrc
+|4,39,68,0,1757449786,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449765,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449765,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449765,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449765,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  72  10  ~/.config/vim/vimrc
+|4,39,72,10,1757449714,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757449686,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
+-'  76  0  ~/.config/vim/vimrc
+|4,39,76,0,1757449557,"~/.config/vim/vimrc"
+-'  70  0  ~/.config/vim/vimrc
+|4,39,70,0,1757449557,"~/.config/vim/vimrc"
+-'  82  0  ~/.config/vim/vimrc
+|4,39,82,0,1757449557,"~/.config/vim/vimrc"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
-> ~/.config/alacritty/alacritty.toml
-	*	1757447916	0
-	"	7	6
-	.	7	6
-	+	7	6
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757447895	0
-	"	22	0
-	^	22	0
-	.	21	0
-	+	4	11
-	+	5	9
-	+	4	13
-	+	5	24
-	+	6	21
-	+	5	22
-	+	4	3
-	+	5	0
-	+	7	46
-	+	6	47
-	+	5	49
-	+	4	46
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757450434	0
+	"	29	20
+	^	29	27
+	.	29	21
+	+	148	0
+	+	148	23
+	+	148	10
+	+	68	12
+	+	148	0
+	+	148	9
+	+	148	10
+	+	38	0
+	+	124	17
+	+	37	19
+	+	124	0
+	+	93	0
+	+	91	17
+	+	76	0
+	+	76	19
+	+	57	0
+	+	38	0
+	+	6	0
+	+	123	0
+	+	6	0
+	+	8	0
+	+	7	22
 	+	1	0
-	+	23	21
-	+	6	18
-	+	23	22
-	+	7	17
-	+	5	0
-	+	12	23
-	+	11	0
-	+	14	40
-	+	15	0
-	+	14	0
-	+	18	0
-	+	17	55
-	+	16	23
-	+	19	30
-	+	21	0
+	+	7	0
+	+	89	0
+	+	123	0
+	+	6	0
+	+	76	0
+	+	54	18
+	+	67	22
+	+	59	16
+	+	31	24
+	+	137	14
+	+	147	0
+	+	139	0
+	+	138	24
+	+	139	37
+	+	148	88
+	+	139	0
+	+	147	0
+	+	56	29
+	+	140	10
+	+	141	38
+	+	146	0
+	+	145	14
+	+	56	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	148	0
+	+	59	0
+	+	98	0
+	+	146	0
+	+	142	17
+	+	142	0
+	+	50	17
+	+	65	0
+	+	82	0
+	+	59	0
+	+	32	17
+	+	28	26
+	+	26	11
+	+	27	19
+	+	26	0
+	+	144	21
+	+	146	0
+	+	101	21
+	+	53	18
+	+	29	26
+	+	53	0
+	+	29	21
 
 > ~/.config/vim/vimrc
-	*	1757447281	0
-	"	1	0
-	.	47	0
-	+	62	0
+	*	1757450349	0
+	"	31	15
+	^	31	16
+	.	29	0
+	+	82	0
 	+	11	25
 	+	12	25
 	+	13	27
-	+	65	0
+	+	85	0
 	+	37	61
-	+	55	24
-	+	56	25
-	+	58	18
-	+	55	19
-	+	56	20
-	+	58	19
-	+	55	23
+	+	56	24
+	+	57	25
+	+	78	18
+	+	56	19
+	+	57	20
+	+	78	19
 	+	56	23
-	+	58	23
-	+	55	20
-	+	56	21
-	+	58	0
-	+	55	20
-	+	56	21
-	+	55	20
-	+	56	21
-	+	58	20
-	+	56	21
-	+	58	20
-	+	56	21
-	+	55	20
-	+	53	21
-	+	55	20
-	+	56	21
-	+	58	20
+	+	57	23
+	+	78	23
+	+	56	20
+	+	57	21
+	+	78	0
+	+	56	20
+	+	57	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	56	20
+	+	54	21
+	+	56	20
+	+	57	21
+	+	78	20
 	+	31	0
-	+	58	0
-	+	58	4
-	+	53	0
-	+	58	20
-	+	53	0
-	+	58	16
-	+	58	29
-	+	58	0
-	+	53	0
-	+	58	0
-	+	53	0
-	+	58	0
-	+	47	0
-	+	58	0
-	+	47	0
+	+	78	0
+	+	78	4
+	+	54	0
+	+	78	20
+	+	54	0
+	+	78	16
+	+	78	29
+	+	78	0
+	+	54	0
+	+	78	0
+	+	54	0
+	+	78	0
+	+	48	0
+	+	78	0
+	+	48	0
+	+	78	25
+	+	78	0
+	+	78	16
+	+	84	20
+	+	78	17
+	+	59	0
+	+	68	0
+	+	48	16
+	+	29	0
+	+	28	0
+	+	29	0
+
+> ~/.config/alacritty/alacritty.toml
+	*	1757449462	0
+	"	28	11
+	^	28	12
+	.	28	11
+	+	7	6
+	+	24	7
+	+	29	0
+	+	24	8
+	+	26	0
+	+	27	14
+	+	28	15
+	+	28	11
 
 > ~/.config/sway/config
-	*	1757447129	0
-	"	82	22
-	^	82	23
-	.	82	23
+	*	1757448707	0
+	"	82	38
+	^	82	39
+	.	82	38
 	+	195	0
 	+	188	0
 	+	199	0
@@ -907,11 +971,45 @@ $
 	+	81	29
 	+	32	17
 	+	81	26
-	+	82	23
+	+	82	38
 	k	78	0
 	m	203	0
 	s	1	0
 	w	247	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757447895	0
+	"	22	0
+	^	22	0
+	.	21	0
+	+	4	11
+	+	5	9
+	+	4	13
+	+	5	24
+	+	6	21
+	+	5	22
+	+	4	3
+	+	5	0
+	+	7	46
+	+	6	47
+	+	5	49
+	+	4	46
+	+	1	0
+	+	23	21
+	+	6	18
+	+	23	22
+	+	7	17
+	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
+	+	14	0
+	+	18	0
+	+	17	55
+	+	16	23
+	+	19	30
+	+	21	0
 
 > ~/.config/kitty/kitty.conf
 	*	1757446508	0
@@ -931,82 +1029,6 @@ $
 	.	3	3
 	+	1	0
 	+	3	3
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757438853	0
-	"	1	0
-	^	29	27
-	.	53	0
-	+	148	0
-	+	148	23
-	+	148	10
-	+	68	12
-	+	148	0
-	+	148	9
-	+	148	10
-	+	38	0
-	+	124	17
-	+	37	19
-	+	124	0
-	+	93	0
-	+	91	17
-	+	76	0
-	+	76	19
-	+	57	0
-	+	38	0
-	+	6	0
-	+	123	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	89	0
-	+	123	0
-	+	6	0
-	+	76	0
-	+	54	18
-	+	67	22
-	+	59	16
-	+	31	24
-	+	137	14
-	+	147	0
-	+	139	0
-	+	138	24
-	+	139	37
-	+	148	88
-	+	139	0
-	+	147	0
-	+	56	29
-	+	140	10
-	+	141	38
-	+	146	0
-	+	145	14
-	+	56	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	148	0
-	+	59	0
-	+	98	0
-	+	146	0
-	+	142	17
-	+	142	0
-	+	50	17
-	+	65	0
-	+	82	0
-	+	59	0
-	+	32	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
-	+	144	21
-	+	146	0
-	+	101	21
-	+	53	18
-	+	29	26
-	+	53	0
 
 > ~/.config/ghostty/config
 	*	1757438554	0
