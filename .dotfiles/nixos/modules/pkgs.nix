@@ -26,7 +26,7 @@
             papirus-icon-theme
             whitesur-icon-theme
             tela-icon-theme
-            alacritty
+            alacritty kitty
             baobab
             banana-cursor
             bemoji
@@ -98,6 +98,7 @@
             xdg-utils
             xdg-user-dirs
             xnviewmp
+            xorg.xeyes
             xournalpp
             yazi
             ytdownloader

@@ -29,7 +29,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
-    set $editor $term -e vim
+    set $editor vi
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -78,7 +78,7 @@
 ### Keybindings
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
-    bindsym $cs+e exec $term -T Vim -a Vim -e vim
+    bindsym $cs+e exec $term -e vi
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
