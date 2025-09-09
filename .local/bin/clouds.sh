@@ -1,11 +1,11 @@
 #!/bin/bash
 
-PO="󰏊   Připojit OneDrive"
-OO="󰏊   Odpojit OneDrive"
-PG="   Připojit Google Disk"
-OG="   Odpojit Google Disk"
+PO="󰏊  Připojit OneDrive"
+OO="󰏊  Odpojit OneDrive"
+PG="  Připojit Google Disk"
+OG="  Odpojit Google Disk"
 
-selected=$(echo -e "$PO\n$OO\n$PG\n$OG" | fuzzel -d -p "Úložiště: " )
+selected=$(echo -e "$PO\n$OO\n$PG\n$OG" | fuzzel --lines 4 -d -p "Úložiště: " )
 case $selected in
     $PO)
         source onedrive.sh
@@ -20,6 +20,6 @@ case $selected in
         source umgoogledrive.sh
     ;;
     *)
-    notify-send -i im-kick-user "Přerušeno uživatelem"
+    notify-send -i im-kick-user "Zrušeno uživatelem"
     ;;
 esac
