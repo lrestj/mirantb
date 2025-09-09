@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sel=$(fuzzel -d -p 'Jméno souboru:  ')
+sel=$(fuzzel --lines 1 -d -p 'Jméno souboru:  ')
 file=~/.local/bin/$sel
 
 case $sel in
