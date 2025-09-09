@@ -139,8 +139,9 @@
           xwayland.enable = true;
           extraPackages = with pkgs; [
               grim
+              swaylock
+              swayidle
               sway-contrib.grimshot
-
           ];
       };
       git = {

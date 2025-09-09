@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/minal
+~MSle0~/ca
 
 # Last Substitute Search Pattern:
 ~MSle0&\~\/.dotfiles\/scripts\/
@@ -21,11 +21,11 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :w
-|2,0,1757406983,,"w"
-:wq
-|2,0,1757406734,,"wq"
+|2,0,1757408715,,"w"
 :q
-|2,0,1757360545,,"q"
+|2,0,1757408594,,"q"
+:wq
+|2,0,1757408411,,"wq"
 :wq!
 |2,0,1757342396,,"wq!"
 :w .dotfiles/other/stuff2remember.txt
@@ -268,6 +268,8 @@ $
 |2,0,1756038671,,"WQ"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+?/ca
+|2,1,1757407974,47,"ca"
 ?/minal
 |2,1,1757321661,47,"minal"
 ?/exec
@@ -383,35 +385,35 @@ $
 	    bindsym Escape exec makoctl dismiss; mode "default"
 |3,0,0,1,2,0,1757406971,"    bindsym Return exec makoctl dismiss; mode \"default\"","    bindsym Escape exec makoctl dismiss; mode \"default\""
 ""1	LINE	0
-	    bindsym Escape mode "default"
-|3,1,1,1,1,0,1757406980,"    bindsym Escape mode \"default\""
-"2	LINE	0
-	    bindsym Return mode "default"
-|3,0,2,1,1,0,1757406979,"    bindsym Return mode \"default\""
-"3	LINE	0
-	    bindsym Escape exec mmmode "default"
-|3,0,3,1,1,0,1757406935,"    bindsym Escape exec mmmode \"default\""
-"4	LINE	0
-	    # bindsym --release SUPER_L exec pkill fuzzel || $menu
-|3,0,4,1,1,0,1757406643,"    # bindsym --release SUPER_L exec pkill fuzzel || $menu"
-"5	BLOCK	0
-	 
-	 
-	 
-	 
-|3,0,5,2,4,0,1757405387," "," "," "," "
-"6	LINE	0
-	pkill waybar &
-|3,0,6,1,1,0,1757360811,"pkill waybar &"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1757355026,""
+|3,1,1,1,1,0,1757408711,""
+"2	LINE	0
+	    bindsym Escape mode "default"
+|3,0,2,1,1,0,1757406980,"    bindsym Escape mode \"default\""
+"3	LINE	0
+	    bindsym Return mode "default"
+|3,0,3,1,1,0,1757406979,"    bindsym Return mode \"default\""
+"4	LINE	0
+	    bindsym Escape exec mmmode "default"
+|3,0,4,1,1,0,1757406935,"    bindsym Escape exec mmmode \"default\""
+"5	LINE	0
+	    # bindsym --release SUPER_L exec pkill fuzzel || $menu
+|3,0,5,1,1,0,1757406643,"    # bindsym --release SUPER_L exec pkill fuzzel || $menu"
+"6	BLOCK	0
+	 
+	 
+	 
+	 
+|3,0,6,2,4,0,1757405387," "," "," "," "
+"7	LINE	0
+	pkill waybar &
+|3,0,7,1,1,0,1757360811,"pkill waybar &"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1757354973,""
+|3,0,8,1,1,0,1757355026,""
 "9	LINE	0
-	ddgtk-application-prefer-dark-theme=1
-|3,0,9,1,1,0,1757343151,"ddgtk-application-prefer-dark-theme=1"
+	
+|3,0,9,1,1,0,1757354973,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -451,240 +453,308 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  217  4  ~/.config/sway/config
-|4,48,217,4,1757407017,"~/.config/sway/config"
-'1  6  63  ~/.local/bin/webmarks.sh
-|4,49,6,63,1757406734,"~/.local/bin/webmarks.sh"
-'2  214  4  ~/.config/sway/config
-|4,50,214,4,1757406696,"~/.config/sway/config"
-'3  214  4  ~/.config/sway/config
-|4,51,214,4,1757406696,"~/.config/sway/config"
-'4  202  8  ~/.config/sway/config
-|4,52,202,8,1757406621,"~/.config/sway/config"
-'5  203  8  ~/.config/sway/config
-|4,53,203,8,1757406621,"~/.config/sway/config"
-'6  202  8  ~/.config/sway/config
-|4,54,202,8,1757406621,"~/.config/sway/config"
-'7  203  8  ~/.config/sway/config
-|4,55,203,8,1757406621,"~/.config/sway/config"
-'8  23  33  ~/.local/bin/clouds.sh
-|4,56,23,33,1757405425,"~/.local/bin/clouds.sh"
-'9  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,57,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
+'0  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  47  21  ~/.config/sway/config
+|4,51,47,21,1757408612,"~/.config/sway/config"
+'4  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  17  20  ~/.config/sway/config
+|4,56,17,20,1757408127,"~/.config/sway/config"
+'9  17  20  ~/.config/sway/config
+|4,57,17,20,1757408127,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  217  4  ~/.config/sway/config
-|4,39,217,4,1757407017,"~/.config/sway/config"
--'  18  0  ~/.config/sway/config
-|4,39,18,0,1757406773,"~/.config/sway/config"
+-'  145  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,145,10,1757408717,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757408689,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  48  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,48,0,1757408655,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  162  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,162,0,1757408622,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  163  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,163,0,1757408622,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757408621,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  47  21  ~/.config/sway/config
+|4,39,47,21,1757408612,"~/.config/sway/config"
+-'  47  21  ~/.config/sway/config
+|4,39,47,21,1757408612,"~/.config/sway/config"
+-'  47  21  ~/.config/sway/config
+|4,39,47,21,1757408612,"~/.config/sway/config"
+-'  47  21  ~/.config/sway/config
+|4,39,47,21,1757408612,"~/.config/sway/config"
+-'  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  143  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,143,21,1757408411,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757408368,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757406768,"~/.config/sway/config"
--'  6  63  ~/.local/bin/webmarks.sh
-|4,39,6,63,1757406734,"~/.local/bin/webmarks.sh"
--'  6  63  ~/.local/bin/webmarks.sh
-|4,39,6,63,1757406734,"~/.local/bin/webmarks.sh"
--'  1  0  ~/.local/bin/webmarks.sh
-|4,39,1,0,1757406714,"~/.local/bin/webmarks.sh"
--'  1  0  ~/.local/bin/webmarks.sh
-|4,39,1,0,1757406714,"~/.local/bin/webmarks.sh"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757406696,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757406696,"~/.config/sway/config"
--'  214  4  ~/.config/sway/config
-|4,39,214,4,1757406696,"~/.config/sway/config"
+|4,39,1,0,1757408204,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757406624,"~/.config/sway/config"
+|4,39,1,0,1757408204,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757406624,"~/.config/sway/config"
--'  202  8  ~/.config/sway/config
-|4,39,202,8,1757406621,"~/.config/sway/config"
--'  203  8  ~/.config/sway/config
-|4,39,203,8,1757406621,"~/.config/sway/config"
--'  202  8  ~/.config/sway/config
-|4,39,202,8,1757406621,"~/.config/sway/config"
--'  203  8  ~/.config/sway/config
-|4,39,203,8,1757406621,"~/.config/sway/config"
--'  202  8  ~/.config/sway/config
-|4,39,202,8,1757406621,"~/.config/sway/config"
--'  203  8  ~/.config/sway/config
-|4,39,203,8,1757406621,"~/.config/sway/config"
--'  94  39  ~/.config/sway/config
-|4,39,94,39,1757406604,"~/.config/sway/config"
--'  95  39  ~/.config/sway/config
-|4,39,95,39,1757406604,"~/.config/sway/config"
--'  94  39  ~/.config/sway/config
-|4,39,94,39,1757406604,"~/.config/sway/config"
--'  95  39  ~/.config/sway/config
-|4,39,95,39,1757406604,"~/.config/sway/config"
--'  94  39  ~/.config/sway/config
-|4,39,94,39,1757406604,"~/.config/sway/config"
--'  95  39  ~/.config/sway/config
-|4,39,95,39,1757406604,"~/.config/sway/config"
+|4,39,1,0,1757408204,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757406580,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757406580,"~/.config/sway/config"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  23  33  ~/.local/bin/clouds.sh
-|4,39,23,33,1757405425,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757405333,"~/.local/bin/clouds.sh"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  26  15  ~/.config/fuzzel/fuzzel.ini
-|4,39,26,15,1757404872,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757404671,"~/.config/fuzzel/fuzzel.ini"
+|4,39,1,0,1757408204,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  17  20  ~/.config/sway/config
+|4,39,17,20,1757408127,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  234  34  ~/.config/sway/config
+|4,39,234,34,1757408103,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  230  14  ~/.config/sway/config
+|4,39,230,14,1757408102,"~/.config/sway/config"
+-'  218  14  ~/.config/sway/config
+|4,39,218,14,1757408102,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  189  54  ~/.config/sway/config
+|4,39,189,54,1757408101,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  188  6  ~/.config/sway/config
+|4,39,188,6,1757408099,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
+-'  90  14  ~/.config/sway/config
+|4,39,90,14,1757408098,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757408715	0
+	"	145	10
+	^	143	22
+	.	145	0
+	+	147	0
+	+	147	23
+	+	147	10
+	+	68	12
+	+	147	0
+	+	147	9
+	+	147	10
+	+	38	0
+	+	123	17
+	+	37	19
+	+	123	0
+	+	93	0
+	+	91	17
+	+	76	0
+	+	76	19
+	+	57	0
+	+	38	0
+	+	6	0
+	+	122	0
+	+	6	0
+	+	8	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	89	0
+	+	122	0
+	+	6	0
+	+	76	0
+	+	54	18
+	+	67	22
+	+	59	16
+	+	31	24
+	+	136	14
+	+	146	0
+	+	138	0
+	+	137	24
+	+	138	37
+	+	147	88
+	+	138	0
+	+	146	0
+	+	56	29
+	+	139	10
+	+	140	38
+	+	145	0
+	+	144	14
+	+	56	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	147	0
+	+	59	0
+	+	98	0
+	+	145	0
+	+	141	17
+	+	141	0
+	+	50	17
+	+	65	0
+	+	82	0
+	+	59	0
+	+	32	17
+	+	28	26
+	+	26	11
+	+	27	19
+	+	26	0
+	+	143	21
+	+	145	0
+
 > ~/.config/sway/config
-	*	1757406983	0
-	"	217	4
-	^	230	18
-	.	217	0
-	+	216	13
-	+	208	73
-	+	229	3
-	+	229	0
+	*	1757408588	0
+	"	47	21
+	^	51	25
+	.	48	15
 	+	183	0
 	+	229	0
 	+	190	0
@@ -780,10 +850,44 @@ $
 	+	231	0
 	+	230	17
 	+	217	0
+	+	98	14
+	+	175	14
+	+	90	14
+	+	51	24
+	+	48	15
 	k	78	0
 	m	202	0
 	s	1	0
 	w	246	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757407777	0
+	"	14	4
+	^	16	0
+	.	14	0
+	+	4	11
+	+	5	9
+	+	4	13
+	+	5	24
+	+	6	21
+	+	5	22
+	+	4	3
+	+	5	0
+	+	7	46
+	+	6	47
+	+	5	49
+	+	4	46
+	+	1	0
+	+	17	21
+	+	6	18
+	+	17	22
+	+	7	17
+	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
+	+	14	0
 
 > ~/.local/bin/webmarks.sh
 	*	1757406733	0
@@ -963,34 +1067,6 @@ $
 	+	9	40
 	+	7	0
 
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757343119	0
-	"	16	0
-	^	16	0
-	.	15	0
-	+	4	11
-	+	5	9
-	+	4	13
-	+	5	24
-	+	6	21
-	+	5	22
-	+	4	3
-	+	5	0
-	+	7	46
-	+	6	47
-	+	5	49
-	+	4	46
-	+	1	0
-	+	17	21
-	+	6	18
-	+	17	22
-	+	7	17
-	+	5	0
-	+	12	23
-	+	11	0
-	+	14	40
-	+	15	0
-
 > ~/.config/hypr/4-windowsRules.conf
 	*	1757342473	0
 	"	1	0
@@ -1076,76 +1152,6 @@ $
 	+	6	29
 	+	8	9
 	+	3	36
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757335132	0
-	"	26	12
-	^	26	19
-	.	26	0
-	+	146	0
-	+	146	23
-	+	146	10
-	+	68	12
-	+	146	0
-	+	146	9
-	+	146	10
-	+	38	0
-	+	123	17
-	+	37	19
-	+	123	0
-	+	93	0
-	+	91	17
-	+	76	0
-	+	76	19
-	+	57	0
-	+	38	0
-	+	6	0
-	+	122	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	89	0
-	+	122	0
-	+	6	0
-	+	76	0
-	+	54	18
-	+	67	22
-	+	59	16
-	+	31	24
-	+	136	14
-	+	145	0
-	+	138	0
-	+	137	24
-	+	138	37
-	+	146	88
-	+	138	0
-	+	145	0
-	+	56	29
-	+	139	10
-	+	140	38
-	+	144	0
-	+	142	14
-	+	56	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	146	0
-	+	59	0
-	+	98	0
-	+	143	0
-	+	141	17
-	+	141	0
-	+	50	17
-	+	65	0
-	+	82	0
-	+	59	0
-	+	32	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
 
 > ~/.config/vim/vimrc
 	*	1757334684	0

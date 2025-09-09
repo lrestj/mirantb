@@ -45,10 +45,10 @@
     exec_always battery-check.sh
 
 ### Locking the system
-    set $lock swaylock -f -F -e -k -c 000000
+    set $lock sswaylock -f -F -e -k -c 000000waylock -f -F -e -k -c 000000
     set $logout sleep 1 && swaymsg exit
     set $reboot sleep 1 && systemctl reboot
-    bindsym --to-code $ca+Delete exec $lock
+    bindsym --to-code $ms+Delete exec $lock
     bindsym --to-code $mod+Delete exec $logout
     bindsym $ma+Delete exec $reboot
     
@@ -87,7 +87,7 @@
     bindsym $cs+m exec clouds.sh   
 
     # Mako emergency
-    bindsym $ca+m exec makoctl dismiss --all && makoctl reload
+    bindsym $ms+m exec makoctl dismiss --all && makoctl reload
 
     # Start launcher
     # bindsym --release SUPER_L exec pkill fuzzel || $menu
@@ -95,7 +95,7 @@
     bindsym Alt+y exec pkill fuzzel || bemoji
 
     # Touchpad ON/OFF
-    bindsym $ca+t  input type:touchpad events toggle enabled disabled, \
+    bindsym $ms+t  input type:touchpad events toggle enabled disabled, \
     exec touchpad.sh
 
     # Nápověda
@@ -172,7 +172,7 @@
     bindsym $ma+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
-    bindsym $ca+f floating toggle
+    bindsym $ms+f floating toggle
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
