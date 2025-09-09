@@ -45,7 +45,7 @@
     exec_always battery-check.sh
 
 ### Locking the system
-    set $lock sswaylock -f -F -e -k -c 000000waylock -f -F -e -k -c 000000
+    set $lock swaylock -f -F -e -k -c 000000
     set $logout sleep 1 && swaymsg exit
     set $reboot sleep 1 && systemctl reboot
     bindsym --to-code $ms+Delete exec $lock
