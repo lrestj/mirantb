@@ -21,9 +21,9 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1757502441,,"wq"
+|2,0,1757506480,,"wq"
 :w
-|2,0,1757502271,,"w"
+|2,0,1757506422,,"w"
 :q
 |2,0,1757498928,,"q"
 :ene
@@ -387,19 +387,11 @@ $
 
 # Registry:
 "0	LINE	0
-	  xdg.portal = {
-	      enable = true;
-	      extraPortals = with pkgs; [
-	          xdg-desktop-portal-wlr
-	          xdg-desktop-portal-gtk
-	        ];
-	      config = {
-	         common.default = [ "wlr"]; 
-	      };
-|3,0,0,1,9,0,1757501244,"  xdg.portal = {","      enable = true;","      extraPortals = with pkgs; [","          xdg-desktop-portal-wlr","          xdg-desktop-portal-gtk","        ];","      config = {","         common.default = [ \"wlr\"]; ","      };"
-""1	LINE	0
+	    for_window [app_id="script"] floating enable, resize set 400 100
+|3,0,0,1,1,0,1757506379,"    for_window [app_id=\"script\"] floating enable, resize set 400 100"
+"1	LINE	0
 	            # xdg-desktop-portal-gtk
-|3,1,1,1,1,0,1757502420,"            # xdg-desktop-portal-gtk"
+|3,0,1,1,1,0,1757502420,"            # xdg-desktop-portal-gtk"
 "2	LINE	0
 	            # xdg-desktop-portal-wlr
 |3,0,2,1,1,0,1757502419,"            # xdg-desktop-portal-wlr"
@@ -443,9 +435,9 @@ $
 "q@	CHAR	0
 	€krci"P€kb$PO€ýk€kd€kd€kd€kl€kl
 |3,2,26,0,1,0,1757426599,"€krci\"P€kb$PO€ýk€kd€kd€kd€kl€kl"
-"-	CHAR	0
-	.
-|3,0,36,0,1,0,1757500645,"."
+""-	CHAR	0
+	, resize set 400 100
+|3,1,36,0,1,0,1757506419,", resize set 400 100"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -466,230 +458,472 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,49,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'2  89  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,89,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  89  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,89,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  90  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,90,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  90  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,90,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,54,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'7  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,55,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'8  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,56,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'9  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,57,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'0  22  33  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,48,22,33,1757506480,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'1  27  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,49,27,0,1757502834,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'2  27  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,50,27,0,1757502834,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'3  80  23  ~/.config/sway/config
+|4,51,80,23,1757502627,"~/.config/sway/config"
+'4  80  23  ~/.config/sway/config
+|4,52,80,23,1757502627,"~/.config/sway/config"
+'5  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,54,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'7  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,55,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'8  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,56,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'9  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,57,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  22  33  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,33,1757506480,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  236  63  ~/.config/sway/config
+|4,39,236,63,1757506467,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757506368,"~/.config/sway/config"
+-'  27  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,0,1757502834,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,0,1757502834,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757502676,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757502676,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502639,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502639,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502639,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502639,"~/.config/vim/vimrc"
+-'  80  23  ~/.config/sway/config
+|4,39,80,23,1757502627,"~/.config/sway/config"
+-'  80  23  ~/.config/sway/config
+|4,39,80,23,1757502627,"~/.config/sway/config"
+-'  80  23  ~/.config/sway/config
+|4,39,80,23,1757502627,"~/.config/sway/config"
+-'  80  23  ~/.config/sway/config
+|4,39,80,23,1757502627,"~/.config/sway/config"
+-'  80  23  ~/.config/sway/config
+|4,39,80,23,1757502627,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757502622,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757502622,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757502622,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757502622,"~/.config/sway/config"
+-'  89  0  ~/.config/sway/config
+|4,39,89,0,1757502622,"~/.config/sway/config"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502608,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502608,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502608,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757502608,"~/.config/vim/vimrc"
 -'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  23  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,23,1757502441,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757502409,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  24  3  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,24,3,1757502272,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  23  6  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,23,6,1757502204,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  23  6  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,23,6,1757502204,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  25  2  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,25,2,1757502200,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  25  2  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,25,2,1757502200,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  38  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,38,0,1757502107,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  38  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,38,0,1757502107,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  20  5  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,20,5,1757502025,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  20  5  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,20,5,1757502025,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  190  30  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,190,30,1757501411,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  190  30  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,190,30,1757501411,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  29  6  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,29,6,1757501277,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  29  6  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,29,6,1757501277,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757501077,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757501077,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  89  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,89,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  90  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,90,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  90  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,90,12,1757501049,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757501033,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757501033,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  40  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,40,22,1757501018,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  39  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,39,22,1757501018,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  40  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,40,22,1757501018,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  39  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,39,22,1757501018,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  24  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,24,22,1757500811,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  24  22  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,24,22,1757500811,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  8  43  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,8,43,1757500289,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  89  33  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,89,33,1757500245,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  89  33  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,89,33,1757500245,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  89  33  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,89,33,1757500245,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757500194,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757500194,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757500194,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  15  12  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,15,12,1757499931,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  15  12  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,15,12,1757499931,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  15  12  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,15,12,1757499931,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  15  12  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,15,12,1757499931,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757499876,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757499876,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  56  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,56,12,1757498933,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  135  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,135,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  136  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,136,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  137  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,137,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  138  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,138,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  137  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,137,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  138  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,138,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  137  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,137,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  138  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,138,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  137  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,137,0,1757498697,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757498541,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757498541,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
--'  11  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,11,11,1757498433,"~/.config/fuzzel/fuzzel.ini"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  22  9  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,22,9,1757502222,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1757506477	0
+	"	22	33
+	^	22	34
+	.	22	33
+	+	1	27
+	+	131	22
+	+	10	12
+	+	11	12
+	+	12	12
+	+	44	14
+	+	49	0
+	+	163	0
+	+	49	0
+	+	44	14
+	+	107	0
+	+	44	14
+	+	107	41
+	+	163	0
+	+	56	0
+	+	55	32
+	+	49	0
+	+	44	14
+	+	55	0
+	+	39	38
+	+	38	0
+	+	40	71
+	+	27	44
+	+	40	68
+	+	26	0
+	+	167	0
+	+	166	12
+	+	167	9
+	+	165	12
+	+	166	12
+	+	165	0
+	+	40	0
+	+	44	14
+	+	44	0
+	+	30	0
+	+	25	17
+	+	27	17
+	+	29	5
+	+	30	9
+	+	31	5
+	+	32	3
+	+	29	27
+	+	25	20
+	+	25	0
+	+	25	1
+	+	25	6
+	+	25	33
+	+	25	7
+	+	25	31
+	+	25	29
+	+	25	0
+	+	25	31
+	+	25	16
+	+	25	0
+	+	28	0
+	+	25	0
+	+	15	0
+	+	20	6
+	+	25	0
+	+	21	0
+	+	24	3
+	+	22	33
+
+> ~/.config/sway/config
+	*	1757506422	0
+	"	236	63
+	^	236	64
+	.	236	64
+	+	202	0
+	+	44	22
+	+	202	0
+	+	202	16
+	+	202	0
+	+	202	12
+	+	202	15
+	+	202	0
+	+	202	19
+	+	184	0
+	+	183	0
+	+	186	0
+	+	187	25
+	+	1	0
+	+	213	0
+	+	224	0
+	+	202	0
+	+	202	62
+	+	202	0
+	+	44	0
+	+	52	27
+	+	49	42
+	+	52	34
+	+	44	0
+	+	106	24
+	+	44	0
+	+	117	0
+	+	89	28
+	+	88	23
+	+	89	0
+	+	90	139
+	+	89	12
+	+	89	0
+	+	90	0
+	+	114	0
+	+	113	58
+	+	34	19
+	+	94	46
+	+	94	0
+	+	94	17
+	+	121	0
+	+	95	0
+	+	213	0
+	+	212	81
+	+	212	0
+	+	213	0
+	+	214	0
+	+	213	0
+	+	9	0
+	+	8	39
+	+	9	0
+	+	20	0
+	+	13	24
+	+	98	69
+	+	98	70
+	+	98	72
+	+	98	225
+	+	98	72
+	+	98	0
+	+	99	0
+	+	237	0
+	+	95	44
+	+	202	0
+	+	94	0
+	+	228	40
+	+	230	24
+	+	231	0
+	+	230	0
+	+	229	17
+	+	216	0
+	+	99	14
+	+	176	14
+	+	91	14
+	+	50	24
+	+	47	44
+	+	233	62
+	+	32	15
+	+	80	27
+	+	33	0
+	+	32	23
+	+	80	29
+	+	32	17
+	+	80	26
+	+	81	23
+	+	82	0
+	+	81	28
+	+	44	0
+	+	202	0
+	+	188	0
+	+	189	33
+	+	191	33
+	+	195	29
+	+	197	32
+	+	199	34
+	+	189	0
+	+	44	0
+	+	202	0
+	+	80	33
+	+	80	0
+	+	236	64
+	k	77	0
+	s	1	0
+	w	246	0
+
+> ~/.config/vim/vimrc
+	*	1757502638	0
+	"	1	0
+	^	31	16
+	.	47	0
+	+	82	0
+	+	11	25
+	+	12	25
+	+	13	27
+	+	85	0
+	+	37	61
+	+	56	24
+	+	57	25
+	+	78	18
+	+	56	19
+	+	57	20
+	+	78	19
+	+	56	23
+	+	57	23
+	+	78	23
+	+	56	20
+	+	57	21
+	+	78	0
+	+	56	20
+	+	57	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	56	20
+	+	54	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	31	0
+	+	78	0
+	+	78	4
+	+	54	0
+	+	78	20
+	+	54	0
+	+	78	16
+	+	78	29
+	+	78	0
+	+	54	0
+	+	78	0
+	+	54	0
+	+	78	0
+	+	53	0
+	+	78	0
+	+	53	0
+	+	78	25
+	+	78	0
+	+	78	16
+	+	84	20
+	+	78	17
+	+	59	0
+	+	68	0
+	+	53	16
+	+	29	0
+	+	28	0
+	+	29	0
+	+	53	0
+	+	30	0
+	+	47	0
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757502438	0
@@ -783,73 +1017,6 @@ $
 	+	84	0
 	+	89	0
 
-> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-	*	1757502271	0
-	"	24	3
-	^	24	4
-	.	24	3
-	+	1	27
-	+	131	22
-	+	10	12
-	+	11	12
-	+	12	12
-	+	44	14
-	+	49	0
-	+	163	0
-	+	49	0
-	+	44	14
-	+	107	0
-	+	44	14
-	+	107	41
-	+	163	0
-	+	56	0
-	+	55	32
-	+	49	0
-	+	44	14
-	+	55	0
-	+	39	38
-	+	38	0
-	+	40	71
-	+	27	44
-	+	40	68
-	+	26	0
-	+	167	0
-	+	166	12
-	+	167	9
-	+	165	12
-	+	166	12
-	+	165	0
-	+	40	0
-	+	44	14
-	+	44	0
-	+	30	0
-	+	25	17
-	+	27	17
-	+	29	5
-	+	30	9
-	+	31	5
-	+	32	3
-	+	29	27
-	+	25	20
-	+	25	0
-	+	25	1
-	+	25	6
-	+	25	33
-	+	25	7
-	+	25	31
-	+	25	29
-	+	25	0
-	+	25	31
-	+	25	16
-	+	25	0
-	+	28	0
-	+	25	0
-	+	15	0
-	+	20	6
-	+	25	0
-	+	21	0
-	+	24	3
-
 > ~/.config/fuzzel/fuzzel.ini
 	*	1757498426	0
 	"	11	11
@@ -912,179 +1079,6 @@ $
 	+	34	6
 	+	33	7
 	+	11	0
-
-> ~/.config/sway/config
-	*	1757497025	0
-	"	202	0
-	^	188	4
-	.	202	0
-	+	202	0
-	+	44	22
-	+	202	0
-	+	202	16
-	+	202	0
-	+	202	12
-	+	202	15
-	+	202	0
-	+	202	19
-	+	184	0
-	+	183	0
-	+	186	0
-	+	187	25
-	+	1	0
-	+	213	0
-	+	224	0
-	+	202	0
-	+	202	62
-	+	202	0
-	+	44	0
-	+	52	27
-	+	49	42
-	+	52	34
-	+	44	0
-	+	106	24
-	+	44	0
-	+	117	0
-	+	89	28
-	+	88	23
-	+	89	0
-	+	90	139
-	+	89	12
-	+	89	0
-	+	90	0
-	+	114	0
-	+	113	58
-	+	34	19
-	+	94	46
-	+	94	0
-	+	94	17
-	+	121	0
-	+	95	0
-	+	213	0
-	+	212	81
-	+	212	0
-	+	213	0
-	+	214	0
-	+	213	0
-	+	9	0
-	+	8	39
-	+	9	0
-	+	20	0
-	+	13	24
-	+	98	69
-	+	98	70
-	+	98	72
-	+	98	225
-	+	98	72
-	+	98	0
-	+	99	0
-	+	236	0
-	+	95	44
-	+	202	0
-	+	94	0
-	+	228	40
-	+	230	24
-	+	231	0
-	+	230	0
-	+	229	17
-	+	216	0
-	+	99	14
-	+	176	14
-	+	91	14
-	+	50	24
-	+	47	44
-	+	233	62
-	+	32	15
-	+	80	27
-	+	33	0
-	+	32	23
-	+	80	29
-	+	32	17
-	+	80	26
-	+	81	23
-	+	82	0
-	+	81	28
-	+	44	0
-	+	202	0
-	+	188	0
-	+	189	33
-	+	191	33
-	+	195	29
-	+	197	32
-	+	199	34
-	+	189	0
-	+	44	0
-	+	202	0
-	k	77	0
-	s	1	0
-	w	245	0
-
-> ~/.config/vim/vimrc
-	*	1757496194	0
-	"	1	0
-	^	31	16
-	.	47	0
-	+	82	0
-	+	11	25
-	+	12	25
-	+	13	27
-	+	85	0
-	+	37	61
-	+	56	24
-	+	57	25
-	+	78	18
-	+	56	19
-	+	57	20
-	+	78	19
-	+	56	23
-	+	57	23
-	+	78	23
-	+	56	20
-	+	57	21
-	+	78	0
-	+	56	20
-	+	57	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	56	20
-	+	54	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	31	0
-	+	78	0
-	+	78	4
-	+	54	0
-	+	78	20
-	+	54	0
-	+	78	16
-	+	78	29
-	+	78	0
-	+	54	0
-	+	78	0
-	+	54	0
-	+	78	0
-	+	53	0
-	+	78	0
-	+	53	0
-	+	78	25
-	+	78	0
-	+	78	16
-	+	84	20
-	+	78	17
-	+	59	0
-	+	68	0
-	+	53	16
-	+	29	0
-	+	28	0
-	+	29	0
-	+	53	0
-	+	30	0
-	+	47	0
 
 > ~/.config/kitty/kitty.conf
 	*	1757495755	0

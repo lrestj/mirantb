@@ -19,7 +19,7 @@
           xdg-desktop-portal-gtk
       ];
       config = {
-         common.default = [ "wlr"]; 
+         common.default = [ "wlr" ]; 
       };
   };
   documentation.man.generateCaches = false;
