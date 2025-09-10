@@ -25,7 +25,6 @@
         (with pkgs; [
             papirus-icon-theme
             whitesur-icon-theme
-            tela-icon-theme
             alacritty
             baobab
             banana-cursor
@@ -42,7 +41,6 @@
             evince
             exfatprogs
             fastfetch
-            figlet
             file-roller
             fish
             font-manager
