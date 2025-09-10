@@ -21,9 +21,11 @@ $
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 :wq
-|2,0,1757495758,,"wq"
+|2,0,1757497405,,"wq"
 :w
-|2,0,1757495720,,"w"
+|2,0,1757496921,,"w"
+:ene
+|2,0,1757496603,,"ene"
 :'<,'>sort
 |2,0,1757495377,,"'<,'>sort"
 :so $MYVIMRC
@@ -42,8 +44,6 @@ $
 |2,0,1757341333,,"w .dotfiles/other/stuff2remember.txt"
 :w ~/.local/share/applications/ytDownloader.desktop
 |2,0,1757338519,,"w ~/.local/share/applications/ytDownloader.desktop"
-:ene
-|2,0,1757338437,,"ene"
 :%y
 |2,0,1757338428,,"%y"
 :FZF
@@ -387,45 +387,76 @@ $
 
 # Registry:
 "0	LINE	0
-	    bindsym $ms+e exec kitty -e vim
-|3,0,0,1,1,0,1757495445,"    bindsym $ms+e exec kitty -e vim"
-"1	LINE	0
-	            alacritty
-|3,0,1,1,1,0,1757495346,"            alacritty"
+	# Laptop multimedia keys for volume and LCD brightness
+	bindel= XF86AudioRaiseVolume,  exec, notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+	                                      -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -i 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+	bindsym XF86AudioLowerVolume exec, notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+	                                      -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+	bindsym XF86AudioMute exec pamixer --toggle-mute && notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+	                                 -h int:value:$(( (( $([ "$(pamixer --get-mute)" = "true" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))
+	bindsym XF86AudioMicMute exec, pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center "mic" -h string:x-canonical-private-synchronous:progress \
+	                                 -h int:value:$([ "$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')" = "yes" ] && echo 0 || echo 100)
+	bindsym XF86MonBrightnessUp exec, notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+	                                      -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+	bindsym XF86MonBrightnessDown exec, notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+	                                      -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+	
+|3,0,0,1,14,0,1757496796,"# Laptop multimedia keys for volume and LCD brightness","bindel= XF86AudioRaiseVolume,  exec, notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\","                                      -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -i 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))",>126
+|<"bindsym XF86AudioLowerVolume exec, notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\","                                      -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))","bindsym XF86AudioMute exec pamixer --toggle-mute && notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\",>152
+|<"                                 -h int:value:$(( (( $([ \"$(pamixer --get-mute)\" = \"true\" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))","bindsym XF86AudioMicMute exec, pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center \"mic\" -h string:x-canonical-private-synchronous:progress \\","                                 -h int:value:$([ \"$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')\" = \"yes\" ] && echo 0 || echo 100)",>119
+|<"bindsym XF86MonBrightnessUp exec, notify-send -c center \"jas\" -h string:x-canonical-private-synchronous:progress \\","                                      -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\\(([0-9]+)%\\).*/\\1/p')","bindsym XF86MonBrightnessDown exec, notify-send -c center \"jas\" -h string:x-canonical-private-synchronous:progress \\","                                      -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\\(([0-9]+)%\\).*/\\1/p')",""
+""1	LINE	0
+	      ./swayosd.nix
+|3,1,1,1,1,0,1757497394,"      ./swayosd.nix"
 "2	LINE	0
-	            figlet
-|3,0,2,1,1,0,1757494106,"            figlet"
+	
+|3,0,2,1,1,0,1757497025,""
 "3	LINE	0
-	            tela-icon-theme
-|3,0,3,1,1,0,1757494096,"            tela-icon-theme"
+	### Media keys for SwayOSD
+	    # Capslock
+	    # bindsym --release Caps_Lock exec swayosd-client --caps-lock
+	    
+	    # # Audio and mic mute
+	    # bindsym XF86AudioMute exec swayosd-client --output-volume mute-toggle
+	    # bindsym XF86AudioMicMute exec swayosd-client --input-volume mute-toggle
+	    
+	    # # Volume
+	    # bindsym XF86AudioRaiseVolume exec swayosd-client --output-volume raise --max-volume 120
+	    # bindsym XF86AudioLowerVolume exec swayosd-client --output-volume lower --max-volume 120
+	    
+	    # # Brightness
+	    # bindsym XF86MonBrightnessUp  exec swayosd-client --brightness +10
+	    # bindsym XF86MonBrightnessDown exec swayosd-client --brightness -10    # # Special keys to adjust volume via PulseAudio
+|3,0,3,1,15,0,1757497018,"### Media keys for SwayOSD","    # Capslock","    # bindsym --release Caps_Lock exec swayosd-client --caps-lock","    ","    # # Audio and mic mute","    # bindsym XF86AudioMute exec swayosd-client --output-volume mute-toggle","    # bindsym XF86AudioMicMute exec swayosd-client --input-volume mute-toggle","    ","    # # Volume","    # bindsym XF86AudioRaiseVolume exec swayosd-client --output-volume raise --max-volume 120",>95
+|<"    # bindsym XF86AudioLowerVolume exec swayosd-client --output-volume lower --max-volume 120","    ","    # # Brightness","    # bindsym XF86MonBrightnessUp  exec swayosd-client --brightness +10","    # bindsym XF86MonBrightnessDown exec swayosd-client --brightness -10    # # Special keys to adjust volume via PulseAudio"
 "4	LINE	0
+	    # exec swayosd-server
+|3,0,4,1,1,0,1757496992,"    # exec swayosd-server"
+"5	LINE	0
+	            alacritty
+|3,0,5,1,1,0,1757495346,"            alacritty"
+"6	LINE	0
+	            figlet
+|3,0,6,1,1,0,1757494106,"            figlet"
+"7	LINE	0
+	            tela-icon-theme
+|3,0,7,1,1,0,1757494096,"            tela-icon-theme"
+"8	LINE	0
 	"Cursor look and bg render fix
 	let &t_SI = "\e[6 q"
 	let &t_SR = "\e[3 q"
 	let &t_EI = "\e[2 q"
 	let &t_ut=''
 	
-|3,0,4,1,6,0,1757492747,"\"Cursor look and bg render fix","let &t_SI = \"\\e[6 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''",""
-"5	LINE	0
+|3,0,8,1,6,0,1757492747,"\"Cursor look and bg render fix","let &t_SI = \"\\e[6 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''",""
+"9	LINE	0
 	augroup reset_cursor_shape
 	  au!
 	  autocmd VimEnter * normal! :startinsert :stopinsert
 	  autocmd VimEnter * redraw!
 	augroup END
 	
-|3,0,5,1,6,0,1757449775,"augroup reset_cursor_shape","  au!","  autocmd VimEnter * normal! :startinsert :stopinsert","  autocmd VimEnter * redraw!","augroup END",""
-"6	LINE	0
-	shape = "Block"
-|3,0,6,1,1,0,1757449375,"shape = \"Block\""
-"7	LINE	0
-	
-|3,0,7,1,1,0,1757449093,""
-"8	LINE	0
-	
-|3,0,8,1,1,0,1757448367,""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1757446703,""
+|3,0,9,1,6,0,1757449775,"augroup reset_cursor_shape","  au!","  autocmd VimEnter * normal! :startinsert :stopinsert","  autocmd VimEnter * redraw!","augroup END",""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -445,9 +476,9 @@ $
 "q@	CHAR	0
 	Äkrci"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl
 |3,2,26,0,1,0,1757426599,"Äkrci\"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl"
-""-	CHAR	0
-	 -e vim
-|3,1,36,0,1,0,1757495458," -e vim"
+"-	CHAR	0
+	,
+|3,0,36,0,1,0,1757496916,","
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -468,28 +499,92 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  2  17  ~/.config/kitty/kitty.conf
-|4,48,2,17,1757495758,"~/.config/kitty/kitty.conf"
-'1  82  27  ~/.config/sway/config
-|4,49,82,27,1757495460,"~/.config/sway/config"
-'2  69  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,69,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  82  23  ~/.config/sway/config
-|4,51,82,23,1757495294,"~/.config/sway/config"
-'4  23  0  ~/.dotfiles/other/stuff2remember.txt
-|4,52,23,0,1757495235,"~/.dotfiles/other/stuff2remember.txt"
-'5  62  16  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,62,16,1757495080,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  63  16  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,63,16,1757495080,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  33  13  ~/.config/fuzzel/fuzzel.ini
-|4,55,33,13,1757494742,"~/.config/fuzzel/fuzzel.ini"
-'8  31  87  ~/.local/bin/cliphist-fuzzel-img
-|4,56,31,87,1757494424,"~/.local/bin/cliphist-fuzzel-img"
-'9  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,57,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
+'0  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,7,2,1757497405,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  41  15  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,41,15,1757497173,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  42  15  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,42,15,1757497173,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  2  17  ~/.config/kitty/kitty.conf
+|4,51,2,17,1757495758,"~/.config/kitty/kitty.conf"
+'4  81  27  ~/.config/sway/config
+|4,52,81,27,1757495460,"~/.config/sway/config"
+'5  82  27  ~/.config/sway/config
+|4,53,82,27,1757495460,"~/.config/sway/config"
+'6  68  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,68,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  68  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,68,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  69  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,69,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
+'9  69  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,57,69,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757497405,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757497389,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  41  15  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,41,15,1757497173,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  42  15  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,42,15,1757497173,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757497057,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  202  0  ~/.config/sway/config
+|4,39,202,0,1757497040,"~/.config/sway/config"
+-'  202  0  ~/.config/sway/config
+|4,39,202,0,1757497040,"~/.config/sway/config"
+-'  202  0  ~/.config/sway/config
+|4,39,202,0,1757497040,"~/.config/sway/config"
+-'  202  0  ~/.config/sway/config
+|4,39,202,0,1757497040,"~/.config/sway/config"
+-'  44  4  ~/.config/sway/config
+|4,39,44,4,1757496997,"~/.config/sway/config"
+-'  44  4  ~/.config/sway/config
+|4,39,44,4,1757496997,"~/.config/sway/config"
+-'  44  4  ~/.config/sway/config
+|4,39,44,4,1757496997,"~/.config/sway/config"
+-'  44  4  ~/.config/sway/config
+|4,39,44,4,1757496997,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757496819,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757496819,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757496819,"~/.config/sway/config"
+-'  188  0  ~/.config/sway/config
+|4,39,188,0,1757496819,"~/.config/sway/config"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757496195,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757495932,"~/.config/vim/vimrc"
 -'  2  17  ~/.config/kitty/kitty.conf
@@ -524,173 +619,301 @@ $
 |4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
 -'  2  17  ~/.config/kitty/kitty.conf
 |4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  82  27  ~/.config/sway/config
-|4,39,82,27,1757495460,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757497394	0
+	"	7	2
+	^	61	17
+	.	7	0
+	+	145	0
+	+	145	23
+	+	145	10
+	+	65	12
+	+	145	0
+	+	145	9
+	+	145	10
+	+	35	0
+	+	121	17
+	+	34	19
+	+	121	0
+	+	90	0
+	+	88	17
+	+	73	0
+	+	73	19
+	+	53	0
+	+	35	0
+	+	6	0
+	+	120	0
+	+	6	0
+	+	7	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	86	0
+	+	120	0
+	+	6	0
+	+	73	0
+	+	50	18
+	+	64	22
+	+	55	16
+	+	28	24
+	+	134	14
+	+	144	0
+	+	136	0
+	+	135	24
+	+	136	37
+	+	145	88
+	+	136	0
+	+	144	0
+	+	52	29
+	+	137	10
+	+	138	38
+	+	143	0
+	+	142	14
+	+	52	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	145	0
+	+	55	0
+	+	95	0
+	+	143	0
+	+	139	17
+	+	139	0
+	+	46	17
+	+	62	0
+	+	79	0
+	+	55	0
+	+	29	17
+	+	27	26
+	+	25	11
+	+	26	19
+	+	25	0
+	+	141	21
+	+	143	0
+	+	98	21
+	+	49	18
+	+	27	26
+	+	49	0
+	+	27	0
+	+	42	0
+	+	61	16
+	+	27	0
+	+	25	0
+	+	7	0
+
+> ~/.config/sway/config
+	*	1757497025	0
+	"	202	0
+	^	188	4
+	.	202	0
+	+	202	0
+	+	44	22
+	+	202	0
+	+	202	16
+	+	202	0
+	+	202	12
+	+	202	15
+	+	202	0
+	+	202	19
+	+	184	0
+	+	183	0
+	+	186	0
+	+	187	25
+	+	1	0
+	+	213	0
+	+	224	0
+	+	202	0
+	+	202	62
+	+	202	0
+	+	44	0
+	+	52	27
+	+	49	42
+	+	52	34
+	+	44	0
+	+	106	24
+	+	44	0
+	+	117	0
+	+	89	28
+	+	88	23
+	+	89	0
+	+	90	139
+	+	89	12
+	+	89	0
+	+	90	0
+	+	114	0
+	+	113	58
+	+	34	19
+	+	94	46
+	+	94	0
+	+	94	17
+	+	121	0
+	+	95	0
+	+	213	0
+	+	212	81
+	+	212	0
+	+	213	0
+	+	214	0
+	+	213	0
+	+	9	0
+	+	8	39
+	+	9	0
+	+	20	0
+	+	13	24
+	+	98	69
+	+	98	70
+	+	98	72
+	+	98	225
+	+	98	72
+	+	98	0
+	+	99	0
+	+	236	0
+	+	95	44
+	+	202	0
+	+	94	0
+	+	228	40
+	+	230	24
+	+	231	0
+	+	230	0
+	+	229	17
+	+	216	0
+	+	99	14
+	+	176	14
+	+	91	14
+	+	50	24
+	+	47	44
+	+	233	62
+	+	32	15
+	+	80	27
+	+	33	0
+	+	32	23
+	+	80	29
+	+	32	17
+	+	80	26
+	+	81	23
+	+	82	0
+	+	81	28
+	+	44	0
+	+	202	0
+	+	188	0
+	+	189	33
+	+	191	33
+	+	195	29
+	+	197	32
+	+	199	34
+	+	189	0
+	+	44	0
+	+	202	0
+	k	77	0
+	s	1	0
+	w	245	0
+
 > ~/.config/vim/vimrc
-	*	1757495931	0
+	*	1757496194	0
 	"	1	0
 	^	31	16
 	.	47	0
@@ -770,197 +993,6 @@ $
 	+	8	17
 	+	1	27
 	+	2	17
-
-> ~/.config/sway/config
-	*	1757495458	0
-	"	82	27
-	^	82	24
-	.	82	28
-	+	200	0
-	+	190	0
-	+	189	0
-	+	192	0
-	+	193	0
-	+	194	0
-	+	196	0
-	+	189	0
-	+	200	0
-	+	185	0
-	+	192	2
-	+	194	1
-	+	193	0
-	+	190	0
-	+	44	22
-	+	202	0
-	+	200	16
-	+	198	0
-	+	196	12
-	+	192	15
-	+	194	0
-	+	192	19
-	+	185	0
-	+	184	0
-	+	187	0
-	+	188	25
-	+	1	0
-	+	216	0
-	+	227	0
-	+	190	0
-	+	190	62
-	+	190	0
-	+	189	0
-	+	45	0
-	+	53	27
-	+	50	42
-	+	53	34
-	+	45	0
-	+	107	24
-	+	45	0
-	+	118	0
-	+	90	28
-	+	89	23
-	+	90	0
-	+	91	139
-	+	90	12
-	+	90	0
-	+	91	0
-	+	115	0
-	+	114	58
-	+	34	19
-	+	95	46
-	+	95	0
-	+	95	17
-	+	122	0
-	+	96	0
-	+	216	0
-	+	215	81
-	+	215	0
-	+	216	0
-	+	217	0
-	+	216	0
-	+	9	0
-	+	8	39
-	+	9	0
-	+	20	0
-	+	13	24
-	+	99	69
-	+	99	70
-	+	99	72
-	+	99	225
-	+	99	72
-	+	99	0
-	+	100	0
-	+	239	0
-	+	96	44
-	+	204	0
-	+	95	0
-	+	231	40
-	+	233	24
-	+	234	0
-	+	233	0
-	+	232	17
-	+	219	0
-	+	100	14
-	+	177	14
-	+	92	14
-	+	51	24
-	+	48	44
-	+	236	62
-	+	32	15
-	+	81	27
-	+	33	0
-	+	32	23
-	+	81	29
-	+	32	17
-	+	81	26
-	+	82	23
-	+	83	0
-	+	82	28
-	k	78	0
-	m	204	0
-	s	1	0
-	w	248	0
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757495392	0
-	"	69	12
-	^	62	17
-	.	26	0
-	+	146	0
-	+	146	23
-	+	146	10
-	+	66	12
-	+	146	0
-	+	146	9
-	+	146	10
-	+	36	0
-	+	122	17
-	+	35	19
-	+	122	0
-	+	91	0
-	+	89	17
-	+	74	0
-	+	74	19
-	+	54	0
-	+	36	0
-	+	6	0
-	+	121	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	87	0
-	+	121	0
-	+	6	0
-	+	74	0
-	+	51	18
-	+	65	22
-	+	56	16
-	+	29	24
-	+	135	14
-	+	145	0
-	+	137	0
-	+	136	24
-	+	137	37
-	+	146	88
-	+	137	0
-	+	145	0
-	+	53	29
-	+	138	10
-	+	139	38
-	+	144	0
-	+	143	14
-	+	53	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	146	0
-	+	56	0
-	+	96	0
-	+	144	0
-	+	140	17
-	+	140	0
-	+	47	17
-	+	63	0
-	+	80	0
-	+	56	0
-	+	30	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
-	+	142	21
-	+	144	0
-	+	99	21
-	+	50	18
-	+	28	26
-	+	50	0
-	+	28	0
-	+	43	0
-	+	62	16
-	+	28	0
-	+	26	0
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757495228	0

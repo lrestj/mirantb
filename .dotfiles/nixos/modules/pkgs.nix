@@ -4,7 +4,6 @@
 
   imports = [ 
       # ./overlay.nix
-      ./swayosd.nix
   ]; 
   
   fonts.packages = with pkgs; [

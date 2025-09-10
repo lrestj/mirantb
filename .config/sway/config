@@ -41,7 +41,6 @@
     exec wl-paste --watch cliphist store
     exec wlsunset -l 50.1 -L 16.2 -t 4700 -T 5000 # Screen blue light settings
     exec udiskie -t
-    exec swayosd-server
     exec_always battery-check.sh
 
 ### Locking the system
@@ -186,21 +185,19 @@
     # Screenshot with grimshot
     bindsym $mod+Insert exec grimshot --notify save anything
 
-### Media keys for SwayOSD
-    # Capslock
-    bindsym --release Caps_Lock exec swayosd-client --caps-lock
-    
-    # Audio and mic mute
-    bindsym XF86AudioMute exec swayosd-client --output-volume mute-toggle
-    bindsym XF86AudioMicMute exec swayosd-client --input-volume mute-toggle
-    
-    # Volume
-    bindsym XF86AudioRaiseVolume exec swayosd-client --output-volume raise --max-volume 120
-    bindsym XF86AudioLowerVolume exec swayosd-client --output-volume lower --max-volume 120
-    
-    # Brightness
-    bindsym XF86MonBrightnessUp  exec swayosd-client --brightness +10
-    bindsym XF86MonBrightnessDown exec swayosd-client --brightness -10    # # Special keys to adjust volume via PulseAudio
+    # Laptop multimedia keys for volume and LCD brightness
+    bindsym XF86AudioRaiseVolume exec notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+                                          -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -i 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+    bindsym XF86AudioLowerVolume exec notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+                                          -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+    bindsym XF86AudioMute exec pamixer --toggle-mute && notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+                                     -h int:value:$(( (( $([ "$(pamixer --get-mute)" = "true" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))
+    bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center "mic" -h string:x-canonical-private-synchronous:progress \
+                                     -h int:value:$([ "$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')" = "yes" ] && echo 0 || echo 100)
+    bindsym XF86MonBrightnessUp exec notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+                                          -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+    bindsym XF86MonBrightnessDown exec notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+                                      -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
 
 ### MODES:
     # Nastavení
