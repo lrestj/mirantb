@@ -20,10 +20,14 @@
 $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
-:w
-|2,0,1757523526,,"w"
 :q
-|2,0,1757522647,,"q"
+|2,0,1757524065,,"q"
+:w
+|2,0,1757523970,,"w"
+:0p
+|2,0,1757523902,,"0p"
+:reg
+|2,0,1757523865,,"reg"
 :wq
 |2,0,1757521810,,"wq"
 :ene
@@ -52,8 +56,6 @@ $
 |2,0,1757317188,,"w!"
 :sort
 |2,0,1757251406,,"sort"
-:reg
-|2,0,1757240412,,"reg"
 :%s/\~\/.dotfiles\/scripts\///g
 |2,0,1757235411,,"%s/\\~\\/.dotfiles\\/scripts\\///g"
 :%s/\~\/.dotfiles\/scripts\// /g
@@ -387,9 +389,9 @@ $
 
 # Registry:
 "0	CHAR	0
-	 workspace 1
-|3,0,0,0,1,0,1757519789," workspace 1"
-""1	LINE	0
+	foot bash -c "sleep 0.1; exec vim"
+|3,0,0,0,1,0,1757523857,"foot bash -c \"sleep 0.1; exec vim\""
+"1	LINE	0
 	### Cursor theme
 	    seat seat0 xcursor_theme Banana 28
 	    # seat seat0 xcursor_theme Bibata-Modern-Classic 24
@@ -400,7 +402,7 @@ $
 	        position top
 	    }
 	
-|3,1,1,1,10,0,1757523422,"### Cursor theme","    seat seat0 xcursor_theme Banana 28","    # seat seat0 xcursor_theme Bibata-Modern-Classic 24","","### Status Bar:","    bar {","        swaybar_command waybar-sway","        position top","    }",""
+|3,0,1,1,10,0,1757523422,"### Cursor theme","    seat seat0 xcursor_theme Banana 28","    # seat seat0 xcursor_theme Bibata-Modern-Classic 24","","### Status Bar:","    bar {","        swaybar_command waybar-sway","        position top","    }",""
 "2	LINE	0
 	    # output * adaptive_sync on
 |3,0,2,1,1,0,1757523405,"    # output * adaptive_sync on"
@@ -446,9 +448,9 @@ $
 "q@	CHAR	0
 	€krci"P€kb$PO€ýk€kd€kd€kd€kl€kl
 |3,2,26,0,1,0,1757426599,"€krci\"P€kb$PO€ýk€kd€kd€kd€kl€kl"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1757522600," "
+""-	CHAR	0
+	term -e vi
+|3,1,36,0,1,0,1757523961,"term -e vi"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -469,32 +471,80 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  0  ~/.config/sway/config
-|4,48,1,0,1757523570,"~/.config/sway/config"
-'1  73  34  ~/.config/sway/config
-|4,49,73,34,1757523554,"~/.config/sway/config"
-'2  73  34  ~/.config/sway/config
-|4,50,73,34,1757523554,"~/.config/sway/config"
-'3  172  13  ~/.config/sway/config
-|4,51,172,13,1757522647,"~/.config/sway/config"
-'4  173  13  ~/.config/sway/config
-|4,52,173,13,1757522647,"~/.config/sway/config"
-'5  172  13  ~/.config/sway/config
-|4,53,172,13,1757522647,"~/.config/sway/config"
-'6  173  13  ~/.config/sway/config
-|4,54,173,13,1757522647,"~/.config/sway/config"
-'7  189  8  ~/.config/sway/config
-|4,55,189,8,1757521883,"~/.config/sway/config"
-'8  189  8  ~/.config/sway/config
-|4,56,189,8,1757521883,"~/.config/sway/config"
-'9  190  8  ~/.config/sway/config
-|4,57,190,8,1757521883,"~/.config/sway/config"
+'0  71  17  ~/.config/sway/config
+|4,48,71,17,1757524065,"~/.config/sway/config"
+'1  1  0  ~/.config/sway/config
+|4,49,1,0,1757523570,"~/.config/sway/config"
+'2  1  0  ~/.config/sway/config
+|4,50,1,0,1757523570,"~/.config/sway/config"
+'3  73  34  ~/.config/sway/config
+|4,51,73,34,1757523554,"~/.config/sway/config"
+'4  73  34  ~/.config/sway/config
+|4,52,73,34,1757523554,"~/.config/sway/config"
+'5  73  34  ~/.config/sway/config
+|4,53,73,34,1757523554,"~/.config/sway/config"
+'6  73  34  ~/.config/sway/config
+|4,54,73,34,1757523554,"~/.config/sway/config"
+'7  172  13  ~/.config/sway/config
+|4,55,172,13,1757522647,"~/.config/sway/config"
+'8  173  13  ~/.config/sway/config
+|4,56,173,13,1757522647,"~/.config/sway/config"
+'9  172  13  ~/.config/sway/config
+|4,57,172,13,1757522647,"~/.config/sway/config"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  71  17  ~/.config/sway/config
+|4,39,71,17,1757524065,"~/.config/sway/config"
+-'  41  27  ~/.config/sway/config
+|4,39,41,27,1757523896,"~/.config/sway/config"
+-'  19  27  ~/.dotfiles/other/stuff2remember.txt
+|4,39,19,27,1757523880,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757523839,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757523570,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523570,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
+-'  73  34  ~/.config/sway/config
+|4,39,73,34,1757523554,"~/.config/sway/config"
 -'  73  34  ~/.config/sway/config
 |4,39,73,34,1757523554,"~/.config/sway/config"
 -'  73  34  ~/.config/sway/config
@@ -511,6 +561,58 @@ $
 |4,39,100,0,1757523546,"~/.config/sway/config"
 -'  100  0  ~/.config/sway/config
 |4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  100  0  ~/.config/sway/config
+|4,39,100,0,1757523546,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
+-'  20  0  ~/.config/sway/config
+|4,39,20,0,1757523478,"~/.config/sway/config"
 -'  20  0  ~/.config/sway/config
 |4,39,20,0,1757523478,"~/.config/sway/config"
 -'  20  0  ~/.config/sway/config
@@ -527,6 +629,42 @@ $
 |4,39,71,0,1757523422,"~/.config/sway/config"
 -'  71  0  ~/.config/sway/config
 |4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  71  0  ~/.config/sway/config
+|4,39,71,0,1757523422,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757523389,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757523389,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -547,158 +685,22 @@ $
 |4,39,172,13,1757522647,"~/.config/sway/config"
 -'  173  13  ~/.config/sway/config
 |4,39,173,13,1757522647,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757522541,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757522541,"~/.config/sway/config"
--'  189  8  ~/.config/sway/config
-|4,39,189,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  189  8  ~/.config/sway/config
-|4,39,189,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  189  8  ~/.config/sway/config
-|4,39,189,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  189  8  ~/.config/sway/config
-|4,39,189,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  190  8  ~/.config/sway/config
-|4,39,190,8,1757521883,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521817,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521817,"~/.config/sway/config"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  8  19  ~/.config/kitty/kitty.conf
-|4,39,8,19,1757521810,"~/.config/kitty/kitty.conf"
--'  232  4  ~/.config/sway/config
-|4,39,232,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  232  4  ~/.config/sway/config
-|4,39,232,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  232  4  ~/.config/sway/config
-|4,39,232,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  232  4  ~/.config/sway/config
-|4,39,232,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  233  4  ~/.config/sway/config
-|4,39,233,4,1757521770,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521736,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521736,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521728,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757521728,"~/.config/sway/config"
--'  191  8  ~/.config/sway/config
-|4,39,191,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  191  8  ~/.config/sway/config
-|4,39,191,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  192  8  ~/.config/sway/config
-|4,39,192,8,1757521707,"~/.config/sway/config"
--'  191  8  ~/.config/sway/config
-|4,39,191,8,1757521707,"~/.config/sway/config"
+-'  172  13  ~/.config/sway/config
+|4,39,172,13,1757522647,"~/.config/sway/config"
+-'  173  13  ~/.config/sway/config
+|4,39,173,13,1757522647,"~/.config/sway/config"
+-'  172  13  ~/.config/sway/config
+|4,39,172,13,1757522647,"~/.config/sway/config"
+-'  173  13  ~/.config/sway/config
+|4,39,173,13,1757522647,"~/.config/sway/config"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
 > ~/.config/sway/config
-	*	1757523557	0
-	"	1	0
-	^	1	0
-	.	73	0
-	+	98	0
-	+	235	0
+	*	1757524041	0
+	"	71	17
+	^	79	30
+	.	79	29
 	+	93	44
 	+	199	0
 	+	93	0
@@ -797,9 +799,48 @@ $
 	+	20	0
 	+	24	0
 	+	73	0
+	+	41	16
+	+	79	29
 	k	76	0
 	s	1	0
 	w	244	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757523877	0
+	"	19	27
+	^	23	4
+	.	24	0
+	+	4	11
+	+	5	9
+	+	4	13
+	+	5	24
+	+	6	21
+	+	5	22
+	+	4	3
+	+	5	0
+	+	7	46
+	+	6	47
+	+	5	49
+	+	4	46
+	+	1	0
+	+	31	21
+	+	6	18
+	+	31	22
+	+	7	17
+	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
+	+	14	0
+	+	18	0
+	+	17	55
+	+	16	23
+	+	19	30
+	+	21	0
+	+	22	0
+	+	22	3
+	+	24	0
 
 > ~/.config/kitty/kitty.conf
 	*	1757521809	0
@@ -1116,43 +1157,6 @@ $
 	+	34	6
 	+	33	7
 	+	11	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757495228	0
-	"	23	0
-	^	23	4
-	.	24	0
-	+	4	11
-	+	5	9
-	+	4	13
-	+	5	24
-	+	6	21
-	+	5	22
-	+	4	3
-	+	5	0
-	+	7	46
-	+	6	47
-	+	5	49
-	+	4	46
-	+	1	0
-	+	31	21
-	+	6	18
-	+	31	22
-	+	7	17
-	+	5	0
-	+	12	23
-	+	11	0
-	+	14	40
-	+	15	0
-	+	14	0
-	+	18	0
-	+	17	55
-	+	16	23
-	+	19	30
-	+	21	0
-	+	22	0
-	+	22	3
-	+	24	0
 
 > ~/.local/bin/cliphist-fuzzel-img
 	*	1757494414	0

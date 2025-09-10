@@ -38,7 +38,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
-    set $editor kitty -e vim
+    set $editor foot bash -c "sleep 0.1; exec vim"
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -76,7 +76,7 @@
 ### Keybindings
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
-    bindsym $cs+e exec $term -e vi
+    bindsym $cs+e exec $editor
     bindsym $ms+a exec kitty
     bindsym $ms+e exec kitty -e vim
     bindsym $cs+b exec brave
