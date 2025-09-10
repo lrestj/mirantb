@@ -148,7 +148,7 @@
     bindsym Alt+down workspace 3
     bindsym Alt+up workspace 4
 
-    # Move and focused container to workspace
+    # Move focused container to workspace
     bindsym Shift+Left move container to workspace 1
     bindsym Shift+Right move container to workspace 2
     bindsym Shift+Down move container to workspace 3
@@ -170,7 +170,7 @@
     # Make the current focus fullscreen
     bindsym $ma+f fullscreen
 
-    # Toggle the current focus between tiling and floating mode
+    # Toggle between tiling and floating mode
     bindsym $ms+f floating toggle
 
     # Swap focus between the tiling area and the floating area
