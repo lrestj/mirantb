@@ -23,11 +23,8 @@
 
     environment.systemPackages =
         (with pkgs; [
-            papirus-icon-theme
-            whitesur-icon-theme
-            alacritty
-            baobab
             banana-cursor
+            baobab
             bemoji
             bibata-cursors
             brave
@@ -60,6 +57,7 @@
             kdePackages.qtsvg
             kdePackages.qtwayland
             killall
+            kitty
             libnotify
             libreoffice-fresh
             libva-utils
@@ -70,6 +68,7 @@
             networkmanagerapplet
             nwg-look
             pamixer
+            papirus-icon-theme
             pavucontrol
             pdfarranger
             rclone
@@ -89,12 +88,13 @@
             waybar
             waypaper
             wget
+            whitesur-icon-theme
             wl-clipboard
             wlogout
             wlsunset
             xdg-desktop-portal-gtk
-            xdg-utils
             xdg-user-dirs
+            xdg-utils
             xnviewmp
             xorg.xeyes
             xournalpp

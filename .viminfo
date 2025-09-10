@@ -20,10 +20,12 @@
 $
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
-:w
-|2,0,1757494726,,"w"
 :wq
-|2,0,1757494172,,"wq"
+|2,0,1757495758,,"wq"
+:w
+|2,0,1757495720,,"w"
+:'<,'>sort
+|2,0,1757495377,,"'<,'>sort"
 :so $MYVIMRC
 |2,0,1757492841,,"so $MYVIMRC"
 :filetype
@@ -384,65 +386,46 @@ $
 # Historie Debug Line (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
 # Registry:
-""0	CHAR	0
-	cd7baff
-|3,1,0,0,1,0,1757494715,"cd7baff"
+"0	LINE	0
+	    bindsym $ms+e exec kitty -e vim
+|3,0,0,1,1,0,1757495445,"    bindsym $ms+e exec kitty -e vim"
 "1	LINE	0
-	            figlet
-|3,0,1,1,1,0,1757494106,"            figlet"
+	            alacritty
+|3,0,1,1,1,0,1757495346,"            alacritty"
 "2	LINE	0
-	            tela-icon-theme
-|3,0,2,1,1,0,1757494096,"            tela-icon-theme"
+	            figlet
+|3,0,2,1,1,0,1757494106,"            figlet"
 "3	LINE	0
+	            tela-icon-theme
+|3,0,3,1,1,0,1757494096,"            tela-icon-theme"
+"4	LINE	0
 	"Cursor look and bg render fix
 	let &t_SI = "\e[6 q"
 	let &t_SR = "\e[3 q"
 	let &t_EI = "\e[2 q"
 	let &t_ut=''
 	
-|3,0,3,1,6,0,1757492747,"\"Cursor look and bg render fix","let &t_SI = \"\\e[6 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''",""
-"4	LINE	0
+|3,0,4,1,6,0,1757492747,"\"Cursor look and bg render fix","let &t_SI = \"\\e[6 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''",""
+"5	LINE	0
 	augroup reset_cursor_shape
 	  au!
 	  autocmd VimEnter * normal! :startinsert :stopinsert
 	  autocmd VimEnter * redraw!
 	augroup END
 	
-|3,0,4,1,6,0,1757449775,"augroup reset_cursor_shape","  au!","  autocmd VimEnter * normal! :startinsert :stopinsert","  autocmd VimEnter * redraw!","augroup END",""
-"5	LINE	0
-	shape = "Block"
-|3,0,5,1,1,0,1757449375,"shape = \"Block\""
+|3,0,5,1,6,0,1757449775,"augroup reset_cursor_shape","  au!","  autocmd VimEnter * normal! :startinsert :stopinsert","  autocmd VimEnter * redraw!","augroup END",""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1757449093,""
+	shape = "Block"
+|3,0,6,1,1,0,1757449375,"shape = \"Block\""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1757448367,""
+|3,0,7,1,1,0,1757449093,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1757446703,""
+|3,0,8,1,1,0,1757448367,""
 "9	LINE	0
 	
-	"Kitty cursor fix
-	" if $TERM == "xterm-kitty"
-	"     set mouse=a
-	"     try
-	"         " undercurl support
-	"         let &t_Cs = "\e[4:3m"x
-	"         let &t_Ce = "\e[4:0m"
-	"     catch
-	"     endtry
-	"     " Change the cursor in different modes
-	"     let &t_SI = "\e[1 q"
-	"     let &t_SR = "\e[3 q"
-	"     let &t_EI = "\e[2 q"
-	"     " vim hardcodes background color erase even if the terminfo file does
-	"     " not contain bce. This causes incorrect background rendering when
-	"     " using a color theme with a background color.
-	"     let &t_ut=''
-	" endif
-|3,0,9,1,19,0,1757446693,"","\"Kitty cursor fix","\" if $TERM == \"xterm-kitty\"","\"     set mouse=a","\"     try","\"         \" undercurl support","\"         let &t_Cs = \"\\e[4:3m\"x","\"         let &t_Ce = \"\\e[4:0m\"","\"     catch","\"     endtry","\"     \" Change the cursor in different modes","\"     let &t_SI = \"\\e[1 q\"","\"     let &t_SR = \"\\e[3 q\"","\"     let &t_EI = \"\\e[2 q\"",>79
-|<"\"     \" vim hardcodes background color erase even if the terminfo file does","\"     \" not contain bce. This causes incorrect background rendering when","\"     \" using a color theme with a background color.","\"     let &t_ut=''","\" endif"
+|3,0,9,1,1,0,1757446703,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -462,9 +445,9 @@ $
 "q@	CHAR	0
 	Äkrci"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl
 |3,2,26,0,1,0,1757426599,"Äkrci\"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl"
-"-	CHAR	0
-	fdcd7baffdcd7baffdcd7baf
-|3,0,36,0,1,0,1757494703,"fdcd7baffdcd7baffdcd7baf"
+""-	CHAR	0
+	 -e vim
+|3,1,36,0,1,0,1757495458," -e vim"
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -485,230 +468,536 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  33  13  ~/.config/fuzzel/fuzzel.ini
-|4,48,33,13,1757494742,"~/.config/fuzzel/fuzzel.ini"
-'1  31  87  ~/.local/bin/cliphist-fuzzel-img
-|4,49,31,87,1757494424,"~/.local/bin/cliphist-fuzzel-img"
-'2  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  10  82  ~/.local/bin/clouds.sh
-|4,53,10,82,1757492961,"~/.local/bin/clouds.sh"
-'6  47  0  ~/.config/vim/vimrc
-|4,54,47,0,1757492857,"~/.config/vim/vimrc"
-'7  31  0  ~/.config/vim/vimrc
-|4,55,31,0,1757492789,"~/.config/vim/vimrc"
-'8  37  0  ~/.config/vim/vimrc
-|4,56,37,0,1757492789,"~/.config/vim/vimrc"
-'9  26  14  ~/.config/fuzzel/fuzzel.ini
-|4,57,26,14,1757453730,"~/.config/fuzzel/fuzzel.ini"
+'0  2  17  ~/.config/kitty/kitty.conf
+|4,48,2,17,1757495758,"~/.config/kitty/kitty.conf"
+'1  82  27  ~/.config/sway/config
+|4,49,82,27,1757495460,"~/.config/sway/config"
+'2  69  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,69,12,1757495394,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  82  23  ~/.config/sway/config
+|4,51,82,23,1757495294,"~/.config/sway/config"
+'4  23  0  ~/.dotfiles/other/stuff2remember.txt
+|4,52,23,0,1757495235,"~/.dotfiles/other/stuff2remember.txt"
+'5  62  16  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,62,16,1757495080,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  63  16  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,63,16,1757495080,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  33  13  ~/.config/fuzzel/fuzzel.ini
+|4,55,33,13,1757494742,"~/.config/fuzzel/fuzzel.ini"
+'8  31  87  ~/.local/bin/cliphist-fuzzel-img
+|4,56,31,87,1757494424,"~/.local/bin/cliphist-fuzzel-img"
+'9  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,57,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
--'  33  13  ~/.config/fuzzel/fuzzel.ini
-|4,39,33,13,1757494742,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757494450,"~/.config/fuzzel/fuzzel.ini"
--'  31  87  ~/.local/bin/cliphist-fuzzel-img
-|4,39,31,87,1757494424,"~/.local/bin/cliphist-fuzzel-img"
--'  31  87  ~/.local/bin/cliphist-fuzzel-img
-|4,39,31,87,1757494424,"~/.local/bin/cliphist-fuzzel-img"
--'  1  0  ~/.local/bin/cliphist-fuzzel-img
-|4,39,1,0,1757494350,"~/.local/bin/cliphist-fuzzel-img"
--'  1  0  ~/.local/bin/cliphist-fuzzel-img
-|4,39,1,0,1757494350,"~/.local/bin/cliphist-fuzzel-img"
--'  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  72  18  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,72,18,1757494172,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757494090,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757494090,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757494090,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757494090,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757493555,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  10  82  ~/.local/bin/clouds.sh
-|4,39,10,82,1757492961,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  1  0  ~/.local/bin/clouds.sh
-|4,39,1,0,1757492873,"~/.local/bin/clouds.sh"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  47  0  ~/.config/vim/vimrc
-|4,39,47,0,1757492857,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
--'  29  0  ~/.config/vim/vimrc
-|4,39,29,0,1757492832,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757495932,"~/.config/vim/vimrc"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  2  17  ~/.config/kitty/kitty.conf
+|4,39,2,17,1757495758,"~/.config/kitty/kitty.conf"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  82  27  ~/.config/sway/config
+|4,39,82,27,1757495460,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757495427,"~/.config/sway/config"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+
+> ~/.config/vim/vimrc
+	*	1757495931	0
+	"	1	0
+	^	31	16
+	.	47	0
+	+	82	0
+	+	11	25
+	+	12	25
+	+	13	27
+	+	85	0
+	+	37	61
+	+	56	24
+	+	57	25
+	+	78	18
+	+	56	19
+	+	57	20
+	+	78	19
+	+	56	23
+	+	57	23
+	+	78	23
+	+	56	20
+	+	57	21
+	+	78	0
+	+	56	20
+	+	57	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	56	20
+	+	54	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	31	0
+	+	78	0
+	+	78	4
+	+	54	0
+	+	78	20
+	+	54	0
+	+	78	16
+	+	78	29
+	+	78	0
+	+	54	0
+	+	78	0
+	+	54	0
+	+	78	0
+	+	53	0
+	+	78	0
+	+	53	0
+	+	78	25
+	+	78	0
+	+	78	16
+	+	84	20
+	+	78	17
+	+	59	0
+	+	68	0
+	+	53	16
+	+	29	0
+	+	28	0
+	+	29	0
+	+	53	0
+	+	30	0
+	+	47	0
+
+> ~/.config/kitty/kitty.conf
+	*	1757495755	0
+	"	2	17
+	^	1	28
+	.	2	17
+	+	2	17
+	+	6	25
+	+	7	28
+	+	7	19
+	+	7	22
+	+	1	26
+	+	8	17
+	+	1	27
+	+	2	17
+
+> ~/.config/sway/config
+	*	1757495458	0
+	"	82	27
+	^	82	24
+	.	82	28
+	+	200	0
+	+	190	0
+	+	189	0
+	+	192	0
+	+	193	0
+	+	194	0
+	+	196	0
+	+	189	0
+	+	200	0
+	+	185	0
+	+	192	2
+	+	194	1
+	+	193	0
+	+	190	0
+	+	44	22
+	+	202	0
+	+	200	16
+	+	198	0
+	+	196	12
+	+	192	15
+	+	194	0
+	+	192	19
+	+	185	0
+	+	184	0
+	+	187	0
+	+	188	25
+	+	1	0
+	+	216	0
+	+	227	0
+	+	190	0
+	+	190	62
+	+	190	0
+	+	189	0
+	+	45	0
+	+	53	27
+	+	50	42
+	+	53	34
+	+	45	0
+	+	107	24
+	+	45	0
+	+	118	0
+	+	90	28
+	+	89	23
+	+	90	0
+	+	91	139
+	+	90	12
+	+	90	0
+	+	91	0
+	+	115	0
+	+	114	58
+	+	34	19
+	+	95	46
+	+	95	0
+	+	95	17
+	+	122	0
+	+	96	0
+	+	216	0
+	+	215	81
+	+	215	0
+	+	216	0
+	+	217	0
+	+	216	0
+	+	9	0
+	+	8	39
+	+	9	0
+	+	20	0
+	+	13	24
+	+	99	69
+	+	99	70
+	+	99	72
+	+	99	225
+	+	99	72
+	+	99	0
+	+	100	0
+	+	239	0
+	+	96	44
+	+	204	0
+	+	95	0
+	+	231	40
+	+	233	24
+	+	234	0
+	+	233	0
+	+	232	17
+	+	219	0
+	+	100	14
+	+	177	14
+	+	92	14
+	+	51	24
+	+	48	44
+	+	236	62
+	+	32	15
+	+	81	27
+	+	33	0
+	+	32	23
+	+	81	29
+	+	32	17
+	+	81	26
+	+	82	23
+	+	83	0
+	+	82	28
+	k	78	0
+	m	204	0
+	s	1	0
+	w	248	0
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757495392	0
+	"	69	12
+	^	62	17
+	.	26	0
+	+	146	0
+	+	146	23
+	+	146	10
+	+	66	12
+	+	146	0
+	+	146	9
+	+	146	10
+	+	36	0
+	+	122	17
+	+	35	19
+	+	122	0
+	+	91	0
+	+	89	17
+	+	74	0
+	+	74	19
+	+	54	0
+	+	36	0
+	+	6	0
+	+	121	0
+	+	6	0
+	+	8	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	87	0
+	+	121	0
+	+	6	0
+	+	74	0
+	+	51	18
+	+	65	22
+	+	56	16
+	+	29	24
+	+	135	14
+	+	145	0
+	+	137	0
+	+	136	24
+	+	137	37
+	+	146	88
+	+	137	0
+	+	145	0
+	+	53	29
+	+	138	10
+	+	139	38
+	+	144	0
+	+	143	14
+	+	53	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	146	0
+	+	56	0
+	+	96	0
+	+	144	0
+	+	140	17
+	+	140	0
+	+	47	17
+	+	63	0
+	+	80	0
+	+	56	0
+	+	30	17
+	+	28	26
+	+	26	11
+	+	27	19
+	+	26	0
+	+	142	21
+	+	144	0
+	+	99	21
+	+	50	18
+	+	28	26
+	+	50	0
+	+	28	0
+	+	43	0
+	+	62	16
+	+	28	0
+	+	26	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757495228	0
+	"	23	0
+	^	23	4
+	.	24	0
+	+	4	11
+	+	5	9
+	+	4	13
+	+	5	24
+	+	6	21
+	+	5	22
+	+	4	3
+	+	5	0
+	+	7	46
+	+	6	47
+	+	5	49
+	+	4	46
+	+	1	0
+	+	31	21
+	+	6	18
+	+	31	22
+	+	7	17
+	+	5	0
+	+	12	23
+	+	11	0
+	+	14	40
+	+	15	0
+	+	14	0
+	+	18	0
+	+	17	55
+	+	16	23
+	+	19	30
+	+	21	0
+	+	22	0
+	+	22	3
+	+	24	0
 
 > ~/.config/fuzzel/fuzzel.ini
 	*	1757494726	0
@@ -779,84 +1068,6 @@ $
 	.	31	87
 	+	31	87
 
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757494144	0
-	"	72	18
-	^	28	27
-	.	44	0
-	+	146	0
-	+	146	23
-	+	146	10
-	+	66	12
-	+	146	0
-	+	146	9
-	+	146	10
-	+	37	0
-	+	122	17
-	+	36	19
-	+	122	0
-	+	91	0
-	+	89	17
-	+	74	0
-	+	74	19
-	+	55	0
-	+	37	0
-	+	6	0
-	+	121	0
-	+	6	0
-	+	8	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	87	0
-	+	121	0
-	+	6	0
-	+	74	0
-	+	52	18
-	+	65	22
-	+	57	16
-	+	30	24
-	+	135	14
-	+	145	0
-	+	137	0
-	+	136	24
-	+	137	37
-	+	146	88
-	+	137	0
-	+	145	0
-	+	54	29
-	+	138	10
-	+	139	38
-	+	144	0
-	+	143	14
-	+	54	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	146	0
-	+	57	0
-	+	96	0
-	+	144	0
-	+	140	17
-	+	140	0
-	+	48	17
-	+	63	0
-	+	80	0
-	+	57	0
-	+	31	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
-	+	142	21
-	+	144	0
-	+	99	21
-	+	51	18
-	+	28	26
-	+	51	0
-	+	28	0
-	+	44	0
-
 > ~/.local/bin/clouds.sh
 	*	1757492953	0
 	"	10	82
@@ -899,73 +1110,6 @@ $
 	+	21	7
 	+	10	82
 
-> ~/.config/vim/vimrc
-	*	1757492841	0
-	"	47	0
-	^	31	16
-	.	47	0
-	+	82	0
-	+	11	25
-	+	12	25
-	+	13	27
-	+	85	0
-	+	37	61
-	+	56	24
-	+	57	25
-	+	78	18
-	+	56	19
-	+	57	20
-	+	78	19
-	+	56	23
-	+	57	23
-	+	78	23
-	+	56	20
-	+	57	21
-	+	78	0
-	+	56	20
-	+	57	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	56	20
-	+	54	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	31	0
-	+	78	0
-	+	78	4
-	+	54	0
-	+	78	20
-	+	54	0
-	+	78	16
-	+	78	29
-	+	78	0
-	+	54	0
-	+	78	0
-	+	54	0
-	+	78	0
-	+	53	0
-	+	78	0
-	+	53	0
-	+	78	25
-	+	78	0
-	+	78	16
-	+	84	20
-	+	78	17
-	+	59	0
-	+	68	0
-	+	53	16
-	+	29	0
-	+	28	0
-	+	29	0
-	+	53	0
-	+	30	0
-	+	47	0
-
 > ~/.config/alacritty/alacritty.toml
 	*	1757449462	0
 	"	28	11
@@ -979,161 +1123,6 @@ $
 	+	27	14
 	+	28	15
 	+	28	11
-
-> ~/.config/sway/config
-	*	1757448707	0
-	"	82	38
-	^	82	39
-	.	82	38
-	+	195	0
-	+	188	0
-	+	199	0
-	+	189	0
-	+	188	0
-	+	191	0
-	+	192	0
-	+	193	0
-	+	195	0
-	+	188	0
-	+	199	0
-	+	184	0
-	+	191	2
-	+	193	1
-	+	192	0
-	+	189	0
-	+	44	22
-	+	201	0
-	+	199	16
-	+	197	0
-	+	195	12
-	+	191	15
-	+	193	0
-	+	191	19
-	+	184	0
-	+	183	0
-	+	186	0
-	+	187	25
-	+	1	0
-	+	215	0
-	+	226	0
-	+	189	0
-	+	189	62
-	+	189	0
-	+	188	0
-	+	45	0
-	+	53	27
-	+	50	42
-	+	53	34
-	+	45	0
-	+	106	24
-	+	45	0
-	+	117	0
-	+	89	28
-	+	88	23
-	+	89	0
-	+	90	139
-	+	89	12
-	+	89	0
-	+	90	0
-	+	114	0
-	+	113	58
-	+	34	19
-	+	94	46
-	+	94	0
-	+	94	17
-	+	121	0
-	+	95	0
-	+	215	0
-	+	214	81
-	+	214	0
-	+	215	0
-	+	216	0
-	+	215	0
-	+	9	0
-	+	8	39
-	+	9	0
-	+	20	0
-	+	13	24
-	+	98	69
-	+	98	70
-	+	98	72
-	+	98	225
-	+	98	72
-	+	98	0
-	+	99	0
-	+	238	0
-	+	95	44
-	+	203	0
-	+	94	0
-	+	230	40
-	+	232	24
-	+	233	0
-	+	232	0
-	+	231	17
-	+	218	0
-	+	99	14
-	+	176	14
-	+	91	14
-	+	51	24
-	+	48	44
-	+	235	62
-	+	32	15
-	+	81	27
-	+	33	0
-	+	32	23
-	+	81	29
-	+	32	17
-	+	81	26
-	+	82	38
-	k	78	0
-	m	203	0
-	s	1	0
-	w	247	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757447895	0
-	"	22	0
-	^	22	0
-	.	21	0
-	+	4	11
-	+	5	9
-	+	4	13
-	+	5	24
-	+	6	21
-	+	5	22
-	+	4	3
-	+	5	0
-	+	7	46
-	+	6	47
-	+	5	49
-	+	4	46
-	+	1	0
-	+	23	21
-	+	6	18
-	+	23	22
-	+	7	17
-	+	5	0
-	+	12	23
-	+	11	0
-	+	14	40
-	+	15	0
-	+	14	0
-	+	18	0
-	+	17	55
-	+	16	23
-	+	19	30
-	+	21	0
-
-> ~/.config/kitty/kitty.conf
-	*	1757446508	0
-	"	6	22
-	^	6	23
-	.	6	22
-	+	1	17
-	+	5	25
-	+	6	28
-	+	6	19
-	+	6	22
 
 > ~/.local/bin/vimrun
 	*	1757441924	0

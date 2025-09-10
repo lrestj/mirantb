@@ -79,7 +79,8 @@
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
     bindsym $cs+e exec $term -e vi
-    bindsym $ms+e exec alacritty -e vim
+    bindsym $ms+a exec kitty
+    bindsym $ms+e exec kitty -e vim
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
