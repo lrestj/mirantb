@@ -30,7 +30,6 @@
             brightnessctl
             btop
             cliphist
-            clipse
             dconf-editor
             efibootmgr
             eog
@@ -77,15 +76,11 @@
             ripgrep
             simple-scan
             slurp
-            swaybg
-            tmux
             udiskie
             ueberzugpp
             unzip
             vim-full
             vlc
-            waybar
-            waypaper
             wget
             whitesur-icon-theme
             wl-clipboard
@@ -137,9 +132,12 @@
           xwayland.enable = true;
           extraPackages = with pkgs; [
               grim
+              swaybg
               swaylock
               swayidle
               sway-contrib.grimshot
+              waybar
+              waypaper
           ];
       };
       git = {
