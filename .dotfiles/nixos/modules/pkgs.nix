@@ -86,7 +86,6 @@
             wl-clipboard
             wlogout
             wlsunset
-            xdg-desktop-portal-gtk
             xdg-user-dirs
             xdg-utils
             xnviewmp

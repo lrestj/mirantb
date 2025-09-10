@@ -12,8 +12,16 @@
         ../../modules/console.nix
       ];
 
-  xdg.portal.enable = true;
-  xdg.portal.wlr.enable = true;
+  xdg.portal = {
+      enable = true;
+      extraPortals = with pkgs; [
+          xdg-desktop-portal-wlr
+          xdg-desktop-portal-gtk
+      ];
+      config = {
+         common.default = [ "wlr"]; 
+      };
+  };
   documentation.man.generateCaches = false;
   nixpkgs.config.allowUnfree = true;
   environment = {
