@@ -90,10 +90,10 @@
     # Mako emergency
     bindsym $ms+m exec makoctl dismiss --all && makoctl reload
 
-    # Start launcher
-    # bindsym --release SUPER_L exec pkill fuzzel || $menu
+    # Show menus
     bindsym $mod+y exec pkill fuzzel || $menu
     bindsym Alt+y exec pkill fuzzel || bemoji
+    bindsym $mod+x exec pkill wlogout || power.sh
 
     # Touchpad ON/OFF
     bindsym $ms+t  input type:touchpad events toggle enabled disabled, \
@@ -103,24 +103,16 @@
     bindsym $mod+n exec helpnotify.sh
     bindsym Alt+n exec binds.sh
 
-    # Time & date
-    bindsym $mod+d exec datetimenotify.sh
-
     # Toggle waybar
     bindsym $mod+Return exec pkill waybar || waybar-sway
     bindsym $ma+Return exec pkill waybar && waybar --config ~/.config/waybar/config-taskbar
 
     # Clipboard toggle
     bindsym $mod+c exec pkill fuzzel || cliphist-fuzzel-img
-    # bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
 
     # Opacity
     bindsym $mod+p opacity plus 0.05
     bindsym $mod+o opacity minus 0.05
-
-    # Menu wlogout
-    # bindsym $mod+y exec pkill wlogout || wlogout -s -c 5 -r 5 -L 360 -R 360
-    bindsym $mod+x exec pkill wlogout || power.sh
 
     # Reload the configuration file
     bindsym $ms+c reload
