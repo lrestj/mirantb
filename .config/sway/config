@@ -22,7 +22,7 @@
     focus_follows_mouse no
 
 ### Cursor theme
-    seat seat0 xcursor_theme Banana 28
+    seat seat0 xcursor_theme Banana 32
     # seat seat0 xcursor_theme Bibata-Modern-Classic 24
 
 ### Status Bar:
@@ -38,7 +38,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
-    set $editor foot bash -c "sleep 0.1; exec vim"
+    set $editor kitty -e vim
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -63,10 +63,8 @@
 ### Idle configuration
     exec_always killall swayidle; swayidle -w \
        timeout 150 'brightnessctl -s set 400' resume 'brightnessctl -r' \
-       # timeout 300 'swaylock -f -F -e -k -c 000000' \
        timeout 580 'notify-send -i video-display "Displej se za okamžik vypne"' \
        timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-       before-sleep 'swaylock -f -F -e -k -c 000000'
     
 ### No window bars
     default_border pixel 4
@@ -102,7 +100,7 @@
     bindsym $mod+n exec helpnotify.sh
     bindsym Alt+n exec binds.sh
 
-    # Toggle waybar
+    # Toggle waybar & taskbar
     bindsym $mod+Return exec pkill waybar || waybar-sway
     bindsym $ma+Return exec pkill waybar && waybar --config ~/.config/waybar/config-taskbar
 
