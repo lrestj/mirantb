@@ -135,6 +135,7 @@
               swaylock
               swayidle
               sway-contrib.grimshot
+              wlprop
               waybar
               waypaper
           ];
