@@ -38,7 +38,7 @@
     set $ma Mod4+Alt
     set $ms Mod4+Shift
     set $term foot
-    set $editor kitty -e vim
+    set $editor foot -e vi
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -198,15 +198,15 @@
     # Nastavení
     bindsym $cs+n mode "Nastavení"; exec nsubmap.sh
     mode "Nastavení" {
-    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
-    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
-    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode "default"
-    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode "default"
-    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configu; mode "default"ration.nix
-    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
-    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
-    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
-    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
+    bindsym v exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim ~/.config/vim/vimrc"; mode "default"
+    bindsym y exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/yazi/keymap.toml"; mode "default"
+    bindsym w exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/waybar/config-sway.jsonc"; mode "default"
+    bindsym m exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/mako/config"; mode "default"
+    bindsym c exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/hosts/zbook/configuration.nix"; mode "default"
+    bindsym f exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/flake.nix"; mode "default"
+    bindsym p exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/modules/pkgs.nix"; mode "default"
+    bindsym r exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/other/stuff2remember.txt"; mode "default"
+    bindsym s exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/sway/config"; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
     bindsym Return exec makoctl dismiss; mode "default"
     bindsym Escape exec makoctl dismiss; mode "default"
