@@ -32,7 +32,6 @@
             cliphist
             dconf-editor
             efibootmgr
-            eog
             evince
             exfatprogs
             fastfetch
@@ -46,7 +45,6 @@
             glib util-linux
             glxinfo
             gnome-calculator
-            gthumb
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
             jq
@@ -88,6 +86,7 @@
             wlsunset
             xdg-user-dirs
             xdg-utils
+            xfce.ristretto
             xnviewmp
             xorg.xeyes
             xournalpp
