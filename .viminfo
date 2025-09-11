@@ -21,7 +21,7 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1757592939,,"wq"
+|2,0,1757595495,,"wq"
 :w!
 |2,0,1757592230,,"w!"
 :w
@@ -458,8 +458,8 @@ $
 	€krci"P€kb$PO€ýk€kd€kd€kd€kl€kl
 |3,2,26,0,1,0,1757426599,"€krci\"P€kb$PO€ýk€kd€kd€kd€kl€kl"
 ""-	CHAR	0
-	vim
-|3,1,36,0,1,0,1757592867,"vim"
+	 Mono
+|3,1,36,0,1,0,1757595492," Mono"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -480,28 +480,54 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,48,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
-'1  3  22  ~/.config/kitty/kitty.conf
-|4,49,3,22,1757592939,"~/.config/kitty/kitty.conf"
-'2  4  20  ~/.local/bin/sway-run
-|4,50,4,20,1757592873,"~/.local/bin/sway-run"
-'3  4  20  ~/.local/bin/sway-run
-|4,51,4,20,1757592873,"~/.local/bin/sway-run"
-'4  3  21  ~/.config/kitty/kitty.conf
-|4,52,3,21,1757592571,"~/.config/kitty/kitty.conf"
-'5  1  23  ~/.config/kitty/current-theme.conf
-|4,53,1,23,1757592557,"~/.config/kitty/current-theme.conf"
-'6  1  23  ~/.config/kitty/current-theme.conf
-|4,54,1,23,1757592557,"~/.config/kitty/current-theme.conf"
-'7  78  26  ~/.config/sway/config
-|4,55,78,26,1757592430,"~/.config/sway/config"
-'8  78  26  ~/.config/sway/config
-|4,56,78,26,1757592430,"~/.config/sway/config"
-'9  83  35  ~/.config/waybar/config-sway.jsonc
-|4,57,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
+'0  1  27  ~/.config/kitty/kitty.conf
+|4,48,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'1  1  32  ~/.config/kitty/kitty.conf
+|4,49,1,32,1757595376,"~/.config/kitty/kitty.conf"
+'2  3  22  ~/.config/kitty/kitty.conf
+|4,50,3,22,1757595320,"~/.config/kitty/kitty.conf"
+'3  3  22  ~/.config/kitty/kitty.conf
+|4,51,3,22,1757595320,"~/.config/kitty/kitty.conf"
+'4  3  22  ~/.config/kitty/kitty.conf
+|4,52,3,22,1757595320,"~/.config/kitty/kitty.conf"
+'5  3  22  ~/.config/kitty/kitty.conf
+|4,53,3,22,1757595320,"~/.config/kitty/kitty.conf"
+'6  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,54,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+'7  3  22  ~/.config/kitty/kitty.conf
+|4,55,3,22,1757592939,"~/.config/kitty/kitty.conf"
+'8  3  22  ~/.config/kitty/kitty.conf
+|4,56,3,22,1757592939,"~/.config/kitty/kitty.conf"
+'9  3  22  ~/.config/kitty/kitty.conf
+|4,57,3,22,1757592939,"~/.config/kitty/kitty.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  1  27  ~/.config/kitty/kitty.conf
+|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
+-'  1  32  ~/.config/kitty/kitty.conf
+|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
 -'  3  22  ~/.config/kitty/kitty.conf
@@ -516,6 +542,118 @@ $
 |4,39,4,20,1757592873,"~/.local/bin/sway-run"
 -'  4  20  ~/.local/bin/sway-run
 |4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757592848,"~/.local/bin/sway-run"
 -'  1  0  ~/.local/bin/sway-run
 |4,39,1,0,1757592848,"~/.local/bin/sway-run"
 -'  1  0  ~/.local/bin/sway-run
@@ -564,146 +702,26 @@ $
 |4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
 -'  1  23  ~/.config/kitty/current-theme.conf
 |4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  78  26  ~/.config/sway/config
-|4,39,78,26,1757592430,"~/.config/sway/config"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
--'  83  35  ~/.config/waybar/config-sway.jsonc
-|4,39,83,35,1757592357,"~/.config/waybar/config-sway.jsonc"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.config/kitty/kitty.conf
+	*	1757595492	0
+	"	1	27
+	^	1	33
+	.	1	28
+	+	2	17
+	+	6	25
+	+	7	28
+	+	7	19
+	+	7	22
+	+	1	26
+	+	8	17
+	+	1	27
+	+	2	17
+	+	8	19
+	+	3	22
+	+	1	28
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757593035	0
@@ -741,23 +759,6 @@ $
 	+	22	0
 	+	22	3
 	+	24	0
-
-> ~/.config/kitty/kitty.conf
-	*	1757592936	0
-	"	3	22
-	^	3	23
-	.	3	22
-	+	2	17
-	+	6	25
-	+	7	28
-	+	7	19
-	+	7	22
-	+	1	26
-	+	8	17
-	+	1	27
-	+	2	17
-	+	8	19
-	+	3	22
 
 > ~/.local/bin/sway-run
 	*	1757592925	0
