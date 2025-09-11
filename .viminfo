@@ -11,27 +11,39 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ca
+~MSle0/ca
 
 # Last Substitute Search Pattern:
-~MSle0&\~\/.dotfiles\/scripts\/
+~MSle0~&kitty -e
 
 # Posledn√≠ nahrazuj√≠c√≠ ≈ôetƒõzec:
-$
+$$editor
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+:wq
+|2,0,1757605740,,"wq"
+:w
+|2,0,1757605359,,"w"
+:'<,'>s/kitty -e/$editor/g
+|2,0,1757604930,,"'<,'>s/kitty -e/$editor/g"
+:enew ~/.loQ
+|2,0,1757603097,,"enew ~/.loQ"
+:%s/\.sh//g
+|2,0,1757602940,,"%s/\\.sh//g"
+:q
+|2,0,1757602771,,"q"
+:%s/.sh//g
+|2,0,1757602757,,"%s/.sh//g"
+:%s/.sh/\/g
+|2,0,1757602738,,"%s/.sh/\\/g"
+:'<,'>normal 
+|2,0,1757600915,,"'<,'>normal "
 :split
 |2,0,1757597604,,"split"
-:wq
-|2,0,1757597105,,"wq"
 :so $MYVIMRC
 |2,0,1757597047,,"so $MYVIMRC"
-:w
-|2,0,1757597043,,"w"
 :w!
 |2,0,1757592230,,"w!"
-:q
-|2,0,1757527230,,"q"
 :0p
 |2,0,1757523902,,"0p"
 :reg
@@ -278,6 +290,12 @@ $
 |2,0,1756038671,,"WQ"
 
 # Historie vyhled√°van√Ωch ≈ôetƒõzc≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+? kitty -e
+|2,1,1757604930,,"kitty -e"
+? \.sh
+|2,1,1757602940,,"\\.sh"
+? .sh
+|2,1,1757602757,,".sh"
 ?/ca
 |2,1,1757407974,47,"ca"
 ?/minal
@@ -391,42 +409,40 @@ $
 
 # Registry:
 "0	CHAR	0
-	#d6dae4
-|3,0,0,0,1,0,1757596458,"#d6dae4"
-""1	LINE	0
-	noremap! <LeftDrag> <LeftMouse>
-|3,1,1,1,1,0,1757597094,"noremap! <LeftDrag> <LeftMouse>"
-"2	LINE	0
-	noremap <LeftDrag> <LeftMouse>
-|3,0,2,1,1,0,1757597093,"noremap <LeftDrag> <LeftMouse>"
-"3	LINE	0
-	noremap <leader><Left_Drag> <Left_Mouse>
-|3,0,3,1,1,0,1757596961,"noremap <leader><Left_Drag> <Left_Mouse>"
-"4	LINE	0
-	    bindsym $ms+e exec 
-|3,0,4,1,1,0,1757591626,"    bindsym $ms+e exec "
+	notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+	        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+|3,0,0,0,2,0,1757602580,"notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))"
+"1	CHAR	0
+	notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+	        -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+|3,0,1,0,2,0,1757603874,"notify-send -c center \"jas\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\\(([0-9]+)%\\).*/\\1/p')"
+"2	CHAR	0
+	notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
+	        -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+|3,0,2,0,2,0,1757603772,"notify-send -c center \"jas\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\\(([0-9]+)%\\).*/\\1/p')"
+"3	CHAR	0
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center "mic" -h string:x-canonical-private-synchronous:progress \
+	        -h int:value:$([ "$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')" = "yes" ] && echo 0 || echo 100)
+|3,0,3,0,2,0,1757603682,"pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center \"mic\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$([ \"$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')\" = \"yes\" ] && echo 0 || echo 100)"
+"4	CHAR	0
+	pamixer --toggle-mute && notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
+	        -h int:value:$(( (( $([ "$(pamixer --get-mute)" = "true" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))
+|3,0,4,0,2,0,1757603469,"pamixer --toggle-mute && notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$(( (( $([ \"$(pamixer --get-mute)\" = \"true\" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))"
 "5	LINE	0
-	            gthumb
-|3,0,5,1,1,0,1757539848,"            gthumb"
+	        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
+|3,0,5,1,1,0,1757602881,"        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))"
 "6	LINE	0
-	            eog
-|3,0,6,1,1,0,1757539836,"            eog"
+	        -h int:value:$(( (( $(pamixer
+|3,0,6,1,1,0,1757602859,"        -h int:value:$(( (( $(pamixer"
 "7	LINE	0
-	    bindsym $ms+w exec kitty -e wlprop
-|3,0,7,1,1,0,1757537397,"    bindsym $ms+w exec kitty -e wlprop"
+	
+|3,0,7,1,1,0,1757602404,""
 "8	LINE	0
-	    bindsym $ms+w exec foot "swaymsg -t get_tree | jq -r '.. | select(.type?) | select(.focused==true) | .window_rect | "\(.width)x\(.height)"'"
-|3,0,8,1,1,0,1757536699,"    bindsym $ms+w exec foot \"swaymsg -t get_tree | jq -r '.. | select(.type?) | select(.focused==true) | .window_rect | \"\\(.width)x\\(.height)\"'\""
-"9	CHAR	0
-	clouds.sh   
+	#d6dae4
+|3,0,8,1,1,0,1757602246,"#d6dae4"
+"9	LINE	0
 	
-	    # Mako emergency
-	    bindsym $ms+m exec makoctl dismiss --all && makoctl reload
-	
-	    # Show menus
-	    bindsym $mod+y exec pkill fuzzel || $menu
-	    bindsym Alt+y 
-|3,0,9,0,8,0,1757535983,"clouds.sh   ","","    # Mako emergency","    bindsym $ms+m exec makoctl dismiss --all && makoctl reload","","    # Show menus","    bindsym $mod+y exec pkill fuzzel || $menu","    bindsym Alt+y "
+|3,0,9,1,1,0,1757602216,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -444,11 +460,11 @@ $
 	sdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 |3,0,25,1,1,0,1757240855,"sdir=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" &> /dev/null && pwd )\""
 "q@	CHAR	0
-	Äkrci"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl
-|3,2,26,0,1,0,1757426599,"Äkrci\"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl"
-"-	CHAR	0
-	true
-|3,0,36,0,1,0,1757596718,"true"
+	ct~Ä˝5kitty -e 	Äkb Ä˝k^Äkd
+|3,2,26,0,1,0,1757604508,"ct~Ä˝5kitty -e 	Äkb Ä˝k^Äkd"
+""-	CHAR	0
+	p
+|3,1,36,0,1,0,1757605350,"p"
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -469,230 +485,343 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  7  0  ~/.config/vim/vimrc
-|4,48,7,0,1757597105,"~/.config/vim/vimrc"
-'1  8  13  ~/.local/share/applications/vim.desktop
-|4,49,8,13,1757596734,"~/.local/share/applications/vim.desktop"
-'2  5  17  ~/.config/mako/config
-|4,50,5,17,1757596567,"~/.config/mako/config"
-'3  4  23  ~/.config/mako/config
-|4,51,4,23,1757596503,"~/.config/mako/config"
-'4  4  23  ~/.config/mako/config
-|4,52,4,23,1757596503,"~/.config/mako/config"
-'5  3  21  ~/.config/kitty/kitty.conf
-|4,53,3,21,1757596112,"~/.config/kitty/kitty.conf"
-'6  3  21  ~/.config/kitty/kitty.conf
-|4,54,3,21,1757596112,"~/.config/kitty/kitty.conf"
-'7  3  26  ~/.config/kitty/kitty.conf
-|4,55,3,26,1757596022,"~/.config/kitty/kitty.conf"
-'8  3  26  ~/.config/kitty/kitty.conf
-|4,56,3,26,1757596022,"~/.config/kitty/kitty.conf"
-'9  3  21  ~/.config/kitty/kitty.conf
-|4,57,3,21,1757595958,"~/.config/kitty/kitty.conf"
+'0  65  16  ~/.config/sway/config
+|4,48,65,16,1757605740,"~/.config/sway/config"
+'1  64  8  ~/.config/sway/config
+|4,49,64,8,1757605686,"~/.config/sway/config"
+'2  64  8  ~/.config/sway/config
+|4,50,64,8,1757605686,"~/.config/sway/config"
+'3  64  41  ~/.config/sway/config
+|4,51,64,41,1757605466,"~/.config/sway/config"
+'4  64  41  ~/.config/sway/config
+|4,52,64,41,1757605466,"~/.config/sway/config"
+'5  64  16  ~/.config/sway/config
+|4,53,64,16,1757605381,"~/.config/sway/config"
+'6  64  16  ~/.config/sway/config
+|4,54,64,16,1757605381,"~/.config/sway/config"
+'7  64  16  ~/.config/sway/config
+|4,55,64,16,1757605381,"~/.config/sway/config"
+'8  64  16  ~/.config/sway/config
+|4,56,64,16,1757605381,"~/.config/sway/config"
+'9  64  31  ~/.config/sway/config
+|4,57,64,31,1757605200,"~/.config/sway/config"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  7  0  ~/.config/vim/vimrc
-|4,39,7,0,1757597105,"~/.config/vim/vimrc"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
--'  8  13  ~/.local/share/applications/vim.desktop
-|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605740,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605727,"~/.config/sway/config"
+-'  64  8  ~/.config/sway/config
+|4,39,64,8,1757605686,"~/.config/sway/config"
+-'  64  8  ~/.config/sway/config
+|4,39,64,8,1757605686,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605605,"~/.config/sway/config"
+-'  64  41  ~/.config/sway/config
+|4,39,64,41,1757605466,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605434,"~/.config/sway/config"
+-'  64  16  ~/.config/sway/config
+|4,39,64,16,1757605381,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605326,"~/.config/sway/config"
+-'  64  31  ~/.config/sway/config
+|4,39,64,31,1757605200,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605147,"~/.config/sway/config"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605028,"~/.config/sway/config"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605028,"~/.config/sway/config"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605028,"~/.config/sway/config"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605028,"~/.config/sway/config"
+-'  65  16  ~/.config/sway/config
+|4,39,65,16,1757605028,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757605013,"~/.config/sway/config"
+-'  64  15  ~/.config/sway/config
+|4,39,64,15,1757604993,"~/.config/sway/config"
+-'  64  15  ~/.config/sway/config
+|4,39,64,15,1757604993,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757604947,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  203  4  ~/.config/sway/config
+|4,39,203,4,1757604945,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757604944,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757604944,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  195  0  ~/.config/sway/config
+|4,39,195,0,1757604930,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757604802,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  201  63  ~/.config/sway/config
+|4,39,201,63,1757604696,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  198  0  ~/.config/sway/config
+|4,39,198,0,1757604643,"~/.config/sway/config"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
+-'  67  0  ~/.config/vim/vimrc
+|4,39,67,0,1757604320,"~/.config/vim/vimrc"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
+> ~/.config/sway/config
+	*	1757605738	0
+	"	65	16
+	^	65	17
+	.	65	16
+	+	4	0
+	+	69	0
+	+	20	0
+	+	24	0
+	+	71	0
+	+	41	16
+	+	77	29
+	+	41	27
+	+	25	37
+	+	66	0
+	+	68	0
+	+	102	28
+	+	76	27
+	+	194	91
+	+	195	99
+	+	196	107
+	+	197	94
+	+	198	120
+	+	199	71
+	+	200	71
+	+	201	71
+	+	202	71
+	+	199	100
+	+	200	107
+	+	201	109
+	+	202	94
+	+	76	27
+	+	41	0
+	+	85	23
+	+	85	142
+	+	85	23
+	+	85	143
+	+	85	28
+	+	85	143
+	+	85	0
+	+	79	0
+	+	40	18
+	+	41	27
+	+	79	27
+	+	78	26
+	+	79	0
+	+	78	26
+	+	195	38
+	+	196	37
+	+	196	0
+	+	195	43
+	+	196	0
+	+	195	0
+	+	196	0
+	+	195	66
+	+	196	73
+	+	197	81
+	+	198	68
+	+	199	94
+	+	200	74
+	+	201	81
+	+	202	83
+	+	203	68
+	+	184	38
+	+	185	0
+	+	184	45
+	+	185	38
+	+	186	0
+	+	185	47
+	+	53	0
+	+	187	0
+	+	186	35
+	+	188	0
+	+	186	35
+	+	187	40
+	+	188	37
+	+	188	48
+	+	190	0
+	+	189	52
+	+	195	45
+	+	203	0
+	+	196	0
+	+	195	68
+	+	196	99
+	+	197	107
+	+	198	94
+	+	199	120
+	+	200	100
+	+	201	107
+	+	202	109
+	+	203	94
+	+	195	42
+	+	196	46
+	+	197	46
+	+	198	46
+	+	199	46
+	+	200	46
+	+	201	46
+	+	202	46
+	+	203	46
+	+	195	0
+	+	64	16
+	+	65	16
+	+	64	9
+	+	65	16
+	k	74	0
+	s	1	0
+	w	235	0
+
 > ~/.config/vim/vimrc
-	*	1757597094	0
-	"	7	0
+	*	1757604318	0
+	"	67	0
 	.	7	0
 	+	82	0
 	+	11	25
@@ -758,6 +887,139 @@ $
 	+	7	0
 	+	7	30
 	+	7	0
+
+> ~/.local/bin/brightnessdown
+	*	1757603898	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	2	0
+	+	3	0
+
+> ~/.local/bin/brightnessup
+	*	1757603846	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	2	0
+	+	3	0
+
+> ~/.local/bin/micmute
+	*	1757603825	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	2	0
+	+	3	0
+
+> ~/.local/bin/mute
+	*	1757603657	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1757603403	0
+	"	33	14
+	^	33	15
+	.	33	14
+	+	1	4
+	+	1	0
+	+	6	57
+	+	8	8
+	+	9	21
+	+	21	12
+	+	29	16
+	+	2	22
+	+	21	12
+	+	2	8
+	+	10	0
+	+	8	16
+	+	9	13
+	+	9	0
+	+	8	8
+	+	9	14
+	+	6	0
+	+	6	19
+	+	6	0
+	+	2	24
+	+	17	6
+	+	21	13
+	+	17	7
+	+	10	0
+	+	5	15
+	+	33	11
+	+	23	19
+	+	6	0
+	+	36	21
+	+	33	11
+	+	5	13
+	+	8	7
+	+	9	13
+	+	18	15
+	+	19	14
+	+	18	15
+	+	19	13
+	+	18	16
+	+	19	13
+	+	11	17
+	+	27	0
+	+	12	14
+	+	11	0
+	+	37	15
+	+	40	12
+	+	2	18
+	+	25	2
+	+	26	16
+	+	25	28
+	+	26	15
+	+	8	8
+	+	11	17
+	+	26	0
+	+	33	8
+	+	34	6
+	+	33	7
+	+	11	0
+	+	34	13
+	+	35	13
+	+	34	13
+	+	35	12
+	+	33	14
+
+> /tmp/yazi-1000/bulk-1757602712852982
+	*	1757602767	0
+	"	31	0
+	.	3	0
+	+	3	0
+
+> ~/.local/bin/volumedown
+	*	1757602630	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	2	0
+	+	3	1
+	+	4	117
+	+	4	0
+	+	3	0
+
+> ~/.local/bin/volume
+	*	1757602443	0
+	"	5	0
+	^	4	0
+	.	3	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	3	0
+
+> ~/up
+	*	1757602234	0
+	"	1	0
 
 > ~/.local/share/applications/vim.desktop
 	*	1757596732	0
@@ -928,115 +1190,6 @@ $
 > ~/.config/kitty/current-theme.conf
 	*	1757592551	0
 	"	1	23
-
-> ~/.config/sway/config
-	*	1757592427	0
-	"	78	26
-	^	78	27
-	.	78	26
-	+	196	0
-	+	77	33
-	+	77	0
-	+	231	64
-	+	41	24
-	+	225	0
-	+	196	4
-	+	184	12
-	+	186	12
-	+	188	12
-	+	190	12
-	+	192	12
-	+	194	8
-	+	192	8
-	+	190	8
-	+	188	8
-	+	186	8
-	+	184	8
-	+	41	27
-	+	142	31
-	+	143	32
-	+	144	31
-	+	145	29
-	+	154	49
-	+	155	50
-	+	156	49
-	+	157	47
-	+	153	19
-	+	161	0
-	+	153	20
-	+	154	63
-	+	155	63
-	+	156	62
-	+	157	60
-	+	153	0
-	+	154	0
-	+	147	0
-	+	152	0
-	+	147	15
-	+	154	50
-	+	155	63
-	+	156	62
-	+	157	60
-	+	148	16
-	+	149	0
-	+	148	17
-	+	98	0
-	+	102	0
-	+	108	0
-	+	113	0
-	+	85	23
-	+	113	0
-	+	92	0
-	+	85	38
-	+	113	0
-	+	1	0
-	+	147	11
-	+	169	13
-	+	4	0
-	+	69	0
-	+	20	0
-	+	24	0
-	+	71	0
-	+	41	16
-	+	77	29
-	+	41	27
-	+	25	37
-	+	66	0
-	+	68	0
-	+	102	28
-	+	76	27
-	+	200	91
-	+	201	99
-	+	202	107
-	+	203	94
-	+	204	120
-	+	205	71
-	+	206	71
-	+	207	71
-	+	208	71
-	+	205	100
-	+	206	107
-	+	207	109
-	+	208	94
-	+	76	27
-	+	41	0
-	+	85	23
-	+	85	142
-	+	85	23
-	+	85	143
-	+	85	28
-	+	85	143
-	+	85	0
-	+	79	0
-	+	40	18
-	+	41	27
-	+	79	27
-	+	78	26
-	+	79	0
-	+	78	26
-	k	74	0
-	s	1	0
-	w	241	0
 
 > ~/.config/waybar/config-sway.jsonc
 	*	1757592353	0
@@ -1244,69 +1397,6 @@ $
 	+	21	0
 	+	24	3
 	+	22	33
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1757498426	0
-	"	11	11
-	^	11	19
-	.	11	0
-	+	1	4
-	+	1	0
-	+	6	57
-	+	8	8
-	+	9	21
-	+	21	12
-	+	29	16
-	+	2	22
-	+	21	12
-	+	2	8
-	+	10	0
-	+	8	16
-	+	9	13
-	+	9	0
-	+	8	8
-	+	9	14
-	+	6	0
-	+	6	19
-	+	6	0
-	+	2	24
-	+	17	6
-	+	21	13
-	+	17	7
-	+	10	0
-	+	5	15
-	+	33	11
-	+	23	19
-	+	6	0
-	+	36	21
-	+	33	11
-	+	5	13
-	+	8	7
-	+	9	13
-	+	18	15
-	+	19	14
-	+	18	15
-	+	19	13
-	+	18	16
-	+	19	13
-	+	11	17
-	+	27	0
-	+	12	14
-	+	11	0
-	+	37	15
-	+	40	12
-	+	2	18
-	+	25	2
-	+	26	16
-	+	25	28
-	+	26	15
-	+	8	8
-	+	11	17
-	+	26	0
-	+	33	8
-	+	34	6
-	+	33	7
-	+	11	0
 
 > ~/.local/bin/cliphist-fuzzel-img
 	*	1757494414	0
@@ -2565,234 +2655,3 @@ $
 > ~/.dotfiles/scripts/umonedrive.sh
 	*	1756666185	0
 	"	7	29
-
-> ~/.dotfiles/scripts/asktouchpad.sh
-	*	1756664469	0
-	"	27	0
-	^	10	24
-	.	10	24
-	+	16	0
-	+	17	51
-	+	28	0
-	+	10	0
-	+	10	1
-	+	11	0
-	+	10	70
-	+	17	24
-	+	10	26
-	+	10	28
-	+	21	70
-	+	10	24
-
-> ~/.dotfiles/scripts/helpnotify.sh
-	*	1756650947	0
-	"	4	15
-	^	4	17
-	.	4	15
-	+	5	23
-	+	6	94
-	+	5	38
-	+	5	39
-	+	5	47
-	+	5	38
-	+	5	46
-	+	5	35
-	+	4	7
-	+	5	8
-	+	5	9
-	+	5	0
-	+	6	61
-	+	4	15
-
-> ~/.dotfiles/scripts/helpnotify.txt
-	*	1756650922	0
-	"	1	0
-	^	1	0
-	.	6	18
-	+	2	30
-	+	3	24
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	27
-	+	7	0
-	+	2	29
-	+	3	30
-	+	4	20
-	+	5	24
-	+	8	26
-	+	1	0
-	+	6	18
-
-> ~/.dotfiles/scripts/nsubmap.sh
-	*	1756650191	0
-	"	3	50
-	^	3	51
-	.	3	50
-	+	3	50
-
-> ~/.dotfiles/scripts/webmarks.sh
-	*	1756649756	0
-	"	6	13
-	^	6	24
-	.	6	23
-	+	1	0
-	+	3	38
-	+	4	7
-	+	5	17
-	+	5	24
-	+	5	23
-	+	5	22
-	+	6	15
-	+	5	19
-	+	6	74
-	+	7	0
-	+	5	10
-	+	5	15
-	+	5	10
-	+	6	80
-	+	5	13
-	+	6	80
-	+	5	0
-	+	6	23
-
-> ~/.dotfiles/scripts/webmarks.txt
-	*	1756649501	0
-	"	9	22
-	^	3	12
-	.	2	13
-	+	2	0
-	+	1	0
-	+	2	5
-	+	3	12
-	+	4	11
-	+	5	10
-	+	6	10
-	+	7	10
-	+	9	0
-	+	8	0
-	+	9	1
-	+	2	7
-	+	3	14
-	+	4	15
-	+	5	15
-	+	6	14
-	+	7	14
-	+	2	13
-
-> ~/.dotfiles/nixos/modules/overlay.nix
-	*	1756572462	0
-	"	7	26
-	^	19	1
-	.	7	0
-	+	1	24
-	+	10	32
-	+	1	31
-	+	7	30
-	+	7	0
-
-> ~/.dotfiles/scripts/binds.txt
-	*	1756504227	0
-	"	30	40
-	^	30	42
-	.	30	41
-	+	2	27
-	+	2	26
-	+	2	24
-	+	2	20
-	+	2	26
-	+	2	20
-	+	2	0
-	+	2	18
-	+	2	0
-	+	2	26
-	+	2	43
-	+	2	26
-	+	2	0
-	+	2	14
-	+	2	13
-	+	2	20
-	+	2	7
-	+	2	4
-	+	2	18
-	+	17	18
-	+	17	42
-	+	19	49
-	+	17	5
-	+	18	4
-	+	3	0
-	+	3	43
-	+	5	32
-	+	3	33
-	+	7	24
-	+	22	0
-	+	14	21
-	+	2	27
-	+	12	24
-	+	13	11
-	+	12	11
-	+	13	34
-	+	3	0
-	+	22	0
-	+	2	0
-	+	3	0
-	+	2	0
-	+	17	0
-	+	2	0
-	+	24	53
-	+	25	31
-	+	26	5
-	+	2	13
-	+	2	12
-	+	24	28
-	+	3	0
-	+	17	0
-	+	9	26
-	+	22	0
-	+	3	0
-	+	17	0
-	+	19	34
-	+	8	0
-	+	2	0
-	+	2	19
-	+	2	0
-	+	2	8
-	+	2	21
-	+	2	0
-	+	2	5
-	+	21	7
-	+	3	0
-	+	18	0
-	+	16	18
-	+	9	22
-	+	3	0
-	+	17	0
-	+	22	0
-	+	1	0
-	+	31	0
-	+	28	23
-	+	3	18
-	+	4	16
-	+	5	25
-	+	6	28
-	+	7	18
-	+	8	20
-	+	9	23
-	+	10	12
-	+	31	0
-	+	11	12
-	+	12	12
-	+	31	0
-	+	31	16
-	+	13	23
-	+	14	15
-	+	17	25
-	+	18	18
-	+	19	19
-	+	22	25
-	+	23	31
-	+	24	28
-	+	25	23
-	+	26	23
-	+	31	0
-	+	30	41

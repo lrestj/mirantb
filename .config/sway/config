@@ -50,7 +50,7 @@
     exec wl-paste --watch cliphist store
     exec wlsunset -l 50.1 -L 16.2 -t 4700 -T 5000 # Screen blue light settings
     exec udiskie -t
-    exec_always battery-check.sh
+    exec_always battery-check
 
 ### Locking the system
     set $lock swaylock -f -F -e -k -c 000000
@@ -61,7 +61,7 @@
     bindsym $ma+Delete exec $reboot
     
 ### Idle configuration
-    exec_always killall swayidle; swayidle -w \
+    exec swayidle -w \
        timeout 150 'brightnessctl -s set 400' resume 'brightnessctl -r' \
        timeout 580 'notify-send -i video-display "Displej se za okamžik vypne"' \
        timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
@@ -82,7 +82,7 @@
     bindsym $cs+s exec simple-scan
     bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper
-    bindsym $cs+m exec clouds.sh   
+    bindsym $cs+m exec clouds   
 
     # Mako emergency
     bindsym $ms+m exec makoctl dismiss --all && makoctl reload
@@ -90,15 +90,15 @@
     # Show menus
     bindsym $mod+y exec pkill fuzzel || $menu
     bindsym Alt+y exec pkill fuzzel || bemoji
-    bindsym $mod+x exec pkill wlogout || power.sh
+    bindsym $mod+x exec pkill wlogout || power
 
     # Touchpad ON/OFF
     bindsym $ms+t  input type:touchpad events toggle enabled disabled, \
-    exec touchpad.sh
+    exec touchpad
 
     # Nápověda
-    bindsym $mod+n exec helpnotify.sh
-    bindsym Alt+n exec binds.sh
+    bindsym $mod+n exec helpnotify
+    bindsym Alt+n exec binds
 
     # Toggle waybar & taskbar
     bindsym $mod+Return exec pkill waybar || waybar-sway
@@ -181,38 +181,32 @@
     bindsym $mod+Insert exec grimshot --notify save anything
 
     # Laptop multimedia keys for volume and LCD brightness
-    bindsym XF86AudioRaiseVolume exec notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -i 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
-    bindsym XF86AudioLowerVolume exec notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
-    bindsym XF86AudioMute exec pamixer --toggle-mute && notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$(( (( $([ "$(pamixer --get-mute)" = "true" ] && echo 0 || pamixer --get-volume) - 1 )) % 100 + 1 ))
-    bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -c center "mic" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$([ "$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')" = "yes" ] && echo 0 || echo 100)
-    bindsym XF86MonBrightnessUp exec notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$(brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
-    bindsym XF86MonBrightnessDown exec notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
-        -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
+    bindsym XF86AudioRaiseVolume exec volumeup
+    bindsym XF86AudioLowerVolume exec volumedown
+    bindsym XF86AudioMute exec mute
+    bindsym XF86AudioMicMute exec micmute
+    bindsym XF86MonBrightnessUp exec brightnessup
+    bindsym XF86MonBrightnessDown exec brightnessdown
 
 ### Modes:
     # Nastavení
-    bindsym $cs+n mode "Nastavení"; exec nsubmap.sh
+    bindsym $cs+n mode "Nastavení"; exec nsubmap
     mode "Nastavení" {
-    bindsym v exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim ~/.config/vim/vimrc"; mode "default"
-    bindsym y exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/yazi/keymap.toml"; mode "default"
-    bindsym w exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/waybar/config-sway.jsonc"; mode "default"
-    bindsym m exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/mako/config"; mode "default"
-    bindsym c exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/hosts/zbook/configuration.nix"; mode "default"
-    bindsym f exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/flake.nix"; mode "default"
-    bindsym p exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/nixos/modules/pkgs.nix"; mode "default"
-    bindsym r exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.dotfiles/other/stuff2remember.txt"; mode "default"
-    bindsym s exec makoctl dismiss && foot bash -c "sleep 0.1; exec vim  ~/.config/sway/config"; mode "default"
+    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
+    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
+    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode "default"
+    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode "default"
+    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configuration.nix; mode "default"
+    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
+    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
+    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
+    bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
     bindsym x exec makoctl dismiss && makoctl reload; mode "default"
     bindsym Return exec makoctl dismiss; mode "default"
     bindsym Escape exec makoctl dismiss; mode "default"
     }
     # Wenmarks
-    bindsym $cs+i mode "Webmarks"; exec webmarks.sh
+    bindsym $cs+i mode "Webmarks"; exec webmarks
     mode "Webmarks" {
     bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode "default"
     bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode "default"
