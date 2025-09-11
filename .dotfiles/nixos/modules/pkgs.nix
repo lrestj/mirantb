@@ -135,6 +135,7 @@
               swayidle
               sway-contrib.grimshot
               wlprop
+              wl-color-picker
               waybar
               waypaper
           ];

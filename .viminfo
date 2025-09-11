@@ -11,15 +11,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/180, 180, 180
+~MSle0/180, 180, 180
 
 # Last Substitute Search Pattern:
-~MSle0&130,130, 130
+~MSle0~&90, 90, 90
 
 # Poslední nahrazující řetězec:
-$42,46,50
+$71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:%s/90, 90, 90/71, 71, 71/g
+|2,0,1757624427,,"%s/90, 90, 90/71, 71, 71/g"
+:wq
+|2,0,1757623986,,"wq"
 :w! ~/.config/xnviewmp/style_sheet_linux.qss
 |2,0,1757620993,,"w! ~/.config/xnviewmp/style_sheet_linux.qss"
 :wq!
@@ -32,8 +36,6 @@ $42,46,50
 |2,0,1757617701,,"%s/130,130, 130/42,46,50/g"
 :%s/130,130, 130
 |2,0,1757617631,,"%s/130,130, 130"
-:wq
-|2,0,1757611556,,"wq"
 :w
 |2,0,1757608486,,"w"
 :'<,'>s/kitty -e/$editor/g
@@ -300,6 +302,8 @@ $42,46,50
 |2,0,1756038671,,"WQ"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+? 90, 90, 90
+|2,1,1757624427,,"90, 90, 90"
 ?/180, 180, 180
 |2,1,1757620036,47,"180, 180, 180"
 ?/180,180,180
@@ -482,8 +486,8 @@ $42,46,50
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 "-	CHAR	0
-	0
-|3,0,36,0,1,0,1757618466,"0"
+	*
+|3,0,36,0,1,0,1757624373,"*"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -504,12 +508,12 @@ $42,46,50
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  4  26  ~/.dotfiles/other/stuff2remember.txt
-|4,48,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
-'1  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,49,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
-'2  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,50,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+'0  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,49,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+'2  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,50,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
 '3  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,51,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '4  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -517,7 +521,7 @@ $42,46,50
 '5  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,53,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '6  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,54,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
+|4,54,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '7  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,55,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
 '8  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -526,14 +530,170 @@ $42,46,50
 |4,57,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  4  26  ~/.dotfiles/other/stuff2remember.txt
 |4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
 |4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
 -'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
 |4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
 -'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
 |4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
 -'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
@@ -555,179 +715,117 @@ $42,46,50
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617014,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617014,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617014,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617014,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  227  89  ~/.config/sway/config
-|4,39,227,89,1757611556,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
--'  48  0  ~/.config/sway/config
-|4,39,48,0,1757611504,"~/.config/sway/config"
+|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757623984	0
+	"	138	28
+	^	138	29
+	.	138	28
+	+	143	0
+	+	143	23
+	+	143	10
+	+	62	12
+	+	143	0
+	+	143	9
+	+	143	10
+	+	34	0
+	+	114	17
+	+	33	19
+	+	114	0
+	+	83	0
+	+	82	17
+	+	70	0
+	+	70	19
+	+	50	0
+	+	34	0
+	+	6	0
+	+	113	0
+	+	6	0
+	+	7	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	81	0
+	+	113	0
+	+	6	0
+	+	70	0
+	+	48	18
+	+	61	22
+	+	52	16
+	+	28	24
+	+	127	14
+	+	142	0
+	+	129	0
+	+	128	24
+	+	129	37
+	+	143	88
+	+	129	0
+	+	142	0
+	+	49	29
+	+	130	10
+	+	131	38
+	+	141	0
+	+	136	14
+	+	49	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	143	0
+	+	52	0
+	+	87	0
+	+	141	0
+	+	132	17
+	+	132	0
+	+	44	17
+	+	59	0
+	+	76	0
+	+	52	0
+	+	29	17
+	+	27	26
+	+	25	11
+	+	26	19
+	+	25	0
+	+	135	21
+	+	141	0
+	+	91	21
+	+	47	18
+	+	27	26
+	+	47	0
+	+	27	0
+	+	40	0
+	+	58	16
+	+	27	0
+	+	25	0
+	+	7	0
+	+	33	0
+	+	77	0
+	+	135	0
+	+	133	19
+	+	77	0
+	+	82	0
+	+	139	19
+	+	82	12
+	+	140	0
+	+	82	0
+	+	87	0
+	+	137	19
+	+	89	25
+	+	35	0
+	+	48	0
+	+	138	28
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757621637	0
@@ -1280,103 +1378,6 @@ $42,46,50
 	"	1	0
 	.	3	0
 	+	3	0
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757540183	0
-	"	75	0
-	^	89	26
-	.	48	0
-	+	142	0
-	+	142	23
-	+	142	10
-	+	62	12
-	+	142	0
-	+	142	9
-	+	142	10
-	+	34	0
-	+	114	17
-	+	33	19
-	+	114	0
-	+	83	0
-	+	82	17
-	+	70	0
-	+	70	19
-	+	50	0
-	+	34	0
-	+	6	0
-	+	113	0
-	+	6	0
-	+	7	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	81	0
-	+	113	0
-	+	6	0
-	+	70	0
-	+	48	18
-	+	61	22
-	+	52	16
-	+	28	24
-	+	127	14
-	+	141	0
-	+	129	0
-	+	128	24
-	+	129	37
-	+	142	88
-	+	129	0
-	+	141	0
-	+	49	29
-	+	130	10
-	+	131	38
-	+	140	0
-	+	136	14
-	+	49	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	142	0
-	+	52	0
-	+	87	0
-	+	140	0
-	+	132	17
-	+	132	0
-	+	44	17
-	+	59	0
-	+	76	0
-	+	52	0
-	+	29	17
-	+	27	26
-	+	25	11
-	+	26	19
-	+	25	0
-	+	135	21
-	+	140	0
-	+	91	21
-	+	47	18
-	+	27	26
-	+	47	0
-	+	27	0
-	+	40	0
-	+	58	16
-	+	27	0
-	+	25	0
-	+	7	0
-	+	33	0
-	+	77	0
-	+	135	0
-	+	133	19
-	+	77	0
-	+	82	0
-	+	138	19
-	+	82	12
-	+	139	0
-	+	82	0
-	+	87	0
-	+	137	19
-	+	89	25
-	+	35	0
-	+	48	0
 
 > ~/.dotfiles/nixos/modules/greetd.nix
 	*	1757511466	0
