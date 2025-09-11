@@ -37,8 +37,8 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term foot
-    set $editor foot -e vi
+    set $term kitty
+    set $editor $term -e vim
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -75,8 +75,8 @@
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+a exec kitty
-    bindsym $ms+e exec kitty -e vim
+    bindsym $ms+a exec foot
+    bindsym $ms+e exec $term
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan

@@ -70,7 +70,7 @@
     "cpu": {
         "format": "CPU   {usage}%",
         "tooltip": false,
-        "on-click": "foot",
+        "on-click": "kitty",
         "on-click-right": "",
         "on-click-middle": ""
     },
@@ -80,7 +80,7 @@
         "critical-threshold": 80,
         "format": " {icon} {temperatureC} °C  ",
         "format-icons": ["", "", ""],
-        "on-click": "pkill btop || foot -T btop -e btop",
+        "on-click": "pkill btop || kitty -e btop",
         "on-click-right": ""
     },
 
