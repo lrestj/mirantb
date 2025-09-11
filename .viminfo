@@ -20,12 +20,16 @@
 $
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+:split
+|2,0,1757597604,,"split"
 :wq
-|2,0,1757596567,,"wq"
+|2,0,1757597105,,"wq"
+:so $MYVIMRC
+|2,0,1757597047,,"so $MYVIMRC"
+:w
+|2,0,1757597043,,"w"
 :w!
 |2,0,1757592230,,"w!"
-:w
-|2,0,1757592220,,"w"
 :q
 |2,0,1757527230,,"q"
 :0p
@@ -36,8 +40,6 @@ $
 |2,0,1757496603,,"ene"
 :'<,'>sort
 |2,0,1757495377,,"'<,'>sort"
-:so $MYVIMRC
-|2,0,1757492841,,"so $MYVIMRC"
 :filetype
 |2,0,1757448562,,"filetype"
 :version
@@ -388,25 +390,34 @@ $
 # Historie Debug Line (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
 # Registry:
-""0	CHAR	0
+"0	CHAR	0
 	#d6dae4
-|3,1,0,0,1,0,1757596458,"#d6dae4"
-"1	LINE	0
-	    bindsym $ms+e exec 
-|3,0,1,1,1,0,1757591626,"    bindsym $ms+e exec "
+|3,0,0,0,1,0,1757596458,"#d6dae4"
+""1	LINE	0
+	noremap! <LeftDrag> <LeftMouse>
+|3,1,1,1,1,0,1757597094,"noremap! <LeftDrag> <LeftMouse>"
 "2	LINE	0
-	            gthumb
-|3,0,2,1,1,0,1757539848,"            gthumb"
+	noremap <LeftDrag> <LeftMouse>
+|3,0,2,1,1,0,1757597093,"noremap <LeftDrag> <LeftMouse>"
 "3	LINE	0
-	            eog
-|3,0,3,1,1,0,1757539836,"            eog"
+	noremap <leader><Left_Drag> <Left_Mouse>
+|3,0,3,1,1,0,1757596961,"noremap <leader><Left_Drag> <Left_Mouse>"
 "4	LINE	0
-	    bindsym $ms+w exec kitty -e wlprop
-|3,0,4,1,1,0,1757537397,"    bindsym $ms+w exec kitty -e wlprop"
+	    bindsym $ms+e exec 
+|3,0,4,1,1,0,1757591626,"    bindsym $ms+e exec "
 "5	LINE	0
+	            gthumb
+|3,0,5,1,1,0,1757539848,"            gthumb"
+"6	LINE	0
+	            eog
+|3,0,6,1,1,0,1757539836,"            eog"
+"7	LINE	0
+	    bindsym $ms+w exec kitty -e wlprop
+|3,0,7,1,1,0,1757537397,"    bindsym $ms+w exec kitty -e wlprop"
+"8	LINE	0
 	    bindsym $ms+w exec foot "swaymsg -t get_tree | jq -r '.. | select(.type?) | select(.focused==true) | .window_rect | "\(.width)x\(.height)"'"
-|3,0,5,1,1,0,1757536699,"    bindsym $ms+w exec foot \"swaymsg -t get_tree | jq -r '.. | select(.type?) | select(.focused==true) | .window_rect | \"\\(.width)x\\(.height)\"'\""
-"6	CHAR	0
+|3,0,8,1,1,0,1757536699,"    bindsym $ms+w exec foot \"swaymsg -t get_tree | jq -r '.. | select(.type?) | select(.focused==true) | .window_rect | \"\\(.width)x\\(.height)\"'\""
+"9	CHAR	0
 	clouds.sh   
 	
 	    # Mako emergency
@@ -415,29 +426,7 @@ $
 	    # Show menus
 	    bindsym $mod+y exec pkill fuzzel || $menu
 	    bindsym Alt+y 
-|3,0,6,0,8,0,1757535983,"clouds.sh   ","","    # Mako emergency","    bindsym $ms+m exec makoctl dismiss --all && makoctl reload","","    # Show menus","    bindsym $mod+y exec pkill fuzzel || $menu","    bindsym Alt+y "
-"7	LINE	0
-	"Cursor look and bg render fix
-	let &t_SI = "\e[6 q"
-	let &t_SR = "\e[3 q"
-	let &t_EI = "\e[2 q"
-	let &t_ut=''
-	
-|3,0,7,1,6,0,1757529246,"\"Cursor look and bg render fix","let &t_SI = \"\\e[6 q\"","let &t_SR = \"\\e[3 q\"","let &t_EI = \"\\e[2 q\"","let &t_ut=''",""
-"8	LINE	0
-	"Alacritty Alt fix
-	let c='a'
-	while c <= 'z'
-	  exec "set <A-".c.">=\e".c
-	  exec "imap \e".c." <A-".c.">"
-	  let c = nr2char(1+char2nr(c))
-	endw
-	set timeout ttimeoutlen=50
-	
-|3,0,8,1,9,0,1757529216,"\"Alacritty Alt fix","let c='a'","while c <= 'z'","  exec \"set <A-\".c.\">=\\e\".c","  exec \"imap \\e\".c.\" <A-\".c.\">\"","  let c = nr2char(1+char2nr(c))","endw","set timeout ttimeoutlen=50",""
-"9	LINE	0
-	       before-sleep 'swaylock -f -F -e -k -c 000000'
-|3,0,9,1,1,0,1757525057,"       before-sleep 'swaylock -f -F -e -k -c 000000'"
+|3,0,9,0,8,0,1757535983,"clouds.sh   ","","    # Mako emergency","    bindsym $ms+m exec makoctl dismiss --all && makoctl reload","","    # Show menus","    bindsym $mod+y exec pkill fuzzel || $menu","    bindsym Alt+y "
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -458,8 +447,8 @@ $
 	Äkrci"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl
 |3,2,26,0,1,0,1757426599,"Äkrci\"PÄkb$POÄ˝kÄkdÄkdÄkdÄklÄkl"
 "-	CHAR	0
-	e3440
-|3,0,36,0,1,0,1757596438,"e3440"
+	true
+|3,0,36,0,1,0,1757596718,"true"
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -480,228 +469,304 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  5  17  ~/.config/mako/config
-|4,48,5,17,1757596567,"~/.config/mako/config"
-'1  4  23  ~/.config/mako/config
-|4,49,4,23,1757596503,"~/.config/mako/config"
-'2  4  23  ~/.config/mako/config
-|4,50,4,23,1757596503,"~/.config/mako/config"
-'3  3  21  ~/.config/kitty/kitty.conf
-|4,51,3,21,1757596112,"~/.config/kitty/kitty.conf"
-'4  3  21  ~/.config/kitty/kitty.conf
-|4,52,3,21,1757596112,"~/.config/kitty/kitty.conf"
-'5  3  26  ~/.config/kitty/kitty.conf
-|4,53,3,26,1757596022,"~/.config/kitty/kitty.conf"
-'6  3  26  ~/.config/kitty/kitty.conf
-|4,54,3,26,1757596022,"~/.config/kitty/kitty.conf"
-'7  3  21  ~/.config/kitty/kitty.conf
-|4,55,3,21,1757595958,"~/.config/kitty/kitty.conf"
-'8  3  21  ~/.config/kitty/kitty.conf
-|4,56,3,21,1757595958,"~/.config/kitty/kitty.conf"
+'0  7  0  ~/.config/vim/vimrc
+|4,48,7,0,1757597105,"~/.config/vim/vimrc"
+'1  8  13  ~/.local/share/applications/vim.desktop
+|4,49,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+'2  5  17  ~/.config/mako/config
+|4,50,5,17,1757596567,"~/.config/mako/config"
+'3  4  23  ~/.config/mako/config
+|4,51,4,23,1757596503,"~/.config/mako/config"
+'4  4  23  ~/.config/mako/config
+|4,52,4,23,1757596503,"~/.config/mako/config"
+'5  3  21  ~/.config/kitty/kitty.conf
+|4,53,3,21,1757596112,"~/.config/kitty/kitty.conf"
+'6  3  21  ~/.config/kitty/kitty.conf
+|4,54,3,21,1757596112,"~/.config/kitty/kitty.conf"
+'7  3  26  ~/.config/kitty/kitty.conf
+|4,55,3,26,1757596022,"~/.config/kitty/kitty.conf"
+'8  3  26  ~/.config/kitty/kitty.conf
+|4,56,3,26,1757596022,"~/.config/kitty/kitty.conf"
 '9  3  21  ~/.config/kitty/kitty.conf
 |4,57,3,21,1757595958,"~/.config/kitty/kitty.conf"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
--'  5  17  ~/.config/mako/config
-|4,39,5,17,1757596567,"~/.config/mako/config"
--'  4  25  ~/.config/mako/config
-|4,39,4,25,1757596532,"~/.config/mako/config"
--'  4  23  ~/.config/mako/config
-|4,39,4,23,1757596503,"~/.config/mako/config"
--'  4  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,4,0,1757596478,"~/.dotfiles/other/stuff2remember.txt"
--'  4  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,4,0,1757596478,"~/.dotfiles/other/stuff2remember.txt"
--'  2  0  ~/.config/kitty/Brogrammer.conf
-|4,39,2,0,1757596470,"~/.config/kitty/Brogrammer.conf"
--'  2  0  ~/.config/kitty/Brogrammer.conf
-|4,39,2,0,1757596470,"~/.config/kitty/Brogrammer.conf"
--'  6  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,6,0,1757596370,"~/.dotfiles/other/stuff2remember.txt"
--'  6  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,6,0,1757596370,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1757596283,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1757596283,"~/.config/kitty/Brogrammer.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757596112,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757596112,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757596112,"~/.config/kitty/kitty.conf"
--'  3  26  ~/.config/kitty/kitty.conf
-|4,39,3,26,1757596022,"~/.config/kitty/kitty.conf"
--'  3  26  ~/.config/kitty/kitty.conf
-|4,39,3,26,1757596022,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757595958,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757595958,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
--'  1  27  ~/.config/kitty/kitty.conf
-|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
--'  1  27  ~/.config/kitty/kitty.conf
-|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
--'  1  27  ~/.config/kitty/kitty.conf
-|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
--'  1  27  ~/.config/kitty/kitty.conf
-|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
--'  1  32  ~/.config/kitty/kitty.conf
-|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
--'  1  32  ~/.config/kitty/kitty.conf
-|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
--'  1  32  ~/.config/kitty/kitty.conf
-|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
--'  1  32  ~/.config/kitty/kitty.conf
-|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  3  22  ~/.config/kitty/kitty.conf
-|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  7  0  ~/.config/vim/vimrc
+|4,39,7,0,1757597105,"~/.config/vim/vimrc"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
+-'  8  13  ~/.local/share/applications/vim.desktop
+|4,39,8,13,1757596734,"~/.local/share/applications/vim.desktop"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+
+> ~/.config/vim/vimrc
+	*	1757597094	0
+	"	7	0
+	.	7	0
+	+	82	0
+	+	11	25
+	+	12	25
+	+	13	27
+	+	85	0
+	+	37	61
+	+	56	24
+	+	57	25
+	+	78	18
+	+	56	19
+	+	57	20
+	+	78	19
+	+	56	23
+	+	57	23
+	+	78	23
+	+	56	20
+	+	57	21
+	+	78	0
+	+	56	20
+	+	57	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	78	20
+	+	57	21
+	+	56	20
+	+	54	21
+	+	56	20
+	+	57	21
+	+	78	20
+	+	31	0
+	+	78	0
+	+	78	4
+	+	54	0
+	+	78	20
+	+	54	0
+	+	78	16
+	+	78	29
+	+	78	0
+	+	54	0
+	+	78	0
+	+	54	0
+	+	78	0
+	+	53	0
+	+	78	0
+	+	53	0
+	+	78	25
+	+	78	0
+	+	78	16
+	+	84	20
+	+	78	17
+	+	59	0
+	+	68	0
+	+	53	16
+	+	29	0
+	+	28	0
+	+	29	0
+	+	53	0
+	+	30	0
+	+	47	0
+	+	7	0
+	+	7	30
+	+	7	0
+
+> ~/.local/share/applications/vim.desktop
+	*	1757596732	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	8	7
+	+	7	13
+	+	8	13
 
 > ~/.config/mako/config
 	*	1757596563	0
@@ -1004,73 +1069,6 @@ $
 	"	1	0
 	.	3	0
 	+	3	0
-
-> ~/.config/vim/vimrc
-	*	1757591564	0
-	"	39	8
-	^	1	0
-	.	47	0
-	+	82	0
-	+	11	25
-	+	12	25
-	+	13	27
-	+	85	0
-	+	37	61
-	+	56	24
-	+	57	25
-	+	78	18
-	+	56	19
-	+	57	20
-	+	78	19
-	+	56	23
-	+	57	23
-	+	78	23
-	+	56	20
-	+	57	21
-	+	78	0
-	+	56	20
-	+	57	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	56	20
-	+	54	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	31	0
-	+	78	0
-	+	78	4
-	+	54	0
-	+	78	20
-	+	54	0
-	+	78	16
-	+	78	29
-	+	78	0
-	+	54	0
-	+	78	0
-	+	54	0
-	+	78	0
-	+	53	0
-	+	78	0
-	+	53	0
-	+	78	25
-	+	78	0
-	+	78	16
-	+	84	20
-	+	78	17
-	+	59	0
-	+	68	0
-	+	53	16
-	+	29	0
-	+	28	0
-	+	29	0
-	+	53	0
-	+	30	0
-	+	47	0
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757540183	0
@@ -1390,14 +1388,6 @@ $
 	+	23	13
 	+	25	23
 	+	26	13
-
-> ~/.local/share/applications/vim.desktop
-	*	1757436526	0
-	"	7	12
-	^	7	13
-	.	7	12
-	+	8	7
-	+	7	12
 
 > ~/.local/bin/umonedrive.sh
 	*	1757425270	0
