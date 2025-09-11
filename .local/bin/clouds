@@ -10,16 +10,16 @@ GIC="\0icon\x1fgoogle-drive"
 selected=$(echo -e "$PO$OIC\n$OO$OIC\n$PG$GIC\n$OG$GIC" | fuzzel --minimal-lines -d -p "Úložiště: " )
 case $selected in
     "$PO")
-        source onedrive.sh
+        source onedrive
     ;;
     "$OO")
-        source umonedrive.sh
+        source umonedrive
     ;;
     "$PG")
-        source googledrive.sh
+        source googledrive
     ;;
     "$OG")
-        source umgoogledrive.sh
+        source umgoogledrive
     ;;
     *)
     notify-send -i im-kick-user "Zrušeno uživatelem"
