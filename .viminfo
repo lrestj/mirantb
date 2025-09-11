@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757595495,,"wq"
+|2,0,1757596022,,"wq"
 :w!
 |2,0,1757592230,,"w!"
 :w
@@ -480,30 +480,48 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  1  27  ~/.config/kitty/kitty.conf
-|4,48,1,27,1757595495,"~/.config/kitty/kitty.conf"
-'1  1  32  ~/.config/kitty/kitty.conf
-|4,49,1,32,1757595376,"~/.config/kitty/kitty.conf"
-'2  3  22  ~/.config/kitty/kitty.conf
-|4,50,3,22,1757595320,"~/.config/kitty/kitty.conf"
-'3  3  22  ~/.config/kitty/kitty.conf
-|4,51,3,22,1757595320,"~/.config/kitty/kitty.conf"
-'4  3  22  ~/.config/kitty/kitty.conf
-|4,52,3,22,1757595320,"~/.config/kitty/kitty.conf"
-'5  3  22  ~/.config/kitty/kitty.conf
-|4,53,3,22,1757595320,"~/.config/kitty/kitty.conf"
-'6  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,54,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
-'7  3  22  ~/.config/kitty/kitty.conf
-|4,55,3,22,1757592939,"~/.config/kitty/kitty.conf"
-'8  3  22  ~/.config/kitty/kitty.conf
-|4,56,3,22,1757592939,"~/.config/kitty/kitty.conf"
-'9  3  22  ~/.config/kitty/kitty.conf
-|4,57,3,22,1757592939,"~/.config/kitty/kitty.conf"
+'0  3  26  ~/.config/kitty/kitty.conf
+|4,48,3,26,1757596022,"~/.config/kitty/kitty.conf"
+'1  3  21  ~/.config/kitty/kitty.conf
+|4,49,3,21,1757595958,"~/.config/kitty/kitty.conf"
+'2  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,50,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'3  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,51,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'4  1  27  ~/.config/kitty/kitty.conf
+|4,52,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'5  1  27  ~/.config/kitty/kitty.conf
+|4,53,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'6  1  27  ~/.config/kitty/kitty.conf
+|4,54,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'7  1  27  ~/.config/kitty/kitty.conf
+|4,55,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'8  1  32  ~/.config/kitty/kitty.conf
+|4,56,1,32,1757595376,"~/.config/kitty/kitty.conf"
+'9  1  32  ~/.config/kitty/kitty.conf
+|4,57,1,32,1757595376,"~/.config/kitty/kitty.conf"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  3  26  ~/.config/kitty/kitty.conf
+|4,39,3,26,1757596022,"~/.config/kitty/kitty.conf"
+-'  3  21  ~/.config/kitty/kitty.conf
+|4,39,3,21,1757595958,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  27  ~/.config/kitty/kitty.conf
 |4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
+-'  1  27  ~/.config/kitty/kitty.conf
+|4,39,1,27,1757595495,"~/.config/kitty/kitty.conf"
+-'  1  32  ~/.config/kitty/kitty.conf
+|4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
 -'  1  32  ~/.config/kitty/kitty.conf
 |4,39,1,32,1757595376,"~/.config/kitty/kitty.conf"
 -'  3  22  ~/.config/kitty/kitty.conf
@@ -512,6 +530,14 @@ $
 |4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
 -'  3  22  ~/.config/kitty/kitty.conf
 |4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757595320,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1757595302,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -530,6 +556,26 @@ $
 |4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757593047,"~/.dotfiles/other/stuff2remember.txt"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
+-'  3  22  ~/.config/kitty/kitty.conf
+|4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
 -'  3  22  ~/.config/kitty/kitty.conf
 |4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
 -'  3  22  ~/.config/kitty/kitty.conf
@@ -598,118 +644,70 @@ $
 |4,39,4,20,1757592873,"~/.local/bin/sway-run"
 -'  4  20  ~/.local/bin/sway-run
 |4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757592848,"~/.local/bin/sway-run"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757592571,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757592571,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757592571,"~/.config/kitty/kitty.conf"
--'  3  21  ~/.config/kitty/kitty.conf
-|4,39,3,21,1757592571,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1757592559,"~/.config/kitty/kitty.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
--'  1  23  ~/.config/kitty/current-theme.conf
-|4,39,1,23,1757592557,"~/.config/kitty/current-theme.conf"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757592873,"~/.local/bin/sway-run"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/kitty/kitty.conf
-	*	1757595492	0
-	"	1	27
-	^	1	33
-	.	1	28
+	*	1757596017	0
+	"	3	26
+	^	3	27
+	.	3	26
 	+	2	17
 	+	6	25
 	+	7	28
@@ -722,9 +720,10 @@ $
 	+	8	19
 	+	3	22
 	+	1	28
+	+	3	26
 
 > ~/.dotfiles/other/stuff2remember.txt
-	*	1757593035	0
+	*	1757595782	0
 	"	1	0
 	^	23	4
 	.	24	0
