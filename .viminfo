@@ -20,6 +20,14 @@
 $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w xnview theme
+|2,0,1757626075,,"w xnview theme"
+:w
+|2,0,1757626055,,"w"
+:%s/71, 71, 71/53, 53, 53/g
+|2,0,1757626051,,"%s/71, 71, 71/53, 53, 53/g"
+:%s/71,71,71/53,53,53/g
+|2,0,1757625595,,"%s/71,71,71/53,53,53/g"
 :%s/90, 90, 90/71, 71, 71/g
 |2,0,1757624427,,"%s/90, 90, 90/71, 71, 71/g"
 :wq
@@ -36,8 +44,6 @@ $71, 71, 71
 |2,0,1757617701,,"%s/130,130, 130/42,46,50/g"
 :%s/130,130, 130
 |2,0,1757617631,,"%s/130,130, 130"
-:w
-|2,0,1757608486,,"w"
 :'<,'>s/kitty -e/$editor/g
 |2,0,1757604930,,"'<,'>s/kitty -e/$editor/g"
 :enew ~/.loQ
@@ -302,6 +308,14 @@ $71, 71, 71
 |2,0,1756038671,,"WQ"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+?/71
+|2,1,1757626083,47,"71"
+? 71, 71, 71
+|2,1,1757626051,,"71, 71, 71"
+?/71, 71, 71/53, 53, 53/g
+|2,1,1757625909,47,"71, 71, 71/53, 53, 53/g"
+? 71,71,71
+|2,1,1757625595,,"71,71,71"
 ? 90, 90, 90
 |2,1,1757624427,,"90, 90, 90"
 ?/180, 180, 180
@@ -486,8 +500,8 @@ $71, 71, 71
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 "-	CHAR	0
-	*
-|3,0,36,0,1,0,1757624373,"*"
+	 
+|3,0,36,0,1,0,1757626105," "
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -508,14 +522,14 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  4  26  ~/.dotfiles/other/stuff2remember.txt
-|4,49,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
-'2  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,50,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
-'3  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,51,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+'0  1  0  ~/xnview theme
+|4,48,1,0,1757626351,"~/xnview theme"
+'1  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,50,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+'3  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,51,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
 '4  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,52,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '5  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -523,13 +537,41 @@ $71, 71, 71
 '6  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,54,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '7  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,55,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
+|4,55,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
 '8  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,56,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
 '9  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,57,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/xnview theme
+|4,39,1,0,1757626351,"~/xnview theme"
+-'  25  0  ~/xnview theme
+|4,39,25,0,1757626204,"~/xnview theme"
+-'  1027  1  ~/xnview theme
+|4,39,1027,1,1757626087,"~/xnview theme"
+-'  86  0  ~/xnview theme
+|4,39,86,0,1757625912,"~/xnview theme"
+-'  441  0  ~/xnview theme
+|4,39,441,0,1757625617,"~/xnview theme"
+-'  1010  0  ~/xnview theme
+|4,39,1010,0,1757625524,"~/xnview theme"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,138,28,1757623986,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  138  28  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -554,6 +596,54 @@ $71, 71, 71
 |4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757623961,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
+-'  4  26  ~/.dotfiles/other/stuff2remember.txt
+|4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
 -'  4  26  ~/.dotfiles/other/stuff2remember.txt
 |4,39,4,26,1757622665,"~/.dotfiles/other/stuff2remember.txt"
 -'  4  26  ~/.dotfiles/other/stuff2remember.txt
@@ -602,132 +692,66 @@ $71, 71, 71
 |4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
--'  1032  0  ~/.config/xnviewmp/style_sheet_linux.qss
-|4,39,1032,0,1757620823,"~/.config/xnviewmp/style_sheet_linux.qss"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757617771,"~/.dotfiles/other/stuff2remember.txt"
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757621500,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
+-'  1  0  ~/.config/xnviewmp/style_sheet_linux.qss
+|4,39,1,0,1757620995,"~/.config/xnviewmp/style_sheet_linux.qss"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/xnview theme
+	*	1757626214	0
+	"	1	0
+	^	1034	0
+	.	1	0
+	+	1033	0
+	+	8	0
+	+	33	0
+	+	1	0
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757623984	0
@@ -2585,55 +2609,3 @@ $71, 71, 71
 	+	120	0
 	+	57	0
 	+	10	0
-
-> ~/.dotfiles/scripts/1binds.txt
-	*	1756668426	0
-	"	23	30
-	^	23	31
-	.	23	30
-	+	2	0
-	+	1	0
-	+	3	0
-	+	26	0
-	+	33	0
-	+	32	0
-	+	33	0
-	+	3	19
-	+	4	27
-	+	5	15
-	+	6	22
-	+	7	29
-	+	8	34
-	+	9	23
-	+	10	38
-	+	11	26
-	+	12	22
-	+	13	34
-	+	13	37
-	+	13	30
-	+	13	33
-	+	13	29
-	+	14	28
-	+	15	27
-	+	16	24
-	+	17	21
-	+	18	27
-	+	19	39
-	+	20	44
-	+	21	14
-	+	22	18
-	+	26	23
-	+	27	23
-	+	28	25
-	+	29	27
-	+	10	37
-	+	33	0
-	+	33	42
-	+	3	21
-	+	5	12
-	+	26	15
-	+	33	0
-	+	30	0
-	+	31	0
-	+	13	0
-	+	23	30
