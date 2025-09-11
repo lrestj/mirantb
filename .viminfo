@@ -484,38 +484,52 @@ $$editor
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  227  89  ~/.config/sway/config
-|4,48,227,89,1757611556,"~/.config/sway/config"
-'1  227  60  ~/.config/sway/config
-|4,49,227,60,1757611466,"~/.config/sway/config"
-'2  227  57  ~/.config/sway/config
-|4,50,227,57,1757611385,"~/.config/sway/config"
+'0  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,48,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
+'1  227  89  ~/.config/sway/config
+|4,49,227,89,1757611556,"~/.config/sway/config"
+'2  227  60  ~/.config/sway/config
+|4,50,227,60,1757611466,"~/.config/sway/config"
 '3  227  57  ~/.config/sway/config
 |4,51,227,57,1757611385,"~/.config/sway/config"
-'4  227  68  ~/.config/sway/config
-|4,52,227,68,1757611247,"~/.config/sway/config"
+'4  227  57  ~/.config/sway/config
+|4,52,227,57,1757611385,"~/.config/sway/config"
 '5  227  68  ~/.config/sway/config
 |4,53,227,68,1757611247,"~/.config/sway/config"
 '6  227  68  ~/.config/sway/config
 |4,54,227,68,1757611247,"~/.config/sway/config"
 '7  227  68  ~/.config/sway/config
 |4,55,227,68,1757611247,"~/.config/sway/config"
-'8  227  81  ~/.config/sway/config
-|4,56,227,81,1757611191,"~/.config/sway/config"
+'8  227  68  ~/.config/sway/config
+|4,56,227,68,1757611247,"~/.config/sway/config"
 '9  227  81  ~/.config/sway/config
 |4,57,227,81,1757611191,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757614386,"~/.dotfiles/other/stuff2remember.txt"
+-'  227  89  ~/.config/sway/config
+|4,39,227,89,1757611556,"~/.config/sway/config"
 -'  227  89  ~/.config/sway/config
 |4,39,227,89,1757611556,"~/.config/sway/config"
 -'  48  0  ~/.config/sway/config
 |4,39,48,0,1757611504,"~/.config/sway/config"
+-'  48  0  ~/.config/sway/config
+|4,39,48,0,1757611504,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611500,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611500,"~/.config/sway/config"
 -'  227  60  ~/.config/sway/config
 |4,39,227,60,1757611466,"~/.config/sway/config"
+-'  227  60  ~/.config/sway/config
+|4,39,227,60,1757611466,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611451,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611451,"~/.config/sway/config"
+-'  227  57  ~/.config/sway/config
+|4,39,227,57,1757611385,"~/.config/sway/config"
 -'  227  57  ~/.config/sway/config
 |4,39,227,57,1757611385,"~/.config/sway/config"
 -'  51  0  ~/.config/sway/config
@@ -524,34 +538,70 @@ $$editor
 |4,39,51,0,1757611271,"~/.config/sway/config"
 -'  51  0  ~/.config/sway/config
 |4,39,51,0,1757611271,"~/.config/sway/config"
+-'  51  0  ~/.config/sway/config
+|4,39,51,0,1757611271,"~/.config/sway/config"
+-'  51  0  ~/.config/sway/config
+|4,39,51,0,1757611271,"~/.config/sway/config"
+-'  51  0  ~/.config/sway/config
+|4,39,51,0,1757611271,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611267,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611267,"~/.config/sway/config"
 -'  227  68  ~/.config/sway/config
 |4,39,227,68,1757611247,"~/.config/sway/config"
+-'  227  68  ~/.config/sway/config
+|4,39,227,68,1757611247,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611230,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611230,"~/.config/sway/config"
 -'  227  81  ~/.config/sway/config
 |4,39,227,81,1757611191,"~/.config/sway/config"
+-'  227  81  ~/.config/sway/config
+|4,39,227,81,1757611191,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611115,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611115,"~/.config/sway/config"
 -'  227  77  ~/.config/sway/config
 |4,39,227,77,1757611089,"~/.config/sway/config"
+-'  227  77  ~/.config/sway/config
+|4,39,227,77,1757611089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611064,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611064,"~/.config/sway/config"
 -'  227  69  ~/.config/sway/config
 |4,39,227,69,1757611048,"~/.config/sway/config"
+-'  227  69  ~/.config/sway/config
+|4,39,227,69,1757611048,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757611010,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757611010,"~/.config/sway/config"
 -'  227  62  ~/.config/sway/config
 |4,39,227,62,1757610956,"~/.config/sway/config"
+-'  227  62  ~/.config/sway/config
+|4,39,227,62,1757610956,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757610936,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757610936,"~/.config/sway/config"
 -'  227  62  ~/.config/sway/config
 |4,39,227,62,1757610910,"~/.config/sway/config"
+-'  227  62  ~/.config/sway/config
+|4,39,227,62,1757610910,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757610892,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757610892,"~/.config/sway/config"
 -'  227  88  ~/.config/sway/config
 |4,39,227,88,1757610673,"~/.config/sway/config"
+-'  227  88  ~/.config/sway/config
+|4,39,227,88,1757610673,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757610646,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757610646,"~/.config/sway/config"
 -'  83  47  ~/.config/waybar/config-sway.jsonc
@@ -656,58 +706,47 @@ $$editor
 |4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
 -'  83  47  ~/.config/waybar/config-sway.jsonc
 |4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
--'  83  47  ~/.config/waybar/config-sway.jsonc
-|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757614254	0
+	"	1	0
+	^	4	20
+	.	4	20
+	+	5	11
+	+	6	9
+	+	5	13
+	+	6	24
+	+	7	21
+	+	6	22
+	+	5	3
+	+	6	0
+	+	8	46
+	+	7	47
+	+	6	49
+	+	5	46
+	+	1	0
+	+	32	21
+	+	7	18
+	+	32	22
+	+	8	17
+	+	6	0
+	+	13	23
+	+	12	0
+	+	15	40
+	+	16	0
+	+	15	0
+	+	19	0
+	+	18	55
+	+	17	23
+	+	20	30
+	+	22	0
+	+	23	0
+	+	23	3
+	+	25	0
+	+	6	0
+	+	4	20
 
 > ~/.config/sway/config
 	*	1757611553	0
@@ -1174,45 +1213,6 @@ $$editor
 	+	58	22
 	+	4	0
 	+	5	11
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757596470	0
-	"	4	0
-	^	4	20
-	.	4	20
-	+	5	11
-	+	6	9
-	+	5	13
-	+	6	24
-	+	7	21
-	+	6	22
-	+	5	3
-	+	6	0
-	+	8	46
-	+	7	47
-	+	6	49
-	+	5	46
-	+	1	0
-	+	32	21
-	+	7	18
-	+	32	22
-	+	8	17
-	+	6	0
-	+	13	23
-	+	12	0
-	+	15	40
-	+	16	0
-	+	15	0
-	+	19	0
-	+	18	55
-	+	17	23
-	+	20	30
-	+	22	0
-	+	23	0
-	+	23	3
-	+	25	0
-	+	6	0
-	+	4	20
 
 > ~/.config/kitty/Brogrammer.conf
 	*	1757596465	0
