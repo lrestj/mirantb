@@ -21,9 +21,9 @@ $$editor
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757606268,,"wq"
+|2,0,1757610419,,"wq"
 :w
-|2,0,1757606032,,"w"
+|2,0,1757608486,,"w"
 :'<,'>s/kitty -e/$editor/g
 |2,0,1757604930,,"'<,'>s/kitty -e/$editor/g"
 :enew ~/.loQ
@@ -409,9 +409,8 @@ $$editor
 
 # Registry:
 "0	CHAR	0
-	notify-send -c center "hlasitost" -h string:x-canonical-private-synchronous:progress \
-	        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))
-|3,0,0,0,2,0,1757602580,"notify-send -c center \"hlasitost\" -h string:x-canonical-private-synchronous:progress \\","        -h int:value:$(( (( $(pamixer --allow-boost --set-limit 150 -d 5 && pamixer --get-volume) - 1 )) % 100 + 1 ))"
+	resize set 630 400, move position 700px 3px
+|3,0,0,0,1,0,1757608648,"resize set 630 400, move position 700px 3px"
 "1	CHAR	0
 	notify-send -c center "jas" -h string:x-canonical-private-synchronous:progress \
 	        -h int:value:$(brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p')
@@ -463,8 +462,8 @@ $$editor
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 ""-	CHAR	0
-	h
-|3,1,36,0,1,0,1757606261,"h"
+	x
+|3,1,36,0,1,0,1757610293,"x"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -485,251 +484,254 @@ $$editor
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  22  27  ~/.local/bin/clouds
-|4,48,22,27,1757606268,"~/.local/bin/clouds"
-'1  1  0  ~/.local/bin/onedrive
-|4,49,1,0,1757606133,"~/.local/bin/onedrive"
-'2  1  0  ~/.config/vim/vimrc
-|4,50,1,0,1757606040,"~/.config/vim/vimrc"
-'3  6  77  ~/.local/bin/webmarks
-|4,51,6,77,1757605935,"~/.local/bin/webmarks"
-'4  6  77  ~/.local/bin/webmarks
-|4,52,6,77,1757605935,"~/.local/bin/webmarks"
-'5  65  16  ~/.config/sway/config
-|4,53,65,16,1757605740,"~/.config/sway/config"
-'6  65  16  ~/.config/sway/config
-|4,54,65,16,1757605740,"~/.config/sway/config"
-'7  65  16  ~/.config/sway/config
-|4,55,65,16,1757605740,"~/.config/sway/config"
-'8  65  16  ~/.config/sway/config
-|4,56,65,16,1757605740,"~/.config/sway/config"
-'9  64  8  ~/.config/sway/config
-|4,57,64,8,1757605686,"~/.config/sway/config"
+'0  83  47  ~/.config/waybar/config-sway.jsonc
+|4,48,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
+'1  83  48  ~/.config/waybar/config-sway.jsonc
+|4,49,83,48,1757610369,"~/.config/waybar/config-sway.jsonc"
+'2  227  66  ~/.config/sway/config
+|4,50,227,66,1757610296,"~/.config/sway/config"
+'3  228  0  ~/.config/sway/config
+|4,51,228,0,1757610259,"~/.config/sway/config"
+'4  228  0  ~/.config/sway/config
+|4,52,228,0,1757610259,"~/.config/sway/config"
+'5  227  78  ~/.config/sway/config
+|4,53,227,78,1757610190,"~/.config/sway/config"
+'6  227  78  ~/.config/sway/config
+|4,54,227,78,1757610190,"~/.config/sway/config"
+'7  227  78  ~/.config/sway/config
+|4,55,227,78,1757610190,"~/.config/sway/config"
+'8  227  69  ~/.config/sway/config
+|4,56,227,69,1757610004,"~/.config/sway/config"
+'9  227  69  ~/.config/sway/config
+|4,57,227,69,1757610004,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  22  27  ~/.local/bin/clouds
-|4,39,22,27,1757606268,"~/.local/bin/clouds"
--'  93  45  ~/.config/sway/config
-|4,39,93,45,1757606239,"~/.config/sway/config"
+-'  83  47  ~/.config/waybar/config-sway.jsonc
+|4,39,83,47,1757610419,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757610385,"~/.config/waybar/config-sway.jsonc"
+-'  83  48  ~/.config/waybar/config-sway.jsonc
+|4,39,83,48,1757610369,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757610327,"~/.config/waybar/config-sway.jsonc"
+-'  227  66  ~/.config/sway/config
+|4,39,227,66,1757610296,"~/.config/sway/config"
+-'  227  66  ~/.config/sway/config
+|4,39,227,66,1757610296,"~/.config/sway/config"
+-'  227  66  ~/.config/sway/config
+|4,39,227,66,1757610296,"~/.config/sway/config"
+-'  227  66  ~/.config/sway/config
+|4,39,227,66,1757610296,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757606169,"~/.config/sway/config"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1757606133,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1757606133,"~/.local/bin/onedrive"
--'  5  87  ~/.local/bin/nsubmap
-|4,39,5,87,1757606081,"~/.local/bin/nsubmap"
--'  5  87  ~/.local/bin/nsubmap
-|4,39,5,87,1757606081,"~/.local/bin/nsubmap"
--'  5  87  ~/.local/bin/nsubmap
-|4,39,5,87,1757606081,"~/.local/bin/nsubmap"
--'  5  87  ~/.local/bin/nsubmap
-|4,39,5,87,1757606081,"~/.local/bin/nsubmap"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757606040,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757606040,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757606040,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757606040,"~/.config/vim/vimrc"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  6  77  ~/.local/bin/webmarks
-|4,39,6,77,1757605935,"~/.local/bin/webmarks"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  5  84  ~/.local/bin/nsubmap
-|4,39,5,84,1757605927,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  1  0  ~/.local/bin/nsubmap
-|4,39,1,0,1757605898,"~/.local/bin/nsubmap"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
--'  65  16  ~/.config/sway/config
-|4,39,65,16,1757605740,"~/.config/sway/config"
+|4,39,1,0,1757610278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610278,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
+-'  228  0  ~/.config/sway/config
+|4,39,228,0,1757610259,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610236,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610236,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610236,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610236,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
+-'  227  78  ~/.config/sway/config
+|4,39,227,78,1757610190,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610111,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
+|4,39,1,0,1757610111,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605727,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
--'  64  8  ~/.config/sway/config
-|4,39,64,8,1757605686,"~/.config/sway/config"
+|4,39,1,0,1757610111,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
+|4,39,1,0,1757610111,"~/.config/sway/config"
+-'  227  69  ~/.config/sway/config
+|4,39,227,69,1757610004,"~/.config/sway/config"
+-'  227  69  ~/.config/sway/config
+|4,39,227,69,1757610004,"~/.config/sway/config"
+-'  227  69  ~/.config/sway/config
+|4,39,227,69,1757610004,"~/.config/sway/config"
+-'  227  69  ~/.config/sway/config
+|4,39,227,69,1757610004,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
+|4,39,1,0,1757609954,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
+|4,39,1,0,1757609954,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
+|4,39,1,0,1757609954,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757605605,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
--'  64  41  ~/.config/sway/config
-|4,39,64,41,1757605466,"~/.config/sway/config"
+|4,39,1,0,1757609954,"~/.config/sway/config"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
+-'  4  11  ~/.local/share/applications/btop.desktop
+|4,39,4,11,1757609921,"~/.local/share/applications/btop.desktop"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.local/bin/clouds
-	*	1757606261	0
-	"	22	27
-	.	22	28
-	+	13	23
-	+	16	25
-	+	19	26
-	+	22	28
+> ~/.config/waybar/config-sway.jsonc
+	*	1757610408	0
+	"	83	47
+	^	83	48
+	.	83	47
+	+	33	12
+	+	33	0
+	+	44	12
+	+	201	8
+	+	44	0
+	+	216	44
+	+	180	38
+	+	181	43
+	+	237	22
+	+	66	54
+	+	73	25
+	+	83	47
 
 > ~/.config/sway/config
-	*	1757606236	0
-	"	93	45
-	^	65	17
-	.	65	16
-	+	4	0
-	+	69	0
-	+	20	0
-	+	24	0
-	+	71	0
-	+	41	16
+	*	1757610293	0
+	"	227	66
+	^	228	0
+	.	227	67
 	+	77	29
 	+	41	27
 	+	25	37
@@ -824,9 +826,37 @@ $$editor
 	+	65	16
 	+	64	9
 	+	65	16
+	+	227	1922
+	+	227	82
+	+	224	70
+	+	227	21
+	+	231	23
+	+	227	67
 	k	74	0
 	s	1	0
-	w	235	0
+	w	236	0
+
+> ~/.local/share/applications/btop.desktop
+	*	1757609919	0
+	"	4	11
+	^	4	12
+	.	4	11
+	+	4	5
+	+	12	12
+	+	17	15
+	+	12	13
+	+	4	26
+	+	12	14
+	+	4	11
+
+> ~/.local/bin/clouds
+	*	1757606261	0
+	"	22	27
+	.	22	28
+	+	13	23
+	+	16	25
+	+	19	26
+	+	22	28
 
 > ~/.local/bin/onedrive
 	*	1757606098	0
@@ -1217,32 +1247,6 @@ $$editor
 > ~/.config/kitty/current-theme.conf
 	*	1757592551	0
 	"	1	23
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757592353	0
-	"	83	35
-	^	83	39
-	.	83	0
-	+	33	12
-	+	33	0
-	+	44	12
-	+	201	8
-	+	44	0
-	+	216	44
-	+	180	38
-	+	181	43
-	+	237	22
-	+	66	54
-	+	73	25
-	+	83	0
-
-> ~/.local/share/applications/btop.desktop
-	*	1757592015	0
-	"	12	12
-	^	12	13
-	.	12	12
-	+	4	5
-	+	12	12
 
 > ~/.local/bin/waybar-sway
 	*	1757591643	0
