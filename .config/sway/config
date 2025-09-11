@@ -224,7 +224,7 @@
     for_window [app_id="org.pulseaudio.pavucontrol"] floating enable, resize set 630 400, move position 700px 3px
     for_window [app_id="script"] floating enable, resize set 400 100
     for_window [title="Authentication Required"] floating enable
-    for_window [app_id="btop"] floating enable, resize set 1180 830
+    for_window [app_id="btop"] floating enable, resize set 1180 830, move position center
 
 include /etc/sway/config.d/*
 
