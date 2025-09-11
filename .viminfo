@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757596022,,"wq"
+|2,0,1757596112,,"wq"
 :w!
 |2,0,1757592230,,"w!"
 :w
@@ -480,28 +480,30 @@ $
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  3  26  ~/.config/kitty/kitty.conf
-|4,48,3,26,1757596022,"~/.config/kitty/kitty.conf"
-'1  3  21  ~/.config/kitty/kitty.conf
-|4,49,3,21,1757595958,"~/.config/kitty/kitty.conf"
-'2  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,50,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
-'3  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,51,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
-'4  1  27  ~/.config/kitty/kitty.conf
-|4,52,1,27,1757595495,"~/.config/kitty/kitty.conf"
-'5  1  27  ~/.config/kitty/kitty.conf
-|4,53,1,27,1757595495,"~/.config/kitty/kitty.conf"
-'6  1  27  ~/.config/kitty/kitty.conf
-|4,54,1,27,1757595495,"~/.config/kitty/kitty.conf"
-'7  1  27  ~/.config/kitty/kitty.conf
-|4,55,1,27,1757595495,"~/.config/kitty/kitty.conf"
-'8  1  32  ~/.config/kitty/kitty.conf
-|4,56,1,32,1757595376,"~/.config/kitty/kitty.conf"
-'9  1  32  ~/.config/kitty/kitty.conf
-|4,57,1,32,1757595376,"~/.config/kitty/kitty.conf"
+'0  3  21  ~/.config/kitty/kitty.conf
+|4,48,3,21,1757596112,"~/.config/kitty/kitty.conf"
+'1  3  26  ~/.config/kitty/kitty.conf
+|4,49,3,26,1757596022,"~/.config/kitty/kitty.conf"
+'2  3  21  ~/.config/kitty/kitty.conf
+|4,50,3,21,1757595958,"~/.config/kitty/kitty.conf"
+'3  3  21  ~/.config/kitty/kitty.conf
+|4,51,3,21,1757595958,"~/.config/kitty/kitty.conf"
+'4  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,52,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'5  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,53,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'6  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,54,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'7  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,55,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
+'8  1  27  ~/.config/kitty/kitty.conf
+|4,56,1,27,1757595495,"~/.config/kitty/kitty.conf"
+'9  1  27  ~/.config/kitty/kitty.conf
+|4,57,1,27,1757595495,"~/.config/kitty/kitty.conf"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  3  21  ~/.config/kitty/kitty.conf
+|4,39,3,21,1757596112,"~/.config/kitty/kitty.conf"
 -'  3  26  ~/.config/kitty/kitty.conf
 |4,39,3,26,1757596022,"~/.config/kitty/kitty.conf"
 -'  3  21  ~/.config/kitty/kitty.conf
@@ -510,6 +512,10 @@ $
 |4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1757595942,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757595789,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -580,12 +586,6 @@ $
 |4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
 -'  3  22  ~/.config/kitty/kitty.conf
 |4,39,3,22,1757592939,"~/.config/kitty/kitty.conf"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
--'  4  20  ~/.local/bin/sway-run
-|4,39,4,20,1757592873,"~/.local/bin/sway-run"
 -'  4  20  ~/.local/bin/sway-run
 |4,39,4,20,1757592873,"~/.local/bin/sway-run"
 -'  4  20  ~/.local/bin/sway-run
@@ -704,10 +704,10 @@ $
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/kitty/kitty.conf
-	*	1757596017	0
-	"	3	26
-	^	3	27
-	.	3	26
+	*	1757596110	0
+	"	3	21
+	^	3	22
+	.	3	21
 	+	2	17
 	+	6	25
 	+	7	28
@@ -720,7 +720,7 @@ $
 	+	8	19
 	+	3	22
 	+	1	28
-	+	3	26
+	+	3	21
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757595782	0
