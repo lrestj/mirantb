@@ -37,7 +37,7 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term foot
+    set $term alacritty
     set $editor $term -e vim
     set $browser brave
     set $menu fuzzel
@@ -73,10 +73,10 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
+    bindsym $ms+a exec foot
     bindsym $cs+y exec $term -e yazi
-    bindsym $ms+y exec alacritty -e yazi
+    bindsym $ms+y exec foot -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+a exec alacritty
     bindsym $ms+e exec alacritty -e vim
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
@@ -228,3 +228,5 @@
     for_window [title="Authentication Required"] floating enable
     for_window [title="xeyes"] floating enable, move position 880 5
     for_window [app_id="btop"] floating enable, resize set 1585  800 
+
+#### END OF FILE #####

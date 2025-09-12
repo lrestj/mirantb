@@ -21,9 +21,13 @@ $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757695362,,"wq"
+|2,0,1757697539,,"wq"
+:m75
+|2,0,1757697278,,"m75"
 :w
-|2,0,1757695294,,"w"
+|2,0,1757697270,,"w"
+:map <LeftDrag> <LeftMouse>
+|2,0,1757697026,,"map <LeftDrag> <LeftMouse>"
 :so $MYVIMRC
 |2,0,1757686850,,"so $MYVIMRC"
 :ver
@@ -467,17 +471,23 @@ $71, 71, 71
 "0	LINE	0
 	shell=sh -c 'exec $(command -v waitwinch) fish'
 |3,0,0,1,1,0,1757695159,"shell=sh -c 'exec $(command -v waitwinch) fish'"
-""1	LINE	0
+"1	LINE	0
+	    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
+|3,0,1,1,1,0,1757696822,"    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode \"default\""
+"2	LINE	0
+	#### END OF FILE #####
+|3,0,2,1,1,0,1757696816,"#### END OF FILE #####"
+"3	LINE	0
 	shell=foot bash -c "sleep 0.1"
-|3,1,1,1,1,0,1757695355,"shell=foot bash -c \"sleep 0.1\""
-"2	CHAR	0
+|3,0,3,1,1,0,1757695355,"shell=foot bash -c \"sleep 0.1\""
+"4	CHAR	0
 	center
 	
 	include /etc/sway/config.d/*
 	
 	##### END OF FILE #####
-|3,0,2,0,5,0,1757688489,"center","","include /etc/sway/config.d/*","","##### END OF FILE #####"
-"3	LINE	0
+|3,0,4,0,5,0,1757688489,"center","","include /etc/sway/config.d/*","","##### END OF FILE #####"
+"5	LINE	0
 	// Uncomment this line to ask the clients to omit their client-side decorations if possible.
 	// If the client will specifically ask for CSD, the request will be honored.
 	// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
@@ -488,9 +498,9 @@ $71, 71, 71
 	// You can change the path where screenshots are saved.
 	// A ~ at the front will be expanded to the home directory.
 	// The path is formatted with strftime(3) to give you the screenshot date and time.
-|3,0,3,1,10,0,1757685122,"// Uncomment this line to ask the clients to omit their client-side decorations if possible.","// If the client will specifically ask for CSD, the request will be honored.","// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.","// This option will also fix border/focus ring drawing behind some semitransparent windows.",>92
+|3,0,5,1,10,0,1757685122,"// Uncomment this line to ask the clients to omit their client-side decorations if possible.","// If the client will specifically ask for CSD, the request will be honored.","// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.","// This option will also fix border/focus ring drawing behind some semitransparent windows.",>92
 |<"// After enabling or disabling this, you need to restart the apps for this to take effect.","// prefer-no-csd","","// You can change the path where screenshots are saved.","// A ~ at the front will be expanded to the home directory.","// The path is formatted with strftime(3) to give you the screenshot date and time."
-"4	LINE	0
+"6	LINE	0
 	    Mod++Left  { move-column-left; }
 	    Mod++Down  { move-window-down; }
 	    Mod++Up    { move-window-up; }
@@ -499,8 +509,8 @@ $71, 71, 71
 	    Mod++J     { move-window-down; }
 	    Mod++K     { move-window-up; }
 	    Mod++L     { move-column-right; }
-|3,0,4,1,8,0,1757684484,"    Mod++Left  { move-column-left; }","    Mod++Down  { move-window-down; }","    Mod++Up    { move-window-up; }","    Mod++Right { move-column-right; }","    Mod++H     { move-column-left; }","    Mod++J     { move-window-down; }","    Mod++K     { move-window-up; }","    Mod++L     { move-column-right; }"
-"5	BLOCK	3
+|3,0,6,1,8,0,1757684484,"    Mod++Left  { move-column-left; }","    Mod++Down  { move-window-down; }","    Mod++Up    { move-window-up; }","    Mod++Right { move-column-right; }","    Mod++H     { move-column-left; }","    Mod++J     { move-window-down; }","    Mod++K     { move-window-up; }","    Mod++L     { move-column-right; }"
+"7	BLOCK	3
 	Ctrl
 	Ctrl
 	Ctrl
@@ -509,19 +519,13 @@ $71, 71, 71
 	Ctrl
 	Ctrl
 	Ctrl
-|3,0,5,2,8,3,1757684472,"Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl"
-"6	LINE	0
-	{ key = "L", mods = "Control|Shift", chars = "l" },
-|3,0,6,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1757674200,""
+|3,0,7,2,8,3,1757684472,"Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl"
 "8	LINE	0
-	            kitty
-|3,0,8,1,1,0,1757674139,"            kitty"
+	{ key = "L", mods = "Control|Shift", chars = "l" },
+|3,0,8,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
 "9	LINE	0
-	" Alacritty fix
-|3,0,9,1,1,0,1757673896,"\" Alacritty fix"
+	
+|3,0,9,1,1,0,1757674200,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -532,6 +536,9 @@ $71, 71, 71
 "c	CHAR	0
 	2e3440ff
 |3,0,12,0,1,0,1757340602,"2e3440ff"
+"e	LINE	0
+	#### END OF FILE #####
+|3,0,14,1,1,0,1757696810,"#### END OF FILE #####"
 "i	CHAR	0
 	\0icon\x1f
 |3,0,18,0,1,0,1757423896,"\\0icon\\x1f"
@@ -541,9 +548,9 @@ $71, 71, 71
 "q@	CHAR	0
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
-"-	CHAR	0
-	; exec fish"
-|3,0,36,0,1,0,1757695328,"; exec fish\""
+""-	CHAR	0
+	true
+|3,1,36,0,1,0,1757697517,"true"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -564,230 +571,525 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  5  0  ~/.config/foot/foot.ini
-|4,48,5,0,1757695362,"~/.config/foot/foot.ini"
-'1  6  29  ~/.config/foot/foot.ini
-|4,49,6,29,1757695335,"~/.config/foot/foot.ini"
-'2  6  29  ~/.config/foot/foot.ini
-|4,50,6,29,1757695335,"~/.config/foot/foot.ini"
-'3  6  40  ~/.config/foot/foot.ini
-|4,51,6,40,1757695296,"~/.config/foot/foot.ini"
-'4  6  40  ~/.config/foot/foot.ini
-|4,52,6,40,1757695296,"~/.config/foot/foot.ini"
-'5  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,53,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
-'6  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,54,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
-'7  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,55,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
-'8  37  20  ~/.config/sway/config
-|4,56,37,20,1757694934,"~/.config/sway/config"
-'9  9  17  ~/.local/share/applications/vim.desktop
-|4,57,9,17,1757694699,"~/.local/share/applications/vim.desktop"
+'0  8  17  ~/.local/share/applications/vim.desktop
+|4,48,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+'1  4  20  ~/.local/bin/sway-run
+|4,49,4,20,1757697446,"~/.local/bin/sway-run"
+'2  107  4  ~/.config/sway/config
+|4,50,107,4,1757697306,"~/.config/sway/config"
+'3  1  0  ~/.config/waybar/config.jsonc
+|4,51,1,0,1757697104,"~/.config/waybar/config.jsonc"
+'4  232  0  ~/.config/sway/config
+|4,52,232,0,1757696836,"~/.config/sway/config"
+'5  232  0  ~/.config/sway/config
+|4,53,232,0,1757696836,"~/.config/sway/config"
+'6  5  0  ~/.config/foot/foot.ini
+|4,54,5,0,1757695362,"~/.config/foot/foot.ini"
+'7  6  29  ~/.config/foot/foot.ini
+|4,55,6,29,1757695335,"~/.config/foot/foot.ini"
+'8  6  29  ~/.config/foot/foot.ini
+|4,56,6,29,1757695335,"~/.config/foot/foot.ini"
+'9  6  40  ~/.config/foot/foot.ini
+|4,57,6,40,1757695296,"~/.config/foot/foot.ini"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  5  0  ~/.config/foot/foot.ini
-|4,39,5,0,1757695362,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757695343,"~/.config/foot/foot.ini"
--'  6  29  ~/.config/foot/foot.ini
-|4,39,6,29,1757695335,"~/.config/foot/foot.ini"
--'  6  29  ~/.config/foot/foot.ini
-|4,39,6,29,1757695335,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757695316,"~/.config/foot/foot.ini"
--'  6  40  ~/.config/foot/foot.ini
-|4,39,6,40,1757695296,"~/.config/foot/foot.ini"
--'  5  0  ~/.config/foot/foot.ini
-|4,39,5,0,1757695158,"~/.config/foot/foot.ini"
--'  5  0  ~/.config/foot/foot.ini
-|4,39,5,0,1757695158,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757695147,"~/.config/foot/foot.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  36  11  ~/.config/fuzzel/fuzzel.ini
-|4,39,36,11,1757695039,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757695006,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  39  21  ~/.config/fuzzel/fuzzel.ini
-|4,39,39,21,1757694976,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757694951,"~/.config/fuzzel/fuzzel.ini"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  37  20  ~/.config/sway/config
-|4,39,37,20,1757694934,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757694909,"~/.config/sway/config"
+-'  8  17  ~/.local/share/applications/vim.desktop
+|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  8  17  ~/.local/share/applications/vim.desktop
+|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  8  17  ~/.local/share/applications/vim.desktop
+|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  8  17  ~/.local/share/applications/vim.desktop
+|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  1  0  ~/.local/share/applications/vim.desktop
+|4,39,1,0,1757697510,"~/.local/share/applications/vim.desktop"
+-'  1  0  ~/.local/share/applications/vim.desktop
+|4,39,1,0,1757697510,"~/.local/share/applications/vim.desktop"
+-'  1  0  ~/.local/share/applications/vim.desktop
+|4,39,1,0,1757697510,"~/.local/share/applications/vim.desktop"
+-'  1  0  ~/.local/share/applications/vim.desktop
+|4,39,1,0,1757697510,"~/.local/share/applications/vim.desktop"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  4  20  ~/.local/bin/sway-run
+|4,39,4,20,1757697446,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1757697412,"~/.local/bin/sway-run"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
+-'  107  4  ~/.config/sway/config
+|4,39,107,4,1757697306,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.local/share/applications/vim.desktop
+	*	1757697536	0
+	"	8	17
+	^	8	18
+	.	8	17
+	+	8	7
+	+	7	13
+	+	8	9
+	+	7	9
+	+	9	43
+	+	8	5
+	+	7	13
+	+	9	18
+	+	7	14
+	+	8	17
+
+> ~/.local/bin/sway-run
+	*	1757697444	0
+	"	4	20
+	^	4	21
+	.	4	20
+	+	4	20
+	+	3	16
+	+	4	20
+
+> ~/.config/sway/config
+	*	1757697302	0
+	"	107	4
+	^	76	27
+	.	76	0
+	+	86	0
+	+	80	0
+	+	40	18
+	+	41	27
+	+	80	27
+	+	76	26
+	+	80	0
+	+	76	26
+	+	197	38
+	+	198	37
+	+	198	0
+	+	197	43
+	+	198	0
+	+	197	0
+	+	198	0
+	+	197	66
+	+	198	73
+	+	199	81
+	+	200	68
+	+	201	94
+	+	202	74
+	+	203	81
+	+	205	83
+	+	205	68
+	+	186	38
+	+	187	0
+	+	186	45
+	+	187	38
+	+	188	0
+	+	187	47
+	+	53	0
+	+	189	0
+	+	188	35
+	+	190	0
+	+	188	35
+	+	189	40
+	+	190	37
+	+	190	48
+	+	192	0
+	+	191	52
+	+	197	45
+	+	205	0
+	+	198	0
+	+	197	68
+	+	198	99
+	+	199	107
+	+	200	94
+	+	201	120
+	+	202	100
+	+	203	107
+	+	205	109
+	+	205	94
+	+	197	42
+	+	198	46
+	+	199	46
+	+	200	46
+	+	201	46
+	+	202	46
+	+	203	46
+	+	205	46
+	+	197	0
+	+	64	16
+	+	65	16
+	+	64	9
+	+	65	16
+	+	230	1922
+	+	230	82
+	+	226	70
+	+	230	21
+	+	230	107
+	+	230	89
+	+	197	38
+	+	198	0
+	+	197	49
+	+	197	0
+	+	76	27
+	+	40	17
+	+	95	35
+	+	76	27
+	+	80	38
+	+	79	0
+	+	78	16
+	+	133	14
+	+	134	14
+	+	135	14
+	+	136	14
+	+	230	67
+	+	229	21
+	+	87	27
+	+	229	69
+	+	230	100
+	+	229	48
+	+	230	69
+	+	229	66
+	+	226	109
+	+	232	21
+	+	76	0
+	+	40	22
+	+	78	26
+	+	76	0
+	k	74	0
+	s	1	0
+	w	237	0
+
+> ~/.config/waybar/config.jsonc
+	*	1757697101	0
+	"	1	0
+	^	215	45
+	.	215	0
+	+	8	15
+	+	174	57
+	+	222	0
+	+	154	24
+	+	163	2
+	+	154	0
+	+	163	8
+	+	163	0
+	+	163	7
+	+	163	8
+	+	163	0
+	+	163	6
+	+	163	17
+	+	163	5
+	+	163	28
+	+	163	0
+	+	154	0
+	+	153	0
+	+	163	5
+	+	163	17
+	+	163	3
+	+	163	0
+	+	19	0
+	+	163	0
+	+	161	2
+	+	154	24
+	+	156	0
+	+	157	8
+	+	159	0
+	+	160	0
+	+	161	2
+	+	155	0
+	+	156	0
+	+	157	0
+	+	158	0
+	+	159	0
+	+	160	0
+	+	161	0
+	+	154	0
+	+	155	0
+	+	159	28
+	+	120	21
+	+	34	27
+	+	10	3
+	+	6	0
+	+	8	15
+	+	19	0
+	+	55	0
+	+	51	0
+	+	55	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	52	0
+	+	56	0
+	+	53	23
+	+	120	21
+	+	114	46
+	+	120	28
+	+	37	0
+	+	36	0
+	+	8	15
+	+	168	0
+	+	168	24
+	+	166	23
+	+	168	0
+	+	166	0
+	+	134	19
+	+	138	26
+	+	134	19
+	+	138	26
+	+	134	42
+	+	154	23
+	+	134	40
+	+	64	33
+	+	70	22
+	+	215	0
+
+> ~/.config/vim/vimrc
+	*	1757697077	0
+	"	24	29
+	^	53	1
+	.	66	20
+	+	93	0
+	+	11	25
+	+	12	25
+	+	13	27
+	+	96	0
+	+	37	61
+	+	67	24
+	+	68	25
+	+	89	18
+	+	67	19
+	+	68	20
+	+	89	19
+	+	67	23
+	+	68	23
+	+	89	23
+	+	67	20
+	+	68	21
+	+	89	0
+	+	67	20
+	+	68	21
+	+	67	20
+	+	68	21
+	+	89	20
+	+	68	21
+	+	89	20
+	+	68	21
+	+	67	20
+	+	65	21
+	+	67	20
+	+	68	21
+	+	89	20
+	+	31	0
+	+	89	0
+	+	89	4
+	+	65	0
+	+	89	20
+	+	65	0
+	+	89	16
+	+	89	29
+	+	89	0
+	+	65	0
+	+	89	0
+	+	65	0
+	+	89	0
+	+	61	0
+	+	89	0
+	+	61	0
+	+	89	25
+	+	89	0
+	+	89	16
+	+	95	20
+	+	89	17
+	+	70	0
+	+	79	0
+	+	61	16
+	+	29	0
+	+	28	0
+	+	29	0
+	+	61	0
+	+	30	0
+	+	47	0
+	+	7	0
+	+	7	30
+	+	7	0
+	+	53	1
+	+	63	0
+	+	62	18
+	+	53	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	64	20
+	+	65	21
+	+	66	20
 
 > ~/.config/foot/foot.ini
 	*	1757695359	0
@@ -901,129 +1203,6 @@ $71, 71, 71
 	+	39	21
 	+	36	12
 
-> ~/.config/sway/config
-	*	1757694932	0
-	"	37	20
-	^	230	68
-	.	226	109
-	+	86	23
-	+	86	143
-	+	86	28
-	+	86	143
-	+	86	0
-	+	80	0
-	+	40	18
-	+	41	27
-	+	80	27
-	+	79	26
-	+	80	0
-	+	79	26
-	+	197	38
-	+	198	37
-	+	198	0
-	+	197	43
-	+	198	0
-	+	197	0
-	+	198	0
-	+	197	66
-	+	198	73
-	+	199	81
-	+	200	68
-	+	201	94
-	+	202	74
-	+	203	81
-	+	204	83
-	+	205	68
-	+	186	38
-	+	187	0
-	+	186	45
-	+	187	38
-	+	188	0
-	+	187	47
-	+	53	0
-	+	189	0
-	+	188	35
-	+	190	0
-	+	188	35
-	+	189	40
-	+	190	37
-	+	190	48
-	+	192	0
-	+	191	52
-	+	197	45
-	+	205	0
-	+	198	0
-	+	197	68
-	+	198	99
-	+	199	107
-	+	200	94
-	+	201	120
-	+	202	100
-	+	203	107
-	+	204	109
-	+	205	94
-	+	197	42
-	+	198	46
-	+	199	46
-	+	200	46
-	+	201	46
-	+	202	46
-	+	203	46
-	+	204	46
-	+	205	46
-	+	197	0
-	+	64	16
-	+	65	16
-	+	64	9
-	+	65	16
-	+	230	1922
-	+	230	82
-	+	226	70
-	+	230	21
-	+	230	107
-	+	230	89
-	+	197	38
-	+	198	0
-	+	197	49
-	+	197	0
-	+	79	27
-	+	40	17
-	+	95	35
-	+	79	27
-	+	80	38
-	+	78	0
-	+	77	16
-	+	133	14
-	+	134	14
-	+	135	14
-	+	136	14
-	+	230	67
-	+	229	21
-	+	87	27
-	+	229	69
-	+	230	100
-	+	229	48
-	+	230	69
-	+	229	66
-	+	226	109
-	k	74	0
-	s	1	0
-	w	235	0
-
-> ~/.local/share/applications/vim.desktop
-	*	1757694697	0
-	"	9	17
-	^	9	18
-	.	9	18
-	+	8	7
-	+	7	13
-	+	8	9
-	+	7	9
-	+	9	43
-	+	8	5
-	+	7	13
-	+	9	18
-
 > ~/.config/waybar/config-sway.jsonc
 	*	1757687846	0
 	"	183	0
@@ -1051,86 +1230,6 @@ $71, 71, 71
 	+	59	78
 	+	76	38
 	+	224	41
-
-> ~/.config/vim/vimrc
-	*	1757687788	0
-	"	76	0
-	^	53	1
-	.	66	20
-	+	93	0
-	+	11	25
-	+	12	25
-	+	13	27
-	+	96	0
-	+	37	61
-	+	67	24
-	+	68	25
-	+	89	18
-	+	67	19
-	+	68	20
-	+	89	19
-	+	67	23
-	+	68	23
-	+	89	23
-	+	67	20
-	+	68	21
-	+	89	0
-	+	67	20
-	+	68	21
-	+	67	20
-	+	68	21
-	+	89	20
-	+	68	21
-	+	89	20
-	+	68	21
-	+	67	20
-	+	65	21
-	+	67	20
-	+	68	21
-	+	89	20
-	+	31	0
-	+	89	0
-	+	89	4
-	+	65	0
-	+	89	20
-	+	65	0
-	+	89	16
-	+	89	29
-	+	89	0
-	+	65	0
-	+	89	0
-	+	65	0
-	+	89	0
-	+	61	0
-	+	89	0
-	+	61	0
-	+	89	25
-	+	89	0
-	+	89	16
-	+	95	20
-	+	89	17
-	+	70	0
-	+	79	0
-	+	61	16
-	+	29	0
-	+	28	0
-	+	29	0
-	+	61	0
-	+	30	0
-	+	47	0
-	+	7	0
-	+	7	30
-	+	7	0
-	+	53	1
-	+	63	0
-	+	62	18
-	+	53	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	64	20
-	+	65	21
-	+	66	20
 
 > ~/.local/bin/waybar-sway
 	*	1757687385	0
@@ -1752,13 +1851,6 @@ $71, 71, 71
 	+	1	28
 	+	3	21
 
-> ~/.local/bin/sway-run
-	*	1757592925	0
-	"	1	0
-	^	4	21
-	.	4	20
-	+	4	20
-
 > ~/.config/kitty/current-theme.conf
 	*	1757592551	0
 	"	1	23
@@ -2072,89 +2164,6 @@ $71, 71, 71
 	+	6	29
 	+	8	9
 	+	3	36
-
-> ~/.config/waybar/config.jsonc
-	*	1757334548	0
-	"	1	0
-	^	215	45
-	.	215	0
-	+	8	15
-	+	174	57
-	+	222	0
-	+	154	24
-	+	163	2
-	+	154	0
-	+	163	8
-	+	163	0
-	+	163	7
-	+	163	8
-	+	163	0
-	+	163	6
-	+	163	17
-	+	163	5
-	+	163	28
-	+	163	0
-	+	154	0
-	+	153	0
-	+	163	5
-	+	163	17
-	+	163	3
-	+	163	0
-	+	19	0
-	+	163	0
-	+	161	2
-	+	154	24
-	+	156	0
-	+	157	8
-	+	159	0
-	+	160	0
-	+	161	2
-	+	155	0
-	+	156	0
-	+	157	0
-	+	158	0
-	+	159	0
-	+	160	0
-	+	161	0
-	+	154	0
-	+	155	0
-	+	159	28
-	+	120	21
-	+	34	27
-	+	10	3
-	+	6	0
-	+	8	15
-	+	19	0
-	+	55	0
-	+	51	0
-	+	55	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	52	0
-	+	56	0
-	+	53	23
-	+	120	21
-	+	114	46
-	+	120	28
-	+	37	0
-	+	36	0
-	+	8	15
-	+	168	0
-	+	168	24
-	+	166	23
-	+	168	0
-	+	166	0
-	+	134	19
-	+	138	26
-	+	134	19
-	+	138	26
-	+	134	42
-	+	154	23
-	+	134	40
-	+	64	33
-	+	70	22
-	+	215	0
 
 > ~/.nix-profile/bin/addnew.sh
 	*	1757323876	0
