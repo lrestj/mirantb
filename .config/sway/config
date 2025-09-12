@@ -229,7 +229,8 @@
     for_window [title="xeyes"] floating enable, move position 880 5
     for_window [app_id="btop"] floating enable, resize set 1585  800 
 
-include /etc/sway/config.d/*
+### Important for Xdg Portals to work!!!
+    include /etc/sway/config.d/*
 
 
 #### END OF FILE #####

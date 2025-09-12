@@ -12,7 +12,7 @@
 ~h
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757710225,,"wq"
+|2,0,1757710402,,"wq"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
 
@@ -25,10 +25,20 @@
 # Registry:
 
 # Souborové značky:
-'0  235  0  ~/.config/sway/config
-|4,48,235,0,1757710225,"~/.config/sway/config"
+'0  233  3  ~/.config/sway/config
+|4,48,233,3,1757710402,"~/.config/sway/config"
+'1  236  0  ~/.config/sway/config
+|4,49,236,0,1757710225,"~/.config/sway/config"
+'2  235  0  ~/.config/sway/config
+|4,50,235,0,1757710225,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  233  3  ~/.config/sway/config
+|4,39,233,3,1757710402,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757710336,"~/.config/sway/config"
+-'  236  0  ~/.config/sway/config
+|4,39,236,0,1757710225,"~/.config/sway/config"
 -'  235  0  ~/.config/sway/config
 |4,39,235,0,1757710225,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -37,9 +47,12 @@
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1757710223	0
-	"	235	0
-	^	235	0
-	.	235	0
-	+	232	27
-	+	235	0
+	*	1757710400	0
+	"	233	3
+	^	233	4
+	.	233	3
+	+	233	27
+	+	236	0
+	+	231	0
+	+	232	39
+	+	233	3
