@@ -21,11 +21,11 @@ $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757698391,,"wq"
+|2,0,1757698762,,"wq"
+:w
+|2,0,1757698725,,"w"
 :m75
 |2,0,1757697278,,"m75"
-:w
-|2,0,1757697270,,"w"
 :map <LeftDrag> <LeftMouse>
 |2,0,1757697026,,"map <LeftDrag> <LeftMouse>"
 :so $MYVIMRC
@@ -468,26 +468,32 @@ $71, 71, 71
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	LINE	0
-	shell=sh -c 'exec $(command -v waitwinch) fish'
-|3,0,0,1,1,0,1757695159,"shell=sh -c 'exec $(command -v waitwinch) fish'"
-"1	LINE	0
-	    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
-|3,0,1,1,1,0,1757696822,"    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode \"default\""
+"0	CHAR	0
+	 
+	        tap enabled
+	        natural_scroll disabled
+	        middle_emulation enabled
+|3,0,0,0,4,0,1757698739," ","        tap enabled","        natural_scroll disabled","        middle_emulation enabled"
+""1	LINE	0
+	      
+|3,1,1,1,1,0,1757698742,"      "
 "2	LINE	0
-	#### END OF FILE #####
-|3,0,2,1,1,0,1757696816,"#### END OF FILE #####"
+	    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
+|3,0,2,1,1,0,1757696822,"    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode \"default\""
 "3	LINE	0
+	#### END OF FILE #####
+|3,0,3,1,1,0,1757696816,"#### END OF FILE #####"
+"4	LINE	0
 	shell=foot bash -c "sleep 0.1"
-|3,0,3,1,1,0,1757695355,"shell=foot bash -c \"sleep 0.1\""
-"4	CHAR	0
+|3,0,4,1,1,0,1757695355,"shell=foot bash -c \"sleep 0.1\""
+"5	CHAR	0
 	center
 	
 	include /etc/sway/config.d/*
 	
 	##### END OF FILE #####
-|3,0,4,0,5,0,1757688489,"center","","include /etc/sway/config.d/*","","##### END OF FILE #####"
-"5	LINE	0
+|3,0,5,0,5,0,1757688489,"center","","include /etc/sway/config.d/*","","##### END OF FILE #####"
+"6	LINE	0
 	// Uncomment this line to ask the clients to omit their client-side decorations if possible.
 	// If the client will specifically ask for CSD, the request will be honored.
 	// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
@@ -498,9 +504,9 @@ $71, 71, 71
 	// You can change the path where screenshots are saved.
 	// A ~ at the front will be expanded to the home directory.
 	// The path is formatted with strftime(3) to give you the screenshot date and time.
-|3,0,5,1,10,0,1757685122,"// Uncomment this line to ask the clients to omit their client-side decorations if possible.","// If the client will specifically ask for CSD, the request will be honored.","// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.","// This option will also fix border/focus ring drawing behind some semitransparent windows.",>92
+|3,0,6,1,10,0,1757685122,"// Uncomment this line to ask the clients to omit their client-side decorations if possible.","// If the client will specifically ask for CSD, the request will be honored.","// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.","// This option will also fix border/focus ring drawing behind some semitransparent windows.",>92
 |<"// After enabling or disabling this, you need to restart the apps for this to take effect.","// prefer-no-csd","","// You can change the path where screenshots are saved.","// A ~ at the front will be expanded to the home directory.","// The path is formatted with strftime(3) to give you the screenshot date and time."
-"6	LINE	0
+"7	LINE	0
 	    Mod++Left  { move-column-left; }
 	    Mod++Down  { move-window-down; }
 	    Mod++Up    { move-window-up; }
@@ -509,8 +515,8 @@ $71, 71, 71
 	    Mod++J     { move-window-down; }
 	    Mod++K     { move-window-up; }
 	    Mod++L     { move-column-right; }
-|3,0,6,1,8,0,1757684484,"    Mod++Left  { move-column-left; }","    Mod++Down  { move-window-down; }","    Mod++Up    { move-window-up; }","    Mod++Right { move-column-right; }","    Mod++H     { move-column-left; }","    Mod++J     { move-window-down; }","    Mod++K     { move-window-up; }","    Mod++L     { move-column-right; }"
-"7	BLOCK	3
+|3,0,7,1,8,0,1757684484,"    Mod++Left  { move-column-left; }","    Mod++Down  { move-window-down; }","    Mod++Up    { move-window-up; }","    Mod++Right { move-column-right; }","    Mod++H     { move-column-left; }","    Mod++J     { move-window-down; }","    Mod++K     { move-window-up; }","    Mod++L     { move-column-right; }"
+"8	BLOCK	3
 	Ctrl
 	Ctrl
 	Ctrl
@@ -519,13 +525,10 @@ $71, 71, 71
 	Ctrl
 	Ctrl
 	Ctrl
-|3,0,7,2,8,3,1757684472,"Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl"
-"8	LINE	0
-	{ key = "L", mods = "Control|Shift", chars = "l" },
-|3,0,8,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
+|3,0,8,2,8,3,1757684472,"Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1757674200,""
+	{ key = "L", mods = "Control|Shift", chars = "l" },
+|3,0,9,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -548,9 +551,9 @@ $71, 71, 71
 "q@	CHAR	0
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
-""-	CHAR	0
-	a
-|3,1,36,0,1,0,1757698199,"a"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1757698736," "
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -571,20 +574,20 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config-sway.jsonc
 |4,87,1,0,1757697740,"~/.config/waybar/config-sway.jsonc"
-'0  66  39  ~/.config/waybar/config-sway.jsonc
-|4,48,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
-'1  66  23  ~/.config/waybar/config-sway.jsonc
-|4,49,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
-'2  76  43  ~/.config/waybar/config-sway.jsonc
-|4,50,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
+'0  8  15  ~/.config/sway/config
+|4,48,8,15,1757698762,"~/.config/sway/config"
+'1  66  39  ~/.config/waybar/config-sway.jsonc
+|4,49,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
+'2  66  23  ~/.config/waybar/config-sway.jsonc
+|4,50,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
 '3  76  43  ~/.config/waybar/config-sway.jsonc
 |4,51,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
 '4  76  43  ~/.config/waybar/config-sway.jsonc
 |4,52,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
 '5  76  43  ~/.config/waybar/config-sway.jsonc
 |4,53,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
-'6  230  13  ~/.config/waybar/config-sway.jsonc
-|4,54,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+'6  76  43  ~/.config/waybar/config-sway.jsonc
+|4,54,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
 '7  230  13  ~/.config/waybar/config-sway.jsonc
 |4,55,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
 '8  230  13  ~/.config/waybar/config-sway.jsonc
@@ -593,12 +596,30 @@ $71, 71, 71
 |4,57,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
+-'  80  17  ~/.config/sway/config
+|4,39,80,17,1757698756,"~/.config/sway/config"
+-'  9  8  ~/.config/sway/config
+|4,39,9,8,1757698745,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757698706,"~/.config/sway/config"
+-'  66  39  ~/.config/waybar/config-sway.jsonc
+|4,39,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
 -'  66  39  ~/.config/waybar/config-sway.jsonc
 |4,39,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757698361,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757698361,"~/.config/waybar/config-sway.jsonc"
 -'  66  23  ~/.config/waybar/config-sway.jsonc
 |4,39,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
+-'  66  23  ~/.config/waybar/config-sway.jsonc
+|4,39,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757698328,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757698328,"~/.config/waybar/config-sway.jsonc"
 -'  76  43  ~/.config/waybar/config-sway.jsonc
@@ -607,6 +628,12 @@ $71, 71, 71
 |4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
 -'  76  43  ~/.config/waybar/config-sway.jsonc
 |4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
+-'  76  43  ~/.config/waybar/config-sway.jsonc
+|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
+-'  76  43  ~/.config/waybar/config-sway.jsonc
+|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
+-'  76  43  ~/.config/waybar/config-sway.jsonc
+|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
 -'  230  13  ~/.config/waybar/config-sway.jsonc
 |4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
 -'  230  13  ~/.config/waybar/config-sway.jsonc
@@ -615,50 +642,26 @@ $71, 71, 71
 |4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
 -'  230  13  ~/.config/waybar/config-sway.jsonc
 |4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+-'  230  13  ~/.config/waybar/config-sway.jsonc
+|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+-'  230  13  ~/.config/waybar/config-sway.jsonc
+|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+-'  230  13  ~/.config/waybar/config-sway.jsonc
+|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+-'  230  13  ~/.config/waybar/config-sway.jsonc
+|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757697745,"~/.config/waybar/config-sway.jsonc"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757697745,"~/.config/waybar/config-sway.jsonc"
 -'  8  17  ~/.local/share/applications/vim.desktop
 |4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
 -'  8  17  ~/.local/share/applications/vim.desktop
@@ -796,75 +799,16 @@ $71, 71, 71
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.config/waybar/config-sway.jsonc
-	*	1757698388	0
-	"	66	39
-	^	66	40
-	.	66	39
-	+	33	12
-	+	33	0
-	+	44	12
-	+	194	8
-	+	44	0
-	+	206	44
-	+	173	38
-	+	174	43
-	+	223	22
-	+	59	54
-	+	66	25
-	+	76	47
-	+	206	0
-	+	205	26
-	+	206	53
-	+	205	27
-	+	206	0
-	+	204	27
-	+	57	0
-	+	59	78
-	+	76	38
-	+	224	41
-	+	66	24
-	+	76	43
-	+	66	39
-
-> ~/.local/share/applications/vim.desktop
-	*	1757697536	0
-	"	8	17
-	^	8	18
-	.	8	17
-	+	8	7
-	+	7	13
-	+	8	9
-	+	7	9
-	+	9	43
-	+	8	5
-	+	7	13
-	+	9	18
-	+	7	14
-	+	8	17
-
-> ~/.local/bin/sway-run
-	*	1757697444	0
-	"	4	20
-	^	4	21
-	.	4	20
-	+	4	20
-	+	3	16
-	+	4	20
-
 > ~/.config/sway/config
-	*	1757697302	0
-	"	107	4
-	^	76	27
-	.	76	0
-	+	86	0
-	+	80	0
+	*	1757698757	0
+	"	8	15
+	.	8	0
 	+	40	18
 	+	41	27
 	+	80	27
-	+	76	26
+	+	77	26
 	+	80	0
-	+	76	26
+	+	77	26
 	+	197	38
 	+	198	37
 	+	198	0
@@ -932,10 +876,10 @@ $71, 71, 71
 	+	198	0
 	+	197	49
 	+	197	0
-	+	76	27
+	+	77	27
 	+	40	17
 	+	95	35
-	+	76	27
+	+	77	27
 	+	80	38
 	+	79	0
 	+	78	16
@@ -953,13 +897,71 @@ $71, 71, 71
 	+	229	66
 	+	226	109
 	+	232	21
-	+	76	0
+	+	77	0
 	+	40	22
 	+	78	26
-	+	76	0
+	+	77	0
+	+	9	0
+	+	8	0
 	k	74	0
 	s	1	0
 	w	237	0
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757698388	0
+	"	66	39
+	^	66	40
+	.	66	39
+	+	33	12
+	+	33	0
+	+	44	12
+	+	194	8
+	+	44	0
+	+	206	44
+	+	173	38
+	+	174	43
+	+	223	22
+	+	59	54
+	+	66	25
+	+	76	47
+	+	206	0
+	+	205	26
+	+	206	53
+	+	205	27
+	+	206	0
+	+	204	27
+	+	57	0
+	+	59	78
+	+	76	38
+	+	224	41
+	+	66	24
+	+	76	43
+	+	66	39
+
+> ~/.local/share/applications/vim.desktop
+	*	1757697536	0
+	"	8	17
+	^	8	18
+	.	8	17
+	+	8	7
+	+	7	13
+	+	8	9
+	+	7	9
+	+	9	43
+	+	8	5
+	+	7	13
+	+	9	18
+	+	7	14
+	+	8	17
+
+> ~/.local/bin/sway-run
+	*	1757697444	0
+	"	4	20
+	^	4	21
+	.	4	20
+	+	4	20
+	+	3	16
+	+	4	20
 
 > ~/.config/waybar/config.jsonc
 	*	1757697101	0
