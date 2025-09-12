@@ -82,7 +82,6 @@
             wget
             whitesur-icon-theme
             wl-clipboard
-            wlogout
             wlsunset
             xdg-user-dirs
             xdg-utils
