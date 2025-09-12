@@ -20,10 +20,12 @@
 $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
-:wq
-|2,0,1757698762,,"wq"
 :w
-|2,0,1757698725,,"w"
+|2,0,1757699819,,"w"
+:wq
+|2,0,1757700477,,"wq"
+:w!
+|2,0,1757700224,,"w!"
 :m75
 |2,0,1757697278,,"m75"
 :map <LeftDrag> <LeftMouse>
@@ -82,8 +84,6 @@ $71, 71, 71
 |2,0,1757600915,,"'<,'>normal "
 :split
 |2,0,1757597604,,"split"
-:w!
-|2,0,1757592230,,"w!"
 :0p
 |2,0,1757523902,,"0p"
 :reg
@@ -574,230 +574,375 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config-sway.jsonc
 |4,87,1,0,1757697740,"~/.config/waybar/config-sway.jsonc"
-'0  8  15  ~/.config/sway/config
-|4,48,8,15,1757698762,"~/.config/sway/config"
-'1  66  39  ~/.config/waybar/config-sway.jsonc
-|4,49,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
-'2  66  23  ~/.config/waybar/config-sway.jsonc
-|4,50,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
-'3  76  43  ~/.config/waybar/config-sway.jsonc
-|4,51,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
-'4  76  43  ~/.config/waybar/config-sway.jsonc
-|4,52,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
-'5  76  43  ~/.config/waybar/config-sway.jsonc
-|4,53,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
-'6  76  43  ~/.config/waybar/config-sway.jsonc
-|4,54,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
-'7  230  13  ~/.config/waybar/config-sway.jsonc
-|4,55,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
-'8  230  13  ~/.config/waybar/config-sway.jsonc
-|4,56,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
-'9  230  13  ~/.config/waybar/config-sway.jsonc
-|4,57,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
+'0  32  18  ~/.config/fuzzel/fuzzel.ini
+|4,48,32,18,1757700490,"~/.config/fuzzel/fuzzel.ini"
+'1  21  17  ~/.config/fuzzel/power.ini
+|4,49,21,17,1757700477,"~/.config/fuzzel/power.ini"
+'2  21  17  ~/.config/fuzzel/power.ini
+|4,50,21,17,1757700415,"~/.config/fuzzel/power.ini"
+'3  18  16  ~/.config/fuzzel/power.ini
+|4,51,18,16,1757700354,"~/.config/fuzzel/power.ini"
+'4  18  16  ~/.config/fuzzel/power.ini
+|4,52,18,16,1757700354,"~/.config/fuzzel/power.ini"
+'5  18  16  ~/.config/fuzzel/power.ini
+|4,53,18,16,1757700354,"~/.config/fuzzel/power.ini"
+'6  18  16  ~/.config/fuzzel/power.ini
+|4,54,18,16,1757700354,"~/.config/fuzzel/power.ini"
+'7  21  17  ~/.config/fuzzel/power.ini
+|4,55,21,17,1757700225,"~/.config/fuzzel/power.ini"
+'8  21  17  ~/.config/fuzzel/power.ini
+|4,56,21,17,1757700225,"~/.config/fuzzel/power.ini"
+'9  21  17  ~/.config/fuzzel/power.ini
+|4,57,21,17,1757700225,"~/.config/fuzzel/power.ini"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  32  18  ~/.config/fuzzel/fuzzel.ini
+|4,39,32,18,1757700490,"~/.config/fuzzel/fuzzel.ini"
+-'  21  17  ~/.config/fuzzel/power.ini
+|4,39,21,17,1757700477,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757700464,"~/.config/fuzzel/power.ini"
+-'  21  17  ~/.config/fuzzel/power.ini
+|4,39,21,17,1757700415,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757700403,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757700354,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757700354,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757700354,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757700317,"~/.config/fuzzel/power.ini"
+-'  21  17  ~/.config/fuzzel/power.ini
+|4,39,21,17,1757700225,"~/.config/fuzzel/power.ini"
+-'  21  17  ~/.config/fuzzel/power.ini
+|4,39,21,17,1757700225,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757700199,"~/.config/fuzzel/power.ini"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  230  0  ~/.config/waybar/config-sway.jsonc
+|4,39,230,0,1757700113,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757700104,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757700101,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757699757,"~/.config/fuzzel/fuzzel.ini"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
+-'  8  15  ~/.config/sway/config
+|4,39,8,15,1757698762,"~/.config/sway/config"
 -'  8  15  ~/.config/sway/config
 |4,39,8,15,1757698762,"~/.config/sway/config"
 -'  76  4  ~/.config/sway/config
 |4,39,76,4,1757698757,"~/.config/sway/config"
--'  80  17  ~/.config/sway/config
-|4,39,80,17,1757698756,"~/.config/sway/config"
--'  9  8  ~/.config/sway/config
-|4,39,9,8,1757698745,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757698706,"~/.config/sway/config"
--'  66  39  ~/.config/waybar/config-sway.jsonc
-|4,39,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
--'  66  39  ~/.config/waybar/config-sway.jsonc
-|4,39,66,39,1757698391,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757698361,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757698361,"~/.config/waybar/config-sway.jsonc"
--'  66  23  ~/.config/waybar/config-sway.jsonc
-|4,39,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
--'  66  23  ~/.config/waybar/config-sway.jsonc
-|4,39,66,23,1757698342,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757698328,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757698328,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  76  43  ~/.config/waybar/config-sway.jsonc
-|4,39,76,43,1757698223,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  230  13  ~/.config/waybar/config-sway.jsonc
-|4,39,230,13,1757697775,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697753,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697745,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757697745,"~/.config/waybar/config-sway.jsonc"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757697539,"~/.local/share/applications/vim.desktop"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
+-'  76  4  ~/.config/sway/config
+|4,39,76,4,1757698757,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/fuzzel/power.ini
+	*	1757700471	0
+	"	21	17
+	^	15	14
+	.	21	17
+	+	11	7
+	+	12	15
+	+	9	10
+	+	10	10
+	+	9	9
+	+	10	9
+	+	11	0
+	+	8	0
+	+	7	0
+	+	15	13
+	+	17	0
+	+	7	0
+	+	6	0
+	+	20	0
+	+	7	18
+	+	18	17
+	+	7	0
+	+	2	26
+	+	8	14
+	+	11	7
+	+	8	12
+	+	2	26
+	+	15	13
+	+	21	17
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757700107	0
+	"	230	0
+	^	66	40
+	.	66	39
+	+	33	12
+	+	33	0
+	+	44	12
+	+	194	8
+	+	44	0
+	+	206	44
+	+	173	38
+	+	174	43
+	+	223	22
+	+	59	54
+	+	66	25
+	+	76	47
+	+	206	0
+	+	205	26
+	+	206	53
+	+	205	27
+	+	206	0
+	+	204	27
+	+	57	0
+	+	59	78
+	+	76	38
+	+	224	41
+	+	66	24
+	+	76	43
+	+	66	39
+
+> ~/.local/bin/waybar-sway
+	*	1757700089	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1757699819	0
+	"	32	18
+	^	36	12
+	.	32	18
+	+	1	4
+	+	1	0
+	+	6	57
+	+	8	8
+	+	9	21
+	+	21	12
+	+	29	16
+	+	2	22
+	+	21	12
+	+	2	8
+	+	10	0
+	+	8	16
+	+	9	13
+	+	9	0
+	+	8	8
+	+	9	14
+	+	6	0
+	+	6	19
+	+	6	0
+	+	2	24
+	+	17	6
+	+	21	13
+	+	17	7
+	+	10	0
+	+	5	15
+	+	33	11
+	+	23	19
+	+	6	0
+	+	36	21
+	+	33	11
+	+	5	13
+	+	8	7
+	+	9	13
+	+	18	15
+	+	19	14
+	+	18	15
+	+	19	13
+	+	18	16
+	+	19	13
+	+	11	17
+	+	27	0
+	+	12	14
+	+	11	0
+	+	37	15
+	+	40	12
+	+	2	18
+	+	25	2
+	+	26	16
+	+	25	28
+	+	26	15
+	+	8	8
+	+	11	17
+	+	26	0
+	+	33	8
+	+	34	6
+	+	33	7
+	+	11	0
+	+	34	13
+	+	35	13
+	+	34	13
+	+	35	12
+	+	33	14
+	+	21	13
+	+	2	26
+	+	17	7
+	+	2	26
+	+	21	12
+	+	2	26
+	+	16	7
+	+	39	21
+	+	36	12
+	+	32	18
 
 > ~/.config/sway/config
 	*	1757698757	0
@@ -906,37 +1051,6 @@ $71, 71, 71
 	k	74	0
 	s	1	0
 	w	237	0
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757698388	0
-	"	66	39
-	^	66	40
-	.	66	39
-	+	33	12
-	+	33	0
-	+	44	12
-	+	194	8
-	+	44	0
-	+	206	44
-	+	173	38
-	+	174	43
-	+	223	22
-	+	59	54
-	+	66	25
-	+	76	47
-	+	206	0
-	+	205	26
-	+	206	53
-	+	205	27
-	+	206	0
-	+	204	27
-	+	57	0
-	+	59	78
-	+	76	38
-	+	224	41
-	+	66	24
-	+	76	43
-	+	66	39
 
 > ~/.local/share/applications/vim.desktop
 	*	1757697536	0
@@ -1160,89 +1274,6 @@ $71, 71, 71
 	+	5	0
 	+	6	0
 	+	5	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1757695037	0
-	"	36	11
-	^	36	12
-	.	36	12
-	+	1	4
-	+	1	0
-	+	6	57
-	+	8	8
-	+	9	21
-	+	21	12
-	+	29	16
-	+	2	22
-	+	21	12
-	+	2	8
-	+	10	0
-	+	8	16
-	+	9	13
-	+	9	0
-	+	8	8
-	+	9	14
-	+	6	0
-	+	6	19
-	+	6	0
-	+	2	24
-	+	17	6
-	+	21	13
-	+	17	7
-	+	10	0
-	+	5	15
-	+	33	11
-	+	23	19
-	+	6	0
-	+	36	21
-	+	33	11
-	+	5	13
-	+	8	7
-	+	9	13
-	+	18	15
-	+	19	14
-	+	18	15
-	+	19	13
-	+	18	16
-	+	19	13
-	+	11	17
-	+	27	0
-	+	12	14
-	+	11	0
-	+	37	15
-	+	40	12
-	+	2	18
-	+	25	2
-	+	26	16
-	+	25	28
-	+	26	15
-	+	8	8
-	+	11	17
-	+	26	0
-	+	33	8
-	+	34	6
-	+	33	7
-	+	11	0
-	+	34	13
-	+	35	13
-	+	34	13
-	+	35	12
-	+	33	14
-	+	21	13
-	+	2	26
-	+	17	7
-	+	2	26
-	+	21	12
-	+	2	26
-	+	16	7
-	+	39	21
-	+	36	12
-
-> ~/.local/bin/waybar-sway
-	*	1757687385	0
-	"	1	0
-	.	3	0
-	+	3	0
 
 > ~/.config/niri/config.kdl
 	*	1757685998	0
@@ -1534,35 +1565,6 @@ $71, 71, 71
 	+	11	26
 	+	14	0
 	+	14	95
-
-> ~/.config/fuzzel/power.ini
-	*	1757666928	0
-	"	15	13
-	^	15	14
-	.	15	13
-	+	11	7
-	+	12	15
-	+	9	10
-	+	10	10
-	+	9	9
-	+	10	9
-	+	11	0
-	+	8	0
-	+	7	0
-	+	15	13
-	+	17	0
-	+	7	0
-	+	6	0
-	+	20	0
-	+	7	18
-	+	18	17
-	+	7	0
-	+	2	26
-	+	8	14
-	+	11	7
-	+	8	12
-	+	2	26
-	+	15	13
 
 > ~/.config/fuzzel/menu.ini
 	*	1757665760	0
