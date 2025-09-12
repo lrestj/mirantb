@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\V\<nix\>
+~MSle0~/opacity
 
 # Last Substitute Search Pattern:
 ~MSle0&90, 90, 90
@@ -20,12 +20,14 @@
 $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:so $MYVIMRC
+|2,0,1757686850,,"so $MYVIMRC"
+:w
+|2,0,1757686847,,"w"
+:wq
+|2,0,1757682637,,"wq"
 :ver
 |2,0,1757676976,,"ver"
-:w
-|2,0,1757676853,,"w"
-:wq
-|2,0,1757676736,,"wq"
 :m-2
 |2,0,1757674244,,"m-2"
 :saveas ~/.local/bin/powercenter
@@ -76,8 +78,6 @@ $71, 71, 71
 |2,0,1757600915,,"'<,'>normal "
 :split
 |2,0,1757597604,,"split"
-:so $MYVIMRC
-|2,0,1757597047,,"so $MYVIMRC"
 :w!
 |2,0,1757592230,,"w!"
 :0p
@@ -322,6 +322,10 @@ $71, 71, 71
 |2,0,1756038671,,"WQ"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+?/opacity
+|2,1,1757685975,47,"opacity"
+?/csd
+|2,1,1757685093,47,"csd"
 ?/71
 |2,1,1757626083,47,"71"
 ? 71, 71, 71
@@ -464,32 +468,56 @@ $71, 71, 71
 	    bindsym $cs+e exec $editor
 |3,0,0,1,1,0,1757674201,"    bindsym $cs+e exec $editor"
 "1	LINE	0
-	{ key = "L", mods = "Control|Shift", chars = "l" },
-|3,0,1,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
-"2	LINE	0
+	// Uncomment this line to ask the clients to omit their client-side decorations if possible.
+	// If the client will specifically ask for CSD, the request will be honored.
+	// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
+	// This option will also fix border/focus ring drawing behind some semitransparent windows.
+	// After enabling or disabling this, you need to restart the apps for this to take effect.
+	// prefer-no-csd
 	
-|3,0,2,1,1,0,1757674200,""
-"3	LINE	0
-	            kitty
-|3,0,3,1,1,0,1757674139,"            kitty"
+	// You can change the path where screenshots are saved.
+	// A ~ at the front will be expanded to the home directory.
+	// The path is formatted with strftime(3) to give you the screenshot date and time.
+|3,0,1,1,10,0,1757685122,"// Uncomment this line to ask the clients to omit their client-side decorations if possible.","// If the client will specifically ask for CSD, the request will be honored.","// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.","// This option will also fix border/focus ring drawing behind some semitransparent windows.",>92
+|<"// After enabling or disabling this, you need to restart the apps for this to take effect.","// prefer-no-csd","","// You can change the path where screenshots are saved.","// A ~ at the front will be expanded to the home directory.","// The path is formatted with strftime(3) to give you the screenshot date and time."
+"2	LINE	0
+	    Mod++Left  { move-column-left; }
+	    Mod++Down  { move-window-down; }
+	    Mod++Up    { move-window-up; }
+	    Mod++Right { move-column-right; }
+	    Mod++H     { move-column-left; }
+	    Mod++J     { move-window-down; }
+	    Mod++K     { move-window-up; }
+	    Mod++L     { move-column-right; }
+|3,0,2,1,8,0,1757684484,"    Mod++Left  { move-column-left; }","    Mod++Down  { move-window-down; }","    Mod++Up    { move-window-up; }","    Mod++Right { move-column-right; }","    Mod++H     { move-column-left; }","    Mod++J     { move-window-down; }","    Mod++K     { move-window-up; }","    Mod++L     { move-column-right; }"
+"3	BLOCK	3
+	Ctrl
+	Ctrl
+	Ctrl
+	Ctrl
+	Ctrl
+	Ctrl
+	Ctrl
+	Ctrl
+|3,0,3,2,8,3,1757684472,"Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl","Ctrl"
 "4	LINE	0
-	" Alacritty fix
-|3,0,4,1,1,0,1757673896,"\" Alacritty fix"
+	{ key = "L", mods = "Control|Shift", chars = "l" },
+|3,0,4,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
 "5	LINE	0
-	            xfce.ristretto
-|3,0,5,1,1,0,1757669079,"            xfce.ristretto"
+	
+|3,0,5,1,1,0,1757674200,""
 "6	LINE	0
-	            wlogout
-|3,0,6,1,1,0,1757668386,"            wlogout"
+	            kitty
+|3,0,6,1,1,0,1757674139,"            kitty"
 "7	LINE	0
-	anchor=center
-|3,0,7,1,1,0,1757667470,"anchor=center"
+	" Alacritty fix
+|3,0,7,1,1,0,1757673896,"\" Alacritty fix"
 "8	LINE	0
-	exit-on-keyboard-focus-loss=yes
-|3,0,8,1,1,0,1757667463,"exit-on-keyboard-focus-loss=yes"
+	            xfce.ristretto
+|3,0,8,1,1,0,1757669079,"            xfce.ristretto"
 "9	LINE	0
-	minimal-lines=yes
-|3,0,9,1,1,0,1757667179,"minimal-lines=yes"
+	            wlogout
+|3,0,9,1,1,0,1757668386,"            wlogout"
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -510,8 +538,8 @@ $71, 71, 71
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 ""-	CHAR	0
-	latest
-|3,1,36,0,1,0,1757676717,"latest"
+	never
+|3,1,36,0,1,0,1757685473,"never"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -532,232 +560,234 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  19  0  ~/.dotfiles/nixos/modules/overlay.nix
-|4,48,19,0,1757676907,"~/.dotfiles/nixos/modules/overlay.nix"
-'1  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,49,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
-'2  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,50,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
-'3  5  11  ~/.config/foot/kitty
-|4,51,5,11,1757676481,"~/.config/foot/kitty"
-'4  13  8  ~/.config/foot/foot.ini
-|4,52,13,8,1757676441,"~/.config/foot/foot.ini"
-'5  13  8  ~/.config/foot/foot.ini
-|4,53,13,8,1757676441,"~/.config/foot/foot.ini"
-'6  13  6  ~/.config/foot/foot.ini
-|4,54,13,6,1757676395,"~/.config/foot/foot.ini"
-'7  13  6  ~/.config/foot/foot.ini
-|4,55,13,6,1757676395,"~/.config/foot/foot.ini"
-'8  13  9  ~/.config/foot/foot.ini
-|4,56,13,9,1757676277,"~/.config/foot/foot.ini"
-'9  13  9  ~/.config/foot/foot.ini
-|4,57,13,9,1757676277,"~/.config/foot/foot.ini"
+'0  38  0  ~/.config/vim/vimrc
+|4,48,38,0,1757686990,"~/.config/vim/vimrc"
+'1  66  20  ~/.config/vim/vimrc
+|4,49,66,20,1757686916,"~/.config/vim/vimrc"
+'2  66  20  ~/.config/vim/vimrc
+|4,50,66,20,1757686916,"~/.config/vim/vimrc"
+'3  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,51,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+'4  271  28  ~/.config/niri/config.kdl
+|4,52,271,28,1757686024,"~/.config/niri/config.kdl"
+'5  141  40  ~/.config/niri/config.kdl
+|4,53,141,40,1757685735,"~/.config/niri/config.kdl"
+'6  141  40  ~/.config/niri/config.kdl
+|4,54,141,40,1757685735,"~/.config/niri/config.kdl"
+'7  141  4  ~/.config/niri/config.kdl
+|4,55,141,4,1757685602,"~/.config/niri/config.kdl"
+'8  141  4  ~/.config/niri/config.kdl
+|4,56,141,4,1757685602,"~/.config/niri/config.kdl"
+'9  286  0  ~/.config/niri/config.kdl
+|4,57,286,0,1757685140,"~/.config/niri/config.kdl"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  38  0  ~/.config/vim/vimrc
+|4,39,38,0,1757686990,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757677012,"~/.config/vim/vimrc"
--'  19  0  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,19,0,1757676907,"~/.dotfiles/nixos/modules/overlay.nix"
--'  19  0  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,19,0,1757676907,"~/.dotfiles/nixos/modules/overlay.nix"
--'  6  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,12,1757676842,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,12,1757676842,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757676776,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757676776,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
--'  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
--'  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
--'  12  64  ~/.dotfiles/nixos/modules/overlay.nix
-|4,39,12,64,1757676736,"~/.dotfiles/nixos/modules/overlay.nix"
--'  6  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,17,1757676705,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,17,1757676705,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757676675,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757676675,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  5  11  ~/.config/foot/kitty
-|4,39,5,11,1757676481,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/kitty
-|4,39,1,0,1757676478,"~/.config/foot/kitty"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676476,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676463,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  13  8  ~/.config/foot/foot.ini
-|4,39,13,8,1757676441,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676425,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  13  6  ~/.config/foot/foot.ini
-|4,39,13,6,1757676395,"~/.config/foot/foot.ini"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  5  16  ~/.config/foot/kitty
-|4,39,5,16,1757676385,"~/.config/foot/kitty"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/foot/foot.ini
-|4,39,1,0,1757676358,"~/.config/foot/foot.ini"
--'  13  9  ~/.config/foot/foot.ini
-|4,39,13,9,1757676277,"~/.config/foot/foot.ini"
--'  13  9  ~/.config/foot/foot.ini
-|4,39,13,9,1757676277,"~/.config/foot/foot.ini"
--'  13  9  ~/.config/foot/foot.ini
-|4,39,13,9,1757676277,"~/.config/foot/foot.ini"
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  271  28  ~/.config/niri/config.kdl
+|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  403  0  ~/.config/niri/config.kdl
+|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
+-'  141  40  ~/.config/niri/config.kdl
+|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/vim/vimrc
-	*	1757677009	0
-	"	1	0
+	*	1757686985	0
+	"	38	0
 	^	53	1
-	.	53	0
+	.	66	20
 	+	93	0
 	+	11	25
 	+	12	25
@@ -826,159 +856,16 @@ $71, 71, 71
 	+	63	0
 	+	62	18
 	+	53	0
-
-> ~/.dotfiles/nixos/modules/overlay.nix
-	*	1757676906	0
-	"	19	0
-	^	13	77
-	.	13	76
-	+	12	65
-	+	13	76
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757676841	0
-	"	6	12
-	^	25	12
-	.	6	0
-	+	141	0
-	+	141	23
-	+	141	10
-	+	62	12
-	+	141	0
-	+	141	9
-	+	141	10
-	+	35	0
-	+	112	17
-	+	34	19
-	+	112	0
-	+	83	0
-	+	82	17
-	+	70	0
-	+	70	19
-	+	51	0
-	+	35	0
-	+	6	0
-	+	111	0
-	+	6	0
-	+	7	0
-	+	7	22
-	+	1	0
-	+	7	0
-	+	81	0
-	+	111	0
-	+	6	0
-	+	70	0
-	+	49	18
-	+	61	22
-	+	53	16
-	+	29	24
-	+	125	14
-	+	140	0
-	+	127	0
-	+	126	24
-	+	127	37
-	+	141	88
-	+	127	0
-	+	140	0
-	+	50	29
-	+	128	10
-	+	129	38
-	+	139	0
-	+	134	14
-	+	50	0
-	+	7	0
-	+	4	0
-	+	7	14
-	+	141	0
-	+	53	0
-	+	86	0
-	+	139	0
-	+	130	17
-	+	130	0
-	+	45	17
-	+	59	0
-	+	76	0
-	+	53	0
-	+	30	17
-	+	28	26
-	+	26	11
-	+	27	19
-	+	26	0
-	+	133	21
-	+	139	0
-	+	89	21
-	+	48	18
-	+	28	26
-	+	48	0
-	+	28	0
-	+	41	0
-	+	58	16
-	+	28	0
-	+	26	0
-	+	7	0
-	+	34	0
-	+	77	0
-	+	133	0
-	+	131	19
-	+	77	0
-	+	82	0
-	+	137	19
-	+	82	12
-	+	138	0
-	+	82	0
-	+	86	0
-	+	135	19
-	+	88	25
-	+	36	0
-	+	49	0
-	+	136	28
-	+	85	0
-	+	88	0
-	+	25	11
-	+	57	0
-	+	6	0
-
-> ~/.config/foot/kitty
-	*	1757676478	0
-	"	5	11
-	^	5	17
-	.	5	0
-	+	5	0
-
-> ~/.config/foot/foot.ini
-	*	1757676471	0
-	"	13	8
-	^	13	10
-	.	13	0
-	+	6	26
-	+	9	0
-	+	70	0
-	+	9	0
-	+	11	0
-	+	12	0
-	+	108	0
-	+	12	0
-	+	14	0
-	+	22	0
-	+	21	0
-	+	22	1
-	+	3	0
-	+	18	0
-	+	7	38
-	+	70	0
-	+	108	0
-	+	3	0
-	+	10	0
-	+	5	0
-	+	36	0
-	+	42	0
-	+	13	0
-	+	5	0
-	+	13	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	64	20
+	+	65	21
+	+	66	20
 
 > ~/.config/sway/config
-	*	1757675582	0
-	"	228	67
+	*	1757686775	0
+	"	104	28
 	^	228	68
 	.	228	67
 	+	200	100
@@ -1084,6 +971,262 @@ $71, 71, 71
 	k	74	0
 	s	1	0
 	w	237	0
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1757686309	0
+	"	16	7
+	^	17	8
+	.	16	7
+	+	1	4
+	+	1	0
+	+	6	57
+	+	8	8
+	+	9	21
+	+	21	12
+	+	29	16
+	+	2	22
+	+	21	12
+	+	2	8
+	+	10	0
+	+	8	16
+	+	9	13
+	+	9	0
+	+	8	8
+	+	9	14
+	+	6	0
+	+	6	19
+	+	6	0
+	+	2	24
+	+	17	6
+	+	21	13
+	+	17	7
+	+	10	0
+	+	5	15
+	+	33	11
+	+	23	19
+	+	6	0
+	+	36	21
+	+	33	11
+	+	5	13
+	+	8	7
+	+	9	13
+	+	18	15
+	+	19	14
+	+	18	15
+	+	19	13
+	+	18	16
+	+	19	13
+	+	11	17
+	+	27	0
+	+	12	14
+	+	11	0
+	+	37	15
+	+	40	12
+	+	2	18
+	+	25	2
+	+	26	16
+	+	25	28
+	+	26	15
+	+	8	8
+	+	11	17
+	+	26	0
+	+	33	8
+	+	34	6
+	+	33	7
+	+	11	0
+	+	34	13
+	+	35	13
+	+	34	13
+	+	35	12
+	+	33	14
+	+	21	13
+	+	2	26
+	+	17	7
+	+	2	26
+	+	21	12
+	+	2	26
+	+	16	7
+
+> ~/.config/niri/config.kdl
+	*	1757685998	0
+	"	271	28
+	^	271	29
+	.	271	28
+	+	16	0
+	+	17	35
+	+	16	12
+	+	38	0
+	+	39	22
+	+	118	0
+	+	119	0
+	+	122	0
+	+	134	0
+	+	291	28
+	+	301	0
+	+	366	8
+	+	365	67
+	+	404	8
+	+	405	0
+	+	404	0
+	+	282	0
+	+	286	0
+	+	114	9
+	+	122	37
+	+	143	0
+	+	141	0
+	+	143	0
+	+	141	40
+	+	271	28
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757682635	0
+	"	25	15
+	^	25	16
+	.	25	15
+	+	142	0
+	+	142	23
+	+	142	10
+	+	63	12
+	+	142	0
+	+	142	9
+	+	142	10
+	+	36	0
+	+	113	17
+	+	35	19
+	+	113	0
+	+	84	0
+	+	83	17
+	+	71	0
+	+	71	19
+	+	52	0
+	+	36	0
+	+	6	0
+	+	112	0
+	+	6	0
+	+	7	0
+	+	7	22
+	+	1	0
+	+	7	0
+	+	82	0
+	+	112	0
+	+	6	0
+	+	71	0
+	+	50	18
+	+	62	22
+	+	54	16
+	+	30	24
+	+	126	14
+	+	141	0
+	+	128	0
+	+	127	24
+	+	128	37
+	+	142	88
+	+	128	0
+	+	141	0
+	+	51	29
+	+	129	10
+	+	130	38
+	+	140	0
+	+	135	14
+	+	51	0
+	+	7	0
+	+	4	0
+	+	7	14
+	+	142	0
+	+	54	0
+	+	87	0
+	+	140	0
+	+	131	17
+	+	131	0
+	+	46	17
+	+	60	0
+	+	77	0
+	+	54	0
+	+	31	17
+	+	29	26
+	+	27	11
+	+	28	19
+	+	27	0
+	+	134	21
+	+	140	0
+	+	90	21
+	+	49	18
+	+	29	26
+	+	49	0
+	+	29	0
+	+	42	0
+	+	59	16
+	+	29	0
+	+	27	0
+	+	7	0
+	+	35	0
+	+	78	0
+	+	134	0
+	+	132	19
+	+	78	0
+	+	83	0
+	+	138	19
+	+	83	12
+	+	139	0
+	+	83	0
+	+	87	0
+	+	136	19
+	+	89	25
+	+	37	0
+	+	50	0
+	+	137	28
+	+	86	0
+	+	89	0
+	+	26	11
+	+	58	0
+	+	6	0
+	+	25	15
+
+> ~/.dotfiles/nixos/modules/overlay.nix
+	*	1757676906	0
+	"	19	0
+	^	13	77
+	.	13	76
+	+	12	65
+	+	13	76
+
+> ~/.config/foot/kitty
+	*	1757676478	0
+	"	5	11
+	^	5	17
+	.	5	0
+	+	5	0
+
+> ~/.config/foot/foot.ini
+	*	1757676471	0
+	"	13	8
+	^	13	10
+	.	13	0
+	+	6	26
+	+	9	0
+	+	70	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	108	0
+	+	12	0
+	+	14	0
+	+	22	0
+	+	21	0
+	+	22	1
+	+	3	0
+	+	18	0
+	+	7	38
+	+	70	0
+	+	108	0
+	+	3	0
+	+	10	0
+	+	5	0
+	+	36	0
+	+	42	0
+	+	13	0
+	+	5	0
+	+	13	0
 
 > ~/.config/waybar/config-sway.jsonc
 	*	1757675080	0
@@ -1301,78 +1444,6 @@ $71, 71, 71
 	+	15	0
 	+	16	13
 	+	15	7
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1757665347	0
-	"	2	26
-	^	17	8
-	.	2	26
-	+	1	4
-	+	1	0
-	+	6	57
-	+	8	8
-	+	9	21
-	+	21	12
-	+	29	16
-	+	2	22
-	+	21	12
-	+	2	8
-	+	10	0
-	+	8	16
-	+	9	13
-	+	9	0
-	+	8	8
-	+	9	14
-	+	6	0
-	+	6	19
-	+	6	0
-	+	2	24
-	+	17	6
-	+	21	13
-	+	17	7
-	+	10	0
-	+	5	15
-	+	33	11
-	+	23	19
-	+	6	0
-	+	36	21
-	+	33	11
-	+	5	13
-	+	8	7
-	+	9	13
-	+	18	15
-	+	19	14
-	+	18	15
-	+	19	13
-	+	18	16
-	+	19	13
-	+	11	17
-	+	27	0
-	+	12	14
-	+	11	0
-	+	37	15
-	+	40	12
-	+	2	18
-	+	25	2
-	+	26	16
-	+	25	28
-	+	26	15
-	+	8	8
-	+	11	17
-	+	26	0
-	+	33	8
-	+	34	6
-	+	33	7
-	+	11	0
-	+	34	13
-	+	35	13
-	+	34	13
-	+	35	12
-	+	33	14
-	+	21	13
-	+	2	26
-	+	17	7
-	+	2	26
 
 > ~/.local/bin/clouds
 	*	1757662599	0
@@ -2565,12 +2636,3 @@ $71, 71, 71
 	+	13	65
 	+	15	2
 	+	16	0
-
-> /run/media/libor/endeavourOS/etc/greetd/config.toml
-	*	1756999633	0
-	"	1	0
-	^	2	12
-	.	2	11
-	+	1	0
-	+	3	0
-	+	2	11
