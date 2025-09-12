@@ -21,9 +21,11 @@ $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757669083,,"wq"
+|2,0,1757675082,,"wq"
 :w
-|2,0,1757667955,,"w"
+|2,0,1757674592,,"w"
+:m-2
+|2,0,1757674244,,"m-2"
 :saveas ~/.local/bin/powercenter
 |2,0,1757667352,,"saveas ~/.local/bin/powercenter"
 :saveas ~/.config/fuzzel/powercenter.ini
@@ -200,8 +202,6 @@ $71, 71, 71
 |2,0,1756632919,,"w ~/.dotfiles/scripts/nsubmap.txt"
 :w ~/.dotfiles/scripts/helpnotify.txt
 |2,0,1756631659,,"w ~/.dotfiles/scripts/helpnotify.txt"
-:m-2
-|2,0,1756590092,,"m-2"
 :3,5m17
 |2,0,1756500635,,"3,5m17"
 :w ~/.dotfiles/scripts/1binds.txt
@@ -459,41 +459,35 @@ $71, 71, 71
 
 # Registry:
 "0	LINE	0
-	    "$d")
-	        source umgoogledrive;;
-|3,0,0,1,2,0,1757662170,"    \"$d\")","        source umgoogledrive;;"
+	    bindsym $cs+e exec $editor
+|3,0,0,1,1,0,1757674201,"    bindsym $cs+e exec $editor"
 ""1	LINE	0
-	            xfce.ristretto
-|3,1,1,1,1,0,1757669079,"            xfce.ristretto"
+	{ key = "L", mods = "Control|Shift", chars = "l" },
+|3,1,1,1,1,0,1757674814,"{ key = \"L\", mods = \"Control|Shift\", chars = \"l\" },"
 "2	LINE	0
-	            wlogout
-|3,0,2,1,1,0,1757668386,"            wlogout"
+	
+|3,0,2,1,1,0,1757674200,""
 "3	LINE	0
-	anchor=center
-|3,0,3,1,1,0,1757667470,"anchor=center"
+	            kitty
+|3,0,3,1,1,0,1757674139,"            kitty"
 "4	LINE	0
-	exit-on-keyboard-focus-loss=yes
-|3,0,4,1,1,0,1757667463,"exit-on-keyboard-focus-loss=yes"
+	" Alacritty fix
+|3,0,4,1,1,0,1757673896,"\" Alacritty fix"
 "5	LINE	0
-	minimal-lines=yes
-|3,0,5,1,1,0,1757667179,"minimal-lines=yes"
+	            xfce.ristretto
+|3,0,5,1,1,0,1757669079,"            xfce.ristretto"
 "6	LINE	0
-	minimal-lines=yes
-|3,0,6,1,1,0,1757665432,"minimal-lines=yes"
+	            wlogout
+|3,0,6,1,1,0,1757668386,"            wlogout"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1757664935,""
+	anchor=center
+|3,0,7,1,1,0,1757667470,"anchor=center"
 "8	LINE	0
-	    "custom/menu": {
-	        "format": "   Menu  ",
-	        "tooltip-format": "Aplikace",
-	        "on-click": "pkill rofi || rofi -show drun -show-icons",
-	        "on-click-right": "wlogout"
-	    },
-|3,0,8,1,6,0,1757664930,"    \"custom/menu\": {","        \"format\": \"   Menu  \",","        \"tooltip-format\": \"Aplikace\",","        \"on-click\": \"pkill rofi || rofi -show drun -show-icons\",","        \"on-click-right\": \"wlogout\"","    },"
+	exit-on-keyboard-focus-loss=yes
+|3,0,8,1,1,0,1757667463,"exit-on-keyboard-focus-loss=yes"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1757664288,""
+	minimal-lines=yes
+|3,0,9,1,1,0,1757667179,"minimal-lines=yes"
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -514,8 +508,8 @@ $71, 71, 71
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 "-	CHAR	0
-	lines=8
-|3,0,36,0,1,0,1757667823,"lines=8"
+	$editor
+|3,0,36,0,1,0,1757674222,"$editor"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -536,236 +530,394 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  88  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,88,12,1757669083,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  1  0  ~/.config/lxqt/lxqt.conf
-|4,49,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
-'2  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  15  13  ~/.config/fuzzel/powercenter.ini
-|4,56,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
-'9  93  35  ~/.config/sway/config
-|4,57,93,35,1757667598,"~/.config/sway/config"
+'0  76  38  ~/.config/waybar/config-sway.jsonc
+|4,48,76,38,1757675082,"~/.config/waybar/config-sway.jsonc"
+'1  26  9  ~/.config/alacritty/alacritty.toml
+|4,49,26,9,1757674872,"~/.config/alacritty/alacritty.toml"
+'2  27  0  ~/.config/alacritty/alacritty.toml
+|4,50,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+'3  27  0  ~/.config/alacritty/alacritty.toml
+|4,51,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+'4  135  14  ~/.config/sway/config
+|4,52,135,14,1757674631,"~/.config/sway/config"
+'5  18  29  ~/.config/alacritty/alacritty.toml
+|4,53,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+'6  18  29  ~/.config/alacritty/alacritty.toml
+|4,54,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+'7  18  29  ~/.config/alacritty/alacritty.toml
+|4,55,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+'8  18  29  ~/.config/alacritty/alacritty.toml
+|4,56,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+'9  77  16  ~/.config/sway/config
+|4,57,77,16,1757674296,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  88  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,88,12,1757669083,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757669066,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.config/lxqt/lxqt.conf
-|4,39,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
--'  1  0  ~/.config/lxqt/lxqt.conf
-|4,39,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
--'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757668376,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757668376,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757668362,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757668362,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  15  13  ~/.config/fuzzel/powercenter.ini
-|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667747,"~/.local/bin/powercenter"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
--'  93  35  ~/.config/sway/config
-|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  76  38  ~/.config/waybar/config-sway.jsonc
+|4,39,76,38,1757675082,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757675025,"~/.local/bin/waybar-sway"
+-'  26  9  ~/.config/alacritty/alacritty.toml
+|4,39,26,9,1757674872,"~/.config/alacritty/alacritty.toml"
+-'  26  9  ~/.config/alacritty/alacritty.toml
+|4,39,26,9,1757674872,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674863,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674863,"~/.config/alacritty/alacritty.toml"
+-'  27  0  ~/.config/alacritty/alacritty.toml
+|4,39,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+-'  27  0  ~/.config/alacritty/alacritty.toml
+|4,39,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+-'  27  0  ~/.config/alacritty/alacritty.toml
+|4,39,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+-'  27  0  ~/.config/alacritty/alacritty.toml
+|4,39,27,0,1757674832,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674801,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674801,"~/.config/alacritty/alacritty.toml"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
+-'  135  14  ~/.config/sway/config
+|4,39,135,14,1757674631,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674557,"~/.config/sway/config"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  18  29  ~/.config/alacritty/alacritty.toml
+|4,39,18,29,1757674435,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674423,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674423,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674423,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757674423,"~/.config/alacritty/alacritty.toml"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
+-'  77  16  ~/.config/sway/config
+|4,39,77,16,1757674296,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667542,"~/.config/sway/config"
+|4,39,1,0,1757674278,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674278,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674278,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674278,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674278,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1757674249,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674183,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674183,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674183,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757674183,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.config/waybar/config-sway.jsonc
+	*	1757675080	0
+	"	76	38
+	^	76	39
+	.	76	38
+	+	33	12
+	+	33	0
+	+	44	12
+	+	194	8
+	+	44	0
+	+	206	44
+	+	173	38
+	+	174	43
+	+	223	22
+	+	59	54
+	+	66	25
+	+	76	47
+	+	206	0
+	+	205	26
+	+	206	53
+	+	205	27
+	+	206	0
+	+	204	27
+	+	57	0
+	+	59	78
+	+	76	38
+
+> ~/.local/bin/waybar-sway
+	*	1757675014	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> ~/.config/alacritty/alacritty.toml
+	*	1757674869	0
+	"	26	9
+	.	26	9
+	+	7	6
+	+	24	7
+	+	32	0
+	+	24	8
+	+	29	0
+	+	30	14
+	+	31	15
+	+	31	11
+	+	18	29
+	+	27	0
+	+	26	9
+
+> ~/.config/sway/config
+	*	1757674592	0
+	"	135	14
+	^	77	40
+	.	135	14
+	+	203	71
+	+	200	100
+	+	201	107
+	+	202	109
+	+	203	94
+	+	76	27
+	+	41	0
+	+	86	23
+	+	86	142
+	+	86	23
+	+	86	143
+	+	86	28
+	+	86	143
+	+	86	0
+	+	80	0
+	+	40	18
+	+	41	27
+	+	80	27
+	+	79	26
+	+	80	0
+	+	79	26
+	+	196	38
+	+	197	37
+	+	197	0
+	+	196	43
+	+	197	0
+	+	196	0
+	+	197	0
+	+	196	66
+	+	197	73
+	+	198	81
+	+	199	68
+	+	200	94
+	+	201	74
+	+	202	81
+	+	203	83
+	+	204	68
+	+	185	38
+	+	186	0
+	+	185	45
+	+	186	38
+	+	187	0
+	+	186	47
+	+	53	0
+	+	188	0
+	+	187	35
+	+	189	0
+	+	187	35
+	+	188	40
+	+	189	37
+	+	189	48
+	+	191	0
+	+	190	52
+	+	196	45
+	+	204	0
+	+	197	0
+	+	196	68
+	+	197	99
+	+	198	107
+	+	199	94
+	+	200	120
+	+	201	100
+	+	202	107
+	+	203	109
+	+	204	94
+	+	196	42
+	+	197	46
+	+	198	46
+	+	199	46
+	+	200	46
+	+	201	46
+	+	202	46
+	+	203	46
+	+	204	46
+	+	196	0
+	+	64	16
+	+	65	16
+	+	64	9
+	+	65	16
+	+	228	1922
+	+	228	82
+	+	225	70
+	+	228	21
+	+	232	23
+	+	228	89
+	+	196	38
+	+	197	0
+	+	196	49
+	+	196	0
+	+	79	27
+	+	40	17
+	+	94	35
+	+	79	27
+	+	80	38
+	+	78	0
+	+	77	16
+	+	132	14
+	+	133	14
+	+	134	14
+	+	135	14
+	k	74	0
+	s	1	0
+	w	237	0
+
 > ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757669079	0
-	"	88	12
-	^	136	29
-	.	88	0
+	*	1757674139	0
+	"	57	12
+	^	25	12
+	.	57	0
 	+	141	0
 	+	141	23
 	+	141	10
@@ -773,16 +925,16 @@ $71, 71, 71
 	+	141	0
 	+	141	9
 	+	141	10
-	+	34	0
+	+	35	0
 	+	112	17
-	+	33	19
+	+	34	19
 	+	112	0
 	+	83	0
 	+	82	17
 	+	70	0
 	+	70	19
-	+	50	0
-	+	34	0
+	+	51	0
+	+	35	0
 	+	6	0
 	+	111	0
 	+	6	0
@@ -794,10 +946,10 @@ $71, 71, 71
 	+	111	0
 	+	6	0
 	+	70	0
-	+	48	18
+	+	49	18
 	+	61	22
-	+	52	16
-	+	28	24
+	+	53	16
+	+	29	24
 	+	125	14
 	+	140	0
 	+	127	0
@@ -806,43 +958,43 @@ $71, 71, 71
 	+	141	88
 	+	127	0
 	+	140	0
-	+	49	29
+	+	50	29
 	+	128	10
 	+	129	38
 	+	139	0
 	+	134	14
-	+	49	0
+	+	50	0
 	+	7	0
 	+	4	0
 	+	7	14
 	+	141	0
-	+	52	0
+	+	53	0
 	+	86	0
 	+	139	0
 	+	130	17
 	+	130	0
-	+	44	17
+	+	45	17
 	+	59	0
 	+	76	0
-	+	52	0
-	+	29	17
-	+	27	26
-	+	25	11
-	+	26	19
-	+	25	0
+	+	53	0
+	+	30	17
+	+	28	26
+	+	26	11
+	+	27	19
+	+	26	0
 	+	133	21
 	+	139	0
 	+	89	21
-	+	47	18
-	+	27	26
-	+	47	0
-	+	27	0
-	+	40	0
+	+	48	18
+	+	28	26
+	+	48	0
+	+	28	0
+	+	41	0
 	+	58	16
-	+	27	0
-	+	25	0
+	+	28	0
+	+	26	0
 	+	7	0
-	+	33	0
+	+	34	0
 	+	77	0
 	+	133	0
 	+	131	19
@@ -855,11 +1007,134 @@ $71, 71, 71
 	+	86	0
 	+	135	19
 	+	88	25
-	+	35	0
-	+	48	0
+	+	36	0
+	+	49	0
 	+	136	28
 	+	85	0
 	+	88	0
+	+	25	11
+	+	57	0
+
+> ~/.config/vim/vimrc
+	*	1757674078	0
+	"	1	0
+	^	53	1
+	.	53	0
+	+	93	0
+	+	11	25
+	+	12	25
+	+	13	27
+	+	96	0
+	+	37	61
+	+	67	24
+	+	68	25
+	+	89	18
+	+	67	19
+	+	68	20
+	+	89	19
+	+	67	23
+	+	68	23
+	+	89	23
+	+	67	20
+	+	68	21
+	+	89	0
+	+	67	20
+	+	68	21
+	+	67	20
+	+	68	21
+	+	89	20
+	+	68	21
+	+	89	20
+	+	68	21
+	+	67	20
+	+	65	21
+	+	67	20
+	+	68	21
+	+	89	20
+	+	31	0
+	+	89	0
+	+	89	4
+	+	65	0
+	+	89	20
+	+	65	0
+	+	89	16
+	+	89	29
+	+	89	0
+	+	65	0
+	+	89	0
+	+	65	0
+	+	89	0
+	+	61	0
+	+	89	0
+	+	61	0
+	+	89	25
+	+	89	0
+	+	89	16
+	+	95	20
+	+	89	17
+	+	70	0
+	+	79	0
+	+	61	16
+	+	29	0
+	+	28	0
+	+	29	0
+	+	61	0
+	+	30	0
+	+	47	0
+	+	7	0
+	+	7	30
+	+	7	0
+	+	53	1
+	+	63	0
+	+	62	18
+	+	53	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757673877	0
+	"	23	0
+	^	4	27
+	.	4	26
+	+	5	11
+	+	6	9
+	+	5	13
+	+	6	24
+	+	7	21
+	+	6	22
+	+	5	3
+	+	6	0
+	+	8	46
+	+	7	47
+	+	6	49
+	+	5	46
+	+	1	0
+	+	32	21
+	+	7	18
+	+	32	22
+	+	8	17
+	+	6	0
+	+	13	23
+	+	12	0
+	+	15	40
+	+	16	0
+	+	15	0
+	+	19	0
+	+	18	55
+	+	17	23
+	+	20	30
+	+	22	0
+	+	23	0
+	+	23	3
+	+	25	0
+	+	6	0
+	+	4	26
+
+> ~/.config/Alacritty/alacritty.toml
+	*	1757673423	0
+	"	7	6
+	^	18	25
+	.	7	6
+	+	18	25
+	+	7	6
 
 > ~/.config/lxqt/lxqt.conf
 	*	1757668590	0
@@ -923,115 +1198,6 @@ $71, 71, 71
 	+	11	26
 	+	14	0
 	+	14	100
-
-> ~/.config/sway/config
-	*	1757667596	0
-	"	93	35
-	^	93	36
-	.	93	35
-	+	194	91
-	+	195	99
-	+	196	107
-	+	197	94
-	+	198	120
-	+	199	71
-	+	200	71
-	+	201	71
-	+	202	71
-	+	199	100
-	+	200	107
-	+	201	109
-	+	202	94
-	+	76	27
-	+	41	0
-	+	85	23
-	+	85	142
-	+	85	23
-	+	85	143
-	+	85	28
-	+	85	143
-	+	85	0
-	+	79	0
-	+	40	18
-	+	41	27
-	+	79	27
-	+	78	26
-	+	79	0
-	+	78	26
-	+	195	38
-	+	196	37
-	+	196	0
-	+	195	43
-	+	196	0
-	+	195	0
-	+	196	0
-	+	195	66
-	+	196	73
-	+	197	81
-	+	198	68
-	+	199	94
-	+	200	74
-	+	201	81
-	+	202	83
-	+	203	68
-	+	184	38
-	+	185	0
-	+	184	45
-	+	185	38
-	+	186	0
-	+	185	47
-	+	53	0
-	+	187	0
-	+	186	35
-	+	188	0
-	+	186	35
-	+	187	40
-	+	188	37
-	+	188	48
-	+	190	0
-	+	189	52
-	+	195	45
-	+	203	0
-	+	196	0
-	+	195	68
-	+	196	99
-	+	197	107
-	+	198	94
-	+	199	120
-	+	200	100
-	+	201	107
-	+	202	109
-	+	203	94
-	+	195	42
-	+	196	46
-	+	197	46
-	+	198	46
-	+	199	46
-	+	200	46
-	+	201	46
-	+	202	46
-	+	203	46
-	+	195	0
-	+	64	16
-	+	65	16
-	+	64	9
-	+	65	16
-	+	227	1922
-	+	227	82
-	+	224	70
-	+	227	21
-	+	231	23
-	+	227	89
-	+	195	38
-	+	196	0
-	+	195	49
-	+	195	0
-	+	78	27
-	+	40	17
-	+	93	35
-	k	74	0
-	s	1	0
-	w	236	0
 
 > ~/.local/bin/power
 	*	1757667117	0
@@ -1163,38 +1329,6 @@ $71, 71, 71
 	+	17	7
 	+	2	26
 
-> ~/.config/waybar/config-sway.jsonc
-	*	1757665044	0
-	"	32	22
-	^	59	78
-	.	59	78
-	+	33	12
-	+	33	0
-	+	44	12
-	+	194	8
-	+	44	0
-	+	206	44
-	+	173	38
-	+	174	43
-	+	223	22
-	+	59	54
-	+	66	25
-	+	76	47
-	+	206	0
-	+	205	26
-	+	206	53
-	+	205	27
-	+	206	0
-	+	204	27
-	+	57	0
-	+	59	78
-
-> ~/.local/bin/waybar-sway
-	*	1757662963	0
-	"	1	0
-	.	3	0
-	+	3	0
-
 > ~/.local/bin/clouds
 	*	1757662599	0
 	"	25	34
@@ -1281,75 +1415,6 @@ $71, 71, 71
 	+	13	0
 	+	5	0
 
-> ~/.config/vim/vimrc
-	*	1757657925	0
-	"	1	0
-	.	7	0
-	+	82	0
-	+	11	25
-	+	12	25
-	+	13	27
-	+	85	0
-	+	37	61
-	+	56	24
-	+	57	25
-	+	78	18
-	+	56	19
-	+	57	20
-	+	78	19
-	+	56	23
-	+	57	23
-	+	78	23
-	+	56	20
-	+	57	21
-	+	78	0
-	+	56	20
-	+	57	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	78	20
-	+	57	21
-	+	56	20
-	+	54	21
-	+	56	20
-	+	57	21
-	+	78	20
-	+	31	0
-	+	78	0
-	+	78	4
-	+	54	0
-	+	78	20
-	+	54	0
-	+	78	16
-	+	78	29
-	+	78	0
-	+	54	0
-	+	78	0
-	+	54	0
-	+	78	0
-	+	53	0
-	+	78	0
-	+	53	0
-	+	78	25
-	+	78	0
-	+	78	16
-	+	84	20
-	+	78	17
-	+	59	0
-	+	68	0
-	+	53	16
-	+	29	0
-	+	28	0
-	+	29	0
-	+	53	0
-	+	30	0
-	+	47	0
-	+	7	0
-	+	7	30
-	+	7	0
-
 > ~/xnview theme
 	*	1757626214	0
 	"	1	0
@@ -1359,45 +1424,6 @@ $71, 71, 71
 	+	8	0
 	+	33	0
 	+	1	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757621637	0
-	"	4	26
-	^	4	27
-	.	4	26
-	+	5	11
-	+	6	9
-	+	5	13
-	+	6	24
-	+	7	21
-	+	6	22
-	+	5	3
-	+	6	0
-	+	8	46
-	+	7	47
-	+	6	49
-	+	5	46
-	+	1	0
-	+	32	21
-	+	7	18
-	+	32	22
-	+	8	17
-	+	6	0
-	+	13	23
-	+	12	0
-	+	15	40
-	+	16	0
-	+	15	0
-	+	19	0
-	+	18	55
-	+	17	23
-	+	20	30
-	+	22	0
-	+	23	0
-	+	23	3
-	+	25	0
-	+	6	0
-	+	4	26
 
 > ~/.config/xnviewmp/style_sheet_linux.qss
 	*	1757620993	0
@@ -1759,20 +1785,6 @@ $71, 71, 71
 	+	18	7
 	+	21	7
 	+	10	82
-
-> ~/.config/alacritty/alacritty.toml
-	*	1757449462	0
-	"	28	11
-	^	28	12
-	.	28	11
-	+	7	6
-	+	24	7
-	+	29	0
-	+	24	8
-	+	26	0
-	+	27	14
-	+	28	15
-	+	28	11
 
 > ~/.local/bin/vimrun
 	*	1757441924	0
@@ -2618,9 +2630,3 @@ $71, 71, 71
 	+	8	25
 	+	9	8
 	+	5	0
-
-> ~/.dotfiles/scripts/pokus.sh
-	*	1756977182	0
-	"	1	0
-	.	2	0
-	+	2	0

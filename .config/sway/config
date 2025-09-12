@@ -74,9 +74,10 @@
 ### Keybindings
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
+    bindsym $ms+y exec alacritty -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+a exec kitty
-    bindsym $ms+e exec $term
+    bindsym $ms+a exec alacritty
+    bindsym $ms+e exec alacritty -e vim
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
@@ -128,10 +129,10 @@
     bindsym $mod+Right focus right
 
     # Move the focused window 
-    bindsym $ma+h move left
-    bindsym $ma+j move down
-    bindsym $ma+k move up
-    bindsym $ma+l move right
+    bindsym $ms+h move left
+    bindsym $ms+j move down
+    bindsym $ms+k move up
+    bindsym $ms+l move right
 
     # Resize container
     bindsym $ms+Left resize shrink width 10px

@@ -50,6 +50,15 @@ set undofile undolevels=5000
 set undodir=~/.config/vim/undodir
 command! -nargs=0 CleanUpUndoFiles !find ~/.vim/tmp/undo -type f -mtime +100d -delete
 
+" Alacritty Alt fix
+    let c='a'
+    while c <= 'z'
+      exec "set <A-".c.">=\e".c
+      exec "imap \e".c." <A-".c.">"
+      let c = nr2char(1+char2nr(c))
+    endw
+    set timeout ttimeoutlen=50
+
 "Statusline and custom background    
 hi StatusLine ctermbg=0 ctermfg=22
 hi Normal ctermbg=234   

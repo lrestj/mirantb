@@ -73,7 +73,7 @@
         "critical-threshold": 80,
         "format": " {icon} {temperatureC} °C  ",
         "format-icons": ["", "", ""],
-        "on-click": "pkill btop || kitty --class btop -e btop",
+        "on-click": "pkill btop || foot -a btop -e btop",
         "on-click-right": ""
     },
 
