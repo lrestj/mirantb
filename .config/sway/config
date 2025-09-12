@@ -90,7 +90,7 @@
     # Show menus
     bindsym $mod+y exec pkill fuzzel || $menu
     bindsym Alt+y exec pkill fuzzel || bemoji
-    bindsym $mod+x exec pkill wlogout || power
+    bindsym $mod+x exec pkill fuzzel || powercenter
 
     # Touchpad ON/OFF
     bindsym $ms+t  input type:touchpad events toggle enabled disabled, \
