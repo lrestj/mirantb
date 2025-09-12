@@ -208,15 +208,8 @@
 
     "custom/power": {
         "format" : "  ",
-        "tooltip-format": "Vypnout...",
-        "menu": "on-click",
-        "menu-file": "~/.config/waybar/power_menu.xml",
-        "menu-actions": {
-            "uspat": "systemctl suspend",
-            "odhlásit": "sleep 1 && swaymsg exit",
-            "vypnout": "systemctl poweroff",
-            "restart": "systemctl reboot"
-        }
+        "tooltip-format": "",
+        "on-click": "power"
     }
 }, 
 
