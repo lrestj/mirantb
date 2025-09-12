@@ -85,7 +85,6 @@
             wlsunset
             xdg-user-dirs
             xdg-utils
-            xfce.ristretto
             xnviewmp
             xorg.xeyes
             xournalpp

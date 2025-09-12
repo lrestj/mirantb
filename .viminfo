@@ -21,7 +21,7 @@ $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757668398,,"wq"
+|2,0,1757669083,,"wq"
 :w
 |2,0,1757667955,,"w"
 :saveas ~/.local/bin/powercenter
@@ -463,44 +463,37 @@ $71, 71, 71
 	        source umgoogledrive;;
 |3,0,0,1,2,0,1757662170,"    \"$d\")","        source umgoogledrive;;"
 ""1	LINE	0
-	            wlogout
-|3,1,1,1,1,0,1757668386,"            wlogout"
+	            xfce.ristretto
+|3,1,1,1,1,0,1757669079,"            xfce.ristretto"
 "2	LINE	0
-	anchor=center
-|3,0,2,1,1,0,1757667470,"anchor=center"
+	            wlogout
+|3,0,2,1,1,0,1757668386,"            wlogout"
 "3	LINE	0
-	exit-on-keyboard-focus-loss=yes
-|3,0,3,1,1,0,1757667463,"exit-on-keyboard-focus-loss=yes"
+	anchor=center
+|3,0,3,1,1,0,1757667470,"anchor=center"
 "4	LINE	0
-	minimal-lines=yes
-|3,0,4,1,1,0,1757667179,"minimal-lines=yes"
+	exit-on-keyboard-focus-loss=yes
+|3,0,4,1,1,0,1757667463,"exit-on-keyboard-focus-loss=yes"
 "5	LINE	0
 	minimal-lines=yes
-|3,0,5,1,1,0,1757665432,"minimal-lines=yes"
+|3,0,5,1,1,0,1757667179,"minimal-lines=yes"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1757664935,""
+	minimal-lines=yes
+|3,0,6,1,1,0,1757665432,"minimal-lines=yes"
 "7	LINE	0
+	
+|3,0,7,1,1,0,1757664935,""
+"8	LINE	0
 	    "custom/menu": {
 	        "format": "   Menu  ",
 	        "tooltip-format": "Aplikace",
 	        "on-click": "pkill rofi || rofi -show drun -show-icons",
 	        "on-click-right": "wlogout"
 	    },
-|3,0,7,1,6,0,1757664930,"    \"custom/menu\": {","        \"format\": \"   Menu  \",","        \"tooltip-format\": \"Aplikace\",","        \"on-click\": \"pkill rofi || rofi -show drun -show-icons\",","        \"on-click-right\": \"wlogout\"","    },"
-"8	LINE	0
-	
-|3,0,8,1,1,0,1757664288,""
+|3,0,8,1,6,0,1757664930,"    \"custom/menu\": {","        \"format\": \"   Menu  \",","        \"tooltip-format\": \"Aplikace\",","        \"on-click\": \"pkill rofi || rofi -show drun -show-icons\",","        \"on-click-right\": \"wlogout\"","    },"
 "9	LINE	0
-	        // "menu": "on-click",
-	        // "menu-file": "~/.config/waybar/power_menu.xml",
-	        // "menu-actions": {
-	        //     "uspat": "systemctl suspend",
-	        //     "odhlásit": "sleep 1 && swaymsg exit"
-	        //     "vypnout": "systemctl poweroff",
-	        //     "restart": "systemctl reboot"
-	        // }
-|3,0,9,1,8,0,1757663837,"        // \"menu\": \"on-click\",","        // \"menu-file\": \"~/.config/waybar/power_menu.xml\",","        // \"menu-actions\": {","        //     \"uspat\": \"systemctl suspend\",","        //     \"odhlásit\": \"sleep 1 && swaymsg exit\"","        //     \"vypnout\": \"systemctl poweroff\",","        //     \"restart\": \"systemctl reboot\"","        // }"
+	
+|3,0,9,1,1,0,1757664288,""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -543,36 +536,58 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,49,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'2  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  15  13  ~/.config/fuzzel/powercenter.ini
-|4,51,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
-'4  93  35  ~/.config/sway/config
-|4,52,93,35,1757667598,"~/.config/sway/config"
-'5  14  109  ~/.local/bin/powercenter
-|4,53,14,109,1757667518,"~/.local/bin/powercenter"
-'6  14  109  ~/.local/bin/powercenter
-|4,54,14,109,1757667518,"~/.local/bin/powercenter"
-'7  8  0  ~/.config/fuzzel/powercenter.ini
-|4,55,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
-'8  8  0  ~/.config/fuzzel/powercenter.ini
-|4,56,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
-'9  93  51  ~/.config/sway/config
-|4,57,93,51,1757667384,"~/.config/sway/config"
+'0  88  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,88,12,1757669083,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  1  0  ~/.config/lxqt/lxqt.conf
+|4,49,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
+'2  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  15  13  ~/.config/fuzzel/powercenter.ini
+|4,56,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+'9  93  35  ~/.config/sway/config
+|4,57,93,35,1757667598,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  88  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,88,12,1757669083,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757669066,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.config/lxqt/lxqt.conf
+|4,39,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
+-'  1  0  ~/.config/lxqt/lxqt.conf
+|4,39,1,0,1757668601,"~/.config/lxqt/lxqt.conf"
 -'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  85  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,85,12,1757668398,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757668376,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757668376,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  75  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,75,0,1757668368,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757668362,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757668362,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  15  13  ~/.config/fuzzel/powercenter.ini
@@ -583,6 +598,54 @@ $71, 71, 71
 |4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
 -'  15  13  ~/.config/fuzzel/powercenter.ini
 |4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  15  13  ~/.config/fuzzel/powercenter.ini
+|4,39,15,13,1757667966,"~/.config/fuzzel/powercenter.ini"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1757667747,"~/.local/bin/powercenter"
 -'  1  0  ~/.local/bin/powercenter
 |4,39,1,0,1757667747,"~/.local/bin/powercenter"
 -'  1  0  ~/.local/bin/powercenter
@@ -607,6 +670,54 @@ $71, 71, 71
 |4,39,93,35,1757667598,"~/.config/sway/config"
 -'  93  35  ~/.config/sway/config
 |4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
+-'  93  35  ~/.config/sway/config
+|4,39,93,35,1757667598,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757667542,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -623,167 +734,49 @@ $71, 71, 71
 |4,39,1,0,1757667542,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757667542,"~/.config/sway/config"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  14  109  ~/.local/bin/powercenter
-|4,39,14,109,1757667518,"~/.local/bin/powercenter"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  8  0  ~/.config/fuzzel/powercenter.ini
-|4,39,8,0,1757667484,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.config/fuzzel/powercenter.ini
-|4,39,1,0,1757667448,"~/.config/fuzzel/powercenter.ini"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1757667414,"~/.local/bin/powercenter"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
--'  93  51  ~/.config/sway/config
-|4,39,93,51,1757667384,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667358,"~/.config/sway/config"
+|4,39,1,0,1757667542,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667358,"~/.config/sway/config"
+|4,39,1,0,1757667542,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757667358,"~/.config/sway/config"
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757667542,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757668396	0
-	"	85	12
-	^	137	29
-	.	85	0
-	+	142	0
-	+	142	23
-	+	142	10
+	*	1757669079	0
+	"	88	12
+	^	136	29
+	.	88	0
+	+	141	0
+	+	141	23
+	+	141	10
 	+	62	12
-	+	142	0
-	+	142	9
-	+	142	10
+	+	141	0
+	+	141	9
+	+	141	10
 	+	34	0
-	+	113	17
+	+	112	17
 	+	33	19
-	+	113	0
+	+	112	0
 	+	83	0
 	+	82	17
 	+	70	0
@@ -791,43 +784,43 @@ $71, 71, 71
 	+	50	0
 	+	34	0
 	+	6	0
-	+	112	0
+	+	111	0
 	+	6	0
 	+	7	0
 	+	7	22
 	+	1	0
 	+	7	0
 	+	81	0
-	+	112	0
+	+	111	0
 	+	6	0
 	+	70	0
 	+	48	18
 	+	61	22
 	+	52	16
 	+	28	24
-	+	126	14
-	+	141	0
-	+	128	0
-	+	127	24
-	+	128	37
-	+	142	88
-	+	128	0
-	+	141	0
-	+	49	29
-	+	129	10
-	+	130	38
+	+	125	14
 	+	140	0
-	+	135	14
+	+	127	0
+	+	126	24
+	+	127	37
+	+	141	88
+	+	127	0
+	+	140	0
+	+	49	29
+	+	128	10
+	+	129	38
+	+	139	0
+	+	134	14
 	+	49	0
 	+	7	0
 	+	4	0
 	+	7	14
-	+	142	0
+	+	141	0
 	+	52	0
 	+	86	0
-	+	140	0
-	+	131	17
-	+	131	0
+	+	139	0
+	+	130	17
+	+	130	0
 	+	44	17
 	+	59	0
 	+	76	0
@@ -837,9 +830,9 @@ $71, 71, 71
 	+	25	11
 	+	26	19
 	+	25	0
-	+	134	21
-	+	140	0
-	+	90	21
+	+	133	21
+	+	139	0
+	+	89	21
 	+	47	18
 	+	27	26
 	+	47	0
@@ -851,21 +844,26 @@ $71, 71, 71
 	+	7	0
 	+	33	0
 	+	77	0
-	+	134	0
-	+	132	19
+	+	133	0
+	+	131	19
 	+	77	0
 	+	82	0
-	+	138	19
+	+	137	19
 	+	82	12
-	+	139	0
+	+	138	0
 	+	82	0
 	+	86	0
-	+	136	19
+	+	135	19
 	+	88	25
 	+	35	0
 	+	48	0
-	+	137	28
+	+	136	28
 	+	85	0
+	+	88	0
+
+> ~/.config/lxqt/lxqt.conf
+	*	1757668590	0
+	"	1	0
 
 > ~/.config/fuzzel/powercenter.ini
 	*	1757667955	0
@@ -2626,7 +2624,3 @@ $71, 71, 71
 	"	1	0
 	.	2	0
 	+	2	0
-
-> ~/.dotfiles/scripts/umgoogledrive.sh
-	*	1756834335	0
-	"	1	0

@@ -6,6 +6,9 @@
       <property name="position" type="string" value="left"/>
     </property>
     <property name="height" type="uint" value="1034"/>
-    <property name="width" type="uint" value="1870"/>
+    <property name="width" type="uint" value="931"/>
+  </property>
+  <property name="desktop" type="empty">
+    <property name="type" type="string" value="none"/>
   </property>
 </channel>
