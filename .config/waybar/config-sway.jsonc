@@ -63,7 +63,7 @@
     "cpu": {
         "format": "CPU   {usage}%",
         "tooltip": false,
-        "on-click": "kitty",
+        "on-click": "pkill alacritty || alacritty",
         "on-click-right": "",
         "on-click-middle": ""
     },
@@ -73,7 +73,7 @@
         "critical-threshold": 80,
         "format": " {icon} {temperatureC} °C  ",
         "format-icons": ["", "", ""],
-        "on-click": "pkill btop || foot -a btop -e btop",
+        "on-click": "pkill btop || alacritty --class btop -e btop",
         "on-click-right": ""
     },
 
@@ -221,7 +221,7 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 38,
-        "tooltip-format": "{title}",
+        "tooltip-format": "{title} | {app_id}",
         "on-click": "activate",
         "on-click-right": "close"
     }

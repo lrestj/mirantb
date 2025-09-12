@@ -5,7 +5,7 @@
 
 ### Input configuration
     input 2:7:SynPS/2_Synaptics_TouchPad {
-        dwt disabled
+        dwt enabled
         tap enabled
         natural_scroll disabled
         middle_emulation enabled
@@ -37,7 +37,7 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term foot
+    set $term alacritty
     set $editor $term -e vim
     set $browser brave
     set $menu fuzzel
@@ -73,10 +73,10 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
+    bindsym $ms+a exec foot
     bindsym $cs+y exec $term -e yazi
-    bindsym $ms+y exec alacritty -e yazi
+    bindsym $ms+y exec foot -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+a exec alacritty
     bindsym $ms+e exec alacritty -e vim
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
@@ -84,6 +84,7 @@
     bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper
     bindsym $cs+m exec clouds   
+    bindsym $cs+x exec xeyes
 
     # Mako emergency
     bindsym $ms+m exec makoctl dismiss --all && makoctl reload
@@ -222,11 +223,10 @@
 ### Windows rules
     for_window [class=".*"] move left
     for_window [app_id="org.gnome.Calculator"] floating enable
-    for_window [app_id="org.pulseaudio.pavucontrol"] floating enable, resize set 630 400, move position 700px 3px
+    for_window [app_id="org.pulseaudio.pavucontrol"] floating enable, resize set 630 400, move position 700 3
     for_window [app_id="script"] floating enable, resize set 400 100
     for_window [title="Authentication Required"] floating enable
-    for_window [app_id="btop"] floating enable, resize set 1585  800, move position center
+    for_window [title="xeyes"] floating enable, move position 880 5
+    for_window [app_id="btop"] floating enable, resize set 1585  800 
 
-include /etc/sway/config.d/*
-
-##### END OF FILE #####
+#### END OF FILE #####
