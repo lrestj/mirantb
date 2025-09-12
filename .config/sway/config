@@ -37,7 +37,7 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term kitty
+    set $term foot
     set $editor $term -e vim
     set $browser brave
     set $menu fuzzel
@@ -75,7 +75,7 @@
     bindsym $mod+a exec $term
     bindsym $cs+y exec $term -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+a exec foot
+    bindsym $ms+a exec kitty
     bindsym $ms+e exec $term
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
