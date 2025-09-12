@@ -20,12 +20,12 @@
 $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1757687686,,"wq"
+:w
+|2,0,1757687569,,"w"
 :so $MYVIMRC
 |2,0,1757686850,,"so $MYVIMRC"
-:w
-|2,0,1757686847,,"w"
-:wq
-|2,0,1757682637,,"wq"
 :ver
 |2,0,1757676976,,"ver"
 :m-2
@@ -560,28 +560,46 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  38  0  ~/.config/vim/vimrc
-|4,48,38,0,1757686990,"~/.config/vim/vimrc"
-'1  66  20  ~/.config/vim/vimrc
-|4,49,66,20,1757686916,"~/.config/vim/vimrc"
-'2  66  20  ~/.config/vim/vimrc
-|4,50,66,20,1757686916,"~/.config/vim/vimrc"
-'3  16  7  ~/.config/fuzzel/fuzzel.ini
-|4,51,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
-'4  271  28  ~/.config/niri/config.kdl
-|4,52,271,28,1757686024,"~/.config/niri/config.kdl"
-'5  141  40  ~/.config/niri/config.kdl
-|4,53,141,40,1757685735,"~/.config/niri/config.kdl"
-'6  141  40  ~/.config/niri/config.kdl
-|4,54,141,40,1757685735,"~/.config/niri/config.kdl"
-'7  141  4  ~/.config/niri/config.kdl
-|4,55,141,4,1757685602,"~/.config/niri/config.kdl"
-'8  141  4  ~/.config/niri/config.kdl
-|4,56,141,4,1757685602,"~/.config/niri/config.kdl"
-'9  286  0  ~/.config/niri/config.kdl
-|4,57,286,0,1757685140,"~/.config/niri/config.kdl"
+'0  224  41  ~/.config/waybar/config-sway.jsonc
+|4,48,224,41,1757687686,"~/.config/waybar/config-sway.jsonc"
+'1  224  36  ~/.config/waybar/config-sway.jsonc
+|4,49,224,36,1757687583,"~/.config/waybar/config-sway.jsonc"
+'2  38  0  ~/.config/vim/vimrc
+|4,50,38,0,1757686990,"~/.config/vim/vimrc"
+'3  66  20  ~/.config/vim/vimrc
+|4,51,66,20,1757686916,"~/.config/vim/vimrc"
+'4  66  20  ~/.config/vim/vimrc
+|4,52,66,20,1757686916,"~/.config/vim/vimrc"
+'5  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,53,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+'6  271  28  ~/.config/niri/config.kdl
+|4,54,271,28,1757686024,"~/.config/niri/config.kdl"
+'7  141  40  ~/.config/niri/config.kdl
+|4,55,141,40,1757685735,"~/.config/niri/config.kdl"
+'8  141  40  ~/.config/niri/config.kdl
+|4,56,141,40,1757685735,"~/.config/niri/config.kdl"
+'9  141  4  ~/.config/niri/config.kdl
+|4,57,141,4,1757685602,"~/.config/niri/config.kdl"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  224  41  ~/.config/waybar/config-sway.jsonc
+|4,39,224,41,1757687686,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757687644,"~/.config/waybar/config-sway.jsonc"
+-'  224  36  ~/.config/waybar/config-sway.jsonc
+|4,39,224,36,1757687583,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757687409,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757687406,"~/.local/bin/waybar-sway"
+-'  1  0  ~/.local/bin/waybar-sway
+|4,39,1,0,1757687406,"~/.local/bin/waybar-sway"
+-'  38  0  ~/.config/vim/vimrc
+|4,39,38,0,1757686990,"~/.config/vim/vimrc"
+-'  38  0  ~/.config/vim/vimrc
+|4,39,38,0,1757686990,"~/.config/vim/vimrc"
+-'  38  0  ~/.config/vim/vimrc
+|4,39,38,0,1757686990,"~/.config/vim/vimrc"
 -'  38  0  ~/.config/vim/vimrc
 |4,39,38,0,1757686990,"~/.config/vim/vimrc"
 -'  66  20  ~/.config/vim/vimrc
@@ -590,6 +608,42 @@ $71, 71, 71
 |4,39,66,20,1757686916,"~/.config/vim/vimrc"
 -'  66  20  ~/.config/vim/vimrc
 |4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  66  20  ~/.config/vim/vimrc
+|4,39,66,20,1757686916,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757686781,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757686781,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
@@ -604,6 +658,54 @@ $71, 71, 71
 |4,39,104,28,1757686779,"~/.config/sway/config"
 -'  104  28  ~/.config/sway/config
 |4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  104  28  ~/.config/sway/config
+|4,39,104,28,1757686779,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757686612,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757686612,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -628,160 +730,94 @@ $71, 71, 71
 |4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
 -'  16  7  ~/.config/fuzzel/fuzzel.ini
 |4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
+-'  16  7  ~/.config/fuzzel/fuzzel.ini
+|4,39,16,7,1757686323,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1757686257,"~/.config/fuzzel/fuzzel.ini"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  271  28  ~/.config/niri/config.kdl
-|4,39,271,28,1757686024,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  403  0  ~/.config/niri/config.kdl
-|4,39,403,0,1757685975,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1757685746,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
--'  141  40  ~/.config/niri/config.kdl
-|4,39,141,40,1757685735,"~/.config/niri/config.kdl"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757687685	0
+	"	224	41
+	^	224	42
+	.	224	41
+	+	33	12
+	+	33	0
+	+	44	12
+	+	194	8
+	+	44	0
+	+	206	44
+	+	173	38
+	+	174	43
+	+	223	22
+	+	59	54
+	+	66	25
+	+	76	47
+	+	206	0
+	+	205	26
+	+	206	53
+	+	205	27
+	+	206	0
+	+	204	27
+	+	57	0
+	+	59	78
+	+	76	38
+	+	224	41
+
+> ~/.local/bin/waybar-sway
+	*	1757687385	0
+	"	1	0
+	.	3	0
+	+	3	0
 
 > ~/.config/vim/vimrc
 	*	1757686985	0
@@ -1227,39 +1263,6 @@ $71, 71, 71
 	+	13	0
 	+	5	0
 	+	13	0
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757675080	0
-	"	76	38
-	^	76	39
-	.	76	38
-	+	33	12
-	+	33	0
-	+	44	12
-	+	194	8
-	+	44	0
-	+	206	44
-	+	173	38
-	+	174	43
-	+	223	22
-	+	59	54
-	+	66	25
-	+	76	47
-	+	206	0
-	+	205	26
-	+	206	53
-	+	205	27
-	+	206	0
-	+	204	27
-	+	57	0
-	+	59	78
-	+	76	38
-
-> ~/.local/bin/waybar-sway
-	*	1757675014	0
-	"	1	0
-	.	3	0
-	+	3	0
 
 > ~/.config/alacritty/alacritty.toml
 	*	1757674869	0

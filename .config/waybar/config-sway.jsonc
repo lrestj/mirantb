@@ -221,7 +221,7 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 38,
-        "tooltip-format": "{title}",
+        "tooltip-format": "{title} | {app_id}",
         "on-click": "activate",
         "on-click-right": "close"
     }
