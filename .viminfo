@@ -21,9 +21,9 @@ $71, 71, 71
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :w
-|2,0,1757663919,,"w"
+|2,0,1757664622,,"w"
 :wq
-|2,0,1757663841,,"wq"
+|2,0,1757664385,,"wq"
 :w! ~/.local/bin/power
 |2,0,1757662599,,"w! ~/.local/bin/power"
 :w ~/.local/bin/power
@@ -455,6 +455,9 @@ $71, 71, 71
 	        source umgoogledrive;;
 |3,0,0,1,2,0,1757662170,"    \"$d\")","        source umgoogledrive;;"
 "1	LINE	0
+	
+|3,0,1,1,1,0,1757664288,""
+"2	LINE	0
 	        // "menu": "on-click",
 	        // "menu-file": "~/.config/waybar/power_menu.xml",
 	        // "menu-actions": {
@@ -463,31 +466,28 @@ $71, 71, 71
 	        //     "vypnout": "systemctl poweroff",
 	        //     "restart": "systemctl reboot"
 	        // }
-|3,0,1,1,8,0,1757663837,"        // \"menu\": \"on-click\",","        // \"menu-file\": \"~/.config/waybar/power_menu.xml\",","        // \"menu-actions\": {","        //     \"uspat\": \"systemctl suspend\",","        //     \"odhlásit\": \"sleep 1 && swaymsg exit\"","        //     \"vypnout\": \"systemctl poweroff\",","        //     \"restart\": \"systemctl reboot\"","        // }"
-"2	LINE	0
-	    notify-send -i im-kick-user "Zrušeno uživatelem";;
-|3,0,2,1,1,0,1757663767,"    notify-send -i im-kick-user \"Zrušeno uživatelem\";;"
+|3,0,2,1,8,0,1757663837,"        // \"menu\": \"on-click\",","        // \"menu-file\": \"~/.config/waybar/power_menu.xml\",","        // \"menu-actions\": {","        //     \"uspat\": \"systemctl suspend\",","        //     \"odhlásit\": \"sleep 1 && swaymsg exit\"","        //     \"vypnout\": \"systemctl poweroff\",","        //     \"restart\": \"systemctl reboot\"","        // }"
 "3	LINE	0
-	    *)
-|3,0,3,1,1,0,1757663767,"    *)"
+	    notify-send -i im-kick-user "Zrušeno uživatelem";;
+|3,0,3,1,1,0,1757663767,"    notify-send -i im-kick-user \"Zrušeno uživatelem\";;"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1757663742,""
+	    *)
+|3,0,4,1,1,0,1757663767,"    *)"
 "5	LINE	0
-	exit-immediately-if-empty=no
-|3,0,5,1,1,0,1757663741,"exit-immediately-if-empty=no"
+	
+|3,0,5,1,1,0,1757663742,""
 "6	LINE	0
-	[dmenu]
-|3,0,6,1,1,0,1757663740,"[dmenu]"
+	exit-immediately-if-empty=no
+|3,0,6,1,1,0,1757663741,"exit-immediately-if-empty=no"
 "7	LINE	0
-	fields=name,filename
-|3,0,7,1,1,0,1757663679,"fields=name,filename"
+	[dmenu]
+|3,0,7,1,1,0,1757663740,"[dmenu]"
 "8	LINE	0
-	placeholder=""
-|3,0,8,1,1,0,1757663661,"placeholder=\"\""
+	fields=name,filename
+|3,0,8,1,1,0,1757663679,"fields=name,filename"
 "9	LINE	0
-	icons-enabled=yes
-|3,0,9,1,1,0,1757663656,"icons-enabled=yes"
+	placeholder=""
+|3,0,9,1,1,0,1757663661,"placeholder=\"\""
 "a	CHAR	0
 	$(dirname "0")
 |3,0,10,0,1,0,1757238917,"$(dirname \"0\")"
@@ -508,8 +508,8 @@ $71, 71, 71
 	ct~��5kitty -e 	�kb ��k^�kd
 |3,2,26,0,1,0,1757604508,"ct~��5kitty -e 	�kb ��k^�kd"
 ""-	CHAR	0
-	Vypnout...
-|3,1,36,0,1,0,1757663913,"Vypnout..."
+	adwaita
+|3,1,36,0,1,0,1757664601,"adwaita"
 
 # Souborové značky:
 'C  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -530,38 +530,102 @@ $71, 71, 71
 |4,86,1,0,1756282801,"~/.config/vim/vimrc"
 'W  1  0  ~/.config/waybar/config.jsonc
 |4,87,1,0,1756313441,"~/.config/waybar/config.jsonc"
-'0  211  27  ~/.config/waybar/config-sway.jsonc
-|4,48,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
-'1  213  4  ~/.config/waybar/config-sway.jsonc
-|4,49,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
-'2  213  4  ~/.config/waybar/config-sway.jsonc
-|4,50,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
-'3  26  0  ~/.local/bin/power
-|4,51,26,0,1757663771,"~/.local/bin/power"
-'4  26  0  ~/.local/bin/power
-|4,52,26,0,1757663771,"~/.local/bin/power"
-'5  20  0  ~/.config/fuzzel/power.ini
-|4,53,20,0,1757663750,"~/.config/fuzzel/power.ini"
-'6  20  0  ~/.config/fuzzel/power.ini
-|4,54,20,0,1757663750,"~/.config/fuzzel/power.ini"
-'7  218  0  ~/.config/waybar/config-sway.jsonc
-|4,55,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
-'8  226  0  ~/.config/waybar/config-sway.jsonc
-|4,56,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
-'9  218  0  ~/.config/waybar/config-sway.jsonc
-|4,57,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+'0  21  18  ~/.config/fuzzel/power.ini
+|4,48,21,18,1757664630,"~/.config/fuzzel/power.ini"
+'1  11  26  ~/.local/bin/power
+|4,49,11,26,1757664385,"~/.local/bin/power"
+'2  211  27  ~/.config/waybar/config-sway.jsonc
+|4,50,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
+'3  213  4  ~/.config/waybar/config-sway.jsonc
+|4,51,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
+'4  213  4  ~/.config/waybar/config-sway.jsonc
+|4,52,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
+'5  26  0  ~/.local/bin/power
+|4,53,26,0,1757663771,"~/.local/bin/power"
+'6  26  0  ~/.local/bin/power
+|4,54,26,0,1757663771,"~/.local/bin/power"
+'7  26  0  ~/.local/bin/power
+|4,55,26,0,1757663771,"~/.local/bin/power"
+'8  26  0  ~/.local/bin/power
+|4,56,26,0,1757663771,"~/.local/bin/power"
+'9  20  0  ~/.config/fuzzel/power.ini
+|4,57,20,0,1757663750,"~/.config/fuzzel/power.ini"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  21  18  ~/.config/fuzzel/power.ini
+|4,39,21,18,1757664630,"~/.config/fuzzel/power.ini"
+-'  7  11  ~/.config/fuzzel/power.ini
+|4,39,7,11,1757664619,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757664411,"~/.config/fuzzel/power.ini"
+-'  11  26  ~/.local/bin/power
+|4,39,11,26,1757664385,"~/.local/bin/power"
+-'  11  26  ~/.local/bin/power
+|4,39,11,26,1757664385,"~/.local/bin/power"
+-'  17  30  ~/.config/fuzzel/power.ini
+|4,39,17,30,1757664342,"~/.config/fuzzel/power.ini"
+-'  17  30  ~/.config/fuzzel/power.ini
+|4,39,17,30,1757664342,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757664311,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757664311,"~/.config/fuzzel/power.ini"
+-'  7  11  ~/.config/fuzzel/power.ini
+|4,39,7,11,1757664309,"~/.config/fuzzel/power.ini"
+-'  1  0  ~/.config/fuzzel/power.ini
+|4,39,1,0,1757664029,"~/.config/fuzzel/power.ini"
+-'  211  27  ~/.config/waybar/config-sway.jsonc
+|4,39,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
+-'  211  27  ~/.config/waybar/config-sway.jsonc
+|4,39,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
+-'  211  27  ~/.config/waybar/config-sway.jsonc
+|4,39,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
 -'  211  27  ~/.config/waybar/config-sway.jsonc
 |4,39,211,27,1757663927,"~/.config/waybar/config-sway.jsonc"
 -'  213  4  ~/.config/waybar/config-sway.jsonc
 |4,39,213,4,1757663893,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663893,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663893,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663893,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
+-'  213  4  ~/.config/waybar/config-sway.jsonc
+|4,39,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
 -'  213  4  ~/.config/waybar/config-sway.jsonc
 |4,39,213,4,1757663841,"~/.config/waybar/config-sway.jsonc"
 -'  54  0  ~/.config/waybar/config-sway.jsonc
 |4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
 -'  54  0  ~/.config/waybar/config-sway.jsonc
 |4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  54  0  ~/.config/waybar/config-sway.jsonc
+|4,39,54,0,1757663825,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1757663820,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
@@ -572,12 +636,36 @@ $71, 71, 71
 |4,39,26,0,1757663771,"~/.local/bin/power"
 -'  26  0  ~/.local/bin/power
 |4,39,26,0,1757663771,"~/.local/bin/power"
+-'  26  0  ~/.local/bin/power
+|4,39,26,0,1757663771,"~/.local/bin/power"
+-'  26  0  ~/.local/bin/power
+|4,39,26,0,1757663771,"~/.local/bin/power"
+-'  26  0  ~/.local/bin/power
+|4,39,26,0,1757663771,"~/.local/bin/power"
+-'  26  0  ~/.local/bin/power
+|4,39,26,0,1757663771,"~/.local/bin/power"
+-'  26  0  ~/.local/bin/power
+|4,39,26,0,1757663771,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757663760,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757663760,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757663760,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663760,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663760,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663760,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663760,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663760,"~/.local/bin/power"
+-'  20  0  ~/.config/fuzzel/power.ini
+|4,39,20,0,1757663750,"~/.config/fuzzel/power.ini"
+-'  20  0  ~/.config/fuzzel/power.ini
+|4,39,20,0,1757663750,"~/.config/fuzzel/power.ini"
 -'  20  0  ~/.config/fuzzel/power.ini
 |4,39,20,0,1757663750,"~/.config/fuzzel/power.ini"
 -'  20  0  ~/.config/fuzzel/power.ini
@@ -592,6 +680,52 @@ $71, 71, 71
 |4,39,1,0,1757663331,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757663331,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663331,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757663331,"~/.local/bin/power"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  218  0  ~/.config/waybar/config-sway.jsonc
+|4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
+-'  226  0  ~/.config/waybar/config-sway.jsonc
+|4,39,226,0,1757663264,"~/.config/waybar/config-sway.jsonc"
 -'  218  0  ~/.config/waybar/config-sway.jsonc
 |4,39,218,0,1757663264,"~/.config/waybar/config-sway.jsonc"
 -'  226  0  ~/.config/waybar/config-sway.jsonc
@@ -616,142 +750,46 @@ $71, 71, 71
 |4,39,220,7,1757663243,"~/.config/waybar/config-sway.jsonc"
 -'  220  7  ~/.config/waybar/config-sway.jsonc
 |4,39,220,7,1757663243,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757662985,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757662985,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757662985,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/config-sway.jsonc
-|4,39,1,0,1757662985,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  1  0  ~/.local/bin/waybar-sway
-|4,39,1,0,1757662980,"~/.local/bin/waybar-sway"
--'  11  0  ~/.config/fuzzel/power.ini
-|4,39,11,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  11  0  ~/.config/fuzzel/power.ini
-|4,39,11,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  11  0  ~/.config/fuzzel/power.ini
-|4,39,11,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  11  0  ~/.config/fuzzel/power.ini
-|4,39,11,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  11  0  ~/.config/fuzzel/power.ini
-|4,39,11,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  17  0  ~/.config/fuzzel/power.ini
-|4,39,17,0,1757662942,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  1  0  ~/.config/fuzzel/power.ini
-|4,39,1,0,1757662871,"~/.config/fuzzel/power.ini"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  10  22  ~/.local/bin/power
-|4,39,10,22,1757662828,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757662790,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
--'  27  53  ~/.local/bin/power
-|4,39,27,53,1757662748,"~/.local/bin/power"
+-'  220  7  ~/.config/waybar/config-sway.jsonc
+|4,39,220,7,1757663243,"~/.config/waybar/config-sway.jsonc"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/fuzzel/power.ini
+	*	1757664628	0
+	"	21	18
+	^	7	18
+	.	7	0
+	+	11	7
+	+	12	15
+	+	9	10
+	+	10	10
+	+	9	9
+	+	10	9
+	+	11	0
+	+	8	0
+	+	7	0
+	+	15	13
+	+	17	0
+	+	7	0
+	+	6	0
+	+	20	0
+	+	7	18
+	+	18	17
+	+	7	0
+
+> ~/.local/bin/power
+	*	1757664383	0
+	"	11	26
+	^	11	27
+	.	11	26
+	+	26	54
+	+	14	102
+	+	26	0
+	+	10	22
+	+	26	0
+	+	10	27
+	+	11	26
 
 > ~/.config/waybar/config-sway.jsonc
 	*	1757663919	0
@@ -776,35 +814,6 @@ $71, 71, 71
 	+	212	27
 	+	213	0
 	+	211	27
-
-> ~/.local/bin/power
-	*	1757663767	0
-	"	26	0
-	.	26	0
-	+	26	54
-	+	14	102
-	+	26	0
-	+	10	22
-	+	26	0
-
-> ~/.config/fuzzel/power.ini
-	*	1757663742	0
-	"	20	0
-	.	20	0
-	+	11	7
-	+	12	15
-	+	9	10
-	+	10	10
-	+	9	9
-	+	10	9
-	+	11	0
-	+	8	0
-	+	7	0
-	+	15	13
-	+	17	0
-	+	7	0
-	+	6	0
-	+	20	0
 
 > ~/.local/bin/waybar-sway
 	*	1757662963	0
