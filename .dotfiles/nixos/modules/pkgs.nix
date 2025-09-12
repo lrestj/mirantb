@@ -3,7 +3,7 @@
 {
 
   imports = [ 
-      # ./overlay.nix
+      ./overlay.nix
   ]; 
   
   fonts.packages = with pkgs; [
