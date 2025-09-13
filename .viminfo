@@ -21,9 +21,9 @@ $e vim
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757780891,,"wq"
+|2,0,1757782475,,"wq"
 :w
-|2,0,1757780879,,"w"
+|2,0,1757782324,,"w"
 :'<,'>s/e/e vim/g
 |2,0,1757780158,,"'<,'>s/e/e vim/g"
 :'<,'>s/$EDITOR/alacritty/g
@@ -146,242 +146,247 @@ $e vim
 |3,1,36,0,1,0,1757779351,"webm"
 
 # Souborové značky:
-'0  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,48,1,0,1757780915,"~/.dotfiles/other/stuff2remember.txt"
-'1  22  101  ~/.local/bin/confm
-|4,49,22,101,1757780891,"~/.local/bin/confm"
-'2  22  61  ~/.local/bin/confm
-|4,50,22,61,1757780525,"~/.local/bin/confm"
-'3  1  0  ~/.dotfiles/nixos/flake.nix
-|4,51,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
-'4  1  0  ~/.config/vim/vimrc
-|4,52,1,0,1757780409,"~/.config/vim/vimrc"
-'5  1  0  ~/.config/vimrc
-|4,53,1,0,1757780377,"~/.config/vimrc"
-'6  1  0  ~/.config/vim/vimrc
-|4,54,1,0,1757780352,"~/.config/vim/vimrc"
-'7  1  0  ~/.config/vim/vimrc
-|4,55,1,0,1757780352,"~/.config/vim/vimrc"
-'8  1  0  ~/.config/vim/vimrc
-|4,56,1,0,1757780352,"~/.config/vim/vimrc"
-'9  41  24  ~/.local/bin/confm
-|4,57,41,24,1757780342,"~/.local/bin/confm"
+'0  1  0  ~/.config/yazi/keymap.toml
+|4,48,1,0,1757782480,"~/.config/yazi/keymap.toml"
+'1  27  15  ~/.config/fuzzel/fuzzel.ini
+|4,49,27,15,1757782475,"~/.config/fuzzel/fuzzel.ini"
+'2  22  90  ~/.local/bin/confm
+|4,50,22,90,1757782400,"~/.local/bin/confm"
+'3  1  0  ~/.config/waybar/config-sway.jsonc
+|4,51,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+'4  1  0  ~/.config/sway/config
+|4,52,1,0,1757782333,"~/.config/sway/config"
+'5  1  0  ~/.config/sway/config
+|4,53,1,0,1757782333,"~/.config/sway/config"
+'6  22  121  ~/.local/bin/confm
+|4,54,22,121,1757782325,"~/.local/bin/confm"
+'7  1  0  ~/.config/yazi/keymap.toml
+|4,55,1,0,1757782301,"~/.config/yazi/keymap.toml"
+'8  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,56,1,0,1757780915,"~/.dotfiles/other/stuff2remember.txt"
+'9  22  101  ~/.local/bin/confm
+|4,57,22,101,1757780891,"~/.local/bin/confm"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1757780915,"~/.dotfiles/other/stuff2remember.txt"
--'  22  101  ~/.local/bin/confm
-|4,39,22,101,1757780891,"~/.local/bin/confm"
--'  22  101  ~/.local/bin/confm
-|4,39,22,101,1757780891,"~/.local/bin/confm"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782480,"~/.config/yazi/keymap.toml"
+-'  27  15  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,15,1757782475,"~/.config/fuzzel/fuzzel.ini"
+-'  27  15  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,15,1757782475,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757782449,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757782449,"~/.config/fuzzel/fuzzel.ini"
+-'  22  90  ~/.local/bin/confm
+|4,39,22,90,1757782400,"~/.local/bin/confm"
+-'  22  90  ~/.local/bin/confm
+|4,39,22,90,1757782400,"~/.local/bin/confm"
+-'  22  90  ~/.local/bin/confm
+|4,39,22,90,1757782400,"~/.local/bin/confm"
+-'  22  90  ~/.local/bin/confm
+|4,39,22,90,1757782400,"~/.local/bin/confm"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782385,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782385,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782385,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782385,"~/.config/sway/config"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1757782366,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757782333,"~/.config/sway/config"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  22  121  ~/.local/bin/confm
+|4,39,22,121,1757782325,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  23  16  ~/.local/bin/confm
+|4,39,23,16,1757782318,"~/.local/bin/confm"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782301,"~/.config/yazi/keymap.toml"
 -'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757780801,"~/.local/bin/confm"
+|4,39,1,0,1757782212,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757780801,"~/.local/bin/confm"
--'  22  61  ~/.local/bin/confm
-|4,39,22,61,1757780525,"~/.local/bin/confm"
--'  22  61  ~/.local/bin/confm
-|4,39,22,61,1757780525,"~/.local/bin/confm"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+|4,39,1,0,1757782212,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757780392,"~/.local/bin/confm"
+|4,39,1,0,1757782212,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757780392,"~/.local/bin/confm"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780377,"~/.config/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1757780352,"~/.config/vim/vimrc"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  41  24  ~/.local/bin/confm
-|4,39,41,24,1757780342,"~/.local/bin/confm"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782212,"~/.local/bin/confm"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757780913	0
+> ~/.config/yazi/keymap.toml
+	*	1757782478	0
 	"	1	0
 
+> ~/.config/fuzzel/fuzzel.ini
+	*	1757782473	0
+	"	27	15
+	^	27	16
+	.	27	15
+	+	27	15
+
 > ~/.local/bin/confm
-	*	1757780888	0
-	"	22	101
-	^	22	102
-	.	22	101
-	+	16	0
-	+	15	0
+	*	1757782398	0
+	"	22	90
+	^	22	91
+	.	22	91
 	+	17	17
 	+	15	26
 	+	17	0
@@ -479,7 +484,37 @@ $e vim
 	+	39	24
 	+	41	24
 	+	25	38
-	+	22	101
+	+	22	121
+	+	22	0
+	+	22	91
+
+> ~/.config/sway/config
+	*	1757782374	0
+	"	1	0
+	^	89	28
+	.	89	27
+	+	215	27
+	+	218	0
+	+	213	0
+	+	214	39
+	+	215	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	204	0
+	+	88	26
+	+	199	0
+	+	203	0
+	+	89	27
+	s	1	0
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757782364	0
+	"	1	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757780913	0
+	"	1	0
 
 > ~/.dotfiles/nixos/flake.nix
 	*	1757780520	0
@@ -525,30 +560,6 @@ $e vim
 
 > ~/.dotfile
 	*	1757780167	0
-	"	1	0
-
-> ~/.config/sway/config
-	*	1757779357	0
-	"	89	27
-	^	89	28
-	.	89	27
-	+	215	27
-	+	218	0
-	+	213	0
-	+	214	39
-	+	215	3
-	+	41	0
-	+	42	0
-	+	41	0
-	+	204	0
-	+	88	26
-	+	199	0
-	+	203	0
-	+	89	27
-	s	1	0
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757779257	0
 	"	1	0
 
 > ~/.local/bin/nsubmap.txt
