@@ -42,6 +42,5 @@ case $selected in
     "$i")
         $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
     "$j")
-        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/
+        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/ && notify-send -c center -i dialog-information "Update kompletní"
 esac
-

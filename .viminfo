@@ -20,10 +20,10 @@
 $$TERMINAL
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+:w
+|2,0,1757803955,,"w"
 :wq
 |2,0,1757800262,,"wq"
-:w
-|2,0,1757800114,,"w"
 :'<,'>s/alacritty/$TERMINAL/g
 |2,0,1757798035,,"'<,'>s/alacritty/$TERMINAL/g"
 :saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
@@ -149,40 +149,54 @@ $$TERMINAL
 	ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl
 |3,2,26,0,1,0,1757776524,"ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl"
 ""-	CHAR	0
-	internet-web-browser"
-|3,1,36,0,1,0,1757800016,"internet-web-browser\""
+	nec"
+|3,1,36,0,1,0,1757803939,"nec\""
 
 # Souborov√© znaƒçky:
-'0  9  18  ~/.local/bin/webm
-|4,48,9,18,1757800262,"~/.local/bin/webm"
-'1  14  18  ~/.local/bin/webm
-|4,49,14,18,1757800170,"~/.local/bin/webm"
+'0  45  150  ~/.local/bin/confm
+|4,48,45,150,1757803975,"~/.local/bin/confm"
+'1  9  18  ~/.local/bin/webm
+|4,49,9,18,1757800262,"~/.local/bin/webm"
 '2  14  18  ~/.local/bin/webm
 |4,50,14,18,1757800170,"~/.local/bin/webm"
-'3  8  2  ~/.local/bin/webm
-|4,51,8,2,1757799855,"~/.local/bin/webm"
+'3  14  18  ~/.local/bin/webm
+|4,51,14,18,1757800170,"~/.local/bin/webm"
 '4  8  2  ~/.local/bin/webm
 |4,52,8,2,1757799855,"~/.local/bin/webm"
 '5  8  2  ~/.local/bin/webm
 |4,53,8,2,1757799855,"~/.local/bin/webm"
 '6  8  2  ~/.local/bin/webm
 |4,54,8,2,1757799855,"~/.local/bin/webm"
-'7  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,55,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'8  27  31  ~/.local/bin/webm
-|4,56,27,31,1757799622,"~/.local/bin/webm"
+'7  8  2  ~/.local/bin/webm
+|4,55,8,2,1757799855,"~/.local/bin/webm"
+'8  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,56,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 '9  27  31  ~/.local/bin/webm
 |4,57,27,31,1757799622,"~/.local/bin/webm"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+-'  45  150  ~/.local/bin/confm
+|4,39,45,150,1757803975,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757803401,"~/.local/bin/confm"
 -'  9  18  ~/.local/bin/webm
 |4,39,9,18,1757800262,"~/.local/bin/webm"
+-'  9  18  ~/.local/bin/webm
+|4,39,9,18,1757800262,"~/.local/bin/webm"
+-'  1  0  ~/.local/bin/webm
+|4,39,1,0,1757800246,"~/.local/bin/webm"
 -'  1  0  ~/.local/bin/webm
 |4,39,1,0,1757800246,"~/.local/bin/webm"
 -'  14  18  ~/.local/bin/webm
 |4,39,14,18,1757800170,"~/.local/bin/webm"
 -'  14  18  ~/.local/bin/webm
 |4,39,14,18,1757800170,"~/.local/bin/webm"
+-'  14  18  ~/.local/bin/webm
+|4,39,14,18,1757800170,"~/.local/bin/webm"
+-'  14  18  ~/.local/bin/webm
+|4,39,14,18,1757800170,"~/.local/bin/webm"
+-'  1  0  ~/.local/bin/webm
+|4,39,1,0,1757799999,"~/.local/bin/webm"
 -'  1  0  ~/.local/bin/webm
 |4,39,1,0,1757799999,"~/.local/bin/webm"
 -'  8  2  ~/.local/bin/webm
@@ -191,6 +205,14 @@ $$TERMINAL
 |4,39,8,2,1757799855,"~/.local/bin/webm"
 -'  8  2  ~/.local/bin/webm
 |4,39,8,2,1757799855,"~/.local/bin/webm"
+-'  8  2  ~/.local/bin/webm
+|4,39,8,2,1757799855,"~/.local/bin/webm"
+-'  8  2  ~/.local/bin/webm
+|4,39,8,2,1757799855,"~/.local/bin/webm"
+-'  8  2  ~/.local/bin/webm
+|4,39,8,2,1757799855,"~/.local/bin/webm"
+-'  1  0  ~/.local/bin/webm
+|4,39,1,0,1757799714,"~/.local/bin/webm"
 -'  1  0  ~/.local/bin/webm
 |4,39,1,0,1757799714,"~/.local/bin/webm"
 -'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -209,6 +231,38 @@ $$TERMINAL
 |4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  27  16  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,27,16,1757799634,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,1,0,1757799625,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -235,6 +289,20 @@ $$TERMINAL
 |4,39,27,31,1757799622,"~/.local/bin/webm"
 -'  27  31  ~/.local/bin/webm
 |4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  27  31  ~/.local/bin/webm
+|4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  27  31  ~/.local/bin/webm
+|4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  27  31  ~/.local/bin/webm
+|4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  27  31  ~/.local/bin/webm
+|4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  27  31  ~/.local/bin/webm
+|4,39,27,31,1757799622,"~/.local/bin/webm"
+-'  1  0  ~/.local/bin/webm
+|4,39,1,0,1757799598,"~/.local/bin/webm"
+-'  1  0  ~/.local/bin/webm
+|4,39,1,0,1757799598,"~/.local/bin/webm"
 -'  1  0  ~/.local/bin/webm
 |4,39,1,0,1757799598,"~/.local/bin/webm"
 -'  1  0  ~/.local/bin/webm
@@ -271,106 +339,38 @@ $$TERMINAL
 |4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
--'  9  3  ~/.local/bin/confm
-|4,39,9,3,1757799003,"~/.local/bin/confm"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  9  3  ~/.local/bin/confm
 |4,39,9,3,1757799003,"~/.local/bin/confm"
 -'  9  3  ~/.local/bin/confm
@@ -378,96 +378,11 @@ $$TERMINAL
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
-> ~/.local/bin/webm
-	*	1757800260	0
-	"	9	18
-	^	9	19
-	.	9	18
-	+	1	1
-	+	2	0
-	+	3	3
-	+	9	3
-	+	9	2
-	+	3	2
-	+	3	18
-	+	4	18
-	+	5	19
-	+	6	19
-	+	7	18
-	+	8	18
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	20
-	+	10	22
-	+	11	33
-	+	13	28
-	+	14	0
-	+	15	0
-	+	13	0
-	+	12	0
-	+	14	17
-	+	12	26
-	+	14	0
-	+	16	59
-	+	19	12
-	+	16	83
-	+	19	8
-	+	21	8
-	+	23	8
-	+	25	8
-	+	27	8
-	+	28	6
-	+	29	8
-	+	4	0
-	+	3	3
-	+	3	0
-	+	19	12
-	+	21	13
-	+	23	14
-	+	19	7
-	+	23	14
-	+	25	13
-	+	27	13
-	+	29	13
-	+	3	10
-	+	5	16
-	+	6	15
-	+	7	15
-	+	8	15
-	+	27	31
-	+	3	3
-	+	4	4
-	+	7	4
-	+	4	4
-	+	5	3
-	+	6	3
-	+	7	4
-	+	8	3
-	+	11	33
-	+	12	32
-	+	10	17
-	+	14	18
-	+	9	18
-
-> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-	*	1757799634	0
-	"	27	16
-	^	82	89
-	.	82	88
-	+	76	49
-	+	82	88
-
 > ~/.local/bin/confm
-	*	1757799002	0
-	"	9	3
-	^	9	4
-	.	9	3
-	+	35	13
-	+	37	13
-	+	3	10
+	*	1757803955	0
+	"	45	150
+	^	45	151
+	.	45	150
 	+	5	16
 	+	6	15
 	+	7	15
@@ -565,6 +480,91 @@ $$TERMINAL
 	+	46	4
 	+	12	3
 	+	9	3
+	+	45	131
+	+	47	0
+	+	45	150
+
+> ~/.local/bin/webm
+	*	1757800260	0
+	"	9	18
+	^	9	19
+	.	9	18
+	+	1	1
+	+	2	0
+	+	3	3
+	+	9	3
+	+	9	2
+	+	3	2
+	+	3	18
+	+	4	18
+	+	5	19
+	+	6	19
+	+	7	18
+	+	8	18
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	20
+	+	10	22
+	+	11	33
+	+	13	28
+	+	14	0
+	+	15	0
+	+	13	0
+	+	12	0
+	+	14	17
+	+	12	26
+	+	14	0
+	+	16	59
+	+	19	12
+	+	16	83
+	+	19	8
+	+	21	8
+	+	23	8
+	+	25	8
+	+	27	8
+	+	28	6
+	+	29	8
+	+	4	0
+	+	3	3
+	+	3	0
+	+	19	12
+	+	21	13
+	+	23	14
+	+	19	7
+	+	23	14
+	+	25	13
+	+	27	13
+	+	29	13
+	+	3	10
+	+	5	16
+	+	6	15
+	+	7	15
+	+	8	15
+	+	27	31
+	+	3	3
+	+	4	4
+	+	7	4
+	+	4	4
+	+	5	3
+	+	6	3
+	+	7	4
+	+	8	3
+	+	11	33
+	+	12	32
+	+	10	17
+	+	14	18
+	+	9	18
+
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1757799634	0
+	"	27	16
+	^	82	89
+	.	82	88
+	+	76	49
+	+	82	88
 
 > ~/.config/sway/config
 	*	1757798684	0
