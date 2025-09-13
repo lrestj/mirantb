@@ -61,9 +61,10 @@ command! -nargs=0 CleanUpUndoFiles !find ~/.vim/tmp/undo -type f -mtime +100d -d
 
 "Statusline and custom background    
 hi StatusLine ctermbg=0 ctermfg=22
-hi Normal ctermbg=235   
-hi NonText ctermbg=235  
-hi LineNr ctermbg=235   
+hi Normal ctermbg=234  
+hi NonText ctermbg=234
+hi LineNr ctermbg=234   
+hi cursorline ctermbg=235   
 
 "Plugins
 call plug#begin()
