@@ -15,9 +15,9 @@
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757763427,,"wq"
+|2,0,1757764449,,"wq"
 :w
-|2,0,1757762805,,"w"
+|2,0,1757763919,,"w"
 :q
 |2,0,1757761520,,"q"
 :saveas ~/.dotfiles/nixos/modules/swayoverlay.nix
@@ -39,57 +39,147 @@
 "0	LINE	0
 	      ./overlay.nix
 |3,0,0,1,1,0,1757761058,"      ./overlay.nix"
-""1	LINE	0
-	      inputs.waybar.overlay
-|3,1,1,1,1,0,1757763422,"      inputs.waybar.overlay"
+"1	LINE	0
+	      };
+|3,0,1,1,1,0,1757763884,"      };"
 "2	LINE	0
-	      ./swayoverlay.nix
-|3,0,2,1,1,0,1757761240,"      ./swayoverlay.nix"
+	          inputs.nixpkgs.follows = "nixpkgs";
+|3,0,2,1,1,0,1757763875,"          inputs.nixpkgs.follows = \"nixpkgs\";"
 "3	LINE	0
-	     set $editor foot bash -c "sleep 0.1; exec vim %F"
-|3,0,3,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+	                  # ({ pkgs, ... }: {
+	                      # environment.systemPackages = [
+	                        # inputs.waybar.packages.${pkgs.system}.waybar
+	                      # ];
+	                  # })
+|3,0,3,1,5,0,1757763632,"                  # ({ pkgs, ... }: {","                      # environment.systemPackages = [","                        # inputs.waybar.packages.${pkgs.system}.waybar","                      # ];","                  # })"
 "4	LINE	0
+	                  # ({ pkgs, ... }: {
+	                  #     environment.systemPackages = [
+	                  #       inputs.waybar.packages.${pkgs.system}.waybar
+	                  #     ];
+	                  # })
+|3,0,4,1,5,0,1757763622,"                  # ({ pkgs, ... }: {","                  #     environment.systemPackages = [","                  #       inputs.waybar.packages.${pkgs.system}.waybar","                  #     ];","                  # })"
+"5	LINE	0
+	      inputs.waybar.overlay
+|3,0,5,1,1,0,1757763422,"      inputs.waybar.overlay"
+"6	LINE	0
+	      ./swayoverlay.nix
+|3,0,6,1,1,0,1757761240,"      ./swayoverlay.nix"
+"7	LINE	0
+	     set $editor foot bash -c "sleep 0.1; exec vim %F"
+|3,0,7,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+"8	LINE	0
 	hi Line ctermbg=234   
-|3,0,4,1,1,0,1757749195,"hi Line ctermbg=234   "
-"-	CHAR	0
-	6f020cde569073622cc085251e47d82323d5c4bd
-|3,0,36,0,1,0,1757760911,"6f020cde569073622cc085251e47d82323d5c4bd"
+|3,0,8,1,1,0,1757749195,"hi Line ctermbg=234   "
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1757764012," "
 
 # Souborové značky:
-'0  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,49,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
-'2  4  13  ~/.config/alacritty/alacritty.toml
-|4,50,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
-'3  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  38  5  ~/.dotfiles/nixos/flake.nix
-|4,55,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
-'8  38  5  ~/.dotfiles/nixos/flake.nix
-|4,56,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
-'9  38  5  ~/.dotfiles/nixos/flake.nix
-|4,57,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+'0  32  0  ~/.dotfiles/nixos/flake.nix
+|4,48,32,0,1757764449,"~/.dotfiles/nixos/flake.nix"
+'1  11  12  ~/.dotfiles/nixos/flake.nix
+|4,49,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
+'2  11  12  ~/.dotfiles/nixos/flake.nix
+|4,50,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
+'3  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  4  13  ~/.config/alacritty/alacritty.toml
+|4,55,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+'8  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'9  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,57,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  32  0  ~/.dotfiles/nixos/flake.nix
+|4,39,32,0,1757764449,"~/.dotfiles/nixos/flake.nix"
+-'  12  38  ~/.dotfiles/nixos/flake.nix
+|4,39,12,38,1757764442,"~/.dotfiles/nixos/flake.nix"
+-'  13  10  ~/.dotfiles/nixos/flake.nix
+|4,39,13,10,1757764440,"~/.dotfiles/nixos/flake.nix"
+-'  14  6  ~/.dotfiles/nixos/flake.nix
+|4,39,14,6,1757764438,"~/.dotfiles/nixos/flake.nix"
+-'  11  15  ~/.dotfiles/nixos/flake.nix
+|4,39,11,15,1757764438,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757764435,"~/.dotfiles/nixos/flake.nix"
+-'  11  12  ~/.dotfiles/nixos/flake.nix
+|4,39,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757763985,"~/.dotfiles/nixos/flake.nix"
+-'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  11  13  ~/.dotfiles/nixos/flake.nix
+|4,39,11,13,1757763931,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757763609,"~/.dotfiles/nixos/flake.nix"
+-'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  25  10  ~/.dotfiles/nixos/flake.nix
 |4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  28  10  ~/.dotfiles/nixos/flake.nix
+|4,39,28,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  22  10  ~/.dotfiles/nixos/flake.nix
+|4,39,22,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  25  10  ~/.dotfiles/nixos/flake.nix
+|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  22  10  ~/.dotfiles/nixos/flake.nix
+|4,39,22,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  25  10  ~/.dotfiles/nixos/flake.nix
+|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  11  0  ~/.dotfiles/nixos/flake.nix
 |4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
 -'  11  0  ~/.dotfiles/nixos/flake.nix
 |4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
@@ -104,6 +194,62 @@
 |4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
 -'  4  13  ~/.config/alacritty/alacritty.toml
 |4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
@@ -112,180 +258,67 @@
 |4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761524,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761524,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  38  5  ~/.dotfiles/nixos/flake.nix
-|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.dotfiles/nixos/flake.nix
+	*	1757764445	0
+	"	32	0
+	.	32	0
+	+	8	6
+	+	15	0
+	+	25	0
+	+	32	0
+	+	11	59
+	+	15	0
+	+	11	15
+	+	32	0
+
 > ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757763422	0
-	"	25	6
-	^	25	6
-	.	25	0
+	*	1757763968	0
+	"	25	20
+	^	25	21
+	.	25	21
 	+	7	0
 	+	22	2
 	+	23	24
@@ -293,15 +326,7 @@
 	+	27	0
 	+	25	26
 	+	25	116
-	+	25	0
-
-> ~/.dotfiles/nixos/flake.nix
-	*	1757763355	0
-	"	25	10
-	^	8	6
-	.	14	0
-	+	8	6
-	+	14	0
+	+	25	21
 
 > ~/.config/alacritty/alacritty.toml
 	*	1757762247	0

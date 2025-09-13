@@ -22,7 +22,7 @@
   
     nixpkgs.overlays = [
       inputs.nixpkgs-wayland.overlay 
-      (_: _: { waybar_git = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })
+      (_: _: { waybar = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })
 
     ];
 

@@ -22,11 +22,6 @@
               specialArgs = { inherit inputs; };
               modules = [
                   ./hosts/zbook/configuration.nix
-                  # ({ pkgs, ... }: {
-                  #     environment.systemPackages = [
-                  #       inputs.waybar.packages.${pkgs.system}.waybar
-                  #     ];
-                  # })
               ];
           };
           probook = nixpkgs.lib.nixosSystem {
@@ -34,11 +29,6 @@
               specialArgs = { inherit inputs; };
               modules = [
                   ./hosts/probook/configuration.nix
-                  # ({ pkgs, ... }: {
-                      # environment.systemPackages = [
-                        # inputs.waybar.packages.${pkgs.system}.waybar
-                      # ];
-                  # })
               ];
           };
       };
