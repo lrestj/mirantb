@@ -11,13 +11,31 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/nore
+~MSle0/nore
+
+# Last Substitute Search Pattern:
+~MSle0~&e
+
+# Poslední nahrazující řetězec:
+$e vim
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
-:wq
-|2,0,1757764449,,"wq"
 :w
-|2,0,1757763919,,"w"
+|2,0,1757780489,,"w"
+:'<,'>s/e/e vim/g
+|2,0,1757780158,,"'<,'>s/e/e vim/g"
+:'<,'>s/$EDITOR/alacritty/g
+|2,0,1757780037,,"'<,'>s/$EDITOR/alacritty/g"
+:'<,'>s/vim/$EDITOR -e/g
+|2,0,1757779899,,"'<,'>s/vim/$EDITOR -e/g"
+:wq
+|2,0,1757779359,,"wq"
+:saveas ~/.local/bin/confm
+|2,0,1757777681,,"saveas ~/.local/bin/confm"
+:m-2
+|2,0,1757775543,,"m-2"
+:%y
+|2,0,1757774432,,"%y"
 :q
 |2,0,1757761520,,"q"
 :saveas ~/.dotfiles/nixos/modules/swayoverlay.nix
@@ -26,6 +44,12 @@
 |2,0,1757749932,,"so $MYVIMRC"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+? e
+|2,1,1757780158,,"e"
+? $EDITOR
+|2,1,1757780037,,"$EDITOR"
+? vim
+|2,1,1757779899,,"vim"
 ?/nore
 |2,1,1757749453,47,"nore"
 
@@ -37,273 +61,319 @@
 
 # Registry:
 "0	LINE	0
-	      ./overlay.nix
-|3,0,0,1,1,0,1757761058,"      ./overlay.nix"
+	    bindsym $cs+i exec webm
+|3,0,0,1,1,0,1757779342,"    bindsym $cs+i exec webm"
 "1	LINE	0
-	      };
-|3,0,1,1,1,0,1757763884,"      };"
+	    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
+	    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
+	    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode "default"
+	    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode "default"
+	    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configuration.nix; mode "default"
+	    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
+	    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
+	    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
+|3,0,1,1,8,0,1757779312,"    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode \"default\"","    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode \"default\"","    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode \"default\"","    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode \"default\"",>113
+|<"    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configuration.nix; mode \"default\"","    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode \"default\"","    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode \"default\"","    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode \"default\""
 "2	LINE	0
-	          inputs.nixpkgs.follows = "nixpkgs";
-|3,0,2,1,1,0,1757763875,"          inputs.nixpkgs.follows = \"nixpkgs\";"
-"3	LINE	0
-	                  # ({ pkgs, ... }: {
-	                      # environment.systemPackages = [
-	                        # inputs.waybar.packages.${pkgs.system}.waybar
-	                      # ];
-	                  # })
-|3,0,3,1,5,0,1757763632,"                  # ({ pkgs, ... }: {","                      # environment.systemPackages = [","                        # inputs.waybar.packages.${pkgs.system}.waybar","                      # ];","                  # })"
-"4	LINE	0
-	                  # ({ pkgs, ... }: {
-	                  #     environment.systemPackages = [
-	                  #       inputs.waybar.packages.${pkgs.system}.waybar
-	                  #     ];
-	                  # })
-|3,0,4,1,5,0,1757763622,"                  # ({ pkgs, ... }: {","                  #     environment.systemPackages = [","                  #       inputs.waybar.packages.${pkgs.system}.waybar","                  #     ];","                  # })"
-"5	LINE	0
-	      inputs.waybar.overlay
-|3,0,5,1,1,0,1757763422,"      inputs.waybar.overlay"
+	 Vimrc  V
+	Yazi toml  Y
+	Waybar conf  W
+	Mako conf  M
+	Sway conf  S
+	Stuff2remember  R
+	
+	 Nixos:
+	    config  C
+	    flake  F
+	    pkgs  P
+	
+	󰑓 Reload
+	    Mako  X
+|3,0,2,1,14,0,1757777499," Vimrc  V","Yazi toml  Y","Waybar conf  W","Mako conf  M","Sway conf  S","Stuff2remember  R",""," Nixos:","    config  C","    flake  F","    pkgs  P","","󰑓 Reload","    Mako  X"
+"3	BLOCK	11
+	Gmail"
+	NixOS search
+	Přehraj.to"
+	Sdílej.cz"
+	Titulky.cz"
+	Nerd Fonts"
+|3,0,3,2,6,11,1757777207,"Gmail\"","NixOS search","Přehraj.to\"","Sdílej.cz\"","Titulky.cz\"","Nerd Fonts\""
+"4	BLOCK	1
+	  
+	  
+	  
+	  
+	  
+	  
+|3,0,4,2,6,1,1757776745,"  ","  ","  ","  ","  ","  "
+"5	BLOCK	0
+	G
+	N
+	P
+	S
+	T
+	F
+|3,0,5,2,6,0,1757776737,"G","N","P","S","T","F"
 "6	LINE	0
-	      ./swayoverlay.nix
-|3,0,6,1,1,0,1757761240,"      ./swayoverlay.nix"
+	    # Wenmarks
+	    bindsym $cs+i mode "Webmarks"; exec webmarks
+	    mode "Webmarks" {
+	    bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode "default"
+	    bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode "default"
+	    bindsym p exec makoctl dismiss && $browser https://prehrajto.cz/; mode "default"
+	    bindsym s exec makoctl dismiss && $browser https://sdilej.cz/; mode "default"
+	    bindsym t exec makoctl dismiss && $browser http://titulky.cz/; mode "default"
+	    bindsym f exec makoctl dismiss && $browser https://www.nerdfonts.com/cheat-sheet; mode "default"
+	    bindsym Return exec makoctl dismiss; mode "default"
+	    bindsym Escape exec makoctl dismiss; mode "default"
+	    }
+|3,0,6,1,12,0,1757776660,"    # Wenmarks","    bindsym $cs+i mode \"Webmarks\"; exec webmarks","    mode \"Webmarks\" {","    bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode \"default\"","    bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode \"default\"","    bindsym p exec makoctl dismiss && $browser https://prehrajto.cz/; mode \"default\"",>85
+|<"    bindsym s exec makoctl dismiss && $browser https://sdilej.cz/; mode \"default\"","    bindsym t exec makoctl dismiss && $browser http://titulky.cz/; mode \"default\"","    bindsym f exec makoctl dismiss && $browser https://www.nerdfonts.com/cheat-sheet; mode \"default\"","    bindsym Return exec makoctl dismiss; mode \"default\"","    bindsym Escape exec makoctl dismiss; mode \"default\"","    }"
 "7	LINE	0
-	     set $editor foot bash -c "sleep 0.1; exec vim %F"
-|3,0,7,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+	ei="\0icon\x1fsystem-shutdown"
+|3,0,7,1,1,0,1757775507,"ei=\"\\0icon\\x1fsystem-shutdown\""
 "8	LINE	0
-	hi Line ctermbg=234   
-|3,0,8,1,1,0,1757749195,"hi Line ctermbg=234   "
+	e="
+|3,0,8,1,1,0,1757774824,"e=\""
+"9	LINE	0
+	d="
+|3,0,9,1,1,0,1757774823,"d=\""
+"q@	CHAR	0
+	ibrave ��5�kd�kd�kl�kl�kl�kl
+|3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1757764012," "
+	webm
+|3,1,36,0,1,0,1757779351,"webm"
 
 # Souborové značky:
-'0  32  0  ~/.dotfiles/nixos/flake.nix
-|4,48,32,0,1757764449,"~/.dotfiles/nixos/flake.nix"
-'1  11  12  ~/.dotfiles/nixos/flake.nix
-|4,49,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
-'2  11  12  ~/.dotfiles/nixos/flake.nix
-|4,50,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
-'3  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  4  13  ~/.config/alacritty/alacritty.toml
-|4,55,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
-'8  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'9  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,57,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'0  22  61  ~/.local/bin/confm
+|4,48,22,61,1757780525,"~/.local/bin/confm"
+'1  1  0  ~/.dotfiles/nixos/flake.nix
+|4,49,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
+'2  1  0  ~/.config/vim/vimrc
+|4,50,1,0,1757780409,"~/.config/vim/vimrc"
+'3  1  0  ~/.config/vimrc
+|4,51,1,0,1757780377,"~/.config/vimrc"
+'4  1  0  ~/.config/vim/vimrc
+|4,52,1,0,1757780352,"~/.config/vim/vimrc"
+'5  1  0  ~/.config/vim/vimrc
+|4,53,1,0,1757780352,"~/.config/vim/vimrc"
+'6  1  0  ~/.config/vim/vimrc
+|4,54,1,0,1757780352,"~/.config/vim/vimrc"
+'7  41  24  ~/.local/bin/confm
+|4,55,41,24,1757780342,"~/.local/bin/confm"
+'8  41  24  ~/.local/bin/confm
+|4,56,41,24,1757780342,"~/.local/bin/confm"
+'9  41  24  ~/.local/bin/confm
+|4,57,41,24,1757780342,"~/.local/bin/confm"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  32  0  ~/.dotfiles/nixos/flake.nix
-|4,39,32,0,1757764449,"~/.dotfiles/nixos/flake.nix"
--'  12  38  ~/.dotfiles/nixos/flake.nix
-|4,39,12,38,1757764442,"~/.dotfiles/nixos/flake.nix"
--'  13  10  ~/.dotfiles/nixos/flake.nix
-|4,39,13,10,1757764440,"~/.dotfiles/nixos/flake.nix"
--'  14  6  ~/.dotfiles/nixos/flake.nix
-|4,39,14,6,1757764438,"~/.dotfiles/nixos/flake.nix"
--'  11  15  ~/.dotfiles/nixos/flake.nix
-|4,39,11,15,1757764438,"~/.dotfiles/nixos/flake.nix"
+-'  22  61  ~/.local/bin/confm
+|4,39,22,61,1757780525,"~/.local/bin/confm"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757764435,"~/.dotfiles/nixos/flake.nix"
--'  11  12  ~/.dotfiles/nixos/flake.nix
-|4,39,11,12,1757764022,"~/.dotfiles/nixos/flake.nix"
+|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757780392,"~/.local/bin/confm"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780322,"~/.config/vimrc"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  1  0  ~/.dotfile
+|4,39,1,0,1757780212,"~/.dotfile"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  25  19  ~/.local/bin/confm
+|4,39,25,19,1757780158,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757779799,"~/.local/bin/confm"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757763985,"~/.dotfiles/nixos/flake.nix"
--'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  20  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,20,1757763970,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  11  13  ~/.dotfiles/nixos/flake.nix
-|4,39,11,13,1757763931,"~/.dotfiles/nixos/flake.nix"
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757763609,"~/.dotfiles/nixos/flake.nix"
--'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  10  ~/.dotfiles/nixos/flake.nix
-|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  28  10  ~/.dotfiles/nixos/flake.nix
-|4,39,28,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  22  10  ~/.dotfiles/nixos/flake.nix
-|4,39,22,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  25  10  ~/.dotfiles/nixos/flake.nix
-|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  22  10  ~/.dotfiles/nixos/flake.nix
-|4,39,22,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  25  10  ~/.dotfiles/nixos/flake.nix
-|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  11  0  ~/.dotfiles/nixos/flake.nix
-|4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
--'  11  0  ~/.dotfiles/nixos/flake.nix
-|4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757762762,"~/.dotfiles/nixos/flake.nix"
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757762762,"~/.dotfiles/nixos/flake.nix"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  4  13  ~/.config/alacritty/alacritty.toml
-|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.dotfiles/nixos/flake.nix
-	*	1757764445	0
-	"	32	0
+	*	1757780520	0
+	"	1	0
 	.	32	0
 	+	8	6
 	+	15	0
@@ -313,6 +383,245 @@
 	+	15	0
 	+	11	15
 	+	32	0
+
+> ~/.local/bin/confm
+	*	1757780489	0
+	"	22	61
+	^	22	62
+	.	22	61
+	+	16	0
+	+	15	0
+	+	17	17
+	+	15	26
+	+	17	0
+	+	22	59
+	+	25	12
+	+	22	83
+	+	25	8
+	+	27	8
+	+	29	8
+	+	31	8
+	+	33	8
+	+	34	6
+	+	35	8
+	+	4	0
+	+	3	3
+	+	3	0
+	+	25	12
+	+	27	13
+	+	29	14
+	+	25	7
+	+	29	14
+	+	31	13
+	+	33	13
+	+	35	13
+	+	3	10
+	+	5	16
+	+	6	15
+	+	7	15
+	+	8	15
+	+	3	0
+	+	3	5
+	+	4	13
+	+	5	17
+	+	6	15
+	+	7	15
+	+	8	18
+	+	9	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	3
+	+	10	3
+	+	9	16
+	+	10	19
+	+	11	14
+	+	3	0
+	+	22	79
+	+	18	0
+	+	19	0
+	+	20	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	12	16
+	+	13	33
+	+	14	19
+	+	22	79
+	+	14	20
+	+	15	20
+	+	13	22
+	+	16	29
+	+	17	20
+	+	18	41
+	+	19	41
+	+	20	41
+	+	25	12
+	+	27	12
+	+	29	12
+	+	31	12
+	+	33	12
+	+	35	11
+	+	40	0
+	+	38	0
+	+	36	6
+	+	38	6
+	+	40	6
+	+	33	12
+	+	35	12
+	+	37	12
+	+	39	12
+	+	33	12
+	+	35	12
+	+	37	12
+	+	39	12
+	+	41	12
+	+	22	62
+	+	25	0
+	+	25	24
+	+	27	24
+	+	29	24
+	+	31	24
+	+	33	24
+	+	35	24
+	+	37	24
+	+	39	24
+	+	41	24
+	+	25	38
+	+	22	61
+
+> ~/.config/vim/vimrc
+	*	1757780407	0
+	"	1	0
+	^	64	21
+	.	67	24
+	+	65	21
+	+	68	7
+	+	65	21
+	+	68	18
+	+	70	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	68	0
+	+	67	12
+	+	66	20
+	+	65	21
+	+	64	20
+	+	38	0
+	+	67	24
+	+	66	20
+	+	65	21
+	+	64	20
+	+	67	24
+
+> ~/.config/vimrc
+	*	1757780376	0
+	"	1	0
+
+> ~/.dotfile
+	*	1757780167	0
+	"	1	0
+
+> ~/.config/sway/config
+	*	1757779357	0
+	"	89	27
+	^	89	28
+	.	89	27
+	+	215	27
+	+	218	0
+	+	213	0
+	+	214	39
+	+	215	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	204	0
+	+	88	26
+	+	199	0
+	+	203	0
+	+	89	27
+	s	1	0
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757779257	0
+	"	1	0
+
+> ~/.local/bin/nsubmap.txt
+	*	1757778556	0
+	"	2	0
+
+> ~/.local/bin/webm
+	*	1757778431	0
+	"	1	0
+	^	8	15
+	.	8	15
+	+	1	1
+	+	2	0
+	+	3	3
+	+	9	3
+	+	9	2
+	+	3	2
+	+	3	18
+	+	4	18
+	+	5	19
+	+	6	19
+	+	7	18
+	+	8	18
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	20
+	+	10	22
+	+	11	33
+	+	13	28
+	+	14	0
+	+	15	0
+	+	13	0
+	+	12	0
+	+	14	17
+	+	12	26
+	+	14	0
+	+	16	59
+	+	19	12
+	+	16	83
+	+	19	8
+	+	21	8
+	+	23	8
+	+	25	8
+	+	27	8
+	+	28	6
+	+	29	8
+	+	4	0
+	+	3	3
+	+	3	0
+	+	19	12
+	+	21	13
+	+	23	14
+	+	19	7
+	+	23	14
+	+	25	13
+	+	27	13
+	+	29	13
+	+	3	10
+	+	5	16
+	+	6	15
+	+	7	15
+	+	8	15
+
+> ~/.local/bin/webmarks.txt
+	*	1757774863	0
+	"	9	22
+
+> ~/.local/bin/addnew
+	*	1757774614	0
+	"	16	0
+
+> ~/.local/bin/power
+	*	1757774607	0
+	"	26	3
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757763968	0
@@ -356,20 +665,6 @@
 	+	8	25
 	+	7	25
 
-> ~/.config/sway/config
-	*	1757758012	0
-	"	1	0
-	.	41	0
-	+	233	27
-	+	236	0
-	+	231	0
-	+	232	39
-	+	233	3
-	+	41	0
-	+	42	0
-	+	41	0
-	s	1	0
-
 > ~/.local/share/applications/vim.desktop
 	*	1757757998	0
 	"	8	17
@@ -408,28 +703,3 @@
 	.	6	4
 	+	5	0
 	+	6	4
-
-> ~/.config/vim/vimrc
-	*	1757749993	0
-	"	39	8
-	^	64	21
-	.	67	24
-	+	65	21
-	+	68	7
-	+	65	21
-	+	68	18
-	+	70	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	68	0
-	+	67	12
-	+	66	20
-	+	65	21
-	+	64	20
-	+	38	0
-	+	67	24
-	+	66	20
-	+	65	21
-	+	64	20
-	+	67	24

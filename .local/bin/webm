@@ -1,0 +1,30 @@
+#!/bin/bash
+
+a="1 Gmail"
+b="2 NixOS search"
+c="3 Přehraj.to"
+d="4 Sdílej.cz"
+e="5 Titulky.cz"
+f="6 Nerd Fonts"
+ai="\0icon\x1fmessage"
+bi="\0icon\x1ffontforge"
+ci="\0icon\x1finternet-web-browser"
+di="\0icon\x1fcalligrawords"
+ei="\0icon\x1fapplication-rtf"
+fi="\0icon\x1fkmag"
+
+selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei\n$f$fi" | fuzzel --auto-select -d )
+case $selected in
+    "$a")
+        brave https://mail.google.com/mail/u/0/;;
+    "$b")
+        brave https://search.nixos.org/packages;;
+    "$c")
+        brave https://prehrajto.cz/;;
+    "$d")
+        brave https://sdilej.cz/;;
+    "$e")
+        brave http://titulky.cz/;;
+    "$f")
+        brave https://www.nerdfonts.com/cheat-sheet;;
+esac

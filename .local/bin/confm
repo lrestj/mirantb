@@ -1,0 +1,42 @@
+#!/bin/bash
+
+a="1  Vimrc"
+b="2 Yazi.toml"
+c="3 Waybar config"
+d="4 Mako config"
+e="5 Sway config"
+f="6 Stuff2remember"
+g="7 Nixos config"
+h="8 Nixos flake.nix"
+i="9 Nixos pkgs"
+ai="\0icon\x1fvim"
+bi="\0icon\x1fsystem-file-manager"
+ci="\0icon\x1fwayland"
+di="\0icon\x1fnotion"
+ei="\0icon\x1fdesktop-effects"
+fi="\0icon\x1fnotepad"
+gi="\0icon\x1fpreferences-system-services"
+hi="\0icon\x1fpreferences-system-services"
+ii="\0icon\x1fpreferences-system-services"
+
+selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei\n$f$fi\n$g$gi\n$h$hi\n$i$ii" | fuzzel --auto-select -d )
+case $selected in
+    "$a")
+        alacritty -e vim ~/.config/vim/vimrc;;
+    "$b")
+        alacritty -e vim ~/.config/yazi/keymap.toml;;
+    "$c")
+        alacritty -e vim ~/.config/waybar/config-sway.jsonc;;
+    "$d")
+        alacritty -e vim ~/.config/mako/config;;
+    "$e")
+        alacritty -e vim ~/.config/sway/config;;
+    "$f")
+        alacritty -e vim ~/.dotfiles/other/stuff2remember.txt;;
+    "$g")
+        alacritty -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
+    "$h")
+        alacritty -e vim ~/.dotfiles/nixos/flake.nix;;
+    "$i")
+        alacritty -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+esac
