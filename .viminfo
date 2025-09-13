@@ -20,16 +20,16 @@
 $e vim
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1757780891,,"wq"
 :w
-|2,0,1757780489,,"w"
+|2,0,1757780879,,"w"
 :'<,'>s/e/e vim/g
 |2,0,1757780158,,"'<,'>s/e/e vim/g"
 :'<,'>s/$EDITOR/alacritty/g
 |2,0,1757780037,,"'<,'>s/$EDITOR/alacritty/g"
 :'<,'>s/vim/$EDITOR -e/g
 |2,0,1757779899,,"'<,'>s/vim/$EDITOR -e/g"
-:wq
-|2,0,1757779359,,"wq"
 :saveas ~/.local/bin/confm
 |2,0,1757777681,,"saveas ~/.local/bin/confm"
 :m-2
@@ -146,36 +146,68 @@ $e vim
 |3,1,36,0,1,0,1757779351,"webm"
 
 # Souborové značky:
-'0  22  61  ~/.local/bin/confm
-|4,48,22,61,1757780525,"~/.local/bin/confm"
-'1  1  0  ~/.dotfiles/nixos/flake.nix
-|4,49,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
-'2  1  0  ~/.config/vim/vimrc
-|4,50,1,0,1757780409,"~/.config/vim/vimrc"
-'3  1  0  ~/.config/vimrc
-|4,51,1,0,1757780377,"~/.config/vimrc"
+'0  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,48,1,0,1757780915,"~/.dotfiles/other/stuff2remember.txt"
+'1  22  101  ~/.local/bin/confm
+|4,49,22,101,1757780891,"~/.local/bin/confm"
+'2  22  61  ~/.local/bin/confm
+|4,50,22,61,1757780525,"~/.local/bin/confm"
+'3  1  0  ~/.dotfiles/nixos/flake.nix
+|4,51,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
 '4  1  0  ~/.config/vim/vimrc
-|4,52,1,0,1757780352,"~/.config/vim/vimrc"
-'5  1  0  ~/.config/vim/vimrc
-|4,53,1,0,1757780352,"~/.config/vim/vimrc"
+|4,52,1,0,1757780409,"~/.config/vim/vimrc"
+'5  1  0  ~/.config/vimrc
+|4,53,1,0,1757780377,"~/.config/vimrc"
 '6  1  0  ~/.config/vim/vimrc
 |4,54,1,0,1757780352,"~/.config/vim/vimrc"
-'7  41  24  ~/.local/bin/confm
-|4,55,41,24,1757780342,"~/.local/bin/confm"
-'8  41  24  ~/.local/bin/confm
-|4,56,41,24,1757780342,"~/.local/bin/confm"
+'7  1  0  ~/.config/vim/vimrc
+|4,55,1,0,1757780352,"~/.config/vim/vimrc"
+'8  1  0  ~/.config/vim/vimrc
+|4,56,1,0,1757780352,"~/.config/vim/vimrc"
 '9  41  24  ~/.local/bin/confm
 |4,57,41,24,1757780342,"~/.local/bin/confm"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757780915,"~/.dotfiles/other/stuff2remember.txt"
+-'  22  101  ~/.local/bin/confm
+|4,39,22,101,1757780891,"~/.local/bin/confm"
+-'  22  101  ~/.local/bin/confm
+|4,39,22,101,1757780891,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757780801,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757780801,"~/.local/bin/confm"
 -'  22  61  ~/.local/bin/confm
 |4,39,22,61,1757780525,"~/.local/bin/confm"
+-'  22  61  ~/.local/bin/confm
+|4,39,22,61,1757780525,"~/.local/bin/confm"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
 |4,39,1,0,1757780521,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757780409,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780409,"~/.config/vim/vimrc"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757780392,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1757780392,"~/.local/bin/confm"
 -'  1  0  ~/.config/vimrc
@@ -188,6 +220,72 @@ $e vim
 |4,39,1,0,1757780377,"~/.config/vimrc"
 -'  1  0  ~/.config/vimrc
 |4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vimrc
+|4,39,1,0,1757780377,"~/.config/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1757780352,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1757780352,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
@@ -226,6 +324,36 @@ $e vim
 |4,39,41,24,1757780342,"~/.local/bin/confm"
 -'  41  24  ~/.local/bin/confm
 |4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
+-'  41  24  ~/.local/bin/confm
+|4,39,41,24,1757780342,"~/.local/bin/confm"
 -'  1  0  ~/.config/vimrc
 |4,39,1,0,1757780322,"~/.config/vimrc"
 -'  1  0  ~/.config/vimrc
@@ -240,155 +368,18 @@ $e vim
 |4,39,1,0,1757780322,"~/.config/vimrc"
 -'  1  0  ~/.config/vimrc
 |4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.config/vimrc
-|4,39,1,0,1757780322,"~/.config/vimrc"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  1  0  ~/.dotfile
-|4,39,1,0,1757780212,"~/.dotfile"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  25  19  ~/.local/bin/confm
-|4,39,25,19,1757780158,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757779799,"~/.local/bin/confm"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1757779749,"~/.dotfiles/nixos/flake.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.dotfiles/nixos/flake.nix
-	*	1757780520	0
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757780913	0
 	"	1	0
-	.	32	0
-	+	8	6
-	+	15	0
-	+	25	0
-	+	32	0
-	+	11	59
-	+	15	0
-	+	11	15
-	+	32	0
 
 > ~/.local/bin/confm
-	*	1757780489	0
-	"	22	61
-	^	22	62
-	.	22	61
+	*	1757780888	0
+	"	22	101
+	^	22	102
+	.	22	101
 	+	16	0
 	+	15	0
 	+	17	17
@@ -488,7 +479,20 @@ $e vim
 	+	39	24
 	+	41	24
 	+	25	38
-	+	22	61
+	+	22	101
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1757780520	0
+	"	1	0
+	.	32	0
+	+	8	6
+	+	15	0
+	+	25	0
+	+	32	0
+	+	11	59
+	+	15	0
+	+	11	15
+	+	32	0
 
 > ~/.config/vim/vimrc
 	*	1757780407	0
@@ -682,10 +686,6 @@ $e vim
 
 > ~/%F
 	*	1757757732	0
-	"	1	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757757422	0
 	"	1	0
 
 > ~/.local/bin/cliphist-fuzzel-img
