@@ -20,7 +20,11 @@
       inherit (config.nixpkgs) config;
     };
   
-  nixpkgs.overlays = [ inputs.nixpkgs-wayland.overlay ];
+    nixpkgs.overlays = [
+      inputs.nixpkgs-wayland.overlay 
+      (_: _: { waybar_git = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })
+
+    ];
 
     environment.systemPackages =
         (with pkgs; [

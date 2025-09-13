@@ -8,10 +8,10 @@
       nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
 
       # nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
-      # waybar = {
-      #     url = "github:alexays/waybar";
-      #     inputs.nixpkgs.follows = "nixpkgs";
-      # };
+      waybar = {
+          url = "github:alexays/waybar";
+          inputs.nixpkgs.follows = "nixpkgs";
+      };
   };
 
 

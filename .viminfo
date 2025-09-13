@@ -15,11 +15,11 @@
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757762249,,"wq"
+|2,0,1757763427,,"wq"
+:w
+|2,0,1757762805,,"w"
 :q
 |2,0,1757761520,,"q"
-:w
-|2,0,1757761443,,"w"
 :saveas ~/.dotfiles/nixos/modules/swayoverlay.nix
 |2,0,1757761039,,"saveas ~/.dotfiles/nixos/modules/swayoverlay.nix"
 :so $MYVIMRC
@@ -40,49 +40,86 @@
 	      ./overlay.nix
 |3,0,0,1,1,0,1757761058,"      ./overlay.nix"
 ""1	LINE	0
-	      ./swayoverlay.nix
-|3,1,1,1,1,0,1757761240,"      ./swayoverlay.nix"
+	      inputs.waybar.overlay
+|3,1,1,1,1,0,1757763422,"      inputs.waybar.overlay"
 "2	LINE	0
-	     set $editor foot bash -c "sleep 0.1; exec vim %F"
-|3,0,2,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+	      ./swayoverlay.nix
+|3,0,2,1,1,0,1757761240,"      ./swayoverlay.nix"
 "3	LINE	0
+	     set $editor foot bash -c "sleep 0.1; exec vim %F"
+|3,0,3,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+"4	LINE	0
 	hi Line ctermbg=234   
-|3,0,3,1,1,0,1757749195,"hi Line ctermbg=234   "
+|3,0,4,1,1,0,1757749195,"hi Line ctermbg=234   "
 "-	CHAR	0
 	6f020cde569073622cc085251e47d82323d5c4bd
 |3,0,36,0,1,0,1757760911,"6f020cde569073622cc085251e47d82323d5c4bd"
 
 # Souborové značky:
-'0  4  13  ~/.config/alacritty/alacritty.toml
-|4,48,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
-'1  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,49,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
-'2  38  5  ~/.dotfiles/nixos/flake.nix
-|4,50,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
-'3  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,53,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
-'6  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
-'9  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,57,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+'0  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  4  13  ~/.config/alacritty/alacritty.toml
+|4,50,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+'3  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  38  5  ~/.dotfiles/nixos/flake.nix
+|4,55,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+'8  38  5  ~/.dotfiles/nixos/flake.nix
+|4,56,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+'9  38  5  ~/.dotfiles/nixos/flake.nix
+|4,57,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  25  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,6,1757763427,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  10  ~/.dotfiles/nixos/flake.nix
+|4,39,25,10,1757763360,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757763033,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  25  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,25,26,1757762925,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  11  0  ~/.dotfiles/nixos/flake.nix
+|4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
+-'  11  0  ~/.dotfiles/nixos/flake.nix
+|4,39,11,0,1757762841,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757762831,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757762762,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757762762,"~/.dotfiles/nixos/flake.nix"
 -'  4  13  ~/.config/alacritty/alacritty.toml
 |4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  4  13  ~/.config/alacritty/alacritty.toml
+|4,39,4,13,1757762249,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1757762235,"~/.config/alacritty/alacritty.toml"
 -'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1757761524,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -95,6 +132,34 @@
 |4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
 -'  38  5  ~/.dotfiles/nixos/flake.nix
 |4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+-'  38  5  ~/.dotfiles/nixos/flake.nix
+|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+-'  38  5  ~/.dotfiles/nixos/flake.nix
+|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
@@ -111,6 +176,34 @@
 |4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
 -'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 |4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -185,98 +278,30 @@
 |4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
 -'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
 |4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
--'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
-|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757763422	0
+	"	25	6
+	^	25	6
+	.	25	0
+	+	7	0
+	+	22	2
+	+	23	24
+	+	24	37
+	+	27	0
+	+	25	26
+	+	25	116
+	+	25	0
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1757763355	0
+	"	25	10
+	^	8	6
+	.	14	0
+	+	8	6
+	+	14	0
 
 > ~/.config/alacritty/alacritty.toml
 	*	1757762247	0
@@ -284,22 +309,6 @@
 	^	4	14
 	.	4	13
 	+	4	13
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757761560	0
-	"	23	1
-	^	23	2
-	.	23	1
-	+	7	0
-	+	22	2
-	+	23	1
-
-> ~/.dotfiles/nixos/flake.nix
-	*	1757761507	0
-	"	38	5
-	^	8	6
-	.	8	6
-	+	8	6
 
 > ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 	*	1757761383	0
