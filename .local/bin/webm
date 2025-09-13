@@ -1,17 +1,17 @@
 #!/bin/bash
 
-a="1 Gmail"
-b="2 NixOS search"
-c="3 Přehraj.to"
-d="4 Sdílej.cz"
-e="5 Titulky.cz"
-f="6 Nerd Fonts"
-ai="\0icon\x1fmessage"
-bi="\0icon\x1ffontforge"
-ci="\0icon\x1finternet-web-browser"
-di="\0icon\x1fcalligrawords"
+a="Gmail"
+b="nNixOS search"
+c="pPřehraj.to"
+d="sSdílej.cz"
+e="tTitulky.cz"
+f="Fonts"
+ai="\0icon\x1fgmail"
+bi="\0icon\x1fkmag"
+ci="\0icon\x1fdeepin-media-player"
+di="\0icon\x1fdeepin-media-player"
 ei="\0icon\x1fapplication-rtf"
-fi="\0icon\x1fkmag"
+fi="\0icon\x1ffonts"
 
 selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei\n$f$fi" | fuzzel --auto-select -d )
 case $selected in
@@ -24,7 +24,7 @@ case $selected in
     "$d")
         brave https://sdilej.cz/;;
     "$e")
-        brave http://titulky.cz/;;
+        brave http://titulky.com/;;
     "$f")
         brave https://www.nerdfonts.com/cheat-sheet;;
 esac
