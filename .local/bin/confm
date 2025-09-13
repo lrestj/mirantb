@@ -19,7 +19,7 @@ gi="\0icon\x1fpreferences-system-services"
 hi="\0icon\x1fpreferences-system-services"
 ii="\0icon\x1fpreferences-system-services"
 
-selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei\n$f$fi\n$g$gi\n$h$hi\n$i$ii" | fuzzel --lines 16 --auto-select -d )
+selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei\n$f$fi\n$g$gi\n$h$hi\n$i$ii" | fuzzel --match-mode exact --lines 16 --auto-select -d )
 case $selected in
     "$a")
         alacritty -e vim ~/.config/vim/vimrc;;

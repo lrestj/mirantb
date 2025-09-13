@@ -21,9 +21,9 @@ $e vim
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757782631,,"wq"
+|2,0,1757782898,,"wq"
 :w
-|2,0,1757782324,,"w"
+|2,0,1757782862,,"w"
 :'<,'>s/e/e vim/g
 |2,0,1757780158,,"'<,'>s/e/e vim/g"
 :'<,'>s/$EDITOR/alacritty/g
@@ -63,7 +63,10 @@ $e vim
 "0	LINE	0
 	    bindsym $cs+i exec webm
 |3,0,0,1,1,0,1757779342,"    bindsym $cs+i exec webm"
-""1	BLOCK	1
+""1	LINE	0
+	match-mode=exact
+|3,1,1,1,1,0,1757782857,"match-mode=exact"
+"2	BLOCK	1
 	1 
 	2 
 	3 
@@ -73,8 +76,8 @@ $e vim
 	7 
 	8 
 	9 
-|3,1,1,2,9,1,1757782628,"1 ","2 ","3 ","4 ","5 ","6 ","7 ","8 ","9 "
-"2	LINE	0
+|3,0,2,2,9,1,1757782628,"1 ","2 ","3 ","4 ","5 ","6 ","7 ","8 ","9 "
+"3	LINE	0
 	    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode "default"
 	    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode "default"
 	    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode "default"
@@ -83,9 +86,9 @@ $e vim
 	    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode "default"
 	    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode "default"
 	    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode "default"
-|3,0,2,1,8,0,1757779312,"    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode \"default\"","    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode \"default\"","    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode \"default\"","    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode \"default\"",>113
+|3,0,3,1,8,0,1757779312,"    bindsym v exec makoctl dismiss && $editor ~/.config/vim/vimrc; mode \"default\"","    bindsym y exec makoctl dismiss && $editor ~/.config/yazi/keymap.toml; mode \"default\"","    bindsym w exec makoctl dismiss && $editor ~/.config/waybar/config-sway.jsonc; mode \"default\"","    bindsym m exec makoctl dismiss && $editor ~/.config/mako/config; mode \"default\"",>113
 |<"    bindsym c exec makoctl dismiss && $editor ~/.dotfiles/nixos/hosts/zbook/configuration.nix; mode \"default\"","    bindsym f exec makoctl dismiss && $editor ~/.dotfiles/nixos/flake.nix; mode \"default\"","    bindsym p exec makoctl dismiss && $editor ~/.dotfiles/nixos/modules/pkgs.nix; mode \"default\"","    bindsym r exec makoctl dismiss && $editor ~/.dotfiles/other/stuff2remember.txt; mode \"default\""
-"3	LINE	0
+"4	LINE	0
 	 Vimrc  V
 	Yazi toml  Y
 	Waybar conf  W
@@ -100,32 +103,32 @@ $e vim
 	
 	󰑓 Reload
 	    Mako  X
-|3,0,3,1,14,0,1757777499," Vimrc  V","Yazi toml  Y","Waybar conf  W","Mako conf  M","Sway conf  S","Stuff2remember  R",""," Nixos:","    config  C","    flake  F","    pkgs  P","","󰑓 Reload","    Mako  X"
-"4	BLOCK	11
+|3,0,4,1,14,0,1757777499," Vimrc  V","Yazi toml  Y","Waybar conf  W","Mako conf  M","Sway conf  S","Stuff2remember  R",""," Nixos:","    config  C","    flake  F","    pkgs  P","","󰑓 Reload","    Mako  X"
+"5	BLOCK	11
 	Gmail"
 	NixOS search
 	Přehraj.to"
 	Sdílej.cz"
 	Titulky.cz"
 	Nerd Fonts"
-|3,0,4,2,6,11,1757777207,"Gmail\"","NixOS search","Přehraj.to\"","Sdílej.cz\"","Titulky.cz\"","Nerd Fonts\""
-"5	BLOCK	1
+|3,0,5,2,6,11,1757777207,"Gmail\"","NixOS search","Přehraj.to\"","Sdílej.cz\"","Titulky.cz\"","Nerd Fonts\""
+"6	BLOCK	1
 	  
 	  
 	  
 	  
 	  
 	  
-|3,0,5,2,6,1,1757776745,"  ","  ","  ","  ","  ","  "
-"6	BLOCK	0
+|3,0,6,2,6,1,1757776745,"  ","  ","  ","  ","  ","  "
+"7	BLOCK	0
 	G
 	N
 	P
 	S
 	T
 	F
-|3,0,6,2,6,0,1757776737,"G","N","P","S","T","F"
-"7	LINE	0
+|3,0,7,2,6,0,1757776737,"G","N","P","S","T","F"
+"8	LINE	0
 	    # Wenmarks
 	    bindsym $cs+i mode "Webmarks"; exec webmarks
 	    mode "Webmarks" {
@@ -138,14 +141,11 @@ $e vim
 	    bindsym Return exec makoctl dismiss; mode "default"
 	    bindsym Escape exec makoctl dismiss; mode "default"
 	    }
-|3,0,7,1,12,0,1757776660,"    # Wenmarks","    bindsym $cs+i mode \"Webmarks\"; exec webmarks","    mode \"Webmarks\" {","    bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode \"default\"","    bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode \"default\"","    bindsym p exec makoctl dismiss && $browser https://prehrajto.cz/; mode \"default\"",>85
+|3,0,8,1,12,0,1757776660,"    # Wenmarks","    bindsym $cs+i mode \"Webmarks\"; exec webmarks","    mode \"Webmarks\" {","    bindsym g exec makoctl dismiss && $browser https://mail.google.com/mail/u/0/; mode \"default\"","    bindsym n exec makoctl dismiss && $browser https://search.nixos.org/packages; mode \"default\"","    bindsym p exec makoctl dismiss && $browser https://prehrajto.cz/; mode \"default\"",>85
 |<"    bindsym s exec makoctl dismiss && $browser https://sdilej.cz/; mode \"default\"","    bindsym t exec makoctl dismiss && $browser http://titulky.cz/; mode \"default\"","    bindsym f exec makoctl dismiss && $browser https://www.nerdfonts.com/cheat-sheet; mode \"default\"","    bindsym Return exec makoctl dismiss; mode \"default\"","    bindsym Escape exec makoctl dismiss; mode \"default\"","    }"
-"8	LINE	0
-	ei="\0icon\x1fsystem-shutdown"
-|3,0,8,1,1,0,1757775507,"ei=\"\\0icon\\x1fsystem-shutdown\""
 "9	LINE	0
-	e="
-|3,0,9,1,1,0,1757774824,"e=\""
+	ei="\0icon\x1fsystem-shutdown"
+|3,0,9,1,1,0,1757775507,"ei=\"\\0icon\\x1fsystem-shutdown\""
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
@@ -154,30 +154,56 @@ $e vim
 |3,0,36,0,1,0,1757779351,"webm"
 
 # Souborové značky:
-'0  1  0  ~/.dotfiles/nixos/flake.nix
-|4,48,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
-'1  1  0  ~/.dotfiles/nixos/flake.nix
-|4,49,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
-'2  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,50,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
-'3  3  3  ~/.local/bin/confm
-|4,51,3,3,1757782631,"~/.local/bin/confm"
+'0  1  0  ~/.config/yazi/keymap.toml
+|4,48,1,0,1757782916,"~/.config/yazi/keymap.toml"
+'1  22  110  ~/.local/bin/confm
+|4,49,22,110,1757782898,"~/.local/bin/confm"
+'2  1  0  ~/.dotfiles/nixos/flake.nix
+|4,50,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
+'3  1  0  ~/.dotfiles/nixos/flake.nix
+|4,51,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
 '4  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,52,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
-'5  1  0  ~/.config/sway/config
-|4,53,1,0,1757782575,"~/.config/sway/config"
-'6  1  0  ~/.config/mako/config
-|4,54,1,0,1757782563,"~/.config/mako/config"
-'7  1  0  ~/.config/vim/vimrc
-|4,55,1,0,1757782552,"~/.config/vim/vimrc"
-'8  1  0  ~/.config/yazi/keymap.toml
-|4,56,1,0,1757782480,"~/.config/yazi/keymap.toml"
-'9  27  15  ~/.config/fuzzel/fuzzel.ini
-|4,57,27,15,1757782475,"~/.config/fuzzel/fuzzel.ini"
+|4,52,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+'5  3  3  ~/.local/bin/confm
+|4,53,3,3,1757782631,"~/.local/bin/confm"
+'6  3  3  ~/.local/bin/confm
+|4,54,3,3,1757782631,"~/.local/bin/confm"
+'7  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,55,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+'8  1  0  ~/.config/sway/config
+|4,56,1,0,1757782575,"~/.config/sway/config"
+'9  1  0  ~/.config/mako/config
+|4,57,1,0,1757782563,"~/.config/mako/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/.config/yazi/keymap.toml
+|4,39,1,0,1757782916,"~/.config/yazi/keymap.toml"
+-'  22  110  ~/.local/bin/confm
+|4,39,22,110,1757782898,"~/.local/bin/confm"
+-'  22  110  ~/.local/bin/confm
+|4,39,22,110,1757782898,"~/.local/bin/confm"
+-'  27  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,0,1757782868,"~/.config/fuzzel/fuzzel.ini"
+-'  27  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,0,1757782868,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757782852,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1757782852,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
 |4,39,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782804,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/nixos/flake.nix
 |4,39,1,0,1757782733,"~/.dotfiles/nixos/flake.nix"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -188,6 +214,50 @@ $e vim
 |4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782637,"~/.dotfiles/other/stuff2remember.txt"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
+-'  3  3  ~/.local/bin/confm
+|4,39,3,3,1757782631,"~/.local/bin/confm"
 -'  3  3  ~/.local/bin/confm
 |4,39,3,3,1757782631,"~/.local/bin/confm"
 -'  3  3  ~/.local/bin/confm
@@ -220,6 +290,74 @@ $e vim
 |4,39,1,0,1757782617,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757782617,"~/.local/bin/confm"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
@@ -238,170 +376,18 @@ $e vim
 |4,39,1,0,1757782582,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757782575,"~/.config/sway/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757782563,"~/.config/mako/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.dotfiles/nixos/flake.nix
-	*	1757782802	0
-	"	1	0
-	.	32	0
-	+	8	6
-	+	15	0
-	+	25	0
-	+	32	0
-	+	11	59
-	+	15	0
-	+	11	15
-	+	32	0
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1757782635	0
+> ~/.config/yazi/keymap.toml
+	*	1757782915	0
 	"	1	0
 
 > ~/.local/bin/confm
-	*	1757782628	0
-	"	3	3
-	^	22	91
-	.	3	3
-	+	15	26
+	*	1757782896	0
+	"	22	110
+	^	22	111
+	.	22	110
 	+	17	0
 	+	22	59
 	+	25	12
@@ -501,6 +487,30 @@ $e vim
 	+	22	0
 	+	22	91
 	+	3	3
+	+	22	110
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1757782862	0
+	"	27	0
+	.	27	0
+	+	27	0
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1757782802	0
+	"	1	0
+	.	32	0
+	+	8	6
+	+	15	0
+	+	25	0
+	+	32	0
+	+	11	59
+	+	15	0
+	+	11	15
+	+	32	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1757782635	0
+	"	1	0
 
 > ~/.config/sway/config
 	*	1757782566	0
@@ -550,17 +560,6 @@ $e vim
 	+	65	21
 	+	64	20
 	+	67	24
-
-> ~/.config/yazi/keymap.toml
-	*	1757782478	0
-	"	1	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1757782473	0
-	"	27	15
-	^	27	16
-	.	27	15
-	+	27	15
 
 > ~/.config/waybar/config-sway.jsonc
 	*	1757782364	0
