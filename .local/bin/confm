@@ -6,9 +6,10 @@ c="wWaybar config"
 d="mMako config"
 e="Sway config"
 f="sStuff2remember"
-g="nNixos config"
+g="cConfiguration.nix"
 h="fFlake.nix"
 i="Pkgs"
+j="uUpdate Nixos"
 ai="\0icon\x1fvim"
 bi="\0icon\x1fsystem-file-manager"
 ci="\0icon\x1fwayland"
@@ -18,25 +19,29 @@ fi="\0icon\x1fnotepad"
 gi="\0icon\x1fpreferences-system-services"
 hi="\0icon\x1fpreferences-system-services"
 ii="\0icon\x1fpreferences-system-services"
+ji="\0icon\x1fupsource"
 
-selected=$(echo -e "$e$ei\n$a$ai\n$b$bi\n$c$ci\n$d$di\n$f$fi\n$g$gi\n$h$hi\n$i$ii" | fuzzel --match-mode exact --lines 16 --auto-select -d )
+selected=$(echo -e "$e$ei\n$a$ai\n$b$bi\n$c$ci\n$d$di\n$f$fi\n$g$gi\n$h$hi\n$i$ii\n$j$ji" | fuzzel --match-mode exact --lines 17 --auto-select -d )
 case $selected in
     "$a")
-        alacritty -e vim ~/.config/vim/vimrc;;
+        $TERMINAL -e vim ~/.config/vim/vimrc;;
     "$b")
-        alacritty -e vim ~/.config/yazi/keymap.toml;;
+        $TERMINAL -e vim ~/.config/yazi/keymap.toml;;
     "$c")
-        alacritty -e vim ~/.config/waybar/config-sway.jsonc;;
+        $TERMINAL -e vim ~/.config/waybar/config-sway.jsonc;;
     "$d")
-        alacritty -e vim ~/.config/mako/config;;
+        $TERMINAL -e vim ~/.config/mako/config;;
     "$e")
-        alacritty -e vim ~/.config/sway/config;;
+        $TERMINAL -e vim ~/.config/sway/config;;
     "$f")
-        alacritty -e vim ~/.dotfiles/other/stuff2remember.txt;;
+        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
     "$g")
-        alacritty -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
     "$h")
-        alacritty -e vim ~/.dotfiles/nixos/flake.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
     "$i")
-        alacritty -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+    "$j")
+        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/
 esac
+

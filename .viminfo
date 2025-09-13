@@ -14,16 +14,18 @@
 ~MSle0/nore
 
 # Last Substitute Search Pattern:
-~MSle0~&e
+~MSle0~&alacritty
 
 # Poslední nahrazující řetězec:
-$e vim
+$$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
-:w
-|2,0,1757792304,,"w"
 :wq
-|2,0,1757785737,,"wq"
+|2,0,1757799003,,"wq"
+:w
+|2,0,1757798684,,"w"
+:'<,'>s/alacritty/$TERMINAL/g
+|2,0,1757798035,,"'<,'>s/alacritty/$TERMINAL/g"
 :saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
 |2,0,1757785665,,"saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
 :'<,'>s/e/e vim/g
@@ -46,6 +48,8 @@ $e vim
 |2,0,1757749932,,"so $MYVIMRC"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+? alacritty
+|2,1,1757798035,,"alacritty"
 ? e
 |2,1,1757780158,,"e"
 ? $EDITOR
@@ -63,8 +67,8 @@ $e vim
 
 # Registry:
 "0	LINE	0
-	      ./overlay.nix
-|3,0,0,1,1,0,1757785679,"      ./overlay.nix"
+	    for_window [app_id="btop"] floating enable, resize set 1585  800 
+|3,0,0,1,1,0,1757798647,"    for_window [app_id=\"btop\"] floating enable, resize set 1585  800 "
 "1	LINE	0
 	      ./fuzzeloverlay.nix
 |3,0,1,1,1,0,1757785734,"      ./fuzzeloverlay.nix"
@@ -152,271 +156,250 @@ $e vim
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 ""-	CHAR	0
-	$e$ei\n
-|3,1,36,0,1,0,1757792282,"$e$ei\\n"
+	nNixos config
+|3,1,36,0,1,0,1757798950,"nNixos config"
 
 # Souborové značky:
-'0  22  26  ~/.local/bin/confm
-|4,48,22,26,1757792315,"~/.local/bin/confm"
-'1  1  0  ~/.config/sway/config
-|4,49,1,0,1757792311,"~/.config/sway/config"
-'2  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,7,2,1757785737,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  7  13  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,7,13,1757785689,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,52,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
-'5  22  110  ~/.local/bin/confm
-|4,53,22,110,1757785502,"~/.local/bin/confm"
-'6  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,54,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'7  22  122  ~/.local/bin/confm
-|4,55,22,122,1757785439,"~/.local/bin/confm"
-'8  22  122  ~/.local/bin/confm
-|4,56,22,122,1757785439,"~/.local/bin/confm"
-'9  22  104  ~/.local/bin/confm
-|4,57,22,104,1757785358,"~/.local/bin/confm"
+'0  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,48,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'1  9  3  ~/.local/bin/confm
+|4,49,9,3,1757799003,"~/.local/bin/confm"
+'2  9  19  ~/.local/bin/confm
+|4,50,9,19,1757798968,"~/.local/bin/confm"
+'3  12  3  ~/.local/bin/confm
+|4,51,12,3,1757798784,"~/.local/bin/confm"
+'4  12  3  ~/.local/bin/confm
+|4,52,12,3,1757798784,"~/.local/bin/confm"
+'5  12  3  ~/.local/bin/confm
+|4,53,12,3,1757798784,"~/.local/bin/confm"
+'6  12  3  ~/.local/bin/confm
+|4,54,12,3,1757798784,"~/.local/bin/confm"
+'7  213  66  ~/.config/sway/config
+|4,55,213,66,1757798716,"~/.config/sway/config"
+'8  46  3  ~/.local/bin/confm
+|4,56,46,3,1757798632,"~/.local/bin/confm"
+'9  46  3  ~/.local/bin/confm
+|4,57,46,3,1757798632,"~/.local/bin/confm"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  22  26  ~/.local/bin/confm
-|4,39,22,26,1757792315,"~/.local/bin/confm"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757799009,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  9  3  ~/.local/bin/confm
+|4,39,9,3,1757799003,"~/.local/bin/confm"
+-'  9  3  ~/.local/bin/confm
+|4,39,9,3,1757799003,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798992,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798992,"~/.local/bin/confm"
+-'  9  19  ~/.local/bin/confm
+|4,39,9,19,1757798968,"~/.local/bin/confm"
+-'  9  19  ~/.local/bin/confm
+|4,39,9,19,1757798968,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798938,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798938,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  12  3  ~/.local/bin/confm
+|4,39,12,3,1757798784,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798775,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757798775,"~/.local/bin/confm"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
+-'  213  66  ~/.config/sway/config
+|4,39,213,66,1757798716,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1757792311,"~/.config/sway/config"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757792183,"~/.local/bin/confm"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757785737,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757785737,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1757785737,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785730,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785730,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785730,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  13  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,13,1757785689,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  13  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,13,1757785689,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  13  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,13,1757785689,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785674,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785674,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785674,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1757785669,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,10,1757785564,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785556,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785556,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1757785556,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  22  110  ~/.local/bin/confm
-|4,39,22,110,1757785502,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757785495,"~/.local/bin/confm"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1757785486,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757798638,"~/.config/sway/config"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757798632,"~/.local/bin/confm"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  35  60  ~/.config/fish/config.fish
+|4,39,35,60,1757798574,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1757798482,"~/.config/fish/config.fish"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.config/sway/config
-	*	1757792309	0
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1757799006	0
 	"	1	0
-	^	89	28
-	.	89	27
-	+	215	27
-	+	218	0
-	+	213	0
-	+	214	39
-	+	215	3
-	+	41	0
-	+	42	0
-	+	41	0
-	+	204	0
-	+	88	26
-	+	199	0
-	+	203	0
-	+	89	27
-	s	1	0
+	^	82	89
+	.	82	88
+	+	76	49
+	+	82	88
 
 > ~/.local/bin/confm
-	*	1757792304	0
-	"	22	26
-	^	22	123
-	.	22	20
-	+	4	0
-	+	3	3
-	+	3	0
-	+	25	12
-	+	27	13
-	+	29	14
-	+	25	7
-	+	29	14
-	+	31	13
-	+	33	13
+	*	1757799002	0
+	"	9	3
+	^	9	4
+	.	9	3
 	+	35	13
+	+	37	13
 	+	3	10
 	+	5	16
 	+	6	15
@@ -439,48 +422,47 @@ $e vim
 	+	10	19
 	+	11	14
 	+	3	0
-	+	22	79
-	+	18	0
+	+	24	79
 	+	19	0
 	+	20	0
-	+	18	0
+	+	21	0
 	+	19	0
 	+	20	0
-	+	12	16
-	+	13	33
-	+	14	19
-	+	22	79
-	+	14	20
+	+	21	0
+	+	13	16
+	+	14	33
+	+	15	19
+	+	24	79
 	+	15	20
-	+	13	22
-	+	16	29
-	+	17	20
-	+	18	41
+	+	16	20
+	+	14	22
+	+	17	29
+	+	18	20
 	+	19	41
 	+	20	41
-	+	25	12
+	+	21	41
 	+	27	12
 	+	29	12
 	+	31	12
 	+	33	12
-	+	35	11
+	+	35	12
+	+	37	11
+	+	44	0
 	+	40	0
-	+	38	0
-	+	36	6
 	+	38	6
 	+	40	6
-	+	33	12
-	+	35	12
-	+	37	12
-	+	39	12
-	+	33	12
+	+	44	6
 	+	35	12
 	+	37	12
 	+	39	12
 	+	41	12
-	+	22	62
-	+	25	0
-	+	25	24
+	+	35	12
+	+	37	12
+	+	39	12
+	+	41	12
+	+	45	12
+	+	24	62
+	+	27	0
 	+	27	24
 	+	29	24
 	+	31	24
@@ -489,12 +471,13 @@ $e vim
 	+	37	24
 	+	39	24
 	+	41	24
-	+	25	38
-	+	22	121
-	+	22	0
-	+	22	91
+	+	45	24
+	+	27	38
+	+	24	121
+	+	24	0
+	+	24	91
 	+	3	3
-	+	22	110
+	+	24	110
 	+	10	3
 	+	11	3
 	+	9	9
@@ -503,8 +486,68 @@ $e vim
 	+	6	3
 	+	8	3
 	+	10	3
-	+	22	104
-	+	22	20
+	+	24	104
+	+	24	20
+	+	27	0
+	+	12	14
+	+	22	22
+	+	24	127
+	+	42	0
+	+	44	6
+	+	45	83
+	+	46	4
+	+	12	3
+	+	9	3
+
+> ~/.config/sway/config
+	*	1757798684	0
+	"	213	66
+	^	213	67
+	.	213	66
+	+	216	27
+	+	219	0
+	+	214	0
+	+	215	39
+	+	216	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	204	0
+	+	88	26
+	+	199	0
+	+	203	0
+	+	89	27
+	+	213	66
+	s	1	0
+
+> ~/.config/fish/config.fish
+	*	1757798574	0
+	"	35	60
+
+> ~/.config/vim/vimrc
+	*	1757798042	0
+	"	1	0
+	^	64	21
+	.	67	24
+	+	65	21
+	+	68	7
+	+	65	21
+	+	68	18
+	+	70	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	68	0
+	+	67	12
+	+	66	20
+	+	65	21
+	+	64	20
+	+	38	0
+	+	67	24
+	+	66	20
+	+	65	21
+	+	64	20
+	+	67	24
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1757785734	0
@@ -531,14 +574,6 @@ $e vim
 	+	11	31
 	+	12	30
 	+	13	26
-
-> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-	*	1757785469	0
-	"	1	0
-	^	82	89
-	.	82	88
-	+	76	49
-	+	82	88
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757784452	0
@@ -573,41 +608,16 @@ $e vim
 	*	1757782559	0
 	"	1	0
 
-> ~/.config/vim/vimrc
-	*	1757782549	0
-	"	1	0
-	^	64	21
-	.	67	24
-	+	65	21
-	+	68	7
-	+	65	21
-	+	68	18
-	+	70	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	68	0
-	+	67	12
-	+	66	20
-	+	65	21
-	+	64	20
-	+	38	0
-	+	67	24
-	+	66	20
-	+	65	21
-	+	64	20
-	+	67	24
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1757782364	0
-	"	1	0
-
 > ~/.config/vimrc
 	*	1757780376	0
 	"	1	0
 
 > ~/.dotfile
 	*	1757780167	0
+	"	1	0
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1757779395	0
 	"	1	0
 
 > ~/.local/bin/nsubmap.txt
