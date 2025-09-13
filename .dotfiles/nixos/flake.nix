@@ -5,6 +5,8 @@
   
   inputs = {
       nixpkgs.url = "nixpkgs/nixos-unstable"; 
+      nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
+
       # nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
       # waybar = {
       #     url = "github:alexays/waybar";

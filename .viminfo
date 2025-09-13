@@ -15,9 +15,13 @@
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1757758000,,"wq"
+|2,0,1757761562,,"wq"
+:q
+|2,0,1757761520,,"q"
 :w
-|2,0,1757757017,,"w"
+|2,0,1757761443,,"w"
+:saveas ~/.dotfiles/nixos/modules/swayoverlay.nix
+|2,0,1757761039,,"saveas ~/.dotfiles/nixos/modules/swayoverlay.nix"
 :so $MYVIMRC
 |2,0,1757749932,,"so $MYVIMRC"
 
@@ -33,243 +37,283 @@
 
 # Registry:
 "0	LINE	0
-	    # set $editor $term -e vim
-|3,0,0,1,1,0,1757756928,"    # set $editor $term -e vim"
-"1	LINE	0
-	     set $editor foot bash -c "sleep 0.1; exec vim %F"
-|3,0,1,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+	      ./overlay.nix
+|3,0,0,1,1,0,1757761058,"      ./overlay.nix"
+""1	LINE	0
+	      ./swayoverlay.nix
+|3,1,1,1,1,0,1757761240,"      ./swayoverlay.nix"
 "2	LINE	0
+	     set $editor foot bash -c "sleep 0.1; exec vim %F"
+|3,0,2,1,1,0,1757757751,"     set $editor foot bash -c \"sleep 0.1; exec vim %F\""
+"3	LINE	0
 	hi Line ctermbg=234   
-|3,0,2,1,1,0,1757749195,"hi Line ctermbg=234   "
-""-	CHAR	0
-	true
-|3,1,36,0,1,0,1757757963,"true"
+|3,0,3,1,1,0,1757749195,"hi Line ctermbg=234   "
+"-	CHAR	0
+	6f020cde569073622cc085251e47d82323d5c4bd
+|3,0,36,0,1,0,1757760911,"6f020cde569073622cc085251e47d82323d5c4bd"
 
 # Souborové značky:
-'0  1  0  ~/.config/sway/config
-|4,48,1,0,1757758014,"~/.config/sway/config"
-'1  8  17  ~/.local/share/applications/vim.desktop
-|4,49,8,17,1757758000,"~/.local/share/applications/vim.desktop"
-'2  1  0  ~/.local/bin/sway-run
-|4,50,1,0,1757757936,"~/.local/bin/sway-run"
-'3  8  7  ~/.local/share/applications/vim.desktop
-|4,51,8,7,1757757905,"~/.local/share/applications/vim.desktop"
-'4  1  0  ~/.config/sway/config
-|4,52,1,0,1757757858,"~/.config/sway/config"
-'5  78  34  ~/.config/sway/config
-|4,53,78,34,1757757851,"~/.config/sway/config"
-'6  78  34  ~/.config/sway/config
-|4,54,78,34,1757757851,"~/.config/sway/config"
-'7  78  34  ~/.config/sway/config
-|4,55,78,34,1757757851,"~/.config/sway/config"
-'8  78  34  ~/.config/sway/config
-|4,56,78,34,1757757851,"~/.config/sway/config"
-'9  1  0  ~/%F
-|4,57,1,0,1757757730,"~/%F"
+'0  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  38  5  ~/.dotfiles/nixos/flake.nix
+|4,49,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+'2  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,52,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+'5  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+'9  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,57,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757758014,"~/.config/sway/config"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  8  17  ~/.local/share/applications/vim.desktop
-|4,39,8,17,1757758000,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  7  10  ~/.local/share/applications/vim.desktop
-|4,39,7,10,1757757986,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1757757956,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  1  0  ~/.local/bin/sway-run
-|4,39,1,0,1757757936,"~/.local/bin/sway-run"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
--'  8  7  ~/.local/share/applications/vim.desktop
-|4,39,8,7,1757757905,"~/.local/share/applications/vim.desktop"
+-'  23  1  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,23,1,1757761562,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761524,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  38  5  ~/.dotfiles/nixos/flake.nix
+|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+-'  38  5  ~/.dotfiles/nixos/flake.nix
+|4,39,38,5,1757761520,"~/.dotfiles/nixos/flake.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  82  88  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,82,88,1757761389,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+|4,39,1,0,1757761271,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1757761247,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761236,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,7,25,1757761166,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,17,1757761146,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761142,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  11  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,11,1757761069,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757761053,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  8  25  ~/.dotfiles/nixos/modules/swayoverlay.nix
+|4,39,8,25,1757761044,"~/.dotfiles/nixos/modules/swayoverlay.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  14  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,14,1757760878,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757761560	0
+	"	23	1
+	^	23	2
+	.	23	1
+	+	7	0
+	+	22	2
+	+	23	1
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1757761507	0
+	"	38	5
+	^	8	6
+	.	8	6
+	+	8	6
+
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1757761383	0
+	"	82	88
+	^	82	89
+	.	82	88
+	+	76	49
+	+	82	88
+
+> ~/.dotfiles/nixos/modules/swayoverlay.nix
+	*	1757761164	0
+	"	7	25
+	^	7	26
+	.	7	25
+	+	13	26
+	+	12	30
+	+	10	31
+	+	11	29
+	+	7	13
+	+	8	25
+	+	7	25
 
 > ~/.config/sway/config
 	*	1757758012	0

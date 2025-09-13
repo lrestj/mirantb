@@ -19,6 +19,8 @@
       inherit (pkgs.stdenv.hostPlatform) system;
       inherit (config.nixpkgs) config;
     };
+  
+  nixpkgs.overlays = [ inputs.nixpkgs-wayland.overlay ];
 
     environment.systemPackages =
         (with pkgs; [
