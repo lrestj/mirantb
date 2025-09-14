@@ -20,10 +20,10 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757870791,,"w"
 :wq
 |2,0,1757843637,,"wq"
-:w
-|2,0,1757843587,,"w"
 :'<,'>s/alacritty/$TERMINAL/g
 |2,0,1757798035,,"'<,'>s/alacritty/$TERMINAL/g"
 :saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
@@ -107,36 +107,58 @@ $$TERMINAL
 |3,1,36,0,1,0,1757843537,"$TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
 
 # Souborové značky:
-'0  24  127  ~/.local/bin/confm
-|4,48,24,127,1757843637,"~/.local/bin/confm"
-'1  24  120  ~/.local/bin/confm
-|4,49,24,120,1757843205,"~/.local/bin/confm"
-'2  3  9  ~/.local/bin/update
-|4,50,3,9,1757843095,"~/.local/bin/update"
-'3  5  3  ~/.local/bin/update
-|4,51,5,3,1757842202,"~/.local/bin/update"
-'4  4  3  ~/.local/bin/update
-|4,52,4,3,1757842202,"~/.local/bin/update"
-'5  7  34  ~/.local/share/applications/Update.desktop
-|4,53,7,34,1757842058,"~/.local/share/applications/Update.desktop"
-'6  7  20  ~/.local/share/applications/Update.desktop
-|4,54,7,20,1757841558,"~/.local/share/applications/Update.desktop"
-'7  21  13  ~/.config/fuzzel/fuzzel.ini
-|4,55,21,13,1757841260,"~/.config/fuzzel/fuzzel.ini"
+'0  15  0  ~/.config/alacritty/alacritty.toml
+|4,48,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+'1  24  127  ~/.local/bin/confm
+|4,49,24,127,1757843637,"~/.local/bin/confm"
+'2  24  120  ~/.local/bin/confm
+|4,50,24,120,1757843205,"~/.local/bin/confm"
+'3  3  9  ~/.local/bin/update
+|4,51,3,9,1757843095,"~/.local/bin/update"
+'4  5  3  ~/.local/bin/update
+|4,52,5,3,1757842202,"~/.local/bin/update"
+'5  4  3  ~/.local/bin/update
+|4,53,4,3,1757842202,"~/.local/bin/update"
+'6  7  34  ~/.local/share/applications/Update.desktop
+|4,54,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+'7  7  20  ~/.local/share/applications/Update.desktop
+|4,55,7,20,1757841558,"~/.local/share/applications/Update.desktop"
 '8  21  13  ~/.config/fuzzel/fuzzel.ini
 |4,56,21,13,1757841260,"~/.config/fuzzel/fuzzel.ini"
-'9  13  0  ~/.local/bin/confm
-|4,57,13,0,1757841207,"~/.local/bin/confm"
+'9  21  13  ~/.config/fuzzel/fuzzel.ini
+|4,57,21,13,1757841260,"~/.config/fuzzel/fuzzel.ini"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  24  127  ~/.local/bin/confm
+|4,39,24,127,1757843637,"~/.local/bin/confm"
 -'  24  127  ~/.local/bin/confm
 |4,39,24,127,1757843637,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1757843471,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757843471,"~/.local/bin/confm"
+-'  24  120  ~/.local/bin/confm
+|4,39,24,120,1757843205,"~/.local/bin/confm"
 -'  24  120  ~/.local/bin/confm
 |4,39,24,120,1757843205,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1757843114,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757843114,"~/.local/bin/confm"
+-'  3  9  ~/.local/bin/update
+|4,39,3,9,1757843095,"~/.local/bin/update"
+-'  3  9  ~/.local/bin/update
+|4,39,3,9,1757843095,"~/.local/bin/update"
+-'  3  9  ~/.local/bin/update
+|4,39,3,9,1757843095,"~/.local/bin/update"
+-'  3  9  ~/.local/bin/update
+|4,39,3,9,1757843095,"~/.local/bin/update"
 -'  3  9  ~/.local/bin/update
 |4,39,3,9,1757843095,"~/.local/bin/update"
 -'  3  9  ~/.local/bin/update
@@ -153,6 +175,20 @@ $$TERMINAL
 |4,39,44,13,1757842323,"~/.local/bin/confm"
 -'  45  13  ~/.local/bin/confm
 |4,39,45,13,1757842323,"~/.local/bin/confm"
+-'  46  13  ~/.local/bin/confm
+|4,39,46,13,1757842323,"~/.local/bin/confm"
+-'  47  13  ~/.local/bin/confm
+|4,39,47,13,1757842323,"~/.local/bin/confm"
+-'  44  13  ~/.local/bin/confm
+|4,39,44,13,1757842323,"~/.local/bin/confm"
+-'  45  13  ~/.local/bin/confm
+|4,39,45,13,1757842323,"~/.local/bin/confm"
+-'  22  0  ~/.local/bin/confm
+|4,39,22,0,1757842268,"~/.local/bin/confm"
+-'  22  0  ~/.local/bin/confm
+|4,39,22,0,1757842268,"~/.local/bin/confm"
+-'  22  0  ~/.local/bin/confm
+|4,39,22,0,1757842268,"~/.local/bin/confm"
 -'  22  0  ~/.local/bin/confm
 |4,39,22,0,1757842268,"~/.local/bin/confm"
 -'  22  0  ~/.local/bin/confm
@@ -165,6 +201,14 @@ $$TERMINAL
 |4,39,12,0,1757842258,"~/.local/bin/confm"
 -'  12  0  ~/.local/bin/confm
 |4,39,12,0,1757842258,"~/.local/bin/confm"
+-'  12  0  ~/.local/bin/confm
+|4,39,12,0,1757842258,"~/.local/bin/confm"
+-'  12  0  ~/.local/bin/confm
+|4,39,12,0,1757842258,"~/.local/bin/confm"
+-'  12  0  ~/.local/bin/confm
+|4,39,12,0,1757842258,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1757842254,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1757842254,"~/.local/bin/confm"
 -'  5  3  ~/.local/bin/update
@@ -183,6 +227,38 @@ $$TERMINAL
 |4,39,5,3,1757842202,"~/.local/bin/update"
 -'  4  3  ~/.local/bin/update
 |4,39,4,3,1757842202,"~/.local/bin/update"
+-'  5  3  ~/.local/bin/update
+|4,39,5,3,1757842202,"~/.local/bin/update"
+-'  4  3  ~/.local/bin/update
+|4,39,4,3,1757842202,"~/.local/bin/update"
+-'  5  3  ~/.local/bin/update
+|4,39,5,3,1757842202,"~/.local/bin/update"
+-'  4  3  ~/.local/bin/update
+|4,39,4,3,1757842202,"~/.local/bin/update"
+-'  5  3  ~/.local/bin/update
+|4,39,5,3,1757842202,"~/.local/bin/update"
+-'  4  3  ~/.local/bin/update
+|4,39,4,3,1757842202,"~/.local/bin/update"
+-'  5  3  ~/.local/bin/update
+|4,39,5,3,1757842202,"~/.local/bin/update"
+-'  4  3  ~/.local/bin/update
+|4,39,4,3,1757842202,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
+-'  1  0  ~/.local/bin/update
+|4,39,1,0,1757842170,"~/.local/bin/update"
 -'  1  0  ~/.local/bin/update
 |4,39,1,0,1757842170,"~/.local/bin/update"
 -'  1  0  ~/.local/bin/update
@@ -231,106 +307,38 @@ $$TERMINAL
 |4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
 -'  7  34  ~/.local/share/applications/Update.desktop
 |4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  6  14  ~/.local/share/applications/Update.desktop
-|4,39,6,14,1757841808,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  9  12  ~/.local/share/applications/Update.desktop
-|4,39,9,12,1757841786,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  8  16  ~/.local/share/applications/Update.desktop
-|4,39,8,16,1757841705,"~/.local/share/applications/Update.desktop"
--'  7  20  ~/.local/share/applications/Update.desktop
-|4,39,7,20,1757841558,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  7  34  ~/.local/share/applications/Update.desktop
+|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/alacritty/alacritty.toml
+	*	1757870789	0
+	"	15	0
+	^	4	14
+	.	15	0
+	+	4	13
+	+	15	0
 
 > ~/.local/bin/confm
 	*	1757843636	0
@@ -688,13 +696,6 @@ $$TERMINAL
 > ~/.local/bin/power
 	*	1757774607	0
 	"	26	3
-
-> ~/.config/alacritty/alacritty.toml
-	*	1757762247	0
-	"	4	13
-	^	4	14
-	.	4	13
-	+	4	13
 
 > ~/.dotfiles/nixos/modules/swayoverlay.nix
 	*	1757761164	0
