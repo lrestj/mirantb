@@ -21,9 +21,15 @@ $$TERMINAL
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 :w
-|2,0,1757870791,,"w"
+|2,0,1757872510,,"w"
+:w shell.nix
+|2,0,1757872337,,"w shell.nix"
+:ver
+|2,0,1757871950,,"ver"
 :wq
-|2,0,1757843637,,"wq"
+|2,0,1757871718,,"wq"
+:saveas ~/.dotfiles/nixos/modules/vimoverlay.nix
+|2,0,1757871633,,"saveas ~/.dotfiles/nixos/modules/vimoverlay.nix"
 :'<,'>s/alacritty/$TERMINAL/g
 |2,0,1757798035,,"'<,'>s/alacritty/$TERMINAL/g"
 :saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
@@ -72,265 +78,315 @@ $$TERMINAL
 	    "$i")
 	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
 |3,0,0,1,2,0,1757843527,"    \"$i\")","        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
-"1	LINE	0
-	        update
-|3,0,1,1,1,0,1757843162,"        update"
+""1	LINE	0
+	    ripgrep
+|3,1,1,1,1,0,1757872417,"    ripgrep"
 "2	LINE	0
-	    "$j")
-|3,0,2,1,1,0,1757843161,"    \"$j\")"
+	        update
+|3,0,2,1,1,0,1757843162,"        update"
 "3	LINE	0
-	alacritty
-|3,0,3,1,1,0,1757842972,"alacritty"
+	    "$j")
+|3,0,3,1,1,0,1757843161,"    \"$j\")"
 "4	LINE	0
-	exec $SHELL
-|3,0,4,1,1,0,1757842819,"exec $SHELL"
+	alacritty
+|3,0,4,1,1,0,1757842972,"alacritty"
 "5	LINE	0
-	read
-|3,0,5,1,1,0,1757842448,"read"
+	exec $SHELL
+|3,0,5,1,1,0,1757842819,"exec $SHELL"
 "6	LINE	0
-	j="uUpdate Nixos"
-|3,0,6,1,1,0,1757841204,"j=\"uUpdate Nixos\""
+	read
+|3,0,6,1,1,0,1757842448,"read"
 "7	LINE	0
 	j="uUpdate Nixos"
-|3,0,7,1,1,0,1757841112,"j=\"uUpdate Nixos\""
+|3,0,7,1,1,0,1757841204,"j=\"uUpdate Nixos\""
 "8	LINE	0
-	ji="\0icon\x1fupsource"
-|3,0,8,1,1,0,1757841103,"ji=\"\\0icon\\x1fupsource\""
+	j="uUpdate Nixos"
+|3,0,8,1,1,0,1757841112,"j=\"uUpdate Nixos\""
 "9	LINE	0
-	        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/ && exec fish
-|3,0,9,1,1,0,1757841098,"        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/ && exec fish"
+	ji="\0icon\x1fupsource"
+|3,0,9,1,1,0,1757841103,"ji=\"\\0icon\\x1fupsource\""
 "q@	CHAR	0
 	ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl
 |3,2,26,0,1,0,1757776524,"ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl"
-""-	CHAR	0
-	$TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
-|3,1,36,0,1,0,1757843537,"$TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
+"-	CHAR	0
+	sha256-C0yQvZ1A6Moyr/FXzaJdaH/VJwtD2WI9opA1Y7U2aXc=
+|3,0,36,0,1,0,1757871601,"sha256-C0yQvZ1A6Moyr/FXzaJdaH/VJwtD2WI9opA1Y7U2aXc="
 
 # Souborov√© znaƒçky:
-'0  15  0  ~/.config/alacritty/alacritty.toml
-|4,48,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
-'1  24  127  ~/.local/bin/confm
-|4,49,24,127,1757843637,"~/.local/bin/confm"
-'2  24  120  ~/.local/bin/confm
-|4,50,24,120,1757843205,"~/.local/bin/confm"
-'3  3  9  ~/.local/bin/update
-|4,51,3,9,1757843095,"~/.local/bin/update"
-'4  5  3  ~/.local/bin/update
-|4,52,5,3,1757842202,"~/.local/bin/update"
-'5  4  3  ~/.local/bin/update
-|4,53,4,3,1757842202,"~/.local/bin/update"
-'6  7  34  ~/.local/share/applications/Update.desktop
-|4,54,7,34,1757842058,"~/.local/share/applications/Update.desktop"
-'7  7  20  ~/.local/share/applications/Update.desktop
-|4,55,7,20,1757841558,"~/.local/share/applications/Update.desktop"
-'8  21  13  ~/.config/fuzzel/fuzzel.ini
-|4,56,21,13,1757841260,"~/.config/fuzzel/fuzzel.ini"
-'9  21  13  ~/.config/fuzzel/fuzzel.ini
-|4,57,21,13,1757841260,"~/.config/fuzzel/fuzzel.ini"
+'0  2  8  ~/shell.nix
+|4,48,2,8,1757872561,"~/shell.nix"
+'1  13  76  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,49,13,76,1757871718,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+'2  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  15  0  ~/.config/alacritty/alacritty.toml
+|4,52,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+'5  15  0  ~/.config/alacritty/alacritty.toml
+|4,53,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+'6  24  127  ~/.local/bin/confm
+|4,54,24,127,1757843637,"~/.local/bin/confm"
+'7  24  127  ~/.local/bin/confm
+|4,55,24,127,1757843637,"~/.local/bin/confm"
+'8  24  120  ~/.local/bin/confm
+|4,56,24,120,1757843205,"~/.local/bin/confm"
+'9  24  120  ~/.local/bin/confm
+|4,57,24,120,1757843205,"~/.local/bin/confm"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+-'  2  8  ~/shell.nix
+|4,39,2,8,1757872561,"~/shell.nix"
+-'  1  0  ~/shell.nix
+|4,39,1,0,1757872308,"~/shell.nix"
+-'  13  76  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,76,1757871718,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  76  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,76,1757871718,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  76  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,76,1757871718,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  76  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,76,1757871718,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871685,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871685,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871685,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871685,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  10  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,10,1757871653,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/overlay.nix
+|4,39,1,0,1757871643,"~/.dotfiles/nixos/modules/overlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,26,1757871640,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,26,1757871640,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,26,1757871640,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/vimoverlay.nix
+|4,39,13,26,1757871640,"~/.dotfiles/nixos/modules/vimoverlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1757871566,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
 -'  15  0  ~/.config/alacritty/alacritty.toml
 |4,39,15,0,1757870797,"~/.config/alacritty/alacritty.toml"
 -'  16  0  ~/.config/alacritty/alacritty.toml
 |4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  16  0  ~/.config/alacritty/alacritty.toml
+|4,39,16,0,1757870789,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1757870744,"~/.config/alacritty/alacritty.toml"
 -'  24  127  ~/.local/bin/confm
 |4,39,24,127,1757843637,"~/.local/bin/confm"
 -'  24  127  ~/.local/bin/confm
 |4,39,24,127,1757843637,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757843471,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757843471,"~/.local/bin/confm"
--'  24  120  ~/.local/bin/confm
-|4,39,24,120,1757843205,"~/.local/bin/confm"
--'  24  120  ~/.local/bin/confm
-|4,39,24,120,1757843205,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757843114,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757843114,"~/.local/bin/confm"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  3  9  ~/.local/bin/update
-|4,39,3,9,1757843095,"~/.local/bin/update"
--'  46  13  ~/.local/bin/confm
-|4,39,46,13,1757842323,"~/.local/bin/confm"
--'  47  13  ~/.local/bin/confm
-|4,39,47,13,1757842323,"~/.local/bin/confm"
--'  44  13  ~/.local/bin/confm
-|4,39,44,13,1757842323,"~/.local/bin/confm"
--'  45  13  ~/.local/bin/confm
-|4,39,45,13,1757842323,"~/.local/bin/confm"
--'  46  13  ~/.local/bin/confm
-|4,39,46,13,1757842323,"~/.local/bin/confm"
--'  47  13  ~/.local/bin/confm
-|4,39,47,13,1757842323,"~/.local/bin/confm"
--'  44  13  ~/.local/bin/confm
-|4,39,44,13,1757842323,"~/.local/bin/confm"
--'  45  13  ~/.local/bin/confm
-|4,39,45,13,1757842323,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  22  0  ~/.local/bin/confm
-|4,39,22,0,1757842268,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  12  0  ~/.local/bin/confm
-|4,39,12,0,1757842258,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757842254,"~/.local/bin/confm"
--'  1  0  ~/.local/bin/confm
-|4,39,1,0,1757842254,"~/.local/bin/confm"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  5  3  ~/.local/bin/update
-|4,39,5,3,1757842202,"~/.local/bin/update"
--'  4  3  ~/.local/bin/update
-|4,39,4,3,1757842202,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  1  0  ~/.local/bin/update
-|4,39,1,0,1757842170,"~/.local/bin/update"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
--'  7  34  ~/.local/share/applications/Update.desktop
-|4,39,7,34,1757842058,"~/.local/share/applications/Update.desktop"
+-'  24  127  ~/.local/bin/confm
+|4,39,24,127,1757843637,"~/.local/bin/confm"
+-'  24  127  ~/.local/bin/confm
+|4,39,24,127,1757843637,"~/.local/bin/confm"
+-'  24  127  ~/.local/bin/confm
+|4,39,24,127,1757843637,"~/.local/bin/confm"
+-'  24  127  ~/.local/bin/confm
+|4,39,24,127,1757843637,"~/.local/bin/confm"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+
+> ~/shell.nix
+	*	1757872510	0
+	"	2	8
+	^	16	4
+	.	16	0
+	+	19	0
+	+	4	145
+	+	4	0
+	+	17	0
+	+	5	10
+	+	6	10
+	+	7	22
+	+	8	10
+	+	9	15
+	+	10	12
+	+	11	10
+	+	12	15
+	+	13	11
+	+	14	10
+	+	15	18
+	+	16	0
+
+> ~/.dotfiles/nixos/modules/vimoverlay.nix
+	*	1757871716	0
+	"	13	76
+	^	13	77
+	.	13	76
+	+	12	64
+	+	13	76
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1757871681	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	7	0
+	+	22	2
+	+	23	24
+	+	24	37
+	+	27	0
+	+	25	26
+	+	25	116
+	+	25	21
+	+	7	0
+	+	6	10
+
+> ~/.dotfiles/nixos/modules/overlay.nix
+	*	1757871640	0
+	"	1	0
 
 > ~/.config/alacritty/alacritty.toml
 	*	1757870789	0
@@ -617,20 +673,6 @@ $$TERMINAL
 	+	65	21
 	+	64	20
 	+	67	24
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1757785734	0
-	"	7	2
-	.	7	0
-	+	7	0
-	+	22	2
-	+	23	24
-	+	24	37
-	+	27	0
-	+	25	26
-	+	25	116
-	+	25	21
-	+	7	0
 
 > ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
 	*	1757785665	0
