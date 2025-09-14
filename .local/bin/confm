@@ -9,7 +9,7 @@ f="sStuff2remember"
 g="cConfiguration.nix"
 h="fFlake.nix"
 i="Pkgs"
-j="uUpdate Nixos"
+j="aAdd new script"
 ai="\0icon\x1fvim"
 bi="\0icon\x1fsystem-file-manager"
 ci="\0icon\x1fwayland"
@@ -19,7 +19,7 @@ fi="\0icon\x1fnotepad"
 gi="\0icon\x1fpreferences-system-services"
 hi="\0icon\x1fpreferences-system-services"
 ii="\0icon\x1fpreferences-system-services"
-ji="\0icon\x1fupsource"
+ji="\0icon\x1fadd"
 
 selected=$(echo -e "$e$ei\n$a$ai\n$b$bi\n$c$ci\n$d$di\n$f$fi\n$g$gi\n$h$hi\n$i$ii\n$j$ji" | fuzzel --match-mode exact --lines 17 --auto-select -d )
 case $selected in
@@ -42,5 +42,5 @@ case $selected in
     "$i")
         $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
     "$j")
-        $TERMINAL --class update -e sudo nix flake update --flake ~/.dotfiles/nixos/ && notify-send -c center -i dialog-information "Update kompletní"
+        addnew
 esac
