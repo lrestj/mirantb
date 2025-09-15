@@ -47,7 +47,7 @@
             fish
             font-manager
             foot
-            fuzzel
+            # fuzzel
             fzf
             geany
             glib util-linux

@@ -1,15 +1,15 @@
 #!/bin/bash
 
 a=" Vimrc"
-b="yYazi.toml"
-c="wWaybar config"
-d="mMako config"
+b="Yazi.toml"
+c="Waybar config"
+d="Mako config"
 e="Sway config"
-f="sStuff2remember"
-g="cConfiguration.nix"
-h="fFlake.nix"
+f="Stuff2remember"
+g="Configuration.nix"
+h="Flake.nix"
 i="Pkgs"
-j="aAdd new script"
+j="Add new script"
 ai="\0icon\x1fvim"
 bi="\0icon\x1fsystem-file-manager"
 ci="\0icon\x1fwayland"
@@ -21,7 +21,7 @@ hi="\0icon\x1fpreferences-system-services"
 ii="\0icon\x1fpreferences-system-services"
 ji="\0icon\x1fadd"
 
-selected=$(echo -e "$e$ei\n$a$ai\n$b$bi\n$c$ci\n$d$di\n$f$fi\n$g$gi\n$h$hi\n$i$ii\n$j$ji" | fuzzel --match-mode exact --lines 17 --auto-select -d )
+selected=$(echo -e " \t$e$ei\nv\t$a$ai\ny\t$b$bi\nw\t$c$ci\nm\t$d$di\ns\t$f$fi\nc\t$g$gi\nf\t$h$hi\np\t$i$ii\na\t$j$ji" | fuzzel --match-nth 1 --with-nth 2 --accept-nth 2 --lines 17 --auto-select -d )
 case $selected in
     "$a")
         $TERMINAL -e vim ~/.config/vim/vimrc;;
