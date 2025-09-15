@@ -44,5 +44,5 @@ shell="fish"
 
 [keyboard]
 bindings = [
-{ key = "A", mods = "Control|Shift", action = "CreateNewWindow" },
+{ key = "A", mods = "Super", action = "CreateNewWindow" },
 ]

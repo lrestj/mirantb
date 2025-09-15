@@ -73,7 +73,7 @@
     client.focused #8000FF #8000FF #8000FF
 
 ### Keybindings
-    bindsym $mod+a exec $term
+    bindsym $mod+Backslash exec $term
     bindsym $ms+a exec foot
     bindsym $cs+y exec $term -e yazi
     bindsym $ms+y exec foot -e yazi

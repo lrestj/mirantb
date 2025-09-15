@@ -20,12 +20,14 @@
 $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
-:w
-|2,0,1757960620,,"w"
-:wq
-|2,0,1757959773,,"wq"
 :q
-|2,0,1757959083,,"q"
+|2,0,1757971601,,"q"
+:w!
+|2,0,1757971596,,"w!"
+:w
+|2,0,1757971585,,"w"
+:wq
+|2,0,1757970376,,"wq"
 :w shell.nix
 |2,0,1757872337,,"w shell.nix"
 :ver
@@ -77,277 +79,312 @@ $$TERMINAL
 
 # Registry:
 "0	LINE	0
-	# vim: ft=dosini
-|3,0,0,1,1,0,1757960594,"# vim: ft=dosini"
-""1	LINE	0
-	#vim=
-|3,1,1,1,1,0,1757960610,"#vim="
+	    for_window [class=".*"] move left
+|3,0,0,1,1,0,1757970150,"    for_window [class=\".*\"] move left"
+"1	LINE	0
+	    for_window [urgent="latest"] move left
+|3,0,1,1,1,0,1757970370,"    for_window [urgent=\"latest\"] move left"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1757960608,""
+	#vim=
+|3,0,2,1,1,0,1757960610,"#vim="
 "3	LINE	0
-	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png 
-|3,0,3,1,1,0,1757930316,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png "
+	
+|3,0,3,1,1,0,1757960608,""
 "4	LINE	0
+	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png 
+|3,0,4,1,1,0,1757930316,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png "
+"5	LINE	0
 	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-|3,0,4,1,1,0,1757929953,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill"
-"5	BLOCK	7
+|3,0,5,1,1,0,1757929953,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill"
+"6	BLOCK	7
 		
 		
 		
 		
 		
-|3,0,5,2,5,7,1757928209,"	","	","	","	","	"
-"6	LINE	0
-	    epoll-shim
-|3,0,6,1,1,0,1757926072,"    epoll-shim"
+|3,0,6,2,5,7,1757928209,"	","	","	","	","	"
 "7	LINE	0
-	    cairo 
-|3,0,7,1,1,0,1757924626,"    cairo "
+	    epoll-shim
+|3,0,7,1,1,0,1757926072,"    epoll-shim"
 "8	LINE	0
-	    ripgrep
-|3,0,8,1,1,0,1757872417,"    ripgrep"
+	    cairo 
+|3,0,8,1,1,0,1757924626,"    cairo "
 "9	LINE	0
-	        update
-|3,0,9,1,1,0,1757843162,"        update"
+	    ripgrep
+|3,0,9,1,1,0,1757872417,"    ripgrep"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-"-	CHAR	0
-	$EDITOR
-|3,0,36,0,1,0,1757959186,"$EDITOR"
+""-	CHAR	0
+	\
+|3,1,36,0,1,0,1757971030,"\\"
 
 # SouborovÃ© znaÄky:
-'0  15  0  ~/.config/alacritty/alacritty.toml
-|4,48,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
-'1  67  0  ~/.config/mako/config
-|4,49,67,0,1757960622,"~/.config/mako/config"
-'2  67  0  ~/.config/mako/config
-|4,50,67,0,1757960622,"~/.config/mako/config"
-'3  1  0  ~/vim
-|4,51,1,0,1757959776,"~/vim"
-'4  1  0  ~/vim
-|4,52,1,0,1757959776,"~/vim"
-'5  4  21  ~/.local/share/applications/btop.desktop
-|4,53,4,21,1757959773,"~/.local/share/applications/btop.desktop"
-'6  4  21  ~/.local/share/applications/btop.desktop
-|4,54,4,21,1757959773,"~/.local/share/applications/btop.desktop"
-'7  1  0  ~/.local/bin/111
-|4,55,1,0,1757959652,"~/.local/bin/111"
-'8  1  0  ~/.local/bin/111
-|4,56,1,0,1757959652,"~/.local/bin/111"
-'9  14  23  ~/.local/bin/addnew
-|4,57,14,23,1757959574,"~/.local/bin/addnew"
+'0  48  0  ~/.config/alacritty/alacritty.toml
+|4,48,48,0,1757971601,"~/.config/alacritty/alacritty.toml"
+'1  76  25  ~/.config/sway/config
+|4,49,76,25,1757971539,"~/.config/sway/config"
+'2  24  0  ~/.config/sway/config
+|4,50,24,0,1757970716,"~/.config/sway/config"
+'3  24  0  ~/.config/sway/config
+|4,51,24,0,1757970716,"~/.config/sway/config"
+'4  208  4  ~/.config/sway/config
+|4,52,208,4,1757970376,"~/.config/sway/config"
+'5  208  4  ~/.config/sway/config
+|4,53,208,4,1757970376,"~/.config/sway/config"
+'6  208  4  ~/.config/sway/config
+|4,54,208,4,1757970376,"~/.config/sway/config"
+'7  208  4  ~/.config/sway/config
+|4,55,208,4,1757970376,"~/.config/sway/config"
+'8  208  37  ~/.config/sway/config
+|4,56,208,37,1757970196,"~/.config/sway/config"
+'9  208  37  ~/.config/sway/config
+|4,57,208,37,1757970196,"~/.config/sway/config"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  48  0  ~/.config/alacritty/alacritty.toml
+|4,39,48,0,1757971601,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1757971579,"~/.config/alacritty/alacritty.toml"
+-'  76  25  ~/.config/sway/config
+|4,39,76,25,1757971539,"~/.config/sway/config"
+-'  76  25  ~/.config/sway/config
+|4,39,76,25,1757971539,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970968,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970968,"~/.config/sway/config"
+-'  24  0  ~/.config/sway/config
+|4,39,24,0,1757970716,"~/.config/sway/config"
+-'  24  0  ~/.config/sway/config
+|4,39,24,0,1757970716,"~/.config/sway/config"
+-'  24  0  ~/.config/sway/config
+|4,39,24,0,1757970716,"~/.config/sway/config"
+-'  24  0  ~/.config/sway/config
+|4,39,24,0,1757970716,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970704,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970704,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  208  4  ~/.config/sway/config
+|4,39,208,4,1757970376,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970362,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970362,"~/.config/sway/config"
+-'  208  37  ~/.config/sway/config
+|4,39,208,37,1757970196,"~/.config/sway/config"
+-'  208  37  ~/.config/sway/config
+|4,39,208,37,1757970196,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970141,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757970141,"~/.config/sway/config"
 -'  15  0  ~/.config/alacritty/alacritty.toml
 |4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
 -'  38  0  ~/.config/mako/config
 |4,39,38,0,1757960690,"~/.config/mako/config"
 -'  67  0  ~/.config/mako/config
 |4,39,67,0,1757960622,"~/.config/mako/config"
 -'  67  0  ~/.config/mako/config
 |4,39,67,0,1757960622,"~/.config/mako/config"
--'  280  11  ~/.config/foot/foot.ini
-|4,39,280,11,1757960595,"~/.config/foot/foot.ini"
--'  280  11  ~/.config/foot/foot.ini
-|4,39,280,11,1757960595,"~/.config/foot/foot.ini"
--'  36  0  ~/.config/foot/foot.ini
-|4,39,36,0,1757960586,"~/.config/foot/foot.ini"
--'  36  0  ~/.config/foot/foot.ini
-|4,39,36,0,1757960586,"~/.config/foot/foot.ini"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757960516,"~/.config/mako/config"
--'  1  0  ~/.config/mako/config
-|4,39,1,0,1757960516,"~/.config/mako/config"
--'  1  0  ~/vim
-|4,39,1,0,1757959776,"~/vim"
--'  1  0  ~/vim
-|4,39,1,0,1757959776,"~/vim"
--'  1  0  ~/vim
-|4,39,1,0,1757959776,"~/vim"
--'  4  21  ~/.local/share/applications/btop.desktop
-|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
--'  4  21  ~/.local/share/applications/btop.desktop
-|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
--'  4  21  ~/.local/share/applications/btop.desktop
-|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
--'  1  0  ~/.local/share/applications/btop.desktop
-|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
--'  1  0  ~/.local/share/applications/btop.desktop
-|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
--'  1  0  ~/.local/share/applications/btop.desktop
-|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
--'  1  0  ~/.local/bin/111
-|4,39,1,0,1757959652,"~/.local/bin/111"
--'  1  0  ~/.local/bin/111
-|4,39,1,0,1757959652,"~/.local/bin/111"
--'  1  0  ~/.local/bin/111
-|4,39,1,0,1757959652,"~/.local/bin/111"
--'  1  0  ~/.local/bin/111
-|4,39,1,0,1757959652,"~/.local/bin/111"
--'  1  0  ~/.local/bin/111
-|4,39,1,0,1757959652,"~/.local/bin/111"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  14  23  ~/.local/bin/addnew
-|4,39,14,23,1757959574,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/pokus
-|4,39,1,0,1757959572,"~/.local/bin/pokus"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  1  0  ~/.local/bin/loooo
-|4,39,1,0,1757959210,"~/.local/bin/loooo"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  16  ~/.local/bin/addnew
-|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
 > ~/.config/alacritty/alacritty.toml
-	*	1757960692	0
-	"	15	0
+	*	1757971600	0
+	"	48	0
 	^	4	14
 	.	15	0
 	+	4	13
 	+	15	0
+
+> ~/.config/sway/config
+	*	1757971040	0
+	"	76	25
+	^	76	26
+	.	76	25
+	+	217	27
+	+	220	0
+	+	215	0
+	+	216	39
+	+	217	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	205	0
+	+	89	26
+	+	200	0
+	+	204	0
+	+	90	27
+	+	214	66
+	+	58	0
+	+	56	0
+	+	58	0
+	+	58	38
+	+	58	120
+	+	58	0
+	+	56	0
+	+	57	0
+	+	57	23
+	+	56	43
+	+	208	0
+	+	76	25
+	s	1	0
 
 > ~/.config/mako/config
 	*	1757960674	0
@@ -506,37 +543,6 @@ $$TERMINAL
 	^	3	61
 	.	3	0
 	+	3	0
-
-> ~/.config/sway/config
-	*	1757958666	0
-	"	36	0
-	^	56	44
-	.	56	43
-	+	217	27
-	+	220	0
-	+	215	0
-	+	216	39
-	+	217	3
-	+	41	0
-	+	42	0
-	+	41	0
-	+	205	0
-	+	89	26
-	+	200	0
-	+	204	0
-	+	90	27
-	+	214	66
-	+	58	0
-	+	56	0
-	+	58	0
-	+	58	38
-	+	58	120
-	+	58	0
-	+	56	0
-	+	57	0
-	+	57	23
-	+	56	43
-	s	1	0
 
 > ~/.config/fuzzel/power.ini
 	*	1757931821	0
