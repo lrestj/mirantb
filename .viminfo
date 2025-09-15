@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :w
-|2,0,1757931812,,"w"
+|2,0,1757958753,,"w"
 :wq
 |2,0,1757931706,,"wq"
 :w shell.nix
@@ -114,42 +114,74 @@ $$TERMINAL
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 "-	CHAR	0
-	swaylock -f -F -e -k -c 000000;;
-|3,0,36,0,1,0,1757931311,"swaylock -f -F -e -k -c 000000;;"
+	lockscreen
+|3,0,36,0,1,0,1757958690,"lockscreen"
 
 # SouborovÃ© znaÄky:
-'0  18  16  ~/.config/fuzzel/power.ini
-|4,48,18,16,1757931823,"~/.config/fuzzel/power.ini"
-'1  17  19  ~/.local/bin/power
-|4,49,17,19,1757931706,"~/.local/bin/power"
-'2  17  19  ~/.local/bin/power
-|4,50,17,19,1757931706,"~/.local/bin/power"
-'3  68  76  ~/.config/sway/config
-|4,51,68,76,1757931613,"~/.config/sway/config"
-'4  1  0  ~/.local/bin/lockscreen
-|4,52,1,0,1757931412,"~/.local/bin/lockscreen"
-'5  17  17  ~/.local/bin/power
-|4,53,17,17,1757931409,"~/.local/bin/power"
-'6  17  17  ~/.local/bin/power
-|4,54,17,17,1757931409,"~/.local/bin/power"
-'7  3  70  ~/.local/bin/lockscreen
-|4,55,3,70,1757931159,"~/.local/bin/lockscreen"
-'8  56  4  ~/.config/sway/config
-|4,56,56,4,1757930323,"~/.config/sway/config"
-'9  56  4  ~/.config/sway/config
-|4,57,56,4,1757930323,"~/.config/sway/config"
+'0  36  0  ~/.config/sway/config
+|4,48,36,0,1757958799,"~/.config/sway/config"
+'1  3  57  ~/.local/bin/lockscreen
+|4,49,3,57,1757958798,"~/.local/bin/lockscreen"
+'2  18  16  ~/.config/fuzzel/power.ini
+|4,50,18,16,1757931823,"~/.config/fuzzel/power.ini"
+'3  17  19  ~/.local/bin/power
+|4,51,17,19,1757931706,"~/.local/bin/power"
+'4  17  19  ~/.local/bin/power
+|4,52,17,19,1757931706,"~/.local/bin/power"
+'5  68  76  ~/.config/sway/config
+|4,53,68,76,1757931613,"~/.config/sway/config"
+'6  68  76  ~/.config/sway/config
+|4,54,68,76,1757931613,"~/.config/sway/config"
+'7  1  0  ~/.local/bin/lockscreen
+|4,55,1,0,1757931412,"~/.local/bin/lockscreen"
+'8  1  0  ~/.local/bin/lockscreen
+|4,56,1,0,1757931412,"~/.local/bin/lockscreen"
+'9  17  17  ~/.local/bin/power
+|4,57,17,17,1757931409,"~/.local/bin/power"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  36  0  ~/.config/sway/config
+|4,39,36,0,1757958799,"~/.config/sway/config"
+-'  3  57  ~/.local/bin/lockscreen
+|4,39,3,57,1757958798,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757958681,"~/.local/bin/lockscreen"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757958656,"~/.config/sway/config"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
+-'  18  16  ~/.config/fuzzel/power.ini
+|4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
 -'  18  16  ~/.config/fuzzel/power.ini
 |4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
 -'  20  8  ~/.local/bin/power
 |4,39,20,8,1757931798,"~/.local/bin/power"
+-'  20  8  ~/.local/bin/power
+|4,39,20,8,1757931798,"~/.local/bin/power"
+-'  20  8  ~/.local/bin/power
+|4,39,20,8,1757931798,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757931736,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757931736,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757931736,"~/.local/bin/power"
 -'  17  19  ~/.local/bin/power
 |4,39,17,19,1757931706,"~/.local/bin/power"
 -'  17  19  ~/.local/bin/power
 |4,39,17,19,1757931706,"~/.local/bin/power"
+-'  17  19  ~/.local/bin/power
+|4,39,17,19,1757931706,"~/.local/bin/power"
+-'  17  19  ~/.local/bin/power
+|4,39,17,19,1757931706,"~/.local/bin/power"
+-'  17  19  ~/.local/bin/power
+|4,39,17,19,1757931706,"~/.local/bin/power"
+-'  17  19  ~/.local/bin/power
+|4,39,17,19,1757931706,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757931694,"~/.local/bin/power"
+-'  1  0  ~/.local/bin/power
+|4,39,1,0,1757931694,"~/.local/bin/power"
 -'  1  0  ~/.local/bin/power
 |4,39,1,0,1757931694,"~/.local/bin/power"
 -'  68  76  ~/.config/sway/config
@@ -160,6 +192,26 @@ $$TERMINAL
 |4,39,68,76,1757931613,"~/.config/sway/config"
 -'  68  76  ~/.config/sway/config
 |4,39,68,76,1757931613,"~/.config/sway/config"
+-'  68  76  ~/.config/sway/config
+|4,39,68,76,1757931613,"~/.config/sway/config"
+-'  68  76  ~/.config/sway/config
+|4,39,68,76,1757931613,"~/.config/sway/config"
+-'  68  76  ~/.config/sway/config
+|4,39,68,76,1757931613,"~/.config/sway/config"
+-'  68  76  ~/.config/sway/config
+|4,39,68,76,1757931613,"~/.config/sway/config"
+-'  68  76  ~/.config/sway/config
+|4,39,68,76,1757931613,"~/.config/sway/config"
+-'  98  40  ~/.config/sway/config
+|4,39,98,40,1757931611,"~/.config/sway/config"
+-'  98  40  ~/.config/sway/config
+|4,39,98,40,1757931611,"~/.config/sway/config"
+-'  98  40  ~/.config/sway/config
+|4,39,98,40,1757931611,"~/.config/sway/config"
+-'  98  40  ~/.config/sway/config
+|4,39,98,40,1757931611,"~/.config/sway/config"
+-'  98  40  ~/.config/sway/config
+|4,39,98,40,1757931611,"~/.config/sway/config"
 -'  98  40  ~/.config/sway/config
 |4,39,98,40,1757931611,"~/.config/sway/config"
 -'  98  40  ~/.config/sway/config
@@ -176,6 +228,30 @@ $$TERMINAL
 |4,39,1,0,1757931603,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1757931603,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757931603,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757931603,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757931603,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1757931603,"~/.config/sway/config"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
+-'  1  0  ~/.local/bin/lockscreen
+|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
 -'  1  0  ~/.local/bin/lockscreen
 |4,39,1,0,1757931412,"~/.local/bin/lockscreen"
 -'  1  0  ~/.local/bin/lockscreen
@@ -196,6 +272,32 @@ $$TERMINAL
 |4,39,17,17,1757931409,"~/.local/bin/power"
 -'  17  17  ~/.local/bin/power
 |4,39,17,17,1757931409,"~/.local/bin/power"
+-'  17  17  ~/.local/bin/power
+|4,39,17,17,1757931409,"~/.local/bin/power"
+-'  17  17  ~/.local/bin/power
+|4,39,17,17,1757931409,"~/.local/bin/power"
+-'  17  17  ~/.local/bin/power
+|4,39,17,17,1757931409,"~/.local/bin/power"
+-'  17  17  ~/.local/bin/power
+|4,39,17,17,1757931409,"~/.local/bin/power"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
+-'  56  43  ~/.config/sway/config
+|4,39,56,43,1757931300,"~/.config/sway/config"
 -'  56  43  ~/.config/sway/config
 |4,39,56,43,1757931300,"~/.config/sway/config"
 -'  56  43  ~/.config/sway/config
@@ -228,137 +330,29 @@ $$TERMINAL
 |4,39,3,70,1757931159,"~/.local/bin/lockscreen"
 -'  3  70  ~/.local/bin/lockscreen
 |4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931125,"~/.local/bin/lockscreen"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  57  37  ~/.config/sway/config
-|4,39,57,37,1757930862,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930480,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930480,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930480,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930480,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  56  4  ~/.config/sway/config
-|4,39,56,4,1757930323,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757930207,"~/.config/sway/config"
--'  58  40  ~/.config/sway/config
-|4,39,58,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  58  40  ~/.config/sway/config
-|4,39,58,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  58  40  ~/.config/sway/config
-|4,39,58,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  57  40  ~/.config/sway/config
-|4,39,57,40,1757930194,"~/.config/sway/config"
--'  58  40  ~/.config/sway/config
-|4,39,58,40,1757930194,"~/.config/sway/config"
+-'  3  70  ~/.local/bin/lockscreen
+|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
+-'  3  70  ~/.local/bin/lockscreen
+|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
+-'  3  70  ~/.local/bin/lockscreen
+|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
+-'  3  70  ~/.local/bin/lockscreen
+|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
+-'  3  70  ~/.local/bin/lockscreen
+|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
-> ~/.config/fuzzel/power.ini
-	*	1757931821	0
-	"	18	16
-	.	11	7
-	+	11	7
-
-> ~/.local/bin/power
-	*	1757931789	0
-	"	20	8
-	^	17	20
-	.	17	20
-	+	17	20
+> ~/.local/bin/lockscreen
+	*	1757958753	0
+	"	3	57
+	^	3	61
+	.	3	0
+	+	3	0
 
 > ~/.config/sway/config
-	*	1757931612	0
-	"	68	76
+	*	1757958666	0
+	"	36	0
 	^	56	44
 	.	56	43
 	+	217	27
@@ -387,9 +381,18 @@ $$TERMINAL
 	+	56	43
 	s	1	0
 
-> ~/.local/bin/lockscreen
-	*	1757931090	0
-	"	1	0
+> ~/.config/fuzzel/power.ini
+	*	1757931821	0
+	"	18	16
+	.	11	7
+	+	11	7
+
+> ~/.local/bin/power
+	*	1757931789	0
+	"	20	8
+	^	17	20
+	.	17	20
+	+	17	20
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1757930108	0
