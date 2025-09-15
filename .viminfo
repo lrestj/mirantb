@@ -20,10 +20,12 @@
 $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
-:w
-|2,0,1757958753,,"w"
 :wq
-|2,0,1757931706,,"wq"
+|2,0,1757959773,,"wq"
+:w
+|2,0,1757959557,,"w"
+:q
+|2,0,1757959083,,"q"
 :w shell.nix
 |2,0,1757872337,,"w shell.nix"
 :ver
@@ -46,8 +48,6 @@ $$TERMINAL
 |2,0,1757775543,,"m-2"
 :%y
 |2,0,1757774432,,"%y"
-:q
-|2,0,1757761520,,"q"
 :saveas ~/.dotfiles/nixos/modules/swayoverlay.nix
 |2,0,1757761039,,"saveas ~/.dotfiles/nixos/modules/swayoverlay.nix"
 :so $MYVIMRC
@@ -114,234 +114,370 @@ $$TERMINAL
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 "-	CHAR	0
-	lockscreen
-|3,0,36,0,1,0,1757958690,"lockscreen"
+	$EDITOR
+|3,0,36,0,1,0,1757959186,"$EDITOR"
 
 # SouborovÃ© znaÄky:
-'0  36  0  ~/.config/sway/config
-|4,48,36,0,1757958799,"~/.config/sway/config"
-'1  3  57  ~/.local/bin/lockscreen
-|4,49,3,57,1757958798,"~/.local/bin/lockscreen"
-'2  18  16  ~/.config/fuzzel/power.ini
-|4,50,18,16,1757931823,"~/.config/fuzzel/power.ini"
-'3  17  19  ~/.local/bin/power
-|4,51,17,19,1757931706,"~/.local/bin/power"
-'4  17  19  ~/.local/bin/power
-|4,52,17,19,1757931706,"~/.local/bin/power"
-'5  68  76  ~/.config/sway/config
-|4,53,68,76,1757931613,"~/.config/sway/config"
-'6  68  76  ~/.config/sway/config
-|4,54,68,76,1757931613,"~/.config/sway/config"
-'7  1  0  ~/.local/bin/lockscreen
-|4,55,1,0,1757931412,"~/.local/bin/lockscreen"
-'8  1  0  ~/.local/bin/lockscreen
-|4,56,1,0,1757931412,"~/.local/bin/lockscreen"
-'9  17  17  ~/.local/bin/power
-|4,57,17,17,1757931409,"~/.local/bin/power"
+'0  1  0  ~/vim
+|4,48,1,0,1757959776,"~/vim"
+'1  4  21  ~/.local/share/applications/btop.desktop
+|4,49,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+'2  1  0  ~/.local/bin/111
+|4,50,1,0,1757959652,"~/.local/bin/111"
+'3  14  23  ~/.local/bin/addnew
+|4,51,14,23,1757959574,"~/.local/bin/addnew"
+'4  1  0  ~/.local/bin/pokus
+|4,52,1,0,1757959572,"~/.local/bin/pokus"
+'5  1  0  ~/.local/bin/loooo
+|4,53,1,0,1757959210,"~/.local/bin/loooo"
+'6  1  0  ~/.local/bin/loooo
+|4,54,1,0,1757959210,"~/.local/bin/loooo"
+'7  14  16  ~/.local/bin/addnew
+|4,55,14,16,1757959197,"~/.local/bin/addnew"
+'8  14  18  ~/.local/bin/addnew
+|4,56,14,18,1757959147,"~/.local/bin/addnew"
+'9  14  18  ~/.local/bin/addnew
+|4,57,14,18,1757959147,"~/.local/bin/addnew"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
--'  36  0  ~/.config/sway/config
-|4,39,36,0,1757958799,"~/.config/sway/config"
--'  3  57  ~/.local/bin/lockscreen
-|4,39,3,57,1757958798,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757958681,"~/.local/bin/lockscreen"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757958656,"~/.config/sway/config"
--'  18  16  ~/.config/fuzzel/power.ini
-|4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
--'  18  16  ~/.config/fuzzel/power.ini
-|4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
--'  18  16  ~/.config/fuzzel/power.ini
-|4,39,18,16,1757931823,"~/.config/fuzzel/power.ini"
--'  20  8  ~/.local/bin/power
-|4,39,20,8,1757931798,"~/.local/bin/power"
--'  20  8  ~/.local/bin/power
-|4,39,20,8,1757931798,"~/.local/bin/power"
--'  20  8  ~/.local/bin/power
-|4,39,20,8,1757931798,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931736,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931736,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931736,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  17  19  ~/.local/bin/power
-|4,39,17,19,1757931706,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931694,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931694,"~/.local/bin/power"
--'  1  0  ~/.local/bin/power
-|4,39,1,0,1757931694,"~/.local/bin/power"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  68  76  ~/.config/sway/config
-|4,39,68,76,1757931613,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  98  40  ~/.config/sway/config
-|4,39,98,40,1757931611,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1757931603,"~/.config/sway/config"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  1  0  ~/.local/bin/lockscreen
-|4,39,1,0,1757931412,"~/.local/bin/lockscreen"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  17  17  ~/.local/bin/power
-|4,39,17,17,1757931409,"~/.local/bin/power"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  56  43  ~/.config/sway/config
-|4,39,56,43,1757931300,"~/.config/sway/config"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
--'  3  70  ~/.local/bin/lockscreen
-|4,39,3,70,1757931159,"~/.local/bin/lockscreen"
+-'  1  0  ~/vim
+|4,39,1,0,1757959776,"~/vim"
+-'  4  21  ~/.local/share/applications/btop.desktop
+|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/bin/111
+|4,39,1,0,1757959652,"~/.local/bin/111"
+-'  1  0  ~/.local/bin/111
+|4,39,1,0,1757959652,"~/.local/bin/111"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  14  18  ~/.local/bin/addnew
+|4,39,14,18,1757959147,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  1  0  ~/.local/bin/addnew
+|4,39,1,0,1757959090,"~/.local/bin/addnew"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757959083,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757959083,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757959083,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757959083,"~/.local/bin/confm"
+-'  46  3  ~/.local/bin/confm
+|4,39,46,3,1757959083,"~/.local/bin/confm"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.local/share/applications/btop.desktop
+	*	1757959770	0
+	"	4	21
+	^	4	22
+	.	4	21
+	+	4	21
+
+> ~/.local/bin/111
+	*	1757959651	0
+	"	1	0
+
+> ~/.local/bin/pokus
+	*	1757959569	0
+	"	1	0
+
+> ~/.local/bin/addnew
+	*	1757959557	0
+	"	14	23
+	^	14	24
+	.	14	23
+	+	14	23
+
+> ~/.local/bin/loooo
+	*	1757959435	0
+	"	1	0
+
+> ~/.local/bin/confm
+	*	1757959075	0
+	"	46	3
+	^	24	119
+	.	24	118
+	+	14	33
+	+	15	19
+	+	24	79
+	+	15	20
+	+	16	20
+	+	14	22
+	+	17	29
+	+	18	20
+	+	19	41
+	+	20	41
+	+	21	41
+	+	27	12
+	+	29	12
+	+	31	12
+	+	33	12
+	+	35	12
+	+	37	11
+	+	46	0
+	+	40	0
+	+	38	6
+	+	40	6
+	+	46	6
+	+	35	12
+	+	37	12
+	+	39	12
+	+	41	12
+	+	35	12
+	+	37	12
+	+	39	12
+	+	41	12
+	+	46	12
+	+	24	62
+	+	27	0
+	+	27	24
+	+	29	24
+	+	31	24
+	+	33	24
+	+	35	24
+	+	37	24
+	+	39	24
+	+	41	24
+	+	46	24
+	+	27	38
+	+	24	121
+	+	24	0
+	+	24	91
+	+	3	3
+	+	24	110
+	+	10	3
+	+	11	3
+	+	9	9
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	10	3
+	+	24	104
+	+	24	20
+	+	27	0
+	+	13	14
+	+	23	22
+	+	24	127
+	+	44	0
+	+	46	6
+	+	46	83
+	+	46	4
+	+	13	3
+	+	9	3
+	+	46	131
+	+	47	0
+	+	46	150
+	+	46	0
+	+	46	92
+	+	46	0
+	+	23	0
+	+	46	0
+	+	46	13
+	+	24	81
+	+	46	0
+	+	24	120
+	+	24	0
+	+	22	17
+	+	12	16
+	+	42	0
+	+	44	6
+	+	45	13
+	+	24	87
+	+	12	3
+	+	24	127
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	9	3
+	+	10	3
+	+	12	3
+	+	24	166
+	+	24	22
+	+	24	154
+	+	24	118
+
+> ~/.config/yazi/keymap.toml
+	*	1757958995	0
+	"	1	0
 
 > ~/.local/bin/lockscreen
 	*	1757958753	0
@@ -518,112 +654,6 @@ $$TERMINAL
 	+	7	3
 	+	16	130
 
-> ~/.local/bin/confm
-	*	1757927424	0
-	"	24	154
-	^	24	23
-	.	24	154
-	+	13	16
-	+	14	33
-	+	15	19
-	+	24	79
-	+	15	20
-	+	16	20
-	+	14	22
-	+	17	29
-	+	18	20
-	+	19	41
-	+	20	41
-	+	21	41
-	+	27	12
-	+	29	12
-	+	31	12
-	+	33	12
-	+	35	12
-	+	37	11
-	+	46	0
-	+	40	0
-	+	38	6
-	+	40	6
-	+	46	6
-	+	35	12
-	+	37	12
-	+	39	12
-	+	41	12
-	+	35	12
-	+	37	12
-	+	39	12
-	+	41	12
-	+	46	12
-	+	24	62
-	+	27	0
-	+	27	24
-	+	29	24
-	+	31	24
-	+	33	24
-	+	35	24
-	+	37	24
-	+	39	24
-	+	41	24
-	+	46	24
-	+	27	38
-	+	24	121
-	+	24	0
-	+	24	91
-	+	3	3
-	+	24	110
-	+	10	3
-	+	11	3
-	+	9	9
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	10	3
-	+	24	104
-	+	24	20
-	+	27	0
-	+	13	14
-	+	23	22
-	+	24	127
-	+	44	0
-	+	46	6
-	+	46	83
-	+	46	4
-	+	13	3
-	+	9	3
-	+	46	131
-	+	47	0
-	+	46	150
-	+	46	0
-	+	46	92
-	+	46	0
-	+	23	0
-	+	46	0
-	+	46	13
-	+	24	81
-	+	46	0
-	+	24	120
-	+	24	0
-	+	22	17
-	+	12	16
-	+	42	0
-	+	44	6
-	+	45	13
-	+	24	87
-	+	12	3
-	+	24	127
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	9	3
-	+	10	3
-	+	12	3
-	+	24	166
-	+	24	22
-	+	24	154
-
 > ~/.config/fuzzel/fuzzel.ini
 	*	1757927412	0
 	"	27	5
@@ -769,10 +799,6 @@ $$TERMINAL
 	+	12	30
 	+	13	26
 
-> ~/.config/yazi/keymap.toml
-	*	1757782915	0
-	"	1	0
-
 > ~/.dotfiles/nixos/flake.nix
 	*	1757782802	0
 	"	1	0
@@ -809,10 +835,6 @@ $$TERMINAL
 > ~/.local/bin/webmarks.txt
 	*	1757774863	0
 	"	9	22
-
-> ~/.local/bin/addnew
-	*	1757774614	0
-	"	16	0
 
 > ~/.dotfiles/nixos/modules/swayoverlay.nix
 	*	1757761164	0
@@ -861,3 +883,6 @@ $$TERMINAL
 	.	6	4
 	+	5	0
 	+	6	4
+
+> ~/vim
+	"	1	0

@@ -21,7 +21,7 @@ hi="\0icon\x1fpreferences-system-services"
 ii="\0icon\x1fpreferences-system-services"
 ji="\0icon\x1fadd"
 
-selected=$(echo -e " \t$e$ei\nv\t$a$ai\ny\t$b$bi\nw\t$c$ci\nm\t$d$di\ns\t$f$fi\nc\t$g$gi\nf\t$h$hi\np\t$i$ii\na\t$j$ji" | fuzzel --match-nth 1 --with-nth 2 --accept-nth 2 --lines 17 --auto-select -d )
+selected=$(echo -e "1\t$e$ei\n2v\t$a$ai\n3y\t$b$bi\n4w\t$c$ci\n5m\t$d$di\n6s\t$f$fi\n7c\t$g$gi\n8f\t$h$hi\n9p\t$i$ii\n0a\t$j$ji" | fuzzel --match-nth 1 --with-nth 2 --accept-nth 2 --lines 17 --auto-select -d )
 case $selected in
     "$a")
         $TERMINAL -e vim ~/.config/vim/vimrc;;
