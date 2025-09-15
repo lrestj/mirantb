@@ -14,7 +14,7 @@ ei="\0icon\x1fsystem-shutdown"
 selected=$(echo -e "$a$ai\n$b$bi\n$c$ci\n$d$di\n$e$ei" | fuzzel --config ~/.config/fuzzel/powercenter.ini -d )
 case $selected in
     "$a")
-        swaylock -f -F -e -k -c 000000;;
+        lockscreen;;
     "$b")
         sleep 1; swaymsg exit;;
     "$c")
