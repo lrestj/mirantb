@@ -20,10 +20,10 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1757960620,,"w"
 :wq
 |2,0,1757959773,,"wq"
-:w
-|2,0,1757959557,,"w"
 :q
 |2,0,1757959083,,"q"
 :w shell.nix
@@ -76,40 +76,40 @@ $$TERMINAL
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	CHAR	0
-	/run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-|3,0,0,0,1,0,1757929861,"/run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill"
+"0	LINE	0
+	# vim: ft=dosini
+|3,0,0,1,1,0,1757960594,"# vim: ft=dosini"
 ""1	LINE	0
-	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png 
-|3,1,1,1,1,0,1757930316,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png "
+	#vim=
+|3,1,1,1,1,0,1757960610,"#vim="
 "2	LINE	0
-	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-|3,0,2,1,1,0,1757929953,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill"
-"3	BLOCK	7
-		
-		
-		
-		
-		
-|3,0,3,2,5,7,1757928209,"	","	","	","	","	"
+	
+|3,0,2,1,1,0,1757960608,""
+"3	LINE	0
+	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png 
+|3,0,3,1,1,0,1757930316,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png "
 "4	LINE	0
-	    epoll-shim
-|3,0,4,1,1,0,1757926072,"    epoll-shim"
-"5	LINE	0
-	    cairo 
-|3,0,5,1,1,0,1757924626,"    cairo "
+	    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+|3,0,4,1,1,0,1757929953,"    set $lock swaylock -f -F -e -k -i /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill"
+"5	BLOCK	7
+		
+		
+		
+		
+		
+|3,0,5,2,5,7,1757928209,"	","	","	","	","	"
 "6	LINE	0
-	    ripgrep
-|3,0,6,1,1,0,1757872417,"    ripgrep"
+	    epoll-shim
+|3,0,6,1,1,0,1757926072,"    epoll-shim"
 "7	LINE	0
-	        update
-|3,0,7,1,1,0,1757843162,"        update"
+	    cairo 
+|3,0,7,1,1,0,1757924626,"    cairo "
 "8	LINE	0
-	    "$j")
-|3,0,8,1,1,0,1757843161,"    \"$j\")"
+	    ripgrep
+|3,0,8,1,1,0,1757872417,"    ripgrep"
 "9	LINE	0
-	alacritty
-|3,0,9,1,1,0,1757842972,"alacritty"
+	        update
+|3,0,9,1,1,0,1757843162,"        update"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
@@ -118,38 +118,86 @@ $$TERMINAL
 |3,0,36,0,1,0,1757959186,"$EDITOR"
 
 # Souborové značky:
-'0  1  0  ~/vim
-|4,48,1,0,1757959776,"~/vim"
-'1  4  21  ~/.local/share/applications/btop.desktop
-|4,49,4,21,1757959773,"~/.local/share/applications/btop.desktop"
-'2  1  0  ~/.local/bin/111
-|4,50,1,0,1757959652,"~/.local/bin/111"
-'3  14  23  ~/.local/bin/addnew
-|4,51,14,23,1757959574,"~/.local/bin/addnew"
-'4  1  0  ~/.local/bin/pokus
-|4,52,1,0,1757959572,"~/.local/bin/pokus"
-'5  1  0  ~/.local/bin/loooo
-|4,53,1,0,1757959210,"~/.local/bin/loooo"
-'6  1  0  ~/.local/bin/loooo
-|4,54,1,0,1757959210,"~/.local/bin/loooo"
-'7  14  16  ~/.local/bin/addnew
-|4,55,14,16,1757959197,"~/.local/bin/addnew"
-'8  14  18  ~/.local/bin/addnew
-|4,56,14,18,1757959147,"~/.local/bin/addnew"
-'9  14  18  ~/.local/bin/addnew
-|4,57,14,18,1757959147,"~/.local/bin/addnew"
+'0  15  0  ~/.config/alacritty/alacritty.toml
+|4,48,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+'1  67  0  ~/.config/mako/config
+|4,49,67,0,1757960622,"~/.config/mako/config"
+'2  67  0  ~/.config/mako/config
+|4,50,67,0,1757960622,"~/.config/mako/config"
+'3  1  0  ~/vim
+|4,51,1,0,1757959776,"~/vim"
+'4  1  0  ~/vim
+|4,52,1,0,1757959776,"~/vim"
+'5  4  21  ~/.local/share/applications/btop.desktop
+|4,53,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+'6  4  21  ~/.local/share/applications/btop.desktop
+|4,54,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+'7  1  0  ~/.local/bin/111
+|4,55,1,0,1757959652,"~/.local/bin/111"
+'8  1  0  ~/.local/bin/111
+|4,56,1,0,1757959652,"~/.local/bin/111"
+'9  14  23  ~/.local/bin/addnew
+|4,57,14,23,1757959574,"~/.local/bin/addnew"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  15  0  ~/.config/alacritty/alacritty.toml
+|4,39,15,0,1757960694,"~/.config/alacritty/alacritty.toml"
+-'  38  0  ~/.config/mako/config
+|4,39,38,0,1757960690,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  67  0  ~/.config/mako/config
+|4,39,67,0,1757960622,"~/.config/mako/config"
+-'  280  11  ~/.config/foot/foot.ini
+|4,39,280,11,1757960595,"~/.config/foot/foot.ini"
+-'  280  11  ~/.config/foot/foot.ini
+|4,39,280,11,1757960595,"~/.config/foot/foot.ini"
+-'  36  0  ~/.config/foot/foot.ini
+|4,39,36,0,1757960586,"~/.config/foot/foot.ini"
+-'  36  0  ~/.config/foot/foot.ini
+|4,39,36,0,1757960586,"~/.config/foot/foot.ini"
+-'  1  0  ~/.config/mako/config
+|4,39,1,0,1757960516,"~/.config/mako/config"
+-'  1  0  ~/.config/mako/config
+|4,39,1,0,1757960516,"~/.config/mako/config"
+-'  1  0  ~/vim
+|4,39,1,0,1757959776,"~/vim"
+-'  1  0  ~/vim
+|4,39,1,0,1757959776,"~/vim"
 -'  1  0  ~/vim
 |4,39,1,0,1757959776,"~/vim"
 -'  4  21  ~/.local/share/applications/btop.desktop
 |4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+-'  4  21  ~/.local/share/applications/btop.desktop
+|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+-'  4  21  ~/.local/share/applications/btop.desktop
+|4,39,4,21,1757959773,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
 -'  1  0  ~/.local/share/applications/btop.desktop
 |4,39,1,0,1757959724,"~/.local/share/applications/btop.desktop"
 -'  1  0  ~/.local/bin/111
 |4,39,1,0,1757959652,"~/.local/bin/111"
 -'  1  0  ~/.local/bin/111
 |4,39,1,0,1757959652,"~/.local/bin/111"
+-'  1  0  ~/.local/bin/111
+|4,39,1,0,1757959652,"~/.local/bin/111"
+-'  1  0  ~/.local/bin/111
+|4,39,1,0,1757959652,"~/.local/bin/111"
+-'  1  0  ~/.local/bin/111
+|4,39,1,0,1757959652,"~/.local/bin/111"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
+-'  14  23  ~/.local/bin/addnew
+|4,39,14,23,1757959574,"~/.local/bin/addnew"
 -'  14  23  ~/.local/bin/addnew
 |4,39,14,23,1757959574,"~/.local/bin/addnew"
 -'  14  23  ~/.local/bin/addnew
@@ -166,6 +214,16 @@ $$TERMINAL
 |4,39,1,0,1757959572,"~/.local/bin/pokus"
 -'  1  0  ~/.local/bin/pokus
 |4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
+-'  1  0  ~/.local/bin/pokus
+|4,39,1,0,1757959572,"~/.local/bin/pokus"
 -'  1  0  ~/.local/bin/loooo
 |4,39,1,0,1757959210,"~/.local/bin/loooo"
 -'  1  0  ~/.local/bin/loooo
@@ -190,6 +248,32 @@ $$TERMINAL
 |4,39,1,0,1757959210,"~/.local/bin/loooo"
 -'  1  0  ~/.local/bin/loooo
 |4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
+-'  1  0  ~/.local/bin/loooo
+|4,39,1,0,1757959210,"~/.local/bin/loooo"
 -'  14  16  ~/.local/bin/addnew
 |4,39,14,16,1757959197,"~/.local/bin/addnew"
 -'  14  16  ~/.local/bin/addnew
@@ -222,126 +306,63 @@ $$TERMINAL
 |4,39,14,16,1757959197,"~/.local/bin/addnew"
 -'  14  16  ~/.local/bin/addnew
 |4,39,14,16,1757959197,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  14  18  ~/.local/bin/addnew
-|4,39,14,18,1757959147,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  1  0  ~/.local/bin/addnew
-|4,39,1,0,1757959090,"~/.local/bin/addnew"
--'  46  3  ~/.local/bin/confm
-|4,39,46,3,1757959083,"~/.local/bin/confm"
--'  46  3  ~/.local/bin/confm
-|4,39,46,3,1757959083,"~/.local/bin/confm"
--'  46  3  ~/.local/bin/confm
-|4,39,46,3,1757959083,"~/.local/bin/confm"
--'  46  3  ~/.local/bin/confm
-|4,39,46,3,1757959083,"~/.local/bin/confm"
--'  46  3  ~/.local/bin/confm
-|4,39,46,3,1757959083,"~/.local/bin/confm"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
+-'  14  16  ~/.local/bin/addnew
+|4,39,14,16,1757959197,"~/.local/bin/addnew"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/alacritty/alacritty.toml
+	*	1757960692	0
+	"	15	0
+	^	4	14
+	.	15	0
+	+	4	13
+	+	15	0
+
+> ~/.config/mako/config
+	*	1757960674	0
+	"	38	0
+	.	67	0
+	+	67	5
+	+	67	0
+
+> ~/.config/foot/foot.ini
+	*	1757960594	0
+	"	280	11
+	^	6	5
+	.	6	4
+	+	5	0
+	+	6	4
 
 > ~/.local/share/applications/btop.desktop
 	*	1757959770	0
@@ -735,14 +756,6 @@ $$TERMINAL
 	*	1757871640	0
 	"	1	0
 
-> ~/.config/alacritty/alacritty.toml
-	*	1757870789	0
-	"	15	0
-	^	4	14
-	.	15	0
-	+	4	13
-	+	15	0
-
 > ~/.local/bin/update
 	*	1757843023	0
 	"	3	9
@@ -812,10 +825,6 @@ $$TERMINAL
 	+	11	15
 	+	32	0
 
-> ~/.config/mako/config
-	*	1757782559	0
-	"	1	0
-
 > ~/.config/vimrc
 	*	1757780376	0
 	"	1	0
@@ -875,14 +884,6 @@ $$TERMINAL
 	.	31	109
 	+	32	0
 	+	31	109
-
-> ~/.config/foot/foot.ini
-	*	1757757264	0
-	"	6	0
-	^	6	5
-	.	6	4
-	+	5	0
-	+	6	4
 
 > ~/vim
 	"	1	0
