@@ -164,7 +164,7 @@
     bindsym $ma+Up move container to workspace 4; workspace 4
 
     # Cycle workspaces
-    bindsym Ctrl+Tab workspace next
+    bindsym $mod+Backslash workspace next
  
     # Layout toggle
     bindsym $mod+w layout toggle split

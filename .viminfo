@@ -20,12 +20,12 @@
 $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+:wq
+|2,0,1758030529,,"wq"
 :w
-|2,0,1758029488,,"w"
+|2,0,1758030324,,"w"
 :m3
 |2,0,1758024683,,"m3"
-:wq
-|2,0,1758022780,,"wq"
 :registers
 |2,0,1758018872,,"registers"
 :m36
@@ -93,39 +93,39 @@ $$TERMINAL
 "0	CHAR	0
 	~/.config/vim/vimrc
 |3,0,0,0,1,0,1758018994,"~/.config/vim/vimrc"
-"1	LINE	0
-	local ssh_domains = require('extra.ssh') 
-|3,0,1,1,1,0,1758022778,"local ssh_domains = require('extra.ssh') "
+""1	LINE	0
+	            wezterm kitty
+|3,1,1,1,1,0,1758030526,"            wezterm kitty"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1758019019,""
+	local ssh_domains = require('extra.ssh') 
+|3,0,2,1,1,0,1758022778,"local ssh_domains = require('extra.ssh') "
 "3	LINE	0
-	        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
-|3,0,3,1,1,0,1758019013,"        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;"
+	
+|3,0,3,1,1,0,1758019019,""
 "4	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
-|3,0,4,1,1,0,1758013911,"        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
+	        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
+|3,0,4,1,1,0,1758019013,"        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;"
 "5	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
-|3,0,5,1,1,0,1758013835,"        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;"
+	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+|3,0,5,1,1,0,1758013911,"        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
 "6	LINE	0
-	        $TERMS
-|3,0,6,1,1,0,1758013460,"        $TERMS"
+	        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
+|3,0,6,1,1,0,1758013835,"        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;"
 "7	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
-|3,0,7,1,1,0,1758013403,"        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;"
+	        $TERMS
+|3,0,7,1,1,0,1758013460,"        $TERMS"
 "8	LINE	0
-	        $TERMINAL -e vim ~/.config/sway/config;;
-|3,0,8,1,1,0,1758013332,"        $TERMINAL -e vim ~/.config/sway/config;;"
+	        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
+|3,0,8,1,1,0,1758013403,"        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;"
 "9	LINE	0
-	        $TERMINAL -e vim ~/.config/mako/config;;
-|3,0,9,1,1,0,1758013251,"        $TERMINAL -e vim ~/.config/mako/config;;"
+	        $TERMINAL -e vim ~/.config/sway/config;;
+|3,0,9,1,1,0,1758013332,"        $TERMINAL -e vim ~/.config/sway/config;;"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-""-	CHAR	0
-	"
-|3,1,36,0,1,0,1758028393,"\""
+"-	CHAR	0
+	Alt
+|3,0,36,0,1,0,1758030151,"Alt"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -136,379 +136,234 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  6  38  ~/.config/wezterm/wezterm.lua
-|4,48,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
-'1  5  1  ~/.config/wezterm/wezterm.lua
-|4,49,5,1,1758028461,"~/.config/wezterm/wezterm.lua"
-'2  5  1  ~/.config/wezterm/wezterm.lua
-|4,50,5,1,1758028461,"~/.config/wezterm/wezterm.lua"
-'3  4  8  ~/.config/wezterm/wezterm.lua
-|4,51,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
-'4  4  8  ~/.config/wezterm/wezterm.lua
-|4,52,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
-'5  4  8  ~/.config/wezterm/wezterm.lua
-|4,53,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
-'6  4  8  ~/.config/wezterm/wezterm.lua
-|4,54,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
-'7  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,55,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'8  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,56,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'9  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,57,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
+'0  21  0  ~/.local/bin/confm
+|4,48,21,0,1758030594,"~/.local/bin/confm"
+'1  32  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,32,12,1758030529,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  167  25  ~/.config/sway/config
+|4,50,167,25,1758030335,"~/.config/sway/config"
+'3  167  25  ~/.config/sway/config
+|4,51,167,25,1758030335,"~/.config/sway/config"
+'4  167  25  ~/.config/sway/config
+|4,52,167,25,1758030222,"~/.config/sway/config"
+'5  167  25  ~/.config/sway/config
+|4,53,167,25,1758030222,"~/.config/sway/config"
+'6  167  14  ~/.config/sway/config
+|4,54,167,14,1758029958,"~/.config/sway/config"
+'7  167  14  ~/.config/sway/config
+|4,55,167,14,1758029958,"~/.config/sway/config"
+'8  167  14  ~/.config/sway/config
+|4,56,167,14,1758029958,"~/.config/sway/config"
+'9  167  14  ~/.config/sway/config
+|4,57,167,14,1758029958,"~/.config/sway/config"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  21  0  ~/.local/bin/confm
+|4,39,21,0,1758030594,"~/.local/bin/confm"
+-'  221  0  ~/.config/sway/config
+|4,39,221,0,1758030589,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030576,"~/.config/sway/config"
+-'  32  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,32,12,1758030529,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  32  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,32,12,1758030529,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758030521,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758030521,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030486,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030486,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030486,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030486,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030441,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030441,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030441,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758030441,"~/.config/vim/vimrc"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030335,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  167  25  ~/.config/sway/config
+|4,39,167,25,1758030222,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  178  0  ~/.config/sway/config
+|4,39,178,0,1758030192,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758030089,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  167  14  ~/.config/sway/config
+|4,39,167,14,1758029958,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758029863,"~/.config/sway/config"
 -'  6  38  ~/.config/wezterm/wezterm.lua
 |4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
--'  5  1  ~/.config/wezterm/wezterm.lua
-|4,39,5,1,1758028461,"~/.config/wezterm/wezterm.lua"
--'  5  1  ~/.config/wezterm/wezterm.lua
-|4,39,5,1,1758028461,"~/.config/wezterm/wezterm.lua"
--'  7  21  ~/.config/wezterm/wezterm.lua
-|4,39,7,21,1758028415,"~/.config/wezterm/wezterm.lua"
--'  6  21  ~/.config/wezterm/wezterm.lua
-|4,39,6,21,1758028415,"~/.config/wezterm/wezterm.lua"
--'  4  8  ~/.config/wezterm/wezterm.lua
-|4,39,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
--'  4  8  ~/.config/wezterm/wezterm.lua
-|4,39,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
--'  4  8  ~/.config/wezterm/wezterm.lua
-|4,39,4,8,1758024715,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024711,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  17  49  ~/.config/wezterm/wezterm.lua
-|4,39,17,49,1758024660,"~/.config/wezterm/wezterm.lua"
--'  16  49  ~/.config/wezterm/wezterm.lua
-|4,39,16,49,1758024660,"~/.config/wezterm/wezterm.lua"
--'  16  49  ~/.config/wezterm/wezterm.lua
-|4,39,16,49,1758024660,"~/.config/wezterm/wezterm.lua"
--'  16  49  ~/.config/wezterm/wezterm.lua
-|4,39,16,49,1758024660,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758024592,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758024592,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758024592,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758024592,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758024592,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024411,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024411,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758024411,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  2  0  ~/.config/wezterm/wezterm.lua
-|4,39,2,0,1758022780,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758022774,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758022774,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758022774,"~/.config/wezterm/wezterm.lua"
--'  1  0  ~/.config/wezterm/wezterm.lua
-|4,39,1,0,1758022774,"~/.config/wezterm/wezterm.lua"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  80  14  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,80,14,1758021587,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1758021556,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  32  24  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,32,24,1758021449,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
+-'  6  38  ~/.config/wezterm/wezterm.lua
+|4,39,6,38,1758029518,"~/.config/wezterm/wezterm.lua"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
-> ~/.config/wezterm/wezterm.lua
-	*	1758029488	0
-	"	6	38
-	^	6	39
-	.	6	39
-	+	2	0
-	+	4	0
-	+	7	0
-	+	6	39
-
-> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-	*	1758024708	0
-	"	1	0
-	^	82	89
-	.	80	0
-	+	76	49
-	+	82	88
-	+	73	0
-	+	74	0
-	+	79	0
-	+	80	0
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1758021442	0
-	"	32	24
-	^	32	25
-	.	32	24
-	+	8	0
-	+	23	2
-	+	24	24
-	+	25	37
-	+	28	0
-	+	26	26
-	+	26	116
-	+	26	21
-	+	8	0
-	+	7	10
-	+	52	0
-	+	7	0
-	+	2	0
-	+	32	24
-
-> ~/.local/bin/webm
-	*	1758020786	0
-	"	1	0
-	^	16	130
-	.	16	130
-	+	1	1
-	+	2	0
-	+	3	3
-	+	9	3
-	+	9	2
-	+	3	2
-	+	3	18
-	+	4	18
-	+	5	19
-	+	6	19
-	+	7	18
-	+	8	18
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	20
-	+	10	22
-	+	11	33
-	+	13	28
-	+	14	0
-	+	15	0
-	+	13	0
-	+	12	0
-	+	14	17
-	+	12	26
-	+	14	0
-	+	16	59
-	+	19	12
-	+	16	83
-	+	19	8
-	+	21	8
-	+	23	8
-	+	25	8
-	+	27	8
-	+	28	6
-	+	29	8
-	+	4	0
-	+	3	3
-	+	3	0
-	+	19	12
-	+	21	13
-	+	23	14
-	+	19	7
-	+	23	14
-	+	25	13
-	+	27	13
-	+	29	13
-	+	3	10
-	+	5	16
-	+	6	15
-	+	7	15
-	+	8	15
-	+	27	31
-	+	3	3
-	+	4	4
-	+	7	4
-	+	4	4
-	+	5	3
-	+	6	3
-	+	7	4
-	+	8	3
-	+	11	33
-	+	12	32
-	+	10	17
-	+	14	18
-	+	9	18
-	+	4	3
-	+	5	3
-	+	6	3
-	+	7	3
-	+	16	130
-
-> ~/.config/vim/vimrc
-	*	1758020783	0
-	"	1	0
-	^	64	21
-	.	53	1
-	+	65	21
-	+	68	7
-	+	65	21
-	+	68	18
-	+	70	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	68	0
-	+	67	12
-	+	66	20
-	+	65	21
-	+	64	20
-	+	38	0
-	+	67	24
-	+	66	20
-	+	65	21
-	+	64	20
-	+	67	24
-	+	53	1
-
 > ~/.local/bin/confm
-	*	1758020756	0
-	"	1	0
+	*	1758030593	0
+	"	21	0
 	.	27	0
 	+	28	24
 	+	30	24
@@ -612,10 +467,10 @@ $$TERMINAL
 	+	27	0
 
 > ~/.config/sway/config
-	*	1758020729	0
-	"	1	0
-	^	76	18
-	.	76	18
+	*	1758030576	0
+	"	221	0
+	^	167	26
+	.	167	25
 	+	218	27
 	+	221	0
 	+	216	0
@@ -655,7 +510,156 @@ $$TERMINAL
 	+	80	0
 	+	79	100
 	+	76	18
+	+	167	15
+	+	177	0
+	+	167	25
 	s	1	0
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1758030526	0
+	"	32	12
+	.	32	0
+	+	8	0
+	+	23	2
+	+	24	24
+	+	25	37
+	+	28	0
+	+	26	26
+	+	26	116
+	+	26	21
+	+	8	0
+	+	7	10
+	+	51	0
+	+	7	0
+	+	2	0
+	+	32	0
+
+> ~/.config/vim/vimrc
+	*	1758030483	0
+	"	1	0
+	^	64	21
+	.	53	1
+	+	65	21
+	+	68	7
+	+	65	21
+	+	68	18
+	+	70	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	68	0
+	+	67	12
+	+	66	20
+	+	65	21
+	+	64	20
+	+	38	0
+	+	67	24
+	+	66	20
+	+	65	21
+	+	64	20
+	+	67	24
+	+	53	1
+
+> ~/.config/wezterm/wezterm.lua
+	*	1758029488	0
+	"	6	38
+	^	6	39
+	.	6	39
+	+	2	0
+	+	4	0
+	+	7	0
+	+	6	39
+
+> ~/.dotfiles/nixos/hosts/zbook/configuration.nix
+	*	1758024708	0
+	"	1	0
+	^	82	89
+	.	80	0
+	+	76	49
+	+	82	88
+	+	73	0
+	+	74	0
+	+	79	0
+	+	80	0
+
+> ~/.local/bin/webm
+	*	1758020786	0
+	"	1	0
+	^	16	130
+	.	16	130
+	+	1	1
+	+	2	0
+	+	3	3
+	+	9	3
+	+	9	2
+	+	3	2
+	+	3	18
+	+	4	18
+	+	5	19
+	+	6	19
+	+	7	18
+	+	8	18
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	20
+	+	10	22
+	+	11	33
+	+	13	28
+	+	14	0
+	+	15	0
+	+	13	0
+	+	12	0
+	+	14	17
+	+	12	26
+	+	14	0
+	+	16	59
+	+	19	12
+	+	16	83
+	+	19	8
+	+	21	8
+	+	23	8
+	+	25	8
+	+	27	8
+	+	28	6
+	+	29	8
+	+	4	0
+	+	3	3
+	+	3	0
+	+	19	12
+	+	21	13
+	+	23	14
+	+	19	7
+	+	23	14
+	+	25	13
+	+	27	13
+	+	29	13
+	+	3	10
+	+	5	16
+	+	6	15
+	+	7	15
+	+	8	15
+	+	27	31
+	+	3	3
+	+	4	4
+	+	7	4
+	+	4	4
+	+	5	3
+	+	6	3
+	+	7	4
+	+	8	3
+	+	11	33
+	+	12	32
+	+	10	17
+	+	14	18
+	+	9	18
+	+	4	3
+	+	5	3
+	+	6	3
+	+	7	3
+	+	16	130
 
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1758018943	0
