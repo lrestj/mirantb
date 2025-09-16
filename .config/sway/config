@@ -101,8 +101,7 @@
     bindsym $mod+x exec pkill fuzzel || powercenter
 
     # Touchpad ON/OFF
-    bindsym $ms+t  input type:touchpad events toggle enabled disabled, \
-    exec touchpad
+    bindsym $ms+t exec touchpad
 
     # Nápověda
     bindsym $mod+n exec helpnotify

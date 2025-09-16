@@ -2,11 +2,12 @@
 
 status=$(swaymsg -t get_inputs | jq -r ".[] | select(.type == \"touchpad\").libinput.send_events")
 
+swaymsg input type:touchpad events toggle enabled disabled 
 case $status in
-    enabled)
+    disabled)
         notify-send -i touchpad -t 1000 "Touchpad aktivní"
     ;;
-    disabled)
+    enabled)
         notify-send -i touchpad -t 1000 " ❌ Touchpad OFF"
     ;;
     *) exit
