@@ -10,6 +10,7 @@
       font-awesome
       corefonts vista-fonts
       noto-fonts
+      nerd-fonts.commit-mono
       nerd-fonts.hack
       jetbrains-mono
       nerd-fonts.symbols-only
