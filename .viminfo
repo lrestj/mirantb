@@ -20,14 +20,14 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1758062168,,"wq"
 :q
 |2,0,1758061253,,"q"
 :w
 |2,0,1758061179,,"w"
 :m3
 |2,0,1758061011,,"m3"
-:wq
-|2,0,1758036756,,"wq"
 :w!
 |2,0,1758036070,,"w!"
 :registers
@@ -95,31 +95,41 @@ $$TERMINAL
 |3,0,0,0,1,0,1758060651,"input type:touchpad events toggle enabled disabled, \\"
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1758061175,""
+|3,1,1,1,1,0,1758062148,""
 "2	LINE	0
-	    Sè
-|3,0,2,1,1,0,1758056032,"    Sè"
-"3	LINE	0
-	            wezterm kitty
-|3,0,3,1,1,0,1758030526,"            wezterm kitty"
-"4	LINE	0
-	local ssh_domains = require('extra.ssh') 
-|3,0,4,1,1,0,1758022778,"local ssh_domains = require('extra.ssh') "
-"5	LINE	0
+	### Modes:
+	    # Nastavení
+	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
+	    # mode "Nastavení" {
+	    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode "default"
+	    # bindsym x exec makoctl dismiss && makoctl reload; mode "default"
+	    # bindsym Return exec makoctl dismiss; mode "default"
+	    # bindsym Escape exec makoctl dismiss; mode "default"
+	    # }
 	
-|3,0,5,1,1,0,1758019019,""
+|3,0,2,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
+"3	LINE	0
+	    bindsym $ms+t exec touchpad
+|3,0,3,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1758062062,""
+"5	LINE	0
+	    # Touchpad ON/OFF
+|3,0,5,1,1,0,1758062056,"    # Touchpad ON/OFF"
 "6	LINE	0
-	        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
-|3,0,6,1,1,0,1758019013,"        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;"
+	    font none 0.1
+	    titlebar_padding 3
+|3,0,6,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
 "7	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
-|3,0,7,1,1,0,1758013911,"        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
+	
+|3,0,7,1,1,0,1758061175,""
 "8	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
-|3,0,8,1,1,0,1758013835,"        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;"
+	    Sè
+|3,0,8,1,1,0,1758056032,"    Sè"
 "9	LINE	0
-	        $TERMS
-|3,0,9,1,1,0,1758013460,"        $TERMS"
+	            wezterm kitty
+|3,0,9,1,1,0,1758030526,"            wezterm kitty"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
@@ -136,28 +146,36 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  107  0  ~/.config/sway/config
-|4,48,107,0,1758061253,"~/.config/sway/config"
-'1  6  0  ~/.local/bin/touchpad
-|4,49,6,0,1758061190,"~/.local/bin/touchpad"
-'2  1  0  ~/.config/sway/config
-|4,50,1,0,1758060595,"~/.config/sway/config"
-'3  1  0  ~/.config/sway/config
-|4,51,1,0,1758060595,"~/.config/sway/config"
-'4  24  21  ~/.config/sway/config
-|4,52,24,21,1758056612,"~/.config/sway/config"
-'5  24  21  ~/.config/sway/config
-|4,53,24,21,1758056612,"~/.config/sway/config"
-'6  24  21  ~/.config/sway/config
-|4,54,24,21,1758056612,"~/.config/sway/config"
-'7  24  21  ~/.config/sway/config
-|4,55,24,21,1758056612,"~/.config/sway/config"
-'8  24  21  ~/.config/sway/config
-|4,56,24,21,1758056612,"~/.config/sway/config"
-'9  24  21  ~/.config/sway/config
-|4,57,24,21,1758056612,"~/.config/sway/config"
+'0  38  0  ~/.config/sway/config
+|4,48,38,0,1758062168,"~/.config/sway/config"
+'1  105  0  ~/.config/sway/config
+|4,49,105,0,1758061253,"~/.config/sway/config"
+'2  107  0  ~/.config/sway/config
+|4,50,107,0,1758061253,"~/.config/sway/config"
+'3  6  0  ~/.local/bin/touchpad
+|4,51,6,0,1758061190,"~/.local/bin/touchpad"
+'4  1  0  ~/.config/sway/config
+|4,52,1,0,1758060595,"~/.config/sway/config"
+'5  1  0  ~/.config/sway/config
+|4,53,1,0,1758060595,"~/.config/sway/config"
+'6  1  0  ~/.config/sway/config
+|4,54,1,0,1758060595,"~/.config/sway/config"
+'7  1  0  ~/.config/sway/config
+|4,55,1,0,1758060595,"~/.config/sway/config"
+'8  23  21  ~/.config/sway/config
+|4,56,23,21,1758056612,"~/.config/sway/config"
+'9  23  21  ~/.config/sway/config
+|4,57,23,21,1758056612,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  38  0  ~/.config/sway/config
+|4,39,38,0,1758062168,"~/.config/sway/config"
+-'  77  4  ~/.config/sway/config
+|4,39,77,4,1758062030,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758061894,"~/.config/sway/config"
+-'  105  0  ~/.config/sway/config
+|4,39,105,0,1758061253,"~/.config/sway/config"
 -'  107  0  ~/.config/sway/config
 |4,39,107,0,1758061253,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -166,6 +184,12 @@ $$TERMINAL
 |4,39,6,0,1758061190,"~/.local/bin/touchpad"
 -'  6  0  ~/.local/bin/touchpad
 |4,39,6,0,1758061190,"~/.local/bin/touchpad"
+-'  6  0  ~/.local/bin/touchpad
+|4,39,6,0,1758061190,"~/.local/bin/touchpad"
+-'  6  0  ~/.local/bin/touchpad
+|4,39,6,0,1758061190,"~/.local/bin/touchpad"
+-'  103  17  ~/.config/sway/config
+|4,39,103,17,1758060770,"~/.config/sway/config"
 -'  104  17  ~/.config/sway/config
 |4,39,104,17,1758060770,"~/.config/sway/config"
 -'  104  17  ~/.config/sway/config
@@ -174,6 +198,14 @@ $$TERMINAL
 |4,39,5,52,1758060733,"~/.local/bin/touchpad"
 -'  5  52  ~/.local/bin/touchpad
 |4,39,5,52,1758060733,"~/.local/bin/touchpad"
+-'  5  52  ~/.local/bin/touchpad
+|4,39,5,52,1758060733,"~/.local/bin/touchpad"
+-'  5  52  ~/.local/bin/touchpad
+|4,39,5,52,1758060733,"~/.local/bin/touchpad"
+-'  1  0  ~/.local/bin/touchpad
+|4,39,1,0,1758060603,"~/.local/bin/touchpad"
+-'  1  0  ~/.local/bin/touchpad
+|4,39,1,0,1758060603,"~/.local/bin/touchpad"
 -'  1  0  ~/.local/bin/touchpad
 |4,39,1,0,1758060603,"~/.local/bin/touchpad"
 -'  1  0  ~/.local/bin/touchpad
@@ -184,6 +216,12 @@ $$TERMINAL
 |4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
 -'  1  0  ~/.dotfiles/other/stuff2remember.txt
 |4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
+-'  23  21  ~/.config/sway/config
+|4,39,23,21,1758056612,"~/.config/sway/config"
 -'  24  21  ~/.config/sway/config
 |4,39,24,21,1758056612,"~/.config/sway/config"
 -'  24  21  ~/.config/sway/config
@@ -192,6 +230,8 @@ $$TERMINAL
 |4,39,24,21,1758056612,"~/.config/sway/config"
 -'  24  21  ~/.config/sway/config
 |4,39,24,21,1758056612,"~/.config/sway/config"
+-'  30  34  ~/.config/sway/config
+|4,39,30,34,1758056575,"~/.config/sway/config"
 -'  32  34  ~/.config/sway/config
 |4,39,32,34,1758056575,"~/.config/sway/config"
 -'  32  34  ~/.config/sway/config
@@ -228,6 +268,30 @@ $$TERMINAL
 |4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
 -'  9  0  ~/.config/vim/vimrc
 |4,39,9,0,1758036776,"~/.config/vim/vimrc"
 -'  9  0  ~/.config/vim/vimrc
@@ -276,128 +340,73 @@ $$TERMINAL
 |4,39,9,0,1758036776,"~/.config/vim/vimrc"
 -'  9  0  ~/.config/vim/vimrc
 |4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758036763,"~/.config/vim/vimrc"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
--'  12  13  ~/.config/alacritty/alacritty.toml
-|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1758061247	0
-	"	107	0
-	^	104	18
-	.	105	0
-	+	219	27
-	+	222	0
-	+	217	0
-	+	218	39
-	+	219	3
-	+	43	0
-	+	44	0
-	+	43	0
-	+	207	0
+	*	1758062164	0
+	"	38	0
+	^	70	28
+	.	209	0
+	+	207	27
+	+	209	0
+	+	205	0
+	+	206	39
+	+	207	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	196	0
 	+	92	26
-	+	202	0
-	+	206	0
+	+	196	0
 	+	93	27
-	+	216	66
-	+	60	0
+	+	204	66
 	+	58	0
-	+	60	0
-	+	60	38
-	+	60	120
-	+	60	0
+	+	56	0
 	+	58	0
-	+	59	0
-	+	59	23
-	+	58	43
-	+	210	0
+	+	58	38
+	+	58	120
+	+	58	0
+	+	56	0
+	+	57	0
+	+	57	23
+	+	56	43
+	+	198	0
 	+	78	25
-	+	42	66
-	+	43	0
-	+	42	13
-	+	43	16
-	+	44	0
-	+	43	15
+	+	40	66
+	+	41	0
+	+	40	13
+	+	41	16
+	+	42	0
+	+	41	15
 	+	80	101
 	+	82	0
 	+	80	79
@@ -405,17 +414,25 @@ $$TERMINAL
 	+	82	0
 	+	81	100
 	+	78	18
-	+	168	15
-	+	178	0
-	+	168	25
+	+	166	15
+	+	176	0
+	+	166	25
 	+	23	23
-	+	24	21
+	+	23	21
 	+	23	16
-	+	27	21
+	+	25	21
 	+	23	16
-	+	24	0
-	+	104	18
-	+	105	0
+	+	23	0
+	+	103	18
+	+	103	0
+	+	70	27
+	+	23	0
+	+	77	0
+	+	74	0
+	+	103	0
+	+	94	0
+	+	196	0
+	+	209	0
 	s	1	0
 
 > ~/.local/bin/touchpad
