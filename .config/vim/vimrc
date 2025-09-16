@@ -50,7 +50,7 @@ set undofile undolevels=5000
 set undodir=~/.config/vim/undodir
 command! -nargs=0 CleanUpUndoFiles !find ~/.vim/tmp/undo -type f -mtime +100d -delete
 
-" Alacritty Alt fix
+"Alacritty Alt fix
     let c='a'
     while c <= 'z'
       exec "set <A-".c.">=\e".c

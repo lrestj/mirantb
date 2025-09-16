@@ -29,6 +29,7 @@
     environment.systemPackages =
         (with pkgs; [
             niri
+            wezterm kitty
             alacritty
             banana-cursor
             baobab
