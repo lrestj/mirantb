@@ -20,10 +20,10 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1758056578,,"w"
 :wq
 |2,0,1758036756,,"wq"
-:w
-|2,0,1758036635,,"w"
 :w!
 |2,0,1758036070,,"w!"
 :m3
@@ -90,42 +90,42 @@ $$TERMINAL
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-""0	LINE	0
+"0	LINE	0
 	      nerd-fonts.hack
-|3,1,0,1,1,0,1758035859,"      nerd-fonts.hack"
+|3,0,0,1,1,0,1758035859,"      nerd-fonts.hack"
 "1	LINE	0
-	            wezterm kitty
-|3,0,1,1,1,0,1758030526,"            wezterm kitty"
+	    Sè
+|3,0,1,1,1,0,1758056032,"    Sè"
 "2	LINE	0
-	local ssh_domains = require('extra.ssh') 
-|3,0,2,1,1,0,1758022778,"local ssh_domains = require('extra.ssh') "
+	            wezterm kitty
+|3,0,2,1,1,0,1758030526,"            wezterm kitty"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1758019019,""
+	local ssh_domains = require('extra.ssh') 
+|3,0,3,1,1,0,1758022778,"local ssh_domains = require('extra.ssh') "
 "4	LINE	0
-	        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
-|3,0,4,1,1,0,1758019013,"        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;"
+	
+|3,0,4,1,1,0,1758019019,""
 "5	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
-|3,0,5,1,1,0,1758013911,"        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
+	        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
+|3,0,5,1,1,0,1758019013,"        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;"
 "6	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
-|3,0,6,1,1,0,1758013835,"        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;"
+	        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+|3,0,6,1,1,0,1758013911,"        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;"
 "7	LINE	0
-	        $TERMS
-|3,0,7,1,1,0,1758013460,"        $TERMS"
+	        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
+|3,0,7,1,1,0,1758013835,"        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;"
 "8	LINE	0
-	        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
-|3,0,8,1,1,0,1758013403,"        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;"
+	        $TERMS
+|3,0,8,1,1,0,1758013460,"        $TERMS"
 "9	LINE	0
-	        $TERMINAL -e vim ~/.config/sway/config;;
-|3,0,9,1,1,0,1758013332,"        $TERMINAL -e vim ~/.config/sway/config;;"
+	        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
+|3,0,9,1,1,0,1758013403,"        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
-"-	CHAR	0
-	Alt
-|3,0,36,0,1,0,1758030151,"Alt"
+""-	CHAR	0
+	HackNerdFont
+|3,1,36,0,1,0,1758056370,"HackNerdFont"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -136,34 +136,50 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  1  0  ~/.config/alacritty/alacritty.toml
-|4,48,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
-'1  9  0  ~/.config/vim/vimrc
-|4,49,9,0,1758036776,"~/.config/vim/vimrc"
-'2  12  13  ~/.config/alacritty/alacritty.toml
-|4,50,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+'0  24  21  ~/.config/sway/config
+|4,48,24,21,1758056612,"~/.config/sway/config"
+'1  1  0  ~/.config/alacritty/alacritty.toml
+|4,49,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
+'2  9  0  ~/.config/vim/vimrc
+|4,50,9,0,1758036776,"~/.config/vim/vimrc"
 '3  12  13  ~/.config/alacritty/alacritty.toml
 |4,51,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
-'4  1  0  ~/.config/vim/vimrc
-|4,52,1,0,1758036735,"~/.config/vim/vimrc"
+'4  12  13  ~/.config/alacritty/alacritty.toml
+|4,52,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
 '5  1  0  ~/.config/vim/vimrc
 |4,53,1,0,1758036735,"~/.config/vim/vimrc"
 '6  1  0  ~/.config/vim/vimrc
 |4,54,1,0,1758036735,"~/.config/vim/vimrc"
 '7  1  0  ~/.config/vim/vimrc
 |4,55,1,0,1758036735,"~/.config/vim/vimrc"
-'8  9  6  ~/.config/alacritty/alacritty.toml
-|4,56,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+'8  1  0  ~/.config/vim/vimrc
+|4,56,1,0,1758036735,"~/.config/vim/vimrc"
 '9  9  6  ~/.config/alacritty/alacritty.toml
 |4,57,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  24  21  ~/.config/sway/config
+|4,39,24,21,1758056612,"~/.config/sway/config"
+-'  32  34  ~/.config/sway/config
+|4,39,32,34,1758056575,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758055936,"~/.config/sway/config"
+-'  1  0  ~/.config/alacritty/alacritty.toml
+|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
 -'  1  0  ~/.config/alacritty/alacritty.toml
 |4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
 -'  9  0  ~/.config/vim/vimrc
 |4,39,9,0,1758036776,"~/.config/vim/vimrc"
 -'  9  0  ~/.config/vim/vimrc
 |4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  9  0  ~/.config/vim/vimrc
+|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036763,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036763,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758036763,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
@@ -174,6 +190,20 @@ $$TERMINAL
 |4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
 -'  12  13  ~/.config/alacritty/alacritty.toml
 |4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036756,"~/.config/alacritty/alacritty.toml"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036735,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036735,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036735,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758036735,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758036735,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
@@ -196,6 +226,20 @@ $$TERMINAL
 |4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
 -'  9  6  ~/.config/alacritty/alacritty.toml
 |4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036637,"~/.config/alacritty/alacritty.toml"
 -'  12  22  ~/.config/alacritty/alacritty.toml
 |4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
 -'  12  22  ~/.config/alacritty/alacritty.toml
@@ -212,6 +256,30 @@ $$TERMINAL
 |4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
 -'  12  22  ~/.config/alacritty/alacritty.toml
 |4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  22  ~/.config/alacritty/alacritty.toml
+|4,39,12,22,1758036454,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036285,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036285,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036285,"~/.config/alacritty/alacritty.toml"
+-'  12  13  ~/.config/alacritty/alacritty.toml
+|4,39,12,13,1758036285,"~/.config/alacritty/alacritty.toml"
 -'  12  13  ~/.config/alacritty/alacritty.toml
 |4,39,12,13,1758036285,"~/.config/alacritty/alacritty.toml"
 -'  12  13  ~/.config/alacritty/alacritty.toml
@@ -244,6 +312,30 @@ $$TERMINAL
 |4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
 -'  9  6  ~/.config/alacritty/alacritty.toml
 |4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
+-'  9  6  ~/.config/alacritty/alacritty.toml
+|4,39,9,6,1758036207,"~/.config/alacritty/alacritty.toml"
 -'  10  0  ~/.config/alacritty/alacritty.toml
 |4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
 -'  10  0  ~/.config/alacritty/alacritty.toml
@@ -266,100 +358,63 @@ $$TERMINAL
 |4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
 -'  10  0  ~/.config/alacritty/alacritty.toml
 |4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  10  0  ~/.config/alacritty/alacritty.toml
-|4,39,10,0,1758036201,"~/.config/alacritty/alacritty.toml"
--'  12  14  ~/.config/alacritty/alacritty.toml
-|4,39,12,14,1758036101,"~/.config/alacritty/alacritty.toml"
--'  12  14  ~/.config/alacritty/alacritty.toml
-|4,39,12,14,1758036101,"~/.config/alacritty/alacritty.toml"
--'  12  14  ~/.config/alacritty/alacritty.toml
-|4,39,12,14,1758036101,"~/.config/alacritty/alacritty.toml"
--'  12  14  ~/.config/alacritty/alacritty.toml
-|4,39,12,14,1758036101,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758035989,"~/.config/alacritty/alacritty.toml"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  27  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,13,27,1758035941,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/sway/config
+	*	1758056578	0
+	"	24	21
+	^	23	17
+	.	24	0
+	+	220	27
+	+	223	0
+	+	218	0
+	+	219	39
+	+	220	3
+	+	43	0
+	+	44	0
+	+	43	0
+	+	208	0
+	+	92	26
+	+	203	0
+	+	207	0
+	+	93	27
+	+	217	66
+	+	60	0
+	+	58	0
+	+	60	0
+	+	60	38
+	+	60	120
+	+	60	0
+	+	58	0
+	+	59	0
+	+	59	23
+	+	58	43
+	+	211	0
+	+	78	25
+	+	42	66
+	+	43	0
+	+	42	13
+	+	43	16
+	+	44	0
+	+	43	15
+	+	80	101
+	+	82	0
+	+	80	79
+	+	81	16
+	+	82	0
+	+	81	100
+	+	78	18
+	+	169	15
+	+	179	0
+	+	169	25
+	+	23	23
+	+	24	21
+	+	23	16
+	+	27	21
+	+	23	16
+	+	24	0
+	s	1	0
 
 > ~/.config/alacritty/alacritty.toml
 	*	1758036817	0
@@ -527,55 +582,6 @@ $$TERMINAL
 	+	27	42
 	+	28	0
 	+	27	0
-
-> ~/.config/sway/config
-	*	1758030576	0
-	"	221	0
-	^	167	26
-	.	167	25
-	+	218	27
-	+	221	0
-	+	216	0
-	+	217	39
-	+	218	3
-	+	41	0
-	+	42	0
-	+	41	0
-	+	206	0
-	+	90	26
-	+	201	0
-	+	205	0
-	+	91	27
-	+	215	66
-	+	58	0
-	+	56	0
-	+	58	0
-	+	58	38
-	+	58	120
-	+	58	0
-	+	56	0
-	+	57	0
-	+	57	23
-	+	56	43
-	+	209	0
-	+	76	25
-	+	40	66
-	+	41	0
-	+	40	13
-	+	41	16
-	+	42	0
-	+	41	15
-	+	78	101
-	+	80	0
-	+	78	79
-	+	79	16
-	+	80	0
-	+	79	100
-	+	76	18
-	+	167	15
-	+	177	0
-	+	167	25
-	s	1	0
 
 > ~/.config/wezterm/wezterm.lua
 	*	1758029488	0
