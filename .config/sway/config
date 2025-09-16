@@ -37,8 +37,8 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term alacritty
-    set $editor $term -e vim
+    set $term 'alacritty msg create-window || alacritty'
+    set $editor 'alacritty msg create-window -e vim || alacritty -e vim'
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -73,9 +73,10 @@
     client.focused #8000FF #8000FF #8000FF
 
 ### Keybindings
-    bindsym $mod+Backslash exec $term
+    bindsym $mod+a exec $term
     bindsym $ms+a exec foot
-    bindsym $cs+y exec $term -e yazi
+    bindsym $cs+y exec alacritty msg create-window -e yazi || alacritty -e yazi
+    bindsym $cs+Comma exec alacritty msg create-window --class btop -e btop || alacritty --class btop -e btop
     bindsym $ms+y exec foot -e yazi
     bindsym $cs+e exec $editor
     bindsym $ms+e exec alacritty -e vim
