@@ -20,16 +20,16 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:q
+|2,0,1758146402,,"q"
 :w
-|2,0,1758144788,,"w"
+|2,0,1758146226,,"w"
+:wq
+|2,0,1758145683,,"wq"
 :!
 |2,0,1758144180,,"!"
 :reg
 |2,0,1758144151,,"reg"
-:wq
-|2,0,1758139980,,"wq"
-:q
-|2,0,1758061253,,"q"
 :m3
 |2,0,1758061011,,"m3"
 :w!
@@ -98,18 +98,21 @@ $$TERMINAL
 	    for_window [app_id="update"] floating enable, resize set 900  600 
 |3,0,0,1,1,0,1758144098,"    for_window [app_id=\"update\"] floating enable, resize set 900  600 "
 ""1	LINE	0
-	    for_window  
-|3,1,1,1,1,0,1758144199,"    for_window  "
+	    for_window [con_mark="scp"] border pixel 10
+|3,1,1,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
 "2	LINE	0
-	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
-|3,0,2,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
+	    for_window  
+|3,0,2,1,1,0,1758144199,"    for_window  "
 "3	LINE	0
-	    hide_edge_borders --i3 none
-|3,0,3,1,1,0,1758100346,"    hide_edge_borders --i3 none"
+	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
+|3,0,3,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1758062148,""
+	    hide_edge_borders --i3 none
+|3,0,4,1,1,0,1758100346,"    hide_edge_borders --i3 none"
 "5	LINE	0
+	
+|3,0,5,1,1,0,1758062148,""
+"6	LINE	0
 	### Modes:
 	    # Nastavení
 	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
@@ -120,20 +123,16 @@ $$TERMINAL
 	    # bindsym Escape exec makoctl dismiss; mode "default"
 	    # }
 	
-|3,0,5,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
-"6	LINE	0
-	    bindsym $ms+t exec touchpad
-|3,0,6,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+|3,0,6,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1758062062,""
+	    bindsym $ms+t exec touchpad
+|3,0,7,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
 "8	LINE	0
-	    # Touchpad ON/OFF
-|3,0,8,1,1,0,1758062056,"    # Touchpad ON/OFF"
+	
+|3,0,8,1,1,0,1758062062,""
 "9	LINE	0
-	    font none 0.1
-	    titlebar_padding 3
-|3,0,9,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
+	    # Touchpad ON/OFF
+|3,0,9,1,1,0,1758062056,"    # Touchpad ON/OFF"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
@@ -150,28 +149,42 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  176  33  ~/.config/sway/config
-|4,48,176,33,1758144895,"~/.config/sway/config"
-'1  205  46  ~/.config/sway/config
-|4,49,205,46,1758144652,"~/.config/sway/config"
-'2  205  46  ~/.config/sway/config
-|4,50,205,46,1758144652,"~/.config/sway/config"
-'3  205  40  ~/.config/sway/config
-|4,51,205,40,1758144523,"~/.config/sway/config"
-'4  205  40  ~/.config/sway/config
-|4,52,205,40,1758144523,"~/.config/sway/config"
-'5  205  4  ~/.config/sway/config
-|4,53,205,4,1758144257,"~/.config/sway/config"
-'6  205  4  ~/.config/sway/config
-|4,54,205,4,1758144257,"~/.config/sway/config"
-'7  205  4  ~/.config/sway/config
-|4,55,205,4,1758144257,"~/.config/sway/config"
-'8  205  4  ~/.config/sway/config
-|4,56,205,4,1758144257,"~/.config/sway/config"
-'9  175  44  ~/.config/sway/config
-|4,57,175,44,1758140190,"~/.config/sway/config"
+'0  152  0  ~/.config/sway/config
+|4,48,152,0,1758146402,"~/.config/sway/config"
+'1  205  0  ~/.config/sway/config
+|4,49,205,0,1758145683,"~/.config/sway/config"
+'2  205  0  ~/.config/sway/config
+|4,50,205,0,1758145683,"~/.config/sway/config"
+'3  176  33  ~/.config/sway/config
+|4,51,176,33,1758144895,"~/.config/sway/config"
+'4  176  33  ~/.config/sway/config
+|4,52,176,33,1758144895,"~/.config/sway/config"
+'5  176  33  ~/.config/sway/config
+|4,53,176,33,1758144895,"~/.config/sway/config"
+'6  176  33  ~/.config/sway/config
+|4,54,176,33,1758144895,"~/.config/sway/config"
+'7  205  46  ~/.config/sway/config
+|4,55,205,46,1758144652,"~/.config/sway/config"
+'8  205  46  ~/.config/sway/config
+|4,56,205,46,1758144652,"~/.config/sway/config"
+'9  205  46  ~/.config/sway/config
+|4,57,205,46,1758144652,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758145454,"~/.config/sway/config"
 -'  176  33  ~/.config/sway/config
 |4,39,176,33,1758144895,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -184,10 +197,18 @@ $$TERMINAL
 |4,39,81,0,1758144562,"~/.config/sway/config"
 -'  81  0  ~/.config/sway/config
 |4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758144549,"~/.config/sway/config"
 -'  205  40  ~/.config/sway/config
 |4,39,205,40,1758144523,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
 -'  57  0  ~/.config/sway/config
 |4,39,57,0,1758144327,"~/.config/sway/config"
 -'  57  0  ~/.config/sway/config
@@ -210,6 +231,10 @@ $$TERMINAL
 |4,39,175,44,1758140190,"~/.config/sway/config"
 -'  175  44  ~/.config/sway/config
 |4,39,175,44,1758140190,"~/.config/sway/config"
+-'  175  44  ~/.config/sway/config
+|4,39,175,44,1758140190,"~/.config/sway/config"
+-'  175  44  ~/.config/sway/config
+|4,39,175,44,1758140190,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758140078,"~/.config/sway/config"
 -'  206  0  ~/.config/sway/config
@@ -220,10 +245,16 @@ $$TERMINAL
 |4,39,206,0,1758139980,"~/.config/sway/config"
 -'  206  0  ~/.config/sway/config
 |4,39,206,0,1758139980,"~/.config/sway/config"
+-'  206  0  ~/.config/sway/config
+|4,39,206,0,1758139980,"~/.config/sway/config"
 -'  205  0  ~/.config/sway/config
 |4,39,205,0,1758139980,"~/.config/sway/config"
 -'  205  0  ~/.config/sway/config
 |4,39,205,0,1758139980,"~/.config/sway/config"
+-'  73  4  ~/.config/sway/config
+|4,39,73,4,1758139846,"~/.config/sway/config"
+-'  73  4  ~/.config/sway/config
+|4,39,73,4,1758139846,"~/.config/sway/config"
 -'  73  4  ~/.config/sway/config
 |4,39,73,4,1758139846,"~/.config/sway/config"
 -'  73  4  ~/.config/sway/config
@@ -252,6 +283,14 @@ $$TERMINAL
 |4,39,183,73,1758139304,"~/.config/sway/config"
 -'  183  73  ~/.config/sway/config
 |4,39,183,73,1758139304,"~/.config/sway/config"
+-'  183  73  ~/.config/sway/config
+|4,39,183,73,1758139304,"~/.config/sway/config"
+-'  183  73  ~/.config/sway/config
+|4,39,183,73,1758139304,"~/.config/sway/config"
+-'  188  2  ~/.config/sway/config
+|4,39,188,2,1758138523,"~/.config/sway/config"
+-'  188  2  ~/.config/sway/config
+|4,39,188,2,1758138523,"~/.config/sway/config"
 -'  188  2  ~/.config/sway/config
 |4,39,188,2,1758138523,"~/.config/sway/config"
 -'  188  2  ~/.config/sway/config
@@ -332,59 +371,19 @@ $$TERMINAL
 |4,39,11,29,1758122639,"~/.github/README.md"
 -'  11  29  ~/.github/README.md
 |4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1758144788	0
-	"	176	33
-	^	176	34
-	.	176	33
-	+	208	27
-	+	210	0
-	+	206	0
-	+	207	39
-	+	208	3
+	*	1758146397	0
+	"	152	0
+	^	182	55
+	.	182	55
+	+	207	27
+	+	209	0
+	+	205	0
+	+	206	39
+	+	207	3
 	+	41	0
 	+	42	0
 	+	41	0
@@ -436,7 +435,7 @@ $$TERMINAL
 	+	103	0
 	+	94	0
 	+	196	0
-	+	210	0
+	+	209	0
 	+	76	0
 	+	182	38
 	+	182	39
@@ -446,11 +445,13 @@ $$TERMINAL
 	+	182	51
 	+	183	34
 	+	182	81
-	+	206	0
+	+	205	0
 	+	182	64
 	+	205	15
 	+	205	46
-	+	176	33
+	+	176	17
+	+	205	0
+	+	182	55
 	s	1	0
 
 > ~/.github/README.md
