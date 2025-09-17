@@ -21,7 +21,7 @@ alias cfg='git --git-dir=$HOME/.cfg.git --work-tree=$HOME'
 cfg status
 cfg commit -m "Some info"
 ```
-## 📥 Cloning your previous configurations to your new installation
+## 📥 Restore your configuration
    
 
 💬 Add your git bare repository to a .gitignore file.
