@@ -151,48 +151,152 @@ $$TERMINAL
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
 '0  152  0  ~/.config/sway/config
 |4,48,152,0,1758146402,"~/.config/sway/config"
-'1  205  0  ~/.config/sway/config
-|4,49,205,0,1758145683,"~/.config/sway/config"
+'1  152  0  ~/.config/sway/config
+|4,49,152,0,1758146402,"~/.config/sway/config"
 '2  205  0  ~/.config/sway/config
 |4,50,205,0,1758145683,"~/.config/sway/config"
-'3  176  33  ~/.config/sway/config
-|4,51,176,33,1758144895,"~/.config/sway/config"
-'4  176  33  ~/.config/sway/config
-|4,52,176,33,1758144895,"~/.config/sway/config"
-'5  176  33  ~/.config/sway/config
-|4,53,176,33,1758144895,"~/.config/sway/config"
+'3  205  0  ~/.config/sway/config
+|4,51,205,0,1758145683,"~/.config/sway/config"
+'4  205  0  ~/.config/sway/config
+|4,52,205,0,1758145683,"~/.config/sway/config"
+'5  205  0  ~/.config/sway/config
+|4,53,205,0,1758145683,"~/.config/sway/config"
 '6  176  33  ~/.config/sway/config
 |4,54,176,33,1758144895,"~/.config/sway/config"
-'7  205  46  ~/.config/sway/config
-|4,55,205,46,1758144652,"~/.config/sway/config"
-'8  205  46  ~/.config/sway/config
-|4,56,205,46,1758144652,"~/.config/sway/config"
-'9  205  46  ~/.config/sway/config
-|4,57,205,46,1758144652,"~/.config/sway/config"
+'7  176  33  ~/.config/sway/config
+|4,55,176,33,1758144895,"~/.config/sway/config"
+'8  176  33  ~/.config/sway/config
+|4,56,176,33,1758144895,"~/.config/sway/config"
+'9  176  33  ~/.config/sway/config
+|4,57,176,33,1758144895,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
 -'  152  0  ~/.config/sway/config
 |4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758146198,"~/.config/sway/config"
 -'  205  0  ~/.config/sway/config
 |4,39,205,0,1758145683,"~/.config/sway/config"
 -'  205  0  ~/.config/sway/config
 |4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758145683,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
+-'  176  17  ~/.config/sway/config
+|4,39,176,17,1758145564,"~/.config/sway/config"
 -'  176  17  ~/.config/sway/config
 |4,39,176,17,1758145564,"~/.config/sway/config"
 -'  176  17  ~/.config/sway/config
 |4,39,176,17,1758145564,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758145454,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758145454,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758145454,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758145454,"~/.config/sway/config"
 -'  176  33  ~/.config/sway/config
 |4,39,176,33,1758144895,"~/.config/sway/config"
+-'  176  33  ~/.config/sway/config
+|4,39,176,33,1758144895,"~/.config/sway/config"
+-'  176  33  ~/.config/sway/config
+|4,39,176,33,1758144895,"~/.config/sway/config"
+-'  176  33  ~/.config/sway/config
+|4,39,176,33,1758144895,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144746,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144746,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144746,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758144746,"~/.config/sway/config"
 -'  205  46  ~/.config/sway/config
 |4,39,205,46,1758144652,"~/.config/sway/config"
 -'  205  46  ~/.config/sway/config
 |4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  205  46  ~/.config/sway/config
+|4,39,205,46,1758144652,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
+-'  81  0  ~/.config/sway/config
+|4,39,81,0,1758144562,"~/.config/sway/config"
 -'  81  0  ~/.config/sway/config
 |4,39,81,0,1758144562,"~/.config/sway/config"
 -'  81  0  ~/.config/sway/config
@@ -203,6 +307,18 @@ $$TERMINAL
 |4,39,81,0,1758144562,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758144549,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144549,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144549,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758144549,"~/.config/sway/config"
+-'  205  40  ~/.config/sway/config
+|4,39,205,40,1758144523,"~/.config/sway/config"
+-'  205  40  ~/.config/sway/config
+|4,39,205,40,1758144523,"~/.config/sway/config"
+-'  205  40  ~/.config/sway/config
+|4,39,205,40,1758144523,"~/.config/sway/config"
 -'  205  40  ~/.config/sway/config
 |4,39,205,40,1758144523,"~/.config/sway/config"
 -'  57  0  ~/.config/sway/config
@@ -215,164 +331,68 @@ $$TERMINAL
 |4,39,57,0,1758144327,"~/.config/sway/config"
 -'  57  0  ~/.config/sway/config
 |4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
+-'  57  0  ~/.config/sway/config
+|4,39,57,0,1758144327,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758144322,"~/.config/sway/config"
--'  205  4  ~/.config/sway/config
-|4,39,205,4,1758144257,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758143999,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  175  44  ~/.config/sway/config
-|4,39,175,44,1758140190,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758140078,"~/.config/sway/config"
--'  206  0  ~/.config/sway/config
-|4,39,206,0,1758139980,"~/.config/sway/config"
--'  206  0  ~/.config/sway/config
-|4,39,206,0,1758139980,"~/.config/sway/config"
--'  206  0  ~/.config/sway/config
-|4,39,206,0,1758139980,"~/.config/sway/config"
--'  206  0  ~/.config/sway/config
-|4,39,206,0,1758139980,"~/.config/sway/config"
--'  206  0  ~/.config/sway/config
-|4,39,206,0,1758139980,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758139980,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758139980,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  73  4  ~/.config/sway/config
-|4,39,73,4,1758139846,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758139347,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  183  73  ~/.config/sway/config
-|4,39,183,73,1758139304,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  188  2  ~/.config/sway/config
-|4,39,188,2,1758138523,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758138286,"~/.config/sway/config"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
--'  11  29  ~/.github/README.md
-|4,39,11,29,1758122639,"~/.github/README.md"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/vim/vimrc
+	*	1758146571	0
+	"	1	0
+	^	64	21
+	.	53	1
+	+	65	21
+	+	68	7
+	+	65	21
+	+	68	18
+	+	70	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	68	0
+	+	67	12
+	+	66	20
+	+	65	21
+	+	64	20
+	+	38	0
+	+	67	24
+	+	66	20
+	+	65	21
+	+	64	20
+	+	67	24
+	+	53	1
 
 > ~/.config/sway/config
 	*	1758146397	0
@@ -507,32 +527,6 @@ $$TERMINAL
 	+	12	19
 	+	9	6
 	+	12	13
-
-> ~/.config/vim/vimrc
-	*	1758036766	0
-	"	9	0
-	^	64	21
-	.	53	1
-	+	65	21
-	+	68	7
-	+	65	21
-	+	68	18
-	+	70	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	68	0
-	+	67	12
-	+	66	20
-	+	65	21
-	+	64	20
-	+	38	0
-	+	67	24
-	+	66	20
-	+	65	21
-	+	64	20
-	+	67	24
-	+	53	1
 
 > ~/.dotfiles/nixos/modules/pkgs.nix
 	*	1758035939	0
