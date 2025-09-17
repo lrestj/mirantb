@@ -6,7 +6,7 @@ This is still work in progress.
 My last Hyprland config is saved under Hyprland tag commit.  
 For now my primary focus is Sway WM.
 
-## ⚙️ Initializing a git bare repository
+## ⚙️ Init a git bare repo
 ```
 git init --bare $HOME/.cfg.git
 ```
@@ -21,7 +21,7 @@ alias cfg='git --git-dir=$HOME/.cfg.git --work-tree=$HOME'
 cfg status
 cfg commit -m "Some info"
 ```
-## 📥 Restore your configuration
+## 📥 Restore your config
    
 
 💬 Add your git bare repository to a .gitignore file.
