@@ -8,7 +8,7 @@
 ###### ✅ Also this readme file is just a reminder for me actually.
 
 
-## ⚙️ Initializing a git bare repositoyc
+## ⚙️ Initializing a git bare repository
 ```
 git init --bare $HOME/.cfg.git
 ```
