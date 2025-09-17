@@ -2,7 +2,6 @@
 
 
 ##### ✌ Welcome to my repo. Feel free to look inside for an inspiration or just for fun. 
-
 ######  This is still work in progress. Hyprland config is saved in Hyprland tag commit. For now my primary focus is Sway WM.
 
 ## ⚙️ Initializing a git bare repository
