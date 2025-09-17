@@ -5,9 +5,6 @@
 
 ######  This is still work in progress. Hyprland config is saved in Hyprland tag commit. For now my primary focus is Sway WM.
 
-###### ✅ Also this readme file is just a reminder for me actually.
-
-
 ## ⚙️ Initializing a git bare repository
 ```
 git init --bare $HOME/.cfg.git
@@ -28,7 +25,7 @@ cfg push
 ## 📥 Cloning your previous configurations to your new installation
    
 
-💬 Add your git bare repository to a .gitignore file. This will help you avoid any recursion problems.
+💬 Add your git bare repository to a .gitignore file.
 
 ```
 echo ".cfg.git" >> .gitignore
@@ -44,8 +41,6 @@ git clone --bare https://gitlab.com/lrestj/nixos.git /home/libor/.cfg.git
 
 
 💬 Checkout the contents of your bare repository to your $HOME directory.
-
-⚠️ This command will overwrite similarly named files in your new installation.
 
 ```
 git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME checkout -f
