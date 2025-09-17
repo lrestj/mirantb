@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758122108,,"wq"
+|2,0,1758122639,,"wq"
 :w
 |2,0,1758100349,,"w"
 :q
@@ -146,28 +146,34 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  24  26  ~/.github/README.md
-|4,48,24,26,1758122108,"~/.github/README.md"
-'1  38  68  ~/.config/fish/config.fish
-|4,49,38,68,1758111901,"~/.config/fish/config.fish"
-'2  40  7  ~/.config/fish/config.fish
-|4,50,40,7,1758111811,"~/.config/fish/config.fish"
-'3  40  7  ~/.config/fish/config.fish
-|4,51,40,7,1758111811,"~/.config/fish/config.fish"
-'4  12  2  ~/.github/README.md
-|4,52,12,2,1758110438,"~/.github/README.md"
-'5  12  2  ~/.github/README.md
-|4,53,12,2,1758110438,"~/.github/README.md"
-'6  76  0  ~/.config/sway/config
-|4,54,76,0,1758100434,"~/.config/sway/config"
-'7  76  0  ~/.config/sway/config
-|4,55,76,0,1758100434,"~/.config/sway/config"
-'8  76  26  ~/.config/sway/config
-|4,56,76,26,1758100247,"~/.config/sway/config"
-'9  76  26  ~/.config/sway/config
-|4,57,76,26,1758100247,"~/.config/sway/config"
+'0  11  29  ~/.github/README.md
+|4,48,11,29,1758122639,"~/.github/README.md"
+'1  24  26  ~/.github/README.md
+|4,49,24,26,1758122108,"~/.github/README.md"
+'2  24  26  ~/.github/README.md
+|4,50,24,26,1758122108,"~/.github/README.md"
+'3  38  68  ~/.config/fish/config.fish
+|4,51,38,68,1758111901,"~/.config/fish/config.fish"
+'4  40  7  ~/.config/fish/config.fish
+|4,52,40,7,1758111811,"~/.config/fish/config.fish"
+'5  40  7  ~/.config/fish/config.fish
+|4,53,40,7,1758111811,"~/.config/fish/config.fish"
+'6  12  2  ~/.github/README.md
+|4,54,12,2,1758110438,"~/.github/README.md"
+'7  12  2  ~/.github/README.md
+|4,55,12,2,1758110438,"~/.github/README.md"
+'8  12  2  ~/.github/README.md
+|4,56,12,2,1758110438,"~/.github/README.md"
+'9  12  2  ~/.github/README.md
+|4,57,12,2,1758110438,"~/.github/README.md"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
 -'  24  26  ~/.github/README.md
 |4,39,24,26,1758122108,"~/.github/README.md"
 -'  1  0  ~/.github/README.md
@@ -176,6 +182,14 @@ $$TERMINAL
 |4,39,38,68,1758111901,"~/.config/fish/config.fish"
 -'  38  68  ~/.config/fish/config.fish
 |4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
 |4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
@@ -188,6 +202,18 @@ $$TERMINAL
 |4,39,40,7,1758111811,"~/.config/fish/config.fish"
 -'  40  7  ~/.config/fish/config.fish
 |4,39,40,7,1758111811,"~/.config/fish/config.fish"
+-'  40  7  ~/.config/fish/config.fish
+|4,39,40,7,1758111811,"~/.config/fish/config.fish"
+-'  40  7  ~/.config/fish/config.fish
+|4,39,40,7,1758111811,"~/.config/fish/config.fish"
+-'  40  7  ~/.config/fish/config.fish
+|4,39,40,7,1758111811,"~/.config/fish/config.fish"
+-'  40  7  ~/.config/fish/config.fish
+|4,39,40,7,1758111811,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111722,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111722,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
 |4,39,1,0,1758111722,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
@@ -202,6 +228,8 @@ $$TERMINAL
 |4,39,12,2,1758110438,"~/.github/README.md"
 -'  12  2  ~/.github/README.md
 |4,39,12,2,1758110438,"~/.github/README.md"
+-'  12  2  ~/.github/README.md
+|4,39,12,2,1758110438,"~/.github/README.md"
 -'  76  0  ~/.config/sway/config
 |4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
@@ -219,49 +247,21 @@ $$TERMINAL
 -'  76  0  ~/.config/sway/config
 |4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
 |4,39,76,0,1758100434,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
@@ -372,13 +372,19 @@ $$TERMINAL
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.github/README.md
-	*	1758122106	0
-	"	24	26
-	^	24	27
-	.	24	27
+	*	1758122637	0
+	"	11	29
+	^	11	30
+	.	14	41
 	+	6	97
 	+	9	14
 	+	24	27
+	+	14	41
+	+	27	23
+	+	33	37
+	+	42	74
+	+	33	42
+	+	14	41
 
 > ~/.config/fish/config.fish
 	*	1758111899	0

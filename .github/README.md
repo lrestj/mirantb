@@ -11,7 +11,7 @@ For now my primary focus is Sway WM.
 git init --bare $HOME/.cfg.git
 ```
 
-💬 Define an alias or add it to .bashrc and config.fish   
+💬 Define an alias or add it to .bashrc:
 ```
 alias cfg='git --git-dir=$HOME/.cfg.git --work-tree=$HOME'
 ```
@@ -24,13 +24,13 @@ cfg commit -m "Some info"
 ## 📥 Restore your config
    
 
-💬 Add your git bare repository to a .gitignore file.
+💬 Gitignore your git repo:
 
 ```
 echo ".cfg.git" >> .gitignore
 ```
 
-💬 Clone your dotfiles into a git bare repository.
+💬 Clone your dotfiles into the git repo:
 
 ```
 git clone --bare https://github.com/lrestj/nixos.git /home/libor/.cfg.git
@@ -39,7 +39,7 @@ git clone --bare https://gitlab.com/lrestj/nixos.git /home/libor/.cfg.git
 ```
 
 
-💬 Checkout the contents of your bare repository to your $HOME directory.
+💬 Checkout the contents of your bare repository to your $HOME directory:
 
 ```
 git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME checkout -f
