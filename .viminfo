@@ -20,10 +20,12 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
-:wq
-|2,0,1758122639,,"wq"
 :w
-|2,0,1758100349,,"w"
+|2,0,1758140106,,"w"
+:wq
+|2,0,1758139980,,"wq"
+:reg
+|2,0,1758139784,,"reg"
 :q
 |2,0,1758061253,,"q"
 :m3
@@ -90,16 +92,19 @@ $$TERMINAL
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	LINE	0
-	abbr ppp "git --git-dir=/home/libor/.cfg.git/ --work-tree=/home/libor push -u github main && git --git-dir=/home/libor/.cfg.git/ --work-tree=/home/libor push gitlab main"
-|3,0,0,1,1,0,1758111740,"abbr ppp \"git --git-dir=/home/libor/.cfg.git/ --work-tree=/home/libor push -u github main && git --git-dir=/home/libor/.cfg.git/ --work-tree=/home/libor push gitlab main\""
+"0	CHAR	0
+	client.focused #8000FF #8000FF #8000FF
+|3,0,0,0,1,0,1758139843,"client.focused #8000FF #8000FF #8000FF"
 "1	LINE	0
-	    hide_edge_borders --i3 none
-|3,0,1,1,1,0,1758100346,"    hide_edge_borders --i3 none"
+	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
+|3,0,1,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1758062148,""
+	    hide_edge_borders --i3 none
+|3,0,2,1,1,0,1758100346,"    hide_edge_borders --i3 none"
 "3	LINE	0
+	
+|3,0,3,1,1,0,1758062148,""
+"4	LINE	0
 	### Modes:
 	    # Nastavení
 	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
@@ -110,32 +115,29 @@ $$TERMINAL
 	    # bindsym Escape exec makoctl dismiss; mode "default"
 	    # }
 	
-|3,0,3,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
-"4	LINE	0
-	    bindsym $ms+t exec touchpad
-|3,0,4,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+|3,0,4,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1758062062,""
+	    bindsym $ms+t exec touchpad
+|3,0,5,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
 "6	LINE	0
-	    # Touchpad ON/OFF
-|3,0,6,1,1,0,1758062056,"    # Touchpad ON/OFF"
+	
+|3,0,6,1,1,0,1758062062,""
 "7	LINE	0
+	    # Touchpad ON/OFF
+|3,0,7,1,1,0,1758062056,"    # Touchpad ON/OFF"
+"8	LINE	0
 	    font none 0.1
 	    titlebar_padding 3
-|3,0,7,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
-"8	LINE	0
-	
-|3,0,8,1,1,0,1758061175,""
+|3,0,8,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
 "9	LINE	0
-	    Sè
-|3,0,9,1,1,0,1758056032,"    Sè"
+	
+|3,0,9,1,1,0,1758061175,""
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1758111882," "
+	p
+|3,1,36,0,1,0,1758140103,"p"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -146,36 +148,134 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  11  29  ~/.github/README.md
-|4,48,11,29,1758122639,"~/.github/README.md"
-'1  24  26  ~/.github/README.md
-|4,49,24,26,1758122108,"~/.github/README.md"
-'2  24  26  ~/.github/README.md
-|4,50,24,26,1758122108,"~/.github/README.md"
-'3  38  68  ~/.config/fish/config.fish
-|4,51,38,68,1758111901,"~/.config/fish/config.fish"
-'4  40  7  ~/.config/fish/config.fish
-|4,52,40,7,1758111811,"~/.config/fish/config.fish"
-'5  40  7  ~/.config/fish/config.fish
-|4,53,40,7,1758111811,"~/.config/fish/config.fish"
-'6  12  2  ~/.github/README.md
-|4,54,12,2,1758110438,"~/.github/README.md"
-'7  12  2  ~/.github/README.md
-|4,55,12,2,1758110438,"~/.github/README.md"
-'8  12  2  ~/.github/README.md
-|4,56,12,2,1758110438,"~/.github/README.md"
-'9  12  2  ~/.github/README.md
-|4,57,12,2,1758110438,"~/.github/README.md"
+'0  175  44  ~/.config/sway/config
+|4,48,175,44,1758140190,"~/.config/sway/config"
+'1  205  0  ~/.config/sway/config
+|4,49,205,0,1758139980,"~/.config/sway/config"
+'2  205  0  ~/.config/sway/config
+|4,50,205,0,1758139980,"~/.config/sway/config"
+'3  183  73  ~/.config/sway/config
+|4,51,183,73,1758139304,"~/.config/sway/config"
+'4  183  73  ~/.config/sway/config
+|4,52,183,73,1758139304,"~/.config/sway/config"
+'5  183  73  ~/.config/sway/config
+|4,53,183,73,1758139304,"~/.config/sway/config"
+'6  183  73  ~/.config/sway/config
+|4,54,183,73,1758139304,"~/.config/sway/config"
+'7  11  29  ~/.github/README.md
+|4,55,11,29,1758122639,"~/.github/README.md"
+'8  24  26  ~/.github/README.md
+|4,56,24,26,1758122108,"~/.github/README.md"
+'9  24  26  ~/.github/README.md
+|4,57,24,26,1758122108,"~/.github/README.md"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  175  44  ~/.config/sway/config
+|4,39,175,44,1758140190,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758140078,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758139980,"~/.config/sway/config"
+-'  205  0  ~/.config/sway/config
+|4,39,205,0,1758139980,"~/.config/sway/config"
+-'  73  4  ~/.config/sway/config
+|4,39,73,4,1758139846,"~/.config/sway/config"
+-'  73  4  ~/.config/sway/config
+|4,39,73,4,1758139846,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758139347,"~/.config/sway/config"
+-'  183  73  ~/.config/sway/config
+|4,39,183,73,1758139304,"~/.config/sway/config"
+-'  183  73  ~/.config/sway/config
+|4,39,183,73,1758139304,"~/.config/sway/config"
+-'  183  73  ~/.config/sway/config
+|4,39,183,73,1758139304,"~/.config/sway/config"
+-'  188  2  ~/.config/sway/config
+|4,39,188,2,1758138523,"~/.config/sway/config"
+-'  188  2  ~/.config/sway/config
+|4,39,188,2,1758138523,"~/.config/sway/config"
+-'  188  2  ~/.config/sway/config
+|4,39,188,2,1758138523,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758138286,"~/.config/sway/config"
 -'  11  29  ~/.github/README.md
 |4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  11  29  ~/.github/README.md
+|4,39,11,29,1758122639,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122421,"~/.github/README.md"
 -'  1  0  ~/.github/README.md
 |4,39,1,0,1758122421,"~/.github/README.md"
 -'  24  26  ~/.github/README.md
 |4,39,24,26,1758122108,"~/.github/README.md"
 -'  24  26  ~/.github/README.md
 |4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  24  26  ~/.github/README.md
+|4,39,24,26,1758122108,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758122079,"~/.github/README.md"
 -'  1  0  ~/.github/README.md
 |4,39,1,0,1758122079,"~/.github/README.md"
 -'  38  68  ~/.config/fish/config.fish
@@ -186,6 +286,62 @@ $$TERMINAL
 |4,39,38,68,1758111901,"~/.config/fish/config.fish"
 -'  38  68  ~/.config/fish/config.fish
 |4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
+-'  38  68  ~/.config/fish/config.fish
+|4,39,38,68,1758111901,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
 |4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
@@ -194,211 +350,33 @@ $$TERMINAL
 |4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
 |4,39,1,0,1758111846,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
--'  40  7  ~/.config/fish/config.fish
-|4,39,40,7,1758111811,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1758111722,"~/.config/fish/config.fish"
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1758111722,"~/.config/fish/config.fish"
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1758111722,"~/.config/fish/config.fish"
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
 -'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1758111722,"~/.config/fish/config.fish"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  12  2  ~/.github/README.md
-|4,39,12,2,1758110438,"~/.github/README.md"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758110380,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
--'  76  0  ~/.config/sway/config
-|4,39,76,0,1758100434,"~/.config/sway/config"
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
+-'  1  0  ~/.config/fish/config.fish
+|4,39,1,0,1758111846,"~/.config/fish/config.fish"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.github/README.md
-	*	1758122637	0
-	"	11	29
-	^	11	30
-	.	14	41
-	+	6	97
-	+	9	14
-	+	24	27
-	+	14	41
-	+	27	23
-	+	33	37
-	+	42	74
-	+	33	42
-	+	14	41
-
-> ~/.config/fish/config.fish
-	*	1758111899	0
-	"	38	68
-	^	38	69
-	.	38	68
-	+	40	0
-	+	40	7
-	+	38	68
-
 > ~/.config/sway/config
-	*	1758110370	0
-	"	76	0
-	.	76	0
+	*	1758140186	0
+	"	175	44
+	.	182	72
 	+	207	27
 	+	209	0
 	+	205	0
@@ -457,7 +435,41 @@ $$TERMINAL
 	+	196	0
 	+	209	0
 	+	76	0
+	+	182	38
+	+	182	39
+	+	183	0
+	+	182	33
+	+	183	0
+	+	182	51
+	+	183	34
+	+	182	81
+	+	205	0
+	+	182	72
 	s	1	0
+
+> ~/.github/README.md
+	*	1758122637	0
+	"	11	29
+	^	11	30
+	.	14	41
+	+	6	97
+	+	9	14
+	+	24	27
+	+	14	41
+	+	27	23
+	+	33	37
+	+	42	74
+	+	33	42
+	+	14	41
+
+> ~/.config/fish/config.fish
+	*	1758111899	0
+	"	38	68
+	^	38	69
+	.	38	68
+	+	40	0
+	+	40	7
+	+	38	68
 
 > ~/.local/bin/touchpad
 	*	1758061179	0
