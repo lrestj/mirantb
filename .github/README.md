@@ -3,33 +3,20 @@
 
 ##### ✌ Welcome to my repo. Feel free to look inside for an inspiration or just for fun. 
 
-###### 🤔 I don't recommend to use this exact config on other system as it is still work in progress.
+######  This is still work in progress. Hyprland config is saved in Hyprland tag commit. My primary focus is Sway WM.
 
 ###### ✅ Also this readme file is just a reminder for me actually.
 
 
-## ⚙️ Initializing a git bare repository
+## ⚙️ Initializing a git bare repositoyc
 ```
 git init --bare $HOME/.cfg.git
 ```
 
-💬 Define an alias for the command.    
+💬 Define an alias or add it to .bashrc and config.fish   
 ```
 alias cfg='git --git-dir=$HOME/.cfg.git --work-tree=$HOME'
 ```
-
-💬 Run this next command to hide all files that we are not explicitly keeping track of.
-
-```
-cfg config --local status.showUntrackedFiles no
-```
-
-💬 Add the alias to your .bashrc or config.fish for convenience.
-
-```
-echo "alias cfg='git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME'" >> $HOME/.bashrc
-```
-
 
 👍 And that’s it! You can add all kinds of files and directories in your repository.
 ```
@@ -52,7 +39,7 @@ echo ".cfg.git" >> .gitignore
 ```
 git clone --bare https://github.com/lrestj/nixos.git /home/libor/.cfg.git
 
-git clone --bare https://codeberg.org/lrestj/nixos.git /home/libor/.cfg.git
+git clone --bare https://gitlab.com/lrestj/nixos.git /home/libor/.cfg.git
 ```
 
 
@@ -63,13 +50,6 @@ git clone --bare https://codeberg.org/lrestj/nixos.git /home/libor/.cfg.git
 ```
 git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME checkout -f
 ```
-
-💬 Run this command to hide untracked files.
-
-```
-git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME config --local status.showUntrackedFiles no
-```
-
 
 👍 Your set up is now complete again.
 
