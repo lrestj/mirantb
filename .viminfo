@@ -20,10 +20,10 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:wq
+|2,0,1758110438,,"wq"
 :w
 |2,0,1758100349,,"w"
-:wq
-|2,0,1758062168,,"wq"
 :q
 |2,0,1758061253,,"q"
 :m3
@@ -146,28 +146,32 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  76  0  ~/.config/sway/config
-|4,48,76,0,1758100434,"~/.config/sway/config"
-'1  76  26  ~/.config/sway/config
-|4,49,76,26,1758100247,"~/.config/sway/config"
-'2  38  0  ~/.config/sway/config
-|4,50,38,0,1758062168,"~/.config/sway/config"
-'3  38  0  ~/.config/sway/config
-|4,51,38,0,1758062168,"~/.config/sway/config"
-'4  38  0  ~/.config/sway/config
-|4,52,38,0,1758062168,"~/.config/sway/config"
+'0  12  2  ~/.github/README.md
+|4,48,12,2,1758110438,"~/.github/README.md"
+'1  76  0  ~/.config/sway/config
+|4,49,76,0,1758100434,"~/.config/sway/config"
+'2  76  0  ~/.config/sway/config
+|4,50,76,0,1758100434,"~/.config/sway/config"
+'3  76  26  ~/.config/sway/config
+|4,51,76,26,1758100247,"~/.config/sway/config"
+'4  76  26  ~/.config/sway/config
+|4,52,76,26,1758100247,"~/.config/sway/config"
 '5  38  0  ~/.config/sway/config
 |4,53,38,0,1758062168,"~/.config/sway/config"
-'6  105  0  ~/.config/sway/config
-|4,54,105,0,1758061253,"~/.config/sway/config"
-'7  107  0  ~/.config/sway/config
-|4,55,107,0,1758061253,"~/.config/sway/config"
-'8  104  0  ~/.config/sway/config
-|4,56,104,0,1758061253,"~/.config/sway/config"
-'9  106  0  ~/.config/sway/config
-|4,57,106,0,1758061253,"~/.config/sway/config"
+'6  38  0  ~/.config/sway/config
+|4,54,38,0,1758062168,"~/.config/sway/config"
+'7  38  0  ~/.config/sway/config
+|4,55,38,0,1758062168,"~/.config/sway/config"
+'8  38  0  ~/.config/sway/config
+|4,56,38,0,1758062168,"~/.config/sway/config"
+'9  38  0  ~/.config/sway/config
+|4,57,38,0,1758062168,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  12  2  ~/.github/README.md
+|4,39,12,2,1758110438,"~/.github/README.md"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758110380,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
 |4,39,76,0,1758100434,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
@@ -216,6 +220,8 @@ $$TERMINAL
 |4,39,76,0,1758100434,"~/.config/sway/config"
 -'  76  0  ~/.config/sway/config
 |4,39,76,0,1758100434,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758100274,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -360,17 +366,18 @@ $$TERMINAL
 |4,39,1,0,1758100091,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758100091,"~/.config/sway/config"
--'  38  0  ~/.config/sway/config
-|4,39,38,0,1758062168,"~/.config/sway/config"
--'  38  0  ~/.config/sway/config
-|4,39,38,0,1758062168,"~/.config/sway/config"
--'  38  0  ~/.config/sway/config
-|4,39,38,0,1758062168,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
+> ~/.github/README.md
+	*	1758110436	0
+	"	12	2
+	^	12	3
+	.	6	97
+	+	6	97
+
 > ~/.config/sway/config
-	*	1758100382	0
+	*	1758110370	0
 	"	76	0
 	.	76	0
 	+	207	27
