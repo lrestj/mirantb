@@ -20,12 +20,12 @@
 $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1758100349,,"w"
 :wq
 |2,0,1758062168,,"wq"
 :q
 |2,0,1758061253,,"q"
-:w
-|2,0,1758061179,,"w"
 :m3
 |2,0,1758061011,,"m3"
 :w!
@@ -94,9 +94,12 @@ $$TERMINAL
 	input type:touchpad events toggle enabled disabled, \
 |3,0,0,0,1,0,1758060651,"input type:touchpad events toggle enabled disabled, \\"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1758062148,""
+	    hide_edge_borders --i3 none
+|3,1,1,1,1,0,1758100346,"    hide_edge_borders --i3 none"
 "2	LINE	0
+	
+|3,0,2,1,1,0,1758062148,""
+"3	LINE	0
 	### Modes:
 	    # Nastavení
 	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
@@ -107,35 +110,32 @@ $$TERMINAL
 	    # bindsym Escape exec makoctl dismiss; mode "default"
 	    # }
 	
-|3,0,2,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
-"3	LINE	0
-	    bindsym $ms+t exec touchpad
-|3,0,3,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+|3,0,3,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1758062062,""
+	    bindsym $ms+t exec touchpad
+|3,0,4,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
 "5	LINE	0
-	    # Touchpad ON/OFF
-|3,0,5,1,1,0,1758062056,"    # Touchpad ON/OFF"
+	
+|3,0,5,1,1,0,1758062062,""
 "6	LINE	0
+	    # Touchpad ON/OFF
+|3,0,6,1,1,0,1758062056,"    # Touchpad ON/OFF"
+"7	LINE	0
 	    font none 0.1
 	    titlebar_padding 3
-|3,0,6,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1758061175,""
+|3,0,7,1,2,0,1758062009,"    font none 0.1","    titlebar_padding 3"
 "8	LINE	0
-	    Sè
-|3,0,8,1,1,0,1758056032,"    Sè"
+	
+|3,0,8,1,1,0,1758061175,""
 "9	LINE	0
-	            wezterm kitty
-|3,0,9,1,1,0,1758030526,"            wezterm kitty"
+	    Sè
+|3,0,9,1,1,0,1758056032,"    Sè"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 "-	CHAR	0
-	e
-|3,0,36,0,1,0,1758061107,"e"
+	smart
+|3,0,36,0,1,0,1758100287,"smart"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -146,236 +146,233 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  38  0  ~/.config/sway/config
-|4,48,38,0,1758062168,"~/.config/sway/config"
-'1  105  0  ~/.config/sway/config
-|4,49,105,0,1758061253,"~/.config/sway/config"
-'2  107  0  ~/.config/sway/config
-|4,50,107,0,1758061253,"~/.config/sway/config"
-'3  6  0  ~/.local/bin/touchpad
-|4,51,6,0,1758061190,"~/.local/bin/touchpad"
-'4  1  0  ~/.config/sway/config
-|4,52,1,0,1758060595,"~/.config/sway/config"
-'5  1  0  ~/.config/sway/config
-|4,53,1,0,1758060595,"~/.config/sway/config"
-'6  1  0  ~/.config/sway/config
-|4,54,1,0,1758060595,"~/.config/sway/config"
-'7  1  0  ~/.config/sway/config
-|4,55,1,0,1758060595,"~/.config/sway/config"
-'8  23  21  ~/.config/sway/config
-|4,56,23,21,1758056612,"~/.config/sway/config"
-'9  23  21  ~/.config/sway/config
-|4,57,23,21,1758056612,"~/.config/sway/config"
+'0  76  0  ~/.config/sway/config
+|4,48,76,0,1758100434,"~/.config/sway/config"
+'1  76  26  ~/.config/sway/config
+|4,49,76,26,1758100247,"~/.config/sway/config"
+'2  38  0  ~/.config/sway/config
+|4,50,38,0,1758062168,"~/.config/sway/config"
+'3  38  0  ~/.config/sway/config
+|4,51,38,0,1758062168,"~/.config/sway/config"
+'4  38  0  ~/.config/sway/config
+|4,52,38,0,1758062168,"~/.config/sway/config"
+'5  38  0  ~/.config/sway/config
+|4,53,38,0,1758062168,"~/.config/sway/config"
+'6  105  0  ~/.config/sway/config
+|4,54,105,0,1758061253,"~/.config/sway/config"
+'7  107  0  ~/.config/sway/config
+|4,55,107,0,1758061253,"~/.config/sway/config"
+'8  104  0  ~/.config/sway/config
+|4,56,104,0,1758061253,"~/.config/sway/config"
+'9  106  0  ~/.config/sway/config
+|4,57,106,0,1758061253,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  76  0  ~/.config/sway/config
+|4,39,76,0,1758100434,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100274,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  76  26  ~/.config/sway/config
+|4,39,76,26,1758100247,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758100091,"~/.config/sway/config"
 -'  38  0  ~/.config/sway/config
 |4,39,38,0,1758062168,"~/.config/sway/config"
--'  77  4  ~/.config/sway/config
-|4,39,77,4,1758062030,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758061894,"~/.config/sway/config"
--'  105  0  ~/.config/sway/config
-|4,39,105,0,1758061253,"~/.config/sway/config"
--'  107  0  ~/.config/sway/config
-|4,39,107,0,1758061253,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758061195,"~/.config/sway/config"
--'  6  0  ~/.local/bin/touchpad
-|4,39,6,0,1758061190,"~/.local/bin/touchpad"
--'  6  0  ~/.local/bin/touchpad
-|4,39,6,0,1758061190,"~/.local/bin/touchpad"
--'  6  0  ~/.local/bin/touchpad
-|4,39,6,0,1758061190,"~/.local/bin/touchpad"
--'  6  0  ~/.local/bin/touchpad
-|4,39,6,0,1758061190,"~/.local/bin/touchpad"
--'  103  17  ~/.config/sway/config
-|4,39,103,17,1758060770,"~/.config/sway/config"
--'  104  17  ~/.config/sway/config
-|4,39,104,17,1758060770,"~/.config/sway/config"
--'  104  17  ~/.config/sway/config
-|4,39,104,17,1758060770,"~/.config/sway/config"
--'  5  52  ~/.local/bin/touchpad
-|4,39,5,52,1758060733,"~/.local/bin/touchpad"
--'  5  52  ~/.local/bin/touchpad
-|4,39,5,52,1758060733,"~/.local/bin/touchpad"
--'  5  52  ~/.local/bin/touchpad
-|4,39,5,52,1758060733,"~/.local/bin/touchpad"
--'  5  52  ~/.local/bin/touchpad
-|4,39,5,52,1758060733,"~/.local/bin/touchpad"
--'  1  0  ~/.local/bin/touchpad
-|4,39,1,0,1758060603,"~/.local/bin/touchpad"
--'  1  0  ~/.local/bin/touchpad
-|4,39,1,0,1758060603,"~/.local/bin/touchpad"
--'  1  0  ~/.local/bin/touchpad
-|4,39,1,0,1758060603,"~/.local/bin/touchpad"
--'  1  0  ~/.local/bin/touchpad
-|4,39,1,0,1758060603,"~/.local/bin/touchpad"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758060595,"~/.config/sway/config"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
--'  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,39,1,0,1758060580,"~/.dotfiles/other/stuff2remember.txt"
--'  23  21  ~/.config/sway/config
-|4,39,23,21,1758056612,"~/.config/sway/config"
--'  24  21  ~/.config/sway/config
-|4,39,24,21,1758056612,"~/.config/sway/config"
--'  24  21  ~/.config/sway/config
-|4,39,24,21,1758056612,"~/.config/sway/config"
--'  24  21  ~/.config/sway/config
-|4,39,24,21,1758056612,"~/.config/sway/config"
--'  24  21  ~/.config/sway/config
-|4,39,24,21,1758056612,"~/.config/sway/config"
--'  30  34  ~/.config/sway/config
-|4,39,30,34,1758056575,"~/.config/sway/config"
--'  32  34  ~/.config/sway/config
-|4,39,32,34,1758056575,"~/.config/sway/config"
--'  32  34  ~/.config/sway/config
-|4,39,32,34,1758056575,"~/.config/sway/config"
--'  32  34  ~/.config/sway/config
-|4,39,32,34,1758056575,"~/.config/sway/config"
--'  32  34  ~/.config/sway/config
-|4,39,32,34,1758056575,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758055936,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758055936,"~/.config/sway/config"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  1  0  ~/.config/alacritty/alacritty.toml
-|4,39,1,0,1758036820,"~/.config/alacritty/alacritty.toml"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
--'  9  0  ~/.config/vim/vimrc
-|4,39,9,0,1758036776,"~/.config/vim/vimrc"
+-'  38  0  ~/.config/sway/config
+|4,39,38,0,1758062168,"~/.config/sway/config"
+-'  38  0  ~/.config/sway/config
+|4,39,38,0,1758062168,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1758062164	0
-	"	38	0
-	^	70	28
-	.	209	0
+	*	1758100382	0
+	"	76	0
+	.	76	0
 	+	207	27
 	+	209	0
 	+	205	0
@@ -433,6 +430,7 @@ $$TERMINAL
 	+	94	0
 	+	196	0
 	+	209	0
+	+	76	0
 	s	1	0
 
 > ~/.local/bin/touchpad

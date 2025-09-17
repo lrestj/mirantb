@@ -61,3 +61,5 @@ Stažené/
 .local/share/man/
 .local/share/zsh/
 .local/src/
+.config/libreoffice/4/
+.config/xfce4/xfconf/
