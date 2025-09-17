@@ -2,7 +2,9 @@
 
 
 ##### ✌ Welcome to my repo. Feel free to look inside for an inspiration or just for fun. 
-######  This is still work in progress. Hyprland config is saved in Hyprland tag commit. For now my primary focus is Sway WM.
+This is still work in progress.  
+My last Hyprland config is saved under Hyprland tag commit.  
+For now my primary focus is Sway WM.
 
 ## ⚙️ Initializing a git bare repository
 ```
@@ -17,9 +19,7 @@ alias cfg='git --git-dir=$HOME/.cfg.git --work-tree=$HOME'
 👍 And that’s it! You can add all kinds of files and directories in your repository.
 ```
 cfg status
-cfg add .bashrc
-cfg commit -m "Add bashrc"
-cfg push
+cfg commit -m "Some info"
 ```
 ## 📥 Cloning your previous configurations to your new installation
    
