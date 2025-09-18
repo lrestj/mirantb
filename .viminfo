@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758146960,,"wq"
+|2,0,1758210964,,"wq"
 :q
 |2,0,1758146402,,"q"
 :w
@@ -97,22 +97,25 @@ $$TERMINAL
 "0	LINE	0
 	    for_window [app_id="update"] floating enable, resize set 900  600 
 |3,0,0,1,1,0,1758144098,"    for_window [app_id=\"update\"] floating enable, resize set 900  600 "
-"1	LINE	0
-	    for_window [con_mark="scp"] border pixel 10
-|3,0,1,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
+""1	LINE	0
+	My last Hyprland config is saved under Hyprland tag commit.  
+|3,1,1,1,1,0,1758210710,"My last Hyprland config is saved under Hyprland tag commit.  "
 "2	LINE	0
-	    for_window  
-|3,0,2,1,1,0,1758144199,"    for_window  "
+	    for_window [con_mark="scp"] border pixel 10
+|3,0,2,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
 "3	LINE	0
-	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
-|3,0,3,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
+	    for_window  
+|3,0,3,1,1,0,1758144199,"    for_window  "
 "4	LINE	0
-	    hide_edge_borders --i3 none
-|3,0,4,1,1,0,1758100346,"    hide_edge_borders --i3 none"
+	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
+|3,0,4,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1758062148,""
+	    hide_edge_borders --i3 none
+|3,0,5,1,1,0,1758100346,"    hide_edge_borders --i3 none"
 "6	LINE	0
+	
+|3,0,6,1,1,0,1758062148,""
+"7	LINE	0
 	### Modes:
 	    # Nastavení
 	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
@@ -123,22 +126,19 @@ $$TERMINAL
 	    # bindsym Escape exec makoctl dismiss; mode "default"
 	    # }
 	
-|3,0,6,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
-"7	LINE	0
-	    bindsym $ms+t exec touchpad
-|3,0,7,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+|3,0,7,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
 "8	LINE	0
-	
-|3,0,8,1,1,0,1758062062,""
+	    bindsym $ms+t exec touchpad
+|3,0,8,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
 "9	LINE	0
-	    # Touchpad ON/OFF
-|3,0,9,1,1,0,1758062056,"    # Touchpad ON/OFF"
+	
+|3,0,9,1,1,0,1758062062,""
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
-""-	CHAR	0
+"-	CHAR	0
 	shutdown
-|3,1,36,0,1,0,1758146951,"shutdown"
+|3,0,36,0,1,0,1758146951,"shutdown"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -149,30 +149,54 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  25  34  ~/.local/bin/powercenter
-|4,48,25,34,1758146960,"~/.local/bin/powercenter"
-'1  152  0  ~/.config/sway/config
-|4,49,152,0,1758146402,"~/.config/sway/config"
-'2  152  0  ~/.config/sway/config
-|4,50,152,0,1758146402,"~/.config/sway/config"
-'3  205  0  ~/.config/sway/config
-|4,51,205,0,1758145683,"~/.config/sway/config"
-'4  205  0  ~/.config/sway/config
-|4,52,205,0,1758145683,"~/.config/sway/config"
+'0  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,48,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+'1  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,49,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+'2  25  34  ~/.local/bin/powercenter
+|4,50,25,34,1758146960,"~/.local/bin/powercenter"
+'3  152  0  ~/.config/sway/config
+|4,51,152,0,1758146402,"~/.config/sway/config"
+'4  152  0  ~/.config/sway/config
+|4,52,152,0,1758146402,"~/.config/sway/config"
 '5  205  0  ~/.config/sway/config
 |4,53,205,0,1758145683,"~/.config/sway/config"
 '6  205  0  ~/.config/sway/config
 |4,54,205,0,1758145683,"~/.config/sway/config"
-'7  176  33  ~/.config/sway/config
-|4,55,176,33,1758144895,"~/.config/sway/config"
-'8  176  33  ~/.config/sway/config
-|4,56,176,33,1758144895,"~/.config/sway/config"
+'7  205  0  ~/.config/sway/config
+|4,55,205,0,1758145683,"~/.config/sway/config"
+'8  205  0  ~/.config/sway/config
+|4,56,205,0,1758145683,"~/.config/sway/config"
 '9  176  33  ~/.config/sway/config
 |4,57,176,33,1758144895,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+-'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+-'  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+-'  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
 -'  25  34  ~/.local/bin/powercenter
 |4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
 -'  1  0  ~/.local/bin/powercenter
 |4,39,1,0,1758146944,"~/.local/bin/powercenter"
 -'  1  0  ~/.config/vim/vimrc
@@ -180,6 +204,30 @@ $$TERMINAL
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146572,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
@@ -203,6 +251,66 @@ $$TERMINAL
 |4,39,152,0,1758146402,"~/.config/sway/config"
 -'  152  0  ~/.config/sway/config
 |4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
+-'  152  0  ~/.config/sway/config
+|4,39,152,0,1758146402,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -223,156 +331,69 @@ $$TERMINAL
 |4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758146198,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  205  0  ~/.config/sway/config
-|4,39,205,0,1758145683,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
--'  176  17  ~/.config/sway/config
-|4,39,176,17,1758145564,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758145454,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
--'  176  33  ~/.config/sway/config
-|4,39,176,33,1758144895,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
-|4,39,1,0,1758144746,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
--'  205  46  ~/.config/sway/config
-|4,39,205,46,1758144652,"~/.config/sway/config"
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758146198,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> /run/media/libor/endeavourOS/home/libor/.github/README.md
+	*	1758210962	0
+	"	6	38
+	^	6	39
+	.	6	38
+	+	1	43
+	+	6	0
+	+	35	45
+	+	37	45
+	+	6	38
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1758197152	0
+	"	28	34
+	^	28	35
+	.	28	34
+	+	29	0
+	+	21	13
+	+	27	5
+	+	28	34
 
 > ~/.local/bin/powercenter
 	*	1758146958	0
@@ -880,15 +901,6 @@ $$TERMINAL
 	+	58	17
 	+	63	11
 	+	59	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1757927412	0
-	"	27	5
-	^	27	6
-	.	27	5
-	+	28	0
-	+	21	13
-	+	27	5
 
 > ~/.local/src/fuzzel/shell.nix
 	*	1757926604	0
