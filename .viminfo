@@ -21,9 +21,9 @@ $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758210964,,"wq"
+|2,0,1758212094,,"wq"
 :q
-|2,0,1758146402,,"q"
+|2,0,1758212089,,"q"
 :w
 |2,0,1758146226,,"w"
 :!
@@ -98,24 +98,27 @@ $$TERMINAL
 	    for_window [app_id="update"] floating enable, resize set 900  600 
 |3,0,0,1,1,0,1758144098,"    for_window [app_id=\"update\"] floating enable, resize set 900  600 "
 ""1	LINE	0
-	My last Hyprland config is saved under Hyprland tag commit.  
-|3,1,1,1,1,0,1758210710,"My last Hyprland config is saved under Hyprland tag commit.  "
-"2	LINE	0
-	    for_window [con_mark="scp"] border pixel 10
-|3,0,2,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
-"3	LINE	0
-	    for_window  
-|3,0,3,1,1,0,1758144199,"    for_window  "
-"4	LINE	0
-	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
-|3,0,4,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
-"5	LINE	0
-	    hide_edge_borders --i3 none
-|3,0,5,1,1,0,1758100346,"    hide_edge_borders --i3 none"
-"6	LINE	0
 	
-|3,0,6,1,1,0,1758062148,""
+|3,1,1,1,1,0,1758212080,""
+"2	LINE	0
+	My last Hyprland config is saved under Hyprland tag commit.  
+|3,0,2,1,1,0,1758210710,"My last Hyprland config is saved under Hyprland tag commit.  "
+"3	LINE	0
+	    for_window [con_mark="scp"] border pixel 10
+|3,0,3,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
+"4	LINE	0
+	    for_window  
+|3,0,4,1,1,0,1758144199,"    for_window  "
+"5	LINE	0
+	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
+|3,0,5,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
+"6	LINE	0
+	    hide_edge_borders --i3 none
+|3,0,6,1,1,0,1758100346,"    hide_edge_borders --i3 none"
 "7	LINE	0
+	
+|3,0,7,1,1,0,1758062148,""
+"8	LINE	0
 	### Modes:
 	    # Nastavení
 	    # bindsym $cs+n mode "Nastavení"; exec nsubmap
@@ -126,13 +129,10 @@ $$TERMINAL
 	    # bindsym Escape exec makoctl dismiss; mode "default"
 	    # }
 	
-|3,0,7,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
-"8	LINE	0
-	    bindsym $ms+t exec touchpad
-|3,0,8,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
+|3,0,8,1,10,0,1758062137,"### Modes:","    # Nastavení","    # bindsym $cs+n mode \"Nastavení\"; exec nsubmap","    # mode \"Nastavení\" {","    # bindsym s exec makoctl dismiss && $editor ~/.config/sway/config; mode \"default\"","    # bindsym x exec makoctl dismiss && makoctl reload; mode \"default\"","    # bindsym Return exec makoctl dismiss; mode \"default\"","    # bindsym Escape exec makoctl dismiss; mode \"default\"","    # }",""
 "9	LINE	0
-	
-|3,0,9,1,1,0,1758062062,""
+	    bindsym $ms+t exec touchpad
+|3,0,9,1,1,0,1758062066,"    bindsym $ms+t exec touchpad"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
@@ -149,36 +149,52 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,48,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
-'1  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,49,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
-'2  25  34  ~/.local/bin/powercenter
-|4,50,25,34,1758146960,"~/.local/bin/powercenter"
-'3  152  0  ~/.config/sway/config
-|4,51,152,0,1758146402,"~/.config/sway/config"
+'0  41  0  ~/.github/README.md
+|4,48,41,0,1758212094,"~/.github/README.md"
+'1  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,49,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+'2  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,50,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+'3  25  34  ~/.local/bin/powercenter
+|4,51,25,34,1758146960,"~/.local/bin/powercenter"
 '4  152  0  ~/.config/sway/config
 |4,52,152,0,1758146402,"~/.config/sway/config"
-'5  205  0  ~/.config/sway/config
-|4,53,205,0,1758145683,"~/.config/sway/config"
+'5  152  0  ~/.config/sway/config
+|4,53,152,0,1758146402,"~/.config/sway/config"
 '6  205  0  ~/.config/sway/config
 |4,54,205,0,1758145683,"~/.config/sway/config"
 '7  205  0  ~/.config/sway/config
 |4,55,205,0,1758145683,"~/.config/sway/config"
 '8  205  0  ~/.config/sway/config
 |4,56,205,0,1758145683,"~/.config/sway/config"
-'9  176  33  ~/.config/sway/config
-|4,57,176,33,1758144895,"~/.config/sway/config"
+'9  205  0  ~/.config/sway/config
+|4,57,205,0,1758145683,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  41  0  ~/.github/README.md
+|4,39,41,0,1758212094,"~/.github/README.md"
+-'  1  0  ~/.github/README.md
+|4,39,1,0,1758212048,"~/.github/README.md"
 -'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
 |4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+-'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
+-'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
+|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
 -'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
 |4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
 -'  28  34  ~/.config/fuzzel/fuzzel.ini
 |4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
 -'  28  34  ~/.config/fuzzel/fuzzel.ini
 |4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+-'  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+-'  28  34  ~/.config/fuzzel/fuzzel.ini
+|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
 -'  1  0  ~/.config/fuzzel/fuzzel.ini
@@ -191,6 +207,22 @@ $$TERMINAL
 |4,39,25,34,1758146960,"~/.local/bin/powercenter"
 -'  25  34  ~/.local/bin/powercenter
 |4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  25  34  ~/.local/bin/powercenter
+|4,39,25,34,1758146960,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
+-'  1  0  ~/.local/bin/powercenter
+|4,39,1,0,1758146944,"~/.local/bin/powercenter"
 -'  1  0  ~/.local/bin/powercenter
 |4,39,1,0,1758146944,"~/.local/bin/powercenter"
 -'  1  0  ~/.local/bin/powercenter
@@ -216,6 +248,34 @@ $$TERMINAL
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146572,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146572,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
@@ -231,6 +291,10 @@ $$TERMINAL
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
 -'  1  0  ~/.config/vim/vimrc
 |4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758146544,"~/.config/vim/vimrc"
 -'  152  0  ~/.config/sway/config
 |4,39,152,0,1758146402,"~/.config/sway/config"
 -'  152  0  ~/.config/sway/config
@@ -307,72 +371,26 @@ $$TERMINAL
 |4,39,152,0,1758146402,"~/.config/sway/config"
 -'  152  0  ~/.config/sway/config
 |4,39,152,0,1758146402,"~/.config/sway/config"
--'  152  0  ~/.config/sway/config
-|4,39,152,0,1758146402,"~/.config/sway/config"
--'  152  0  ~/.config/sway/config
-|4,39,152,0,1758146402,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758146198,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.github/README.md
+	*	1758212091	0
+	"	41	0
+	^	38	58
+	.	41	0
+	+	6	97
+	+	9	14
+	+	24	27
+	+	14	41
+	+	27	23
+	+	33	37
+	+	41	74
+	+	33	42
+	+	14	41
+	+	36	57
+	+	38	57
+	+	41	0
 
 > /run/media/libor/endeavourOS/home/libor/.github/README.md
 	*	1758210962	0
@@ -507,21 +525,6 @@ $$TERMINAL
 	+	205	0
 	+	182	55
 	s	1	0
-
-> ~/.github/README.md
-	*	1758122637	0
-	"	11	29
-	^	11	30
-	.	14	41
-	+	6	97
-	+	9	14
-	+	24	27
-	+	14	41
-	+	27	23
-	+	33	37
-	+	42	74
-	+	33	42
-	+	14	41
 
 > ~/.config/fish/config.fish
 	*	1758111899	0

@@ -33,11 +33,10 @@ echo ".cfg.git" >> .gitignore
 💬 Clone your dotfiles into the git repo:
 
 ```
-git clone --bare https://github.com/lrestj/nixos.git /home/libor/.cfg.git
+git clone --bare https://github.com/lrestj/nixos.git $HOME/.cfg.git
 
-git clone --bare https://gitlab.com/lrestj/nixos.git /home/libor/.cfg.git
+git clone --bare https://gitlab.com/lrestj/nixos.git $HOME/.cfg.git
 ```
-
 
 💬 Checkout the contents of your bare repository to your $HOME directory:
 
