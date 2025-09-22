@@ -63,7 +63,7 @@
     "cpu": {
         "format": "CPU   {usage}%",
         "tooltip": false,
-        "on-click": "pkill kitty || kitty -1",
+        "on-click": "pkill $TERMINAL || $TERMINAL",
         "on-click-right": "",
         "on-click-middle": ""
     },

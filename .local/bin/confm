@@ -24,23 +24,23 @@ ji="\0icon\x1fadd"
 selected=$(echo -e "1\t$e$ei\n2v\t$a$ai\n3y\t$b$bi\n4w\t$c$ci\n5m\t$d$di\n6s\t$f$fi\n7c\t$g$gi\n8f\t$h$hi\n9p\t$i$ii\n0a\t$j$ji" | fuzzel --match-nth 1 --with-nth 2 --accept-nth 2 --lines 17 --auto-select -d )
 case $selected in
     "$a")
-        alacritty msg create-window -e vim ~/.config/vim/vimrc || alacritty -e vim ~/.config/vim/vimrc;;
+        $TERMINAL -e vim ~/.config/vim/vimrc;;
     "$b")
-        alacritty msg create-window -e vim ~/.config/yazi/keymap.toml || alacritty -e vim ~/.config/yazi/keymap.toml;;
+        $TERMINAL -e vim ~/.config/yazi/keymap.toml;;
     "$c")
-        alacritty msg create-window -e vim ~/.config/waybar/config-sway.jsonc || alacritty -e vim ~/.config/waybar/config-sway.jsonc;;
+        $TERMINAL -e vim ~/.config/waybar/config-sway.jsonc;;
     "$d")
-        alacritty msg create-window -e vim ~/.config/mako/config || alacritty -e vim~/.config/mako/config;;
+        $TERMINAL -e vim ~/.config/mako/config;;
     "$e")
-        alacritty msg create-window -e vim ~/.config/sway/config || alacritty -e vim ~/.config/sway/config;;
+        $TERMINAL -e vim ~/.config/sway/config;;
     "$f")
-        alacritty msg create-window -e vim ~/.dotfiles/other/stuff2remember.txt || alacritty -e vim ~/.dotfiles/other/stuff2remember.txt;;
+        $TERMINAL -e vim ~/.dotfiles/other/stuff2remember.txt;;
     "$g")
-        alacritty msg create-window -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix || alacritty -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
     "$h")
-        alacritty msg create-window -e vim ~/.dotfiles/nixos/flake.nix || alacritty -e vim ~/.dotfiles/nixos/flake.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
     "$i")
-        alacritty msg create-window -e vim ~/.dotfiles/nixos/modules/pkgs.nix || alacritty -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/modules/pkgs.nix;;
     "$j")
         addnew
 esac

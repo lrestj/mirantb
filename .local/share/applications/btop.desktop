@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=System;Monitor;ConsoleOnly;
 Comment=Resource monitor that shows usage and stats for processor, memory, disks, network and processes
-Exec=alacritty --class btop -e btop
+Exec=--class btop -e btop
 GenericName=System Monitor
 Icon=btop
 Keywords=system;process;task
@@ -9,9 +9,5 @@ Name=btop++
 NoDisplay=false
 Path=
 StartupNotify=false
-Terminal=false
-TerminalOptions=
+Terminal=true
 Type=Application
-Version=1.0
-X-KDE-SubstituteUID=false
-X-KDE-Username=

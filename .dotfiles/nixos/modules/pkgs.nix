@@ -46,7 +46,6 @@
             file-roller
             fish
             font-manager
-            foot
             # fuzzel
             fzf
             geany

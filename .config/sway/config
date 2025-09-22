@@ -37,8 +37,8 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term kitty -1
-    set $editor $term -e vim
+    set $term $TERMINAL
+    set $editor $TERMINAL -e vim
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
