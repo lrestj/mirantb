@@ -21,7 +21,9 @@ $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758556187,,"wq"
+|2,0,1758556536,,"wq"
+:WQ
+|2,0,1758556526,,"WQ"
 :w
 |2,0,1758555815,,"w"
 :q
@@ -146,36 +148,52 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  80  49  ~/.config/sway/config
-|4,48,80,49,1758556187,"~/.config/sway/config"
-'1  80  26  ~/.config/sway/config
-|4,49,80,26,1758556145,"~/.config/sway/config"
-'2  13  0  ~/.local/share/applications/btop.desktop
-|4,50,13,0,1758555852,"~/.local/share/applications/btop.desktop"
-'3  7  0  ~/.config/fuzzel/fuzzel.ini
-|4,51,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
-'4  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  7  11  ~/.local/share/applications/vim.desktop
-|4,53,7,11,1758555192,"~/.local/share/applications/vim.desktop"
-'6  206  0  ~/.config/sway/config
-|4,54,206,0,1758555000,"~/.config/sway/config"
-'7  209  0  ~/.config/sway/config
-|4,55,209,0,1758555000,"~/.config/sway/config"
-'8  206  0  ~/.config/sway/config
-|4,56,206,0,1758555000,"~/.config/sway/config"
-'9  209  0  ~/.config/sway/config
-|4,57,209,0,1758555000,"~/.config/sway/config"
+'0  20  22  ~/.config/kitty/kitty.conf
+|4,48,20,22,1758556536,"~/.config/kitty/kitty.conf"
+'1  80  49  ~/.config/sway/config
+|4,49,80,49,1758556187,"~/.config/sway/config"
+'2  80  26  ~/.config/sway/config
+|4,50,80,26,1758556145,"~/.config/sway/config"
+'3  13  0  ~/.local/share/applications/btop.desktop
+|4,51,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+'4  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,52,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+'5  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  7  11  ~/.local/share/applications/vim.desktop
+|4,54,7,11,1758555192,"~/.local/share/applications/vim.desktop"
+'7  206  0  ~/.config/sway/config
+|4,55,206,0,1758555000,"~/.config/sway/config"
+'8  209  0  ~/.config/sway/config
+|4,56,209,0,1758555000,"~/.config/sway/config"
+'9  206  0  ~/.config/sway/config
+|4,57,206,0,1758555000,"~/.config/sway/config"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  20  22  ~/.config/kitty/kitty.conf
+|4,39,20,22,1758556536,"~/.config/kitty/kitty.conf"
+-'  1  23  ~/.config/kitty/kitty.conf
+|4,39,1,23,1758556501,"~/.config/kitty/kitty.conf"
+-'  3  0  ~/.config/kitty/kitty.conf
+|4,39,3,0,1758556461,"~/.config/kitty/kitty.conf"
+-'  80  49  ~/.config/sway/config
+|4,39,80,49,1758556187,"~/.config/sway/config"
 -'  80  49  ~/.config/sway/config
 |4,39,80,49,1758556187,"~/.config/sway/config"
 -'  106  0  ~/.config/sway/config
 |4,39,106,0,1758556181,"~/.config/sway/config"
+-'  106  0  ~/.config/sway/config
+|4,39,106,0,1758556181,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758556158,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758556158,"~/.config/sway/config"
 -'  80  26  ~/.config/sway/config
 |4,39,80,26,1758556145,"~/.config/sway/config"
+-'  80  26  ~/.config/sway/config
+|4,39,80,26,1758556145,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758556041,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758556041,"~/.config/sway/config"
 -'  13  0  ~/.local/share/applications/btop.desktop
@@ -186,6 +204,22 @@ $$TERMINAL
 |4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
 -'  13  0  ~/.local/share/applications/btop.desktop
 |4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+-'  13  0  ~/.local/share/applications/btop.desktop
+|4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+-'  13  0  ~/.local/share/applications/btop.desktop
+|4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+-'  13  0  ~/.local/share/applications/btop.desktop
+|4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+-'  13  0  ~/.local/share/applications/btop.desktop
+|4,39,13,0,1758555852,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1758555594,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1758555594,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1758555594,"~/.local/share/applications/btop.desktop"
+-'  1  0  ~/.local/share/applications/btop.desktop
+|4,39,1,0,1758555594,"~/.local/share/applications/btop.desktop"
 -'  1  0  ~/.local/share/applications/btop.desktop
 |4,39,1,0,1758555594,"~/.local/share/applications/btop.desktop"
 -'  1  0  ~/.local/share/applications/btop.desktop
@@ -226,6 +260,70 @@ $$TERMINAL
 |4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
 -'  7  0  ~/.config/fuzzel/fuzzel.ini
 |4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  7  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,7,0,1758555515,"~/.config/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
+-'  21  0  ~/.local/src/fuzzel/fuzzel.ini
+|4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
 -'  21  0  ~/.local/src/fuzzel/fuzzel.ini
 |4,39,21,0,1758555478,"~/.local/src/fuzzel/fuzzel.ini"
 -'  21  0  ~/.local/src/fuzzel/fuzzel.ini
@@ -272,104 +370,44 @@ $$TERMINAL
 |4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
 -'  1  0  ~/.local/src/fuzzel/fuzzel.ini
 |4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  1  0  ~/.local/src/fuzzel/fuzzel.ini
-|4,39,1,0,1758555450,"~/.local/src/fuzzel/fuzzel.ini"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,12,1758555209,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1758555198,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/kitty/kitty.conf
+	*	1758556534	0
+	"	20	22
+	^	20	23
+	.	20	22
+	+	18	0
+	+	18	24
+	+	18	12
+	+	18	0
+	+	21	0
+	+	11	0
+	+	12	0
+	+	11	22
+	+	14	0
+	+	12	17
+	+	15	8
+	+	12	20
+	+	15	33
+	+	12	12
+	+	15	32
+	+	16	28
+	+	12	17
+	+	15	10
+	+	16	10
+	+	15	12
+	+	16	12
+	+	12	20
+	+	15	14
+	+	16	14
+	+	12	19
+	+	15	13
+	+	16	13
+	+	13	6
+	+	1	23
+	+	20	22
 
 > ~/.config/sway/config
 	*	1758556181	0
@@ -692,40 +730,6 @@ $$TERMINAL
 	+	58	24
 	+	53	0
 	+	69	0
-
-> ~/.config/kitty/kitty.conf
-	*	1758552831	0
-	"	1595	1
-	^	11	7
-	.	11	6
-	+	16	0
-	+	16	24
-	+	16	12
-	+	16	0
-	+	17	0
-	+	9	0
-	+	10	0
-	+	9	22
-	+	12	0
-	+	10	17
-	+	13	8
-	+	10	20
-	+	13	33
-	+	10	12
-	+	13	32
-	+	14	28
-	+	10	17
-	+	13	10
-	+	14	10
-	+	13	12
-	+	14	12
-	+	10	20
-	+	13	14
-	+	14	14
-	+	10	19
-	+	13	13
-	+	14	13
-	+	11	6
 
 > ~/.local/share/applications/kitty.desktop
 	*	1758538412	0
