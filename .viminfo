@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758538414,,"wq"
+|2,0,1758540964,,"wq"
 :intro
 |2,0,1758536370,,"intro"
 :w
@@ -96,9 +96,9 @@ $$TERMINAL
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	CHAR	0
-	foot bash -c "sleep 0.1; exec vim"
-|3,0,0,0,1,0,1758536103,"foot bash -c \"sleep 0.1; exec vim\""
+"0	LINE	0
+	map super+shift right next_window
+|3,0,0,1,1,0,1758540548,"map super+shift right next_window"
 "1	LINE	0
 	            ueberzugpp
 |3,0,1,1,1,0,1758536214,"            ueberzugpp"
@@ -138,8 +138,8 @@ $$TERMINAL
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 ""-	CHAR	0
-	~/.config/kitty/kitty.app.png
-|3,1,36,0,1,0,1758538395,"~/.config/kitty/kitty.app.png"
+	shift
+|3,1,36,0,1,0,1758540939,"shift"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -150,36 +150,130 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  10  39  ~/.local/share/applications/kitty.desktop
-|4,48,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
-'1  10  17  ~/.config/kitty/kitty.conf
-|4,49,10,17,1758537238,"~/.config/kitty/kitty.conf"
-'2  10  19  ~/.config/kitty/kitty.conf
-|4,50,10,19,1758537213,"~/.config/kitty/kitty.conf"
-'3  1  0  ~/.config/kitty/kitty.conf
-|4,51,1,0,1758536917,"~/.config/kitty/kitty.conf"
-'4  1  0  ~/.config/kitty/kitty.conf
-|4,52,1,0,1758536917,"~/.config/kitty/kitty.conf"
-'5  1  0  ~/.config/kitty/kitty.conf
-|4,53,1,0,1758536917,"~/.config/kitty/kitty.conf"
-'6  1  0  ~/.config/kitty/kitty.conf
-|4,54,1,0,1758536917,"~/.config/kitty/kitty.conf"
-'7  8  9  ~/.local/share/applications/vim.desktop
-|4,55,8,9,1758536325,"~/.local/share/applications/vim.desktop"
-'8  62  32  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,62,32,1758536256,"~/.dotfiles/nixos/modules/pkgs.nix"
-'9  1  0  ~/.dotfiles/other/stuff2remember.txt
-|4,57,1,0,1758536194,"~/.dotfiles/other/stuff2remember.txt"
+'0  13  13  ~/.config/kitty/kitty.conf
+|4,48,13,13,1758540964,"~/.config/kitty/kitty.conf"
+'1  13  14  ~/.config/kitty/kitty.conf
+|4,49,13,14,1758540843,"~/.config/kitty/kitty.conf"
+'2  13  12  ~/.config/kitty/kitty.conf
+|4,50,13,12,1758540749,"~/.config/kitty/kitty.conf"
+'3  13  12  ~/.config/kitty/kitty.conf
+|4,51,13,12,1758540749,"~/.config/kitty/kitty.conf"
+'4  13  10  ~/.config/kitty/kitty.conf
+|4,52,13,10,1758540676,"~/.config/kitty/kitty.conf"
+'5  13  10  ~/.config/kitty/kitty.conf
+|4,53,13,10,1758540676,"~/.config/kitty/kitty.conf"
+'6  13  10  ~/.config/kitty/kitty.conf
+|4,54,13,10,1758540676,"~/.config/kitty/kitty.conf"
+'7  13  10  ~/.config/kitty/kitty.conf
+|4,55,13,10,1758540676,"~/.config/kitty/kitty.conf"
+'8  10  14  ~/.config/kitty/kitty.conf
+|4,56,10,14,1758540581,"~/.config/kitty/kitty.conf"
+'9  10  14  ~/.config/kitty/kitty.conf
+|4,57,10,14,1758540581,"~/.config/kitty/kitty.conf"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  13  13  ~/.config/kitty/kitty.conf
+|4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  14  ~/.config/kitty/kitty.conf
+|4,39,13,14,1758540843,"~/.config/kitty/kitty.conf"
+-'  13  12  ~/.config/kitty/kitty.conf
+|4,39,13,12,1758540749,"~/.config/kitty/kitty.conf"
+-'  13  10  ~/.config/kitty/kitty.conf
+|4,39,13,10,1758540676,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  10  12  ~/.config/kitty/kitty.conf
+|4,39,10,12,1758540456,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540442,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  13  0  ~/.config/kitty/kitty.conf
+|4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  13  0  ~/.config/kitty/kitty.conf
+|4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540237,"~/.config/kitty/kitty.conf"
 -'  10  39  ~/.local/share/applications/kitty.desktop
 |4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  10  39  ~/.local/share/applications/kitty.desktop
+|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
+-'  1  0  ~/.local/share/applications/kitty.desktop
+|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
 -'  1  0  ~/.local/share/applications/kitty.desktop
 |4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
 -'  10  17  ~/.config/kitty/kitty.conf
 |4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
 -'  10  17  ~/.config/kitty/kitty.conf
 |4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
+-'  10  17  ~/.config/kitty/kitty.conf
+|4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758537227,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
@@ -276,104 +370,41 @@ $$TERMINAL
 |4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
 -'  8  9  ~/.local/share/applications/vim.desktop
 |4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
--'  1  0  ~/.local/share/applications/vim.desktop
-|4,39,1,0,1758536311,"~/.local/share/applications/vim.desktop"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/kitty/kitty.conf
+	*	1758540963	0
+	"	13	13
+	^	13	14
+	.	13	13
+	+	15	0
+	+	15	24
+	+	15	12
+	+	15	0
+	+	16	0
+	+	9	0
+	+	10	0
+	+	9	22
+	+	11	0
+	+	10	17
+	+	12	8
+	+	10	20
+	+	12	33
+	+	10	12
+	+	12	32
+	+	13	28
+	+	10	17
+	+	12	10
+	+	13	10
+	+	12	12
+	+	13	12
+	+	10	20
+	+	12	14
+	+	13	14
+	+	10	19
+	+	12	13
+	+	13	13
 
 > ~/.local/share/applications/kitty.desktop
 	*	1758538412	0
@@ -381,22 +412,6 @@ $$TERMINAL
 	^	10	5
 	.	10	5
 	+	10	5
-
-> ~/.config/kitty/kitty.conf
-	*	1758537237	0
-	"	10	17
-	^	10	18
-	.	10	17
-	+	12	0
-	+	12	24
-	+	12	12
-	+	12	0
-	+	13	0
-	+	9	0
-	+	10	0
-	+	9	22
-	+	11	0
-	+	10	17
 
 > ~/.local/share/applications/vim.desktop
 	*	1758536323	0
