@@ -29,8 +29,8 @@
 
     environment.systemPackages =
         (with pkgs; [
-            niri
             alacritty
+            audacity
             banana-cursor
             baobab
             bemoji
@@ -62,6 +62,7 @@
             kdePackages.qtsvg
             kdePackages.qtwayland
             killall
+            kitty
             libnotify
             libreoffice-fresh
             libva-utils

@@ -21,11 +21,11 @@ $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1758386504,,"wq"
+|2,0,1758533204,,"wq"
+:w
+|2,0,1758529706,,"w"
 :q
 |2,0,1758212089,,"q"
-:w
-|2,0,1758146226,,"w"
 :!
 |2,0,1758144180,,"!"
 :reg
@@ -98,38 +98,38 @@ $$TERMINAL
 	    for_window [app_id="update"] floating enable, resize set 900  600 
 |3,0,0,1,1,0,1758144098,"    for_window [app_id=\"update\"] floating enable, resize set 900  600 "
 "1	LINE	0
-	      };
-|3,0,1,1,1,0,1758386457,"      };"
+	
+|3,0,1,1,1,0,1758529752,""
 "2	LINE	0
-	          inputs.nixpkgs.follows = "nixpkgs";
-|3,0,2,1,1,0,1758386443,"          inputs.nixpkgs.follows = \"nixpkgs\";"
+	
+|3,0,2,1,1,0,1758529749,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1758212080,""
+	END_KITTY_THEME
+|3,0,3,1,1,0,1758529748,"END_KITTY_THEME"
 "4	LINE	0
-	My last Hyprland config is saved under Hyprland tag commit.  
-|3,0,4,1,1,0,1758210710,"My last Hyprland config is saved under Hyprland tag commit.  "
+	Brogrammer
+|3,0,4,1,1,0,1758529748,"Brogrammer"
 "5	LINE	0
-	    for_window [con_mark="scp"] border pixel 10
-|3,0,5,1,1,0,1758145570,"    for_window [con_mark=\"scp\"] border pixel 10"
+	BEGIN_KITTY_THEME
+|3,0,5,1,1,0,1758529747,"BEGIN_KITTY_THEME"
 "6	LINE	0
-	    for_window  
-|3,0,6,1,1,0,1758144199,"    for_window  "
+	# include current-theme.conf
+|3,0,6,1,1,0,1758529083,"# include current-theme.conf"
 "7	LINE	0
-	    for_window [con_mark="scp"] client.focused #008000 #008000 #008000
-|3,0,7,1,1,0,1758139976,"    for_window [con_mark=\"scp\"] client.focused #008000 #008000 #008000"
+	            kitty
+|3,0,7,1,1,0,1758405340,"            kitty"
 "8	LINE	0
-	    hide_edge_borders --i3 none
-|3,0,8,1,1,0,1758100346,"    hide_edge_borders --i3 none"
+	      };
+|3,0,8,1,1,0,1758386457,"      };"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1758062148,""
+	          inputs.nixpkgs.follows = "nixpkgs";
+|3,0,9,1,1,0,1758386443,"          inputs.nixpkgs.follows = \"nixpkgs\";"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1758386478," "
+	8000ff
+|3,1,36,0,1,0,1758533196,"8000ff"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -140,324 +140,263 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  11  12  ~/.dotfiles/nixos/flake.nix
-|4,48,11,12,1758386504,"~/.dotfiles/nixos/flake.nix"
-'1  41  0  ~/.github/README.md
-|4,49,41,0,1758212094,"~/.github/README.md"
-'2  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,50,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
-'3  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,51,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
-'4  25  34  ~/.local/bin/powercenter
-|4,52,25,34,1758146960,"~/.local/bin/powercenter"
-'5  152  0  ~/.config/sway/config
-|4,53,152,0,1758146402,"~/.config/sway/config"
-'6  152  0  ~/.config/sway/config
-|4,54,152,0,1758146402,"~/.config/sway/config"
-'7  205  0  ~/.config/sway/config
-|4,55,205,0,1758145683,"~/.config/sway/config"
-'8  205  0  ~/.config/sway/config
-|4,56,205,0,1758145683,"~/.config/sway/config"
-'9  205  0  ~/.config/sway/config
-|4,57,205,0,1758145683,"~/.config/sway/config"
+'0  7  28  ~/.config/kitty/current-theme.conf
+|4,48,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+'1  2  28  ~/.config/kitty/current-theme.conf
+|4,49,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+'2  2  28  ~/.config/kitty/current-theme.conf
+|4,50,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+'3  2  28  ~/.config/kitty/current-theme.conf
+|4,51,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+'4  2  28  ~/.config/kitty/current-theme.conf
+|4,52,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+'5  21  28  ~/.config/kitty/current-theme.conf
+|4,53,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+'6  21  28  ~/.config/kitty/current-theme.conf
+|4,54,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+'7  21  28  ~/.config/kitty/current-theme.conf
+|4,55,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+'8  21  28  ~/.config/kitty/current-theme.conf
+|4,56,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+'9  21  28  ~/.config/kitty/current-theme.conf
+|4,57,21,28,1758532260,"~/.config/kitty/current-theme.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
--'  11  12  ~/.dotfiles/nixos/flake.nix
-|4,39,11,12,1758386504,"~/.dotfiles/nixos/flake.nix"
--'  1  0  ~/.dotfiles/nixos/flake.nix
-|4,39,1,0,1758386417,"~/.dotfiles/nixos/flake.nix"
--'  41  0  ~/.github/README.md
-|4,39,41,0,1758212094,"~/.github/README.md"
--'  41  0  ~/.github/README.md
-|4,39,41,0,1758212094,"~/.github/README.md"
--'  1  0  ~/.github/README.md
-|4,39,1,0,1758212048,"~/.github/README.md"
--'  1  0  ~/.github/README.md
-|4,39,1,0,1758212048,"~/.github/README.md"
--'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  6  38  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,6,38,1758210964,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  1  0  /run/media/libor/endeavourOS/home/libor/.github/README.md
-|4,39,1,0,1758210677,"/run/media/libor/endeavourOS/home/libor/.github/README.md"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  28  34  ~/.config/fuzzel/fuzzel.ini
-|4,39,28,34,1758197153,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  1  0  ~/.config/fuzzel/fuzzel.ini
-|4,39,1,0,1758197143,"~/.config/fuzzel/fuzzel.ini"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  25  34  ~/.local/bin/powercenter
-|4,39,25,34,1758146960,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.local/bin/powercenter
-|4,39,1,0,1758146944,"~/.local/bin/powercenter"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146572,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
--'  1  0  ~/.config/vim/vimrc
-|4,39,1,0,1758146544,"~/.config/vim/vimrc"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532221,"~/.config/kitty/current-theme.conf"
+-'  20  28  ~/.config/kitty/current-theme.conf
+|4,39,20,28,1758531827,"~/.config/kitty/current-theme.conf"
+-'  20  28  ~/.config/kitty/current-theme.conf
+|4,39,20,28,1758531827,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758531804,"~/.config/kitty/current-theme.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  1  0  ~/.config/kitty/Brogrammer.conf
+|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  20  28  ~/.config/kitty/Brogrammer.conf
+|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
-> ~/.dotfiles/nixos/flake.nix
-	*	1758386501	0
-	"	11	12
-	^	11	13
-	.	11	12
-	+	8	6
-	+	12	0
-	+	22	0
-	+	29	0
-	+	11	59
-	+	12	0
-	+	11	15
-	+	29	0
-	+	12	0
-	+	11	12
+> ~/.config/kitty/current-theme.conf
+	*	1758533202	0
+	"	7	28
+	^	7	29
+	.	7	28
+	+	20	28
+	+	20	0
+	+	2	28
+	+	7	28
 
-> ~/.github/README.md
-	*	1758212091	0
-	"	41	0
-	^	38	58
-	.	41	0
-	+	6	97
-	+	9	14
-	+	24	27
-	+	14	41
-	+	27	23
-	+	33	37
-	+	41	74
-	+	33	42
-	+	14	41
-	+	36	57
-	+	38	57
-	+	41	0
+> ~/.config/kitty/Brogrammer.conf
+	*	1758531289	0
+	"	20	28
+	^	20	29
+	.	20	29
+	+	20	28
+	+	7	28
+	+	20	29
 
-> /run/media/libor/endeavourOS/home/libor/.github/README.md
-	*	1758210962	0
-	"	6	38
-	^	6	39
-	.	6	38
-	+	1	43
-	+	6	0
-	+	35	45
-	+	37	45
-	+	6	38
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1758197152	0
-	"	28	34
-	^	28	35
-	.	28	34
-	+	29	0
-	+	21	13
-	+	27	5
-	+	28	34
-
-> ~/.local/bin/powercenter
-	*	1758146958	0
-	"	25	34
-	^	25	35
-	.	25	34
-	+	25	34
-
-> ~/.config/vim/vimrc
-	*	1758146571	0
-	"	1	0
-	^	64	21
-	.	53	1
-	+	65	21
-	+	68	7
-	+	65	21
-	+	68	18
-	+	70	0
-	+	64	20
-	+	65	21
-	+	66	20
-	+	68	0
-	+	67	12
-	+	66	20
-	+	65	21
-	+	64	20
-	+	38	0
-	+	67	24
-	+	66	20
-	+	65	21
-	+	64	20
-	+	67	24
-	+	53	1
+> ~/.config/kitty/kitty.conf
+	*	1758530167	0
+	"	10	24
+	^	10	25
+	.	10	24
+	+	11	0
+	+	10	24
 
 > ~/.config/sway/config
-	*	1758146397	0
-	"	152	0
-	^	182	55
-	.	182	55
+	*	1758530021	0
+	"	186	57
+	^	186	58
+	.	186	58
 	+	207	27
 	+	209	0
 	+	205	0
@@ -531,7 +470,128 @@ $$TERMINAL
 	+	176	17
 	+	205	0
 	+	182	55
+	+	40	21
+	+	41	27
+	+	80	35
+	+	81	39
+	+	79	31
+	+	82	31
+	+	186	58
 	s	1	0
+
+> ~/.config/vim/vimrc
+	*	1758529806	0
+	"	1	0
+	^	64	21
+	.	53	1
+	+	65	21
+	+	68	7
+	+	65	21
+	+	68	18
+	+	70	0
+	+	64	20
+	+	65	21
+	+	66	20
+	+	68	0
+	+	67	12
+	+	66	20
+	+	65	21
+	+	64	20
+	+	38	0
+	+	67	24
+	+	66	20
+	+	65	21
+	+	64	20
+	+	67	24
+	+	53	1
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1758528718	0
+	"	65	16
+	^	65	17
+	.	65	16
+	+	8	0
+	+	24	2
+	+	25	24
+	+	26	37
+	+	29	0
+	+	27	26
+	+	27	116
+	+	27	21
+	+	8	0
+	+	7	10
+	+	52	0
+	+	7	0
+	+	2	0
+	+	32	0
+	+	14	0
+	+	13	27
+	+	32	0
+	+	33	19
+	+	65	16
+	m	13	17
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1758386501	0
+	"	11	12
+	^	11	13
+	.	11	12
+	+	8	6
+	+	12	0
+	+	22	0
+	+	29	0
+	+	11	59
+	+	12	0
+	+	11	15
+	+	29	0
+	+	12	0
+	+	11	12
+
+> ~/.github/README.md
+	*	1758212091	0
+	"	41	0
+	^	38	58
+	.	41	0
+	+	6	97
+	+	9	14
+	+	24	27
+	+	14	41
+	+	27	23
+	+	33	37
+	+	41	74
+	+	33	42
+	+	14	41
+	+	36	57
+	+	38	57
+	+	41	0
+
+> /run/media/libor/endeavourOS/home/libor/.github/README.md
+	*	1758210962	0
+	"	6	38
+	^	6	39
+	.	6	38
+	+	1	43
+	+	6	0
+	+	35	45
+	+	37	45
+	+	6	38
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1758197152	0
+	"	28	34
+	^	28	35
+	.	28	34
+	+	29	0
+	+	21	13
+	+	27	5
+	+	28	34
+
+> ~/.local/bin/powercenter
+	*	1758146958	0
+	"	25	34
+	^	25	35
+	.	25	34
+	+	25	34
 
 > ~/.config/fish/config.fish
 	*	1758111899	0
@@ -571,29 +631,6 @@ $$TERMINAL
 	+	12	19
 	+	9	6
 	+	12	13
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1758035939	0
-	"	13	27
-	^	13	28
-	.	13	27
-	+	8	0
-	+	24	2
-	+	25	24
-	+	26	37
-	+	29	0
-	+	27	26
-	+	27	116
-	+	27	21
-	+	8	0
-	+	7	10
-	+	52	0
-	+	7	0
-	+	2	0
-	+	33	0
-	+	14	0
-	+	13	27
-	m	13	17
 
 > ~/.local/bin/confm
 	*	1758030593	0

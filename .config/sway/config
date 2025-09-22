@@ -37,8 +37,8 @@
     set $ca Ctrl+Alt
     set $ma Mod4+Alt
     set $ms Mod4+Shift
-    set $term 'alacritty msg create-window || alacritty'
-    set $editor 'alacritty msg create-window -e vim || alacritty -e vim'
+    set $term kitty -1
+    set $editor $term -e vim
     set $browser brave
     set $menu fuzzel
     set $filemgr thunar
@@ -76,10 +76,10 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
-    bindsym $ms+a exec foot
-    bindsym $cs+y exec alacritty msg create-window -e yazi || alacritty -e yazi
-    bindsym $cs+Comma exec alacritty msg create-window --class btop -e btop || alacritty --class btop -e btop
-    bindsym $ms+y exec foot -e yazi
+    bindsym $ms+a exec alacritty
+    bindsym $cs+y exec $term -e yazi
+    bindsym $cs+Comma exec $term -e btop
+    bindsym $ms+y exec alacritty -e yazi
     bindsym $cs+e exec $editor
     bindsym $ms+e exec alacritty -e vim
     bindsym $cs+b exec brave
