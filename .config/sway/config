@@ -78,7 +78,7 @@
     bindsym $mod+a exec $term
     bindsym $ms+a exec alacritty
     bindsym $cs+y exec $term -e yazi
-    bindsym $cs+Comma exec $term -e btop
+    bindsym $cs+Comma exec $term --class btop -e btop
     bindsym $ms+y exec alacritty -e yazi
     bindsym $cs+e exec $editor
     bindsym $ms+e exec alacritty -e vim
