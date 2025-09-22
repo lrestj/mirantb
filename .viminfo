@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1758533204,,"wq"
+|2,0,1758533676,,"wq"
 :w
 |2,0,1758529706,,"w"
 :q
@@ -128,8 +128,8 @@ $$TERMINAL
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 ""-	CHAR	0
-	8000ff
-|3,1,36,0,1,0,1758533196,"8000ff"
+	alacritty --class btop -e btop",
+|3,1,36,0,1,0,1758533388,"alacritty --class btop -e btop\","
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -140,38 +140,142 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  7  28  ~/.config/kitty/current-theme.conf
-|4,48,7,28,1758533204,"~/.config/kitty/current-theme.conf"
-'1  2  28  ~/.config/kitty/current-theme.conf
-|4,49,2,28,1758532895,"~/.config/kitty/current-theme.conf"
-'2  2  28  ~/.config/kitty/current-theme.conf
-|4,50,2,28,1758532895,"~/.config/kitty/current-theme.conf"
-'3  2  28  ~/.config/kitty/current-theme.conf
-|4,51,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+'0  15  8  ~/.config/kitty/kitty.conf
+|4,48,15,8,1758533676,"~/.config/kitty/kitty.conf"
+'1  76  56  ~/.config/waybar/config-sway.jsonc
+|4,49,76,56,1758533475,"~/.config/waybar/config-sway.jsonc"
+'2  76  52  ~/.config/waybar/config-sway.jsonc
+|4,50,76,52,1758533421,"~/.config/waybar/config-sway.jsonc"
+'3  7  28  ~/.config/kitty/current-theme.conf
+|4,51,7,28,1758533204,"~/.config/kitty/current-theme.conf"
 '4  2  28  ~/.config/kitty/current-theme.conf
-|4,52,2,28,1758532781,"~/.config/kitty/current-theme.conf"
-'5  21  28  ~/.config/kitty/current-theme.conf
-|4,53,21,28,1758532260,"~/.config/kitty/current-theme.conf"
-'6  21  28  ~/.config/kitty/current-theme.conf
-|4,54,21,28,1758532260,"~/.config/kitty/current-theme.conf"
-'7  21  28  ~/.config/kitty/current-theme.conf
-|4,55,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+|4,52,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+'5  2  28  ~/.config/kitty/current-theme.conf
+|4,53,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+'6  2  28  ~/.config/kitty/current-theme.conf
+|4,54,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+'7  2  28  ~/.config/kitty/current-theme.conf
+|4,55,2,28,1758532781,"~/.config/kitty/current-theme.conf"
 '8  21  28  ~/.config/kitty/current-theme.conf
 |4,56,21,28,1758532260,"~/.config/kitty/current-theme.conf"
 '9  21  28  ~/.config/kitty/current-theme.conf
 |4,57,21,28,1758532260,"~/.config/kitty/current-theme.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  15  8  ~/.config/kitty/kitty.conf
+|4,39,15,8,1758533676,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758533653,"~/.config/kitty/kitty.conf"
+-'  76  56  ~/.config/waybar/config-sway.jsonc
+|4,39,76,56,1758533475,"~/.config/waybar/config-sway.jsonc"
+-'  76  56  ~/.config/waybar/config-sway.jsonc
+|4,39,76,56,1758533475,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758533442,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758533442,"~/.config/waybar/config-sway.jsonc"
+-'  76  52  ~/.config/waybar/config-sway.jsonc
+|4,39,76,52,1758533421,"~/.config/waybar/config-sway.jsonc"
+-'  76  52  ~/.config/waybar/config-sway.jsonc
+|4,39,76,52,1758533421,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758533313,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758533313,"~/.config/waybar/config-sway.jsonc"
 -'  7  28  ~/.config/kitty/current-theme.conf
 |4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  7  28  ~/.config/kitty/current-theme.conf
+|4,39,7,28,1758533204,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
 -'  1  0  ~/.config/kitty/current-theme.conf
 |4,39,1,0,1758533185,"~/.config/kitty/current-theme.conf"
 -'  2  28  ~/.config/kitty/current-theme.conf
 |4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
 -'  2  28  ~/.config/kitty/current-theme.conf
 |4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532895,"~/.config/kitty/current-theme.conf"
 -'  1  0  ~/.config/kitty/current-theme.conf
 |4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532884,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
+-'  2  28  ~/.config/kitty/current-theme.conf
+|4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
 -'  2  28  ~/.config/kitty/current-theme.conf
 |4,39,2,28,1758532781,"~/.config/kitty/current-theme.conf"
 -'  20  0  ~/.config/kitty/current-theme.conf
@@ -180,6 +284,62 @@ $$TERMINAL
 |4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
 -'  20  0  ~/.config/kitty/current-theme.conf
 |4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  20  0  ~/.config/kitty/current-theme.conf
+|4,39,20,0,1758532741,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
+-'  1  0  ~/.config/kitty/current-theme.conf
+|4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
 -'  1  0  ~/.config/kitty/current-theme.conf
 |4,39,1,0,1758532630,"~/.config/kitty/current-theme.conf"
 -'  21  28  ~/.config/kitty/current-theme.conf
@@ -190,180 +350,37 @@ $$TERMINAL
 |4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
 -'  21  28  ~/.config/kitty/current-theme.conf
 |4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
--'  1  0  ~/.config/kitty/current-theme.conf
-|4,39,1,0,1758532221,"~/.config/kitty/current-theme.conf"
--'  20  28  ~/.config/kitty/current-theme.conf
-|4,39,20,28,1758531827,"~/.config/kitty/current-theme.conf"
--'  20  28  ~/.config/kitty/current-theme.conf
-|4,39,20,28,1758531827,"~/.config/kitty/current-theme.conf"
--'  1  0  ~/.config/kitty/current-theme.conf
-|4,39,1,0,1758531804,"~/.config/kitty/current-theme.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758531292,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  1  0  ~/.config/kitty/Brogrammer.conf
-|4,39,1,0,1758530912,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
--'  20  28  ~/.config/kitty/Brogrammer.conf
-|4,39,20,28,1758530749,"~/.config/kitty/Brogrammer.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
+-'  21  28  ~/.config/kitty/current-theme.conf
+|4,39,21,28,1758532260,"~/.config/kitty/current-theme.conf"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.config/kitty/kitty.conf
+	*	1758533670	0
+	"	15	8
+	^	15	13
+	.	15	12
+	+	11	0
+	+	10	24
+	+	15	12
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1758533473	0
+	"	76	56
+	^	76	57
+	.	76	56
+	+	66	43
+	+	76	56
 
 > ~/.config/kitty/current-theme.conf
 	*	1758533202	0
@@ -383,14 +400,6 @@ $$TERMINAL
 	+	20	28
 	+	7	28
 	+	20	29
-
-> ~/.config/kitty/kitty.conf
-	*	1758530167	0
-	"	10	24
-	^	10	25
-	.	10	24
-	+	11	0
-	+	10	24
 
 > ~/.config/sway/config
 	*	1758530021	0
@@ -850,10 +859,6 @@ $$TERMINAL
 
 > ~/.dotfiles/nixos/configuration.nix
 	*	1758013733	0
-	"	1	0
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1758013212	0
 	"	1	0
 
 > ~/.config/mako/config

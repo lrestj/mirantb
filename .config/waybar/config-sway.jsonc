@@ -63,7 +63,7 @@
     "cpu": {
         "format": "CPU   {usage}%",
         "tooltip": false,
-        "on-click": "pkill alacritty || alacritty",
+        "on-click": "pkill kitty || kitty -1",
         "on-click-right": "",
         "on-click-middle": ""
     },
@@ -73,7 +73,7 @@
         "critical-threshold": 80,
         "format": " {icon} {temperatureC} °C  ",
         "format-icons": ["", "", ""],
-        "on-click": "pkill btop || alacritty --class btop -e btop",
+        "on-click": "pkill btop || kitty -1 --class btop -e btop",
         "on-click-right": ""
     },
 
