@@ -29,7 +29,6 @@
 
     environment.systemPackages =
         (with pkgs; [
-            alacritty
             audacity
             banana-cursor
             baobab
@@ -84,7 +83,6 @@
             simple-scan
             slurp
             udiskie
-            ueberzugpp
             unzip
             vim-full
             vlc

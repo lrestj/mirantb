@@ -76,12 +76,12 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
-    bindsym $ms+a exec alacritty
+    bindsym $ms+a exec foot 
     bindsym $cs+y exec $term -e yazi
     bindsym $cs+Comma exec $term --class btop -e btop
-    bindsym $ms+y exec alacritty -e yazi
+    bindsym $ms+y exec foot -e yazi
     bindsym $cs+e exec $editor
-    bindsym $ms+e exec alacritty -e vim
+    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
     bindsym $cs+s exec simple-scan
