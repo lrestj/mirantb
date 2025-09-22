@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie p≈ô√≠kazov√© ≈ô√°dky (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 :wq
-|2,0,1758542354,,"wq"
+|2,0,1758553340,,"wq"
 :intro
 |2,0,1758536370,,"intro"
 :w
@@ -99,13 +99,16 @@ $$TERMINAL
 "0	LINE	0
 	map super+shift right next_window
 |3,0,0,1,1,0,1758540548,"map super+shift right next_window"
-"1	LINE	0
-	            ueberzugpp
-|3,0,1,1,1,0,1758536214,"            ueberzugpp"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1758553326,""
 "2	LINE	0
-	            alacritty
-|3,0,2,1,1,0,1758536206,"            alacritty"
+	            ueberzugpp
+|3,0,2,1,1,0,1758536214,"            ueberzugpp"
 "3	LINE	0
+	            alacritty
+|3,0,3,1,1,0,1758536206,"            alacritty"
+"4	LINE	0
 	"Alacritty Alt fix
 	    let c='a'
 	    while c <= 'z'
@@ -115,31 +118,28 @@ $$TERMINAL
 	    endw
 	    set timeout ttimeoutlen=50
 	
-|3,0,3,1,9,0,1758536176,"\"Alacritty Alt fix","    let c='a'","    while c <= 'z'","      exec \"set <A-\".c.\">=\\e\".c","      exec \"imap \\e\".c.\" <A-\".c.\">\"","      let c = nr2char(1+char2nr(c))","    endw","    set timeout ttimeoutlen=50",""
-"4	LINE	0
-	# END_KITTY_THEME
-|3,0,4,1,1,0,1758534250,"# END_KITTY_THEME"
+|3,0,4,1,9,0,1758536176,"\"Alacritty Alt fix","    let c='a'","    while c <= 'z'","      exec \"set <A-\".c.\">=\\e\".c","      exec \"imap \\e\".c.\" <A-\".c.\">\"","      let c = nr2char(1+char2nr(c))","    endw","    set timeout ttimeoutlen=50",""
 "5	LINE	0
-	# Brogrammer
-|3,0,5,1,1,0,1758534247,"# Brogrammer"
+	# END_KITTY_THEME
+|3,0,5,1,1,0,1758534250,"# END_KITTY_THEME"
 "6	LINE	0
-	# BEGIN_KITTY_THEME
-|3,0,6,1,1,0,1758534247,"# BEGIN_KITTY_THEME"
+	# Brogrammer
+|3,0,6,1,1,0,1758534247,"# Brogrammer"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1758534246,""
+	# BEGIN_KITTY_THEME
+|3,0,7,1,1,0,1758534247,"# BEGIN_KITTY_THEME"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1758534245,""
+|3,0,8,1,1,0,1758534246,""
 "9	LINE	0
-	include ./Brogrammer.conf
-|3,0,9,1,1,0,1758534244,"include ./Brogrammer.conf"
+	
+|3,0,9,1,1,0,1758534245,""
 "q@	CHAR	0
 	ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl
 |3,2,26,0,1,0,1757776524,"ibrave Ä˝5ÄkdÄkdÄklÄklÄklÄkl"
-""-	CHAR	0
+"-	CHAR	0
 	shift
-|3,1,36,0,1,0,1758540939,"shift"
+|3,0,36,0,1,0,1758540939,"shift"
 
 # Souborov√© znaƒçky:
 'C  1  0  ~/.local/bin/confm
@@ -150,30 +150,50 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  11  6  ~/.config/kitty/kitty.conf
-|4,48,11,6,1758542354,"~/.config/kitty/kitty.conf"
-'1  11  26  ~/.config/kitty/kitty.conf
-|4,49,11,26,1758542313,"~/.config/kitty/kitty.conf"
-'2  14  13  ~/.config/kitty/kitty.conf
-|4,50,14,13,1758540964,"~/.config/kitty/kitty.conf"
-'3  13  13  ~/.config/kitty/kitty.conf
-|4,51,13,13,1758540964,"~/.config/kitty/kitty.conf"
-'4  14  13  ~/.config/kitty/kitty.conf
-|4,52,14,13,1758540964,"~/.config/kitty/kitty.conf"
-'5  13  13  ~/.config/kitty/kitty.conf
-|4,53,13,13,1758540964,"~/.config/kitty/kitty.conf"
-'6  14  14  ~/.config/kitty/kitty.conf
-|4,54,14,14,1758540843,"~/.config/kitty/kitty.conf"
-'7  13  14  ~/.config/kitty/kitty.conf
-|4,55,13,14,1758540843,"~/.config/kitty/kitty.conf"
-'8  14  14  ~/.config/kitty/kitty.conf
-|4,56,14,14,1758540843,"~/.config/kitty/kitty.conf"
-'9  13  14  ~/.config/kitty/kitty.conf
-|4,57,13,14,1758540843,"~/.config/kitty/kitty.conf"
+'0  36  11  ~/.config/vim/vimrc
+|4,48,36,11,1758553340,"~/.config/vim/vimrc"
+'1  1595  1  ~/.config/kitty/kitty.conf
+|4,49,1595,1,1758552835,"~/.config/kitty/kitty.conf"
+'2  11  6  ~/.config/kitty/kitty.conf
+|4,50,11,6,1758542354,"~/.config/kitty/kitty.conf"
+'3  11  6  ~/.config/kitty/kitty.conf
+|4,51,11,6,1758542354,"~/.config/kitty/kitty.conf"
+'4  11  26  ~/.config/kitty/kitty.conf
+|4,52,11,26,1758542313,"~/.config/kitty/kitty.conf"
+'5  11  26  ~/.config/kitty/kitty.conf
+|4,53,11,26,1758542313,"~/.config/kitty/kitty.conf"
+'6  14  13  ~/.config/kitty/kitty.conf
+|4,54,14,13,1758540964,"~/.config/kitty/kitty.conf"
+'7  13  13  ~/.config/kitty/kitty.conf
+|4,55,13,13,1758540964,"~/.config/kitty/kitty.conf"
+'8  14  13  ~/.config/kitty/kitty.conf
+|4,56,14,13,1758540964,"~/.config/kitty/kitty.conf"
+'9  13  13  ~/.config/kitty/kitty.conf
+|4,57,13,13,1758540964,"~/.config/kitty/kitty.conf"
 
 # Seznam skok≈Ø (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
+-'  36  11  ~/.config/vim/vimrc
+|4,39,36,11,1758553340,"~/.config/vim/vimrc"
+-'  1  0  ~/.config/vim/vimrc
+|4,39,1,0,1758553228,"~/.config/vim/vimrc"
+-'  1595  1  ~/.config/kitty/kitty.conf
+|4,39,1595,1,1758552835,"~/.config/kitty/kitty.conf"
+-'  1595  1  ~/.config/kitty/kitty.conf
+|4,39,1595,1,1758552835,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758552716,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758552716,"~/.config/kitty/kitty.conf"
 -'  11  6  ~/.config/kitty/kitty.conf
 |4,39,11,6,1758542354,"~/.config/kitty/kitty.conf"
+-'  11  6  ~/.config/kitty/kitty.conf
+|4,39,11,6,1758542354,"~/.config/kitty/kitty.conf"
+-'  11  6  ~/.config/kitty/kitty.conf
+|4,39,11,6,1758542354,"~/.config/kitty/kitty.conf"
+-'  11  6  ~/.config/kitty/kitty.conf
+|4,39,11,6,1758542354,"~/.config/kitty/kitty.conf"
+-'  11  26  ~/.config/kitty/kitty.conf
+|4,39,11,26,1758542313,"~/.config/kitty/kitty.conf"
 -'  11  26  ~/.config/kitty/kitty.conf
 |4,39,11,26,1758542313,"~/.config/kitty/kitty.conf"
 -'  14  13  ~/.config/kitty/kitty.conf
@@ -184,10 +204,32 @@ $$TERMINAL
 |4,39,14,13,1758540964,"~/.config/kitty/kitty.conf"
 -'  13  13  ~/.config/kitty/kitty.conf
 |4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  14  13  ~/.config/kitty/kitty.conf
+|4,39,14,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  13  ~/.config/kitty/kitty.conf
+|4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  14  13  ~/.config/kitty/kitty.conf
+|4,39,14,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  13  ~/.config/kitty/kitty.conf
+|4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  14  13  ~/.config/kitty/kitty.conf
+|4,39,14,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  13  ~/.config/kitty/kitty.conf
+|4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  14  13  ~/.config/kitty/kitty.conf
+|4,39,14,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  13  ~/.config/kitty/kitty.conf
+|4,39,13,13,1758540964,"~/.config/kitty/kitty.conf"
+-'  13  14  ~/.config/kitty/kitty.conf
+|4,39,13,14,1758540843,"~/.config/kitty/kitty.conf"
 -'  13  14  ~/.config/kitty/kitty.conf
 |4,39,13,14,1758540843,"~/.config/kitty/kitty.conf"
 -'  13  12  ~/.config/kitty/kitty.conf
 |4,39,13,12,1758540749,"~/.config/kitty/kitty.conf"
+-'  13  12  ~/.config/kitty/kitty.conf
+|4,39,13,12,1758540749,"~/.config/kitty/kitty.conf"
+-'  13  10  ~/.config/kitty/kitty.conf
+|4,39,13,10,1758540676,"~/.config/kitty/kitty.conf"
 -'  13  10  ~/.config/kitty/kitty.conf
 |4,39,13,10,1758540676,"~/.config/kitty/kitty.conf"
 -'  10  14  ~/.config/kitty/kitty.conf
@@ -204,6 +246,38 @@ $$TERMINAL
 |4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
 -'  10  14  ~/.config/kitty/kitty.conf
 |4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  10  14  ~/.config/kitty/kitty.conf
+|4,39,10,14,1758540581,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
@@ -220,12 +294,18 @@ $$TERMINAL
 |4,39,1,0,1758540528,"~/.config/kitty/kitty.conf"
 -'  10  12  ~/.config/kitty/kitty.conf
 |4,39,10,12,1758540456,"~/.config/kitty/kitty.conf"
+-'  10  12  ~/.config/kitty/kitty.conf
+|4,39,10,12,1758540456,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540442,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758540442,"~/.config/kitty/kitty.conf"
 -'  15  0  ~/.config/kitty/kitty.conf
 |4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
 -'  15  0  ~/.config/kitty/kitty.conf
 |4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  15  0  ~/.config/kitty/kitty.conf
+|4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
 -'  14  0  ~/.config/kitty/kitty.conf
 |4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
 -'  14  0  ~/.config/kitty/kitty.conf
@@ -240,6 +320,28 @@ $$TERMINAL
 |4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
 -'  13  0  ~/.config/kitty/kitty.conf
 |4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  15  0  ~/.config/kitty/kitty.conf
+|4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  15  0  ~/.config/kitty/kitty.conf
+|4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  15  0  ~/.config/kitty/kitty.conf
+|4,39,15,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  14  0  ~/.config/kitty/kitty.conf
+|4,39,14,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  13  0  ~/.config/kitty/kitty.conf
+|4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  13  0  ~/.config/kitty/kitty.conf
+|4,39,13,0,1758540396,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758540237,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758540237,"~/.config/kitty/kitty.conf"
 -'  10  39  ~/.local/share/applications/kitty.desktop
@@ -264,118 +366,39 @@ $$TERMINAL
 |4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
 -'  10  39  ~/.local/share/applications/kitty.desktop
 |4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
--'  10  39  ~/.local/share/applications/kitty.desktop
-|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
--'  10  39  ~/.local/share/applications/kitty.desktop
-|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
--'  10  39  ~/.local/share/applications/kitty.desktop
-|4,39,10,39,1758538414,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  1  0  ~/.local/share/applications/kitty.desktop
-|4,39,1,0,1758538388,"~/.local/share/applications/kitty.desktop"
--'  10  17  ~/.config/kitty/kitty.conf
-|4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
--'  10  17  ~/.config/kitty/kitty.conf
-|4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
--'  10  17  ~/.config/kitty/kitty.conf
-|4,39,10,17,1758537238,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758537227,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758537227,"~/.config/kitty/kitty.conf"
--'  10  19  ~/.config/kitty/kitty.conf
-|4,39,10,19,1758537213,"~/.config/kitty/kitty.conf"
--'  10  19  ~/.config/kitty/kitty.conf
-|4,39,10,19,1758537213,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758537192,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758537192,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758536917,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758536917,"~/.config/kitty/kitty.conf"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
--'  8  9  ~/.local/share/applications/vim.desktop
-|4,39,8,9,1758536325,"~/.local/share/applications/vim.desktop"
 
 # Historie znaƒçek v souborech (poƒç√≠naje nejnovƒõj≈°√≠ polo≈ækou):
 
+> ~/.config/vim/vimrc
+	*	1758553335	0
+	"	36	11
+	^	55	21
+	.	69	0
+	+	56	21
+	+	59	7
+	+	56	21
+	+	59	18
+	+	61	0
+	+	55	20
+	+	56	21
+	+	57	20
+	+	59	0
+	+	58	12
+	+	57	20
+	+	56	21
+	+	55	20
+	+	38	0
+	+	58	24
+	+	57	20
+	+	56	21
+	+	55	20
+	+	58	24
+	+	53	0
+	+	69	0
+
 > ~/.config/kitty/kitty.conf
-	*	1758542352	0
-	"	11	6
+	*	1758552831	0
+	"	1595	1
 	^	11	7
 	.	11	6
 	+	16	0
@@ -456,32 +479,6 @@ $$TERMINAL
 > ~/.dotfiles/other/stuff2remember.txt
 	*	1758536190	0
 	"	1	0
-
-> ~/.config/vim/vimrc
-	*	1758536176	0
-	"	53	0
-	^	55	21
-	.	53	0
-	+	56	21
-	+	59	7
-	+	56	21
-	+	59	18
-	+	61	0
-	+	55	20
-	+	56	21
-	+	57	20
-	+	59	0
-	+	58	12
-	+	57	20
-	+	56	21
-	+	55	20
-	+	38	0
-	+	58	24
-	+	57	20
-	+	56	21
-	+	55	20
-	+	58	24
-	+	53	0
 
 > ~/.config/sway/config
 	*	1758536155	0
