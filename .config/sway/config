@@ -76,7 +76,7 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
-    bindsym $cs+y exec $term -e yazi
+    bindsym $cs+y exec $term --class yazi -e yazi
     bindsym $cs+Comma exec $term --class btop -e btop
     bindsym $cs+e exec $editor
     bindsym $cs+b exec brave
