@@ -21,7 +21,7 @@ $$TERMINAL
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1758534422,,"wq"
+|2,0,1758534770,,"wq"
 :w
 |2,0,1758529706,,"w"
 :q
@@ -128,8 +128,8 @@ $$TERMINAL
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 ""-	CHAR	0
-	24
-|3,1,36,0,1,0,1758534417,"24"
+	2cc55d
+|3,1,36,0,1,0,1758534749,"2cc55d"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -140,36 +140,78 @@ $$TERMINAL
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  9  22  ~/.config/kitty/kitty.conf
-|4,48,9,22,1758534422,"~/.config/kitty/kitty.conf"
-'1  11  0  ~/.config/kitty/kitty.conf
-|4,49,11,0,1758534255,"~/.config/kitty/kitty.conf"
-'2  10  0  ~/.config/kitty/kitty.conf
-|4,50,10,0,1758534255,"~/.config/kitty/kitty.conf"
-'3  81  45  ~/.config/sway/config
-|4,51,81,45,1758533972,"~/.config/sway/config"
-'4  16  8  ~/.config/kitty/kitty.conf
-|4,52,16,8,1758533676,"~/.config/kitty/kitty.conf"
-'5  15  8  ~/.config/kitty/kitty.conf
-|4,53,15,8,1758533676,"~/.config/kitty/kitty.conf"
-'6  76  56  ~/.config/waybar/config-sway.jsonc
-|4,54,76,56,1758533475,"~/.config/waybar/config-sway.jsonc"
-'7  76  52  ~/.config/waybar/config-sway.jsonc
-|4,55,76,52,1758533421,"~/.config/waybar/config-sway.jsonc"
-'8  7  28  ~/.config/kitty/current-theme.conf
-|4,56,7,28,1758533204,"~/.config/kitty/current-theme.conf"
-'9  2  28  ~/.config/kitty/current-theme.conf
-|4,57,2,28,1758532895,"~/.config/kitty/current-theme.conf"
+'0  9  28  ~/.config/kitty/libor-theme.conf
+|4,48,9,28,1758534770,"~/.config/kitty/libor-theme.conf"
+'1  4  0  ~/.local/bin/sway-run
+|4,49,4,0,1758534603,"~/.local/bin/sway-run"
+'2  9  22  ~/.config/kitty/kitty.conf
+|4,50,9,22,1758534422,"~/.config/kitty/kitty.conf"
+'3  11  0  ~/.config/kitty/kitty.conf
+|4,51,11,0,1758534255,"~/.config/kitty/kitty.conf"
+'4  10  0  ~/.config/kitty/kitty.conf
+|4,52,10,0,1758534255,"~/.config/kitty/kitty.conf"
+'5  81  45  ~/.config/sway/config
+|4,53,81,45,1758533972,"~/.config/sway/config"
+'6  16  8  ~/.config/kitty/kitty.conf
+|4,54,16,8,1758533676,"~/.config/kitty/kitty.conf"
+'7  15  8  ~/.config/kitty/kitty.conf
+|4,55,15,8,1758533676,"~/.config/kitty/kitty.conf"
+'8  76  56  ~/.config/waybar/config-sway.jsonc
+|4,56,76,56,1758533475,"~/.config/waybar/config-sway.jsonc"
+'9  76  52  ~/.config/waybar/config-sway.jsonc
+|4,57,76,52,1758533421,"~/.config/waybar/config-sway.jsonc"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  9  28  ~/.config/kitty/libor-theme.conf
+|4,39,9,28,1758534770,"~/.config/kitty/libor-theme.conf"
+-'  1  0  ~/.config/kitty/libor-theme.conf
+|4,39,1,0,1758534697,"~/.config/kitty/libor-theme.conf"
+-'  4  0  ~/.local/bin/sway-run
+|4,39,4,0,1758534603,"~/.local/bin/sway-run"
+-'  4  0  ~/.local/bin/sway-run
+|4,39,4,0,1758534603,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1758534578,"~/.local/bin/sway-run"
+-'  1  0  ~/.local/bin/sway-run
+|4,39,1,0,1758534578,"~/.local/bin/sway-run"
 -'  9  22  ~/.config/kitty/kitty.conf
 |4,39,9,22,1758534422,"~/.config/kitty/kitty.conf"
+-'  9  22  ~/.config/kitty/kitty.conf
+|4,39,9,22,1758534422,"~/.config/kitty/kitty.conf"
+-'  9  22  ~/.config/kitty/kitty.conf
+|4,39,9,22,1758534422,"~/.config/kitty/kitty.conf"
+-'  9  22  ~/.config/kitty/kitty.conf
+|4,39,9,22,1758534422,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534396,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534396,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534396,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758534396,"~/.config/kitty/kitty.conf"
 -'  11  0  ~/.config/kitty/kitty.conf
 |4,39,11,0,1758534255,"~/.config/kitty/kitty.conf"
 -'  10  0  ~/.config/kitty/kitty.conf
 |4,39,10,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  11  0  ~/.config/kitty/kitty.conf
+|4,39,11,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  10  0  ~/.config/kitty/kitty.conf
+|4,39,10,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  11  0  ~/.config/kitty/kitty.conf
+|4,39,11,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  10  0  ~/.config/kitty/kitty.conf
+|4,39,10,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  11  0  ~/.config/kitty/kitty.conf
+|4,39,11,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  10  0  ~/.config/kitty/kitty.conf
+|4,39,10,0,1758534255,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534238,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534238,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758534238,"~/.config/kitty/kitty.conf"
 -'  1  0  ~/.config/kitty/kitty.conf
 |4,39,1,0,1758534238,"~/.config/kitty/kitty.conf"
 -'  81  45  ~/.config/sway/config
@@ -320,50 +362,22 @@ $$TERMINAL
 |4,39,81,45,1758533972,"~/.config/sway/config"
 -'  81  45  ~/.config/sway/config
 |4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
--'  81  45  ~/.config/sway/config
-|4,39,81,45,1758533972,"~/.config/sway/config"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.config/kitty/libor-theme.conf
+	*	1758534768	0
+	"	9	28
+	^	9	29
+	.	9	28
+	+	9	28
+
+> ~/.local/bin/sway-run
+	*	1758534595	0
+	"	4	0
+	^	4	21
+	.	4	20
+	+	4	20
 
 > ~/.config/kitty/kitty.conf
 	*	1758534419	0
@@ -1077,10 +1091,6 @@ $$TERMINAL
 	+	8	7
 	+	7	0
 	+	8	17
-
-> ~/.local/bin/sway-run
-	*	1757757930	0
-	"	1	0
 
 > ~/%F
 	*	1757757732	0
