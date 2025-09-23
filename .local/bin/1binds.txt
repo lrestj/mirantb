@@ -11,7 +11,7 @@ Soubory  CTRL SHIFT + F
 Yazi správce souborů  CTRL SHIFT + Y 
 Vim editor  CTRL SHIFT + E 
 Skener  CTRL SHIFT + S 
-Touchpad On/Off  CTRL ALT + T 
+Touchpad On/Off   SHIFT + T 
 Geany editor  CTRL SHIFT + G 
 Kalkulačka  CTRL SHIFT + K 
 Waypaper  CTRL SHIFT + W 
