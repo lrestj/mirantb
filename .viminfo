@@ -21,7 +21,9 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758627277,,"wq"
+|2,0,1758658950,,"wq"
+:PlugInstall
+|2,0,1758658415,,"PlugInstall"
 :w
 |2,0,1758623594,,"w"
 :WQ
@@ -102,42 +104,42 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-""0	LINE	0
+"0	LINE	0
 	map ctrl+shift+c copy_to_clipboard
-|3,1,0,1,1,0,1758626709,"map ctrl+shift+c copy_to_clipboard"
+|3,0,0,1,1,0,1758626709,"map ctrl+shift+c copy_to_clipboard"
 "1	LINE	0
-	        "custom/media"
-|3,0,1,1,1,0,1758623383,"        \"custom/media\""
+	            # fuzzel
+|3,0,1,1,1,0,1758658106,"            # fuzzel"
 "2	LINE	0
-	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
-|3,0,2,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
+	        "custom/media"
+|3,0,2,1,1,0,1758623383,"        \"custom/media\""
 "3	LINE	0
-	    bindsym $ms+y exec foot -e yazi
-|3,0,3,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
+	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
+|3,0,3,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
 "4	LINE	0
-	    bindsym $ms+a exec foot 
-|3,0,4,1,1,0,1758556081,"    bindsym $ms+a exec foot "
+	    bindsym $ms+y exec foot -e yazi
+|3,0,4,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
 "5	LINE	0
-	TerminalOptions=--class btop
-|3,0,5,1,1,0,1758555838,"TerminalOptions=--class btop"
+	    bindsym $ms+a exec foot 
+|3,0,5,1,1,0,1758556081,"    bindsym $ms+a exec foot "
 "6	LINE	0
-	Version=1.0
-|3,0,6,1,1,0,1758555831,"Version=1.0"
+	TerminalOptions=--class btop
+|3,0,6,1,1,0,1758555838,"TerminalOptions=--class btop"
 "7	LINE	0
-	X-KDE-SubstituteUID=false
-|3,0,7,1,1,0,1758555830,"X-KDE-SubstituteUID=false"
+	Version=1.0
+|3,0,7,1,1,0,1758555831,"Version=1.0"
 "8	LINE	0
-	X-KDE-Username=
-|3,0,8,1,1,0,1758555822,"X-KDE-Username="
+	X-KDE-SubstituteUID=false
+|3,0,8,1,1,0,1758555830,"X-KDE-SubstituteUID=false"
 "9	LINE	0
-	terminal=foot
-|3,0,9,1,1,0,1758555512,"terminal=foot"
+	X-KDE-Username=
+|3,0,9,1,1,0,1758555822,"X-KDE-Username="
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
-"-	CHAR	0
-	previous_window
-|3,0,36,0,1,0,1758626686,"previous_window"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1758658787," "
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -148,230 +150,372 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  14  29  ~/.local/bin/1binds.txt
-|4,48,14,29,1758627277,"~/.local/bin/1binds.txt"
-'1  18  26  ~/.config/kitty/kitty.conf
-|4,49,18,26,1758626734,"~/.config/kitty/kitty.conf"
-'2  15  16  ~/.config/waybar/config-sway.jsonc
-|4,50,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
-'3  15  17  ~/.config/waybar/config-sway.jsonc
-|4,51,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
-'4  15  17  ~/.config/waybar/config-sway.jsonc
-|4,52,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
-'5  15  17  ~/.config/waybar/config-sway.jsonc
-|4,53,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
-'6  136  20  ~/.config/waybar/style-sway.css
-|4,54,136,20,1758623676,"~/.config/waybar/style-sway.css"
-'7  136  20  ~/.config/waybar/style-sway.css
-|4,55,136,20,1758623676,"~/.config/waybar/style-sway.css"
-'8  136  20  ~/.config/waybar/style-sway.css
-|4,56,136,20,1758623676,"~/.config/waybar/style-sway.css"
-'9  136  20  ~/.config/waybar/style-sway.css
-|4,57,136,20,1758623676,"~/.config/waybar/style-sway.css"
+'0  1  17  ~/.config/xfce4/helpers.rc
+|4,48,1,17,1758658950,"~/.config/xfce4/helpers.rc"
+'1  1  26  ~/.config/xfce4/helpers.rc
+|4,49,1,26,1758658906,"~/.config/xfce4/helpers.rc"
+'2  1  26  ~/.config/xfce4/helpers.rc
+|4,50,1,26,1758658857,"~/.config/xfce4/helpers.rc"
+'3  1  26  ~/.config/xfce4/helpers.rc
+|4,51,1,26,1758658857,"~/.config/xfce4/helpers.rc"
+'4  1  21  ~/.config/xfce4/helpers.rc
+|4,52,1,21,1758658791,"~/.config/xfce4/helpers.rc"
+'5  1  21  ~/.config/xfce4/helpers.rc
+|4,53,1,21,1758658791,"~/.config/xfce4/helpers.rc"
+'6  1  21  ~/.config/xfce4/helpers.rc
+|4,54,1,21,1758658791,"~/.config/xfce4/helpers.rc"
+'7  1  21  ~/.config/xfce4/helpers.rc
+|4,55,1,21,1758658791,"~/.config/xfce4/helpers.rc"
+'8  1  24  ~/.config/xfce4/helpers.rc
+|4,56,1,24,1758658723,"~/.config/xfce4/helpers.rc"
+'9  1  24  ~/.config/xfce4/helpers.rc
+|4,57,1,24,1758658723,"~/.config/xfce4/helpers.rc"
 
 # Seznam skoků (počínaje nejnovější položkou):
--'  14  29  ~/.local/bin/1binds.txt
-|4,39,14,29,1758627277,"~/.local/bin/1binds.txt"
--'  1  0  ~/.local/bin/1binds.txt
-|4,39,1,0,1758627170,"~/.local/bin/1binds.txt"
--'  18  26  ~/.config/kitty/kitty.conf
-|4,39,18,26,1758626734,"~/.config/kitty/kitty.conf"
--'  18  26  ~/.config/kitty/kitty.conf
-|4,39,18,26,1758626734,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758626637,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758626637,"~/.config/kitty/kitty.conf"
--'  15  16  ~/.config/waybar/config-sway.jsonc
-|4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
--'  15  16  ~/.config/waybar/config-sway.jsonc
-|4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
--'  15  16  ~/.config/waybar/config-sway.jsonc
-|4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
--'  15  16  ~/.config/waybar/config-sway.jsonc
-|4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  11  19  ~/.config/waybar/config-sway.jsonc
-|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  12  20  ~/.config/waybar/config-sway.jsonc
-|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  13  21  ~/.config/waybar/config-sway.jsonc
-|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  14  20  ~/.config/waybar/config-sway.jsonc
-|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  21  16  ~/.config/waybar/config-sway.jsonc
-|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
--'  15  17  ~/.config/waybar/config-sway.jsonc
-|4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  1  0  ~/.config/waybar/style-sway.css
-|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  87  0  ~/.config/waybar/style-sway.css
-|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  136  20  ~/.config/waybar/style-sway.css
-|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
--'  341  15  ~/.config/waybar/style-sway.css
-|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
--'  341  15  ~/.config/waybar/style-sway.css
-|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  1  17  ~/.config/xfce4/helpers.rc
+|4,39,1,17,1758658950,"~/.config/xfce4/helpers.rc"
+-'  1  26  ~/.config/xfce4/helpers.rc
+|4,39,1,26,1758658906,"~/.config/xfce4/helpers.rc"
+-'  1  26  ~/.config/xfce4/helpers.rc
+|4,39,1,26,1758658857,"~/.config/xfce4/helpers.rc"
+-'  1  21  ~/.config/xfce4/helpers.rc
+|4,39,1,21,1758658791,"~/.config/xfce4/helpers.rc"
+-'  1  24  ~/.config/xfce4/helpers.rc
+|4,39,1,24,1758658723,"~/.config/xfce4/helpers.rc"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758658443,"~/.local/bin/confm"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  17  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,17,1758658125,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/xfce4/helpers.rc
+	*	1758658946	0
+	"	1	17
+	^	1	27
+	.	1	0
+	+	1	0
+
+> ~/.local/bin/confm
+	*	1758658435	0
+	"	1	0
+	^	43	61
+	.	43	60
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	10	3
+	+	24	104
+	+	24	20
+	+	28	0
+	+	13	14
+	+	23	22
+	+	24	127
+	+	44	0
+	+	46	6
+	+	46	83
+	+	46	4
+	+	13	3
+	+	9	3
+	+	46	131
+	+	39	0
+	+	46	150
+	+	46	0
+	+	46	92
+	+	46	0
+	+	23	0
+	+	46	0
+	+	46	13
+	+	24	81
+	+	46	0
+	+	24	120
+	+	24	0
+	+	22	17
+	+	12	16
+	+	42	0
+	+	44	6
+	+	45	13
+	+	24	87
+	+	12	3
+	+	24	127
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	9	3
+	+	10	3
+	+	12	3
+	+	24	166
+	+	24	22
+	+	24	154
+	+	24	118
+	+	28	0
+	+	24	0
+	+	28	0
+	+	28	39
+	+	28	0
+	+	28	103
+	+	30	0
+	+	29	83
+	+	30	0
+	+	29	83
+	+	32	0
+	+	31	91
+	+	29	117
+	+	31	133
+	+	34	0
+	+	33	106
+	+	36	0
+	+	35	107
+	+	39	38
+	+	39	136
+	+	37	60
+	+	39	77
+	+	38	0
+	+	37	39
+	+	39	72
+	+	41	60
+	+	42	0
+	+	41	70
+	+	43	39
+	+	27	0
+	+	27	42
+	+	28	0
+	+	27	44
+	+	29	69
+	+	31	77
+	+	33	64
+	+	35	64
+	+	37	79
+	+	39	90
+	+	41	70
+	+	43	77
+	+	29	0
+	+	27	45
+	+	29	52
+	+	31	60
+	+	33	47
+	+	35	47
+	+	37	62
+	+	39	73
+	+	41	53
+	+	43	60
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1758658123	0
+	"	49	17
+	^	49	18
+	.	49	17
+	+	8	0
+	+	24	2
+	+	25	24
+	+	26	37
+	+	29	0
+	+	27	26
+	+	27	116
+	+	27	21
+	+	8	0
+	+	7	10
+	+	50	0
+	+	7	0
+	+	2	0
+	+	32	0
+	+	14	0
+	+	13	27
+	+	32	0
+	+	32	19
+	+	63	16
+	+	32	0
+	+	85	0
+	+	49	17
+	m	13	17
 
 > ~/.local/bin/1binds.txt
 	*	1758627275	0
@@ -610,35 +754,6 @@ $
 	*	1758555461	0
 	"	21	0
 
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1758555205	0
-	"	49	12
-	^	63	17
-	.	49	0
-	+	8	0
-	+	24	2
-	+	25	24
-	+	26	37
-	+	29	0
-	+	27	26
-	+	27	116
-	+	27	21
-	+	8	0
-	+	7	10
-	+	50	0
-	+	7	0
-	+	2	0
-	+	32	0
-	+	14	0
-	+	13	27
-	+	32	0
-	+	32	19
-	+	63	16
-	+	32	0
-	+	85	0
-	+	49	0
-	m	13	17
-
 > ~/.local/share/applications/vim.desktop
 	*	1758555190	0
 	"	7	11
@@ -659,112 +774,6 @@ $
 	^	4	26
 	.	4	25
 	+	4	25
-
-> ~/.local/bin/confm
-	*	1758553967	0
-	"	43	60
-	^	43	61
-	.	43	60
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	10	3
-	+	24	104
-	+	24	20
-	+	28	0
-	+	13	14
-	+	23	22
-	+	24	127
-	+	44	0
-	+	46	6
-	+	46	83
-	+	46	4
-	+	13	3
-	+	9	3
-	+	46	131
-	+	39	0
-	+	46	150
-	+	46	0
-	+	46	92
-	+	46	0
-	+	23	0
-	+	46	0
-	+	46	13
-	+	24	81
-	+	46	0
-	+	24	120
-	+	24	0
-	+	22	17
-	+	12	16
-	+	42	0
-	+	44	6
-	+	45	13
-	+	24	87
-	+	12	3
-	+	24	127
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	9	3
-	+	10	3
-	+	12	3
-	+	24	166
-	+	24	22
-	+	24	154
-	+	24	118
-	+	28	0
-	+	24	0
-	+	28	0
-	+	28	39
-	+	28	0
-	+	28	103
-	+	30	0
-	+	29	83
-	+	30	0
-	+	29	83
-	+	32	0
-	+	31	91
-	+	29	117
-	+	31	133
-	+	34	0
-	+	33	106
-	+	36	0
-	+	35	107
-	+	39	38
-	+	39	136
-	+	37	60
-	+	39	77
-	+	38	0
-	+	37	39
-	+	39	72
-	+	41	60
-	+	42	0
-	+	41	70
-	+	43	39
-	+	27	0
-	+	27	42
-	+	28	0
-	+	27	44
-	+	29	69
-	+	31	77
-	+	33	64
-	+	35	64
-	+	37	79
-	+	39	90
-	+	41	70
-	+	43	77
-	+	29	0
-	+	27	45
-	+	29	52
-	+	31	60
-	+	33	47
-	+	35	47
-	+	37	62
-	+	39	73
-	+	41	53
-	+	43	60
 
 > ~/.config/vim/vimrc
 	*	1758553335	0
