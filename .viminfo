@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1758625785,,"wq"
+|2,0,1758626734,,"wq"
 :w
 |2,0,1758623594,,"w"
 :WQ
@@ -102,9 +102,9 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	CHAR	0
-	 
-|3,0,0,0,1,0,1758564999," "
+""0	LINE	0
+	map ctrl+shift+c copy_to_clipboard
+|3,1,0,1,1,0,1758626709,"map ctrl+shift+c copy_to_clipboard"
 "1	LINE	0
 	        "custom/media"
 |3,0,1,1,1,0,1758623383,"        \"custom/media\""
@@ -135,9 +135,9 @@ $
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
-""-	CHAR	0
-	,
-|3,1,36,0,1,0,1758623387,","
+"-	CHAR	0
+	previous_window
+|3,0,36,0,1,0,1758626686,"previous_window"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -148,16 +148,16 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  15  16  ~/.config/waybar/config-sway.jsonc
-|4,48,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
-'1  15  17  ~/.config/waybar/config-sway.jsonc
-|4,49,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
+'0  18  26  ~/.config/kitty/kitty.conf
+|4,48,18,26,1758626734,"~/.config/kitty/kitty.conf"
+'1  15  16  ~/.config/waybar/config-sway.jsonc
+|4,49,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
 '2  15  17  ~/.config/waybar/config-sway.jsonc
-|4,50,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
+|4,50,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
 '3  15  17  ~/.config/waybar/config-sway.jsonc
 |4,51,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
-'4  136  20  ~/.config/waybar/style-sway.css
-|4,52,136,20,1758623676,"~/.config/waybar/style-sway.css"
+'4  15  17  ~/.config/waybar/config-sway.jsonc
+|4,52,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
 '5  136  20  ~/.config/waybar/style-sway.css
 |4,53,136,20,1758623676,"~/.config/waybar/style-sway.css"
 '6  136  20  ~/.config/waybar/style-sway.css
@@ -170,14 +170,34 @@ $
 |4,57,136,20,1758623676,"~/.config/waybar/style-sway.css"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  18  26  ~/.config/kitty/kitty.conf
+|4,39,18,26,1758626734,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1758626637,"~/.config/kitty/kitty.conf"
 -'  15  16  ~/.config/waybar/config-sway.jsonc
 |4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
+-'  15  16  ~/.config/waybar/config-sway.jsonc
+|4,39,15,16,1758625786,"~/.config/waybar/config-sway.jsonc"
+-'  15  17  ~/.config/waybar/config-sway.jsonc
+|4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
 -'  15  17  ~/.config/waybar/config-sway.jsonc
 |4,39,15,17,1758625765,"~/.config/waybar/config-sway.jsonc"
 -'  11  19  ~/.config/waybar/config-sway.jsonc
 |4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
 -'  11  19  ~/.config/waybar/config-sway.jsonc
 |4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
+-'  11  19  ~/.config/waybar/config-sway.jsonc
+|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
+-'  11  19  ~/.config/waybar/config-sway.jsonc
+|4,39,11,19,1758625749,"~/.config/waybar/config-sway.jsonc"
+-'  12  20  ~/.config/waybar/config-sway.jsonc
+|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
+-'  13  21  ~/.config/waybar/config-sway.jsonc
+|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
+-'  12  20  ~/.config/waybar/config-sway.jsonc
+|4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
+-'  13  21  ~/.config/waybar/config-sway.jsonc
+|4,39,13,21,1758625745,"~/.config/waybar/config-sway.jsonc"
 -'  12  20  ~/.config/waybar/config-sway.jsonc
 |4,39,12,20,1758625745,"~/.config/waybar/config-sway.jsonc"
 -'  13  21  ~/.config/waybar/config-sway.jsonc
@@ -190,10 +210,20 @@ $
 |4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
 -'  14  20  ~/.config/waybar/config-sway.jsonc
 |4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
+-'  14  20  ~/.config/waybar/config-sway.jsonc
+|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
+-'  14  20  ~/.config/waybar/config-sway.jsonc
+|4,39,14,20,1758625744,"~/.config/waybar/config-sway.jsonc"
 -'  21  16  ~/.config/waybar/config-sway.jsonc
 |4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
 -'  21  16  ~/.config/waybar/config-sway.jsonc
 |4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
+-'  21  16  ~/.config/waybar/config-sway.jsonc
+|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
+-'  21  16  ~/.config/waybar/config-sway.jsonc
+|4,39,21,16,1758625743,"~/.config/waybar/config-sway.jsonc"
+-'  15  17  ~/.config/waybar/config-sway.jsonc
+|4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
 -'  15  17  ~/.config/waybar/config-sway.jsonc
 |4,39,15,17,1758625692,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/style-sway.css
@@ -202,6 +232,18 @@ $
 |4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
 -'  1  0  ~/.config/waybar/style-sway.css
 |4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
+-'  1  0  ~/.config/waybar/style-sway.css
+|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
+-'  1  0  ~/.config/waybar/style-sway.css
+|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
+-'  1  0  ~/.config/waybar/style-sway.css
+|4,39,1,0,1758625648,"~/.config/waybar/style-sway.css"
+-'  87  0  ~/.config/waybar/style-sway.css
+|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
+-'  87  0  ~/.config/waybar/style-sway.css
+|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
+-'  87  0  ~/.config/waybar/style-sway.css
+|4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
 -'  87  0  ~/.config/waybar/style-sway.css
 |4,39,87,0,1758625629,"~/.config/waybar/style-sway.css"
 -'  87  0  ~/.config/waybar/style-sway.css
@@ -216,6 +258,24 @@ $
 |4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
 -'  136  20  ~/.config/waybar/style-sway.css
 |4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  136  20  ~/.config/waybar/style-sway.css
+|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  136  20  ~/.config/waybar/style-sway.css
+|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  136  20  ~/.config/waybar/style-sway.css
+|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  136  20  ~/.config/waybar/style-sway.css
+|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
 -'  341  15  ~/.config/waybar/style-sway.css
 |4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
 -'  341  15  ~/.config/waybar/style-sway.css
@@ -236,6 +296,26 @@ $
 |4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
 -'  29  23  ~/.config/waybar/config-sway.jsonc
 |4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
 |4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
 -'  1  0  ~/.config/waybar/config-sway.jsonc
@@ -258,6 +338,18 @@ $
 |4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
 -'  7  17  ~/.local/share/applications/yazi.desktop
 |4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
 -'  1  0  ~/.local/share/applications/yazi.desktop
 |4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
 -'  1  0  ~/.local/share/applications/yazi.desktop
@@ -270,106 +362,57 @@ $
 |4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
 -'  1  0  ~/.local/share/applications/yazi.desktop
 |4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  79  41  ~/.config/sway/config
-|4,39,79,41,1758572919,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1758572897,"~/.config/sway/config"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  4  28  ~/.config/kitty/libor-theme.conf
-|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  1  28  ~/.config/kitty/libor-theme.conf
-|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
--'  13  23  ~/.config/kitty/libor-theme.conf
-|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/kitty/kitty.conf
+	*	1758626732	0
+	"	18	26
+	^	18	27
+	.	18	26
+	+	20	0
+	+	20	24
+	+	20	12
+	+	20	0
+	+	23	0
+	+	11	0
+	+	12	0
+	+	11	22
+	+	14	0
+	+	12	17
+	+	15	8
+	+	12	20
+	+	15	33
+	+	12	12
+	+	15	32
+	+	16	28
+	+	12	17
+	+	15	10
+	+	16	10
+	+	15	12
+	+	16	12
+	+	12	20
+	+	15	14
+	+	16	14
+	+	12	19
+	+	15	13
+	+	16	13
+	+	13	6
+	+	1	23
+	+	22	22
+	+	3	11
+	+	4	9
+	+	5	21
+	+	17	33
+	+	18	26
 
 > ~/.config/waybar/config-sway.jsonc
 	*	1758625779	0
@@ -526,45 +569,6 @@ $
 	+	13	0
 	+	1	28
 	+	4	28
-
-> ~/.config/kitty/kitty.conf
-	*	1758565712	0
-	"	4	9
-	^	20	23
-	.	5	21
-	+	18	0
-	+	18	24
-	+	18	12
-	+	18	0
-	+	21	0
-	+	11	0
-	+	12	0
-	+	11	22
-	+	14	0
-	+	12	17
-	+	15	8
-	+	12	20
-	+	15	33
-	+	12	12
-	+	15	32
-	+	16	28
-	+	12	17
-	+	15	10
-	+	16	10
-	+	15	12
-	+	16	12
-	+	12	20
-	+	15	14
-	+	16	14
-	+	12	19
-	+	15	13
-	+	16	13
-	+	13	6
-	+	1	23
-	+	20	22
-	+	3	11
-	+	4	9
-	+	5	21
 
 > ~/.local/share/applications/btop.desktop
 	*	1758555838	0
