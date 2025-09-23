@@ -26,8 +26,7 @@
         "custom/kalk",
         "custom/text",
         "custom/fm",
-        "custom/browser",
-        "custom/media"
+        "custom/browser"
     ],
     "modules-center": [
         "sway/window"

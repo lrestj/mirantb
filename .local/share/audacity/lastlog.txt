@@ -1,5 +1,7 @@
-16:13:37: Audacity 3.7.5
-16:13:37: FFmpeg libraries loaded successfully from: /nix/store/wxjs6sb18xkfx3dgwrlmg2z77jn98iqa-ffmpeg-7.1.1-lib/lib/libavformat.so.61.7.100
-16:13:40: FFmpeg libraries loaded successfully from: /nix/store/wxjs6sb18xkfx3dgwrlmg2z77jn98iqa-ffmpeg-7.1.1-lib/lib/libavformat.so.61.7.100
-16:14:22: Loaded 118 string 2,304688 Kb in size
-16:14:22: Project loaded in 12 ms
+09:56:50: Audacity 3.7.5
+09:56:50: FFmpeg libraries loaded successfully from: /nix/store/wxjs6sb18xkfx3dgwrlmg2z77jn98iqa-ffmpeg-7.1.1-lib/lib/libavformat.so.61.7.100
+09:56:53: FFmpeg libraries loaded successfully from: /nix/store/wxjs6sb18xkfx3dgwrlmg2z77jn98iqa-ffmpeg-7.1.1-lib/lib/libavformat.so.61.7.100
+09:57:02: Loaded 106 string 2,126953 Kb in size
+09:57:02: Project loaded in 8 ms
+10:57:38: Loaded 118 string 2,304688 Kb in size
+10:57:38: Project loaded in 51 ms

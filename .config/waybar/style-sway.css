@@ -81,7 +81,7 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0px 5px;
     background-color: transparent;
     color: #ffffff;
     margin-top: 1px;
@@ -110,17 +110,17 @@ button:hover {
 #idle_inhibitor,
 #power-profiles-daemon,
 #tray {
-    padding: 0 7px;
+    padding: 0px 7px;
     color: #ffffff;
 }
 
 #idle_inhibitor {
-    margin-right: 7;
+    margin-right: 7px;
 }
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0px 4px;
 }
 
 #custom-menu,
@@ -133,25 +133,25 @@ button:hover {
 #power-profiles-daemon {
     border-radius: 20px 20px 20px 20px;
     margin-top: 2px;
-    margin-right: 4;
+    margin-right: 4px;
     margin-bottom: 4px;
 }
 #cpu {
     border-radius: 20px 0px 0px 20px;
     margin-top: 2px;
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 4px;
 }
 #temperature {
     border-radius: 0px 20px 20px 0px;
     margin-top: 2px;
-    margin-right: 4;
+    margin-right: 4px;
     margin-bottom: 4px;
 }
 #tray {
-    border-radius: 20 20 20 20;
-    margin-top: 2;
-    margin-bottom: 4;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 2px;
+    margin-bottom: 4px;
 }
 
 #custom-menu, 
@@ -162,7 +162,7 @@ button:hover {
     color: #000000;
 }
 #memory {
-    margin-left: 5;
+    margin-left: 5px;
 }
 
 #custom-scan,
@@ -182,7 +182,7 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left : 8;
+    margin-left : 8px;
 }
     
 #custom-office{
@@ -206,7 +206,7 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 6;
+    margin-left: 6px;
 }
 
 #custom-fm{
@@ -264,7 +264,7 @@ button:hover {
 
 #power-profiles-daemon.performance {
 /* background-color: #f53c3c; */
-    padding: 0 3px;
+    padding: 0px 3px;
     background-color: #64727D;
     color: #000000;
 }
@@ -338,7 +338,7 @@ label:focus {
 }
 
 #taskbar button {
-    padding: 5 2px;
+    padding: 5px 2px;
 }
 
 /* END OF FILE */

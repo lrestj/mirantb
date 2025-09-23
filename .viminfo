@@ -21,9 +21,9 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1758572970,,"wq"
+|2,0,1758623676,,"wq"
 :w
-|2,0,1758559566,,"w"
+|2,0,1758623594,,"w"
 :WQ
 |2,0,1758556526,,"WQ"
 :q
@@ -106,38 +106,38 @@ $
 	 
 |3,0,0,0,1,0,1758564999," "
 "1	LINE	0
-	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
-|3,0,1,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
+	        "custom/media"
+|3,0,1,1,1,0,1758623383,"        \"custom/media\""
 "2	LINE	0
-	    bindsym $ms+y exec foot -e yazi
-|3,0,2,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
+	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
+|3,0,2,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
 "3	LINE	0
-	    bindsym $ms+a exec foot 
-|3,0,3,1,1,0,1758556081,"    bindsym $ms+a exec foot "
+	    bindsym $ms+y exec foot -e yazi
+|3,0,3,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
 "4	LINE	0
-	TerminalOptions=--class btop
-|3,0,4,1,1,0,1758555838,"TerminalOptions=--class btop"
+	    bindsym $ms+a exec foot 
+|3,0,4,1,1,0,1758556081,"    bindsym $ms+a exec foot "
 "5	LINE	0
-	Version=1.0
-|3,0,5,1,1,0,1758555831,"Version=1.0"
+	TerminalOptions=--class btop
+|3,0,5,1,1,0,1758555838,"TerminalOptions=--class btop"
 "6	LINE	0
-	X-KDE-SubstituteUID=false
-|3,0,6,1,1,0,1758555830,"X-KDE-SubstituteUID=false"
+	Version=1.0
+|3,0,6,1,1,0,1758555831,"Version=1.0"
 "7	LINE	0
-	X-KDE-Username=
-|3,0,7,1,1,0,1758555822,"X-KDE-Username="
+	X-KDE-SubstituteUID=false
+|3,0,7,1,1,0,1758555830,"X-KDE-SubstituteUID=false"
 "8	LINE	0
-	terminal=foot
-|3,0,8,1,1,0,1758555512,"terminal=foot"
+	X-KDE-Username=
+|3,0,8,1,1,0,1758555822,"X-KDE-Username="
 "9	LINE	0
-	            foot
-|3,0,9,1,1,0,1758555205,"            foot"
+	terminal=foot
+|3,0,9,1,1,0,1758555512,"terminal=foot"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 ""-	CHAR	0
-	3c4fc4
-|3,1,36,0,1,0,1758565721,"3c4fc4"
+	,
+|3,1,36,0,1,0,1758623387,","
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -148,40 +148,74 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  7  17  ~/.local/share/applications/yazi.desktop
-|4,48,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
-'1  79  41  ~/.config/sway/config
-|4,49,79,41,1758572919,"~/.config/sway/config"
-'2  4  28  ~/.config/kitty/libor-theme.conf
-|4,50,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
-'3  1  28  ~/.config/kitty/libor-theme.conf
-|4,51,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
-'4  1  28  ~/.config/kitty/libor-theme.conf
-|4,52,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
-'5  13  23  ~/.config/kitty/libor-theme.conf
-|4,53,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
-'6  13  23  ~/.config/kitty/libor-theme.conf
-|4,54,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
-'7  13  23  ~/.config/kitty/libor-theme.conf
-|4,55,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
-'8  13  23  ~/.config/kitty/libor-theme.conf
-|4,56,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
-'9  13  23  ~/.config/kitty/libor-theme.conf
-|4,57,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+'0  136  20  ~/.config/waybar/style-sway.css
+|4,48,136,20,1758623676,"~/.config/waybar/style-sway.css"
+'1  341  15  ~/.config/waybar/style-sway.css
+|4,49,341,15,1758623600,"~/.config/waybar/style-sway.css"
+'2  341  15  ~/.config/waybar/style-sway.css
+|4,50,341,15,1758623600,"~/.config/waybar/style-sway.css"
+'3  7  17  ~/.local/share/applications/yazi.desktop
+|4,51,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+'4  7  17  ~/.local/share/applications/yazi.desktop
+|4,52,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+'5  79  41  ~/.config/sway/config
+|4,53,79,41,1758572919,"~/.config/sway/config"
+'6  79  41  ~/.config/sway/config
+|4,54,79,41,1758572919,"~/.config/sway/config"
+'7  4  28  ~/.config/kitty/libor-theme.conf
+|4,55,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+'8  4  28  ~/.config/kitty/libor-theme.conf
+|4,56,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+'9  1  28  ~/.config/kitty/libor-theme.conf
+|4,57,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  136  20  ~/.config/waybar/style-sway.css
+|4,39,136,20,1758623676,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  341  15  ~/.config/waybar/style-sway.css
+|4,39,341,15,1758623600,"~/.config/waybar/style-sway.css"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  29  23  ~/.config/waybar/config-sway.jsonc
+|4,39,29,23,1758623404,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
+-'  1  0  ~/.config/waybar/config-sway.jsonc
+|4,39,1,0,1758623377,"~/.config/waybar/config-sway.jsonc"
 -'  7  17  ~/.local/share/applications/yazi.desktop
 |4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  7  17  ~/.local/share/applications/yazi.desktop
+|4,39,7,17,1758572970,"~/.local/share/applications/yazi.desktop"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
+-'  1  0  ~/.local/share/applications/yazi.desktop
+|4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
 -'  1  0  ~/.local/share/applications/yazi.desktop
 |4,39,1,0,1758572946,"~/.local/share/applications/yazi.desktop"
 -'  79  41  ~/.config/sway/config
 |4,39,79,41,1758572919,"~/.config/sway/config"
 -'  79  41  ~/.config/sway/config
 |4,39,79,41,1758572919,"~/.config/sway/config"
+-'  79  41  ~/.config/sway/config
+|4,39,79,41,1758572919,"~/.config/sway/config"
+-'  79  41  ~/.config/sway/config
+|4,39,79,41,1758572919,"~/.config/sway/config"
+-'  79  41  ~/.config/sway/config
+|4,39,79,41,1758572919,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758572897,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758572897,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758572897,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758572897,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758572897,"~/.config/sway/config"
 -'  4  28  ~/.config/kitty/libor-theme.conf
 |4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
 -'  4  28  ~/.config/kitty/libor-theme.conf
@@ -190,6 +224,16 @@ $
 |4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
 -'  4  28  ~/.config/kitty/libor-theme.conf
 |4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+-'  4  28  ~/.config/kitty/libor-theme.conf
+|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+-'  4  28  ~/.config/kitty/libor-theme.conf
+|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+-'  4  28  ~/.config/kitty/libor-theme.conf
+|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+-'  4  28  ~/.config/kitty/libor-theme.conf
+|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
+-'  4  28  ~/.config/kitty/libor-theme.conf
+|4,39,4,28,1758566451,"~/.config/kitty/libor-theme.conf"
 -'  1  28  ~/.config/kitty/libor-theme.conf
 |4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
 -'  1  28  ~/.config/kitty/libor-theme.conf
@@ -206,6 +250,50 @@ $
 |4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
 -'  1  28  ~/.config/kitty/libor-theme.conf
 |4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  1  28  ~/.config/kitty/libor-theme.conf
+|4,39,1,28,1758566110,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
 -'  13  23  ~/.config/kitty/libor-theme.conf
 |4,39,13,23,1758565914,"~/.config/kitty/libor-theme.conf"
 -'  13  23  ~/.config/kitty/libor-theme.conf
@@ -238,6 +326,22 @@ $
 |4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
 -'  13  23  ~/.config/kitty/libor-theme.conf
 |4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+-'  13  23  ~/.config/kitty/libor-theme.conf
+|4,39,13,23,1758565891,"~/.config/kitty/libor-theme.conf"
+-'  13  24  ~/.config/kitty/libor-theme.conf
+|4,39,13,24,1758565854,"~/.config/kitty/libor-theme.conf"
+-'  13  24  ~/.config/kitty/libor-theme.conf
+|4,39,13,24,1758565854,"~/.config/kitty/libor-theme.conf"
+-'  13  24  ~/.config/kitty/libor-theme.conf
+|4,39,13,24,1758565854,"~/.config/kitty/libor-theme.conf"
+-'  13  24  ~/.config/kitty/libor-theme.conf
+|4,39,13,24,1758565854,"~/.config/kitty/libor-theme.conf"
 -'  13  24  ~/.config/kitty/libor-theme.conf
 |4,39,13,24,1758565854,"~/.config/kitty/libor-theme.conf"
 -'  13  24  ~/.config/kitty/libor-theme.conf
@@ -254,124 +358,50 @@ $
 |4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
 -'  13  28  ~/.config/kitty/libor-theme.conf
 |4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
--'  1  0  ~/.config/kitty/libor-theme.conf
-|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
 -'  13  28  ~/.config/kitty/libor-theme.conf
-|4,39,13,28,1758565734,"~/.config/kitty/libor-theme.conf"
+|4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
 -'  13  28  ~/.config/kitty/libor-theme.conf
-|4,39,13,28,1758565734,"~/.config/kitty/libor-theme.conf"
+|4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
 -'  13  28  ~/.config/kitty/libor-theme.conf
-|4,39,13,28,1758565734,"~/.config/kitty/libor-theme.conf"
+|4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
 -'  13  28  ~/.config/kitty/libor-theme.conf
-|4,39,13,28,1758565734,"~/.config/kitty/libor-theme.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  5  21  ~/.config/kitty/kitty.conf
-|4,39,5,21,1758565045,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758565029,"~/.config/kitty/kitty.conf"
--'  1  0  ~/.config/kitty/kitty.conf
-|4,39,1,0,1758565029,"~/.config/kitty/kitty.conf"
+|4,39,13,28,1758565835,"~/.config/kitty/libor-theme.conf"
+-'  1  0  ~/.config/kitty/libor-theme.conf
+|4,39,1,0,1758565802,"~/.config/kitty/libor-theme.conf"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.config/waybar/style-sway.css
+	*	1758623674	0
+	"	136	20
+	^	136	21
+	.	136	20
+	+	84	15
+	+	118	20
+	+	123	14
+	+	113	15
+	+	142	20
+	+	148	20
+	+	153	18
+	+	154	21
+	+	165	19
+	+	185	20
+	+	209	19
+	+	267	15
+	+	341	15
+	+	152	37
+	+	136	20
+
+> ~/.config/waybar/config-sway.jsonc
+	*	1758623395	0
+	"	29	23
+	^	65	49
+	.	29	24
+	+	65	43
+	+	75	56
+	+	65	48
+	+	30	0
+	+	29	24
 
 > ~/.local/share/applications/yazi.desktop
 	*	1758572968	0
@@ -611,15 +641,6 @@ $
 	^	4	26
 	.	4	25
 	+	4	25
-
-> ~/.config/waybar/config-sway.jsonc
-	*	1758554515	0
-	"	66	48
-	^	66	49
-	.	66	48
-	+	66	43
-	+	76	56
-	+	66	48
 
 > ~/.local/bin/confm
 	*	1758553967	0
