@@ -150,36 +150,50 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  6  30  ~/.local/bin/umonedrive
-|4,48,6,30,1758744422,"~/.local/bin/umonedrive"
-'1  6  70  ~/.local/bin/onedrive
-|4,49,6,70,1758744316,"~/.local/bin/onedrive"
-'2  1  0  ~/.config/sway/config
-|4,50,1,0,1758663684,"~/.config/sway/config"
-'3  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  5  18  ~/shell.nix
-|4,52,5,18,1758662313,"~/shell.nix"
-'5  6  13  ~/shell.nix
-|4,53,6,13,1758662244,"~/shell.nix"
-'6  5  13  ~/shell.nix
-|4,54,5,13,1758662244,"~/shell.nix"
-'7  6  13  ~/shell.nix
-|4,55,6,13,1758662061,"~/shell.nix"
-'8  5  13  ~/shell.nix
-|4,56,5,13,1758662061,"~/shell.nix"
-'9  7  8  ~/shell.nix
-|4,57,7,8,1758661320,"~/shell.nix"
+'0  1  0  ~/.local/bin/confm
+|4,48,1,0,1758744537,"~/.local/bin/confm"
+'1  6  30  ~/.local/bin/umonedrive
+|4,49,6,30,1758744422,"~/.local/bin/umonedrive"
+'2  6  70  ~/.local/bin/onedrive
+|4,50,6,70,1758744316,"~/.local/bin/onedrive"
+'3  1  0  ~/.config/sway/config
+|4,51,1,0,1758663684,"~/.config/sway/config"
+'4  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,52,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+'5  5  18  ~/shell.nix
+|4,53,5,18,1758662313,"~/shell.nix"
+'6  6  13  ~/shell.nix
+|4,54,6,13,1758662244,"~/shell.nix"
+'7  5  13  ~/shell.nix
+|4,55,5,13,1758662244,"~/shell.nix"
+'8  6  13  ~/shell.nix
+|4,56,6,13,1758662061,"~/shell.nix"
+'9  5  13  ~/shell.nix
+|4,57,5,13,1758662061,"~/shell.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
 -'  6  30  ~/.local/bin/umonedrive
 |4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
 -'  1  0  ~/.local/bin/umonedrive
 |4,39,1,0,1758744410,"~/.local/bin/umonedrive"
 -'  6  70  ~/.local/bin/onedrive
 |4,39,6,70,1758744316,"~/.local/bin/onedrive"
 -'  6  70  ~/.local/bin/onedrive
 |4,39,6,70,1758744316,"~/.local/bin/onedrive"
+-'  6  70  ~/.local/bin/onedrive
+|4,39,6,70,1758744316,"~/.local/bin/onedrive"
+-'  6  70  ~/.local/bin/onedrive
+|4,39,6,70,1758744316,"~/.local/bin/onedrive"
+-'  1  0  ~/.local/bin/onedrive
+|4,39,1,0,1758744274,"~/.local/bin/onedrive"
+-'  1  0  ~/.local/bin/onedrive
+|4,39,1,0,1758744274,"~/.local/bin/onedrive"
 -'  1  0  ~/.local/bin/onedrive
 |4,39,1,0,1758744274,"~/.local/bin/onedrive"
 -'  1  0  ~/.local/bin/onedrive
@@ -192,6 +206,14 @@ $
 |4,39,1,0,1758663684,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758663684,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758663684,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758663684,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758663684,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758663684,"~/.config/sway/config"
 -'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -208,6 +230,38 @@ $
 |4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  49  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,12,1758662375,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1758662364,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -256,6 +310,38 @@ $
 |4,39,5,18,1758662313,"~/shell.nix"
 -'  5  18  ~/shell.nix
 |4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
+-'  5  18  ~/shell.nix
+|4,39,5,18,1758662313,"~/shell.nix"
 -'  1  0  ~/shell.nix
 |4,39,1,0,1758662300,"~/shell.nix"
 -'  1  0  ~/shell.nix
@@ -286,94 +372,114 @@ $
 |4,39,1,0,1758662300,"~/shell.nix"
 -'  1  0  ~/shell.nix
 |4,39,1,0,1758662300,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662300,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  6  13  ~/shell.nix
-|4,39,6,13,1758662244,"~/shell.nix"
--'  5  13  ~/shell.nix
-|4,39,5,13,1758662244,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
--'  1  0  ~/shell.nix
-|4,39,1,0,1758662228,"~/shell.nix"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.local/bin/confm
+	*	1758744515	0
+	"	1	0
+	^	43	61
+	.	43	60
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	10	3
+	+	24	104
+	+	24	20
+	+	28	0
+	+	13	14
+	+	23	22
+	+	24	127
+	+	44	0
+	+	46	6
+	+	46	83
+	+	46	4
+	+	13	3
+	+	9	3
+	+	46	131
+	+	39	0
+	+	46	150
+	+	46	0
+	+	46	92
+	+	46	0
+	+	23	0
+	+	46	0
+	+	46	13
+	+	24	81
+	+	46	0
+	+	24	120
+	+	24	0
+	+	22	17
+	+	12	16
+	+	42	0
+	+	44	6
+	+	45	13
+	+	24	87
+	+	12	3
+	+	24	127
+	+	4	3
+	+	5	3
+	+	6	3
+	+	8	3
+	+	9	3
+	+	10	3
+	+	12	3
+	+	24	166
+	+	24	22
+	+	24	154
+	+	24	118
+	+	28	0
+	+	24	0
+	+	28	0
+	+	28	39
+	+	28	0
+	+	28	103
+	+	30	0
+	+	29	83
+	+	30	0
+	+	29	83
+	+	32	0
+	+	31	91
+	+	29	117
+	+	31	133
+	+	34	0
+	+	33	106
+	+	36	0
+	+	35	107
+	+	39	38
+	+	39	136
+	+	37	60
+	+	39	77
+	+	38	0
+	+	37	39
+	+	39	72
+	+	41	60
+	+	42	0
+	+	41	70
+	+	43	39
+	+	27	0
+	+	27	42
+	+	28	0
+	+	27	44
+	+	29	69
+	+	31	77
+	+	33	64
+	+	35	64
+	+	37	79
+	+	39	90
+	+	41	70
+	+	43	77
+	+	29	0
+	+	27	45
+	+	29	52
+	+	31	60
+	+	33	47
+	+	35	47
+	+	37	62
+	+	39	73
+	+	41	53
+	+	43	60
 
 > ~/.local/bin/umonedrive
 	*	1758744417	0
@@ -534,112 +640,6 @@ $
 	^	1	27
 	.	1	0
 	+	1	0
-
-> ~/.local/bin/confm
-	*	1758658435	0
-	"	1	0
-	^	43	61
-	.	43	60
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	10	3
-	+	24	104
-	+	24	20
-	+	28	0
-	+	13	14
-	+	23	22
-	+	24	127
-	+	44	0
-	+	46	6
-	+	46	83
-	+	46	4
-	+	13	3
-	+	9	3
-	+	46	131
-	+	39	0
-	+	46	150
-	+	46	0
-	+	46	92
-	+	46	0
-	+	23	0
-	+	46	0
-	+	46	13
-	+	24	81
-	+	46	0
-	+	24	120
-	+	24	0
-	+	22	17
-	+	12	16
-	+	42	0
-	+	44	6
-	+	45	13
-	+	24	87
-	+	12	3
-	+	24	127
-	+	4	3
-	+	5	3
-	+	6	3
-	+	8	3
-	+	9	3
-	+	10	3
-	+	12	3
-	+	24	166
-	+	24	22
-	+	24	154
-	+	24	118
-	+	28	0
-	+	24	0
-	+	28	0
-	+	28	39
-	+	28	0
-	+	28	103
-	+	30	0
-	+	29	83
-	+	30	0
-	+	29	83
-	+	32	0
-	+	31	91
-	+	29	117
-	+	31	133
-	+	34	0
-	+	33	106
-	+	36	0
-	+	35	107
-	+	39	38
-	+	39	136
-	+	37	60
-	+	39	77
-	+	38	0
-	+	37	39
-	+	39	72
-	+	41	60
-	+	42	0
-	+	41	70
-	+	43	39
-	+	27	0
-	+	27	42
-	+	28	0
-	+	27	44
-	+	29	69
-	+	31	77
-	+	33	64
-	+	35	64
-	+	37	79
-	+	39	90
-	+	41	70
-	+	43	77
-	+	29	0
-	+	27	45
-	+	29	52
-	+	31	60
-	+	33	47
-	+	35	47
-	+	37	62
-	+	39	73
-	+	41	53
-	+	43	60
 
 > ~/.local/bin/1binds.txt
 	*	1758627275	0
