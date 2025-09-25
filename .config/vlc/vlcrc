@@ -3378,10 +3378,10 @@ qt-privacy-ask=0
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-skins2-last=/home/libor/.local/share/vlc/skins2/wmp12.vlt
+skins2-last=/home/libor/.local/share/vlc/skins2/QuickTime.vlt
 
 # Config of last used skin (string)
-skins2-config=["eqmain_design" "eqbah" 100 100 310 220 0]["main" "buh" 0 0 622 447 1]["main_design" "bah" 100 100 310 220 0]["plwin" "plwin-normal" 0 0 500 350 0]
+skins2-config=["main" "normal" 0 0 352 122 1]["video" "video_layout" 0 0 352 280 0]
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0

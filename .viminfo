@@ -20,14 +20,14 @@
 $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
+:w
+|2,0,1758820911,,"w"
 :wq
 |2,0,1758818990,,"wq"
 :w shell.nix
 |2,0,1758660584,,"w shell.nix"
 :PlugInstall
 |2,0,1758658415,,"PlugInstall"
-:w
-|2,0,1758623594,,"w"
 :WQ
 |2,0,1758556526,,"WQ"
 :q
@@ -150,28 +150,32 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  202  63  ~/.config/sway/config
-|4,48,202,63,1758818990,"~/.config/sway/config"
-'1  202  20  ~/.config/sway/config
-|4,49,202,20,1758818283,"~/.config/sway/config"
-'2  202  44  ~/.config/sway/config
-|4,50,202,44,1758818221,"~/.config/sway/config"
-'3  202  44  ~/.config/sway/config
-|4,51,202,44,1758818221,"~/.config/sway/config"
-'4  1  0  ~/.local/bin/confm
-|4,52,1,0,1758744537,"~/.local/bin/confm"
-'5  6  30  ~/.local/bin/umonedrive
-|4,53,6,30,1758744422,"~/.local/bin/umonedrive"
-'6  6  70  ~/.local/bin/onedrive
-|4,54,6,70,1758744316,"~/.local/bin/onedrive"
-'7  1  0  ~/.config/sway/config
-|4,55,1,0,1758663684,"~/.config/sway/config"
-'8  1  0  ~/.config/sway/config
-|4,56,1,0,1758663684,"~/.config/sway/config"
-'9  1  0  ~/.config/sway/config
-|4,57,1,0,1758663684,"~/.config/sway/config"
+'0  202  43  ~/.config/sway/config
+|4,48,202,43,1758820932,"~/.config/sway/config"
+'1  202  63  ~/.config/sway/config
+|4,49,202,63,1758818990,"~/.config/sway/config"
+'2  202  20  ~/.config/sway/config
+|4,50,202,20,1758818283,"~/.config/sway/config"
+'3  202  20  ~/.config/sway/config
+|4,51,202,20,1758818283,"~/.config/sway/config"
+'4  202  44  ~/.config/sway/config
+|4,52,202,44,1758818221,"~/.config/sway/config"
+'5  202  44  ~/.config/sway/config
+|4,53,202,44,1758818221,"~/.config/sway/config"
+'6  202  44  ~/.config/sway/config
+|4,54,202,44,1758818221,"~/.config/sway/config"
+'7  202  44  ~/.config/sway/config
+|4,55,202,44,1758818221,"~/.config/sway/config"
+'8  1  0  ~/.local/bin/confm
+|4,56,1,0,1758744537,"~/.local/bin/confm"
+'9  6  30  ~/.local/bin/umonedrive
+|4,57,6,30,1758744422,"~/.local/bin/umonedrive"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
 -'  202  63  ~/.config/sway/config
 |4,39,202,63,1758818990,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
@@ -200,6 +204,54 @@ $
 |4,39,1,0,1758744537,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
+-'  6  30  ~/.local/bin/umonedrive
+|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
 -'  6  30  ~/.local/bin/umonedrive
 |4,39,6,30,1758744422,"~/.local/bin/umonedrive"
 -'  6  30  ~/.local/bin/umonedrive
@@ -264,6 +316,38 @@ $
 |4,39,1,0,1758744410,"~/.local/bin/umonedrive"
 -'  1  0  ~/.local/bin/umonedrive
 |4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
+-'  1  0  ~/.local/bin/umonedrive
+|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
 -'  6  70  ~/.local/bin/onedrive
 |4,39,6,70,1758744316,"~/.local/bin/onedrive"
 -'  6  70  ~/.local/bin/onedrive
@@ -288,98 +372,14 @@ $
 |4,39,6,70,1758744316,"~/.local/bin/onedrive"
 -'  6  70  ~/.local/bin/onedrive
 |4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
--'  1  0  ~/.local/bin/onedrive
-|4,39,1,0,1758744274,"~/.local/bin/onedrive"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/sway/config
-	*	1758818985	0
-	"	202	63
-	^	202	64
-	.	202	63
+	*	1758820911	0
+	"	202	43
+	^	202	44
+	.	202	44
 	+	205	27
 	+	207	0
 	+	203	0
@@ -471,7 +471,7 @@ $
 	+	82	0
 	+	80	0
 	+	79	41
-	+	202	63
+	+	202	44
 	s	1	0
 
 > ~/.local/bin/confm
