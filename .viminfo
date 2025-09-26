@@ -20,10 +20,10 @@
 $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+:wq
+|2,0,1758888458,,"wq"
 :w
 |2,0,1758820911,,"w"
-:wq
-|2,0,1758818990,,"wq"
 :w shell.nix
 |2,0,1758660584,,"w shell.nix"
 :PlugInstall
@@ -107,39 +107,39 @@ $
 "0	CHAR	0
 	, resize set 900  600
 |3,0,0,0,1,0,1758818954,", resize set 900  600"
-"1	LINE	0
-	    for_window [class="Vlc"] floating enable, resize set 900  600
-|3,0,1,1,1,0,1758818966,"    for_window [class=\"Vlc\"] floating enable, resize set 900  600"
+""1	LINE	0
+	            strawberry
+|3,1,1,1,1,0,1758888442,"            strawberry"
 "2	LINE	0
-	            # fuzzel
-|3,0,2,1,1,0,1758658106,"            # fuzzel"
+	    for_window [class="Vlc"] floating enable, resize set 900  600
+|3,0,2,1,1,0,1758818966,"    for_window [class=\"Vlc\"] floating enable, resize set 900  600"
 "3	LINE	0
-	        "custom/media"
-|3,0,3,1,1,0,1758623383,"        \"custom/media\""
+	            # fuzzel
+|3,0,3,1,1,0,1758658106,"            # fuzzel"
 "4	LINE	0
-	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
-|3,0,4,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
+	        "custom/media"
+|3,0,4,1,1,0,1758623383,"        \"custom/media\""
 "5	LINE	0
-	    bindsym $ms+y exec foot -e yazi
-|3,0,5,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
+	    bindsym $ms+e exec foot bash -c "sleep 0.1; exec vim"
+|3,0,5,1,1,0,1758556095,"    bindsym $ms+e exec foot bash -c \"sleep 0.1; exec vim\""
 "6	LINE	0
-	    bindsym $ms+a exec foot 
-|3,0,6,1,1,0,1758556081,"    bindsym $ms+a exec foot "
+	    bindsym $ms+y exec foot -e yazi
+|3,0,6,1,1,0,1758556089,"    bindsym $ms+y exec foot -e yazi"
 "7	LINE	0
-	TerminalOptions=--class btop
-|3,0,7,1,1,0,1758555838,"TerminalOptions=--class btop"
+	    bindsym $ms+a exec foot 
+|3,0,7,1,1,0,1758556081,"    bindsym $ms+a exec foot "
 "8	LINE	0
-	Version=1.0
-|3,0,8,1,1,0,1758555831,"Version=1.0"
+	TerminalOptions=--class btop
+|3,0,8,1,1,0,1758555838,"TerminalOptions=--class btop"
 "9	LINE	0
-	X-KDE-SubstituteUID=false
-|3,0,9,1,1,0,1758555830,"X-KDE-SubstituteUID=false"
+	Version=1.0
+|3,0,9,1,1,0,1758555831,"Version=1.0"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-""-	CHAR	0
-	0
-|3,1,36,0,1,0,1758818985,"0"
+"-	CHAR	0
+	audacious
+|3,0,36,0,1,0,1758886172,"audacious"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -150,42 +150,166 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  202  43  ~/.config/sway/config
-|4,48,202,43,1758820932,"~/.config/sway/config"
-'1  202  63  ~/.config/sway/config
-|4,49,202,63,1758818990,"~/.config/sway/config"
-'2  202  20  ~/.config/sway/config
-|4,50,202,20,1758818283,"~/.config/sway/config"
-'3  202  20  ~/.config/sway/config
-|4,51,202,20,1758818283,"~/.config/sway/config"
-'4  202  44  ~/.config/sway/config
-|4,52,202,44,1758818221,"~/.config/sway/config"
-'5  202  44  ~/.config/sway/config
-|4,53,202,44,1758818221,"~/.config/sway/config"
-'6  202  44  ~/.config/sway/config
-|4,54,202,44,1758818221,"~/.config/sway/config"
-'7  202  44  ~/.config/sway/config
-|4,55,202,44,1758818221,"~/.config/sway/config"
-'8  1  0  ~/.local/bin/confm
-|4,56,1,0,1758744537,"~/.local/bin/confm"
-'9  6  30  ~/.local/bin/umonedrive
-|4,57,6,30,1758744422,"~/.local/bin/umonedrive"
+'0  33  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,33,12,1758888458,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  33  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,33,21,1758886185,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  33  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,33,20,1758886000,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  33  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,51,33,20,1758886000,"~/.dotfiles/nixos/modules/pkgs.nix"
+'4  202  43  ~/.config/sway/config
+|4,52,202,43,1758820932,"~/.config/sway/config"
+'5  202  63  ~/.config/sway/config
+|4,53,202,63,1758818990,"~/.config/sway/config"
+'6  202  20  ~/.config/sway/config
+|4,54,202,20,1758818283,"~/.config/sway/config"
+'7  202  20  ~/.config/sway/config
+|4,55,202,20,1758818283,"~/.config/sway/config"
+'8  202  44  ~/.config/sway/config
+|4,56,202,44,1758818221,"~/.config/sway/config"
+'9  202  44  ~/.config/sway/config
+|4,57,202,44,1758818221,"~/.config/sway/config"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  33  12  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,33,12,1758888458,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758888437,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  33  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,33,21,1758886185,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758886156,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  33  20  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,33,20,1758886000,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1758885987,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
+-'  202  43  ~/.config/sway/config
+|4,39,202,43,1758820932,"~/.config/sway/config"
 -'  202  43  ~/.config/sway/config
 |4,39,202,43,1758820932,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758820856,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
+-'  202  63  ~/.config/sway/config
+|4,39,202,63,1758818990,"~/.config/sway/config"
 -'  202  63  ~/.config/sway/config
 |4,39,202,63,1758818990,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818941,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
+-'  202  20  ~/.config/sway/config
+|4,39,202,20,1758818283,"~/.config/sway/config"
 -'  202  20  ~/.config/sway/config
 |4,39,202,20,1758818283,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818259,"~/.config/sway/config"
 -'  202  44  ~/.config/sway/config
 |4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  202  44  ~/.config/sway/config
+|4,39,202,44,1758818221,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1758818179,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1758818179,"~/.config/sway/config"
 -'  1  0  ~/.local/bin/confm
@@ -220,160 +344,65 @@ $
 |4,39,1,0,1758744537,"~/.local/bin/confm"
 -'  1  0  ~/.local/bin/confm
 |4,39,1,0,1758744537,"~/.local/bin/confm"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  6  30  ~/.local/bin/umonedrive
-|4,39,6,30,1758744422,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  1  0  ~/.local/bin/umonedrive
-|4,39,1,0,1758744410,"~/.local/bin/umonedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
--'  6  70  ~/.local/bin/onedrive
-|4,39,6,70,1758744316,"~/.local/bin/onedrive"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
+-'  1  0  ~/.local/bin/confm
+|4,39,1,0,1758744537,"~/.local/bin/confm"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1758888453	0
+	"	33	12
+	.	33	0
+	+	8	0
+	+	24	2
+	+	25	24
+	+	26	37
+	+	29	0
+	+	27	26
+	+	27	116
+	+	27	21
+	+	8	0
+	+	7	10
+	+	50	0
+	+	7	0
+	+	2	0
+	+	32	0
+	+	14	0
+	+	13	27
+	+	32	0
+	+	32	19
+	+	63	16
+	+	32	0
+	+	85	0
+	+	49	0
+	+	33	0
+	m	13	17
 
 > ~/.config/sway/config
 	*	1758820911	0
@@ -591,35 +620,6 @@ $
 	"	6	70
 	.	6	69
 	+	6	69
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1758662372	0
-	"	49	12
-	^	49	18
-	.	49	0
-	+	8	0
-	+	24	2
-	+	25	24
-	+	26	37
-	+	29	0
-	+	27	26
-	+	27	116
-	+	27	21
-	+	8	0
-	+	7	10
-	+	50	0
-	+	7	0
-	+	2	0
-	+	32	0
-	+	14	0
-	+	13	27
-	+	32	0
-	+	32	19
-	+	63	16
-	+	32	0
-	+	85	0
-	+	49	0
-	m	13	17
 
 > ~/shell.nix
 	*	1758662311	0
