@@ -21,7 +21,7 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1759010869,,"wq"
+|2,0,1759012785,,"wq"
 :wq4
 |2,0,1759003688,,"wq4"
 :w
@@ -109,40 +109,40 @@ $
 "0	LINE	0
 	    for_window [class="Vlc"] floating enable
 |3,0,0,1,1,0,1758896710,"    for_window [class=\"Vlc\"] floating enable"
-""1	LINE	0
-	geometry=708x400
-|3,1,1,1,1,0,1759010865,"geometry=708x400"
+"1	CHAR	0
+	708x400
+	profile=gpu-hq
+|3,0,1,0,2,0,1759012728,"708x400","profile=gpu-hq"
 "2	LINE	0
-	hwdec=auto
-|3,0,2,1,1,0,1759003685,"hwdec=auto"
+	geometry=708x400
+|3,0,2,1,1,0,1759010865,"geometry=708x400"
 "3	LINE	0
-	hwdec=vaapi
-|3,0,3,1,1,0,1758998594,"hwdec=vaapi"
+	hwdec=auto
+|3,0,3,1,1,0,1759003685,"hwdec=auto"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1758997272,""
+	hwdec=vaapi
+|3,0,4,1,1,0,1758998594,"hwdec=vaapi"
 "5	LINE	0
-	hwdec=auto-safe
-|3,0,5,1,1,0,1758997269,"hwdec=auto-safe"
-"6	LINE	0
-	UP add volume +2
-|3,0,6,1,1,0,1758965887,"UP add volume +2"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1758965886,""
+|3,0,5,1,1,0,1758997272,""
+"6	LINE	0
+	hwdec=auto-safe
+|3,0,6,1,1,0,1758997269,"hwdec=auto-safe"
+"7	LINE	0
+	UP add volume +2
+|3,0,7,1,1,0,1758965887,"UP add volume +2"
 "8	LINE	0
+	
+|3,0,8,1,1,0,1758965886,""
+"9	LINE	0
 	DOWN add volume -2
-|3,0,8,1,1,0,1758965885,"DOWN add volume -2"
-"9	BLOCK	19
-	UP add volume  +2
-	DOWN add volume  -2
-|3,0,9,2,2,19,1758965635,"UP add volume  +2","DOWN add volume  -2"
+|3,0,9,1,1,0,1758965885,"DOWN add volume -2"
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-"-	CHAR	0
-	add 
-|3,0,36,0,1,0,1758961717,"add "
+""-	CHAR	0
+	708x400
+|3,1,36,0,1,0,1759012761,"708x400"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -153,30 +153,46 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  1  0  ~/.config/mpv/mpv.conf
-|4,48,1,0,1759010869,"~/.config/mpv/mpv.conf"
-'1  2  15  ~/.config/mpv/mpv.conf
-|4,49,2,15,1759010713,"~/.config/mpv/mpv.conf"
-'2  3  15  ~/.config/mpv/mpv.conf
-|4,50,3,15,1759010713,"~/.config/mpv/mpv.conf"
-'3  1  0  ~/.config/mpv/mpv.conf
-|4,51,1,0,1759003696,"~/.config/mpv/mpv.conf"
-'4  2  0  ~/.config/mpv/mpv.conf
-|4,52,2,0,1759003696,"~/.config/mpv/mpv.conf"
-'5  2  0  ~/.config/mpv/mpv.conf
-|4,53,2,0,1759003696,"~/.config/mpv/mpv.conf"
-'6  3  9  ~/.config/mpv/mpv.conf
-|4,54,3,9,1759003673,"~/.config/mpv/mpv.conf"
-'7  3  9  ~/.config/mpv/mpv.conf
-|4,55,3,9,1759003673,"~/.config/mpv/mpv.conf"
-'8  2  9  ~/.config/mpv/mpv.conf
-|4,56,2,9,1759003673,"~/.config/mpv/mpv.conf"
-'9  2  9  ~/.config/mpv/mpv.conf
-|4,57,2,9,1759003673,"~/.config/mpv/mpv.conf"
+'0  1  15  ~/.config/mpv/mpv.conf
+|4,48,1,15,1759012785,"~/.config/mpv/mpv.conf"
+'1  3  15  ~/.config/mpv/mpv.conf
+|4,49,3,15,1759012499,"~/.config/mpv/mpv.conf"
+'2  2  15  ~/.config/mpv/mpv.conf
+|4,50,2,15,1759012499,"~/.config/mpv/mpv.conf"
+'3  3  11  ~/.config/mpv/mpv.conf
+|4,51,3,11,1759012401,"~/.config/mpv/mpv.conf"
+'4  2  11  ~/.config/mpv/mpv.conf
+|4,52,2,11,1759012401,"~/.config/mpv/mpv.conf"
+'5  1  9  ~/.config/mpv/mpv.conf
+|4,53,1,9,1759010869,"~/.config/mpv/mpv.conf"
+'6  1  9  ~/.config/mpv/mpv.conf
+|4,54,1,9,1759010869,"~/.config/mpv/mpv.conf"
+'7  1  9  ~/.config/mpv/mpv.conf
+|4,55,1,9,1759010869,"~/.config/mpv/mpv.conf"
+'8  1  0  ~/.config/mpv/mpv.conf
+|4,56,1,0,1759010869,"~/.config/mpv/mpv.conf"
+'9  1  0  ~/.config/mpv/mpv.conf
+|4,57,1,0,1759010869,"~/.config/mpv/mpv.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  1  15  ~/.config/mpv/mpv.conf
+|4,39,1,15,1759012785,"~/.config/mpv/mpv.conf"
+-'  3  15  ~/.config/mpv/mpv.conf
+|4,39,3,15,1759012713,"~/.config/mpv/mpv.conf"
+-'  2  15  ~/.config/mpv/mpv.conf
+|4,39,2,15,1759012499,"~/.config/mpv/mpv.conf"
+-'  2  11  ~/.config/mpv/mpv.conf
+|4,39,2,11,1759012401,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1759010869,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759010869,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759010869,"~/.config/mpv/mpv.conf"
+-'  3  15  ~/.config/mpv/mpv.conf
+|4,39,3,15,1759010713,"~/.config/mpv/mpv.conf"
+-'  3  15  ~/.config/mpv/mpv.conf
+|4,39,3,15,1759010713,"~/.config/mpv/mpv.conf"
 -'  2  15  ~/.config/mpv/mpv.conf
 |4,39,2,15,1759010713,"~/.config/mpv/mpv.conf"
 -'  3  15  ~/.config/mpv/mpv.conf
@@ -185,6 +201,12 @@ $
 |4,39,2,0,1759003696,"~/.config/mpv/mpv.conf"
 -'  2  0  ~/.config/mpv/mpv.conf
 |4,39,2,0,1759003696,"~/.config/mpv/mpv.conf"
+-'  4  9  ~/.config/mpv/mpv.conf
+|4,39,4,9,1759003673,"~/.config/mpv/mpv.conf"
+-'  4  9  ~/.config/mpv/mpv.conf
+|4,39,4,9,1759003673,"~/.config/mpv/mpv.conf"
+-'  4  9  ~/.config/mpv/mpv.conf
+|4,39,4,9,1759003673,"~/.config/mpv/mpv.conf"
 -'  3  9  ~/.config/mpv/mpv.conf
 |4,39,3,9,1759003673,"~/.config/mpv/mpv.conf"
 -'  4  9  ~/.config/mpv/mpv.conf
@@ -207,6 +229,12 @@ $
 |4,39,1,0,1758998598,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1758998598,"~/.config/mpv/mpv.conf"
+-'  5  10  ~/.config/mpv/mpv.conf
+|4,39,5,10,1758997800,"~/.config/mpv/mpv.conf"
+-'  5  10  ~/.config/mpv/mpv.conf
+|4,39,5,10,1758997800,"~/.config/mpv/mpv.conf"
+-'  5  10  ~/.config/mpv/mpv.conf
+|4,39,5,10,1758997800,"~/.config/mpv/mpv.conf"
 -'  4  10  ~/.config/mpv/mpv.conf
 |4,39,4,10,1758997800,"~/.config/mpv/mpv.conf"
 -'  5  10  ~/.config/mpv/mpv.conf
@@ -223,6 +251,12 @@ $
 |4,39,1,0,1758997274,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1758997274,"~/.config/mpv/mpv.conf"
+-'  6  14  ~/.config/mpv/mpv.conf
+|4,39,6,14,1758997214,"~/.config/mpv/mpv.conf"
+-'  6  14  ~/.config/mpv/mpv.conf
+|4,39,6,14,1758997214,"~/.config/mpv/mpv.conf"
+-'  6  14  ~/.config/mpv/mpv.conf
+|4,39,6,14,1758997214,"~/.config/mpv/mpv.conf"
 -'  5  14  ~/.config/mpv/mpv.conf
 |4,39,5,14,1758997214,"~/.config/mpv/mpv.conf"
 -'  6  14  ~/.config/mpv/mpv.conf
@@ -245,6 +279,12 @@ $
 |4,39,1,0,1758997089,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1758997089,"~/.config/mpv/mpv.conf"
+-'  7  0  ~/.config/mpv/mpv.conf
+|4,39,7,0,1758965890,"~/.config/mpv/mpv.conf"
+-'  7  0  ~/.config/mpv/mpv.conf
+|4,39,7,0,1758965890,"~/.config/mpv/mpv.conf"
+-'  7  0  ~/.config/mpv/mpv.conf
+|4,39,7,0,1758965890,"~/.config/mpv/mpv.conf"
 -'  6  0  ~/.config/mpv/mpv.conf
 |4,39,6,0,1758965890,"~/.config/mpv/mpv.conf"
 -'  7  0  ~/.config/mpv/mpv.conf
@@ -305,6 +345,12 @@ $
 |4,39,2,17,1758965881,"~/.config/mpv/input.conf"
 -'  2  17  ~/.config/mpv/input.conf
 |4,39,2,17,1758965881,"~/.config/mpv/input.conf"
+-'  2  17  ~/.config/mpv/input.conf
+|4,39,2,17,1758965881,"~/.config/mpv/input.conf"
+-'  2  17  ~/.config/mpv/input.conf
+|4,39,2,17,1758965881,"~/.config/mpv/input.conf"
+-'  2  17  ~/.config/mpv/input.conf
+|4,39,2,17,1758965881,"~/.config/mpv/input.conf"
 -'  1  0  ~/.config/mpv/input.conf
 |4,39,1,0,1758965845,"~/.config/mpv/input.conf"
 -'  1  0  ~/.config/mpv/input.conf
@@ -327,63 +373,15 @@ $
 |4,39,1,0,1758965845,"~/.config/mpv/input.conf"
 -'  1  0  ~/.config/mpv/input.conf
 |4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1758965845,"~/.config/mpv/input.conf"
--'  7  17  ~/.config/mpv/mpv.conf
-|4,39,7,17,1758965696,"~/.config/mpv/mpv.conf"
--'  8  17  ~/.config/mpv/mpv.conf
-|4,39,8,17,1758965696,"~/.config/mpv/mpv.conf"
--'  8  17  ~/.config/mpv/mpv.conf
-|4,39,8,17,1758965696,"~/.config/mpv/mpv.conf"
--'  9  17  ~/.config/mpv/mpv.conf
-|4,39,9,17,1758965696,"~/.config/mpv/mpv.conf"
--'  6  17  ~/.config/mpv/mpv.conf
-|4,39,6,17,1758965696,"~/.config/mpv/mpv.conf"
--'  7  17  ~/.config/mpv/mpv.conf
-|4,39,7,17,1758965696,"~/.config/mpv/mpv.conf"
--'  7  17  ~/.config/mpv/mpv.conf
-|4,39,7,17,1758965696,"~/.config/mpv/mpv.conf"
--'  8  17  ~/.config/mpv/mpv.conf
-|4,39,8,17,1758965696,"~/.config/mpv/mpv.conf"
--'  6  17  ~/.config/mpv/mpv.conf
-|4,39,6,17,1758965696,"~/.config/mpv/mpv.conf"
--'  7  17  ~/.config/mpv/mpv.conf
-|4,39,7,17,1758965696,"~/.config/mpv/mpv.conf"
--'  4  17  ~/.config/mpv/mpv.conf
-|4,39,4,17,1758965696,"~/.config/mpv/mpv.conf"
--'  5  17  ~/.config/mpv/mpv.conf
-|4,39,5,17,1758965696,"~/.config/mpv/mpv.conf"
--'  5  17  ~/.config/mpv/mpv.conf
-|4,39,5,17,1758965696,"~/.config/mpv/mpv.conf"
--'  6  17  ~/.config/mpv/mpv.conf
-|4,39,6,17,1758965696,"~/.config/mpv/mpv.conf"
--'  3  17  ~/.config/mpv/mpv.conf
-|4,39,3,17,1758965696,"~/.config/mpv/mpv.conf"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
 > ~/.config/mpv/mpv.conf
-	*	1759010865	0
-	"	1	0
-	^	2	16
-	.	1	0
-	+	1	11
+	*	1759012782	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	20
 	+	3	15
 	+	3	5
 	+	3	14
@@ -391,10 +389,12 @@ $
 	+	3	16
 	+	3	4
 	+	3	0
-	+	1	13
+	+	1	22
 	+	3	0
-	+	2	15
-	+	1	0
+	+	3	15
+	+	1	9
+	+	3	0
+	+	1	15
 
 > ~/.config/mpv/input.conf
 	*	1758965881	0
