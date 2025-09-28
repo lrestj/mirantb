@@ -21,7 +21,7 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1759051828,,"wq"
+|2,0,1759052032,,"wq"
 :wq4
 |2,0,1759003688,,"wq4"
 :w
@@ -113,9 +113,9 @@ $
 	    idlescreen = true,          -- draw logo and text when idle
 	    scalewindowed = 1.5,        -- scaling of the controller when windowed
 |3,0,0,1,5,0,1759043289,"local user_opts = {","    showwindowed = true,        -- show OSC when windowed?","    showfullscreen = true,      -- show OSC when fullscreen?","    idlescreen = true,          -- draw logo and text when idle","    scalewindowed = 1.5,        -- scaling of the controller when windowed"
-""1	LINE	0
+"1	LINE	0
 	    '/home/anon/',
-|3,1,1,1,1,0,1759051730,"    '/home/anon/',"
+|3,0,1,1,1,0,1759051730,"    '/home/anon/',"
 "2	LINE	0
 	}
 |3,0,2,1,1,0,1759043399,"}"
@@ -143,9 +143,9 @@ $
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-"-	CHAR	0
-	/media/HDD/users/anon/Downloads/
-|3,0,36,0,1,0,1759051714,"/media/HDD/users/anon/Downloads/"
+""-	CHAR	0
+	yes
+|3,1,36,0,1,0,1759052028,"yes"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -158,28 +158,34 @@ $
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
 '0  37  19  ~/.config/mpv/scripts/navigator.lua
 |4,48,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
-'1  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,49,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+'1  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,49,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
 '2  38  2  ~/.config/mpv/scripts/navigator.lua
 |4,50,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
-'3  4  9  ~/.config/mpv/mpv.conf
-|4,51,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'4  4  9  ~/.config/mpv/mpv.conf
-|4,52,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'5  4  9  ~/.config/mpv/mpv.conf
-|4,53,4,9,1759045189,"~/.config/mpv/mpv.conf"
+'3  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,51,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+'4  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,52,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+'5  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,53,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
 '6  4  9  ~/.config/mpv/mpv.conf
 |4,54,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'7  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,55,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
-'8  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,56,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
-'9  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,57,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+'7  4  9  ~/.config/mpv/mpv.conf
+|4,55,4,9,1759045189,"~/.config/mpv/mpv.conf"
+'8  4  9  ~/.config/mpv/mpv.conf
+|4,56,4,9,1759045189,"~/.config/mpv/mpv.conf"
+'9  4  9  ~/.config/mpv/mpv.conf
+|4,57,4,9,1759045189,"~/.config/mpv/mpv.conf"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  4  8  ~/.config/mpv/mpv.conf
+|4,39,4,8,1759052032,"~/.config/mpv/mpv.conf"
 -'  37  19  ~/.config/mpv/scripts/navigator.lua
 |4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
 -'  38  2  ~/.config/mpv/scripts/navigator.lua
 |4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
 -'  38  2  ~/.config/mpv/scripts/navigator.lua
@@ -196,6 +202,8 @@ $
 |4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/script-opts/modernz.conf
 |4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
 -'  1  0  ~/.config/mpv/script-opts/modernz.conf
@@ -204,6 +212,10 @@ $
 |4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
 -'  1  0  ~/.config/mpv/script-opts/modernz.conf
 |4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  3  10  ~/.config/mpv/script-opts/modernz.conf
+|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
 -'  3  10  ~/.config/mpv/script-opts/modernz.conf
 |4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
 -'  3  10  ~/.config/mpv/script-opts/modernz.conf
@@ -264,6 +276,10 @@ $
 |4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
 -'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
 |4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
+-'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
+|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
+-'  2  69  ~/.config/mpv/script-opts/modernz.conf
+|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
 -'  2  69  ~/.config/mpv/script-opts/modernz.conf
 |4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
 -'  2  69  ~/.config/mpv/script-opts/modernz.conf
@@ -356,44 +372,16 @@ $
 |4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
 -'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
 |4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
--'  1  0  ~/.config/mpv/script-opts/osc.conf
-|4,39,1,0,1759043714,"~/.config/mpv/script-opts/osc.conf"
+-'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
+|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
-> ~/.config/mpv/scripts/navigator.lua
-	*	1759051825	0
-	"	37	19
-	^	37	20
-	.	37	19
-	+	36	22
-	+	37	23
-	+	38	0
-	+	37	19
-
 > ~/.config/mpv/mpv.conf
-	*	1759051656	0
-	"	4	9
-	^	4	10
-	.	4	9
+	*	1759052030	0
+	"	4	8
+	^	4	9
+	.	4	8
 	+	1	20
 	+	5	15
 	+	5	5
@@ -408,7 +396,17 @@ $
 	+	1	9
 	+	5	0
 	+	1	15
-	+	4	9
+	+	4	8
+
+> ~/.config/mpv/scripts/navigator.lua
+	*	1759052020	0
+	"	38	2
+	^	37	20
+	.	37	19
+	+	36	22
+	+	37	23
+	+	38	0
+	+	37	19
 
 > ~/.config/mpv/script-opts/modernz.conf
 	*	1759045168	0
