@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alacritty msg create-window
+~MSle0~/:wq
 
 # Last Substitute Search Pattern:
 ~MSle0&alacritty msg create-window
@@ -21,11 +21,11 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1759052032,,"wq"
+|2,0,1759229283,,"wq"
+:w
+|2,0,1759053358,,"w"
 :wq4
 |2,0,1759003688,,"wq4"
-:w
-|2,0,1758965879,,"w"
 :w shell.nix
 |2,0,1758660584,,"w shell.nix"
 :PlugInstall
@@ -80,6 +80,8 @@ $
 |2,0,1757749932,,"so $MYVIMRC"
 
 # Historie vyhledávaných řetězců (počínaje nejnovější položkou):
+??:wq
+|2,1,1759228964,63,":wq"
 ? alacritty msg create-window
 |2,1,1758553829,,"alacritty msg create-window"
 ? \<foot\>
@@ -113,39 +115,39 @@ $
 	    idlescreen = true,          -- draw logo and text when idle
 	    scalewindowed = 1.5,        -- scaling of the controller when windowed
 |3,0,0,1,5,0,1759043289,"local user_opts = {","    showwindowed = true,        -- show OSC when windowed?","    showfullscreen = true,      -- show OSC when fullscreen?","    idlescreen = true,          -- draw logo and text when idle","    scalewindowed = 1.5,        -- scaling of the controller when windowed"
-"1	LINE	0
-	    '/home/anon/',
-|3,0,1,1,1,0,1759051730,"    '/home/anon/',"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1759229240,""
 "2	LINE	0
-	}
-|3,0,2,1,1,0,1759043399,"}"
+	geometry=50%:50%
+|3,0,2,1,1,0,1759229026,"geometry=50%:50%"
 "3	LINE	0
-	local user_opts = {
-|3,0,3,1,1,0,1759043395,"local user_opts = {"
+	geometry=50%:50%
+|3,0,3,1,1,0,1759228732,"geometry=50%:50%"
 "4	LINE	0
-	    idlescreen = true,          -- draw logo and text when idle
-|3,0,4,1,1,0,1759043335,"    idlescreen = true,          -- draw logo and text when idle"
+	cover-art-files=yes
+|3,0,4,1,1,0,1759052826,"cover-art-files=yes"
 "5	LINE	0
-	    showfullscreen = true,      -- show OSC when fullscreen?
-|3,0,5,1,1,0,1759043334,"    showfullscreen = true,      -- show OSC when fullscreen?"
+	    '/home/anon/',
+|3,0,5,1,1,0,1759051730,"    '/home/anon/',"
 "6	LINE	0
-	    showwindowed = true,        -- show OSC when windowed?
-|3,0,6,1,1,0,1759043334,"    showwindowed = true,        -- show OSC when windowed?"
+	}
+|3,0,6,1,1,0,1759043399,"}"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1759043316,""
+	local user_opts = {
+|3,0,7,1,1,0,1759043395,"local user_opts = {"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1759042980,""
+	    idlescreen = true,          -- draw logo and text when idle
+|3,0,8,1,1,0,1759043335,"    idlescreen = true,          -- draw logo and text when idle"
 "9	LINE	0
-	    scalewindowed = 1.0,        -- scaling of the controller when windowed
-|3,0,9,1,1,0,1759042942,"    scalewindowed = 1.0,        -- scaling of the controller when windowed"
+	    showfullscreen = true,      -- show OSC when fullscreen?
+|3,0,9,1,1,0,1759043334,"    showfullscreen = true,      -- show OSC when fullscreen?"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
-""-	CHAR	0
+"-	CHAR	0
 	yes
-|3,1,36,0,1,0,1759052028,"yes"
+|3,0,36,0,1,0,1759052028,"yes"
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -156,34 +158,150 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,48,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
-'1  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,49,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
-'2  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,50,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
-'3  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,51,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
-'4  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,52,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
-'5  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,53,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
-'6  4  9  ~/.config/mpv/mpv.conf
-|4,54,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'7  4  9  ~/.config/mpv/mpv.conf
-|4,55,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'8  4  9  ~/.config/mpv/mpv.conf
-|4,56,4,9,1759045189,"~/.config/mpv/mpv.conf"
-'9  4  9  ~/.config/mpv/mpv.conf
-|4,57,4,9,1759045189,"~/.config/mpv/mpv.conf"
+'0  1  19  ~/.config/mpv/mpv.conf
+|4,48,1,19,1759229283,"~/.config/mpv/mpv.conf"
+'1  2  0  ~/.config/mpv/mpv.conf
+|4,49,2,0,1759229029,"~/.config/mpv/mpv.conf"
+'2  1  0  ~/.config/mpv/mpv.conf
+|4,50,1,0,1759229029,"~/.config/mpv/mpv.conf"
+'3  2  0  ~/.config/mpv/mpv.conf
+|4,51,2,0,1759228987,"~/.config/mpv/mpv.conf"
+'4  1  0  ~/.config/mpv/mpv.conf
+|4,52,1,0,1759228987,"~/.config/mpv/mpv.conf"
+'5  2  0  ~/.config/mpv/mpv.conf
+|4,53,2,0,1759228744,"~/.config/mpv/mpv.conf"
+'6  2  0  ~/.config/mpv/mpv.conf
+|4,54,2,0,1759228744,"~/.config/mpv/mpv.conf"
+'7  2  0  ~/.config/mpv/mpv.conf
+|4,55,2,0,1759228744,"~/.config/mpv/mpv.conf"
+'8  3  0  ~/.config/mpv/mpv.conf
+|4,56,3,0,1759228744,"~/.config/mpv/mpv.conf"
+'9  3  0  ~/.config/mpv/mpv.conf
+|4,57,3,0,1759228744,"~/.config/mpv/mpv.conf"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759228987,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759228972,"~/.config/mpv/mpv.conf"
+-'  3  0  ~/.config/mpv/mpv.conf
+|4,39,3,0,1759228960,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759228960,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759228960,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759228744,"~/.config/mpv/mpv.conf"
+-'  1  13  ~/.config/mpv/mpv.conf
+|4,39,1,13,1759228596,"~/.config/mpv/mpv.conf"
+-'  1  12  ~/.config/mpv/mpv.conf
+|4,39,1,12,1759228000,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  5  0  ~/.config/mpv/mpv.conf
+|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  6  0  ~/.config/mpv/mpv.conf
+|4,39,6,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  3  0  ~/.config/mpv/mpv.conf
+|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  5  0  ~/.config/mpv/mpv.conf
+|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  3  0  ~/.config/mpv/mpv.conf
+|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  5  0  ~/.config/mpv/mpv.conf
+|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  3  0  ~/.config/mpv/mpv.conf
+|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+-'  7  12  ~/.config/mpv/mpv.conf
+|4,39,7,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  5  12  ~/.config/mpv/mpv.conf
+|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  6  12  ~/.config/mpv/mpv.conf
+|4,39,6,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  6  12  ~/.config/mpv/mpv.conf
+|4,39,6,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  4  12  ~/.config/mpv/mpv.conf
+|4,39,4,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  5  12  ~/.config/mpv/mpv.conf
+|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  5  12  ~/.config/mpv/mpv.conf
+|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  5  12  ~/.config/mpv/mpv.conf
+|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
+-'  4  0  ~/.config/mpv/mpv.conf
+|4,39,4,0,1759052829,"~/.config/mpv/mpv.conf"
+-'  5  18  ~/.config/mpv/mpv.conf
+|4,39,5,18,1759052759,"~/.config/mpv/mpv.conf"
+-'  5  18  ~/.config/mpv/mpv.conf
+|4,39,5,18,1759052759,"~/.config/mpv/mpv.conf"
+-'  4  8  ~/.config/mpv/mpv.conf
+|4,39,4,8,1759052032,"~/.config/mpv/mpv.conf"
 -'  4  8  ~/.config/mpv/mpv.conf
 |4,39,4,8,1759052032,"~/.config/mpv/mpv.conf"
 -'  37  19  ~/.config/mpv/scripts/navigator.lua
 |4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
 -'  37  19  ~/.config/mpv/scripts/navigator.lua
 |4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  37  19  ~/.config/mpv/scripts/navigator.lua
+|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
+-'  38  2  ~/.config/mpv/scripts/navigator.lua
+|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
 -'  38  2  ~/.config/mpv/scripts/navigator.lua
 |4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
 -'  38  2  ~/.config/mpv/scripts/navigator.lua
@@ -204,6 +322,32 @@ $
 |4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
+-'  1  0  ~/.config/mpv/script-opts/modernz.conf
+|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
 -'  1  0  ~/.config/mpv/script-opts/modernz.conf
 |4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
 -'  1  0  ~/.config/mpv/script-opts/modernz.conf
@@ -228,161 +372,20 @@ $
 |4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
 -'  3  10  ~/.config/mpv/script-opts/modernz.conf
 |4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044584,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044584,"~/.config/mpv/script-opts/modernz.conf"
 -'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044458,"~/.config/mpv/script-opts/modernz.conf"
+|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
 -'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044458,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044432,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044432,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  1  0  https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md
-|4,39,1,0,1759044428,"https://github.com/Samillion/ModernZ/blob/main/docs/TRANSLATIONS.md"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  2  69  ~/.config/mpv/script-opts/modernz.conf
-|4,39,2,69,1759044423,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044381,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759044381,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
--'  1  0  ~/.config/mpv/fonts/material-design-icons.ttf
-|4,39,1,0,1759044365,"~/.config/mpv/fonts/material-design-icons.ttf"
+|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
+-'  3  10  ~/.config/mpv/script-opts/modernz.conf
+|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
 > ~/.config/mpv/mpv.conf
-	*	1759052030	0
-	"	4	8
-	^	4	9
-	.	4	8
-	+	1	20
+	*	1759229280	0
+	"	1	19
+	.	1	19
+	+	2	20
 	+	5	15
 	+	5	5
 	+	5	14
@@ -390,13 +393,18 @@ $
 	+	5	16
 	+	5	4
 	+	5	0
-	+	1	22
+	+	2	22
 	+	5	0
 	+	5	15
-	+	1	9
+	+	2	9
 	+	5	0
-	+	1	15
-	+	4	8
+	+	2	15
+	+	4	9
+	+	5	0
+	+	2	0
+	+	1	22
+	+	2	0
+	+	1	19
 
 > ~/.config/mpv/scripts/navigator.lua
 	*	1759052020	0
