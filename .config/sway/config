@@ -82,6 +82,7 @@
     bindsym $cs+e exec $editor
     bindsym $cs+b exec brave
     bindsym $cs+f exec thunar
+    bindsym $cs+p exec mpv --player-operation-mode=pseudo-gui
     bindsym $cs+s exec simple-scan
     bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper

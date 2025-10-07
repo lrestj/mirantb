@@ -21,7 +21,7 @@ $
 
 # Historie příkazové řádky (počínaje nejnovější položkou):
 :wq
-|2,0,1759229283,,"wq"
+|2,0,1759829508,,"wq"
 :w
 |2,0,1759053358,,"w"
 :wq4
@@ -108,46 +108,43 @@ $
 # Historie Debug Line (počínaje nejnovější položkou):
 
 # Registry:
-"0	LINE	0
-	local user_opts = {
-	    showwindowed = true,        -- show OSC when windowed?
-	    showfullscreen = true,      -- show OSC when fullscreen?
-	    idlescreen = true,          -- draw logo and text when idle
-	    scalewindowed = 1.5,        -- scaling of the controller when windowed
-|3,0,0,1,5,0,1759043289,"local user_opts = {","    showwindowed = true,        -- show OSC when windowed?","    showfullscreen = true,      -- show OSC when fullscreen?","    idlescreen = true,          -- draw logo and text when idle","    scalewindowed = 1.5,        -- scaling of the controller when windowed"
-""1	LINE	0
+"0	CHAR	0
+	mpv --player-operation-mode=pseudo-gui -- %U
 	
-|3,1,1,1,1,0,1759229240,""
+|3,0,0,0,2,0,1759253144,"mpv --player-operation-mode=pseudo-gui -- %U",""
+"1	LINE	0
+	gtk-application-prefer-dark-theme=1
+|3,0,1,1,1,0,1759829420,"gtk-application-prefer-dark-theme=1"
 "2	LINE	0
-	geometry=50%:50%
-|3,0,2,1,1,0,1759229026,"geometry=50%:50%"
+	
+|3,0,2,1,1,0,1759253200,""
 "3	LINE	0
-	geometry=50%:50%
-|3,0,3,1,1,0,1759228732,"geometry=50%:50%"
+	
+|3,0,3,1,1,0,1759229240,""
 "4	LINE	0
-	cover-art-files=yes
-|3,0,4,1,1,0,1759052826,"cover-art-files=yes"
+	geometry=50%:50%
+|3,0,4,1,1,0,1759229026,"geometry=50%:50%"
 "5	LINE	0
-	    '/home/anon/',
-|3,0,5,1,1,0,1759051730,"    '/home/anon/',"
+	geometry=50%:50%
+|3,0,5,1,1,0,1759228732,"geometry=50%:50%"
 "6	LINE	0
-	}
-|3,0,6,1,1,0,1759043399,"}"
+	cover-art-files=yes
+|3,0,6,1,1,0,1759052826,"cover-art-files=yes"
 "7	LINE	0
-	local user_opts = {
-|3,0,7,1,1,0,1759043395,"local user_opts = {"
+	    '/home/anon/',
+|3,0,7,1,1,0,1759051730,"    '/home/anon/',"
 "8	LINE	0
-	    idlescreen = true,          -- draw logo and text when idle
-|3,0,8,1,1,0,1759043335,"    idlescreen = true,          -- draw logo and text when idle"
+	}
+|3,0,8,1,1,0,1759043399,"}"
 "9	LINE	0
-	    showfullscreen = true,      -- show OSC when fullscreen?
-|3,0,9,1,1,0,1759043334,"    showfullscreen = true,      -- show OSC when fullscreen?"
+	local user_opts = {
+|3,0,9,1,1,0,1759043395,"local user_opts = {"
 "q@	CHAR	0
 	ibrave ��5�kd�kd�kl�kl�kl�kl
 |3,2,26,0,1,0,1757776524,"ibrave ��5�kd�kd�kl�kl�kl�kl"
 "-	CHAR	0
-	yes
-|3,0,36,0,1,0,1759052028,"yes"
+	 
+|3,0,36,0,1,0,1759253241," "
 
 # Souborové značky:
 'C  1  0  ~/.local/bin/confm
@@ -158,228 +155,354 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  1  19  ~/.config/mpv/mpv.conf
-|4,48,1,19,1759229283,"~/.config/mpv/mpv.conf"
-'1  2  0  ~/.config/mpv/mpv.conf
-|4,49,2,0,1759229029,"~/.config/mpv/mpv.conf"
-'2  1  0  ~/.config/mpv/mpv.conf
-|4,50,1,0,1759229029,"~/.config/mpv/mpv.conf"
-'3  2  0  ~/.config/mpv/mpv.conf
-|4,51,2,0,1759228987,"~/.config/mpv/mpv.conf"
-'4  1  0  ~/.config/mpv/mpv.conf
-|4,52,1,0,1759228987,"~/.config/mpv/mpv.conf"
-'5  2  0  ~/.config/mpv/mpv.conf
-|4,53,2,0,1759228744,"~/.config/mpv/mpv.conf"
-'6  2  0  ~/.config/mpv/mpv.conf
-|4,54,2,0,1759228744,"~/.config/mpv/mpv.conf"
-'7  2  0  ~/.config/mpv/mpv.conf
-|4,55,2,0,1759228744,"~/.config/mpv/mpv.conf"
-'8  3  0  ~/.config/mpv/mpv.conf
-|4,56,3,0,1759228744,"~/.config/mpv/mpv.conf"
-'9  3  0  ~/.config/mpv/mpv.conf
-|4,57,3,0,1759228744,"~/.config/mpv/mpv.conf"
+'0  14  4  ~/.dotfiles/other/stuff2remember.txt
+|4,48,14,4,1759829511,"~/.dotfiles/other/stuff2remember.txt"
+'1  9  0  ~/.config/gtk-4.0/settings.ini
+|4,49,9,0,1759829508,"~/.config/gtk-4.0/settings.ini"
+'2  85  60  ~/.config/sway/config
+|4,50,85,60,1759253244,"~/.config/sway/config"
+'3  86  4  ~/.config/sway/config
+|4,51,86,4,1759253207,"~/.config/sway/config"
+'4  86  4  ~/.config/sway/config
+|4,52,86,4,1759253207,"~/.config/sway/config"
+'5  85  25  ~/.config/sway/config
+|4,53,85,25,1759253028,"~/.config/sway/config"
+'6  85  25  ~/.config/sway/config
+|4,54,85,25,1759253028,"~/.config/sway/config"
+'7  85  25  ~/.config/sway/config
+|4,55,85,25,1759253028,"~/.config/sway/config"
+'8  1  19  ~/.config/mpv/mpv.conf
+|4,56,1,19,1759229283,"~/.config/mpv/mpv.conf"
+'9  2  0  ~/.config/mpv/mpv.conf
+|4,57,2,0,1759229029,"~/.config/mpv/mpv.conf"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  14  4  ~/.dotfiles/other/stuff2remember.txt
+|4,39,14,4,1759829511,"~/.dotfiles/other/stuff2remember.txt"
+-'  9  0  ~/.config/gtk-4.0/settings.ini
+|4,39,9,0,1759829508,"~/.config/gtk-4.0/settings.ini"
+-'  1  0  ~/.dotfiles/other/stuff2remember.txt
+|4,39,1,0,1759829460,"~/.dotfiles/other/stuff2remember.txt"
+-'  1  0  ~/.config/gtk-4.0/settings.ini
+|4,39,1,0,1759829412,"~/.config/gtk-4.0/settings.ini"
+-'  85  60  ~/.config/sway/config
+|4,39,85,60,1759253244,"~/.config/sway/config"
+-'  85  60  ~/.config/sway/config
+|4,39,85,60,1759253244,"~/.config/sway/config"
+-'  85  60  ~/.config/sway/config
+|4,39,85,60,1759253244,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759253222,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759253222,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759253222,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  86  4  ~/.config/sway/config
+|4,39,86,4,1759253207,"~/.config/sway/config"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  44  5  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,44,5,1759253155,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  1  0  /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+|4,39,1,0,1759253086,"/nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  85  25  ~/.config/sway/config
+|4,39,85,25,1759253028,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1759252990,"~/.config/sway/config"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
+-'  1  19  ~/.config/mpv/mpv.conf
+|4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
 -'  1  19  ~/.config/mpv/mpv.conf
 |4,39,1,19,1759229283,"~/.config/mpv/mpv.conf"
 -'  2  0  ~/.config/mpv/mpv.conf
 |4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
 |4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
--'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759228987,"~/.config/mpv/mpv.conf"
--'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759228972,"~/.config/mpv/mpv.conf"
--'  3  0  ~/.config/mpv/mpv.conf
-|4,39,3,0,1759228960,"~/.config/mpv/mpv.conf"
 -'  2  0  ~/.config/mpv/mpv.conf
-|4,39,2,0,1759228960,"~/.config/mpv/mpv.conf"
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  2  0  ~/.config/mpv/mpv.conf
-|4,39,2,0,1759228960,"~/.config/mpv/mpv.conf"
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759228744,"~/.config/mpv/mpv.conf"
--'  1  13  ~/.config/mpv/mpv.conf
-|4,39,1,13,1759228596,"~/.config/mpv/mpv.conf"
--'  1  12  ~/.config/mpv/mpv.conf
-|4,39,1,12,1759228000,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  5  0  ~/.config/mpv/mpv.conf
-|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
--'  6  0  ~/.config/mpv/mpv.conf
-|4,39,6,0,1759053402,"~/.config/mpv/mpv.conf"
--'  3  0  ~/.config/mpv/mpv.conf
-|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  2  0  ~/.config/mpv/mpv.conf
-|4,39,2,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  5  0  ~/.config/mpv/mpv.conf
-|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
--'  3  0  ~/.config/mpv/mpv.conf
-|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  5  0  ~/.config/mpv/mpv.conf
-|4,39,5,0,1759053402,"~/.config/mpv/mpv.conf"
--'  3  0  ~/.config/mpv/mpv.conf
-|4,39,3,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759053402,"~/.config/mpv/mpv.conf"
--'  7  12  ~/.config/mpv/mpv.conf
-|4,39,7,12,1759053355,"~/.config/mpv/mpv.conf"
--'  5  12  ~/.config/mpv/mpv.conf
-|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
--'  6  12  ~/.config/mpv/mpv.conf
-|4,39,6,12,1759053355,"~/.config/mpv/mpv.conf"
--'  6  12  ~/.config/mpv/mpv.conf
-|4,39,6,12,1759053355,"~/.config/mpv/mpv.conf"
--'  4  12  ~/.config/mpv/mpv.conf
-|4,39,4,12,1759053355,"~/.config/mpv/mpv.conf"
--'  5  12  ~/.config/mpv/mpv.conf
-|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
--'  5  12  ~/.config/mpv/mpv.conf
-|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
--'  5  12  ~/.config/mpv/mpv.conf
-|4,39,5,12,1759053355,"~/.config/mpv/mpv.conf"
--'  4  0  ~/.config/mpv/mpv.conf
-|4,39,4,0,1759052829,"~/.config/mpv/mpv.conf"
--'  5  18  ~/.config/mpv/mpv.conf
-|4,39,5,18,1759052759,"~/.config/mpv/mpv.conf"
--'  5  18  ~/.config/mpv/mpv.conf
-|4,39,5,18,1759052759,"~/.config/mpv/mpv.conf"
--'  4  8  ~/.config/mpv/mpv.conf
-|4,39,4,8,1759052032,"~/.config/mpv/mpv.conf"
--'  4  8  ~/.config/mpv/mpv.conf
-|4,39,4,8,1759052032,"~/.config/mpv/mpv.conf"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  37  19  ~/.config/mpv/scripts/navigator.lua
-|4,39,37,19,1759051828,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  38  2  ~/.config/mpv/scripts/navigator.lua
-|4,39,38,2,1759051733,"~/.config/mpv/scripts/navigator.lua"
--'  4  9  ~/.config/mpv/mpv.conf
-|4,39,4,9,1759051665,"~/.config/mpv/mpv.conf"
--'  4  9  ~/.config/mpv/mpv.conf
-|4,39,4,9,1759051665,"~/.config/mpv/mpv.conf"
--'  4  9  ~/.config/mpv/mpv.conf
-|4,39,4,9,1759045189,"~/.config/mpv/mpv.conf"
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
 -'  1  0  ~/.config/mpv/mpv.conf
-|4,39,1,0,1759045177,"~/.config/mpv/mpv.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  1  0  ~/.config/mpv/script-opts/modernz.conf
-|4,39,1,0,1759045171,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
--'  3  10  ~/.config/mpv/script-opts/modernz.conf
-|4,39,3,10,1759044719,"~/.config/mpv/script-opts/modernz.conf"
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/mpv/mpv.conf
+|4,39,2,0,1759229029,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1759229029,"~/.config/mpv/mpv.conf"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
+
+> ~/.config/gtk-4.0/settings.ini
+	*	1759829507	0
+	"	9	0
+	^	9	0
+	.	9	0
+	+	12	0
+	+	10	0
+	+	9	0
+
+> ~/.dotfiles/other/stuff2remember.txt
+	*	1759829490	0
+	"	14	4
+
+> ~/.config/sway/config
+	*	1759253241	0
+	"	85	60
+	^	85	26
+	.	85	61
+	+	210	0
+	+	206	0
+	+	207	39
+	+	208	3
+	+	41	0
+	+	42	0
+	+	41	0
+	+	195	0
+	+	91	26
+	+	195	0
+	+	92	27
+	+	203	66
+	+	59	0
+	+	57	0
+	+	59	0
+	+	59	38
+	+	59	120
+	+	59	0
+	+	57	0
+	+	58	0
+	+	58	23
+	+	57	43
+	+	197	0
+	+	79	25
+	+	40	66
+	+	41	0
+	+	40	13
+	+	41	16
+	+	42	0
+	+	41	15
+	+	80	101
+	+	82	0
+	+	80	79
+	+	81	16
+	+	82	0
+	+	81	100
+	+	79	18
+	+	165	15
+	+	175	0
+	+	165	25
+	+	23	23
+	+	23	21
+	+	23	16
+	+	25	21
+	+	23	16
+	+	23	0
+	+	102	18
+	+	102	0
+	+	71	27
+	+	23	0
+	+	78	0
+	+	75	0
+	+	102	0
+	+	93	0
+	+	195	0
+	+	210	0
+	+	77	0
+	+	181	38
+	+	181	39
+	+	182	0
+	+	181	33
+	+	182	0
+	+	181	51
+	+	182	34
+	+	181	81
+	+	206	0
+	+	181	64
+	+	206	15
+	+	206	46
+	+	175	17
+	+	206	0
+	+	181	55
+	+	40	21
+	+	41	27
+	+	80	35
+	+	81	39
+	+	80	31
+	+	82	31
+	+	185	58
+	+	81	45
+	+	80	27
+	+	82	27
+	+	83	24
+	+	40	22
+	+	41	24
+	+	80	0
+	+	82	0
+	+	83	0
+	+	81	0
+	+	80	41
+	+	204	44
+	+	205	20
+	+	208	24
+	+	205	26
+	+	47	24
+	+	196	0
+	+	47	21
+	+	85	24
+	+	86	0
+	+	85	61
+	s	1	0
+
+> /nix/store/d5jrwpfsqhdb7ah7p5h4f6hlbpflg56q-system-path/share/applications/mpv.desktop
+	*	1759253149	0
+	"	44	5
 
 > ~/.config/mpv/mpv.conf
 	*	1759229280	0
@@ -491,111 +614,6 @@ $
 	+	49	0
 	+	137	0
 	m	13	17
-
-> ~/.config/sway/config
-	*	1758959988	0
-	"	47	21
-	^	47	22
-	.	47	21
-	+	207	27
-	+	209	0
-	+	205	0
-	+	206	39
-	+	207	3
-	+	41	0
-	+	42	0
-	+	41	0
-	+	194	0
-	+	90	26
-	+	194	0
-	+	91	27
-	+	202	66
-	+	59	0
-	+	57	0
-	+	59	0
-	+	59	38
-	+	59	120
-	+	59	0
-	+	57	0
-	+	58	0
-	+	58	23
-	+	57	43
-	+	196	0
-	+	79	25
-	+	40	66
-	+	41	0
-	+	40	13
-	+	41	16
-	+	42	0
-	+	41	15
-	+	80	101
-	+	82	0
-	+	80	79
-	+	81	16
-	+	82	0
-	+	81	100
-	+	79	18
-	+	164	15
-	+	174	0
-	+	164	25
-	+	23	23
-	+	23	21
-	+	23	16
-	+	25	21
-	+	23	16
-	+	23	0
-	+	101	18
-	+	101	0
-	+	71	27
-	+	23	0
-	+	78	0
-	+	75	0
-	+	101	0
-	+	92	0
-	+	194	0
-	+	209	0
-	+	77	0
-	+	180	38
-	+	180	39
-	+	181	0
-	+	180	33
-	+	181	0
-	+	180	51
-	+	181	34
-	+	180	81
-	+	205	0
-	+	180	64
-	+	205	15
-	+	205	46
-	+	174	17
-	+	205	0
-	+	180	55
-	+	40	21
-	+	41	27
-	+	80	35
-	+	81	39
-	+	80	31
-	+	82	31
-	+	184	58
-	+	81	45
-	+	80	27
-	+	82	27
-	+	83	24
-	+	40	22
-	+	41	24
-	+	80	0
-	+	82	0
-	+	83	0
-	+	81	0
-	+	80	41
-	+	203	44
-	+	204	20
-	+	207	24
-	+	204	26
-	+	47	24
-	+	195	0
-	+	47	21
-	s	1	0
 
 > ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 	*	1758894019	0
@@ -941,10 +959,6 @@ $
 	^	10	5
 	.	10	5
 	+	10	5
-
-> ~/.dotfiles/other/stuff2remember.txt
-	*	1758536190	0
-	"	1	0
 
 > ~/.config/kitty/current-theme.conf
 	*	1758533202	0
