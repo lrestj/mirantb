@@ -21,12 +21,6 @@
       inherit (config.nixpkgs) config;
     };
   
-    nixpkgs.overlays = [
-      inputs.nixpkgs-wayland.overlay 
-      (_: _: { waybar = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })
-
-    ];
-
     environment.systemPackages =
         (with pkgs; [
             audacity
@@ -38,11 +32,13 @@
             brightnessctl
             btop
             cliphist
+            cmake
             dconf-editor
             efibootmgr
             evince
             exfatprogs
             fastfetch
+            fcft
             file-roller
             fish
             font-manager
@@ -79,6 +75,7 @@
             reaper-reapack-extension
             reaper-sws-extension
             ripgrep
+            rofi
             simple-scan
             slurp
             udiskie

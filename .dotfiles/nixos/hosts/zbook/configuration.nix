@@ -117,9 +117,9 @@
               enable = true;
               configurationLimit = 7;
               # extraEntries = {
-              #     "opensuse.conf" = ''
-              #         title openSUSE Tumbleweed
-              #         efi /EFI/opensuse/grubx64.efi
+              #     "Lmde.conf" = ''
+              #         title Mint Debian Edition 7
+              #         efi /EFI/debian/shimx64.efi
               #     '';
               # };
          };
