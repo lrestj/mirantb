@@ -15,16 +15,11 @@
 
   outputs = { self, nixpkgs, ... }@inputs: {
       nixosConfigurations = {
-          zbook = nixpkgs.lib.nixosSystem {
+          nixos = nixpkgs.lib.nixosSystem {
               system = "x86_64-linux";
               specialArgs = { inherit inputs; };
               modules = [
                   ./hosts/zbook/configuration.nix
-                  # ({ pkgs, ... }: {
-                  #     environment.systemPackages = [
-                  #       inputs.waybar.packages.${pkgs.system}.waybar
-                  #     ];
-                  # })
               ];
           };
           probook = nixpkgs.lib.nixosSystem {

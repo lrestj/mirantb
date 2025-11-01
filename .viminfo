@@ -21,7 +21,11 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1761413686,,"wq"
+|2,0,1762027287,,"wq"
+:PlugInstall
+|2,0,1762025799,,"PlugInstall"
+:saveas ~/.dotfiles/nixos/modules/policykit.nix
+|2,0,1762025713,,"saveas ~/.dotfiles/nixos/modules/policykit.nix"
 :w
 |2,0,1761141691,,"w"
 :%d
@@ -30,8 +34,6 @@ $
 |2,0,1759003688,,"wq4"
 :w shell.nix
 |2,0,1758660584,,"w shell.nix"
-:PlugInstall
-|2,0,1758658415,,"PlugInstall"
 :WQ
 |2,0,1758556526,,"WQ"
 :q
@@ -114,79 +116,82 @@ $
 	    bindsym $mod+y exec pkill fuzzel || $menu
 |3,0,0,1,1,0,1761141467,"    bindsym $mod+y exec pkill fuzzel || $menu"
 "1	LINE	0
-	    nixpkgs.overlays = [
-	      inputs.nixpkgs-wayland.overlay 
-	      (_: _: { waybar = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })
-	
-	    ];
-	
-|3,0,1,1,6,0,1761140024,"    nixpkgs.overlays = [","      inputs.nixpkgs-wayland.overlay ","      (_: _: { waybar = inputs.waybar.packages.${pkgs.stdenv.hostPlatform.system}.waybar; })","","    ];",""
+	      ./policykit.nix
+|3,0,1,1,1,0,1762027218,"      ./policykit.nix"
 "2	LINE	0
-	{
-	
-	  description = "My NixOS config flake";
-	
-	  
-	  inputs = {
-	      nixpkgs.url = "nixpkgs/nixos-unstable"; 
-	      nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
-	
-	      # nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
-	      waybar.url = "github:alexays/waybar";
-	  };
-	
-	
-	  outputs = { self, nixpkgs, ... }@inputs: {
-	      nixosConfigurations = {
-	          zbook = nixpkgs.lib.nixosSystem {
-	              system = "x86_64-linux";
-	              specialArgs = { inherit inputs; };
-	              modules = [
-	                  ./hosts/zbook/configuration.nix
-	              ];
-	          };
-	          probook = nixpkgs.lib.nixosSystem {
-	              system = "x86_64-linux";
-	              specialArgs = { inherit inputs; };
-	              modules = [
-	                  ./hosts/probook/configuration.nix
-	              ];
-	          };
-	      };
-	  }; 
-	}
-	
-	#####  END OF FILE  #####
-|3,0,2,1,35,0,1761139928,"{","","  description = \"My NixOS config flake\";","","  ","  inputs = {","      nixpkgs.url = \"nixpkgs/nixos-unstable\"; ","      nixpkgs-wayland.url = \"github:nix-community/nixpkgs-wayland\";","","      # nixpkgs-stable.url = \"nixpkgs/nixos-25.05\"; ","      waybar.url = \"github:alexays/waybar\";","  };","","","  outputs = { self, nixpkgs, ... }@inputs: {","      nixosConfigurations = {",>45
-|<"          zbook = nixpkgs.lib.nixosSystem {","              system = \"x86_64-linux\";","              specialArgs = { inherit inputs; };","              modules = [","                  ./hosts/zbook/configuration.nix","              ];","          };","          probook = nixpkgs.lib.nixosSystem {","              system = \"x86_64-linux\";","              specialArgs = { inherit inputs; };","              modules = [","                  ./hosts/probook/configuration.nix",>18
-|<"              ];","          };","      };","  }; ","}","","#####  END OF FILE  #####"
+	      let
+	        broken_pkgs = {
+	          inherit (prev) lxqt.lxqt-policykit;
+	        };
+	      in
+|3,0,2,1,5,0,1762026817,"      let","        broken_pkgs = {","          inherit (prev) lxqt.lxqt-policykit;","        };","      in"
 "3	LINE	0
-	gtk-application-prefer-dark-theme=1
-|3,0,3,1,1,0,1759829420,"gtk-application-prefer-dark-theme=1"
+	 let
+	        broken_pkgs = {
+	          inherit (prev) rofi rofi-bluetooth rofi-calc rofi-emoji rofi-file-browser;
+	        };
+	      in
+	      nixpkgs.lib.mapAttrs (n: pkg:
+	        pkg.overrideAttrs (old: {
+	          cmakeFlags = old.cmakeFlags or [ ] ++ [ "-DCMAKE_POLICY_VERSION_MINIMUM=3.10" ];
+	        })
+	      ) broken_pkgs;
+|3,0,3,1,10,0,1762026649," let","        broken_pkgs = {","          inherit (prev) rofi rofi-bluetooth rofi-calc rofi-emoji rofi-file-browser;","        };","      in","      nixpkgs.lib.mapAttrs (n: pkg:","        pkg.overrideAttrs (old: {","          cmakeFlags = old.cmakeFlags or [ ] ++ [ \"-DCMAKE_POLICY_VERSION_MINIMUM=3.10\" ];","        })","      ) broken_pkgs;"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1759253200,""
+	  nixpkgs.overlays = [
+	      (final: prev: {
+	      nixpkgs.lib.mapAttrs (n: pkg:
+	        pkg.overrideAttrs (old: {
+	          cmakeFlags = old.cmakeFlags or [ ] ++ [ "-DCMAKE_POLICY_VERSION_MINIMUM=3.10" ];
+	        })
+	      ) lxqt.lxqt-policykit;})
+	  ];
+|3,0,4,1,8,0,1762026621,"  nixpkgs.overlays = [","      (final: prev: {","      nixpkgs.lib.mapAttrs (n: pkg:","        pkg.overrideAttrs (old: {","          cmakeFlags = old.cmakeFlags or [ ] ++ [ \"-DCMAKE_POLICY_VERSION_MINIMUM=3.10\" ];","        })","      ) lxqt.lxqt-policykit;})","  ];"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1759229240,""
+	                  
+|3,0,5,1,1,0,1762026472,"                  "
 "6	LINE	0
-	geometry=50%:50%
-|3,0,6,1,1,0,1759229026,"geometry=50%:50%"
+	                  # ({ pkgs, ... }: {
+	                  #     environment.systemPackages = [
+	                  #       inputs.waybar.packages.${pkgs.system}.waybar
+	                  #     ];
+	                  # })
+|3,0,6,1,5,0,1762026294,"                  # ({ pkgs, ... }: {","                  #     environment.systemPackages = [","                  #       inputs.waybar.packages.${pkgs.system}.waybar","                  #     ];","                  # })"
 "7	LINE	0
-	geometry=50%:50%
-|3,0,7,1,1,0,1759228732,"geometry=50%:50%"
+	       let
+	        broken_pkgs = {
+	          inherit (prev) rofi rofi-bluetooth rofi-calc rofi-emoji rofi-file-browser;
+	        };
+	      in
+|3,0,7,1,5,0,1762025947,"       let","        broken_pkgs = {","          inherit (prev) rofi rofi-bluetooth rofi-calc rofi-emoji rofi-file-browser;","        };","      in"
 "8	LINE	0
-	cover-art-files=yes
-|3,0,8,1,1,0,1759052826,"cover-art-files=yes"
+	          vim-full = prev.vim-full.overrideAttrs (old: {
+	              name = "vim-full-git";
+	              src = prev.fetchFromGitHub {
+	                  owner = "vim";
+	                  repo = "vim";
+	                  rev = "235e77a3a35525671d6a5e60c180c0dcc0351ea1";
+	                  hash = "sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo=";
+	              };
+	          });  
+|3,0,8,1,9,0,1762025618,"          vim-full = prev.vim-full.overrideAttrs (old: {","              name = \"vim-full-git\";","              src = prev.fetchFromGitHub {","                  owner = \"vim\";","                  repo = \"vim\";","                  rev = \"235e77a3a35525671d6a5e60c180c0dcc0351ea1\";","                  hash = \"sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo=\";","              };","          });  "
 "9	LINE	0
-	    '/home/anon/',
-|3,0,9,1,1,0,1759051730,"    '/home/anon/',"
+	          vim-full = prev.vim-full.overrideAttrs (old: {
+	              name = "vim-full-git";
+	              src = prev.fetchFromGitHub {
+	                  owner = "vim";
+	                  repo = "vim";
+	                  rev = "235e77a3a35525671d6a5e60c180c0dcc0351ea1";
+	                  hash = "sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo=";
+	              };
+	          });  
+|3,0,9,1,9,0,1762025618,"          vim-full = prev.vim-full.overrideAttrs (old: {","              name = \"vim-full-git\";","              src = prev.fetchFromGitHub {","                  owner = \"vim\";","                  repo = \"vim\";","                  rev = \"235e77a3a35525671d6a5e60c180c0dcc0351ea1\";","                  hash = \"sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo=\";","              };","          });  "
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
 ""-	CHAR	0
-	pkill fuzzel || $menu
-|3,1,36,0,1,0,1761141554,"pkill fuzzel || $menu"
+	glxinfo
+|3,1,36,0,1,0,1762027279,"glxinfo"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -197,230 +202,320 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  119  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,48,119,0,1761413686,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'1  121  48  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,49,121,48,1761323996,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'2  121  48  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,50,121,48,1761323996,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'3  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,51,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'4  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,52,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'5  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,53,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'6  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,54,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
-'7  99  37  ~/.config/sway/config
-|4,55,99,37,1761142422,"~/.config/sway/config"
-'8  99  43  ~/.config/sway/config
-|4,56,99,43,1761142292,"~/.config/sway/config"
-'9  174  10  ~/.config/rofi/config.rasi
-|4,57,174,10,1761142191,"~/.config/rofi/config.rasi"
+'0  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,48,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
+'1  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  9  26  ~/.dotfiles/nixos/modules/policykit.nix
+|4,51,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
+'4  5  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,52,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+'5  7  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,53,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+'6  22  18  ~/.dotfiles/nixos/flake.nix
+|4,54,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+'7  23  19  ~/.dotfiles/nixos/flake.nix
+|4,55,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+'8  32  19  ~/.dotfiles/nixos/flake.nix
+|4,56,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+'9  23  43  ~/.dotfiles/nixos/flake.nix
+|4,57,23,43,1762026336,"~/.dotfiles/nixos/flake.nix"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
--'  119  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,119,0,1761413686,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1761413656,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  121  48  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,121,48,1761323996,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  121  48  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,121,48,1761323996,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1761323968,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  125  10  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,125,10,1761245895,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  1  0  ~/.dotfiles/nixos/hosts/zbook/configuration.nix
-|4,39,1,0,1761245740,"~/.dotfiles/nixos/hosts/zbook/configuration.nix"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  99  37  ~/.config/sway/config
-|4,39,99,37,1761142422,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142351,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  99  43  ~/.config/sway/config
-|4,39,99,43,1761142292,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1761142269,"~/.config/sway/config"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  174  10  ~/.config/rofi/config.rasi
-|4,39,174,10,1761142191,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
--'  1  0  ~/.config/rofi/config.rasi
-|4,39,1,0,1761142173,"~/.config/rofi/config.rasi"
+-'  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762027272,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762027204,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  5  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  7  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  5  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  7  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  5  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  7  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  5  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  7  43  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026597,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026597,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026597,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
+|4,39,1,0,1762026597,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  22  18  ~/.dotfiles/nixos/flake.nix
+|4,39,22,18,1762026533,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  1  0  ~/.dotfiles/nixos/flake.nix
+|4,39,1,0,1762026524,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  23  19  ~/.dotfiles/nixos/flake.nix
+|4,39,23,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  32  19  ~/.dotfiles/nixos/flake.nix
+|4,39,32,19,1762026485,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
+-'  33  83  ~/.dotfiles/nixos/flake.nix
+|4,39,33,83,1762026444,"~/.dotfiles/nixos/flake.nix"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1762027285	0
+	"	49	21
+	^	49	22
+	.	49	21
+	+	8	0
+	+	24	2
+	+	24	24
+	+	24	37
+	+	24	0
+	+	24	26
+	+	24	116
+	+	24	21
+	+	8	0
+	+	7	10
+	+	46	0
+	+	7	0
+	+	2	0
+	+	26	0
+	+	14	0
+	+	13	27
+	+	26	0
+	+	26	19
+	+	59	16
+	+	26	0
+	+	82	0
+	+	45	0
+	+	27	0
+	+	45	0
+	+	134	0
+	+	35	16
+	+	24	0
+	+	45	0
+	+	41	15
+	+	78	15
+	+	64	0
+	+	7	0
+	+	49	21
+	m	13	17
+
+> ~/.dotfiles/nixos/modules/policykit.nix
+	*	1762026854	0
+	"	9	26
+	^	9	27
+	.	9	27
+	+	10	64
+	+	10	76
+	+	10	28
+	+	10	0
+	+	10	64
+	+	10	0
+	+	10	18
+	+	10	10
+	+	10	19
+	+	10	0
+	+	10	4
+	+	10	0
+	+	9	19
+	+	5	0
+	+	9	27
+
+> ~/.dotfiles/nixos/flake.nix
+	*	1762026524	0
+	"	22	18
+	.	23	0
+	+	1	6
+	+	1	0
+	+	1	59
+	+	1	0
+	+	1	15
+	+	1	0
+	+	8	0
+	+	23	19
+	+	23	0
+	+	22	0
+	+	23	0
+
+> ~/.dotfiles/nixos/modules/vimoverlay.nix
+	*	1762026129	0
+	"	1	0
+	^	13	18
+	.	12	0
+	+	12	64
+	+	13	76
+	+	12	28
+	+	13	0
+	+	12	64
+	+	13	0
+	+	12	0
 
 > ~/.dotfiles/nixos/hosts/zbook/configuration.nix
 	*	1761413682	0
@@ -553,55 +648,6 @@ $
 	^	174	11
 	.	174	11
 	+	174	11
-
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1761141858	0
-	"	78	15
-	^	78	16
-	.	78	15
-	+	8	0
-	+	24	2
-	+	24	24
-	+	24	37
-	+	24	0
-	+	24	26
-	+	24	116
-	+	24	21
-	+	8	0
-	+	7	10
-	+	46	0
-	+	7	0
-	+	2	0
-	+	26	0
-	+	14	0
-	+	13	27
-	+	26	0
-	+	26	19
-	+	59	16
-	+	26	0
-	+	82	0
-	+	45	0
-	+	27	0
-	+	45	0
-	+	134	0
-	+	35	16
-	+	24	0
-	+	45	0
-	+	41	15
-	+	78	15
-	m	13	17
-
-> ~/.dotfiles/nixos/flake.nix
-	*	1761140727	0
-	"	8	6
-	.	8	0
-	+	1	6
-	+	1	0
-	+	1	59
-	+	1	0
-	+	1	15
-	+	1	0
-	+	8	0
 
 > ~/.config/gtk-4.0/settings.ini
 	*	1759829507	0
@@ -1273,19 +1319,6 @@ $
 	^	17	20
 	.	17	20
 	+	17	20
-
-> ~/.dotfiles/nixos/modules/vimoverlay.nix
-	*	1757929459	0
-	"	12	25
-	^	13	18
-	.	12	0
-	+	12	64
-	+	13	76
-	+	12	28
-	+	13	0
-	+	12	64
-	+	13	0
-	+	12	0
 
 > ~/.gitignore
 	*	1757928217	0

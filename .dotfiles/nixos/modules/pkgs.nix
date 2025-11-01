@@ -46,7 +46,7 @@
             fzf
             geany
             glib util-linux
-            glxinfo
+            mesa-demos
             gnome-calculator
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
