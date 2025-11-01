@@ -21,7 +21,7 @@ $
 
 # Historie pÅ™Ã­kazovÃ© Å™Ã¡dky (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 :wq
-|2,0,1762029879,,"wq"
+|2,0,1762035017,,"wq"
 :saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
 |2,0,1762029759,,"saveas ~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
 :PlugInstall
@@ -115,9 +115,9 @@ $
 "0	LINE	0
 	    bindsym $mod+y exec pkill fuzzel || $menu
 |3,0,0,1,1,0,1761141467,"    bindsym $mod+y exec pkill fuzzel || $menu"
-""1	LINE	0
+"1	LINE	0
 	        ./fuzzeloverlay.nix
-|3,1,1,1,1,0,1762029875,"        ./fuzzeloverlay.nix"
+|3,0,1,1,1,0,1762029875,"        ./fuzzeloverlay.nix"
 "2	CHAR	0
 	# bindsym $mod+y exec pkill rofi || rofi -show drun -show-icons -sidebar-mode
 	    # bindsym $mod+y 
@@ -174,9 +174,9 @@ $
 "q@	CHAR	0
 	ibrave €ý5€kd€kd€kl€kl€kl€kl
 |3,2,26,0,1,0,1757776524,"ibrave €ý5€kd€kd€kl€kl€kl€kl"
-"-	CHAR	0
-	sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo=
-|3,0,36,0,1,0,1762029721,"sha256-nNWkfVlWbnqjt0npy2JPzJPcR0mrRRgU3zZ+UtL4aQo="
+""-	CHAR	0
+	Hack Nerd Font
+|3,1,36,0,1,0,1762034995,"Hack Nerd Font"
 
 # SouborovÃ© znaÄky:
 'C  1  0  ~/.local/bin/confm
@@ -187,30 +187,126 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  212  0  ~/.config/sway/config
-|4,48,212,0,1762030400,"~/.config/sway/config"
-'1  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,49,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
-'2  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,50,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
-'3  138  4  ~/.config/sway/config
-|4,51,138,4,1762028635,"~/.config/sway/config"
-'4  138  4  ~/.config/sway/config
-|4,52,138,4,1762028635,"~/.config/sway/config"
-'5  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  48  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,48,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  50  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,50,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'9  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,57,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+'0  3  25  ~/.config/kitty/kitty.conf
+|4,48,3,25,1762035017,"~/.config/kitty/kitty.conf"
+'1  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,49,1,0,1762034895,"~/.config/fuzzel/fuzzel.ini"
+'2  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,50,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+'3  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,51,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+'4  73  0  ~/.config/sway/config
+|4,52,73,0,1762034788,"~/.config/sway/config"
+'5  212  0  ~/.config/sway/config
+|4,53,212,0,1762030400,"~/.config/sway/config"
+'6  212  0  ~/.config/sway/config
+|4,54,212,0,1762030400,"~/.config/sway/config"
+'7  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+'9  138  4  ~/.config/sway/config
+|4,57,138,4,1762028635,"~/.config/sway/config"
 
 # Seznam skokÅ¯ (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
+-'  3  25  ~/.config/kitty/kitty.conf
+|4,39,3,25,1762035017,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1762034981,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1762034895,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1762034895,"~/.config/fuzzel/fuzzel.ini"
+-'  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+-'  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+-'  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+-'  27  31  ~/.config/fuzzel/fuzzel.ini
+|4,39,27,31,1762034826,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1762034799,"~/.config/fuzzel/fuzzel.ini"
+-'  1  0  ~/.config/fuzzel/fuzzel.ini
+|4,39,1,0,1762034799,"~/.config/fuzzel/fuzzel.ini"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  73  0  ~/.config/sway/config
+|4,39,73,0,1762034788,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762034756,"~/.config/sway/config"
 -'  212  0  ~/.config/sway/config
 |4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
 -'  1  0  ~/.config/sway/config
 |4,39,1,0,1762030195,"~/.config/sway/config"
 -'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
@@ -229,192 +325,150 @@ $
 |4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  138  4  ~/.config/sway/config
-|4,39,138,4,1762028635,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
--'  99  3  ~/.config/sway/config
-|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Historie znaÄek v souborech (poÄÃ­naje nejnovÄ›jÅ¡Ã­ poloÅ¾kou):
 
+> ~/.config/kitty/kitty.conf
+	*	1762035014	0
+	"	3	25
+	^	3	26
+	.	3	25
+	+	20	0
+	+	20	24
+	+	20	12
+	+	20	0
+	+	23	0
+	+	11	0
+	+	12	0
+	+	11	22
+	+	14	0
+	+	12	17
+	+	15	8
+	+	12	20
+	+	15	33
+	+	12	12
+	+	15	32
+	+	16	28
+	+	12	17
+	+	15	10
+	+	16	10
+	+	15	12
+	+	16	12
+	+	12	20
+	+	15	14
+	+	16	14
+	+	12	19
+	+	15	13
+	+	16	13
+	+	13	6
+	+	1	23
+	+	22	22
+	+	3	11
+	+	4	9
+	+	5	21
+	+	17	33
+	+	18	26
+	+	3	25
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1762034854	0
+	"	1	0
+	^	27	32
+	.	27	31
+	+	28	0
+	+	20	13
+	+	26	5
+	+	27	34
+	+	7	0
+	+	27	31
+
 > ~/.config/sway/config
-	*	1762030195	0
-	"	212	0
+	*	1762034784	0
+	"	73	0
 	.	100	0
 	+	91	26
 	+	197	0
@@ -896,47 +950,6 @@ $
 	.	14	21
 	+	14	21
 
-> ~/.config/kitty/kitty.conf
-	*	1758626732	0
-	"	18	26
-	^	18	27
-	.	18	26
-	+	20	0
-	+	20	24
-	+	20	12
-	+	20	0
-	+	23	0
-	+	11	0
-	+	12	0
-	+	11	22
-	+	14	0
-	+	12	17
-	+	15	8
-	+	12	20
-	+	15	33
-	+	12	12
-	+	15	32
-	+	16	28
-	+	12	17
-	+	15	10
-	+	16	10
-	+	15	12
-	+	16	12
-	+	12	20
-	+	15	14
-	+	16	14
-	+	12	19
-	+	15	13
-	+	16	13
-	+	13	6
-	+	1	23
-	+	22	22
-	+	3	11
-	+	4	9
-	+	5	21
-	+	17	33
-	+	18	26
-
 > ~/.config/waybar/config-sway.jsonc
 	*	1758625779	0
 	"	15	16
@@ -1012,17 +1025,6 @@ $
 	+	4	0
 	+	14	0
 	+	13	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1758555512	0
-	"	7	0
-	^	27	35
-	.	7	0
-	+	28	0
-	+	20	13
-	+	26	5
-	+	27	34
-	+	7	0
 
 > ~/.local/src/fuzzel/fuzzel.ini
 	*	1758555461	0
