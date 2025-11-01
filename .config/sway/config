@@ -96,8 +96,8 @@
     bindsym $ms+m exec makoctl dismiss --all && makoctl reload
 
     # Show menus
-    bindsym $mod+y exec pkill rofi || rofi -show drun -show-icons -sidebar-mode
-    # bindsym $mod+y exec pkill fuzzel || $menu
+    # bindsym $mod+y exec pkill rofi || rofi -show drun -show-icons -sidebar-mode
+    bindsym $mod+y exec pkill fuzzel || $menu
     bindsym Alt+y exec pkill fuzzel || bemoji
     bindsym $mod+x exec pkill fuzzel || powercenter
 
