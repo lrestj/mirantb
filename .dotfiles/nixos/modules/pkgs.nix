@@ -3,7 +3,7 @@
 {
 
   imports = [ 
-      ./vimoverlay.nix
+      # ./vimoverlay.nix
   ]; 
   
   fonts.packages = with pkgs; [
