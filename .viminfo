@@ -187,42 +187,158 @@ $
 |4,83,1,0,1758020709,"~/.config/sway/config"
 'V  1  0  ~/.config/vim/vimrc
 |4,86,1,0,1758020694,"~/.config/vim/vimrc"
-'0  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,48,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
-'1  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,49,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
-'2  138  4  ~/.config/sway/config
-|4,50,138,4,1762028635,"~/.config/sway/config"
-'3  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,51,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'4  48  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,52,48,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'5  50  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,53,50,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'6  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,54,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
-'7  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,55,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
-'8  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,56,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
+'0  212  0  ~/.config/sway/config
+|4,48,212,0,1762030400,"~/.config/sway/config"
+'1  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,49,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+'2  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,50,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+'3  138  4  ~/.config/sway/config
+|4,51,138,4,1762028635,"~/.config/sway/config"
+'4  138  4  ~/.config/sway/config
+|4,52,138,4,1762028635,"~/.config/sway/config"
+'5  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,53,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
+'6  48  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,54,48,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
+'7  50  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,55,50,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
+'8  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,56,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
 '9  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,57,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
 
 # Seznam skoků (počínaje nejnovější položkou):
+-'  212  0  ~/.config/sway/config
+|4,39,212,0,1762030400,"~/.config/sway/config"
+-'  1  0  ~/.config/sway/config
+|4,39,1,0,1762030195,"~/.config/sway/config"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,7,2,1762029879,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029871,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  7  26  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,7,26,1762029807,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  6  6  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,6,6,1762029769,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
 |4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
 -'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
 |4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  13  26  ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+|4,39,13,26,1762029764,"~/.dotfiles/nixos/modules/fuzzeloverlay.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
+-'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
+|4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
 |4,39,1,0,1762029592,"~/.dotfiles/nixos/modules/pkgs.nix"
 -'  138  4  ~/.config/sway/config
@@ -233,6 +349,32 @@ $
 |4,39,138,4,1762028635,"~/.config/sway/config"
 -'  138  4  ~/.config/sway/config
 |4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
+-'  138  4  ~/.config/sway/config
+|4,39,138,4,1762028635,"~/.config/sway/config"
 -'  99  3  ~/.config/sway/config
 |4,39,99,3,1762028535,"~/.config/sway/config"
 -'  99  3  ~/.config/sway/config
@@ -241,240 +383,38 @@ $
 |4,39,99,3,1762028535,"~/.config/sway/config"
 -'  99  3  ~/.config/sway/config
 |4,39,99,3,1762028535,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1762028435,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1762028435,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1762028435,"~/.config/sway/config"
--'  1  0  ~/.config/sway/config
-|4,39,1,0,1762028435,"~/.config/sway/config"
--'  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  48  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,48,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  50  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,50,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  49  21  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,49,21,1762027287,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762027272,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762027272,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  8  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,8,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  7  2  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,7,2,1762027220,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762027204,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  1  0  ~/.dotfiles/nixos/modules/pkgs.nix
-|4,39,1,0,1762027204,"~/.dotfiles/nixos/modules/pkgs.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  9  26  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,9,26,1762026856,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  1  0  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,1,0,1762026786,"~/.dotfiles/nixos/modules/policykit.nix"
--'  5  43  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,5,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
--'  7  43  ~/.dotfiles/nixos/modules/policykit.nix
-|4,39,7,43,1762026731,"~/.dotfiles/nixos/modules/policykit.nix"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
+-'  99  3  ~/.config/sway/config
+|4,39,99,3,1762028535,"~/.config/sway/config"
 
 # Historie značek v souborech (počínaje nejnovější položkou):
 
-> ~/.dotfiles/nixos/modules/pkgs.nix
-	*	1762029875	0
-	"	7	2
-	.	7	0
-	+	8	0
-	+	24	2
-	+	24	24
-	+	24	37
-	+	24	0
-	+	24	26
-	+	24	116
-	+	24	21
-	+	8	0
-	+	7	10
-	+	46	0
-	+	7	0
-	+	2	0
-	+	26	0
-	+	14	0
-	+	13	27
-	+	26	0
-	+	26	19
-	+	59	16
-	+	26	0
-	+	82	0
-	+	45	0
-	+	27	0
-	+	45	0
-	+	134	0
-	+	35	16
-	+	24	0
-	+	45	0
-	+	41	15
-	+	78	15
-	+	64	0
-	+	7	0
-	+	49	21
-	+	6	0
-	+	7	0
-	m	13	17
-
-> ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
-	*	1762029759	0
-	"	13	26
-	^	13	62
-	.	13	26
-	+	12	64
-	+	13	76
-	+	12	28
-	+	13	0
-	+	12	64
-	+	13	0
-	+	12	0
-	+	7	15
-	+	8	27
-	+	10	30
-	+	11	31
-	+	12	30
-	+	13	26
-
 > ~/.config/sway/config
-	*	1762028614	0
-	"	138	4
+	*	1762030195	0
+	"	212	0
 	.	100	0
 	+	91	26
 	+	197	0
@@ -577,6 +517,66 @@ $
 	+	99	0
 	+	100	0
 	s	1	0
+
+> ~/.dotfiles/nixos/modules/pkgs.nix
+	*	1762029875	0
+	"	7	2
+	.	7	0
+	+	8	0
+	+	24	2
+	+	24	24
+	+	24	37
+	+	24	0
+	+	24	26
+	+	24	116
+	+	24	21
+	+	8	0
+	+	7	10
+	+	46	0
+	+	7	0
+	+	2	0
+	+	26	0
+	+	14	0
+	+	13	27
+	+	26	0
+	+	26	19
+	+	59	16
+	+	26	0
+	+	82	0
+	+	45	0
+	+	27	0
+	+	45	0
+	+	134	0
+	+	35	16
+	+	24	0
+	+	45	0
+	+	41	15
+	+	78	15
+	+	64	0
+	+	7	0
+	+	49	21
+	+	6	0
+	+	7	0
+	m	13	17
+
+> ~/.dotfiles/nixos/modules/fuzzeloverlay.nix
+	*	1762029759	0
+	"	13	26
+	^	13	62
+	.	13	26
+	+	12	64
+	+	13	76
+	+	12	28
+	+	13	0
+	+	12	64
+	+	13	0
+	+	12	0
+	+	7	15
+	+	8	27
+	+	10	30
+	+	11	31
+	+	12	30
+	+	13	26
 
 > ~/.dotfiles/nixos/modules/policykit.nix
 	*	1762026854	0
