@@ -110,8 +110,8 @@
     bindsym $ma+Return exec pkill waybar && waybar --config ~/.config/waybar/config-taskbar
 
     # Clipboard toggle
-    # bindsym $mod+c exec pkill fuzzel || cliphist-fuzzel-img
-    bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
+    bindsym $mod+c exec pkill fuzzel || cliphist-fuzzel-img
+    # bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
 
     # Opacity
     bindsym $mod+p opacity plus 0.05
