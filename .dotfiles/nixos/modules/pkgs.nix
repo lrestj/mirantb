@@ -42,7 +42,7 @@
             file-roller
             fish
             font-manager
-            fuzzel
+            # fuzzel
             fzf
             geany
             glib util-linux
