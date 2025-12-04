@@ -5,7 +5,7 @@
   
   inputs = {
       nixpkgs.url = "nixpkgs/nixos-unstable"; 
-      nixpkgs-stable.url = "nixpkgs/nixos-25.05"; 
+      nixpkgs-stable.url = "nixpkgs/nixos-25.11"; 
       # waybar = {
       #     url = "github:alexays/waybar";
       #     inputs.nixpkgs.follows = "nixpkgs";
