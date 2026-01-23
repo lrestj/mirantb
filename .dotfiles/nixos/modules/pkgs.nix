@@ -42,7 +42,7 @@
             file-roller
             fish
             font-manager
-            # fuzzel
+            fuzzel
             fzf
             geany
             glib util-linux
@@ -120,7 +120,7 @@
       gnome-disks.enable = true;
       thunar = {
           enable = true;
-          plugins = with pkgs.xfce; [ 
+          plugins = with pkgs; [ 
               thunar-archive-plugin
               thunar-volman
           ];
