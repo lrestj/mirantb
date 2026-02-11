@@ -89,7 +89,7 @@
             xdg-user-dirs
             xdg-utils
             xnviewmp
-            xorg.xeyes
+            xeyes
             xournalpp
             yazi
             ytdownloader
