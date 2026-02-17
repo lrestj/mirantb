@@ -75,3 +75,4 @@ local/bin/etc/
 .viminfy.tmp
 .local/bin/etc/
 .viminfo
+.local/state/xournalpp/
