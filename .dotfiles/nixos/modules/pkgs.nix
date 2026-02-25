@@ -12,7 +12,7 @@
       noto-fonts
       source-code-pro 
       nerd-fonts.hack
-      # jetbrains-mono
+      nerd-fonts.jetbrains-mono
       nerd-fonts.symbols-only
   ];
   
