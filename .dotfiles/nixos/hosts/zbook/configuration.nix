@@ -22,7 +22,7 @@
          common.default = [ "wlr" ]; 
       };
   };
-  documentation.man.generateCaches = false;
+  documentation.man.cache.enable = false;
   nixpkgs.config.allowUnfree = true;
   environment = {
       localBinInPath = true;
@@ -116,12 +116,16 @@
           systemd-boot = {
               enable = true;
               configurationLimit = 7;
-              # extraEntries = {
-              #     "Lmde.conf" = ''
-              #         title Mint Debian Edition 7
-              #         efi /EFI/debian/shimx64.efi
-              #     '';
-              # };
+              extraEntries = {
+                  # "Lmde.conf" = ''
+                  #     title Mint Debian Edition 7
+                  #     efi /EFI/debian/shimx64.efi
+                  # '';
+                  # "Siduction.conf" = ''
+                  #     title openSUSE Tumbleweed
+                  #     efi /EFI/opensuse/shim.efi
+                  # '';
+              };
          };
           efi = {
               canTouchEfiVariables = true;
