@@ -44,10 +44,10 @@
             font-manager
             fuzzel
             fzf
+            # galculator
             geany
             glib util-linux
             mesa-demos
-            gnome-calculator
             hunspellDicts.cs_CZ
             hunspellDicts.en_US
             jq
@@ -112,6 +112,7 @@
 
         (with pkgsStable; [
             # vim-full
+            galculator
         ]);
   
   programs = {

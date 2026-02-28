@@ -26,6 +26,9 @@
   nixpkgs.config.allowUnfree = true;
   environment = {
       localBinInPath = true;
+      variables = {
+          # kalk = "galculator";
+      };
       sessionVariables = {
           NIXOS_OZONE_WL = "1";
       };
@@ -117,8 +120,8 @@
               enable = true;
               configurationLimit = 7;
               extraEntries = {
-                  # "Lmde.conf" = ''
-                  #     title Mint Debian Edition 7
+                  # "Debian.conf" = ''
+                  #     title Debian
                   #     efi /EFI/debian/shimx64.efi
                   # '';
                   # "Siduction.conf" = ''
