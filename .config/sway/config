@@ -84,7 +84,7 @@
     bindsym $cs+f exec thunar
     bindsym $cs+p exec mpv --player-operation-mode=pseudo-gui
     bindsym $cs+s exec simple-scan
-    bindsym $cs+k exec pkill galculator || galculator
+    bindsym $cs+k exec pkill $kalk || $kalk
     bindsym $cs+w exec waypaper
     bindsym $cs+m exec clouds   
     bindsym $cs+x exec xeyes

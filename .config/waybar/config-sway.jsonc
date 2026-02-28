@@ -92,7 +92,7 @@
     "custom/kalk": {
         "format":"       ",
         "tooltip-format": "Kalkulačka",
-        "on-click": "pkill galculator || galculator"
+        "on-click": "pkill $kalk || $kalk"
     },
 
     "custom/text": {
