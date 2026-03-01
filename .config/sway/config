@@ -167,10 +167,10 @@
 
     # Center window and move it to corners
     bindsym $mod+KP_0 floating toggle, resize set 1300 900
-    bindsym $mod+KP_7 floating enable, resize set 937 520, move position 0 0
-    bindsym $mod+KP_8 floating enable, resize set 937 520, move position 938 0
-    bindsym $mod+KP_4 floating enable, resize set 937 520, move position 0 521 
-    bindsym $mod+KP_5 floating enable, resize set 937 520, move position 938 521 
+    bindsym $mod+KP_7 floating enable, resize set 50ppt 50ppt, move position 0ppt 0ppt
+    bindsym $mod+KP_8 floating enable, resize set 50ppt 50ppt, move position 50ppt 0
+    bindsym $mod+KP_4 floating enable, resize set 50ppt 50ppt, move position 0 50ppt 
+    bindsym $mod+KP_5 floating enable, resize set 50ppt 50ppt, move position 50ppt 50ppt 
 
     # Cycle workspaces
     bindsym $mod+Tab workspace next
