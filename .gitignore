@@ -76,3 +76,6 @@ local/bin/etc/
 .local/bin/etc/
 .viminfo
 .local/state/xournalpp/
+.wiminfw.tmp
+.nix-profile
+.wiminfw.tmp
