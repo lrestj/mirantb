@@ -44,7 +44,6 @@
     set $filemgr thunar
 
 ### Apps at startup
-    exec autotiling-rs
     exec_always waypaper --restore &
     exec nm-applet --indicator &
     exec lxqt-policykit-agent &
@@ -201,6 +200,7 @@
     for_window [app_id="script"] floating enable, resize set 400 100
     for_window [title="Authentication Required"] floating enable
     for_window [title="xeyes"] floating enable, move position 880 5
+    for_window [title="Rozbalení"] floating enable
     for_window [app_id="btop"] floating enable, resize set 1585  900 
     for_window [app_id="update"] floating enable, resize set 900  600 
     for_window [class="Vlc"] floating enable
