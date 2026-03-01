@@ -127,6 +127,7 @@
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
+    bindsym $mod+Backslash focus next
 
     # Move the focused window 
     bindsym $mod+h move left
@@ -134,10 +135,16 @@
     bindsym $mod+k move up
     bindsym $mod+l move right
 
+    # Move container
+    bindsym $ms+h move left 10px
+    bindsym $ms+k move up 10px
+    bindsym $ms+j move down 10px
+    bindsym $ms+l move right 10px
+
     # Resize container
     bindsym $ms+Left resize shrink width 10px
-    bindsym $ms+Down resize grow height 10px
-    bindsym $ms+Up resize shrink height 10px
+    bindsym $ms+Up resize grow height 10px
+    bindsym $ms+Down resize shrink height 10px
     bindsym $ms+Right resize grow width 10px
 
     # Switch to workspace
@@ -158,8 +165,15 @@
     bindsym $ma+Down move container to workspace 3; workspace 3
     bindsym $ma+Up move container to workspace 4; workspace 4
 
+    # Center window
+    bindsym $mod+KP_0 floating toggle, resize set 1300 900
+    bindsym $mod+KP_7 floating enable, resize set 935 520, move position 0 0
+    bindsym $mod+KP_8 floating enable, resize set 935 520, move position 936 0
+    bindsym $mod+KP_4 floating enable, resize set 935 520, move position 0 521 
+    bindsym $mod+KP_5 floating enable, resize set 935 520, move position 936 521 
+
     # Cycle workspaces
-    bindsym $mod+Backslash workspace next
+    bindsym $mod+Tab workspace next
  
     # Layout toggle
     bindsym $mod+w layout toggle split
