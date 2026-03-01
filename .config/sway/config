@@ -123,20 +123,16 @@
     bindsym $mod+q kill
 
     # Move your focus around
-    bindsym $mod+h focus left
-    bindsym $mod+j focus down
-    bindsym $mod+k focus up
-    bindsym $mod+l focus right
     bindsym $mod+Left focus left
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
 
     # Move the focused window 
-    bindsym $ms+h move left
-    bindsym $ms+j move down
-    bindsym $ms+k move up
-    bindsym $ms+l move right
+    bindsym $mod+h move left
+    bindsym $mod+j move down
+    bindsym $mod+k move up
+    bindsym $mod+l move right
 
     # Resize container
     bindsym $ms+Left resize shrink width 10px
