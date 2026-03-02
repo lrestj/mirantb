@@ -184,7 +184,8 @@
     bindsym $mod+s scratchpad show
 
     # Screenshot with grimshot
-    bindsym $mod+Insert exec grimshot --notify save anything
+    # bindsym $mod+Insert exec grimshot --notify save anything
+    bindsym $mod+Insert exec screenshot
 
     # Laptop multimedia keys for volume and LCD brightness
     bindsym XF86AudioRaiseVolume exec volumeup
