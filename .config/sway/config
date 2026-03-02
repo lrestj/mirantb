@@ -76,19 +76,17 @@
 
 ### Keybindings
     bindsym $mod+a exec $term
-    bindsym $cs+y exec $term --class yazi -e yazi
-    bindsym $cs+Comma exec $term --class btop -e btop
-    bindsym $cs+e exec $editor
-    bindsym $cs+b exec brave
-    bindsym $cs+f exec thunar
-    bindsym $cs+p exec mpv --player-operation-mode=pseudo-gui
-    bindsym $cs+s exec simple-scan
-    bindsym $cs+k exec pkill $kalk || $kalk
-    bindsym $cs+w exec waypaper
-    bindsym $cs+m exec clouds   
-    bindsym $cs+x exec xeyes
-    bindsym $cs+i exec webm
-    bindsym $cs+n exec confm
+    bindsym $mod+y exec $term --class yazi -e yazi
+    bindsym $mod+Comma exec $term --class btop -e btop
+    bindsym $mod+e exec $editor
+    bindsym $mod+b exec brave
+    bindsym $mod+t exec thunar
+    bindsym $mod+p exec mpv --player-operation-mode=pseudo-gui
+    bindsym $mod+k exec pkill $kalk || $kalk
+    bindsym $mod+w exec waypaper
+    bindsym $mod+m exec clouds   
+    bindsym $mod+i exec webm
+    bindsym $mod+n exec confm
     bindsym $ms+t exec touchpad
 
     # Mako emergency
@@ -96,12 +94,11 @@
 
     # Show menus
     # bindsym $mod+y exec pkill rofi || rofi -show drun -show-icons -sidebar-mode
-    bindsym $mod+y exec pkill fuzzel || $menu
-    bindsym Alt+y exec pkill fuzzel || bemoji
+    bindsym $mod+Backslash exec pkill fuzzel || $menu
+    bindsym Alt+Backslash exec pkill fuzzel || bemoji
     bindsym $mod+x exec pkill fuzzel || powercenter
 
     # Nápověda
-    bindsym $mod+n exec helpnotify
     bindsym Alt+n exec binds
 
     # Toggle waybar & taskbar
@@ -113,8 +110,8 @@
     # bindsym $mod+c exec pkill rofi || cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
 
     # Opacity
-    bindsym $mod+p opacity plus 0.05
-    bindsym $mod+o opacity minus 0.05
+    bindsym $cs+p opacity plus 0.05
+    bindsym $cs+o opacity minus 0.05
 
     # Reload the configuration file
     bindsym $ms+c reload
@@ -127,21 +124,15 @@
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
-    bindsym $mod+Backslash focus next
+    bindsym $mod+Shift_L focus next
 
-    # Move the focused window 
-    bindsym $mod+h move left
-    bindsym $mod+j move down
-    bindsym $mod+k move up
-    bindsym $mod+l move right
-
-    # Move container
+    # Move window
     bindsym $ms+h move left 10px
     bindsym $ms+k move up 10px
     bindsym $ms+j move down 10px
     bindsym $ms+l move right 10px
 
-    # Resize container
+    # Resize window
     bindsym $ms+Left resize shrink width 10px
     bindsym $ms+Up resize grow height 10px
     bindsym $ms+Down resize shrink height 10px
@@ -176,8 +167,8 @@
     bindsym $mod+Tab workspace next
  
     # Layout toggle
-    bindsym $mod+w layout toggle split
-    bindsym $mod+f layout toggle tabbed splith
+    bindsym $cs+w layout toggle split
+    bindsym $mod+f layout toggle tabbed split
 
     # Make the current focus fullscreen
     bindsym $ma+f fullscreen
