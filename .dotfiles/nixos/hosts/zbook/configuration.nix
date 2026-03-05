@@ -35,22 +35,6 @@
   };
   hardware = {
       cpu.intel.updateMicrocode = true;
-      nvidia = {
-          modesetting.enable = true;
-          powerManagement.enable =true;
-          nvidiaSettings = true;
-          package = config.boot.kernelPackages.nvidiaPackages.stable;
-          open = false;
-          prime = {
-              intelBusId = "PCI:0:2:0";
-              nvidiaBusId = "PCI:1:0:0";
-              offload = {
-                  enable = true;
-                  enableOffloadCmd = true;
-              };
-              # sync.enable = true;
-          };
-      };
       graphics = {
           enable = true;
           extraPackages = with pkgs; [
@@ -97,23 +81,22 @@
       polkit.enable = true;
   };
 
-  systemd.sleep.extraConfig = ''
-      AllowHibernation=no
-      AllowHybridSleep=no
-      AllowSuspendThenHibernate=no
-  '';
+  systemd.sleep.settings.Sleep = {
+      AllowHibernation="no";
+      AllowHybridSleep="no";
+      AllowSuspendThenHibernate="no";
+  };
 
   users.users.libor = {
       isNormalUser = true;
-      description = "libor";
+      description = "Libor";
       extraGroups = [ "networkmanager" "wheel" "scanners" "lp" "input" ];
   };
 
   boot = {
       kernelPackages = pkgs.linuxPackages_latest;
       kernel.sysctl."vm.swappiness" = 10;
-      kernelParams = [ "nvidia-drm.fbdev=1" ];
-      initrd.kernelModules = [ "nvidia" "i915" "nvidia_modeset" "nvidia_drm" ];
+      initrd.kernelModules = [ "i915" ];
       loader = {
           timeout = 2;
           systemd-boot = {
@@ -174,7 +157,6 @@
           xkb.layout = "cz";
           videoDrivers = [
              "modesetting"
-             "nvidia"
           ];
       };
       journald.extraConfig = "SystemMaxUse=50M";

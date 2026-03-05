@@ -71,9 +71,6 @@
             pavucontrol
             pdfarranger
             rclone
-            reaper  
-            reaper-reapack-extension
-            reaper-sws-extension
             ripgrep
             rofi
             simple-scan
