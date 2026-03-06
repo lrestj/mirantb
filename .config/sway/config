@@ -84,7 +84,6 @@
     bindsym $mod+p exec mpv --player-operation-mode=pseudo-gui
     bindsym $mod+k exec pkill $kalk || $kalk
     bindsym $mod+w exec waypaper
-    bindsym $mod+m exec clouds   
     bindsym $mod+i exec webm
     bindsym $mod+n exec confm
     bindsym $ms+t exec touchpad
@@ -94,7 +93,7 @@
 
     # Show menus
     # bindsym $mod+y exec pkill rofi || rofi -show drun -show-icons -sidebar-mode
-    bindsym $mod+Backslash exec pkill fuzzel || $menu
+    bindsym $mod+M exec pkill fuzzel || $menu
     bindsym Alt+Backslash exec pkill fuzzel || bemoji
     bindsym $mod+x exec pkill fuzzel || powercenter
 
