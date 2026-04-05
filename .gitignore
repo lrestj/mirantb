@@ -92,3 +92,4 @@ local/bin/etc/
 voidsway/
 .local/share/keyrings/
 *.tmp
+nixos/
