@@ -86,8 +86,8 @@ window-rule {
 window-rule {
     match app-id="btop"
     open-floating true
-    default-column-width { fixed 1390; }
-    default-window-height { fixed 900; }
+    default-column-width { fixed 1200; }
+    default-window-height { fixed 700; }
 }
 // Rounded corners for all windows:
 window-rule {
@@ -103,7 +103,7 @@ binds {
     Mod+T hotkey-overlay-title="Open a FileMgr" { spawn "nemo"; }
     Mod+K hotkey-overlay-title="Open a Galculator" { spawn "galculator"; }
     Mod+A hotkey-overlay-title="Open a Terminal" { spawn "foot"; }
-    Mod+Backslash hotkey-overlay-title="Run a menu" { spawn-sh "pkill fuzzel || exec fuzzel"; }
+    Mod+M hotkey-overlay-title="Run a menu" { spawn-sh "pkill fuzzel || exec fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Super+B hotkey-overlay-title="Brave browser" { spawn-sh "$BROWSER"; }
     Super+E hotkey-overlay-title="Vim" { spawn-sh "wrappedvim"; }
