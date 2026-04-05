@@ -1,4 +1,4 @@
-##### HP Zbook config #####
+##### HP Probook config #####
 
 { config, pkgs, lib, ... }:
 

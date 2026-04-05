@@ -36,7 +36,7 @@ case $selected in
     "$f")
         foot --app-id vim bash -c "sleep 0.1; exec vim ~/.dotfiles/other/stuff2remember.txt";;
     "$g")
-        $TERMINAL -e vim ~/.dotfiles/nixos/hosts/zbook/configuration.nix;;
+        $TERMINAL -e vim ~/.dotfiles/nixos/hosts/probook/configuration.nix;;
     "$h")
         $TERMINAL -e vim ~/.dotfiles/nixos/flake.nix;;
     "$i")
