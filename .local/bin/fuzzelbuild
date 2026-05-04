@@ -34,13 +34,8 @@ cd build
 
 # Configure the build with meson
 # --prefix=/usr ensures it installs to /usr/local/bin or /usr/bin
-meson --buildtype=release --prefix=$HOME/.local ..
-
-# Build using ninja
+meson setup --buildtype=release --prefix=$HOME/.local ..
 ninja
-
-# Install the binary
 sudo ninja install
 
 #  END OF FILE  #
-
