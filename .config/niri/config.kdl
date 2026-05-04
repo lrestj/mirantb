@@ -17,7 +17,7 @@ input {
              layout "cz"
              options "caps:swapescape"
         }
-        // numlock
+         numlock
     }
     touchpad {
         tap
@@ -28,7 +28,7 @@ input {
 
 cursor {
     xcursor-theme "Bibata-Modern-Classic"
-    xcursor-size 26
+    xcursor-size 22
 }
 
 layout {
@@ -101,7 +101,7 @@ binds {
     Mod+T hotkey-overlay-title="Open a FileMgr" { spawn "nemo"; }
     Mod+K hotkey-overlay-title="Open a Galculator" { spawn "galculator"; }
     Mod+A hotkey-overlay-title="Open a Terminal" { spawn "foot"; }
-    Mod+Backslash hotkey-overlay-title="Run a menu" { spawn-sh "pkill fuzzel || exec fuzzel"; }
+    Alt+Y hotkey-overlay-title="Run a menu" { spawn-sh "pkill fuzzel || exec fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Super+V hotkey-overlay-title="Qutebrowser" { spawn-sh "qutebrowser"; }
     Super+B hotkey-overlay-title="Browser" { spawn-sh "$BROWSER"; }
