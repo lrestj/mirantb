@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Fetch the latest info from the remote without merging
-cd $HOME/.local/src/vim
+cd $HOME/.local/src/xfce-polkit
 git fetch origin
 
 # 2. Get the commit hashes for the local branch and its remote tracking branch
@@ -12,15 +12,13 @@ REMOTE_HASH=$(git rev-parse @{u}) # @{u} is shorthand for the upstream branch
 if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
     echo "Aktualizace k dispozici, provádím..."
     git pull
-    cd src
-    make distclean
-    make
-    sudo make install
-
-    # Place your update commands here (e.g., build, restart services)
-    # ./your-update-script.sh
-    echo "Aktualizace vim kompletní."
-else
+    mkdir - p build
+    cd build
+    meson setup --prefix=/usr ..
+    ninja
+    sudo ninja install
+    echo "Aktualizace kompletní."
+  else
     echo "Žádné dostupné aktualizace."
 fi
 
